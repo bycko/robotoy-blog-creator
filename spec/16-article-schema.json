@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:robotoys-blog-creator:spec:16-article-schema",
+  "title": "RobotoysArticle",
+  "description": "One language of one article: runs/<run_id>/article.json (sk) or runs/<run_id>/translations/<locale>.json. Page fields are title, description, seo_title, seo_description, slug, blocks, tags; every other field is the sidecar for Reviewer. Unknown keys fail. Rules the schema cannot express are in 14-article-contract.md and 15-widgets.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id", "round", "locale", "topic_key", "pillar",
+    "title", "description", "seo_title", "seo_description", "slug",
+    "blocks", "tags",
+    "products_used", "reviews_quoted", "internal_links", "html_blocks", "sources", "cover"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-(mon|wed)$",
+      "description": "Creator's schedule date in Europe/Bratislava plus the weekday. Never changes on revision or retry."
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3,
+      "description": "Slovak file: the Slovak round. Translation file: the translation round."
+    },
+    "locale": { "$ref": "#/$defs/locale" },
+    "topic_key": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Copied from the plan row."
+    },
+    "pillar": {
+      "type": "string",
+      "enum": ["GUIDE", "INSPIRATION", "GIFT", "COMMUNITY"]
+    },
+    "title": {
+      "allOf": [{ "$ref": "#/$defs/plainText" }],
+      "maxLength": 60,
+      "description": "locale._<locale>.title. The page h1."
+    },
+    "description": {
+      "allOf": [{ "$ref": "#/$defs/plainText" }],
+      "minLength": 150,
+      "maxLength": 300,
+      "description": "locale._<locale>.description. The perex."
+    },
+    "seo_title": {
+      "allOf": [{ "$ref": "#/$defs/plainText" }],
+      "maxLength": 60,
+      "description": "locale._<locale>.seo.title and locale._<locale>.seo_title, same value."
+    },
+    "seo_description": {
+      "allOf": [{ "$ref": "#/$defs/plainText" }],
+      "minLength": 120,
+      "maxLength": 155,
+      "description": "locale._<locale>.seo.description and locale._<locale>.seo_description, same value."
+    },
+    "slug": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 90,
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "allOf": [
+        { "not": { "pattern": "-[gpcna][0-9]" } },
+        { "not": { "pattern": "faq" } }
+      ],
+      "description": "sk: the page uid. Every locale: the last path segment of url._<COUNTRY> and of the address row _id. Never a router id suffix, never faq."
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 5,
+      "items": { "$ref": "#/$defs/block" },
+      "description": "blocks._<locale>. Opens with two paragraphs, holds at least two level-2 headers, ends with the AI label paragraph."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Tag uids. Empty while the tags collection is empty."
+    },
+    "products_used": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["product_id", "name", "path", "used_in", "checked_at"],
+        "properties": {
+          "product_id": { "type": "integer", "minimum": 1 },
+          "name": { "type": "string", "minLength": 1, "description": "name._<locale> as written in the file." },
+          "path": { "$ref": "#/$defs/sitePath", "description": "Path of url._<COUNTRY> for this locale's country." },
+          "used_in": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/blockId" },
+            "uniqueItems": true
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the product passed the sold-in-all-21-countries rule."
+          }
+        }
+      }
+    },
+    "reviews_quoted": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["review_id", "product_id", "language", "block_id", "text"],
+        "properties": {
+          "review_id": { "type": "string", "minLength": 1, "description": "The review's _id from the reviews API." },
+          "product_id": { "type": "integer", "minimum": 1 },
+          "language": { "$ref": "#/$defs/locale" },
+          "block_id": { "$ref": "#/$defs/blockId" },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "description": "The stored review text verbatim and unescaped, leading and trailing whitespace removed. Identical in every locale."
+          }
+        }
+      }
+    },
+    "internal_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["page_id", "path", "block_id"],
+        "properties": {
+          "page_id": { "type": "integer", "minimum": 1, "description": "_id of an enabled blog page." },
+          "path": { "$ref": "#/$defs/sitePath" },
+          "block_id": { "$ref": "#/$defs/blockId" }
+        }
+      }
+    },
+    "html_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["block_id", "kind"],
+        "properties": {
+          "block_id": { "$ref": "#/$defs/blockId" },
+          "kind": {
+            "type": "string",
+            "enum": ["TABLE", "PRODUCT_CARD", "PRODUCT_GRID", "TIP", "QUOTE", "FAQ"]
+          }
+        }
+      },
+      "description": "Exactly one entry per HTML block."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "ref", "note"],
+        "properties": {
+          "kind": { "type": "string", "enum": ["INSPIRED_BY", "COMMUNITY", "FACT"] },
+          "ref": { "type": "string", "minLength": 1, "description": "A source-list entry, a community/<topic_key>/ path, or the address that confirms a fact." },
+          "note": { "type": "string", "minLength": 1, "description": "What it informed. Never copied text." }
+        }
+      }
+    },
+    "word_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["body", "product"],
+      "properties": {
+        "body": { "type": "integer", "minimum": 600 },
+        "product": { "type": "integer", "minimum": 0 }
+      },
+      "description": "Slovak file only. Body words and product words as defined in 09-editorial-guidelines.md, the AI label excluded."
+    },
+    "cover": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "prompt", "ai_label"],
+      "properties": {
+        "file": { "type": "string", "pattern": "^cover\\.(png|jpg)$" },
+        "prompt": { "type": "string", "minLength": 20, "description": "The full prompt, in English." },
+        "ai_label": {
+          "allOf": [{ "$ref": "#/$defs/plainText" }],
+          "description": "Equals the text inside <em>…</em> of the last block."
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "locale": { "const": "sk" } }, "required": ["locale"] },
+      "then": {
+        "required": ["word_counts"],
+        "properties": {
+          "cover": { "properties": { "ai_label": { "const": "Titulný obrázok je ilustračný, vytvorila ho umelá inteligencia." } } }
+        }
+      },
+      "else": { "not": { "required": ["word_counts"] } }
+    }
+  ],
+  "$defs": {
+    "locale": {
+      "type": "string",
+      "enum": ["sk", "bg", "da", "et", "fr", "el", "nl", "hr", "lt", "lv", "pt", "ro", "sl", "it", "cs", "hu", "de", "pl", "es", "sv", "en"]
+    },
+    "blockId": {
+      "type": "string",
+      "pattern": "^b[0-9]{2}$"
+    },
+    "plainText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^<>&\"\\n\\r]+$",
+      "description": "No markup, no entity, no ASCII double quote, no line break."
+    },
+    "sitePath": {
+      "type": "string",
+      "pattern": "^/[A-Za-z0-9._~%/-]+$",
+      "not": { "pattern": "^//" },
+      "description": "Site-relative path. Never a host."
+    },
+    "inlineText": {
+      "type": "string",
+      "minLength": 1,
+      "allOf": [
+        {
+          "not": { "pattern": "<(?!(b|i|strong|em)>|/(b|i|strong|em|a)>|a href=\"/(?!/)[A-Za-z0-9._~%/-]+\">)" },
+          "description": "Only b, i, strong, em, and a with a site-relative href. No span, no other attribute, no absolute link."
+        },
+        {
+          "not": { "pattern": "&(?!(amp|lt|gt|quot|#39|nbsp);)" },
+          "description": "Every other & is written &amp;."
+        }
+      ]
+    },
+    "listItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["content", "items"],
+      "properties": {
+        "content": { "$ref": "#/$defs/inlineText" },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/listItem" } }
+      }
+    },
+    "block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "data"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "type": "string", "enum": ["header", "paragraph", "list", "image", "HTML"] },
+        "data": { "type": "object" }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "type": { "const": "header" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "level"],
+              "properties": {
+                "text": {
+                  "allOf": [{ "$ref": "#/$defs/inlineText" }],
+                  "not": { "pattern": "<a " },
+                  "description": "Headers carry no link."
+                },
+                "level": { "type": "integer", "enum": [2, 3, 4], "description": "Never 1: the page h1 comes from title." }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": { "const": "paragraph" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text"],
+              "properties": { "text": { "$ref": "#/$defs/inlineText" } }
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": { "const": "list" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["style", "items"],
+              "properties": {
+                "style": { "type": "string", "enum": ["ordered", "unordered"] },
+                "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/listItem" } }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": { "const": "image" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["file", "caption"],
+              "properties": {
+                "file": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["url", "width", "height"],
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "pattern": "^https://[^\"'<>\\s{}]+$",
+                      "description": "A product photo from the product's images; starts with the CDN origin in 10-environments.md."
+                    },
+                    "width": { "type": "integer", "minimum": 1 },
+                    "height": { "type": "integer", "minimum": 1 }
+                  }
+                },
+                "caption": { "$ref": "#/$defs/plainText" }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": { "const": "HTML" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["code", "style", "localization"],
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "minLength": 1,
+                  "allOf": [
+                    { "not": { "pattern": "[{}]" }, "description": "No brace, so the >{…}< replacement never fires." },
+                    { "not": { "pattern": "\\[\\[|\\]\\]" }, "description": "No unfilled slot." },
+                    { "not": { "pattern": "<\\s*/?\\s*([Ss][Cc][Rr][Ii][Pp][Tt]|[Ss][Tt][Yy][Ll][Ee]|[Ii][Ff][Rr][Aa][Mm][Ee]|[Ff][Oo][Rr][Mm])\\b|\\s[Oo][Nn][A-Za-z]+\\s*=|[Jj]avascript:" }, "description": "No script, style, iframe, form, event attribute, or javascript: link." }
+                  ]
+                },
+                "style": { "const": "", "description": "A non-empty style is emitted as a <style> element." },
+                "localization": { "type": "object", "maxProperties": 0 }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
