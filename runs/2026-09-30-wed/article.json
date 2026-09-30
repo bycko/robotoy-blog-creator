@@ -1,13 +1,13 @@
 {
   "run_id": "2026-09-30-wed",
-  "round": 1,
+  "round": 2,
   "locale": "sk",
   "topic_key": "guide-fixing-sticking-mechanism",
   "pillar": "GUIDE",
   "title": "Mechanizmus sa zasekáva: ako nájsť trenie a odstrániť ho",
   "description": "Zasekávanie mechanizmu v drevenom modeli býva najčastejšie trenie medzi dielmi, nie chybný diel. Ukážeme, ako miesto nájsť bez rozoberania a čím ho zmierniť.",
   "seo_title": "Zasekávanie mechanizmu v drevenom modeli: príčiny a riešenie",
-  "seo_description": "Ako nájsť miesto, kde sa v drevenom modeli diely trú, čím trenie znížiť z vecí z domu a kedy ide o zle usadený diel. Návod pre prvý mechanický model.",
+  "seo_description": "Ako nájsť miesto, kde sa v drevenom modeli diely trú, čím trenie znížiť pomocou vecí z domácnosti a kedy ide o zle usadený diel. Návod pre prvý model.",
   "slug": "mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho",
   "blocks": [
     {
@@ -72,7 +72,7 @@
       "id": "b06",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Ak návod označuje miesta na voskovanie, riaď sa ním a nie odhadom. Vosk na nesprávnom mieste alebo v nadbytku môže sedenie dielov skôr zhoršiť.</p>\n</div>",
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Ak návod označuje miesta na voskovanie, riaď sa ním a nie odhadom. Vosk na nesprávnom mieste alebo v nadbytku môže spôsobiť, že diely budú zapadať horšie.</p>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -96,7 +96,7 @@
       "id": "b09",
       "type": "HTML",
       "data": {
-        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pomôcka</th><th>Kam sa hodí</th><th>Na čo si dať pozor</th></tr></thead><tbody><tr><td>Jemný brúsny papier</td><td>drobné neroviny na hranách dielu, ktorý sa o iný tlačí</td><td>brús len zľahka; priveľa brúsenia uvoľní spoje, ktoré majú držať</td></tr><tr><td>Včelí vosk alebo sviečka</td><td>zuby ozubených kolies, posuvné časti, otvory pre osi</td><td>len veľmi tenká vrstva; prebytok utri mäkkou handričkou</td></tr><tr><td>Mäkká ceruzka, napríklad 4B</td><td>skryté pohyblivé miesta</td><td>zanecháva sivú stopu, preto ju nepoužívaj na viditeľných miestach</td></tr></tbody></table></div>",
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pomôcka</th><th>Kam sa hodí</th><th>Na čo si dať pozor</th></tr></thead><tbody><tr><td>Jemný brúsny papier</td><td>drobné neroviny na hranách dielu, ktorý sa o iný tlačí</td><td>brús len zľahka; priveľa brúsenia uvoľní spoje, ktoré majú držať</td></tr><tr><td>Včelí vosk alebo sviečka</td><td>zuby ozubených kolies a posuvné časti</td><td>len veľmi tenká vrstva, ktorú nanesieš zľahka</td></tr><tr><td>Mäkká handrička</td><td>utretie prebytočného vosku</td><td>utri po každom nanesení, aby na dieloch nezostal povlak</td></tr></tbody></table></div>",
         "style": "",
         "localization": {}
       }
@@ -112,7 +112,7 @@
       "id": "b11",
       "type": "paragraph",
       "data": {
-        "text": "Vosk nanášaj len tam, kde sa diely pohybujú voči sebe, alebo na miesta, ktoré označuje návod. Voskovanie všetkého naraz zanechá povlak a môže zhoršiť sedenie dielov. Trenie sa niekedy odstráni na dva pokusy: po prvom voskovaní mechanizmus vyskúšaj a pridaj vosk len tam, kde to ešte drhne."
+        "text": "Vosk nanášaj len tam, kde sa diely pohybujú voči sebe, alebo na miesta, ktoré označuje návod. Voskovanie všetkého naraz zanechá povlak a môže zhoršiť presnosť spojov. Trenie sa niekedy odstráni na dva pokusy: po prvom voskovaní mechanizmus vyskúšaj a pridaj vosk len tam, kde to ešte drhne."
       }
     },
     {
@@ -149,7 +149,7 @@
             "items": []
           },
           {
-            "content": "Diel opatrne vytiahni a nasaď ho znova. Ak drží veľmi tesne, zastav sa a pozri sa na jeho hranu: pár ťahov brúsnym papierom je bezpečnejších než tlačenie, pri ktorom sa tenký čap ohne alebo zlomí.",
+            "content": "Diel opatrne vytiahni a nasaď ho znova. Ak ho musíš dotláčať, niečo mu bráni: skontroluj jeho hranu a zľahka ju uhlaď. Tenké čapy pod tlakom praskajú.",
             "items": []
           },
           {
@@ -163,7 +163,7 @@
       "id": "b15",
       "type": "paragraph",
       "data": {
-        "text": "Ďalšou možnou príčinou je vlhkosť. Drevo nasáva vlhkosť zo vzduchu a mierne napučiava, takže vo vlhkej miestnosti môžu diely sedieť tesnejšie. Ak sa mechanizmus zasekol až po čase, premiestni model preč od vlhkých kútov a priameho slnka."
+        "text": "Ďalšou možnou príčinou je vlhkosť. Drevo nasáva vlhkosť zo vzduchu a mierne napučiava, takže sa vo vlhkej miestnosti môžu diely o seba viac tlačiť. Ak sa mechanizmus zasekol až po čase, premiestni model preč od vlhkých kútov a priameho slnka."
       }
     },
     {
@@ -228,19 +228,19 @@
         "style": "unordered",
         "items": [
           {
-            "content": "Každý pohyblivý diel obrús zľahka hneď po vylomení z dosky a pozri sa na jeho hrany.",
+            "content": "Po každom kroku, ktorý pridá koleso alebo os, mechanizmus pretoč. Zasekávanie tak odhalíš hneď a bude jasné, ktorý diel ho spôsobil.",
             "items": []
           },
           {
-            "content": "Voskuj pohyblivé miesta ešte pred uzavretím mechanizmu, keď sa k nim dá ľahko dostať.",
+            "content": "Pohyblivé miesta ošetri voskom už počas skladania, pretože v hotovom modeli sú skryté a ťažko dostupné.",
             "items": []
           },
           {
-            "content": "Po každom kroku, ktorý pridá koleso alebo os, pretoč mechanizmus a zisti, či sa nezasekáva.",
+            "content": "Pred zložením prejdi prstom po hranách dielov, ktoré sa budú otáčať alebo posúvať, a drobné neroviny zľahka obrús.",
             "items": []
           },
           {
-            "content": "Sleduj v návode značky, ktoré ukazujú miesta na voskovanie, a nevoskuj ostatné.",
+            "content": "Ak návod ukazuje miesta na voskovanie, voskuj iba tie a ostatné nechaj bez úpravy.",
             "items": []
           }
         ]
@@ -274,7 +274,7 @@
       "id": "b25",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Môžem na drevené ozubené kolesá použiť olej?</h3>\n    <p style=\"margin:0;\">Radšej nie. Olej, mastné spreje a leštidlá na nábytok môžu zafarbiť drevo, zachytávať prach a zalepiť tesný mechanizmus. Použi tenkú vrstvu vosku.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Musím voskovať všetky diely?</h3>\n    <p style=\"margin:0;\">Nie. Voskuj len pohyblivé miesta, ako sú zuby kolies, posuvné časti a otvory pre osi, alebo miesta, ktoré označuje návod. Vosk na všetkých dieloch môže zhoršiť sedenie dielov.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čím voskovať, keď doma nemám včelí vosk?</h3>\n    <p style=\"margin:0;\">Poslúži aj obyčajná sviečka. Zuby kolies a posuvné časti ňou zľahka potri a prebytok utri mäkkou handričkou.</p>\n  </div>\n</div>",
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čo robiť, keď sa mechanizmus zasekáva aj po voskovaní?</h3>\n    <p style=\"margin:0;\">Vosk rieši len trenie. Skontroluj, či nie je niektorý diel zle usadený: os musí byť zasunutá na doraz, koleso správne otočené a čap dotlačený.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prečo sa model zasekol až po niekoľkých dňoch?</h3>\n    <p style=\"margin:0;\">Môže za to vlhkosť: drevo nasáva vodu zo vzduchu a mierne napučiava. Premiestni model preč od vlhkých kútov a od priameho slnka.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Môžem mechanizmus pretočiť silou, keď ide ťažko?</h3>\n    <p style=\"margin:0;\">Radšej nie. Tenký čap sa pod tlakom ohne alebo zlomí. Najprv nájdi miesto trenia a odstráň príčinu.</p>\n  </div>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -294,9 +294,10 @@
       "name": "Drevené mechanické 3D puzzle - Nástenné hodiny Zodiac ROKR LC601",
       "path": "/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52",
       "used_in": [
+        "b22",
         "b23"
       ],
-      "checked_at": "2026-09-30T18:43:05+02:00"
+      "checked_at": "2026-09-30T19:24:43+02:00"
     }
   ],
   "reviews_quoted": [],
@@ -334,12 +335,7 @@
     {
       "kind": "FACT",
       "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
-      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, vlhké kúty a slnko."
-    },
-    {
-      "kind": "FACT",
-      "ref": "https://cabaret.co.uk/eight-lessons-learned-from-making-a-wooden-clock-dugs-tips-1/",
-      "note": "Mäkká ceruzka (séria B) ako mazivo na drevo; grafit môže zanechať šedú stopu a pokaziť povrch."
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
     },
     {
       "kind": "FACT",
@@ -348,12 +344,12 @@
     }
   ],
   "word_counts": {
-    "body": 949,
+    "body": 954,
     "product": 50
   },
   "cover": {
     "file": "cover.png",
-    "prompt": "Soft hand-painted digital illustration, landscape 16:9, warm natural light. A close view of a person's hands at a wooden table gently turning a small hand crank on an unfinished wooden gear mechanism made of plain plywood gears; one hand holds a small block of beeswax, a birthday candle and a fine sandpaper strip lie beside it, with a few wood shavings. Cozy home workshop corner, blurred window and shelf in the background, muted oak, honey and cream colors. The main subject (hands and gears) is centered so a square crop keeps it. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces.",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
     "ai_label": "Titulný obrázok je ilustračný, vytvorila ho umelá inteligencia."
   }
 }
