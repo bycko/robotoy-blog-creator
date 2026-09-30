@@ -116,7 +116,7 @@ Record in `sources`: one `INSPIRED_BY` entry per `inspired_by` key, one `COMMUNI
 
 Write `runs/<run_id>/article.json` in Slovak, `locale` `sk`, `round` `1`, valid against [`16-article-schema.json`](16-article-schema.json) and following [`14-article-contract.md`](14-article-contract.md) and [`09-editorial-guidelines.md`](09-editorial-guidelines.md).
 
-1. Copy `run_id`, `topic_key`, and `pillar` from `row.tsv`.
+1. Set `run_id` to the name of the run directory, `runs/<run_id>/`; `row.tsv` has no `run_id` column. Copy `topic_key` and `pillar` from `row.tsv`.
 2. Write the opening first: title, perex (`description`), and the first two paragraphs deliver the answer or the promise to the reader, in everyday words, and name no product.
 3. Write the rest: at least two level-2 headers, lists for steps, a table where numbers or models are compared, and products only after the second level-2 header, where they help the reader act.
 4. Build every widget from its template in [`../templates/widgets/`](../templates/widgets/product-card.html) by the filling and escaping rules in [`15-widgets.md`](15-widgets.md). No other markup reaches an `HTML` block.
@@ -200,7 +200,7 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 **File**
 
 - [ ] `article.json` validates against the schema: `check-jsonschema --schemafile spec/16-article-schema.json runs/<run_id>/article.json` prints no error. An unknown key fails.
-- [ ] `run_id`, `topic_key`, and `pillar` equal `row.tsv`; `locale` is `sk`; `round` is this round.
+- [ ] `run_id` equals the run directory name (`runs/<run_id>/`); `topic_key` and `pillar` equal `row.tsv`, which is compared only on those two fields; `locale` is `sk`; `round` is this round.
 - [ ] `title` and `seo_title` at most 60 characters; `description` 150–300; `seo_description` 120–155; counted as Unicode characters with spaces.
 - [ ] `slug` matches the slug rules: no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`.
 - [ ] The cover file exists in the directory, `cover.file` names it, and `cover.ai_label` equals the label text.
