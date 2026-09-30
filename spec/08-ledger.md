@@ -73,7 +73,7 @@ Row examples:
 
 ```
 guide-gluing-small-parts	GUIDE	2026-10-19-mon	46	WRITTEN	2026-10-19	Kedy pri drevenom 3D puzzle siahnuť po lepidle
-gift-mothers-day-2027	GIFT	2027-04-12-mon	-	HELD	2027-04-12	Darček ku Dňu matiek, ktorý si postaví sama
+gift-mothers-day-2027	GIFT	2027-04-14-wed	-	HELD	2027-04-14	Darček ku Dňu matiek, ktorý si postaví sama
 ```
 
 ## The check

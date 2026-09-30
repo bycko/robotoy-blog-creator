@@ -104,10 +104,10 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
       "image": "",
       "seo": {
         "title": "Lepidlo pri drevenom 3D puzzle: kedy áno a kedy nie",
-        "description": "Kde drevený model lepidlo potrebuje, ktoré lepidlo zvoliť a ako ho naniesť bez stôp. Praktické tipy pre skladanie."
+        "description": "Kde drevený model lepidlo potrebuje, ktoré lepidlo zvoliť a ako ho naniesť bez stôp. Praktické tipy pre pokojné a čisté skladanie."
       },
       "seo_title": "Lepidlo pri drevenom 3D puzzle: kedy áno a kedy nie",
-      "seo_description": "Kde drevený model lepidlo potrebuje, ktoré lepidlo zvoliť a ako ho naniesť bez stôp. Praktické tipy pre skladanie."
+      "seo_description": "Kde drevený model lepidlo potrebuje, ktoré lepidlo zvoliť a ako ho naniesť bez stôp. Praktické tipy pre pokojné a čisté skladanie."
     },
     "_cs": {
       "title": "Kdy u dřevěného 3D puzzle sáhnout po lepidle",

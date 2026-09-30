@@ -142,7 +142,7 @@ This is not a bot's job. Without it the dry run does not start.
 - `ROBOTOYS_MONGO_WRITE_DEVEL` and `ROBOTOYS_MONGO_WRITE_LIVE` on Reviewer only, each created in its own environment with the find-and-insert role above
 - the Search Console service account added as a restricted user to both properties
 - `GH_TOKEN` on all four bots, limited to this repository
-- the schedules: Planner weekly Monday 06:00 and monthly on the Monday of the last full week, Creator Monday and Wednesday 09:00 (Europe/Bratislava)
+- the schedules: Planner weekly Monday 06:00 and monthly at 06:00 on the Monday of the last full week (in place of that Monday's weekly check), Creator Monday and Wednesday 09:00 (Europe/Bratislava)
 - the group chat in which one bot's message starts the next
 - optional: Google Ads Basic access, the customer IDs above, and the three Ads secrets
 
