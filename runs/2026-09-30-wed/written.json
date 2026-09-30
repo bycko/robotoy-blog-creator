@@ -1,0 +1,75 @@
+{
+  "run_id": "2026-09-30-wed",
+  "environment": "development",
+  "_id": 44,
+  "sequence": 28,
+  "allocated_at": "2026-09-30T21:13:25+02:00",
+  "page_inserted": false,
+  "seo_rows": [
+    {
+      "_id": "dev.robotoys.sk/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho"
+    },
+    {
+      "_id": "dev.bg.robotoys.eu/blog/mekhanyzmt-se-zaklynva-namery-tryeneto-y-go-premakhny"
+    },
+    {
+      "_id": "dev.dk.robotoys.eu/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den"
+    },
+    {
+      "_id": "dev.ee.robotoys.eu/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see"
+    },
+    {
+      "_id": "dev.fr.robotoys.eu/blog/mecanisme-bloque-trouver-le-frottement-et-leliminer"
+    },
+    {
+      "_id": "dev.gr.robotoys.eu/istologio/o-mhxanismos-kollaei-bres-thn-tribh-kai-are-thn"
+    },
+    {
+      "_id": "dev.nl.robotoys.eu/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen"
+    },
+    {
+      "_id": "dev.hr.robotoys.eu/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga"
+    },
+    {
+      "_id": "dev.lt.robotoys.eu/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti"
+    },
+    {
+      "_id": "dev.lv.robotoys.eu/emuars/mehanisms-iestregst-ka-atrast-berzi-un-to-noverst"
+    },
+    {
+      "_id": "dev.pt.robotoys.eu/blogue/mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo"
+    },
+    {
+      "_id": "dev.ro.robotoys.eu/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini"
+    },
+    {
+      "_id": "dev.si.robotoys.eu/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti"
+    },
+    {
+      "_id": "dev.it.robotoys.eu/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo"
+    },
+    {
+      "_id": "dev.cz.robotoys.eu/blog/mechanismus-se-zasekava-jak-najit-treni-a-odstranit-ho"
+    },
+    {
+      "_id": "dev.hu.robotoys.eu/blog/elakad-a-szerkezet-keresd-meg-es-szuntesd-meg-a-surlodast"
+    },
+    {
+      "_id": "dev.de.robotoys.eu/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen"
+    },
+    {
+      "_id": "dev.pl.robotoys.eu/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac"
+    },
+    {
+      "_id": "dev.es.robotoys.eu/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla"
+    },
+    {
+      "_id": "dev.se.robotoys.eu/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den"
+    },
+    {
+      "_id": "dev.robotoys.eu/blog/sticking-mechanism-how-to-find-friction-and-fix-it"
+    }
+  ],
+  "products_rechecked_at": "2026-09-30T21:13:03+02:00",
+  "outcome": "pending"
+}
