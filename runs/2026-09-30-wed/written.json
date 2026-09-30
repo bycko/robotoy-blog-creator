@@ -4,72 +4,104 @@
   "_id": 44,
   "sequence": 28,
   "allocated_at": "2026-09-30T21:13:25+02:00",
-  "page_inserted": false,
+  "page_inserted": "2026-09-30T21:13:40+02:00",
   "seo_rows": [
     {
-      "_id": "dev.robotoys.sk/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho"
+      "_id": "dev.robotoys.sk/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho",
+      "status": "inserted"
     },
     {
-      "_id": "dev.bg.robotoys.eu/blog/mekhanyzmt-se-zaklynva-namery-tryeneto-y-go-premakhny"
+      "_id": "dev.bg.robotoys.eu/blog/mekhanyzmt-se-zaklynva-namery-tryeneto-y-go-premakhny",
+      "status": "inserted"
     },
     {
-      "_id": "dev.dk.robotoys.eu/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den"
+      "_id": "dev.dk.robotoys.eu/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den",
+      "status": "inserted"
     },
     {
-      "_id": "dev.ee.robotoys.eu/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see"
+      "_id": "dev.ee.robotoys.eu/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see",
+      "status": "inserted"
     },
     {
-      "_id": "dev.fr.robotoys.eu/blog/mecanisme-bloque-trouver-le-frottement-et-leliminer"
+      "_id": "dev.fr.robotoys.eu/blog/mecanisme-bloque-trouver-le-frottement-et-leliminer",
+      "status": "inserted"
     },
     {
-      "_id": "dev.gr.robotoys.eu/istologio/o-mhxanismos-kollaei-bres-thn-tribh-kai-are-thn"
+      "_id": "dev.gr.robotoys.eu/istologio/o-mhxanismos-kollaei-bres-thn-tribh-kai-are-thn",
+      "status": "inserted"
     },
     {
-      "_id": "dev.nl.robotoys.eu/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen"
+      "_id": "dev.nl.robotoys.eu/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen",
+      "status": "inserted"
     },
     {
-      "_id": "dev.hr.robotoys.eu/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga"
+      "_id": "dev.hr.robotoys.eu/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga",
+      "status": "inserted"
     },
     {
-      "_id": "dev.lt.robotoys.eu/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti"
+      "_id": "dev.lt.robotoys.eu/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti",
+      "status": "inserted"
     },
     {
-      "_id": "dev.lv.robotoys.eu/emuars/mehanisms-iestregst-ka-atrast-berzi-un-to-noverst"
+      "_id": "dev.lv.robotoys.eu/emuars/mehanisms-iestregst-ka-atrast-berzi-un-to-noverst",
+      "status": "inserted"
     },
     {
-      "_id": "dev.pt.robotoys.eu/blogue/mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo"
+      "_id": "dev.pt.robotoys.eu/blogue/mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo",
+      "status": "inserted"
     },
     {
-      "_id": "dev.ro.robotoys.eu/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini"
+      "_id": "dev.ro.robotoys.eu/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini",
+      "status": "inserted"
     },
     {
-      "_id": "dev.si.robotoys.eu/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti"
+      "_id": "dev.si.robotoys.eu/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti",
+      "status": "inserted"
     },
     {
-      "_id": "dev.it.robotoys.eu/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo"
+      "_id": "dev.it.robotoys.eu/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo",
+      "status": "inserted"
     },
     {
-      "_id": "dev.cz.robotoys.eu/blog/mechanismus-se-zasekava-jak-najit-treni-a-odstranit-ho"
+      "_id": "dev.cz.robotoys.eu/blog/mechanismus-se-zasekava-jak-najit-treni-a-odstranit-ho",
+      "status": "inserted"
     },
     {
-      "_id": "dev.hu.robotoys.eu/blog/elakad-a-szerkezet-keresd-meg-es-szuntesd-meg-a-surlodast"
+      "_id": "dev.hu.robotoys.eu/blog/elakad-a-szerkezet-keresd-meg-es-szuntesd-meg-a-surlodast",
+      "status": "inserted"
     },
     {
-      "_id": "dev.de.robotoys.eu/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen"
+      "_id": "dev.de.robotoys.eu/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen",
+      "status": "inserted"
     },
     {
-      "_id": "dev.pl.robotoys.eu/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac"
+      "_id": "dev.pl.robotoys.eu/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac",
+      "status": "inserted"
     },
     {
-      "_id": "dev.es.robotoys.eu/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla"
+      "_id": "dev.es.robotoys.eu/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla",
+      "status": "inserted"
     },
     {
-      "_id": "dev.se.robotoys.eu/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den"
+      "_id": "dev.se.robotoys.eu/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den",
+      "status": "inserted"
     },
     {
-      "_id": "dev.robotoys.eu/blog/sticking-mechanism-how-to-find-friction-and-fix-it"
+      "_id": "dev.robotoys.eu/blog/sticking-mechanism-how-to-find-friction-and-fix-it",
+      "status": "inserted"
     }
   ],
   "products_rechecked_at": "2026-09-30T21:13:03+02:00",
-  "outcome": "pending"
+  "outcome": "written",
+  "databases": {
+    "pages": "robotoys_pages_devel",
+    "seo": "robotoys_seo_devel"
+  },
+  "read_back": {
+    "page_found": true,
+    "enabled": false,
+    "locales": 21,
+    "urls": 21,
+    "seo_rows": 21
+  }
 }
