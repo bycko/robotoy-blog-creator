@@ -151,4 +151,4 @@ This is not a bot's job. Without it the dry run does not start.
 
 ## How you verify the pair fits
 
-Before the first production write, the dry run shows a page written with the development credential in the development pages database, none in the production one, and the development credential refused on the production pages database. A hostname is not enough evidence.
+Before the first production write, the dry run shows a page written with the development credential in the development pages database, none in the production one, and the development credential refused on the production pages database. It also shows the development credential refused an `update` and a `delete` on the page it wrote, so the insert-only role is proven rather than assumed. A hostname is not enough evidence.
