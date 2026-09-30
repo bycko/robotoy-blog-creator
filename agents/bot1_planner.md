@@ -9,7 +9,7 @@
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Schedule (Europe/Bratislava):** weekly check Monday 06:00; monthly run Monday 06:00 of the last full week (Monday to Sunday) of the month, in place of that Monday's weekly check
-- **Credentials (names only):** `ROBOTOYS_MONGO`, `GSC_SERVICE_ACCOUNT_JSON`, `GOOGLE_ADS_DEVELOPER_TOKEN`, `GOOGLE_ADS_OAUTH_CLIENT`, `GOOGLE_ADS_REFRESH_TOKEN`, `GH_TOKEN` — as in `spec/10-environments.md`
+- **Credentials (names only):** `ROBOTOYS_MONGO`, `GSC_SERVICE_ACCOUNT_JSON`, `GOOGLE_ADS_OAUTH_CLIENT_SECRET`, `GOOGLE_ADS_REFRESH_TOKEN`, `GH_TOKEN` — as in `spec/10-environments.md`
 - **Instructions:** Read `spec/00-start-here.md` and identify yourself as Planner. Read your list from there, `spec/01-mission-and-rules.md` first. Take the environment from `spec/10-environments.md`. Your procedure is `spec/13-planner.md`. Send your message per `spec/07-report-format.md`. Your message starts no other bot.
 
 ## Role

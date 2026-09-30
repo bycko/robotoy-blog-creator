@@ -104,9 +104,9 @@ Example body for `monthly-sk-queries`, first page:
 
 Keyword Planner is optional until it is provisioned. **It is unavailable, and you send no request, when any of these holds:**
 
-- a field of the Google Ads account table in [`10-environments.md`](10-environments.md) is `unset` (customer ID, manager login customer ID, API version),
-- `GOOGLE_ADS_DEVELOPER_TOKEN`, `GOOGLE_ADS_OAUTH_CLIENT`, or `GOOGLE_ADS_REFRESH_TOKEN` is missing,
-- the developer token has Test or Explorer access. Explorer blocks the keyword planning service; only Basic or Standard access works.
+- a field of the Google Ads account table in [`10-environments.md`](10-environments.md) is `unset` (customer ID, manager login customer ID, API version, OAuth client ID),
+- `GOOGLE_ADS_OAUTH_CLIENT_SECRET` or `GOOGLE_ADS_REFRESH_TOKEN` is missing,
+- the Google Cloud project has Test or Explorer access. Explorer blocks the keyword planning service; only Basic or Standard access works.
 
 When it is unavailable, rank on Search Console alone and name the missing source in the monthly message ([Failures](#failures)).
 
@@ -115,9 +115,8 @@ When it is unavailable, rank on Search Console alone and name the missing source
 | Field | Value |
 |---|---|
 | Base | `https://googleads.googleapis.com/v{API version}/customers/{customer ID}` |
-| Header `developer-token` | `GOOGLE_ADS_DEVELOPER_TOKEN` |
 | Header `login-customer-id` | the manager login customer ID, 10 digits, no dashes |
-| Header `Authorization` | `Bearer` access token from `GOOGLE_ADS_REFRESH_TOKEN` and `GOOGLE_ADS_OAUTH_CLIENT`, scope `https://www.googleapis.com/auth/adwords` |
+| Header `Authorization` | `Bearer` access token, obtained from Google's token endpoint with the OAuth client ID in [`10-environments.md`](10-environments.md), `GOOGLE_ADS_OAUTH_CLIENT_SECRET` and `GOOGLE_ADS_REFRESH_TOKEN`, scope `https://www.googleapis.com/auth/adwords` |
 | `language` | `languageConstants/1033` (Slovak) |
 | `geoTargetConstants` | `["geoTargetConstants/2703"]` (Slovakia) |
 | `keywordPlanNetwork` | `GOOGLE_SEARCH` |
@@ -201,7 +200,7 @@ The Search Console columns, the pull log, and retention are in [`../data/search-
 
 On every fallback the monthly message names the missing source and the reason, in the shape of [`07-report-format.md`](07-report-format.md):
 
-> Chýbajúci zdroj: Keyword Planner (vývojársky token nemá prístup Basic). Plán je zostavený len zo Search Console.
+> Chýbajúci zdroj: Keyword Planner (projekt Google Cloud nemá prístup Basic). Plán je zostavený len zo Search Console.
 
 The weekly check does not read Keyword Planner and never reports it as missing.
 
@@ -218,18 +217,16 @@ This is not a bot's job. The owner does it once.
 **Keyword Planner**
 
 1. Use a Google Ads manager (MCC) account that manages the storefront's Ads account. A test manager account does not count.
-2. In the manager account's API Center, get a developer token.
-3. Complete brand verification of the Cloud project, then apply for **Basic** access. Explorer access blocks keyword planning.
-4. Create an OAuth client in the same project, authorize a user with access to the Ads account for the `adwords` scope, and keep the refresh token.
-5. Store `GOOGLE_ADS_DEVELOPER_TOKEN`, `GOOGLE_ADS_OAUTH_CLIENT`, and `GOOGLE_ADS_REFRESH_TOKEN` on Planner only.
-6. Fill the customer ID, the manager login customer ID, and the API version in [`10-environments.md`](10-environments.md). Until all three are filled, Keyword Planner stays unavailable.
+2. Developer tokens are no longer issued; access belongs to the Google Cloud project. Enable the Google Ads API in the project, apply for Explorer, complete brand verification of the project (OAuth branding published to production), then apply for **Basic** access. Explorer access blocks keyword planning.
+3. Create an OAuth client in the same project, authorize a user with access to the Ads account for the `adwords` scope, and keep the refresh token.
+4. Store `GOOGLE_ADS_OAUTH_CLIENT_SECRET` and `GOOGLE_ADS_REFRESH_TOKEN` on Planner only.
+5. Fill the customer ID, the manager login customer ID, the API version, and the OAuth client ID in [`10-environments.md`](10-environments.md). Until they are filled, Keyword Planner stays unavailable.
 
 ## Sources
 
 - Search Analytics query: https://developers.google.com/webmaster-tools/v1/searchanalytics/query
 - Search Console usage limits: https://developers.google.com/webmaster-tools/limits
 - Google Ads access levels: https://developers.google.com/google-ads/api/docs/api-policy/access-levels
-- Google Ads developer token: https://developers.google.com/google-ads/api/docs/api-policy/developer-token
 - Google Ads first call, customer ID and `login-customer-id`: https://developers.google.com/google-ads/api/docs/get-started/make-first-call
 - Keyword ideas: https://developers.google.com/google-ads/api/docs/keyword-planning/generate-keyword-ideas
 - Historical metrics: https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics

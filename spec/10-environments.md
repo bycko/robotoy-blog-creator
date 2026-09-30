@@ -79,9 +79,8 @@ Only secret **names** belong here. Values live in the bot platform's secret stor
 |---|---|---|
 | `ROBOTOYS_MONGO` | all four bots | the one database connection string, used for everything, through the tunnel on `127.0.0.1:27027` |
 | `GSC_SERVICE_ACCOUNT_JSON` | Planner | Search Console read (`webmasters.readonly`) on both properties |
-| `GOOGLE_ADS_DEVELOPER_TOKEN` | Planner | Keyword Planner requests (optional until provisioned) |
-| `GOOGLE_ADS_OAUTH_CLIENT` | Planner | OAuth client id and secret for Google Ads |
-| `GOOGLE_ADS_REFRESH_TOKEN` | Planner | OAuth refresh token for the Ads user |
+| `GOOGLE_ADS_OAUTH_CLIENT_SECRET` | Planner | OAuth client secret of the Google Ads OAuth client (the client id is public and listed below) |
+| `GOOGLE_ADS_REFRESH_TOKEN` | Planner | OAuth refresh token for the Ads user, scope `adwords` |
 | `GH_TOKEN` | all four bots | fine-grained token, contents read and write on this repository only |
 
 **One credential, `ROBOTOYS_MONGO`, serves every bot and every database.** It does not separate reading from writing, and the database does not enforce it, so the rules do. Only Reviewer writes, and only `insert` into the pages and SEO collections of the current column. No bot runs `update`, `delete`, or `drop`, and no bot touches a database of the other column. A write refused for any reason is a stop.
@@ -90,10 +89,13 @@ Only secret **names** belong here. Values live in the bot platform's secret stor
 
 | Field | Value |
 |---|---|
-| Customer ID (10 digits, no dashes) | supplied by the owner; `unset` until then |
-| Manager login customer ID | supplied by the owner; `unset` until then |
-| API version | pinned when access is granted; `unset` until then |
+| Customer ID (10 digits, no dashes) | `9049589988` (Robotoys, EUR) |
+| Manager login customer ID | `8552457100` (manager account, linked to the customer above) |
+| API version | `v23` |
+| Google Cloud project | `robotoys-blog`, Google Ads API access level Basic |
+| OAuth client ID | `1028602336391-m0msfcmohkqss7lop8fvgoso7a1lls2l.apps.googleusercontent.com` (public value) |
 
+No developer token is used: Google no longer issues one, and the request works without the `developer-token` header.
 `AW-11153827010` in the storefront config is a conversion tag id, not the customer ID. While any row above is `unset`, Keyword Planner counts as unavailable ([`12-google-data.md`](12-google-data.md)).
 
 ## Database tunnel
@@ -143,7 +145,7 @@ This is not a bot's job. Without it the dry run does not start.
 - `GH_TOKEN` on all four bots, limited to this repository
 - the schedules: Planner weekly Monday 06:00 and monthly at 06:00 on the Monday of the last full week (in place of that Monday's weekly check), Creator Monday and Wednesday 09:00 (Europe/Bratislava)
 - the group chat in which one bot's message starts the next
-- optional: Google Ads Basic access, the customer IDs above, and the three Ads secrets
+- optional: Google Ads Basic access on the Cloud project, the account values above, and the two Ads secrets
 
 ## How you verify the pair fits
 
