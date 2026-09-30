@@ -78,7 +78,7 @@ Rules on these fields:
 - `description` is the perex. The page's meta title and meta description come from `title` and `description` (`robotoys-ui: templates/base/Page/Page/Detail.template`). Write the SEO title and SEO description into both `seo` and the flat `seo_title` / `seo_description`, with the same values; recent pages carry both shapes.
 - `image` is the cover's CDN address, or `""`. There is no upload path for the pipeline, so it is `""`; see [Cover image](#cover-image).
 - `uid`: a page renders only with a `uid`, and a `uid` containing `faq` switches the page to the FAQ layout, which drops every block except lists, level-2 headings, and paragraphs (`robotoys-ui: templates/base/Page/Page/Detail.template`).
-- Slugs, in `uid` and in every address, **never contain `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit.** The router reads such a pattern anywhere in a path as an id and never looks up the address row (`robotoys-ui: lib/seo/seo.js`). `papier-a4` is fine; `model-a4-mesto` is not.
+- Slugs, in `uid` and in every address, **never contain `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit.** The router reads such a pattern anywhere in a path as an id and never looks up the address row (`robotoys-ui: lib/seo/seo.js`). `papier-a4` and `model-a4-mesto` both fail; write `papier-format-a-4` or drop the number.
 - `pipeline_run_id` is new. Existing pages lack it, and the renderer ignores unknown fields. It is how a replay recognises its own page.
 
 ### Example

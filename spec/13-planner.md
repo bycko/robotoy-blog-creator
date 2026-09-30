@@ -237,7 +237,7 @@ Run the check in [`08-ledger.md`](08-ledger.md#the-check) for every candidate be
 
 1. Sync, read the inputs, pull `weekly-sk-queries`, and save it. Do not read Keyword Planner.
 2. **Leave every `USED`, `HELD`, `DROPPED`, and `HUMAN` row exactly as it is.** A `USED` row is never moved, re-dated, or reworded, even when its `publish_on` looks wrong.
-3. Re-run the deduplication check and the product-hint check on every open `PLANNER` row. Drop what fails, with a reason.
+3. Re-run the deduplication check, the product-hint check, and the holiday-window check on every open `PLANNER` row. Drop what fails, with a reason. An open row whose `publish_on` has passed stays takeable unless it is a holiday row outside its window; Creator takes open rows oldest first, so a skipped slot delays the rows after it rather than being caught up.
 4. Look at the week's Search Console queries. When a query in tier 1 has no row, you may replace an open `PLANNER` row of the same pillar with it, or reorder open `PLANNER` rows. A holiday row moves only inside its window.
 5. Fill empty slots from the current week on, for example after a drop or a row Creator skipped, under the pillar mix and holiday limits. Your new rows follow every rule of the monthly run.
 6. Count the ready weeks after the current week. **When there are fewer than four, fill them; when you cannot, say so.**

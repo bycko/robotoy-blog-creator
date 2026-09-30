@@ -181,7 +181,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 - Every product in the body appears in `products_used`, and every entry there appears in the body. A product fails the availability rule in [`11-storefront-data.md`](11-storefront-data.md#sold-in-all-21-countries) at the time of `checked_at` → it is not in the article.
 - Every `HTML` block appears exactly once in `html_blocks`, and every entry points at an `HTML` block.
 - `sources` never carries copied text. A source site informs the topic; its words and structure do not enter the article.
-- A translation keeps `products_used[].product_id`, `reviews_quoted`, `html_blocks`, and `internal_links[].page_id` equal to the Slovak file; only `name`, `path`, and the texts change.
+- A translation keeps `products_used[].product_id`, `reviews_quoted`, `html_blocks`, and `internal_links[].page_id` equal to the Slovak file; only `name`, `path`, and the texts change. One exception: when a linked article has no address for that country, the translation drops the link, keeps its text, and omits that entry from `internal_links` ([`19-translator.md`](19-translator.md)).
 
 ## What fails
 
