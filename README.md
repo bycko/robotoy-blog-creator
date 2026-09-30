@@ -24,7 +24,7 @@ Every handoff is a file in `runs/<run_id>/`; a bot's line in the group chat only
 | 1 Planner | [`agents/bot1_planner.md`](agents/bot1_planner.md) | weekly Monday 06:00; monthly Monday 06:00 of the last full week of the month, in place of that week's check |
 | 2 Creator | [`agents/bot2_creator.md`](agents/bot2_creator.md) | Monday and Wednesday 09:00, and Reviewer's return |
 | 3 Reviewer | [`agents/bot3_reviewer.md`](agents/bot3_reviewer.md) | `@Reviewer` from Creator or Translator |
-| 4 Translator | [`agents/bot4_translator.md`](agents/bot4_translator.md) | `@Translator` from Reviewer |
+| 4 Translator | [`agents/bot4_translator.md`](agents/bot4_translator.md) | `@Translator` from Reviewer, or a retry you order |
 
 All times are Europe/Bratislava. A profile is the text pasted into the bot platform; the detail stays in `spec/`. A profile carries no secret value and no storefront address.
 
@@ -41,12 +41,15 @@ All times are Europe/Bratislava. A profile is the text pasted into the bot platf
 | Add or remove a source site | when Planner proposes one, or on your own | [`sources/README.md`](sources/README.md) |
 | Add a holiday | when Planner proposes one | [`calendar/README.md`](calendar/README.md) |
 | Act on a reported instruction | when a bot names fetched content that tried to instruct it | the chat line names where |
+| Order a retry: name the run id and the bot (Creator, Reviewer, or Translator) | after a stop whose line says `opakovanie behu <run id>` | the group chat |
 
 In development, Reviewer's line asks for no upload and no enabling, because the admin and the CDN are production services. Do not save or upload anything for a development page.
 
 ## Switching environment
 
-[`spec/10-environments.md`](spec/10-environments.md) pairs the databases, the 21 hosts, the credentials, and the author and category ids of each environment. **Moving from development to production is one edit: the `current` marker in that file.** Nothing else changes. Do it only after the dry run shows the pair fits, as that file describes.
+[`spec/10-environments.md`](spec/10-environments.md) pairs the databases, the 21 hosts, the credentials, and the author and category ids of each environment. **Moving from development to production is one edit: the `current` marker in that file**, made on `main`, plus pointing the bots at `main`. Nothing else changes. Do it only after the dry run shows the pair fits, as that file describes.
+
+**Each environment has its own repository branch.** In development the bots sync and push `dry-run`, a branch created from `main` before the dry run and never merged into it; in production they sync and push `main`. So plan statuses, run directories, and ledger rows from development never reach `main`. Bots push only run artifacts, plan rows, ledger rows, and snapshots. You land spec changes on `main` yourself and bring them into `dry-run` from there.
 
 ## Before the first run
 

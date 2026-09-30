@@ -16,7 +16,9 @@ From one plan row you make a finished Slovak article: title, perex, body, SEO ti
 10. [`15-widgets.md`](15-widgets.md) and the templates in [`../templates/widgets/`](../templates/widgets/product-card.html)
 11. [`16-article-schema.json`](16-article-schema.json) — the file you write
 12. [`08-ledger.md`](08-ledger.md) — topic keys and community material; [`../community/README.md`](../community/README.md)
-13. [`07-report-format.md`](07-report-format.md) — your chat line
+13. [`../sources/README.md`](../sources/README.md) — the sites an `inspired_by` key names
+14. [`../runs/README.md`](../runs/README.md) — the run directory and its files
+15. [`07-report-format.md`](07-report-format.md) — your chat line
 
 You do not need Planner's, Reviewer's, or Translator's spec files. What you need from them is in this file.
 

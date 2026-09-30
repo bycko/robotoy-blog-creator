@@ -40,11 +40,13 @@ Every bot posts one message per event to the group chat. The message tells the E
 | Reviewer `translations returned (round <n>)` | `@Translator` | `runs/<run id>/review-translations-<n>.md` |
 | Reviewer `translations approved (round <n>)` | none | Reviewer goes on to the write itself |
 | Reviewer `written`, `written (already complete)`, `written (rows added)` | `@Editor` | the page in the admin |
-| Any `stopped` | `@Editor` | the file or system the message names |
+| Translator `stopped` on a product ([`19-translator.md`](19-translator.md#when-you-stop)) | `@Reviewer` | `runs/<run id>/article.json`; Reviewer re-checks the products and holds the row |
+| Any other `stopped` | `@Editor` | the file or system the message names |
 | Planner, any run | `@Editor` when the message holds an item for the Editor | — |
-| Any `no work` | none | — |
+| Reviewer `no work` naming a `review-translations-<n>.md` that ends `RETURNED` and has no rewrite after it | `@Translator` | that `review-translations-<n>.md` |
+| Any other `no work` | none | — |
 
-**A bot has work exactly when the last line mentions it.** Translator has work from a Reviewer message only when that message ends with `@Translator`: status `approved (round <n>)` means translate all 20 languages, `translations returned (round <n>)` means rewrite the languages named in the file. Every other Reviewer message, including `returned`, `translations approved`, `written`, and `stopped`, is not for Translator.
+**A bot has work exactly when the last line mentions it.** Translator has work from a Reviewer message only when that message ends with `@Translator`: status `approved (round <n>)` means translate all 20 languages, `translations returned (round <n>)`, or a `no work` line naming a returned `review-translations-<n>.md`, means rewrite the languages named in the file. Every other Reviewer message, including `returned`, `translations approved`, `written`, and `stopped`, is not for Translator. When a retry finds a Slovak approval and fewer than 20 translations, Reviewer reposts its `approved (round <n>)` message, ending `@Translator`, so the mention starts Translator.
 
 ### Stages still owed
 
@@ -186,7 +188,8 @@ Zostáva     zapnutie (editor)
 |---|---|
 | `translations done (round 1)` | all 20 files are pushed in one commit |
 | `translations rewritten (round <r>)` | the languages a return named are rewritten and pushed |
-| `stopped` | see [Failure](#failure) |
+| `stopped` | see [Failure](#failure); a stop on a product ends `@Reviewer`, see [Translator stop on a product](#translator-stop-on-a-product) |
+| `no work` | a retry finds nothing owed by Translator |
 
 The message names the translations directory, the languages written, each article link dropped for a country (page `_id` and country key), and any disagreement with a finding in one `Nesúhlas` line ([`19-translator.md`](19-translator.md)).
 
@@ -213,6 +216,15 @@ A bot started by a repeated message or a retry, when the run directory shows ano
 ```
 Reviewer · 2026-10-05-mon · no work
 Stav        runs/2026-10-05-mon/review-sk-1.md končí Verdict: RETURNED; revíziu dlhuje Creator
+```
+
+**One exception:** when Reviewer finds a newest `review-translations-<n>.md` ending `RETURNED` and no translation committed after it, its no-work line ends `@Translator`, so Translator does the rewrite it owes:
+
+```
+Reviewer · 2026-10-05-mon · no work
+Stav        runs/2026-10-05-mon/review-translations-1.md končí Verdict: RETURNED; opravu prekladov dlhuje Translator
+Zostáva     oprava prekladov, kontrola prekladov, zápis
+@Translator
 ```
 
 ## Planner
@@ -316,7 +328,7 @@ Návrh zdroja  poľský blog o modelárstve · PL · inšpirácia · postupy dok
 
 ## Failure
 
-Every bot that stops posts this shape, and nothing else, for that event:
+Every bot that stops posts this shape, and nothing else, for that event. The mention is `@Editor`, except for [Translator's stop on a product](#translator-stop-on-a-product):
 
 ```
 <Role> · <run id> · stopped
@@ -366,4 +378,18 @@ Zapísané    nič; plán sa nezmenil
 Zostáva     nič; ďalší beh podľa rozvrhu
 Editor      pridaj servisný účet ako obmedzeného používateľa slovenskej vlastnosti Search Console
 @Editor
+```
+
+### Translator stop on a product
+
+Only Reviewer holds a row. So when Translator stops on a product (it fails the availability rule, has no name in one locale, or its name carries price or stock text), **its failure line ends `@Reviewer` instead of `@Editor`**. Reviewer re-checks the products and, on a failure, stops the run with the row `HELD` and tells the Editor ([`18-review-and-write.md`](18-review-and-write.md#what-starts-you)).
+
+```
+Translator · 2026-10-05-mon · stopped
+Dôvod       produkt 1843 už nemá cenu pre HU; preklad nevznikol
+Zapísané    nič
+Riadok      guide-fixing-sticking-mechanism je USED
+Zostáva     preklad, kontrola prekladov, zápis
+Editor      nič; Reviewer overí produkty a rozhodne o riadku
+@Reviewer
 ```

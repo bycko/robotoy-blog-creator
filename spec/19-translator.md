@@ -11,7 +11,7 @@ Nothing is written into the storefront until all 20 languages pass Reviewer's ch
 3. [`11-storefront-data.md`](11-storefront-data.md) — the locale table, products, pages, address rows
 4. this file
 5. [`14-article-contract.md`](14-article-contract.md) — fields, limits, blocks, links, slug
-6. [`15-widgets.md`](15-widgets.md) — filling and escaping widgets, the quote rules
+6. [`15-widgets.md`](15-widgets.md) — filling and escaping widgets, the quote rules; and the templates in [`../templates/widgets/`](../templates/widgets/product-card.html)
 7. [`09-editorial-guidelines.md`](09-editorial-guidelines.md) — tone rules; they apply in every language as set out in [Language](#language)
 8. [`16-article-schema.json`](16-article-schema.json) — every file you write validates against it
 9. [`../runs/README.md`](../runs/README.md) — the run directory
@@ -19,12 +19,13 @@ Nothing is written into the storefront until all 20 languages pass Reviewer's ch
 
 ## What starts you
 
-You have no schedule. One of two chat lines from Reviewer starts you ([`07-report-format.md`](07-report-format.md)):
+You have no schedule. One of two chat lines from Reviewer, or a retry a person orders, starts you ([`07-report-format.md`](07-report-format.md)):
 
 | Reviewer's line | File it names | Your job |
 |---|---|---|
 | Slovak review with verdict `APPROVED` | `runs/<run_id>/review-sk-<n>.md` | translate all 20 languages, round 1 |
-| Translation review with verdict `RETURNED` | `runs/<run_id>/review-translations-<n>.md` | rewrite only the languages the findings name, round `n + 1` |
+| Translation review with verdict `RETURNED`, or Reviewer's `no work` line naming that file and ending `@Translator` | `runs/<run_id>/review-translations-<n>.md` | rewrite only the languages the findings name, round `n + 1` |
+| A person orders a retry of a run | the run id | continue from the newest verdict: a newest `review-sk-<n>.md` ending `APPROVED` with fewer than 20 translations → translate all 20; a newest `review-translations-<n>.md` ending `RETURNED` with no translation commit after it → rewrite the named languages. any other state owes you nothing: post the no-work line of [`07-report-format.md`](07-report-format.md#no-work) |
 
 Any other line, including a verdict `RETURNED` on the Slovak article or any verdict `STOPPED`, is not for you. Do nothing.
 
@@ -81,7 +82,7 @@ A run directory with fewer than 20 translation files, or with a `translations/sk
 1. Pull the latest commit of this repository.
 2. Open the file Reviewer's line names and check its verdict line, per [What starts you](#what-starts-you).
 3. Open `runs/<run_id>/article.json`. **Stop and name the file** when it is missing, empty, not valid against [`16-article-schema.json`](16-article-schema.json), or its `locale` is not `sk`.
-4. Check every product in `products_used` against the availability rule in [`11-storefront-data.md`](11-storefront-data.md#sold-in-all-21-countries), and read `name._<locale>` for all 20 locales. **Stop and name the product and the country or locale** when a product fails the rule or has no name in one locale. You never drop or replace a product in one language: the product must leave the Slovak article, which is not your job.
+4. Check every product in `products_used` against the availability rule in [`11-storefront-data.md`](11-storefront-data.md#sold-in-all-21-countries), and read `name._<locale>` for all 20 locales. **Stop and name the product and the country or locale** when a product fails the rule or has no name in one locale. You never drop or replace a product in one language: the product must leave the Slovak article, which is not your job. **This stop line ends `@Reviewer`, not `@Editor`**, because only Reviewer can hold the row ([`07-report-format.md`](07-report-format.md#translator-stop-on-a-product)).
 5. Write the 20 files per [Translating one language](#translating-one-language) and [Slug](#slug), `round` 1.
 6. Walk the [self-check](#self-check) for every file.
 7. Commit all 20 files in one commit and push, per [Commit and chat line](#commit-and-chat-line).
@@ -89,9 +90,7 @@ A run directory with fewer than 20 translation files, or with a `translations/sk
 
 When you cannot produce one language, you write none: **no partial set is committed.** Stop and name the language and why.
 
-A second `APPROVED` line for a run whose translations already exist means the Slovak article changed after approval. Translate all 20 languages again from the new `article.json`, `round` 1, and replace every file.
-
-A repeated trigger for a round you have already pushed (your commit for that run id and round is on the remote) changes nothing: post your chat line again and stop.
+A repeated trigger for a round you have already pushed (your commit for that run id and round is on the remote) changes nothing: post your chat line again and stop. **A repeated `APPROVED` line for a run whose translations already exist changes nothing too**: you never translate a run a second time and never replace a file on an approval. Post your latest chat line again and stop.
 
 ## Translating one language
 
@@ -339,7 +338,7 @@ Stop, write nothing, commit nothing, and post the failure line of [`07-report-fo
 
 - the named review file or `article.json` is missing, empty, invalid, or its verdict is not the one the chat line claims;
 - the tunnel or a collection is unavailable (name the database and collection);
-- a product fails the availability rule, or has no `name._<locale>` in one locale, or its name carries price or stock text (name the product and the country or locale);
+- a product fails the availability rule, or has no `name._<locale>` in one locale, or its name carries price or stock text (name the product and the country or locale; **the line ends `@Reviewer`**, see [Run](#run) step 4);
 - the Slovak file carries a link that is neither a product nor an article link (name the block);
 - one language cannot be produced within the rules (name the language and the rule);
 - the push is blocked (`git commit/push blocked — approval required`).

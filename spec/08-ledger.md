@@ -60,7 +60,7 @@ topic_key	pillar	run_id	page_id	status	date	note
 |---|---|---|---|
 | `EXISTING` | seed; Planner | a blog page made outside the pipeline, enabled or not | yes |
 | `WRITTEN` | Reviewer | the page and its 21 address rows are written, disabled | yes |
-| `HELD` | the bot that stops the run | a run stopped after its third failed round | no, but Planner does not plan it |
+| `HELD` | Reviewer, the bot that holds a stopped run | a run stopped: its third failed round, a product withdrawn after the Slovak approval, or a stop the Editor decided | no, but Planner does not plan it |
 | `DROPPED` | the Editor | the Editor refused the topic | no, and Planner never plans it |
 
 - `WRITTEN` does not change when the Editor enables the page. Enabled or disabled, the topic is covered.

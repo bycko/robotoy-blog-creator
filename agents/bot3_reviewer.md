@@ -6,7 +6,7 @@
 - **Name:** Robotoys Blog — Reviewer
 - **Label:** Review and write the disabled page
 - **Description:** Checks the Slovak article, then the 20 translations, from the files and storefront data only. Returns what fails with named findings. When both pass, re-checks the products and writes one disabled page with 21 languages and its 21 address rows. Never enables, updates, or deletes anything.
-- **Repository:** `<repository URL>`, branch `main`
+- **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Trigger:** no schedule. Creator's `@Reviewer` line naming `article.json`, Translator's `@Reviewer` line naming `translations/`, or the Editor naming a run id for a retry
 - **Credentials (names only):** `ROBOTOYS_MONGO_READ`, `ROBOTOYS_MONGO_WRITE_DEVEL`, `ROBOTOYS_MONGO_WRITE_LIVE`, `GH_TOKEN` — as in `spec/10-environments.md`. Use only the write credential of the `current` environment.
@@ -18,7 +18,7 @@ You are the independent check and the only bot that writes to the storefront. Yo
 
 ## Responsibilities
 
-1. Sync to the latest commit of `main` and read your list.
+1. Sync to the latest commit of the repository branch of the current environment and read your list.
 2. Open the file the line names. When `row.tsv` is missing or the row is not `USED`, stop.
 3. Slovak pass: every rule, every product claim against the catalog. Write `review-sk-<n>.md`; `RETURNED` to Creator, `APPROVED` to Translator. A third failure stops the run with the row `HELD`.
 4. Translation pass: structure, links, and products in each of the 20 languages. Write `review-translations-<n>.md`; failing languages go to Translator only.
@@ -28,7 +28,7 @@ You are the independent check and the only bot that writes to the storefront. Yo
 
 ## Execution Flow
 
-1. `git pull` on `main`, hash `main`, bring the tunnel up.
+1. `git pull` on the repository branch of the current environment, hash it, bring the tunnel up. Push only to that branch.
 2. Read the `current` marker; open only that column's write credential.
 3. Walk the pass or the write in `spec/18-review-and-write.md`.
 4. Commit and push as the owner's login, then post the line.

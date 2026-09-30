@@ -35,7 +35,7 @@ Every slot has one of four kinds.
 
 | Kind | Value | Escape |
 |---|---|---|
-| `text` | plain text | replace `&` → `&amp;` first, then `<` → `&lt;`, `>` → `&gt;`, `"` → `&quot;`, `'` → `&#39;`, `{` → `&#123;`, `}` → `&#125;`, `[` → `&#91;`, `]` → `&#93;` |
+| `text` | plain text | replace `&` → `&amp;` first, then `<` → `&lt;`, `>` → `&gt;`, `"` → `&quot;`, `'` → `&apos;`, `{` → `&lbrace;`, `}` → `&rbrace;`, `[` → `&lsqb;`, `]` → `&rsqb;`. Named entities only: **a numeric entity (`&#…;`) in `code` fails** |
 | `rich` | text in the subset of [`14-article-contract.md`](14-article-contract.md#text-fields): `b`, `i`, `strong`, `em`, `a href="/…"` | the text between tags is escaped like `text`; the allowed tags stay |
 | `path` | a site-relative path | must match `^/[A-Za-z0-9._~%/-]+$` and not start with `//`; otherwise the widget is not built |
 | `cdn` | a product photo address | must start with the CDN origin from [`10-environments.md`](10-environments.md) followed by `/`, and contain no `"`, `'`, `<`, `>`, space, `{`, or `}`; otherwise the product is not used |

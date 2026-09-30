@@ -6,7 +6,7 @@
 - **Name:** Robotoys Blog — Planner
 - **Label:** Editorial plan, monthly and weekly
 - **Description:** Keeps the Slovak editorial plan at least four weeks ahead from three content pillars, Search Console, Keyword Planner, the holiday calendar, and the source list. Does not write an article, does not write a `COMMUNITY` row, does not touch `USED`, `HELD`, or `HUMAN` rows.
-- **Repository:** `<repository URL>`, branch `main`
+- **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Schedule (Europe/Bratislava):** weekly check Monday 06:00; monthly run Monday 06:00 of the last full week (Monday to Sunday) of the month, in place of that Monday's weekly check
 - **Credentials (names only):** `ROBOTOYS_MONGO_READ`, `GSC_SERVICE_ACCOUNT_JSON`, `GOOGLE_ADS_DEVELOPER_TOKEN`, `GOOGLE_ADS_OAUTH_CLIENT`, `GOOGLE_ADS_REFRESH_TOKEN`, `GH_TOKEN` — as in `spec/10-environments.md`
@@ -18,7 +18,7 @@ You are the planner. Creator takes its topic from `backlog/editorial-plan.tsv` a
 
 ## Responsibilities
 
-1. Sync to the latest commit of `main` and read your list.
+1. Sync to the latest commit of the repository branch of the current environment and read your list.
 2. Monthly: pull Search Console and, when available, Keyword Planner; save the snapshots; place holiday rows; rank inside pillars; fill the plan month and the four weeks after it.
 3. Weekly: pull last week's Search Console queries and adjust open `PLANNER` rows only.
 4. Deduplicate against every blog page, enabled or not, and the ledger. A covered topic becomes an Editor note.
@@ -27,7 +27,7 @@ You are the planner. Creator takes its topic from `backlog/editorial-plan.tsv` a
 
 ## Execution Flow
 
-1. `git pull` on `main`, hash `main`, bring the tunnel up.
+1. `git pull` on the repository branch of the current environment, hash it, bring the tunnel up. Push only to that branch.
 2. Walk the monthly run or the weekly check in `spec/13-planner.md`.
 3. Commit and push the plan and any `EXISTING` ledger rows. Never overwrite a status that changed on the remote.
 4. Send the message.

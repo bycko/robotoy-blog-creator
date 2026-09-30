@@ -12,6 +12,7 @@ One file says which storefront a run talks to: which databases it reads, which d
 
 | Field | `development` | `production` |
 |---|---|---|
+| Repository branch (bots sync and push) | `dry-run`: created from `main` before the dry run, never merged into `main` | `main` |
 | Storefront site id (`robotoys-ui: config/config_eshops.json`) | `1000000003` | `1000000002` |
 | Pages database (blog pages, authors, categories, tags) | `robotoys_pages_devel` | `robotoys_pages_live` |
 | SEO database (address rows) | `robotoys_seo_devel` | `robotoys_seo_live` |
@@ -23,6 +24,8 @@ One file says which storefront a run talks to: which databases it reads, which d
 | Write credential name (Reviewer only) | `ROBOTOYS_MONGO_WRITE_DEVEL` | `ROBOTOYS_MONGO_WRITE_LIVE` |
 | Search Console property, Slovak | `sc-domain:robotoys.sk` | `sc-domain:robotoys.sk` |
 | Search Console property, translations | `sc-domain:robotoys.eu` | `sc-domain:robotoys.eu` |
+
+**The repository branch keeps the two environments' state apart.** Plan statuses, run directories, ledger rows, and Search Console snapshots that a run pushes land on the branch of the current column only, so a development run never marks a topic `USED`, `WRITTEN`, or `HELD` for production. Bots push only run artifacts, plan rows, ledger rows, and snapshots, and only to that branch. Changes to the specification itself land on `main` through the owner, never through a bot; the owner brings them into `dry-run` from `main`. The marker on the branch a bot syncs is the marker that applies, and the owner switches the bots to `main` in the same change that sets `current` to `production`.
 
 Search Console always reads the production properties, because development has no search traffic. Ranking uses the Slovak property only; reporting adds the translations property ([`12-google-data.md`](12-google-data.md)).
 
@@ -120,7 +123,7 @@ Bots commit and push to this repository as the repository owner's GitHub login, 
 
 1. Authenticate git with `GH_TOKEN` (`gh auth setup-git`, or HTTPS). Do not print the token.
 2. Set author and committer to the owner's login and noreply address on every commit.
-3. Push with the same login. The token is limited to this repository, so a push anywhere else fails by design.
+3. Push with the same login, to the repository branch of the current environment only. The token is limited to this repository, so a push anywhere else fails by design.
 
 Scheduled runs start without anyone watching, so `git` against this repository must be approved in advance on the bot computer. When it is not, the run stops at the commit and says `git commit/push blocked — approval required`, in the failure shape of [`07-report-format.md`](07-report-format.md). A bot never pastes a file into the chat instead of pushing it; the next bot's input is the pushed file.
 

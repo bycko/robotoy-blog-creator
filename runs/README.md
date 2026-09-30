@@ -81,7 +81,7 @@ Column 14 of [`../backlog/editorial-plan.tsv`](../backlog/editorial-plan.tsv):
 
 ```
 PLANNED ──Creator takes it, pushed before writing──> USED ──page written──> USED
-                                                      └──third failure, Slovak or translation──> HELD
+                                                      └──third failure, Slovak or translation, or a product withdrawn after approval──> HELD
 PLANNED ──Planner or the Editor──> DROPPED, with a reason
 ```
 

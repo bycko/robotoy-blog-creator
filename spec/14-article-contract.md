@@ -75,7 +75,7 @@ Header `text`, paragraph `text`, and list item `content` render as raw HTML on 2
 | link | `<a href="/…">…</a>`, a site-relative path; see [Links](#links) |
 
 - **Every other `<` is written `&lt;` and every other `&` is written `&amp;`.** A product name `Puzzle <Mini>` is written `Puzzle &lt;Mini&gt;` and renders as text.
-- Allowed entities: `&amp;`, `&lt;`, `&gt;`, `&quot;`, `&#39;`, `&nbsp;`. A bare `&` fails.
+- Allowed entities: `&amp;`, `&lt;`, `&gt;`, `&quot;`, `&apos;`, `&nbsp;`. A bare `&` fails, and so does any numeric entity (`&#…;`).
 - **No attribute other than `href` on `a`.** No `span`, `div`, `br`, `img`, `class`, `style`, `id`, `target`, or `rel`.
 - **No absolute link.** An `href` that does not start with a single `/` fails: `https://…`, `//…`, `mailto:`, `javascript:`.
 - Headers carry no link.

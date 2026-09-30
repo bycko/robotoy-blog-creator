@@ -46,7 +46,7 @@ Locale and country keys differ in six rows (`da`/`DK`, `el`/`GR`, `sl`/`SI`, `cs
 | product database | `products` | availability, product facts, country paths, photos | all four bots |
 | reviews API (service) | — | customer quotes | Creator, Reviewer |
 
-Read blog pages only: `categoryID` equal to the blog category id. The other categories are shop information pages. **Never read users or orders; nothing in this pipeline needs them.** Read reviews through the reviews API, never from the reviews database directly.
+Read blog pages only: `categoryID` equal to the blog category id. The other categories are shop information pages. **One exception, for Reviewer's `_id` allocation:** Reviewer reads the highest `_id` across the whole `pages` collection, with a projection of `_id` only, sorted descending, limit 1 ([Page `_id`](#page-_id)). No other field of a non-blog page is read. **Never read users or orders; nothing in this pipeline needs them.** Read reviews through the reviews API, never from the reviews database directly.
 
 When the tunnel is down, a collection cannot be read, or the blog category or the author record is missing, **stop the run and name the database and collection** in the failure message. An empty `tags` collection is normal and is not a stop.
 

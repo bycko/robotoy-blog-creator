@@ -15,8 +15,9 @@ Creator takes its topic from this file and from nothing else ([`17-creator.md`](
 7. [`08-ledger.md`](08-ledger.md) — topic keys and deduplication
 8. [`../calendar/README.md`](../calendar/README.md) and [`../calendar/international-days.tsv`](../calendar/international-days.tsv)
 9. [`../sources/README.md`](../sources/README.md)
-10. [`09-editorial-guidelines.md`](09-editorial-guidelines.md) — title rules, so a working title is already usable
-11. [`07-report-format.md`](07-report-format.md) — shape of your messages
+10. [`../community/README.md`](../community/README.md) — whether a `COMMUNITY` row has its material
+11. [`09-editorial-guidelines.md`](09-editorial-guidelines.md) — title rules, so a working title is already usable
+12. [`07-report-format.md`](07-report-format.md) — shape of your messages
 
 ## Schedule
 
@@ -86,7 +87,7 @@ Each ISO week has two slots: its Monday and its Wednesday. **Each slot holds at 
 |---|---|---|
 | `PLANNED` | Planner or the Editor | open; Creator may take it |
 | `USED` | Creator, pushed before it writes | taken; the run owns it |
-| `HELD` | the bot that stops a run after its third failed round | waits for the Editor |
+| `HELD` | Reviewer, when a run stops on its third failed round or a product withdrawn after the Slovak approval | waits for the Editor |
 | `DROPPED` | Planner (own rows) or the Editor | will not be written; `reason` says why |
 
 **You never set `USED` or `HELD`, and you never change a `USED`, `HELD`, or `HUMAN` row in any column.** You never delete a row. A dropped row stays in the file as history.

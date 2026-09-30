@@ -32,6 +32,7 @@ You have no schedule. A chat line starts you, and **your input is the file it na
 | Creator: `done (round 1)` or `revised (round <r>)` | `runs/<run_id>/article.json` | [Slovak pass](#slovak-pass), round `r` |
 | Translator: translations done or rewritten | `runs/<run_id>/translations/` | [Translation pass](#translation-pass); on approval, [the write](#write) |
 | A person orders a retry of a run | the run id | continue where the run directory says, per [Continuing a run](#continuing-a-run) |
+| Translator: `stopped` on a product | `runs/<run_id>/article.json` | run [Translation pass](#translation-pass) step 5 for every product in `products_used`, and also check each has a `name._<locale>` in all 20 locales with no price or stock text; on a failure, [stop the run](#stopping-a-run) with the row `HELD`, naming the product and the country or locale. When every product passes, repost your approval line of the newest `review-sk-<n>.md`, ending `@Translator` |
 
 Any other line is not for you. Do nothing.
 
@@ -111,7 +112,7 @@ Commit the review file alone as the owner's login ([`10-environments.md`](10-env
 - Ids `b01`, `b02`, … unique and rising.
 - Every list item carries `items`, `[]` when empty.
 - Header, paragraph, and list text and image captions carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;`, every other `&` is `&amp;`; no attribute but `href`; no absolute link; no link in a header ([`14-article-contract.md`](14-article-contract.md#text-fields)).
-- **Every `HTML` block has `style` exactly `""` and `localization` exactly `{}`.** Its `code` contains no `{` or `}` (so no `>{…}<` pattern), no `[[` or `]]`, no `script`, `style` element, `iframe`, `form`, or `on…=` attribute.
+- **Every `HTML` block has `style` exactly `""` and `localization` exactly `{}`.** Its `code` contains no `{` or `}` (so no `>{…}<` pattern), no `[[` or `]]`, and nothing on the denylist of [Before the write](#before-the-write) step 4.
 - Every `HTML` block is either a table in the contract's shape or a template from `templates/widgets/` filled per [`15-widgets.md`](15-widgets.md#filling-a-template): compare the filled `code` with the template line by line; only slot values may differ. Every slot value is escaped for its kind.
 - `html_blocks` lists every `HTML` block exactly once with the right `kind`.
 - Every `image` block is a photo from `images` of a product in `products_used`, and its `url` starts with the CDN origin.
@@ -189,7 +190,7 @@ Your line names the file and `@Creator`. Translator is not started.
 ### Run
 
 1. Find the newest `review-sk-<n>.md`. It must end `Verdict: APPROVED`. Otherwise stop and name the file.
-2. **The Slovak article must be the one you approved**: `git diff --quiet <Commit of that review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.*` shows no difference. When it does, see [A Slovak change after approval](#a-slovak-change-after-approval).
+2. **The Slovak article must be the one you approved**: `git diff --quiet <Commit of that review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.*` shows no difference. When it does, see [A Slovak change after approval](#a-slovak-change-after-approval): stop.
 3. Check that `runs/<run_id>/translations/` holds exactly the 20 files of the locale table in [`11-storefront-data.md`](11-storefront-data.md#storefronts), every locale except `sk`, and no `sk.json`. A missing file is a finding for that locale; a `sk.json` is a finding under `14/Files`.
 4. Take `n` = the number of `review-translations-*.md` files already in the directory, plus one. When `n` would be 4, the pass is over; stop and name the directory.
 5. Re-check every product in `products_used` against the availability rule. **A product that fails now cannot be fixed by Translator or Creator: [stop the run](#stopping-a-run)**, name the product and the country.
@@ -230,7 +231,7 @@ For each locale, with its country key from the locale table:
 
 **HTML**
 
-- Every text field keeps the subset of [`14-article-contract.md`](14-article-contract.md#text-fields); every `HTML` block has `style: ""`, `localization: {}`, no `{`, `}`, `[[`, or `]]`, and no `script`, `style` element, `iframe`, `form`, or `on…=` attribute; every widget is its template with only slot values changed.
+- Every text field keeps the subset of [`14-article-contract.md`](14-article-contract.md#text-fields); every `HTML` block has `style: ""`, `localization: {}`, no `{`, `}`, `[[`, or `]]`, and nothing on the denylist of [Before the write](#before-the-write) step 4; every widget is its template with only slot values changed, and every table is the contract's shape.
 - No currency sign or currency code next to a number, and no amount of money, in any block or field.
 
 ### What you do not judge
@@ -283,11 +284,7 @@ Verdict: RETURNED
 
 ### A Slovak change after approval
 
-The approved Slovak file is the only source of the translations. When `article.json` or the cover differs from the commit you approved:
-
-- The translations are not reviewed and nothing is written.
-- A changed Slovak article must carry `round` one higher than the approved one, at most 3; you review it as that Slovak round. **On `APPROVED`, Translator translates all 20 languages again**; translations made from an older Slovak file are never approved.
-- When the changed file carries the same `round`, or a round above 3, stop and name the file and both commits. The Editor decides.
+The approved Slovak file is the only source of the translations, and once approved it does not change. **A Slovak article or cover that changed after approval is a stop with the row `USED`**: the translations are not reviewed, nothing is written, and your stop line names the changed file, the commit of the approving review, and the commit that changed it. There is no re-review and no second translation of the run; the Editor decides.
 
 ## Stopping a run
 
@@ -305,13 +302,16 @@ A stop for any other reason (tunnel, credential, push, a foreign `_id` or addres
 
 These run after the translations are approved, and again on every retry that finds no page for the run. **All must pass before the first insert.** Any failure is a stop, and nothing is written.
 
-1. **Environment.** Read the `current` marker in [`10-environments.md`](10-environments.md#current-environment). Open the write connection with the write credential named for that environment, and read and write only the databases of that column. When `written.json` exists and its `environment` differs from the marker, stop and name both. A write refused for permissions is a stop, never a reason to try the other credential.
+1. **Environment.** Read the `current` marker in [`10-environments.md`](10-environments.md#current-environment). Open the write connection with the write credential named for that environment, and read and write only the databases of that column. When `written.json` exists and its `environment` differs from the marker, stop and name both. **The `Environment` line of the newest `review-sk-<n>.md` and of the newest `review-translations-<n>.md` must equal the marker**; when either differs, stop with the row `USED` and name the file and both values, because that review read the other environment's products and pages. A write refused for permissions is a stop, never a reason to try the other credential.
 2. **Approved files.** The newest `review-sk-<n>.md` and `review-translations-<n>.md` end `APPROVED`, and `git diff --quiet <Commit of the translation review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.* runs/<run_id>/translations/` shows no difference.
 3. **Products, again.** Read every product in `products_used` now and apply the availability rule for all 21 countries. **A product withdrawn between review and write stops the write**: name the product and the country, and [stop the run](#stopping-a-run) with the row `HELD` for the Editor. No product is dropped at this point, because the approved text carries it in 21 languages. Note the time it passed as `products_rechecked_at`; when more than 30 minutes pass before the first insert, re-check again.
-4. **Every block in all 21 languages** against the HTML rules: the text subset, `style: ""`, `localization: {}`, no `{` or `}`, no slot marker, no `script`, `style` element, `iframe`, `form`, or `on…=`, no level-1 header, only the five types.
+4. **Every block in all 21 languages** against the HTML rules.
+   - **Every `HTML` block is on the allowlist, or the write stops.** Its `code` equals one of the five templates in [`../templates/widgets/`](../templates/widgets/product-card.html) with only slot values changed, line by line, and each slot value obeys the escaping rule of its slot kind in [`15-widgets.md`](15-widgets.md#escaping); or it matches exactly the table shape in [`14-article-contract.md`](14-article-contract.md#tables), with only cell text changed and escaped the same way. Anything else, however harmless it looks, stops the write: name the locale and the block `id`.
+   - As an extra check on top of the allowlist: the text subset in text fields, `style: ""`, `localization: {}`, no `{` or `}`, no slot marker, no `script`, `style`, `iframe`, `form`, `object`, `embed`, `svg`, `math`, `meta`, `base`, or `link` element, no event attribute (`on…=`), no numeric entity `&#`, no `javascript:` or `data:` address, no level-1 header, only the five types. The schema in [`16-article-schema.json`](16-article-schema.json) enforces this denylist; it never replaces the allowlist.
 5. **Tags.** Keep only tag `uid`s that exist in the `tags` collection with a name for all 21 locales ([`11-storefront-data.md`](11-storefront-data.md#tags)). Drop the rest and name each in your message. While the collection is empty, `tags` is `[]`.
 6. **Author and category.** The author id and the blog category id from the environments file exist in `authors` and `categories`.
-7. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column. No row with that `_id` exists with an `id` other than this run's `_id`. The Slovak slug is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
+7. **Internal links, again.** For every locale's `internal_links` entry, the page of that `page_id` is still a blog page with `enabled` `true` and a non-empty `url._<COUNTRY>` for that locale's country. When one is not, stop with the row `USED` and name the link: `page_id`, locale, and country. The approved text cannot be changed after approval, so the link is not dropped here; the Editor decides.
+8. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column. No row with that `_id` exists with an `id` other than this run's `_id`. The Slovak slug is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
 
 ## Composing the page
 
@@ -361,7 +361,7 @@ flowchart TB
    - One, otherwise: go to step 6.
    - None: run [Before the write](#before-the-write), then step 3.
 3. **Reuse or allocate.** When `written.json` holds `_id` and `sequence`, reuse them; never allocate again. Otherwise allocate per [`11-storefront-data.md`](11-storefront-data.md#page-_id): `_id` = the highest `_id` in the whole `pages` collection plus one, `sequence` = the highest `sequence` among blog pages plus one.
-4. **Record before inserting.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence`, `allocated_at`, `page_inserted: false`, `seo_rows` with the 21 composed addresses and no status, `products_rechecked_at`, and `outcome: "pending"`. Commit, `reviewer: <run_id> allocate page <_id>`, and push. **When the push fails, insert nothing**; stop and name it.
+4. **Record before inserting.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence`, `allocated_at`, `page_inserted: false`, `seo_rows` with the 21 composed addresses and no status, `products_rechecked_at`, and `outcome: "pending"`. Commit, `reviewer: <run_id> allocate page <_id>`, and push. When the push is refused as not a fast-forward, sync and push once more: your commit touches only `written.json`, so nothing conflicts. **When the push fails again, or fails any other way, insert nothing**; stop and name it.
 5. **Insert the page** under that `_id`, composed per [Composing the page](#composing-the-page).
 
    | Result | What you do |
@@ -428,8 +428,9 @@ A retry, or a repeated chat line, works in the same directory and never changes 
 |---|---|
 | an `article.json` whose `round` has no `review-sk-<round>.md` | the Slovak pass for that round |
 | a newest `review-sk-<n>.md` ending `RETURNED`, with `n` equal to `round` | nothing; Creator owes a revision. Post the no-work line |
-| a newest `review-sk-<n>.md` ending `APPROVED`, and fewer than 20 translations | nothing; Translator owes the translations. Post the no-work line |
-| 20 translations committed after the newest translation review, or none reviewed yet | the translation pass |
+| a newest `review-sk-<n>.md` ending `APPROVED`, and fewer than 20 translations | nothing yourself; Translator owes the translations. Repost your `approved (round <n>)` line for that review, ending `@Translator`, so the mention starts Translator ([`07-report-format.md`](07-report-format.md#who-starts-whom)) |
+| any translation file committed after the newest `review-translations-<n>.md` ending `RETURNED`, or 20 translations and none reviewed yet | the translation pass |
+| a newest `review-translations-<n>.md` ending `RETURNED`, and no translation committed after it | nothing; Translator owes the rewrite. Post the no-work line ending `@Translator` |
 | a newest `review-translations-<n>.md` ending `APPROVED` | the write, from step 1 |
 | a `written.json` with a success `outcome`, and a `WRITTEN` ledger row | nothing new; post the written line again |
 | a review file ending `STOPPED`, or the row `HELD` | nothing |
@@ -511,10 +512,12 @@ Every stop posts the failure line of [`07-report-format.md`](07-report-format.md
 | Third Slovak failure (`review-sk-3.md`) | **`HELD`** | nothing | the file and the remaining findings |
 | Third translation failure (`review-translations-3.md`) | **`HELD`** | nothing | the file and the failing locales |
 | A product fails the availability rule after the Slovak approval | **`HELD`** | nothing | the product and the country |
-| The Slovak article changed after approval without a new round | `USED` | nothing | the file and both commits |
+| The Slovak article or cover changed after approval | `USED` | nothing | the file and both commits; the Editor decides |
 | Environment marker and `written.json` differ; a permission refusal | `USED` | nothing | both values, or the refusal |
+| The `Environment` line of the newest `review-sk-<n>.md` or `review-translations-<n>.md` differs from the marker | `USED` | nothing | the file and both values |
+| An `internal_links` page is no longer an enabled blog page with an address for that country | `USED` | nothing | the link: `page_id`, locale, and country |
 | An address or the `uid` taken by another page before the first insert | `USED` | nothing | the address |
-| Push of `written.json` fails before the first insert | `USED` | nothing | the push |
+| Push of `written.json` fails before the first insert: a second non-fast-forward refusal after a sync, or any other refusal | `USED` | nothing | the push |
 | Duplicate key on `_id` from another page | `USED` | nothing | the `_id` |
 | The run's page is enabled | `USED` | nothing | the page and the missing rows |
 | An address row belongs to another page, during the rows | `USED` | the page and the rows before it | the address |

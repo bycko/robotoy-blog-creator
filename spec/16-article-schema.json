@@ -231,7 +231,7 @@
           "description": "Only b, i, strong, em, and a with a site-relative href. No span, no other attribute, no absolute link."
         },
         {
-          "not": { "pattern": "&(?!(amp|lt|gt|quot|#39|nbsp);)" },
+          "not": { "pattern": "&(?!(amp|lt|gt|quot|apos|nbsp);)" },
           "description": "Every other & is written &amp;."
         }
       ]
@@ -339,7 +339,10 @@
                   "allOf": [
                     { "not": { "pattern": "[{}]" }, "description": "No brace, so the >{…}< replacement never fires." },
                     { "not": { "pattern": "\\[\\[|\\]\\]" }, "description": "No unfilled slot." },
-                    { "not": { "pattern": "<\\s*/?\\s*([Ss][Cc][Rr][Ii][Pp][Tt]|[Ss][Tt][Yy][Ll][Ee]|[Ii][Ff][Rr][Aa][Mm][Ee]|[Ff][Oo][Rr][Mm])\\b|\\s[Oo][Nn][A-Za-z]+\\s*=|[Jj]avascript:" }, "description": "No script, style, iframe, form, event attribute, or javascript: link." }
+                    { "not": { "pattern": "<\\s*/?\\s*([Ss][Cc][Rr][Ii][Pp][Tt]|[Ss][Tt][Yy][Ll][Ee]|[Ii][Ff][Rr][Aa][Mm][Ee]|[Ff][Oo][Rr][Mm]|[Oo][Bb][Jj][Ee][Cc][Tt]|[Ee][Mm][Bb][Ee][Dd]|[Ss][Vv][Gg]|[Mm][Aa][Tt][Hh]|[Mm][Ee][Tt][Aa]|[Bb][Aa][Ss][Ee]|[Ll][Ii][Nn][Kk])\\b" }, "description": "No script, style, iframe, form, object, embed, svg, math, meta, base, or link element." },
+                    { "not": { "pattern": "[\\s/\"'][Oo][Nn][A-Za-z]+\\s*=" }, "description": "No event attribute, whether preceded by whitespace, a slash, or a quote." },
+                    { "not": { "pattern": "&#" }, "description": "No numeric entity; escaping uses named entities only (15-widgets.md)." },
+                    { "not": { "pattern": "[Jj][Aa][Vv][Aa][Ss][Cc][Rr][Ii][Pp][Tt]\\s*:|=\\s*[\"']?\\s*[Dd][Aa][Tt][Aa]\\s*:" }, "description": "No javascript: address anywhere, and no data: address in an attribute." }
                   ]
                 },
                 "style": { "const": "", "description": "A non-empty style is emitted as a <style> element." },
