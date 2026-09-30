@@ -474,10 +474,11 @@ Zapnúť do   2026-10-05
 Obálka      pred zapnutím nahraj runs/2026-10-05-mon/cover.png ako obrázok stránky vo všetkých 21 jazykoch; je to ilustrácia od umelej inteligencie, v texte je označená
 Štítky      žiadne vynechané
 Poradie     stránka 47 má vyššie _id ako stránka 46 behu 2026-10-07-wed s neskorším publish_on; v zozname blogu bude nad ňou
+Zostáva     zapnutie (editor)
 @Editor
 ```
 
-**In development, the written line asks for no upload and no enabling**, because the admin and the CDN are production services ([`10-environments.md`](10-environments.md#shared-production-services)). It says `prostredie development · nezapínať, obálku nenahrávať` in place of the two lines.
+**In development, the written line asks for no upload and no enabling**, because the admin and the CDN are production services ([`10-environments.md`](10-environments.md#shared-production-services)). One `Editor` line, `Editor      prostredie development · nezapínať, obálku nenahrávať`, replaces `Zapnúť do` and `Obálka`.
 
 A replay:
 
@@ -491,8 +492,11 @@ A stop:
 ```
 Reviewer · 2026-10-05-mon · stopped
 Dôvod       produkt 1843 už nemá cenu pre HU; zápis zastavený pred prvým vložením
-Riadok      guide-fixing-sticking-mechanism je HELD, rozhodne editor; náhradný článok nevznikne
-Zostáva     nič; ďalší beh podľa rozvrhu
+Zapísané    iba riadok HELD v pláne a v ledgeri; stránka ani adresy sa nezapísali
+Riadok      guide-fixing-sticking-mechanism je HELD
+Zostáva     nič; náhradný článok nevznikne, ďalší beh podľa rozvrhu
+Editor      rozhodni o riadku: vráť ho do PLANNED s iným produktom, alebo ho vyraď
+@Editor
 ```
 
 ## Stop cases

@@ -261,8 +261,11 @@ A stop with no ready row:
 
 ```
 Creator · 2026-10-07-wed · stopped
-Chýba       pripravený riadok v backlog/editorial-plan.tsv: 2 riadky PLANNED, oba nepripravené (inspiration-halloween-shelf-scene: prázdne must_answer; community-build-of-the-month-2026-10: chýba materiál). Adresár behu nevznikol.
+Dôvod       žiadny pripravený riadok v backlog/editorial-plan.tsv: 2 riadky PLANNED, oba nepripravené (inspiration-halloween-shelf-scene: prázdne must_answer; community-build-of-the-month-2026-10: chýba materiál)
+Zapísané    nič; adresár behu nevznikol
 Zostáva     nič; ďalší beh podľa rozvrhu
+Editor      doplň must_answer alebo materiál do community/community-build-of-the-month-2026-10/
+@Editor
 ```
 
 ## Stop cases

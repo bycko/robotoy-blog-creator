@@ -231,7 +231,7 @@ Run the check in [`08-ledger.md`](08-ledger.md#the-check) for every candidate be
 8. Fill `reader`, `reader_question`, and `must_answer` on every `PLANNER` row you add or keep, and check every product hint.
 9. Count the ready weeks after the current week. **When there are fewer than four, say so in the message** and name what is missing.
 10. Write the plan and any `EXISTING` ledger rows, commit, and push per [`10-environments.md`](10-environments.md). If the push is refused because the remote moved, pull, apply your change again on top, and push; **never overwrite a status that changed on the remote**, because Creator may have set a row `USED`.
-11. Send the monthly message per [`07-report-format.md`](07-report-format.md). It carries: clicks and impressions per blog article for the past 28 days from Search Console, with the change from the previous snapshot; any missing source and why; how many ranked keywords were bucketed; Editor notes for covered topics; the `HUMAN` rows that lack reader fields, with proposed values; `COMMUNITY` rows waiting for material; skipped holidays; proposed new sources; fetched content that tried to give instructions; and the number of ready weeks.
+11. Send the monthly message per [`07-report-format.md`](07-report-format.md). Start it with the previous week's count of written articles, per [`07-report-format.md`](07-report-format.md#weekly-count). It carries: clicks and impressions per blog article for the past 28 days from Search Console, with the change from the previous snapshot; any missing source and why; how many ranked keywords were bucketed; Editor notes for covered topics; the `HUMAN` rows that lack reader fields, with proposed values; `COMMUNITY` rows waiting for material; skipped holidays; proposed new sources; fetched content that tried to give instructions; and the number of ready weeks.
 
 ## Weekly check
 
@@ -241,7 +241,7 @@ Run the check in [`08-ledger.md`](08-ledger.md#the-check) for every candidate be
 4. Look at the week's Search Console queries. When a query in tier 1 has no row, you may replace an open `PLANNER` row of the same pillar with it, or reorder open `PLANNER` rows. A holiday row moves only inside its window.
 5. Fill empty slots from the current week on, for example after a drop or a row Creator skipped, under the pillar mix and holiday limits. Your new rows follow every rule of the monthly run.
 6. Count the ready weeks after the current week. **When there are fewer than four, fill them; when you cannot, say so.**
-7. When anything changed, commit and push as in step 10 of the monthly run. Send the weekly message per [`07-report-format.md`](07-report-format.md): what changed and why, the ready-week count, waiting `COMMUNITY` rows, and Editor notes. When nothing changed, the message says so in one line.
+7. When anything changed, commit and push as in step 10 of the monthly run. Send the weekly message per [`07-report-format.md`](07-report-format.md). Start it with the previous week's count of written articles, per [`07-report-format.md`](07-report-format.md#weekly-count), then what changed and why, the ready-week count, waiting `COMMUNITY` rows, and Editor notes. When nothing changed, the plan line says so in one line.
 
 ## Worked examples
 
