@@ -1,0 +1,17 @@
+holiday_key	name_sk	rule	kind	lead_weeks	pillar	angle	priority	verified	source
+puzzle-day	Deň puzzle	fixed 01-29	INTERNATIONAL	3	INSPIRATION	puzzles as a hobby: the kinds of puzzle and why a 3D wooden model is one of them	3	yes	https://www.puzzledayfun.com/
+valentines-day	Valentín	fixed 02-14	COMMEMORATIVE	3	GIFT	a gift for a partner, or a project the two build together	1	yes	https://sk.wikipedia.org/wiki/De%C5%88_sv%C3%A4t%C3%A9ho_Valent%C3%ADna
+womens-day	Medzinárodný deň žien (MDŽ)	fixed 03-08	INTERNATIONAL	3	GIFT	a small gift for a woman who likes quiet handwork; flowers that do not wilt	2	yes	https://www.un.org/en/observances/womens-day
+teachers-day	Deň učiteľov	fixed 03-28	COMMEMORATIVE	3	GIFT	a thank-you from a class or a family; a model that shows how something works	2	yes	https://sk.wikipedia.org/wiki/De%C5%88_u%C4%8Dite%C4%BEov
+creativity-day	Svetový deň kreativity a inovácií	fixed 04-21	INTERNATIONAL	3	INSPIRATION	how a mechanism is designed; own modifications of a finished build	3	yes	https://www.un.org/en/observances/creativity-and-innovation-day
+earth-day	Deň Zeme	fixed 04-22	INTERNATIONAL	3	INSPIRATION	wood as a material; repairing and keeping a build instead of throwing it away; no environmental claims about products	3	yes	https://www.un.org/en/observances/earth-day
+book-day	Svetový deň kníh	fixed 04-23	INTERNATIONAL	3	INSPIRATION	book nooks: a scene between books on the shelf	2	yes	https://www.unesco.org/en/days/world-book-and-copyright
+mothers-day	Deň matiek	nth-weekday 05 SUN 2	COMMEMORATIVE	3	GIFT	a gift for a mother that she will build, not shelve; building together	1	yes	https://www.hlavnydennik.sk/index.php/2026/05/09/den-matiek-spaja-tradicie-celeho-sveta-do-vdaky-za-darovany-zivot
+childrens-day	Medzinárodný deň detí (MDD)	fixed 06-01	INTERNATIONAL	3	GIFT	choosing a kit by a child's age and patience; building with a parent	1	yes	https://sk.wikipedia.org/wiki/Medzin%C3%A1rodn%C3%BD_de%C5%88_det%C3%AD
+fathers-day	Deň otcov	nth-weekday 06 SUN 3	COMMEMORATIVE	3	GIFT	a gift for a father who likes making things with his hands	1	yes	https://www.hlavnydennik.sk/index.php/2026/06/20/dnes-slavime-den-otcov-vystopovat-ho-mozeme-az-k-starovekej-babylonskej-risi
+grandparents-day	Svetový deň starých rodičov a seniorov	nth-weekday 07 SUN 4	COMMEMORATIVE	3	GIFT	a project grandparents and grandchildren build together	2	yes	https://rodina.kbs.sk/sekcia/podujatia/svetovy-den-starych-rodicov-a-seniorov
+friendship-day	Medzinárodný deň priateľstva	fixed 07-30	INTERNATIONAL	3	INSPIRATION	building with friends; a shared project over a few evenings	3	yes	https://www.un.org/en/observances/friendship-day
+older-persons-day	Medzinárodný deň starších osôb	fixed 10-01	INTERNATIONAL	3	INSPIRATION	a hobby shared across generations; October is the month of respect for elders in Slovakia	3	yes	https://www.un.org/en/observances/older-persons-day
+halloween	Halloween	fixed 10-31	COMMERCIAL	3	INSPIRATION	a spooky scene on the shelf: dressing a finished miniature house or book nook for the season	3	yes	https://sk.wikipedia.org/wiki/Halloween
+mikulas	Mikuláš	fixed 12-06	COMMEMORATIVE	3	GIFT	a small gift that fits in a boot: a kit for one or two evenings	2	yes	https://sk.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_z_Myry
+christmas-gift-season	Vianočná sezóna darčekov	fixed 12-24	COMMERCIAL	4	GIFT	a gift guide for the run-up to Christmas, by recipient; no religious or state angle	1	yes	https://sk.wikipedia.org/wiki/Vianoce
