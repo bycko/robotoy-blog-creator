@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "el",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Ο μηχανισμός κολλάει: βρες την τριβή και άρε την",
+  "description": "Το κόλλημα ενός μηχανισμού σε ξύλινο μοντέλο οφείλεται συνήθως στην τριβή ανάμεσα στα κομμάτια και όχι σε ελαττωματικό κομμάτι. Θα σου δείξουμε πώς θα βρεις το σημείο χωρίς αποσυναρμολόγηση και με τι θα το μετριάσεις.",
+  "seo_title": "Κόλλημα μηχανισμού σε ξύλινο μοντέλο: αιτίες και λύση",
+  "seo_description": "Πώς θα βρεις πού τρίβονται τα κομμάτια ενός ξύλινου μοντέλου, θα μειώσεις την τριβή με πράγματα του σπιτιού και θα αναγνωρίσεις κακοτοποθετημένο κομμάτι.",
+  "slug": "o-mhxanismos-kollaei-bres-thn-tribh-kai-are-thn",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Όταν ο μηχανισμός ενός ξύλινου μοντέλου κολλάει, συνήθως δεν φταίει ένα ελαττωματικό κομμάτι, αλλά η <strong>τριβή</strong>: δύο κομμάτια πιέζονται μεταξύ τους περισσότερο απ’ όσο πρέπει. Αρκεί να βρεις το σημείο και να μετριάσεις την τριβή, δεν χρειάζεται να αποσυναρμολογήσεις το μοντέλο. Θα σου δείξουμε πώς."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Το σημείο θα το βρεις γυρνώντας αργά και παρατηρώντας προσεκτικά πού αυξάνεται η αντίσταση ή ακούγεται τρίξιμο. Έπειτα το μετριάζουμε με πράγματα που συνήθως υπάρχουν στο σπίτι και σου λέμε πότε η αιτία είναι ένα κακοτοποθετημένο κομμάτι και πώς θα το διορθώσεις. Στο τέλος ελέγχεις αν όλα κινούνται ομαλά."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Πώς θα βρεις το σημείο όπου τρίβονται τα κομμάτια",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Η <em>τριβή</em> είναι η αντίσταση που δημιουργείται όταν δύο επιφάνειες πιέζονται μεταξύ τους κατά την κίνηση. Σε ένα μοντέλο με γρανάζια (το γρανάζι είναι ένα στρογγυλό κομμάτι με δόντια που εμπλέκεται με το επόμενο και μεταφέρει την κίνηση) μπορεί να κρύβεται σε πολλά σημεία ταυτόχρονα, γι’ αυτό μην αποσυναρμολογείς τίποτα μέχρι να ξέρεις πού να ψάξεις."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Γύρνα τον μηχανισμό <strong>αργά</strong> και όχι με δύναμη μέχρι τέρμα. Πρόσεξε αν η αντίσταση είναι ίδια σε όλη την περιστροφή ή αυξάνεται μόνο σε μία θέση. Η αντίσταση σε μία θέση δείχνει συγκεκριμένο δόντι ή κομμάτι.",
+            "items": []
+          },
+          {
+            "content": "Σε κάθε γρανάζι στο οποίο φτάνεις, δοκίμασε να το γυρίσεις ξεχωριστά με το δάχτυλο. Ένα γρανάζι που κινείται πιο δύσκολα από τα άλλα είναι ύποπτο.",
+            "items": []
+          },
+          {
+            "content": "Άκου. Το τρίξιμο ή το ξύσιμο και τα σημεία όπου η κίνηση σταματά για λίγο αποκαλύπτουν πού πιέζονται τα κομμάτια μεταξύ τους.",
+            "items": []
+          },
+          {
+            "content": "Έλεγξε αν κάποιο κομμάτι είναι σηκωμένο ή τοποθετημένο στραβά. Μια άκρη που τρίβεται στο διπλανό κομμάτι φαίνεται συχνά όταν κοιτάς από το πλάι.",
+            "items": []
+          },
+          {
+            "content": "Σημείωσε το ύποπτο σημείο, ώστε μετά την επέμβαση να μπορείς να συγκρίνεις αν άλλαξε η αντίσταση.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Συμβουλή:</strong> Αν οι οδηγίες σημειώνουν σημεία για κερί, ακολούθησε εκείνες και όχι την εκτίμησή σου. Το κερί σε λάθος σημείο ή σε υπερβολική ποσότητα μπορεί να κάνει τα κομμάτια να εφαρμόζουν χειρότερα.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Με τι μειώνεις την τριβή",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Για τα περισσότερα προβλήματα αρκούν πράγματα που συνήθως υπάρχουν στο σπίτι. Ξεκίνα από το πιο ήπιο και μετά από κάθε επέμβαση γύρνα ξανά τον μηχανισμό, για να δεις αν βοήθησε."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Βοήθημα</th><th>Πού ταιριάζει</th><th>Τι να προσέξεις</th></tr></thead><tbody><tr><td>Λεπτό γυαλόχαρτο</td><td>μικρές ανωμαλίες στις άκρες ενός κομματιού που πιέζεται σε άλλο</td><td>τρίψε μόνο ελαφρά· το υπερβολικό τρίψιμο χαλαρώνει τις συνδέσεις που πρέπει να κρατούν</td></tr><tr><td>Κερί μέλισσας ή κεράκι</td><td>δόντια γραναζιών και κινούμενα μέρη</td><td>μόνο πολύ λεπτό στρώμα, που το περνάς ελαφρά</td></tr><tr><td>Μαλακό πανί</td><td>σκούπισμα του περιττού κεριού</td><td>σκούπιζε μετά από κάθε εφαρμογή, ώστε να μη μένει επίστρωση στα κομμάτια</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Τι είναι καλύτερο να αποφύγεις: λάδια, λιπαρά σπρέι και γυαλιστικά επίπλων. Μπορεί να λεκιάσουν το ξύλο, να κρατήσουν σκόνη και να κολλήσουν έναν σφιχτό μηχανισμό."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Περνάς κερί μόνο εκεί όπου τα κομμάτια κινούνται το ένα πάνω στο άλλο ή σε σημεία που σημειώνουν οι οδηγίες. Αν βάλεις κερί παντού μαζί, μένει επίστρωση και μπορεί να χειροτερέψει η ακρίβεια των συνδέσεων. Μερικές φορές η τριβή φεύγει με δύο προσπάθειες: μετά την πρώτη εφαρμογή δοκίμασε τον μηχανισμό και πρόσθεσε κερί μόνο εκεί όπου ακόμη πιάνει."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Όταν η αιτία δεν είναι η τριβή: ένα κακοτοποθετημένο κομμάτι",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Ένα κακοτοποθετημένο κομμάτι</em> είναι ένα κομμάτι που βρίσκεται στο μοντέλο, αλλά δεν κάθεται ακριβώς εκεί που πρέπει: ο άξονας δεν έχει μπει μέχρι τέρμα, ένα γρανάζι είναι γυρισμένο ανάποδα από ό,τι δείχνουν οι οδηγίες ή ένας πείρος δεν έχει πατηθεί ως το τέλος. Ο μηχανισμός τότε κολλάει, ακόμη κι αν καμία επιφάνεια δεν τρίβεται άσκοπα, και το κερί σε αυτή την περίπτωση δεν βοηθά."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Βρες στις οδηγίες το βήμα όπου προστέθηκε το κομμάτι και σύγκρινε τη θέση του με την εικόνα.",
+            "items": []
+          },
+          {
+            "content": "Έλεγξε αν ο άξονας έχει μπει μέχρι τέρμα και στις δύο οπές και αν δεν προεξέχει από τη μία πλευρά περισσότερο απ’ ό,τι από την άλλη.",
+            "items": []
+          },
+          {
+            "content": "Βεβαιώσου ότι το κομμάτι δεν είναι γυρισμένο ανάποδα ούτε ανταλλαγμένο με παρόμοιο κομμάτι.",
+            "items": []
+          },
+          {
+            "content": "Βγάλε το κομμάτι προσεκτικά και βάλε το ξανά. Αν πρέπει να το πιέσεις με δύναμη, κάτι το εμποδίζει: έλεγξε την άκρη του και λείανέ την ελαφρά. Οι λεπτοί πείροι σπάνε υπό πίεση.",
+            "items": []
+          },
+          {
+            "content": "Αν το κομμάτι δεν βγαίνει χωρίς να σπάσει, μη χρησιμοποιήσεις δύναμη. Δοκίμασε να το κινήσεις απαλά από πλευρά σε πλευρά και βρες τι το κρατά.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Μια άλλη πιθανή αιτία είναι η υγρασία. Το ξύλο απορροφά υγρασία από τον αέρα και φουσκώνει ελαφρά, οπότε σε ένα υγρό δωμάτιο τα κομμάτια μπορεί να πιέζονται περισσότερο μεταξύ τους. Αν ο μηχανισμός άρχισε να κολλάει μόλις μετά από καιρό, μετακίνησε το μοντέλο μακριά από υγρές γωνιές και από το άμεσο ηλιακό φως."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Πώς ελέγχεις ότι ο μηχανισμός κινείται ομαλά",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Ένα καλό τεστ είναι αυτό που δεν εξαρτάται από την αίσθηση. Πέρασε από αυτά τα σημεία πριν κλείσεις το μοντέλο ή το βάλεις στο ράφι."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Γύρνα τον μηχανισμό έναν ολόκληρο κύκλο χωρίς να σταματήσεις. Η κίνηση πρέπει να είναι ομοιόμορφη, χωρίς σημείο όπου χρειάζεται να πιέσεις.",
+            "items": []
+          },
+          {
+            "content": "Επανάλαβε λίγο πιο γρήγορα. Αν κολλάει μόνο σε πιο γρήγορο ρυθμό, ψάξε ένα κομμάτι που για λίγο καθυστερεί κατά την κίνηση.",
+            "items": []
+          },
+          {
+            "content": "Έλεγξε τον μηχανισμό ξανά μετά από μερικές ώρες και την επόμενη μέρα. Κάποια προβλήματα φαίνονται μόνο με τον καιρό.",
+            "items": []
+          },
+          {
+            "content": "Αν ακουστεί τρίξιμο, πρόσθεσε μικρή ποσότητα κεριού στο σημείο από όπου βγαίνει ο ήχος.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Πώς θα αποφύγεις το κόλλημα στο επόμενο μοντέλο",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Την τριβή τη λύνεις πιο εύκολα στην πορεία, κατά τη διάρκεια της κατασκευής, και όχι μόνο μετά. Βοηθήματα όπως το γυαλόχαρτο και η τσιμπίδα υπάρχουν στο <a href=\"/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl\">άρθρο για τα εργαλεία συναρμολόγησης</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Μετά από κάθε βήμα που προσθέτει γρανάζι ή άξονα, γύρνα τον μηχανισμό. Έτσι εντοπίζεις το κόλλημα αμέσως και είναι σαφές ποιο κομμάτι το προκάλεσε.",
+            "items": []
+          },
+          {
+            "content": "Περιποιήσου τα κινούμενα σημεία με κερί ήδη κατά τη συναρμολόγηση, γιατί στο έτοιμο μοντέλο είναι κρυμμένα και δύσκολα προσβάσιμα.",
+            "items": []
+          },
+          {
+            "content": "Πριν από τη συναρμολόγηση πέρασε το δάχτυλο πάνω από τις άκρες των κομματιών που θα γυρίζουν ή θα ολισθαίνουν και λείανε ελαφρά τις μικρές ανωμαλίες.",
+            "items": []
+          },
+          {
+            "content": "Αν οι οδηγίες δείχνουν σημεία για κέρωμα, κέρωσε μόνο εκείνα και άφησε τα υπόλοιπα χωρίς επεξεργασία.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν μετά την επισκευή σε δελεάσει ένα ακόμη μηχανικό μοντέλο, δες το <a href=\"/ksylino-trisdiastato-pazl/rologia-hmerologia/ksylino-mhxaniko-trisdiastato-pazl-roloi-toixoy-zodiac-rokr-lc601-p52\">Ξύλινο μηχανικό τρισδιάστατο παζλ - Ρολόι τοίχου Zodiac ROKR LC601</a>. Σύμφωνα με τα στοιχεία του καταστήματος έχει 168 κομμάτια και η συναρμολόγηση διαρκεί περίπου 4 ώρες."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/ksylino-trisdiastato-pazl/rologia-hmerologia/ksylino-mhxaniko-trisdiastato-pazl-roloi-toixoy-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Ξύλινο μηχανικό τρισδιάστατο παζλ - Ρολόι τοίχου Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/ksylino-trisdiastato-pazl/rologia-hmerologia/ksylino-mhxaniko-trisdiastato-pazl-roloi-toixoy-zodiac-rokr-lc601-p52\">Ξύλινο μηχανικό τρισδιάστατο παζλ - Ρολόι τοίχου Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Αριθμός κομματιών: 168</li>\n      <li>Χρόνος συναρμολόγησης: 4 ώρες</li>\n      <li>Δυσκολία: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/ksylino-trisdiastato-pazl/rologia-hmerologia/ksylino-mhxaniko-trisdiastato-pazl-roloi-toixoy-zodiac-rokr-lc601-p52\">Δες το σετ</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Συχνές ερωτήσεις",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Τι κάνω αν ο μηχανισμός κολλάει και μετά το κέρωμα;</h3>\n    <p style=\"margin:0;\">Το κερί λύνει μόνο την τριβή. Έλεγξε αν κάποιο κομμάτι είναι κακοτοποθετημένο: ο άξονας πρέπει να έχει μπει μέχρι τέρμα, το γρανάζι να είναι σωστά γυρισμένο και ο πείρος πατημένος ως το τέλος.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Γιατί το μοντέλο κόλλησε μόλις μετά από μερικές μέρες;</h3>\n    <p style=\"margin:0;\">Η αιτία μπορεί να είναι η υγρασία: το ξύλο απορροφά νερό από τον αέρα και φουσκώνει ελαφρά. Μετακίνησε το μοντέλο μακριά από υγρές γωνιές και από το άμεσο ηλιακό φως.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Μπορώ να γυρίσω τον μηχανισμό με δύναμη όταν κινείται δύσκολα;</h3>\n    <p style=\"margin:0;\">Καλύτερα όχι. Ένας λεπτός πείρος λυγίζει ή σπάει υπό πίεση. Βρες πρώτα το σημείο τριβής και άρε την αιτία.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Η εικόνα εξωφύλλου είναι εικονογράφηση, δημιουργημένη από τεχνητή νοημοσύνη.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Ξύλινο μηχανικό τρισδιάστατο παζλ - Ρολόι τοίχου Zodiac ROKR LC601",
+      "path": "/ksylino-trisdiastato-pazl/rologia-hmerologia/ksylino-mhxaniko-trisdiastato-pazl-roloi-toixoy-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Η εικόνα εξωφύλλου είναι εικονογράφηση, δημιουργημένη από τεχνητή νοημοσύνη."
+  }
+}

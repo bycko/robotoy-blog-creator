@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "es",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "El mecanismo se atasca: cómo hallar la fricción y quitarla",
+  "description": "Que el mecanismo de un modelo de madera se atasque suele deberse a la fricción entre piezas, no a una pieza defectuosa. Te mostramos cómo hallar el punto sin desmontar y con qué aliviarlo.",
+  "seo_title": "Mecanismo atascado en un modelo de madera: causas y solución",
+  "seo_description": "Cómo encontrar dónde rozan las piezas de un modelo de madera, reducir la fricción con cosas de casa y saber cuándo hay una pieza mal colocada.",
+  "slug": "el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Cuando el mecanismo de un modelo de madera se atasca, casi nunca es por una pieza defectuosa, sino por la <strong>fricción</strong>: dos piezas se presionan entre sí más de lo debido. Basta con encontrar ese punto y reducir la fricción, sin desmontar el modelo. Te mostramos cómo hacerlo."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "El punto lo encuentras girando despacio y observando con atención dónde aumenta la resistencia o se oye un roce. Después lo aliviamos con cosas que suele haber en casa, y te decimos cuándo la causa es una pieza mal colocada y cómo corregirla. Al final compruebas que todo funciona con fluidez."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Cómo encontrar el punto donde las piezas rozan",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "La <em>fricción</em> es la resistencia que aparece cuando dos superficies se presionan entre sí al moverse. En un modelo con engranajes (un engranaje es una pieza redonda con dientes que encaja con la siguiente y transmite el movimiento) puede esconderse en varios puntos a la vez, así que no desmontes nada hasta saber dónde buscar."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Gira el mecanismo <strong>despacio</strong> y no a la fuerza hasta el tope. Fíjate en si la resistencia es igual durante toda la vuelta o solo aumenta en una posición. La resistencia en una posición señala un diente o una pieza concretos.",
+            "items": []
+          },
+          {
+            "content": "En cada rueda a la que llegues, prueba a girarla por separado con el dedo. Una rueda que se mueve con más dificultad que las demás es sospechosa.",
+            "items": []
+          },
+          {
+            "content": "Escucha. Un roce o un chirrido, y los puntos donde el movimiento se detiene un momento, delatan dónde se presionan las piezas.",
+            "items": []
+          },
+          {
+            "content": "Comprueba si alguna pieza está levantada o mal encajada. Un borde que roza con la pieza vecina suele verse mirando de lado.",
+            "items": []
+          },
+          {
+            "content": "Marca el punto sospechoso para poder comparar, después de tu intervención, si la resistencia ha cambiado.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consejo:</strong> Si las instrucciones marcan los puntos donde encerar, síguelas y no te guíes por tu intuición. La cera en el lugar equivocado o en exceso puede hacer que las piezas encajen peor.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Con qué reducir la fricción",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Para la mayoría de los problemas bastan cosas que suele haber en casa. Empieza por lo más suave y vuelve a girar el mecanismo tras cada intervención para ver si ha ayudado."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Utensilio</th><th>Dónde conviene</th><th>A qué prestar atención</th></tr></thead><tbody><tr><td>Papel de lija fino</td><td>pequeñas irregularidades en los bordes de una pieza que presiona contra otra</td><td>lija solo ligeramente; lijar demasiado afloja las uniones que deben sujetar</td></tr><tr><td>Cera de abeja o vela</td><td>dientes de los engranajes y piezas deslizantes</td><td>solo una capa muy fina, aplicada con suavidad</td></tr><tr><td>Paño suave</td><td>limpiar el exceso de cera</td><td>limpia tras cada aplicación para que no quede residuo en las piezas</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Lo que es mejor evitar: aceites, aerosoles grasos y abrillantadores para muebles. Pueden manchar la madera, atraer polvo y pegar un mecanismo ajustado."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Aplica la cera solo donde las piezas se mueven una contra otra, o en los puntos que marcan las instrucciones. Encerar todo de una vez deja residuo y puede empeorar la precisión de las uniones. A veces la fricción se elimina en dos intentos: tras el primer encerado, prueba el mecanismo y añade cera solo donde todavía roza."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Cuando la causa no es la fricción: una pieza mal colocada",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Una pieza mal colocada</em> es una pieza que está en el modelo, pero no encaja del todo donde debe: un eje no está metido hasta el tope, una rueda está girada al revés de lo que indican las instrucciones, o una clavija no está bien presionada. El mecanismo se atasca entonces aunque ninguna superficie roce de más, y la cera no ayuda en ese caso."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Busca en las instrucciones el paso en el que se añadió la pieza y compara su posición con la imagen.",
+            "items": []
+          },
+          {
+            "content": "Comprueba que el eje esté metido hasta el tope en ambos orificios y que no sobresalga más por un lado que por el otro.",
+            "items": []
+          },
+          {
+            "content": "Verifica que la pieza no esté puesta al revés ni cambiada por otra parecida.",
+            "items": []
+          },
+          {
+            "content": "Saca la pieza con cuidado y colócala de nuevo. Si tienes que forzarla, algo se lo impide: revisa su borde y alísalo ligeramente. Las clavijas finas se rompen bajo presión.",
+            "items": []
+          },
+          {
+            "content": "Si la pieza no se puede sacar sin romperla, no uses la fuerza. Intenta moverla con suavidad de un lado a otro y averigua qué la sujeta.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Otra causa posible es la humedad. La madera absorbe la humedad del aire y se hincha un poco, de modo que en una habitación húmeda las piezas pueden presionarse más entre sí. Si el mecanismo se atascó pasado un tiempo, aleja el modelo de los rincones húmedos y del sol directo."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Cómo comprobar que el mecanismo funciona con fluidez",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Una buena prueba es la que no depende de la sensación. Repasa estos puntos antes de cerrar el modelo o ponerlo en la estantería."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Gira el mecanismo un ciclo completo sin detenerte. El movimiento debe ser uniforme, sin ningún punto en el que tengas que empujar.",
+            "items": []
+          },
+          {
+            "content": "Repítelo un poco más rápido. Si se atasca solo a un ritmo mayor, busca una pieza que se retrase un instante durante el movimiento.",
+            "items": []
+          },
+          {
+            "content": "Vuelve a comprobar el mecanismo al cabo de unas horas y al día siguiente. Algunos problemas solo aparecen con el tiempo.",
+            "items": []
+          },
+          {
+            "content": "Si se oye un chirrido, añade una pequeña cantidad de cera en el punto de donde viene el sonido.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Cómo evitar que se atasque en el próximo modelo",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "La fricción se resuelve con más facilidad sobre la marcha, durante el montaje, y no solo después. Utensilios como la lija y las pinzas los encontrarás en el <a href=\"/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera\">artículo sobre herramientas de montaje</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Después de cada paso que añada una rueda o un eje, gira el mecanismo. Así detectas el atasco enseguida y sabes qué pieza lo causó.",
+            "items": []
+          },
+          {
+            "content": "Trata con cera los puntos móviles ya durante el montaje, porque en el modelo terminado quedan ocultos y son de difícil acceso.",
+            "items": []
+          },
+          {
+            "content": "Antes de montar, pasa el dedo por los bordes de las piezas que van a girar o deslizarse, y lija ligeramente las pequeñas irregularidades.",
+            "items": []
+          },
+          {
+            "content": "Si las instrucciones muestran puntos para encerar, encera solo esos y deja el resto sin tratar.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Si tras la reparación te tienta otro modelo mecánico, echa un vistazo a <a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/puzzle-3d-mecanico-de-madera-reloj-de-pared-zodiac-rokr-lc601-p52\">Puzzle 3D mecánico de madera - Reloj de pared Zodiac ROKR LC601</a>. Según los datos de la tienda tiene 168 piezas y su montaje dura unas 4 horas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/puzzle-3d-mecanico-de-madera-reloj-de-pared-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Puzzle 3D mecánico de madera - Reloj de pared Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/puzzle-3d-mecanico-de-madera-reloj-de-pared-zodiac-rokr-lc601-p52\">Puzzle 3D mecánico de madera - Reloj de pared Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Número de piezas: 168</li>\n      <li>Tiempo de montaje: 4 h</li>\n      <li>Dificultad: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/puzzle-3d-mecanico-de-madera-reloj-de-pared-zodiac-rokr-lc601-p52\">Ver el kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Preguntas frecuentes",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Qué hacer si el mecanismo se atasca incluso después de encerar?</h3>\n    <p style=\"margin:0;\">La cera solo resuelve la fricción. Comprueba si hay una pieza mal colocada: el eje debe estar metido hasta el tope, la rueda bien orientada y la clavija bien presionada.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Por qué el modelo se atascó solo al cabo de unos días?</h3>\n    <p style=\"margin:0;\">Puede deberse a la humedad: la madera absorbe agua del aire y se hincha ligeramente. Aleja el modelo de los rincones húmedos y del sol directo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Puedo girar el mecanismo a la fuerza cuando cuesta?</h3>\n    <p style=\"margin:0;\">Mejor no. Una clavija fina se dobla o se rompe bajo presión. Primero encuentra el punto de fricción y elimina la causa.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>La imagen de portada es ilustrativa y la ha creado una inteligencia artificial.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Puzzle 3D mecánico de madera - Reloj de pared Zodiac ROKR LC601",
+      "path": "/rompecabezas-3d-de-madera/relojes-y-calendarios/puzzle-3d-mecanico-de-madera-reloj-de-pared-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "La imagen de portada es ilustrativa y la ha creado una inteligencia artificial."
+  }
+}

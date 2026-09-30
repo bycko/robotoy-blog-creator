@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "pt",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mecanismo a prender: como encontrar o atrito e eliminá-lo",
+  "description": "Quando o mecanismo de um modelo de madeira prende, o mais frequente é o atrito entre as peças, não uma peça defeituosa. Mostramos como encontrar o ponto sem desmontar e o que o atenua.",
+  "seo_title": "Mecanismo a prender num modelo de madeira: causas e solução",
+  "seo_description": "Descobre onde as peças de um modelo de madeira roçam, reduz o atrito com coisas de casa e reconhece uma peça mal assente. Guia para o teu primeiro modelo.",
+  "slug": "mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Quando o mecanismo de um modelo de madeira prende, normalmente não é uma peça defeituosa, mas sim o <strong>atrito</strong>: duas peças pressionam-se uma contra a outra mais do que deviam. Basta encontrar esse ponto e atenuar o atrito, sem desmontar o modelo. Mostramos-te como."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "O ponto encontras ao rodar devagar e ao observar com atenção onde a resistência aumenta ou se ouve um rangido. Depois atenuamo-lo com coisas que costumam existir em casa e dizemos-te quando a causa é uma peça mal assente e como a corrigir. No fim, verificas que tudo corre com fluidez."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Como encontrar o ponto onde as peças roçam",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "O <em>atrito</em> é a resistência que surge quando duas superfícies se pressionam uma contra a outra durante o movimento. Num modelo com engrenagens (uma engrenagem é uma peça redonda com dentes que encaixa na seguinte e transmite o movimento) pode esconder-se em vários pontos ao mesmo tempo, por isso não desmontes nada até saberes onde procurar."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Roda o mecanismo <strong>devagar</strong> e não à força até ao limite. Repara se a resistência é igual durante toda a volta ou se aumenta apenas numa posição. A resistência numa posição aponta para um dente ou uma peça em concreto.",
+            "items": []
+          },
+          {
+            "content": "Em cada roda a que consigas chegar, experimenta rodá-la separadamente com um dedo. Uma roda que anda mais dura do que as outras é suspeita.",
+            "items": []
+          },
+          {
+            "content": "Ouve. Um rangido ou um chiar, e os pontos em que o movimento pára por um instante, revelam onde as peças se pressionam uma contra a outra.",
+            "items": []
+          },
+          {
+            "content": "Verifica se alguma peça está levantada ou assente de lado. Um rebordo que roça na peça vizinha vê-se muitas vezes olhando de lado.",
+            "items": []
+          },
+          {
+            "content": "Marca o ponto suspeito para poderes comparar, depois da intervenção, se a resistência mudou.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Dica:</strong> Se as instruções marcam os pontos a encerar, segue-as e não a tua estimativa. Cera no sítio errado ou em excesso pode fazer com que as peças encaixem pior.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Com que reduzir o atrito",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Para a maioria dos problemas bastam coisas que costumam existir em casa. Começa pelo mais suave e roda novamente o mecanismo depois de cada intervenção, para veres se ajudou."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Auxiliar</th><th>Onde convém</th><th>A que prestar atenção</th></tr></thead><tbody><tr><td>Lixa fina</td><td>pequenas irregularidades nos bordos de uma peça que pressiona outra</td><td>lixa apenas ao de leve; lixar demasiado solta as uniões que devem segurar</td></tr><tr><td>Cera de abelha ou vela</td><td>dentes das engrenagens e peças deslizantes</td><td>apenas uma camada muito fina, aplicada com suavidade</td></tr><tr><td>Pano macio</td><td>limpar o excesso de cera</td><td>limpa depois de cada aplicação para não ficar resíduo nas peças</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "O que é melhor evitar: óleos, sprays gordurosos e produtos de polimento para móveis. Podem manchar a madeira, reter pó e colar um mecanismo justo."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Aplica a cera apenas onde as peças se movem umas contra as outras ou nos pontos que as instruções marcam. Encerar tudo de uma só vez deixa resíduo e pode piorar a precisão das uniões. Por vezes o atrito elimina-se em duas tentativas: depois da primeira enceragem, testa o mecanismo e acrescenta cera apenas onde ainda prende."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Quando a causa não é o atrito: uma peça mal assente",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Uma peça mal assente</em> é uma peça que está no modelo, mas não está bem onde devia: um eixo não está encaixado até ao fim, uma roda está virada ao contrário do que indicam as instruções, ou um pino não está bem pressionado. O mecanismo prende então, embora nenhuma superfície roce em excesso, e a cera não ajuda neste caso."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Encontra nas instruções o passo em que a peça foi acrescentada e compara a sua posição com a imagem.",
+            "items": []
+          },
+          {
+            "content": "Verifica se o eixo está encaixado até ao fim nos dois orifícios e se não sobressai mais de um lado do que do outro.",
+            "items": []
+          },
+          {
+            "content": "Confirma que a peça não está virada ao contrário nem trocada por uma semelhante.",
+            "items": []
+          },
+          {
+            "content": "Retira a peça com cuidado e volta a colocá-la. Se tiveres de a forçar, alguma coisa a impede: verifica o seu bordo e alisa-o ligeiramente. Os pinos finos partem-se sob pressão.",
+            "items": []
+          },
+          {
+            "content": "Se a peça não sair sem partir, não uses força. Tenta movê-la com suavidade de um lado para o outro e descobre o que a prende.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Outra causa possível é a humidade. A madeira absorve a humidade do ar e incha ligeiramente, por isso numa divisão húmida as peças podem pressionar-se mais umas contra as outras. Se o mecanismo começou a prender só passado algum tempo, afasta o modelo de cantos húmidos e do sol direto."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Como verificar que o mecanismo corre com fluidez",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Um bom teste é aquele que não depende da sensação. Percorre estes pontos antes de fechar o modelo ou de o pôr na prateleira."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Faz o mecanismo dar um ciclo completo sem parar. O movimento deve ser uniforme, sem nenhum ponto em que tenhas de empurrar.",
+            "items": []
+          },
+          {
+            "content": "Repete um pouco mais depressa. Se só prende a um ritmo mais alto, procura uma peça que se atrasa por um instante durante o movimento.",
+            "items": []
+          },
+          {
+            "content": "Verifica o mecanismo outra vez passadas algumas horas e no dia seguinte. Alguns problemas só aparecem com o tempo.",
+            "items": []
+          },
+          {
+            "content": "Se se ouvir um rangido, acrescenta uma pequena quantidade de cera no ponto de onde vem o som.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Como evitar que prenda no próximo modelo",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "O atrito resolve-se com mais facilidade pelo caminho, durante a montagem, e não só depois. Auxiliares como a lixa e a pinça encontras no <a href=\"/blogue/10-ferramentas-que-voce-precisa-ao-montar-um-quebra-cabeca-3d-de-madeira\">artigo sobre ferramentas de montagem</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Depois de cada passo que acrescenta uma roda ou um eixo, roda o mecanismo. Assim descobres logo o problema e sabes que peça o causou.",
+            "items": []
+          },
+          {
+            "content": "Trata os pontos móveis com cera já durante a montagem, porque no modelo acabado ficam escondidos e de difícil acesso.",
+            "items": []
+          },
+          {
+            "content": "Antes de montar, passa o dedo pelos bordos das peças que vão rodar ou deslizar e lixa ao de leve as pequenas irregularidades.",
+            "items": []
+          },
+          {
+            "content": "Se as instruções mostram pontos para encerar, encera só esses e deixa o resto sem tratamento.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Se depois da reparação te tentar outro modelo mecânico, vê <a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-3d-mecanico-de-madeira-relogio-de-parede-zodiac-rokr-lc601-p52\">Quebra-cabeça 3D mecânico de madeira - Relógio de parede Zodiac ROKR LC601</a>. Segundo os dados da loja tem 168 peças e a montagem demora cerca de 4 horas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-3d-mecanico-de-madeira-relogio-de-parede-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Quebra-cabeça 3D mecânico de madeira - Relógio de parede Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-3d-mecanico-de-madeira-relogio-de-parede-zodiac-rokr-lc601-p52\">Quebra-cabeça 3D mecânico de madeira - Relógio de parede Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Número de peças: 168</li>\n      <li>Tempo de montagem: 4 h</li>\n      <li>Dificuldade: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-3d-mecanico-de-madeira-relogio-de-parede-zodiac-rokr-lc601-p52\">Ver o kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Perguntas frequentes",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">O que fazer se o mecanismo prende mesmo depois de encerar?</h3>\n    <p style=\"margin:0;\">A cera resolve apenas o atrito. Verifica se uma peça está mal assente: o eixo tem de estar encaixado até ao fim, a roda bem orientada e o pino bem pressionado.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Porque é que o modelo só prendeu passados alguns dias?</h3>\n    <p style=\"margin:0;\">A causa pode ser a humidade: a madeira absorve água do ar e incha ligeiramente. Afasta o modelo de cantos húmidos e do sol direto.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Posso rodar o mecanismo à força quando anda duro?</h3>\n    <p style=\"margin:0;\">É melhor não. Um pino fino dobra-se ou parte-se sob pressão. Primeiro encontra o ponto de atrito e elimina a causa.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>A imagem de capa é ilustrativa e foi criada por inteligência artificial.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Quebra-cabeça 3D mecânico de madeira - Relógio de parede Zodiac ROKR LC601",
+      "path": "/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-3d-mecanico-de-madeira-relogio-de-parede-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogue/10-ferramentas-que-voce-precisa-ao-montar-um-quebra-cabeca-3d-de-madeira",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "A imagem de capa é ilustrativa e foi criada por inteligência artificial."
+  }
+}

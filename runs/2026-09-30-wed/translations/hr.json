@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "hr",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mehanizam se zaglavljuje: kako pronaći trenje i ukloniti ga",
+  "description": "Zaglavljivanje mehanizma u drvenom modelu najčešće je trenje među dijelovima, a ne neispravan dio. Pokazat ćemo kako pronaći mjesto bez rastavljanja i čime ga ublažiti.",
+  "seo_title": "Zaglavljivanje mehanizma u drvenom modelu: uzroci i rješenje",
+  "seo_description": "Kako pronaći mjesto na kojem se dijelovi drvenog modela trljaju, smanjiti trenje stvarima iz kućanstva i prepoznati loše namješten dio.",
+  "slug": "mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Kad se mehanizam u drvenom modelu zaglavljuje, najčešće nije riječ o neispravnom dijelu, nego o <strong>trenju</strong>: dva se dijela guraju jedan o drugi jače nego što bi trebali. Dovoljno je pronaći to mjesto i ublažiti trenje, model ne moraš rastavljati. Pokazat ćemo ti kako."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Mjesto trenja pronaći ćeš sporim okretanjem i pozornim promatranjem gdje otpor raste ili se javlja struganje. Zatim ga ublažavamo stvarima koje obično imaš kod kuće i kažemo ti kada je uzrok loše namješten dio i kako ga popraviti. Na kraju provjeriš radi li sve glatko."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Kako pronaći mjesto na kojem se dijelovi trljaju",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Trenje</em> je otpor koji nastaje kad se dvije površine pri kretanju guraju jedna o drugu. U modelu sa zupčanicima (zupčanik je okrugli dio sa zubima koji zahvaća sljedeći i prenosi gibanje) može se skrivati na više mjesta istodobno, zato ništa ne rastavljaj dok ne znaš gdje tražiti."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mehanizam okreći <strong>polako</strong>, a ne silom do kraja. Primijeti je li otpor jednak tijekom cijelog okretaja ili raste samo u jednom položaju. Otpor u jednom položaju upućuje na određeni zub ili dio.",
+            "items": []
+          },
+          {
+            "content": "Kod svakog kotača do kojeg možeš doći pokušaj prstom zasebno okrenuti baš njega. Kotač koji ide teže od ostalih je sumnjiv.",
+            "items": []
+          },
+          {
+            "content": "Slušaj. Struganje ili škripa te mjesta na kojima se kretanje na trenutak zaustavi otkrivaju gdje se dijelovi guraju jedan o drugi.",
+            "items": []
+          },
+          {
+            "content": "Provjeri nije li neki dio podignut ili krivo namješten. Rub koji se trlja o susjedni dio često ćeš vidjeti pogledom sa strane.",
+            "items": []
+          },
+          {
+            "content": "Sumnjivo mjesto označi kako bi nakon zahvata mogao usporediti je li se otpor promijenio.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Savjet:</strong> Ako upute označavaju mjesta za voskanje, drži se njih, a ne procjene. Vosak na pogrešnom mjestu ili previše voska može uzrokovati da dijelovi lošije priliježu.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Čime smanjiti trenje",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Za većinu problema dovoljne su stvari koje obično imaš kod kuće. Počni s najblažom i nakon svakog zahvata ponovno okreni mehanizam da vidiš je li pomoglo."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pomagalo</th><th>Gdje pomaže</th><th>Na što paziti</th></tr></thead><tbody><tr><td>Fini brusni papir</td><td>sitne neravnine na rubovima dijela koji se guraju o drugi</td><td>brusi samo lagano; previše brušenja olabavi spojeve koji trebaju držati</td></tr><tr><td>Pčelinji vosak ili svijeća</td><td>zubi zupčanika i pomični dijelovi</td><td>samo vrlo tanak sloj koji nanosiš lagano</td></tr><tr><td>Mekana krpica</td><td>brisanje viška voska</td><td>obriši nakon svakog nanošenja da na dijelovima ne ostane premaz</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Što je bolje izbjegavati: ulja, masnih sprejeva i sredstava za poliranje namještaja. Mogu obojiti drvo, hvatati prašinu i zalijepiti tijesan mehanizam."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Vosak nanosi samo tamo gdje se dijelovi pomiču jedan prema drugome ili na mjesta koja označuju upute. Voskanje svega odjednom ostavlja premaz i može pogoršati preciznost spojeva. Trenje se ponekad ukloni u dva pokušaja: nakon prvog voskanja isprobaj mehanizam i dodaj vosak samo tamo gdje još zapinje."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kad uzrok nije trenje: loše namješten dio",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Loše namješten dio</em> je dio koji u modelu jest, ali ne sjedi sasvim tamo gdje pripada: os nije ugurana do kraja, kotač je okrenut suprotno od onoga što pokazuju upute ili čep nije dotisnut. Mehanizam se tada zaglavljuje iako nijedna površina ne trlja nepotrebno, a vosak u tom slučaju ne pomaže."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pronađi u uputama korak u kojem je dio dodan i usporedi njegov položaj sa slikom.",
+            "items": []
+          },
+          {
+            "content": "Provjeri je li os ugurana u oba otvora do kraja i ne viri li s jedne strane više nego s druge.",
+            "items": []
+          },
+          {
+            "content": "Provjeri nije li dio okrenut obrnuto ili zamijenjen sličnim dijelom.",
+            "items": []
+          },
+          {
+            "content": "Pažljivo izvuci dio i ponovno ga namjesti. Ako ga moraš dotiskivati, nešto ga sprječava: provjeri njegov rub i lagano ga izgladi. Tanki čepovi pucaju pod pritiskom.",
+            "items": []
+          },
+          {
+            "content": "Ako se dio ne može izvući bez lomljenja, ne primjenjuj silu. Pokušaj ga nježno pomicati sa strane na stranu i otkrij što ga drži.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Drugi mogući uzrok je vlaga. Drvo upija vlagu iz zraka i blago nabubri, pa se u vlažnoj prostoriji dijelovi mogu jače gurati jedan o drugi. Ako se mehanizam zaglavio tek nakon nekog vremena, premjesti model dalje od vlažnih kutova i izravnog sunca."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kako provjeriti radi li mehanizam glatko",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Dobar test je onaj koji ne ovisi o osjećaju. Prođi ove točke prije nego što model zatvoriš ili staviš na policu."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Okreni mehanizam kroz cijeli ciklus bez zaustavljanja. Kretanje treba biti ravnomjerno, bez mjesta na kojem moraš pritisnuti.",
+            "items": []
+          },
+          {
+            "content": "Ponovi malo brže. Ako se zaglavi tek pri višem tempu, traži dio koji na trenutak zaostaje tijekom kretanja.",
+            "items": []
+          },
+          {
+            "content": "Provjeri mehanizam još jednom nakon nekoliko sati i sljedeći dan. Neki se problemi pokažu tek s vremenom.",
+            "items": []
+          },
+          {
+            "content": "Ako se javi škripa, dodaj malu količinu voska na mjesto odakle zvuk dolazi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Kako izbjeći zaglavljivanje kod sljedećeg modela",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Trenje se najlakše rješava usput, tijekom gradnje, a ne tek nakon nje. Pomagala poput brusnog papira i pincete naći ćeš u <a href=\"/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice\">članku o alatima za slaganje</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Nakon svakog koraka koji dodaje kotač ili os okreni mehanizam. Tako zaglavljivanje otkrivaš odmah i jasno je koji ga je dio uzrokovao.",
+            "items": []
+          },
+          {
+            "content": "Pomična mjesta obradi voskom već tijekom slaganja jer su u gotovom modelu skrivena i teško dostupna.",
+            "items": []
+          },
+          {
+            "content": "Prije sastavljanja prijeđi prstom po rubovima dijelova koji će se okretati ili pomicati i lagano izbrusi sitne neravnine.",
+            "items": []
+          },
+          {
+            "content": "Ako upute pokazuju mjesta za voskanje, voskaj samo njih, a ostalo ostavi neobrađeno.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ako te nakon popravka privuče još jedan mehanički model, pogledaj <a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-puzzle-zidni-sat-zodiac-rokr-lc601-p52\">Drvena mehanička 3D puzzle - Zidni sat Zodiac ROKR LC601</a>. Prema podacima u trgovini ima 168 dijelova, a slaganje traje otprilike 4 sata."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-puzzle-zidni-sat-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Drvena mehanička 3D puzzle - Zidni sat Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-puzzle-zidni-sat-zodiac-rokr-lc601-p52\">Drvena mehanička 3D puzzle - Zidni sat Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Broj dijelova: 168</li>\n      <li>Vrijeme slaganja: 4 h</li>\n      <li>Zahtjevnost: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-puzzle-zidni-sat-zodiac-rokr-lc601-p52\">Pogledaj komplet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Česta pitanja",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Što učiniti ako se mehanizam zaglavljuje i nakon voskanja?</h3>\n    <p style=\"margin:0;\">Vosak rješava samo trenje. Provjeri je li neki dio loše namješten: os mora biti ugurana do kraja, kotač pravilno okrenut, a čep dotisnut.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zašto se model zaglavio tek nakon nekoliko dana?</h3>\n    <p style=\"margin:0;\">Uzrok može biti vlaga: drvo upija vodu iz zraka i blago nabubri. Premjesti model dalje od vlažnih kutova i izravnog sunca.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Smijem li mehanizam okrenuti silom kad teško ide?</h3>\n    <p style=\"margin:0;\">Radije ne. Tanak čep pod pritiskom se savije ili slomi. Prvo pronađi mjesto trenja i ukloni uzrok.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Naslovna slika je ilustracija, nastala uz pomoć umjetne inteligencije.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Drvena mehanička 3D puzzle - Zidni sat Zodiac ROKR LC601",
+      "path": "/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-puzzle-zidni-sat-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Naslovna slika je ilustracija, nastala uz pomoć umjetne inteligencije."
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "cs",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mechanismus se zasekává: jak najít tření a odstranit ho",
+  "description": "Zasekávání mechanismu v dřevěném modelu bývá nejčastěji tření mezi jednotlivými díly, ne vadný díl. Ukážeme, jak místo najít bez rozebírání modelu a čím ho zmírnit.",
+  "seo_title": "Zasekávání mechanismu v dřevěném modelu: příčiny a řešení",
+  "seo_description": "Jak najít místo, kde se v dřevěném modelu díly třou, čím tření snížit pomocí věcí z domácnosti a kdy jde o špatně usazený díl. Návod pro první model.",
+  "slug": "mechanismus-se-zasekava-jak-najit-treni-a-odstranit-ho",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Když se mechanismus v dřevěném modelu zasekává, většinou nejde o vadný díl, ale o <strong>tření</strong>: dva díly se o sebe tlačí víc, než mají. Stačí najít to místo a tření zmírnit, model rozebírat nemusíš. Ukážeme ti, jak na to."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Místo tření najdeš pomalým otáčením a pozorným sledováním, kde odpor roste nebo se ozve skřípání. Potom ho zmírníme věcmi, které bývají doma, a řekneme ti, kdy je příčinou špatně usazený díl a jak ho opravit. Na závěr si ověříš, že všechno běží plynule."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Jak najít místo, kde se díly třou",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Tření</em> je odpor, který vzniká, když se dva povrchy při pohybu o sebe tlačí. V modelu s ozubenými koly (ozubené kolo je kruhový díl se zuby, který zabírá do dalšího a přenáší pohyb) se může skrývat na více místech najednou, proto nic nerozebírej, dokud nevíš, kde hledat."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mechanismus otáčej <strong>pomalu</strong> a ne silou až na doraz. Všímej si, zda je odpor stejný celou otáčku, nebo se zvýší jen v jedné poloze. Odpor v jedné poloze ukazuje na konkrétní zub nebo díl.",
+            "items": []
+          },
+          {
+            "content": "U každého kola, ke kterému se dostaneš, zkus prstem otočit samostatně jeho. Kolo, které jde hůř než ostatní, je podezřelé.",
+            "items": []
+          },
+          {
+            "content": "Poslouchej. Skřípání nebo vrzání a místa, kde se pohyb na chvíli zastaví, prozradí, kde se díly o sebe tlačí.",
+            "items": []
+          },
+          {
+            "content": "Zkontroluj, zda některý díl není nadzvednutý nebo křivě nasazený. Hranu, která se o sousední díl otírá, často uvidíš při pohledu zboku.",
+            "items": []
+          },
+          {
+            "content": "Podezřelé místo si poznamenej, abys po zásahu mohl porovnat, zda se odpor změnil.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Pokud návod označuje místa k voskování, řiď se jím a ne odhadem. Vosk na nesprávném místě nebo v nadbytku může způsobit, že díly budou zapadat hůř.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Čím tření snížit",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Na většinu problémů stačí věci, které bývají doma. Začni tím nejjemnějším a po každém zásahu mechanismus znovu protoč, aby bylo vidět, zda to pomohlo."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pomůcka</th><th>Kam se hodí</th><th>Na co si dát pozor</th></tr></thead><tbody><tr><td>Jemný brusný papír</td><td>drobné nerovnosti na hranách dílu, který se o jiný tlačí</td><td>brus jen zlehka; příliš mnoho broušení uvolní spoje, které mají držet</td></tr><tr><td>Včelí vosk nebo svíčka</td><td>zuby ozubených kol a posuvné části</td><td>jen velmi tenká vrstva, kterou naneseš zlehka</td></tr><tr><td>Měkký hadřík</td><td>setření přebytečného vosku</td><td>utři po každém nanesení, aby na dílech nezůstal povlak</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Čemu se raději vyhni: olejům, mastným sprejům a leštidlům na nábytek. Mohou zabarvit dřevo, zachytávat prach a slepit těsný mechanismus."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Vosk nanášej jen tam, kde se díly pohybují vůči sobě, nebo na místa, která označuje návod. Voskování všeho najednou zanechá povlak a může zhoršit přesnost spojů. Tření se někdy odstraní na dva pokusy: po prvním voskování mechanismus vyzkoušej a přidej vosk jen tam, kde to ještě drhne."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Když příčinou není tření: špatně usazený díl",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Špatně usazený díl</em> je díl, který v modelu je, ale nesedí úplně tam, kam patří: osa není zasunutá až na doraz, kolo je otočené opačně, než ukazuje návod, nebo čep není dotlačený. Mechanismus se pak zasekává, ačkoli žádná plocha netře zbytečně, a vosk v takovém případě nepomůže."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Najdi v návodu krok, ve kterém díl přibyl, a porovnej jeho polohu s obrázkem.",
+            "items": []
+          },
+          {
+            "content": "Zkontroluj, zda je osa zasunutá v obou otvorech až na doraz a zda nevyčnívá na jednu stranu víc než na druhou.",
+            "items": []
+          },
+          {
+            "content": "Ověř, zda díl není otočený opačně nebo zaměněný za podobný díl.",
+            "items": []
+          },
+          {
+            "content": "Díl opatrně vytáhni a nasaď ho znovu. Pokud ho musíš dotlačovat, něco mu brání: zkontroluj jeho hranu a zlehka ji uhlaď. Tenké čepy pod tlakem praskají.",
+            "items": []
+          },
+          {
+            "content": "Pokud se díl bez lámání vytáhnout nedá, sílu nepoužívej. Zkus s ním jemně pohybovat ze strany na stranu a zjisti, co ho drží.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Další možnou příčinou je vlhkost. Dřevo nasává vlhkost ze vzduchu a mírně bobtná, takže se ve vlhké místnosti mohou díly o sebe víc tlačit. Pokud se mechanismus zasekl až po čase, přemísti model pryč od vlhkých koutů a přímého slunce."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Jak ověřit, že mechanismus běží plynule",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Dobrý test je takový, který nezávisí na pocitu. Projdi tyto body dřív, než model uzavřeš nebo postavíš na polici."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Otoč mechanismem o celý cyklus bez zastavení. Pohyb má být rovnoměrný, bez místa, kde je třeba přitlačit.",
+            "items": []
+          },
+          {
+            "content": "Zopakuj to trochu rychleji. Pokud se zasekne až při vyšším tempu, hledej díl, který se při pohybu na chvíli opozdí.",
+            "items": []
+          },
+          {
+            "content": "Zkontroluj mechanismus ještě jednou za pár hodin a druhý den. Některé problémy se ukážou až časem.",
+            "items": []
+          },
+          {
+            "content": "Pokud se ozve vrzání, přidej malé množství vosku na místo, odkud zvuk jde.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Jak se zasekávání vyhnout u dalšího modelu",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Tření se nejsnáz řeší průběžně, během stavby, ne až po ní. Pomůcky, jako jsou brusný papír a pinzeta, najdeš v <a href=\"/blog/10-nastroju-ktere-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojích na skládání</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Po každém kroku, který přidá kolo nebo osu, mechanismus protoč. Zasekávání tak odhalíš hned a bude jasné, který díl ho způsobil.",
+            "items": []
+          },
+          {
+            "content": "Pohyblivá místa ošetři voskem už při skládání, protože v hotovém modelu jsou skrytá a těžko dostupná.",
+            "items": []
+          },
+          {
+            "content": "Před složením přejeď prstem po hranách dílů, které se budou otáčet nebo posouvat, a drobné nerovnosti zlehka obrus.",
+            "items": []
+          },
+          {
+            "content": "Pokud návod ukazuje místa k voskování, voskuj jen ta a ostatní nech bez úpravy.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Pokud tě po opravě zláká další mechanický model, podívej se na <a href=\"/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52\">Dřevěné mechanické 3D puzzle - Nástěnné hodiny Zodiac ROKR LC601</a>. Podle údajů v obchodě má 168 dílů a skládání trvá přibližně 4 hodiny."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Dřevěné mechanické 3D puzzle - Nástěnné hodiny Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52\">Dřevěné mechanické 3D puzzle - Nástěnné hodiny Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Počet dílů: 168</li>\n      <li>Čas skládání: 4 h</li>\n      <li>Náročnost: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52\">Zobrazit stavebnici</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Časté otázky",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Co dělat, když se mechanismus zasekává i po voskování?</h3>\n    <p style=\"margin:0;\">Vosk řeší jen tření. Zkontroluj, zda není některý díl špatně usazený: osa musí být zasunutá na doraz, kolo správně otočené a čep dotlačený.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Proč se model zasekl až po několika dnech?</h3>\n    <p style=\"margin:0;\">Může za to vlhkost: dřevo nasává vodu ze vzduchu a mírně bobtná. Přemísti model pryč od vlhkých koutů a od přímého slunce.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Můžu mechanismus protočit silou, když jde ztuha?</h3>\n    <p style=\"margin:0;\">Raději ne. Tenký čep se pod tlakem ohne nebo zlomí. Nejprve najdi místo tření a odstraň příčinu.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Titulní obrázek je ilustrační, vytvořila ho umělá inteligence.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Dřevěné mechanické 3D puzzle - Nástěnné hodiny Zodiac ROKR LC601",
+      "path": "/drevene-3d-puzzle/hodiny-kalendare/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-nastroju-ktere-potrebujete-pri-skladani-dreveneho-3d-puzzle",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Titulní obrázek je ilustrační, vytvořila ho umělá inteligence."
+  }
+}

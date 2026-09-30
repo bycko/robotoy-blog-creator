@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "ro",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mecanismul se blochează: cum găsești frecarea și o elimini",
+  "description": "Blocarea unui mecanism dintr-un model de lemn vine cel mai des din frecarea dintre piese, nu dintr-o piesă defectă. Îți arătăm cum găsești locul fără a demonta modelul și cu ce îl atenuezi.",
+  "seo_title": "Mecanism blocat într-un model de lemn: cauze și soluție",
+  "seo_description": "Cum găsești locul unde se freacă piesele unui model de lemn, cum reduci frecarea cu lucruri din casă și când vina are o piesă montată greșit.",
+  "slug": "mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Când mecanismul dintr-un model de lemn se blochează, de obicei nu e vorba de o piesă defectă, ci de <strong>frecare</strong>: două piese se apasă una pe alta mai tare decât ar trebui. E suficient să găsești acel loc și să reduci frecarea, fără să demontezi modelul. Îți arătăm cum."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Locul îl găsești rotind încet și urmărind atent unde crește rezistența sau se aude un scrâșnet. Apoi îl atenuăm cu lucruri pe care le ai de obicei acasă și îți spunem când cauza este o piesă montată greșit și cum o îndrepți. La final verifici dacă totul merge fluid."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Cum găsești locul unde se freacă piesele",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Frecarea</em> este rezistența care apare când două suprafețe se apasă una pe alta în timpul mișcării. Într-un model cu roți dințate (o roată dințată este o piesă rotundă cu dinți, care se angrenează cu următoarea și transmite mișcarea) se poate ascunde în mai multe locuri deodată, așa că nu demonta nimic până nu știi unde să cauți."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Rotește mecanismul <strong>încet</strong>, nu cu forța până la capăt. Observă dacă rezistența este aceeași pe tot parcursul rotației sau crește doar într-o singură poziție. Rezistența într-o poziție indică un anumit dinte sau o anumită piesă.",
+            "items": []
+          },
+          {
+            "content": "La fiecare roată la care ajungi, încearcă să o rotești separat cu degetul. O roată care merge mai greu decât celelalte este suspectă.",
+            "items": []
+          },
+          {
+            "content": "Ascultă. Scrâșnetul sau scârțâitul și locurile în care mișcarea se oprește o clipă arată unde se apasă piesele una pe alta.",
+            "items": []
+          },
+          {
+            "content": "Verifică dacă vreo piesă nu este ridicată sau așezată strâmb. Muchia care se freacă de piesa vecină se vede adesea privind din lateral.",
+            "items": []
+          },
+          {
+            "content": "Marchează locul suspect, ca după intervenție să poți compara dacă rezistența s-a schimbat.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Sfat:</strong> Dacă instrucțiunile marchează locuri pentru ceruire, urmează-le pe ele, nu o estimare. Ceara în locul greșit sau în exces poate face ca piesele să se potrivească mai prost.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Cu ce reduci frecarea",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Pentru majoritatea problemelor sunt suficiente lucruri pe care le ai de obicei acasă. Începe cu cel mai blând și după fiecare intervenție rotește din nou mecanismul, ca să vezi dacă a ajutat."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Ajutor</th><th>Unde se potrivește</th><th>La ce să fii atent</th></tr></thead><tbody><tr><td>Șmirghel fin</td><td>mici asperități pe muchiile unei piese care se apasă pe alta</td><td>șlefuiește doar ușor; prea mult șlefuit slăbește îmbinările care trebuie să țină</td></tr><tr><td>Ceară de albine sau lumânare</td><td>dinții roților dințate și piesele glisante</td><td>doar un strat foarte subțire, pe care îl aplici ușor</td></tr><tr><td>Cârpă moale</td><td>ștergerea excesului de ceară</td><td>șterge după fiecare aplicare, ca pe piese să nu rămână un strat</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Ce e mai bine să eviți: uleiurile, spray-urile grase și lustruitoarele pentru mobilă. Pot colora lemnul, reține praful și lipi un mecanism strâns."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Aplică ceara doar acolo unde piesele se mișcă una față de alta sau în locurile marcate în instrucțiuni. Ceruirea tuturor pieselor deodată lasă un strat și poate strica precizia îmbinărilor. Uneori frecarea se elimină din două încercări: după prima ceruire încearcă mecanismul și adaugă ceară doar acolo unde încă se agață."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Când cauza nu este frecarea: o piesă montată greșit",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>O piesă montată greșit</em> este o piesă care se află în model, dar nu stă chiar unde îi este locul: o axă nu este introdusă până la capăt, o roată este întoarsă invers față de cum arată instrucțiunile sau un cep nu este apăsat complet. Mecanismul se blochează atunci, deși nicio suprafață nu se freacă inutil, iar ceara nu ajută în acest caz."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Găsește în instrucțiuni pasul în care a fost adăugată piesa și compară poziția ei cu imaginea.",
+            "items": []
+          },
+          {
+            "content": "Verifică dacă axa este introdusă în ambele deschideri până la capăt și dacă nu iese pe o parte mai mult decât pe cealaltă.",
+            "items": []
+          },
+          {
+            "content": "Asigură-te că piesa nu este întoarsă invers sau schimbată cu o piesă asemănătoare.",
+            "items": []
+          },
+          {
+            "content": "Scoate piesa cu grijă și așază-o din nou. Dacă trebuie să o apeși cu forța, ceva o împiedică: verifică-i muchia și netezește-o ușor. Cepurile subțiri se rup sub presiune.",
+            "items": []
+          },
+          {
+            "content": "Dacă piesa nu poate fi scoasă fără să se rupă, nu folosi forța. Încearcă să o miști ușor dintr-o parte în alta și află ce o ține.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "O altă cauză posibilă este umiditatea. Lemnul absoarbe umezeala din aer și se umflă ușor, așa că într-o cameră umedă piesele se pot apăsa mai tare una pe alta. Dacă mecanismul a început să se blocheze abia după un timp, mută modelul departe de colțurile umede și de soarele direct."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Cum verifici că mecanismul merge fluid",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Un test bun este unul care nu depinde de senzație. Parcurge aceste puncte înainte să închizi modelul sau să-l pui pe raft."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Rotește mecanismul printr-un ciclu întreg, fără să te oprești. Mișcarea trebuie să fie uniformă, fără un loc unde trebuie să apeși.",
+            "items": []
+          },
+          {
+            "content": "Repetă puțin mai repede. Dacă se blochează abia la un ritm mai ridicat, caută o piesă care întârzie o clipă în timpul mișcării.",
+            "items": []
+          },
+          {
+            "content": "Verifică mecanismul încă o dată după câteva ore și a doua zi. Unele probleme apar abia în timp.",
+            "items": []
+          },
+          {
+            "content": "Dacă se aude un scârțâit, adaugă o cantitate mică de ceară în locul de unde vine sunetul.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Cum eviți blocarea la următorul model",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Frecarea se rezolvă cel mai ușor pe parcurs, în timpul construirii, nu abia după. Ajutoare precum șmirghelul și pensa găsești în <a href=\"/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn\">articolul despre uneltele de asamblare</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "După fiecare pas care adaugă o roată sau o axă, rotește mecanismul. Astfel descoperi blocarea imediat și e clar ce piesă a provocat-o.",
+            "items": []
+          },
+          {
+            "content": "Tratează cu ceară locurile mobile încă din timpul asamblării, deoarece în modelul gata sunt ascunse și greu accesibile.",
+            "items": []
+          },
+          {
+            "content": "Înainte de asamblare, treci degetul pe muchiile pieselor care se vor roti sau glisa și șlefuiește ușor asperitățile mici.",
+            "items": []
+          },
+          {
+            "content": "Dacă instrucțiunile arată locuri pentru ceruire, cerește doar acolo, iar restul lasă-l netratat.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Dacă după reparație te atrage un alt model mecanic, uită-te la <a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-3d-mecanic-din-lemn-ceas-de-perete-zodiac-rokr-lc601-p52\">Puzzle 3D mecanic din lemn - Ceas de perete Zodiac ROKR LC601</a>. Conform datelor din magazin, are 168 de piese, iar asamblarea durează aproximativ 4 ore."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-3d-mecanic-din-lemn-ceas-de-perete-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Puzzle 3D mecanic din lemn - Ceas de perete Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-3d-mecanic-din-lemn-ceas-de-perete-zodiac-rokr-lc601-p52\">Puzzle 3D mecanic din lemn - Ceas de perete Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Număr de piese: 168</li>\n      <li>Timp de asamblare: 4 h</li>\n      <li>Dificultate: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-3d-mecanic-din-lemn-ceas-de-perete-zodiac-rokr-lc601-p52\">Vezi setul</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Întrebări frecvente",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ce fac dacă mecanismul se blochează și după ceruire?</h3>\n    <p style=\"margin:0;\">Ceara rezolvă doar frecarea. Verifică dacă o piesă este montată greșit: axa trebuie introdusă până la capăt, roata întoarsă corect, iar cepul apăsat complet.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">De ce s-a blocat modelul abia după câteva zile?</h3>\n    <p style=\"margin:0;\">Vinovată poate fi umiditatea: lemnul absoarbe apă din aer și se umflă ușor. Mută modelul departe de colțurile umede și de soarele direct.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Pot roti mecanismul cu forța când merge greu?</h3>\n    <p style=\"margin:0;\">Mai bine nu. Un cep subțire se îndoaie sau se rupe sub presiune. Mai întâi găsește locul frecării și elimină cauza.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Imaginea de copertă este ilustrativă, creată de inteligența artificială.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Puzzle 3D mecanic din lemn - Ceas de perete Zodiac ROKR LC601",
+      "path": "/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-3d-mecanic-din-lemn-ceas-de-perete-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Imaginea de copertă este ilustrativă, creată de inteligența artificială."
+  }
+}

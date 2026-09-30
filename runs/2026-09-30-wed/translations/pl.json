@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "pl",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mechanizm się zacina: jak znaleźć tarcie i je usunąć",
+  "description": "Zacinanie się mechanizmu w drewnianym modelu to najczęściej tarcie między częściami, a nie wadliwa część. Pokażemy, jak znaleźć to miejsce bez rozkładania modelu i czym złagodzić tarcie.",
+  "seo_title": "Zacinający się mechanizm w drewnianym modelu: przyczyny",
+  "seo_description": "Jak znaleźć miejsce, w którym części drewnianego modelu się trą, zmniejszyć tarcie rzeczami z domu i rozpoznać źle osadzoną część.",
+  "slug": "mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Gdy mechanizm w drewnianym modelu się zacina, zwykle nie winna jest wadliwa część, lecz <strong>tarcie</strong>: dwie części napierają na siebie mocniej, niż powinny. Wystarczy znaleźć to miejsce i złagodzić tarcie, nie trzeba rozkładać modelu. Pokażemy Ci, jak to zrobić."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Miejsce znajdziesz, obracając powoli i uważnie obserwując, gdzie opór rośnie albo słychać zgrzyt. Potem złagodzimy tarcie rzeczami, które zwykle są w domu, i powiemy Ci, kiedy przyczyną jest źle osadzona część i jak ją poprawić. Na koniec sprawdzisz, czy wszystko działa płynnie."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Jak znaleźć miejsce, w którym części się trą",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Tarcie</em> to opór, który powstaje, gdy dwie powierzchnie podczas ruchu napierają na siebie. W modelu z kołami zębatymi (koło zębate to okrągła część z zębami, która zazębia się z następną i przenosi ruch) może się ukrywać w kilku miejscach naraz, więc niczego nie rozkładaj, dopóki nie wiesz, gdzie szukać."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Obracaj mechanizm <strong>powoli</strong>, a nie siłą aż do oporu. Zwróć uwagę, czy opór jest taki sam przez cały obrót, czy rośnie tylko w jednym położeniu. Opór w jednym położeniu wskazuje na konkretny ząb lub część.",
+            "items": []
+          },
+          {
+            "content": "Przy każdym kole, do którego możesz sięgnąć, spróbuj obrócić je osobno palcem. Koło, które chodzi ciężej niż pozostałe, jest podejrzane.",
+            "items": []
+          },
+          {
+            "content": "Nasłuchuj. Zgrzyt lub skrzypienie oraz miejsca, w których ruch na chwilę się zatrzymuje, zdradzają, gdzie części na siebie napierają.",
+            "items": []
+          },
+          {
+            "content": "Sprawdź, czy jakaś część nie jest uniesiona lub osadzona krzywo. Krawędź, która ociera się o sąsiednią część, często widać, patrząc z boku.",
+            "items": []
+          },
+          {
+            "content": "Zaznacz podejrzane miejsce, aby po interwencji porównać, czy opór się zmienił.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Wskazówka:</strong> Jeśli instrukcja oznacza miejsca do woskowania, kieruj się nią, a nie domysłem. Wosk w niewłaściwym miejscu lub w nadmiarze może sprawić, że części będą gorzej do siebie pasować.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Czym zmniejszyć tarcie",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Na większość problemów wystarczą rzeczy, które zwykle są w domu. Zacznij od najdelikatniejszej i po każdej interwencji obróć mechanizm ponownie, aby zobaczyć, czy to pomogło."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pomoc</th><th>Do czego się nadaje</th><th>Na co uważać</th></tr></thead><tbody><tr><td>Drobny papier ścierny</td><td>drobne nierówności na krawędziach części, która napiera na inną</td><td>szlifuj tylko lekko; zbyt mocne szlifowanie poluzuje połączenia, które mają trzymać</td></tr><tr><td>Wosk pszczeli lub świeca</td><td>zęby kół zębatych i części przesuwne</td><td>tylko bardzo cienka warstwa, którą nakładasz lekko</td></tr><tr><td>Miękka ściereczka</td><td>starcie nadmiaru wosku</td><td>wycieraj po każdym nałożeniu, aby na częściach nie został nalot</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Czego lepiej unikać: olejów, tłustych sprayów i past do mebli. Mogą zabarwić drewno, zbierać kurz i skleić ciasny mechanizm."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Nakładaj wosk tylko tam, gdzie części poruszają się względem siebie, albo w miejscach oznaczonych w instrukcji. Woskowanie wszystkiego naraz zostawia nalot i może pogorszyć dokładność połączeń. Tarcie czasem znika w dwóch podejściach: po pierwszym woskowaniu wypróbuj mechanizm i dodaj wosk tylko tam, gdzie nadal się zacina."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Gdy przyczyną nie jest tarcie: źle osadzona część",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Źle osadzona część</em> to część, która jest w modelu, ale nie siedzi całkiem tam, gdzie powinna: oś nie jest wsunięta do oporu, koło jest obrócone odwrotnie, niż pokazuje instrukcja, albo czop nie jest dociśnięty. Mechanizm się wtedy zacina, chociaż żadna powierzchnia nie trze niepotrzebnie, a wosk w takim przypadku nie pomoże."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Znajdź w instrukcji krok, w którym część została dodana, i porównaj jej położenie z rysunkiem.",
+            "items": []
+          },
+          {
+            "content": "Sprawdź, czy oś jest wsunięta w oba otwory do oporu i czy z jednej strony nie wystaje bardziej niż z drugiej.",
+            "items": []
+          },
+          {
+            "content": "Upewnij się, że część nie jest obrócona odwrotnie ani zamieniona na podobną.",
+            "items": []
+          },
+          {
+            "content": "Ostrożnie wyciągnij część i osadź ją ponownie. Jeśli musisz ją dociskać, coś jej przeszkadza: sprawdź jej krawędź i lekko ją wygładź. Cienkie czopy pękają pod naciskiem.",
+            "items": []
+          },
+          {
+            "content": "Jeśli części nie da się wyciągnąć bez złamania, nie używaj siły. Spróbuj delikatnie poruszać nią na boki i sprawdź, co ją trzyma.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Inną możliwą przyczyną jest wilgoć. Drewno wchłania wilgoć z powietrza i lekko pęcznieje, więc w wilgotnym pomieszczeniu części mogą mocniej na siebie napierać. Jeśli mechanizm zaczął się zacinać dopiero po czasie, przenieś model z dala od wilgotnych kątów i bezpośredniego słońca."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Jak sprawdzić, że mechanizm działa płynnie",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Dobry test to taki, który nie zależy od wrażenia. Przejdź przez te punkty, zanim zamkniesz model lub postawisz go na półce."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Obróć mechanizm przez cały cykl bez zatrzymywania. Ruch ma być równomierny, bez miejsca, w którym trzeba docisnąć.",
+            "items": []
+          },
+          {
+            "content": "Powtórz to trochę szybciej. Jeśli zacina się dopiero przy wyższym tempie, poszukaj części, która podczas ruchu na chwilę się opóźnia.",
+            "items": []
+          },
+          {
+            "content": "Sprawdź mechanizm jeszcze raz po kilku godzinach i następnego dnia. Niektóre problemy ujawniają się dopiero z czasem.",
+            "items": []
+          },
+          {
+            "content": "Jeśli słychać skrzypienie, dodaj niewielką ilość wosku w miejscu, z którego dochodzi dźwięk.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Jak uniknąć zacinania się przy kolejnym modelu",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Tarcie najłatwiej usunąć na bieżąco, w trakcie budowy, a nie dopiero po niej. Pomoce takie jak papier ścierny i pinceta znajdziesz w <a href=\"/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d\">artykule o narzędziach do składania</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Po każdym kroku, który dodaje koło lub oś, obróć mechanizm. W ten sposób od razu wykryjesz zacinanie i będzie jasne, która część je spowodowała.",
+            "items": []
+          },
+          {
+            "content": "Ruchome miejsca potraktuj woskiem już podczas składania, ponieważ w gotowym modelu są ukryte i trudno dostępne.",
+            "items": []
+          },
+          {
+            "content": "Przed złożeniem przejedź palcem po krawędziach części, które będą się obracać lub przesuwać, i lekko zeszlifuj drobne nierówności.",
+            "items": []
+          },
+          {
+            "content": "Jeśli instrukcja pokazuje miejsca do woskowania, woskuj tylko je, a resztę zostaw bez obróbki.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Jeśli po naprawie zainteresuje Cię kolejny model mechaniczny, zobacz <a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniane-mechaniczne-puzzle-3d-zegar-scienny-zodiac-rokr-lc601-p52\">Drewniane mechaniczne puzzle 3D - Zegar ścienny Zodiac ROKR LC601</a>. Według danych w sklepie ma 168 części, a składanie trwa około 4 godzin."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniane-mechaniczne-puzzle-3d-zegar-scienny-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Drewniane mechaniczne puzzle 3D - Zegar ścienny Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniane-mechaniczne-puzzle-3d-zegar-scienny-zodiac-rokr-lc601-p52\">Drewniane mechaniczne puzzle 3D - Zegar ścienny Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Liczba części: 168</li>\n      <li>Czas składania: 4 godz.</li>\n      <li>Trudność: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniane-mechaniczne-puzzle-3d-zegar-scienny-zodiac-rokr-lc601-p52\">Zobacz zestaw</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Najczęstsze pytania",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Co robić, gdy mechanizm zacina się nawet po woskowaniu?</h3>\n    <p style=\"margin:0;\">Wosk rozwiązuje tylko tarcie. Sprawdź, czy jakaś część nie jest źle osadzona: oś musi być wsunięta do oporu, koło prawidłowo obrócone, a czop dociśnięty.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Dlaczego model zaciął się dopiero po kilku dniach?</h3>\n    <p style=\"margin:0;\">Przyczyną może być wilgoć: drewno wchłania wodę z powietrza i lekko pęcznieje. Przenieś model z dala od wilgotnych kątów i bezpośredniego słońca.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czy mogę obracać mechanizm siłą, gdy chodzi ciężko?</h3>\n    <p style=\"margin:0;\">Lepiej nie. Cienki czop pod naciskiem wygina się lub pęka. Najpierw znajdź miejsce tarcia i usuń przyczynę.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Obraz tytułowy jest ilustracją, stworzoną przez sztuczną inteligencję.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Drewniane mechaniczne puzzle 3D - Zegar ścienny Zodiac ROKR LC601",
+      "path": "/drewniane-puzzle-3d/zegary-i-kalendarze/drewniane-mechaniczne-puzzle-3d-zegar-scienny-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Obraz tytułowy jest ilustracją, stworzoną przez sztuczną inteligencję."
+  }
+}

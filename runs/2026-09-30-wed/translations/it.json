@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "it",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Meccanismo che si inceppa: come trovare l’attrito e ridurlo",
+  "description": "Un meccanismo che si inceppa in un modello di legno dipende quasi sempre dall’attrito tra i pezzi, non da un pezzo difettoso. Ti mostriamo come trovare il punto senza smontare e come alleviarlo.",
+  "seo_title": "Meccanismo inceppato in un modello di legno: cause e rimedi",
+  "seo_description": "Trova dove i pezzi di un modello di legno sfregano, riduci l’attrito con cose di casa e riconosci un pezzo montato male. Guida per il primo modello.",
+  "slug": "meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Quando il meccanismo di un modello di legno si inceppa, di solito non è colpa di un pezzo difettoso, ma dell’<strong>attrito</strong>: due pezzi si premono l’uno contro l’altro più del dovuto. Basta trovare quel punto e ridurre l’attrito, senza smontare il modello. Ti mostriamo come fare."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Il punto lo trovi ruotando lentamente e osservando con attenzione dove la resistenza aumenta o si sente uno sfregamento. Poi lo alleviamo con cose che di solito ci sono in casa, e ti diciamo quando la causa è un pezzo montato male e come correggerlo. Alla fine verifichi che tutto scorra in modo fluido."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Come trovare il punto in cui i pezzi sfregano",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "L’<em>attrito</em> è la resistenza che nasce quando due superfici si premono l’una contro l’altra durante il movimento. In un modello con ingranaggi (un ingranaggio è un pezzo rotondo dentato che si incastra con il successivo e trasmette il movimento) può nascondersi in più punti contemporaneamente, quindi non smontare nulla finché non sai dove cercare."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Ruota il meccanismo <strong>lentamente</strong> e non con forza fino al fine corsa. Nota se la resistenza è uguale per tutto il giro o aumenta solo in una posizione. La resistenza in una sola posizione indica un dente o un pezzo preciso.",
+            "items": []
+          },
+          {
+            "content": "Per ogni ruota che riesci a raggiungere, prova a girarla da sola con un dito. Una ruota che si muove con più fatica delle altre è sospetta.",
+            "items": []
+          },
+          {
+            "content": "Ascolta. Uno sfregamento o uno scricchiolio, e i punti in cui il movimento si ferma per un attimo, rivelano dove i pezzi si premono l’uno contro l’altro.",
+            "items": []
+          },
+          {
+            "content": "Controlla che nessun pezzo sia sollevato o inserito storto. Un bordo che sfrega contro il pezzo vicino spesso si vede guardando di lato.",
+            "items": []
+          },
+          {
+            "content": "Segna il punto sospetto, così dopo l’intervento potrai confrontare se la resistenza è cambiata.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consiglio:</strong> Se le istruzioni indicano i punti da cerare, segui quelle e non una tua stima. La cera nel punto sbagliato o in eccesso può far combaciare peggio i pezzi.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Con che cosa ridurre l’attrito",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Per la maggior parte dei problemi bastano cose che di solito ci sono in casa. Inizia dalla più delicata e dopo ogni intervento gira di nuovo il meccanismo, così vedi se è servito."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Strumento</th><th>Dove è utile</th><th>A che cosa fare attenzione</th></tr></thead><tbody><tr><td>Carta vetrata fine</td><td>piccole irregolarità sui bordi di un pezzo che preme contro un altro</td><td>carteggia solo leggermente; carteggiare troppo allenta i giunti che devono tenere</td></tr><tr><td>Cera d’api o candela</td><td>denti degli ingranaggi e parti scorrevoli</td><td>solo uno strato molto sottile, applicato con delicatezza</td></tr><tr><td>Panno morbido</td><td>eliminare la cera in eccesso</td><td>pulisci dopo ogni applicazione, così sui pezzi non resta alcun velo</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Da evitare: oli, spray grassi e lucidanti per mobili. Possono macchiare il legno, trattenere la polvere e incollare un meccanismo stretto."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Applica la cera solo dove i pezzi si muovono l’uno contro l’altro, oppure nei punti indicati dalle istruzioni. Cerare tutto in una volta lascia un velo e può peggiorare la precisione dei giunti. A volte l’attrito si elimina in due tentativi: dopo la prima cerata prova il meccanismo e aggiungi cera solo dove ancora non scorre."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Quando la causa non è l’attrito: un pezzo montato male",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Un pezzo montato male</em> è un pezzo che è nel modello, ma non sta del tutto dove dovrebbe: un asse non è inserito fino in fondo, una ruota è girata al contrario rispetto alle istruzioni, oppure un perno non è spinto a fondo. Il meccanismo si inceppa anche se nessuna superficie sfrega inutilmente, e in questo caso la cera non aiuta."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Trova nelle istruzioni il passaggio in cui il pezzo è stato aggiunto e confronta la sua posizione con l’immagine.",
+            "items": []
+          },
+          {
+            "content": "Controlla che l’asse sia inserito in entrambi i fori fino in fondo e che da un lato non sporga più che dall’altro.",
+            "items": []
+          },
+          {
+            "content": "Verifica che il pezzo non sia girato al contrario né scambiato con uno simile.",
+            "items": []
+          },
+          {
+            "content": "Estrai il pezzo con cautela e inseriscilo di nuovo. Se devi spingerlo a forza, qualcosa lo ostacola: controlla il suo bordo e levigalo leggermente. I perni sottili si rompono sotto pressione.",
+            "items": []
+          },
+          {
+            "content": "Se il pezzo non si può estrarre senza romperlo, non usare la forza. Prova a muoverlo delicatamente da un lato all’altro e scopri che cosa lo trattiene.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Un’altra causa possibile è l’umidità. Il legno assorbe l’umidità dall’aria e si gonfia leggermente, quindi in una stanza umida i pezzi possono premere di più l’uno contro l’altro. Se il meccanismo ha cominciato a incepparsi solo dopo un po’, allontana il modello dagli angoli umidi e dal sole diretto."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Come verificare che il meccanismo scorra in modo fluido",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Un buon test è quello che non dipende dalle sensazioni. Controlla questi punti prima di chiudere il modello o di metterlo sullo scaffale."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Fai compiere al meccanismo un ciclo completo senza fermarti. Il movimento deve essere uniforme, senza un punto in cui devi spingere.",
+            "items": []
+          },
+          {
+            "content": "Ripeti un po’ più veloce. Se si inceppa solo a un ritmo maggiore, cerca un pezzo che per un attimo resta indietro durante il movimento.",
+            "items": []
+          },
+          {
+            "content": "Controlla di nuovo il meccanismo dopo qualche ora e il giorno dopo. Alcuni problemi si mostrano solo con il tempo.",
+            "items": []
+          },
+          {
+            "content": "Se si sente uno scricchiolio, aggiungi una piccola quantità di cera nel punto da cui viene il rumore.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Come evitare che si inceppi nel prossimo modello",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "L’attrito si risolve più facilmente strada facendo, durante il montaggio, non solo dopo. Strumenti come la carta vetrata e le pinzette li trovi nell’<a href=\"/blog/10-strumenti-di-cui-hai-bisogno-per-assemblare-un-puzzle-3d-in-legno\">articolo sugli strumenti per il montaggio</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Dopo ogni passaggio che aggiunge una ruota o un asse, gira il meccanismo. Così scopri subito l’inceppamento e capisci quale pezzo lo ha causato.",
+            "items": []
+          },
+          {
+            "content": "Tratta con la cera i punti mobili già durante il montaggio, perché nel modello finito sono nascosti e difficili da raggiungere.",
+            "items": []
+          },
+          {
+            "content": "Prima di assemblare, passa il dito sui bordi dei pezzi che gireranno o scorreranno e leviga leggermente le piccole irregolarità.",
+            "items": []
+          },
+          {
+            "content": "Se le istruzioni indicano i punti da cerare, cera solo quelli e lascia il resto senza trattamento.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Se dopo la riparazione ti attira un altro modello meccanico, dai un’occhiata a <a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-3d-meccanico-in-legno-orologio-da-parete-zodiac-rokr-lc601-p52\">Puzzle 3D meccanico in legno - Orologio da parete Zodiac ROKR LC601</a>. Secondo i dati del negozio ha 168 pezzi e il montaggio dura circa 4 ore."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-3d-meccanico-in-legno-orologio-da-parete-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Puzzle 3D meccanico in legno - Orologio da parete Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-3d-meccanico-in-legno-orologio-da-parete-zodiac-rokr-lc601-p52\">Puzzle 3D meccanico in legno - Orologio da parete Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Numero di pezzi: 168</li>\n      <li>Tempo di montaggio: 4 h</li>\n      <li>Difficoltà: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-3d-meccanico-in-legno-orologio-da-parete-zodiac-rokr-lc601-p52\">Vedi il kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Domande frequenti",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Che cosa fare se il meccanismo si inceppa anche dopo la cera?</h3>\n    <p style=\"margin:0;\">La cera risolve solo l’attrito. Controlla se un pezzo è montato male: l’asse deve essere inserito a fondo, la ruota orientata bene e il perno spinto fino in fondo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Perché il modello si è inceppato solo dopo alcuni giorni?</h3>\n    <p style=\"margin:0;\">Può essere colpa dell’umidità: il legno assorbe acqua dall’aria e si gonfia leggermente. Allontana il modello dagli angoli umidi e dal sole diretto.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Posso girare il meccanismo con forza quando è duro?</h3>\n    <p style=\"margin:0;\">Meglio di no. Un perno sottile si piega o si rompe sotto pressione. Prima trova il punto di attrito e rimuovi la causa.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>L’immagine di copertina è illustrativa, creata da un’intelligenza artificiale.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Puzzle 3D meccanico in legno - Orologio da parete Zodiac ROKR LC601",
+      "path": "/puzzle-3d-in-legno/orologi-calendari/puzzle-3d-meccanico-in-legno-orologio-da-parete-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-strumenti-di-cui-hai-bisogno-per-assemblare-un-puzzle-3d-in-legno",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "L’immagine di copertina è illustrativa, creata da un’intelligenza artificiale."
+  }
+}

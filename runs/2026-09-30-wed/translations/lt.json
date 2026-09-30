@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "lt",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mechanizmas stringa: kaip rasti trintį ir ją pašalinti",
+  "description": "Medinio modelio mechanizmo strigimas dažniausiai kyla dėl detalių trinties, o ne dėl sugedusios detalės. Parodysime, kaip rasti vietą neardant modelio ir kuo trintį sumažinti.",
+  "seo_title": "Stringantis medinio modelio mechanizmas: ką daryti",
+  "seo_description": "Kaip rasti vietą, kur trinasi medinio modelio detalės, sumažinti trintį namuose randamais daiktais ir atpažinti blogai įstatytą detalę. Pirmajam modeliui.",
+  "slug": "mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Kai medinio modelio mechanizmas stringa, dažniausiai kalta ne sugedusi detalė, o <strong>trintis</strong>: dvi detalės spaudžia viena kitą stipriau, nei turėtų. Pakanka rasti tą vietą ir sumažinti trintį, modelio ardyti nereikia. Parodysime tau, kaip tai padaryti."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Vietą rasi sukdamas lėtai ir atidžiai stebėdamas, kur didėja pasipriešinimas arba pasigirsta trinties garsas. Paskui trintį sumažinsime daiktais, kurių paprastai turi namuose, ir pasakysime, kada priežastis yra blogai įstatyta detalė ir kaip ją ištaisyti. Pabaigoje patikrinsi, ar viskas juda sklandžiai."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Kaip rasti vietą, kur trinasi detalės",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Trintis</em> yra pasipriešinimas, atsirandantis, kai du paviršiai judėdami spaudžia vienas kitą. Modelyje su krumpliaračiais (krumpliaratis yra apvali detalė su dantimis, kuri sukimba su kita ir perduoda judesį) ji gali slėptis keliose vietose vienu metu, todėl nieko neardyk, kol nežinai, kur ieškoti."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mechanizmą suk <strong>lėtai</strong>, o ne jėga iki galo. Stebėk, ar pasipriešinimas visą apsisukimą vienodas, ar padidėja tik vienoje padėtyje. Pasipriešinimas vienoje padėtyje rodo konkretų dantį ar detalę.",
+            "items": []
+          },
+          {
+            "content": "Prie kiekvieno rato, kurį pasieki, pabandyk pirštu atskirai pasukti būtent jį. Ratas, kuris sukasi sunkiau nei kiti, yra įtartinas.",
+            "items": []
+          },
+          {
+            "content": "Klausyk. Girgždesys ar trinties garsas ir vietos, kur judesys akimirkai sustoja, išduoda, kur detalės spaudžia viena kitą.",
+            "items": []
+          },
+          {
+            "content": "Patikrink, ar kuri nors detalė nėra pakilusi ar įstatyta kreivai. Kraštą, kuris trinasi į gretimą detalę, dažnai pamatysi pažiūrėjęs iš šono.",
+            "items": []
+          },
+          {
+            "content": "Įtartiną vietą pažymėk, kad po įsikišimo galėtum palyginti, ar pasipriešinimas pasikeitė.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Patarimas:</strong> Jei instrukcijoje pažymėtos vietos vaškavimui, vadovaukis ja, o ne spėjimu. Vaškas netinkamoje vietoje ar jo perteklius gali lemti, kad detalės blogiau priglus.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Kuo sumažinti trintį",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Daugumai problemų pakanka daiktų, kurių paprastai turi namuose. Pradėk nuo švelniausio ir po kiekvieno veiksmo vėl pasuk mechanizmą, kad matytum, ar padėjo."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Priemonė</th><th>Kur tinka</th><th>Į ką atkreipti dėmesį</th></tr></thead><tbody><tr><td>Smulkus švitrinis popierius</td><td>smulkūs nelygumai detalės, kuri spaudžia kitą, krašte</td><td>šlifuok tik lengvai; per didelis šlifavimas atpalaiduoja jungtis, kurios turi laikyti</td></tr><tr><td>Bičių vaškas arba žvakė</td><td>krumpliaračių dantys ir slankiosios dalys</td><td>tik labai plonas sluoksnis, kurį užtepi lengvai</td></tr><tr><td>Minkšta šluostė</td><td>pertekliaus vaško nuvalymas</td><td>nuvalyk po kiekvieno užtepimo, kad ant detalių neliktų apnašų</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Ko geriau vengti: aliejų, riebių purškalų ir baldų poliravimo priemonių. Jie gali nudažyti medieną, sulaikyti dulkes ir suklijuoti glaudų mechanizmą."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Vašką tepk tik ten, kur detalės juda viena kitos atžvilgiu, arba vietose, kurias nurodo instrukcija. Viską vaškuojant iš karto lieka apnašų ir gali pablogėti jungčių tikslumas. Kartais trintis pašalinama per du bandymus: po pirmo vaškavimo išbandyk mechanizmą ir pridėk vaško tik ten, kur dar strigsta."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kai priežastis ne trintis: blogai įstatyta detalė",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Blogai įstatyta detalė</em> yra detalė, kuri modelyje yra, bet sėdi ne visai ten, kur turi: ašis neįstumta iki galo, ratas pasuktas priešingai, nei rodo instrukcija, arba kaištis neįspaustas. Tada mechanizmas stringa, nors joks paviršius be reikalo netrinasi, o vaškas šiuo atveju nepadeda."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Instrukcijoje surask žingsnį, kuriame detalė buvo pridėta, ir palygink jos padėtį su paveikslėliu.",
+            "items": []
+          },
+          {
+            "content": "Patikrink, ar ašis abiejose angose įstumta iki galo ir ar iš vienos pusės neišsikiša labiau nei iš kitos.",
+            "items": []
+          },
+          {
+            "content": "Įsitikink, kad detalė neįstatyta atvirkščiai ir nesupainiota su panašia detale.",
+            "items": []
+          },
+          {
+            "content": "Atsargiai ištrauk detalę ir įstatyk iš naujo. Jei tenka ją stumti jėga, kažkas trukdo: patikrink jos kraštą ir lengvai jį nulygink. Ploni kaiščiai po spaudimu lūžta.",
+            "items": []
+          },
+          {
+            "content": "Jei detalės neįmanoma ištraukti nesulaužius, nenaudok jėgos. Pabandyk ją švelniai judinti į šonus ir išsiaiškink, kas ją laiko.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Kita galima priežastis yra drėgmė. Mediena sugeria drėgmę iš oro ir šiek tiek išsipučia, todėl drėgnoje patalpoje detalės gali stipriau spausti viena kitą. Jei mechanizmas pradėjo strigti tik po kurio laiko, perkelk modelį toliau nuo drėgnų kampų ir tiesioginių saulės spindulių."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kaip patikrinti, ar mechanizmas juda sklandžiai",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Geras testas yra toks, kuris nepriklauso nuo pojūčio. Peržiūrėk šiuos punktus, prieš uždarydamas modelį ar pastatydamas jį ant lentynos."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pasuk mechanizmą per visą ciklą nesustodamas. Judesys turi būti tolygus, be vietos, kur reikia pridėti jėgos.",
+            "items": []
+          },
+          {
+            "content": "Pakartok šiek tiek greičiau. Jei strigsta tik didesniu tempu, ieškok detalės, kuri judant akimirkai atsilieka.",
+            "items": []
+          },
+          {
+            "content": "Dar kartą patikrink mechanizmą po kelių valandų ir kitą dieną. Kai kurios problemos išryškėja tik bėgant laikui.",
+            "items": []
+          },
+          {
+            "content": "Jei pasigirsta girgždesys, pridėk nedidelį kiekį vaško toje vietoje, iš kur sklinda garsas.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Kaip išvengti strigimo kitame modelyje",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Trintį lengviausia spręsti einant, statybos metu, o ne tik po jos. Tokias priemones kaip švitrinis popierius ir pincetas rasi <a href=\"/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione\">straipsnyje apie surinkimo įrankius</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Po kiekvieno žingsnio, kuris prideda ratą ar ašį, pasuk mechanizmą. Taip strigimą aptiksi iš karto ir bus aišku, kuri detalė jį sukėlė.",
+            "items": []
+          },
+          {
+            "content": "Judančias vietas apdorok vašku jau surinkimo metu, nes gatavame modelyje jos paslėptos ir sunkiai pasiekiamos.",
+            "items": []
+          },
+          {
+            "content": "Prieš surinkdamas pirštu perbraukk detalių, kurios suksis ar slinks, kraštus ir smulkius nelygumus lengvai nušlifuok.",
+            "items": []
+          },
+          {
+            "content": "Jei instrukcija rodo vietas vaškavimui, vaškuok tik jas, o likusių neapdorok.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei po taisymo tave sugundys dar vienas mechaninis modelis, pažiūrėk <a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medine-mechanine-3d-delione-sieninis-laikrodis-zodiac-rokr-lc601-p52\">Medinė mechaninė 3D dėlionė - Sieninis laikrodis Zodiac ROKR LC601</a>. Pagal parduotuvės duomenis jį sudaro 168 detalės, o surinkimas trunka apie 4 valandas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medine-mechanine-3d-delione-sieninis-laikrodis-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Medinė mechaninė 3D dėlionė - Sieninis laikrodis Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medine-mechanine-3d-delione-sieninis-laikrodis-zodiac-rokr-lc601-p52\">Medinė mechaninė 3D dėlionė - Sieninis laikrodis Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detalių skaičius: 168</li>\n      <li>Surinkimo laikas: 4 val.</li>\n      <li>Sudėtingumas: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medine-mechanine-3d-delione-sieninis-laikrodis-zodiac-rokr-lc601-p52\">Žiūrėti rinkinį</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Dažniausiai užduodami klausimai",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ką daryti, jei mechanizmas stringa ir po vaškavimo?</h3>\n    <p style=\"margin:0;\">Vaškas sprendžia tik trintį. Patikrink, ar kuri nors detalė nėra blogai įstatyta: ašis turi būti įstumta iki galo, ratas teisingai pasuktas, o kaištis iki galo įspaustas.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kodėl modelis pradėjo strigti tik po kelių dienų?</h3>\n    <p style=\"margin:0;\">Priežastis gali būti drėgmė: mediena sugeria vandenį iš oro ir šiek tiek išsipučia. Perkelk modelį toliau nuo drėgnų kampų ir tiesioginių saulės spindulių.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ar galiu mechanizmą sukti jėga, kai jis sunkiai juda?</h3>\n    <p style=\"margin:0;\">Geriau ne. Plonas kaištis po spaudimu išlinksta ar lūžta. Pirmiausia surask trinties vietą ir pašalink priežastį.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Viršelio paveikslėlis yra iliustracija, sukurta dirbtinio intelekto.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Medinė mechaninė 3D dėlionė - Sieninis laikrodis Zodiac ROKR LC601",
+      "path": "/medine-3d-delione/laikrodziai-kalendoriai/medine-mechanine-3d-delione-sieninis-laikrodis-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "Viršelio paveikslėlis yra iliustracija, sukurta dirbtinio intelekto."
+  }
+}

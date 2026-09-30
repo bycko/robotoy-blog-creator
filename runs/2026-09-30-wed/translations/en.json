@@ -1,0 +1,351 @@
+{
+  "run_id": "2026-09-30-wed",
+  "round": 1,
+  "locale": "en",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Sticking mechanism: how to find the friction and fix it",
+  "description": "A mechanism that sticks in a wooden model is most often friction between parts, not a faulty part. We show how to find the spot without taking the model apart and what eases it.",
+  "seo_title": "A sticking mechanism in a wooden model: causes and fixes",
+  "seo_description": "Find where the parts of a wooden model rub, ease the friction with things from home and spot a badly seated part. A guide for a first model.",
+  "slug": "sticking-mechanism-how-to-find-friction-and-fix-it",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "When the mechanism in a wooden model sticks, it is usually not a faulty part but <strong>friction</strong>: two parts press against each other harder than they should. You only need to find that spot and ease the friction, not take the model apart. We will show you how."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "You find the spot by turning slowly and watching closely where the resistance grows or a scraping sound appears. Then we ease it with things you usually have at home, and we tell you when a badly seated part is the cause and how to fix it. Finally, you check that everything runs smoothly."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "How to find where the parts rub",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Friction</em> is the resistance that appears when two surfaces press against each other as they move. In a model with gears (a gear is a round part with teeth that meshes with the next one and passes the motion on) it can hide in several places at once, so do not take anything apart until you know where to look."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Turn the mechanism <strong>slowly</strong>, not by force up to the stop. Notice whether the resistance is the same through the whole turn or rises in one position only. Resistance in one position points to a particular tooth or part.",
+            "items": []
+          },
+          {
+            "content": "For every gear you can reach, try turning it separately with a finger. A gear that moves harder than the others is a suspect.",
+            "items": []
+          },
+          {
+            "content": "Listen. Scraping or creaking, and spots where the motion stops for a moment, show where the parts press against each other.",
+            "items": []
+          },
+          {
+            "content": "Check whether any part is raised or seated crookedly. You can often see an edge rubbing against the neighbouring part when you look from the side.",
+            "items": []
+          },
+          {
+            "content": "Mark the suspect spot so that after your fix you can compare whether the resistance changed.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> If the instructions mark places for waxing, follow them rather than guessing. Wax in the wrong place or in excess can make the parts fit worse.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "What reduces friction",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Most problems need only things that are usually at home. Start with the gentlest one and turn the mechanism again after every step, so you can see whether it helped."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Aid</th><th>Where it helps</th><th>What to watch for</th></tr></thead><tbody><tr><td>Fine sandpaper</td><td>small bumps on the edges of a part that presses against another</td><td>sand only lightly; too much sanding loosens joints that are meant to hold</td></tr><tr><td>Beeswax or a candle</td><td>gear teeth and sliding parts</td><td>only a very thin layer, applied lightly</td></tr><tr><td>Soft cloth</td><td>wiping off excess wax</td><td>wipe after every application so no residue stays on the parts</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "What to avoid instead: oils, greasy sprays and furniture polish. They can stain the wood, collect dust and glue up a tight mechanism."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Apply wax only where parts move against each other, or at the places marked in the instructions. Waxing everything at once leaves a residue and can make the joints less precise. Friction is sometimes removed in two attempts: after the first waxing, test the mechanism and add wax only where it still catches."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "When friction is not the cause: a badly seated part",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>A badly seated part</em> is a part that is in the model but does not sit quite where it belongs: an axle is not pushed in all the way, a gear is turned the opposite way from what the instructions show, or a pin is not pressed in. The mechanism then sticks even though no surface rubs needlessly, and wax will not help in that case."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Find the step in the instructions where the part was added and compare its position with the picture.",
+            "items": []
+          },
+          {
+            "content": "Check that the axle is pushed into both holes all the way and that it does not stick out further on one side than on the other.",
+            "items": []
+          },
+          {
+            "content": "Make sure the part is not turned the wrong way round or swapped with a similar part.",
+            "items": []
+          },
+          {
+            "content": "Carefully pull the part out and fit it again. If you have to force it in, something is in the way: check its edge and smooth it lightly. Thin pins break under pressure.",
+            "items": []
+          },
+          {
+            "content": "If the part cannot be pulled out without breaking, do not use force. Try moving it gently from side to side and find out what is holding it.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Another possible cause is humidity. Wood absorbs moisture from the air and swells slightly, so in a damp room parts can press against each other more. If the mechanism started sticking only after some time, move the model away from damp corners and direct sunlight."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "How to check that the mechanism runs smoothly",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "A good test is one that does not depend on feel. Go through these points before you close the model or put it on the shelf."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Turn the mechanism through a whole cycle without stopping. The motion should be even, with no spot where you have to push.",
+            "items": []
+          },
+          {
+            "content": "Repeat it a little faster. If it catches only at a higher pace, look for a part that lags for a moment during the motion.",
+            "items": []
+          },
+          {
+            "content": "Check the mechanism again after a few hours and the next day. Some problems show up only with time.",
+            "items": []
+          },
+          {
+            "content": "If a creak appears, add a small amount of wax at the place the sound comes from.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "How to avoid sticking in your next model",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "It is easiest to deal with friction along the way, during the build, not only after it. You will find aids such as sandpaper and tweezers in the <a href=\"/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle\">article about assembly tools</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "After every step that adds a gear or an axle, turn the mechanism. That way you catch sticking at once and it is clear which part caused it.",
+            "items": []
+          },
+          {
+            "content": "Treat the moving places with wax already during assembly, because in a finished model they are hidden and hard to reach.",
+            "items": []
+          },
+          {
+            "content": "Before assembling, run a finger along the edges of parts that will turn or slide, and lightly sand small bumps.",
+            "items": []
+          },
+          {
+            "content": "If the instructions show places for waxing, wax only those and leave the rest untreated.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "If another mechanical model tempts you after the repair, take a look at <a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-wall-clock-zodiac-rokr-lc601-p52\">Wooden mechanical 3D puzzle - Wall clock Zodiac ROKR LC601</a>. According to the shop data it has 168 pieces and takes about 4 hours to assemble."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-wall-clock-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Wooden mechanical 3D puzzle - Wall clock Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-wall-clock-zodiac-rokr-lc601-p52\">Wooden mechanical 3D puzzle - Wall clock Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Number of pieces: 168</li>\n      <li>Assembly time: 4 h</li>\n      <li>Difficulty: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-wall-clock-zodiac-rokr-lc601-p52\">View the kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Frequently asked questions",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">What should I do if the mechanism still sticks after waxing?</h3>\n    <p style=\"margin:0;\">Wax only solves friction. Check whether a part is badly seated: the axle must be pushed in all the way, the gear turned the right way and the pin pressed in.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Why did the model start sticking only after a few days?</h3>\n    <p style=\"margin:0;\">Humidity may be the cause: wood absorbs water from the air and swells slightly. Move the model away from damp corners and direct sunlight.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Can I force the mechanism round when it turns hard?</h3>\n    <p style=\"margin:0;\">Better not. A thin pin bends or breaks under pressure. First find the spot with friction and remove the cause.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>The cover image is illustrative and was created by artificial intelligence.</em>"
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Wooden mechanical 3D puzzle - Wall clock Zodiac ROKR LC601",
+      "path": "/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-wall-clock-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-09-30T20:04:22+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku môžu diely sedieť tesnejšie."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Clearly hand-drawn gouache and colored-pencil illustration with visible brush strokes and paper texture, flat stylized shapes, NOT a photograph, no photorealism, no realistic skin texture, no depth-of-field blur. Landscape 16:9, warm soft colors in oak, honey and cream. Centered subject: two stylized hands at a wooden table; one hand gently turns a small wooden gear mechanism made of plain round plywood gears, the other hand holds a small block of yellow beeswax. Beside them on the table: a clearly recognizable short white birthday candle with a small flame-less wick, a strip of grey sandpaper and a few curled wood shavings. Simple cozy background with a soft window and a shelf, painted loosely. No product, no recognizable kit, no logo, no packaging, no text, no letters, no numbers, no price, no faces, no tools with metal points.",
+    "ai_label": "The cover image is illustrative and was created by artificial intelligence."
+  }
+}
