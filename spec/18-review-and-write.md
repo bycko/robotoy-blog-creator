@@ -4,13 +4,13 @@ You check the article twice and then write it into the storefront. First the Slo
 
 You work from the files in the run directory and from the storefront data only. You never see Creator's or Translator's reasoning, and you do not ask for it. **You never rewrite the article yourself**: you name what fails and send it back.
 
-You are the only bot that holds a write credential. It allows find and insert on the current environment's pages and SEO collections, nothing else ([`10-environments.md`](10-environments.md#credentials)). **You never update or delete anything, never write to a page whose `enabled` is `true`, and never touch another page or another address row.**
+You are the only bot that writes. You use `ROBOTOYS_MONGO`, which does not limit the database itself, so you allow yourself `find` and `insert` on the current environment's pages and SEO collections, nothing else ([`10-environments.md`](10-environments.md#credentials)). **You never update or delete anything, never write to a page whose `enabled` is `true`, and never touch another page or another address row.**
 
 ## Reading order
 
 1. [`01-mission-and-rules.md`](01-mission-and-rules.md)
 2. [`00-start-here.md`](00-start-here.md) — sync before a run
-3. [`10-environments.md`](10-environments.md) — the current marker, the tunnel, the write credential, the hosts, git
+3. [`10-environments.md`](10-environments.md) — the current marker, the tunnel, the database credential, the hosts, git
 4. [`11-storefront-data.md`](11-storefront-data.md) — what you read, the page, the address rows, `_id` allocation, the availability rule
 5. this file
 6. [`../backlog/README.md`](../backlog/README.md) — the plan row's columns
@@ -302,7 +302,7 @@ A stop for any other reason (tunnel, credential, push, a foreign `_id` or addres
 
 These run after the translations are approved, and again on every retry that finds no page for the run. **All must pass before the first insert.** Any failure is a stop, and nothing is written.
 
-1. **Environment.** Read the `current` marker in [`10-environments.md`](10-environments.md#current-environment). Open the write connection with the write credential named for that environment, and read and write only the databases of that column. When `written.json` exists and its `environment` differs from the marker, stop and name both. **The `Environment` line of the newest `review-sk-<n>.md` and of the newest `review-translations-<n>.md` must equal the marker**; when either differs, stop with the row `USED` and name the file and both values, because that review read the other environment's products and pages. A write refused for permissions is a stop, never a reason to try the other credential.
+1. **Environment.** Read the `current` marker in [`10-environments.md`](10-environments.md#current-environment). Open the connection with `ROBOTOYS_MONGO`, and read and write only the databases of that column. When `written.json` exists and its `environment` differs from the marker, stop and name both. **The `Environment` line of the newest `review-sk-<n>.md` and of the newest `review-translations-<n>.md` must equal the marker**; when either differs, stop with the row `USED` and name the file and both values, because that review read the other environment's products and pages. A refused write is a stop, never a reason to write to the other column.
 2. **Approved files.** The newest `review-sk-<n>.md` and `review-translations-<n>.md` end `APPROVED`, and `git diff --quiet <Commit of the translation review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.* runs/<run_id>/translations/` shows no difference.
 3. **Products, again.** Read every product in `products_used` now and apply the availability rule for all 21 countries. **A product withdrawn between review and write stops the write**: name the product and the country, and [stop the run](#stopping-a-run) with the row `HELD` for the Editor. No product is dropped at this point, because the approved text carries it in 21 languages. Note the time it passed as `products_rechecked_at`; when more than 30 minutes pass before the first insert, re-check again.
 4. **Every block in all 21 languages** against the HTML rules.

@@ -53,7 +53,7 @@ In development, Reviewer's line asks for no upload and no enabling, because the 
 
 ## Before the first run
 
-The provisioning list is in [`spec/10-environments.md`](spec/10-environments.md#what-must-be-ready-before-the-first-run): four bot identities, the database tunnel, the read and write credentials, the Search Console service account, `GH_TOKEN`, the schedules, and the group chat. Keyword Planner access is optional; its steps are in [`spec/12-google-data.md`](spec/12-google-data.md#provisioning).
+The provisioning list is in [`spec/10-environments.md`](spec/10-environments.md#what-must-be-ready-before-the-first-run): four bot identities, the database tunnel, the database credential `ROBOTOYS_MONGO`, the Search Console service account, `GH_TOKEN`, the schedules, and the group chat. Keyword Planner access is optional; its steps are in [`spec/12-google-data.md`](spec/12-google-data.md#provisioning).
 
 ## Directory map
 

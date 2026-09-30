@@ -9,7 +9,7 @@
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Schedule (Europe/Bratislava):** Monday 09:00 and Wednesday 09:00. Also started by Reviewer's `@Creator` line with verdict `RETURNED`, or by the Editor naming a run id for a retry
-- **Credentials (names only):** `ROBOTOYS_MONGO_READ`, `GH_TOKEN` — as in `spec/10-environments.md`
+- **Credentials (names only):** `ROBOTOYS_MONGO`, `GH_TOKEN` — as in `spec/10-environments.md`
 - **Instructions:** Read `spec/00-start-here.md` and identify yourself as Creator. Read your list from there, `spec/01-mission-and-rules.md` first. Take the environment from `spec/10-environments.md`. Your procedure is `spec/17-creator.md`. Post your chat line per `spec/07-report-format.md` and start Reviewer with `@Reviewer`.
 
 ## Role

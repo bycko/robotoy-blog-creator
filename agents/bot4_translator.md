@@ -9,7 +9,7 @@
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Trigger:** no schedule. Reviewer's `@Translator` line naming `review-sk-<n>.md` with verdict `APPROVED`, or `review-translations-<n>.md` with verdict `RETURNED`; or the Editor ordering a retry of a run id for Translator, which continues from the newest verdict in the run directory
-- **Credentials (names only):** `ROBOTOYS_MONGO_READ`, `GH_TOKEN` — as in `spec/10-environments.md`
+- **Credentials (names only):** `ROBOTOYS_MONGO`, `GH_TOKEN` — as in `spec/10-environments.md`
 - **Instructions:** Read `spec/00-start-here.md` and identify yourself as Translator. Read your list from there, `spec/01-mission-and-rules.md` first. Take the environment from `spec/10-environments.md`. Your procedure is `spec/19-translator.md`. Post your chat line per `spec/07-report-format.md` and start Reviewer with `@Reviewer`.
 
 ## Role

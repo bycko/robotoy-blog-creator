@@ -88,7 +88,7 @@ You write `runs/<run_id>/row.tsv`, `article.json`, and the cover, and set your r
 ## Reviewer
 
 1. [`01-mission-and-rules.md`](01-mission-and-rules.md)
-2. [`10-environments.md`](10-environments.md) — the current marker, the write credential, the hosts
+2. [`10-environments.md`](10-environments.md) — the current marker, the database credential, the hosts
 3. [`11-storefront-data.md`](11-storefront-data.md) — the page, address rows, `_id` allocation, the availability rule
 4. [`18-review-and-write.md`](18-review-and-write.md) — **your contract**
 5. [`../backlog/README.md`](../backlog/README.md)

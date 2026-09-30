@@ -20,8 +20,7 @@ One file says which storefront a run talks to: which databases it reads, which d
 | Reviews database | `robotoys_reviews_live` | `robotoys_reviews_live` |
 | Blog category id (`categories._id`) | `7` | `7` |
 | Author id (`authors.uid`) | `1` | `1` |
-| Read credential name | `ROBOTOYS_MONGO_READ` | `ROBOTOYS_MONGO_READ` |
-| Write credential name (Reviewer only) | `ROBOTOYS_MONGO_WRITE_DEVEL` | `ROBOTOYS_MONGO_WRITE_LIVE` |
+| Database credential name | `ROBOTOYS_MONGO` | `ROBOTOYS_MONGO` |
 | Search Console property, Slovak | `sc-domain:robotoys.sk` | `sc-domain:robotoys.sk` |
 | Search Console property, translations | `sc-domain:robotoys.eu` | `sc-domain:robotoys.eu` |
 
@@ -78,16 +77,14 @@ Only secret **names** belong here. Values live in the bot platform's secret stor
 
 | Secret name | Held by | What it allows |
 |---|---|---|
-| `ROBOTOYS_MONGO_READ` | all four bots | read on the pages, SEO, product, and reviews databases of both environments |
-| `ROBOTOYS_MONGO_WRITE_DEVEL` | Reviewer | `find` and `insert` on `robotoys_pages_devel.pages` and `robotoys_seo_devel.seo`, nothing else |
-| `ROBOTOYS_MONGO_WRITE_LIVE` | Reviewer | `find` and `insert` on `robotoys_pages_live.pages` and `robotoys_seo_live.seo`, nothing else |
+| `ROBOTOYS_MONGO` | all four bots | the one database connection string, used for everything, through the tunnel on `127.0.0.1:27027` |
 | `GSC_SERVICE_ACCOUNT_JSON` | Planner | Search Console read (`webmasters.readonly`) on both properties |
 | `GOOGLE_ADS_DEVELOPER_TOKEN` | Planner | Keyword Planner requests (optional until provisioned) |
 | `GOOGLE_ADS_OAUTH_CLIENT` | Planner | OAuth client id and secret for Google Ads |
 | `GOOGLE_ADS_REFRESH_TOKEN` | Planner | OAuth refresh token for the Ads user |
 | `GH_TOKEN` | all four bots | fine-grained token, contents read and write on this repository only |
 
-**No write role grants `update`, `delete`, or `drop`.** Each write credential is a database user created in its own environment, so the development credential is refused by the production pages database and the other way round. A write refused for permissions is a stop, never a reason to try the other credential.
+**One credential, `ROBOTOYS_MONGO`, serves every bot and every database.** It does not separate reading from writing, and the database does not enforce it, so the rules do. Only Reviewer writes, and only `insert` into the pages and SEO collections of the current column. No bot runs `update`, `delete`, or `drop`, and no bot touches a database of the other column. A write refused for any reason is a stop.
 
 ### Google Ads account
 
@@ -141,8 +138,7 @@ This is not a bot's job. Without it the dry run does not start.
 
 - four bot identities: Planner, Creator, Reviewer, Translator
 - the SSH host `robotoys-mongo` on the bot computer and the tunnel check passing
-- `ROBOTOYS_MONGO_READ` on all four bots
-- `ROBOTOYS_MONGO_WRITE_DEVEL` and `ROBOTOYS_MONGO_WRITE_LIVE` on Reviewer only, each created in its own environment with the find-and-insert role above
+- `ROBOTOYS_MONGO` on all four bots
 - the Search Console service account added as a restricted user to both properties
 - `GH_TOKEN` on all four bots, limited to this repository
 - the schedules: Planner weekly Monday 06:00 and monthly at 06:00 on the Monday of the last full week (in place of that Monday's weekly check), Creator Monday and Wednesday 09:00 (Europe/Bratislava)
@@ -151,4 +147,4 @@ This is not a bot's job. Without it the dry run does not start.
 
 ## How you verify the pair fits
 
-Before the first production write, the dry run shows a page written with the development credential in the development pages database, none in the production one, and the development credential refused on the production pages database. It also shows the development credential refused an `update` and a `delete` on the page it wrote, so the insert-only role is proven rather than assumed. A hostname is not enough evidence.
+Before the first production write, the dry run shows a page written in the development pages database and none in the production one. `ROBOTOYS_MONGO` does not limit the database itself, so this is checked by reading the two pages databases and the address rows, not assumed from a hostname.

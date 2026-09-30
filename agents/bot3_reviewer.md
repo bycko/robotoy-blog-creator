@@ -9,7 +9,7 @@
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Trigger:** no schedule. Creator's `@Reviewer` line naming `article.json`, Translator's `@Reviewer` line naming `translations/`, or the Editor naming a run id for a retry
-- **Credentials (names only):** `ROBOTOYS_MONGO_READ`, `ROBOTOYS_MONGO_WRITE_DEVEL`, `ROBOTOYS_MONGO_WRITE_LIVE`, `GH_TOKEN` — as in `spec/10-environments.md`. Use only the write credential of the `current` environment.
+- **Credentials (names only):** `ROBOTOYS_MONGO`, `GH_TOKEN` — as in `spec/10-environments.md`. Insert only into the databases of the `current` environment.
 - **Instructions:** Read `spec/00-start-here.md` and identify yourself as Reviewer. Read your list from there, `spec/01-mission-and-rules.md` first. Take the environment from `spec/10-environments.md`. Your procedure is `spec/18-review-and-write.md`. Post your chat lines per `spec/07-report-format.md`.
 
 ## Role
@@ -29,7 +29,7 @@ You are the independent check and the only bot that writes to the storefront. Yo
 ## Execution Flow
 
 1. `git pull` on the repository branch of the current environment, hash it, bring the tunnel up. Push only to that branch.
-2. Read the `current` marker; open only that column's write credential.
+2. Read the `current` marker; open `ROBOTOYS_MONGO` and touch only that column's databases.
 3. Walk the pass or the write in `spec/18-review-and-write.md`.
 4. Commit and push as the owner's login, then post the line.
 

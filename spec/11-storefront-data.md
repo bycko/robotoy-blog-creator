@@ -268,7 +268,7 @@ Link only to blog pages that are enabled, using the path of that page's `url._<C
 - any product, review, user, or order
 - the admin, the pages API, the reviews API, and the CDN, beyond the reads above
 
-Reviewer's write credential allows only find and insert on the pages and SEO collections ([`10-environments.md`](10-environments.md)); nothing here asks for an update or a delete.
+Reviewer writes only `insert` into the pages and SEO collections ([`10-environments.md`](10-environments.md)); nothing here asks for an update or a delete.
 
 ## Settled findings
 
