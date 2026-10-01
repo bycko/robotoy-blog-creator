@@ -108,20 +108,20 @@ Commit the review file alone as the owner's login ([`10-environments.md`](10-env
 **Blocks**
 
 - Only `header`, `paragraph`, `list`, `image`, `HTML`. **A level-1 header, or level 5 or 6, is a `14/Body` finding.**
-- At least two level-2 headers. The first two blocks are paragraphs. The body does not say the cover was generated.
+- Block 1 is the cover image: `role` `cover`, no `file`, `caption` equal to `title`. Blocks 2 and 3 are paragraphs. Block 4 is the contents widget. At least two level-2 headers follow, with `elementID` `s1`, `s2`, … in order and plain text that matches the contents items. The body does not say the cover was generated.
 - Ids `b01`, `b02`, … unique and rising.
 - Every list item carries `items`, `[]` when empty.
 - Header, paragraph, and list text and image captions carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;`, every other `&` is `&amp;`; no attribute but `href`; no absolute link; no link in a header ([`14-article-contract.md`](14-article-contract.md#text-fields)).
 - **Every `HTML` block has `style` exactly `""` and `localization` exactly `{}`.** Its `code` contains no `{` or `}` (so no `>{…}<` pattern), no `[[` or `]]`, and nothing on the denylist of [Before the write](#before-the-write) step 4.
 - Every `HTML` block is either a table in the contract's shape or a template from `templates/widgets/` filled per [`15-widgets.md`](15-widgets.md#filling-a-template): compare the filled `code` with the template line by line; only slot values may differ. Every slot value is escaped for its kind.
 - `html_blocks` lists every `HTML` block exactly once with the right `kind`.
-- Every `image` block is a photo from `images` of a product in `products_used`, and its `url` starts with the CDN origin.
+- Every `image` block after the cover is a photo from `images` of a product in `products_used`, its `url` starts with the CDN origin, and it has no `file.path` and no `role`.
 
 **Editorial rules**
 
 Read [`09-editorial-guidelines.md`](09-editorial-guidelines.md) against the plan row. Cite the rule.
 
-- **Reader test (`E1`–`E3`).** Read only the title, the perex, and the first two paragraphs. Say to yourself, in one or two Slovak sentences, the answer to `reader_question` for `reader` from those alone. When you cannot, `E3` fails. Find each `must_answer` item there, the first one first; a missing item fails `E1`. A product mention or widget there fails `E2`.
+- **Reader test (`E1`–`E3`).** Read only the title, the perex, and the first two paragraphs. Say to yourself, in one or two Slovak sentences, the answer to `reader_question` for `reader` from those alone. When you cannot, `E3` fails. Find each `must_answer` item there, the first one first; a missing item fails `E1`. A product mention or a product widget there fails `E2`. The cover image and the contents list are outside that opening.
 - **Position (`E4`).** Nothing product-related before the second level-2 header.
 - **Amounts (`E5`–`E7`).** Count product widgets, product and category links in running text, and product words yourself, against the pillar's column. Your count decides; a `word_counts` that differs from yours by more than 5 % is also a `14/Sidecar fields` finding. A Slovak body under 600 words fails `14/Body`.
 - **Removed-products test (`E8`, `E9`).** Delete every product widget, quote, and product sentence in your head and read from the title down.
@@ -207,7 +207,7 @@ For each locale, with its country key from the locale table:
 - The file validates against [`16-article-schema.json`](16-article-schema.json), `locale` is this locale, and it carries no `word_counts`.
 - `run_id`, `topic_key`, `pillar`, `reviews_quoted`, `html_blocks`, `sources`, `cover.file`, and `cover.prompt` equal the Slovak file.
 - **The block count, every `id`, every `type`, and the order equal the Slovak file.** A missing, added, merged, or moved block fails `14/Body`; name the block `id`.
-- Header levels, list styles and item counts, table rows and columns, widget kinds, grid products and their order, and FAQ pair counts equal the Slovak file.
+- Header levels and every `elementID`, list styles and item counts, table rows and columns, widget kinds, contents item ids, grid products and their order, and FAQ pair counts equal the Slovak file. Cover `caption` equals that file's `title`. Contents item text equals that file's level-2 headers.
 - No block says the cover was generated.
 
 **Links and products**
@@ -306,7 +306,7 @@ These run after the translations are approved, and again on every retry that fin
 2. **Approved files.** The newest `review-sk-<n>.md` and `review-translations-<n>.md` end `APPROVED`, and `git diff --quiet <Commit of the translation review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.* runs/<run_id>/translations/` shows no difference.
 3. **Products, again.** Read every product in `products_used` now and apply the availability rule for all 21 countries. **A product withdrawn between review and write stops the write**: name the product and the country, and [stop the run](#stopping-a-run) with the row `HELD` for the Editor. No product is dropped at this point, because the approved text carries it in 21 languages. Note the time it passed as `products_rechecked_at`; when more than 30 minutes pass before the page post, re-check again.
 4. **Every block in all 21 languages** against the HTML rules.
-   - **Every `HTML` block is on the allowlist, or the write stops.** Its `code` equals one of the five templates in [`../templates/widgets/`](../templates/widgets/product-card.html) with only slot values changed, line by line, and each slot value obeys the escaping rule of its slot kind in [`15-widgets.md`](15-widgets.md#escaping); or it matches exactly the table shape in [`14-article-contract.md`](14-article-contract.md#tables), with only cell text changed and escaped the same way. Anything else, however harmless it looks, stops the write: name the locale and the block `id`.
+   - **Every `HTML` block is on the allowlist, or the write stops.** Its `code` equals one of the six templates in [`../templates/widgets/`](../templates/widgets/product-card.html) with only slot values changed, line by line, and each slot value obeys the escaping rule of its slot kind in [`15-widgets.md`](15-widgets.md#escaping); or it matches exactly the table shape in [`14-article-contract.md`](14-article-contract.md#tables), with only cell text changed and escaped the same way. Anything else, however harmless it looks, stops the write: name the locale and the block `id`.
    - As an extra check on top of the allowlist: the text subset in text fields, `style: ""`, `localization: {}`, no `{` or `}`, no slot marker, no `script`, `style`, `iframe`, `form`, `object`, `embed`, `svg`, `math`, `meta`, `base`, or `link` element, no event attribute (`on…=`), no numeric entity `&#`, no `javascript:` or `data:` address, no level-1 header, only the five types. The schema in [`16-article-schema.json`](16-article-schema.json) enforces this denylist; it never replaces the allowlist.
 5. **Tags.** Keep only tag `uid`s that exist in the `tags` collection with a name for all 21 locales ([`11-storefront-data.md`](11-storefront-data.md#tags)). Drop the rest and name each in your message. While the collection is empty, `tags` is `[]`.
 6. **Author and category.** The author id and the blog category id from the environments file exist in `authors` and `categories`.
@@ -328,7 +328,7 @@ Build the `PATCH` body per [`11-storefront-data.md`](11-storefront-data.md#posti
 | `locale._<locale>.seo_title` | that locale's `seo_title` |
 | `locale._<locale>.seo_description` | that locale's `seo_description` |
 | `locale._<locale>.image` | the temporary cover URL from the CDN upload, the same value on all 21 locales |
-| `blocks._<locale>` | that locale's `blocks`, unchanged, and no image block carries `file.path` |
+| `blocks._<locale>` | that locale's `blocks`. On the cover block only, drop `role` and set `file` to `{ "url": "<the temporary URL>", "path": "<the response path>" }`. No other image block carries `file.path` |
 
 All 21 locale keys are present; take them from the locale table, never derive one from the other. Do not send `url`, `uid`, `_id`, or `sequence`. The service sets those. **A body missing one language is not sent.**
 
@@ -358,7 +358,7 @@ flowchart TB
    - One, disabled, and [the stored page passes](#what-the-stored-page-must-pass): already complete. Record it if `written.json` lacks the `_id`, and do not send the save.
    - One, disabled, and it does not pass: **stop and name what is missing.** Do not send the save again; a second `PATCH` would change the page.
    - None: run [Before the write](#before-the-write), then step 3.
-3. **Upload the cover** per [`11-storefront-data.md`](11-storefront-data.md#posting-the-page): `POST` the cover file to the CDN origin, field `file`. Keep the temporary URL. A response without a `/tmp/` path is a stop. Send no page request.
+3. **Upload the cover** per [`11-storefront-data.md`](11-storefront-data.md#posting-the-page): `POST` the cover file to the CDN origin, field `file`. Keep the temporary URL (`https://cdn.robotoys.sk` plus `path`) and the `path` (`/tmp/<name>.jpg`). A response without a `/tmp/` path is a stop. Send no page request. The save sends both: `locale._<locale>.image` and the cover block's `file.url` are the temporary URL, and the cover block's `file.path` is the `path`.
 4. **Save the page once.** `PATCH` `id=create` to the current environment's pages API, body from [Composing the request](#composing-the-request), `Host` of that environment. A development request uses the forward and `Host: dev.robotoys.sk`. **Never send it to host `robotoys.sk` during development.**
 
    | Result | What you do |
@@ -376,9 +376,11 @@ Send nothing else: no publish call, no second save, no author, category, or tag 
 
 - `enabled` is `false`, `pipeline_run_id` is this run, `categoryID` is the blog category id.
 - `uid` equals the Slovak `slug`.
-- Every `locale._<locale>.image` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. None still contain `/tmp/`.
+- Every `locale._<locale>.image` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. None still contain `/tmp/`. The 21 strings need not be identical.
+- The first block of every locale is an image. Its `file.url` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. It has `width` and `height`, and no `path`, no `role`, and no `/tmp/`. Those 21 `file.url` values need not be identical, and they need not equal `locale.image`: the service files the hidden image and the block separately.
+- No other image block has `file.path`. Each still has its catalog `file.url`.
+- Every level-2 header still has the same `elementID` as in the article file.
 - `url._<COUNTRY>` is `https://` plus that country's address, and the `seo` collection has exactly those 21 rows with this `id` and `type` `article`.
-- No image block has `file.path`.
 
 ### Outcomes
 

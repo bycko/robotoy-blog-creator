@@ -68,9 +68,9 @@
     },
     "blocks": {
       "type": "array",
-      "minItems": 5,
+      "minItems": 6,
       "items": { "$ref": "#/$defs/block" },
-      "description": "blocks._<locale>. Opens with two paragraphs and holds at least two level-2 headers."
+      "description": "blocks._<locale>. Opens with the cover image, two paragraphs, and the contents widget, then at least two level-2 headers."
     },
     "tags": {
       "type": "array",
@@ -146,7 +146,7 @@
           "block_id": { "$ref": "#/$defs/blockId" },
           "kind": {
             "type": "string",
-            "enum": ["TABLE", "PRODUCT_CARD", "PRODUCT_GRID", "TIP", "QUOTE", "FAQ"]
+            "enum": ["TABLE", "TOC", "PRODUCT_CARD", "PRODUCT_GRID", "TIP", "QUOTE", "FAQ"]
           }
         }
       },
@@ -259,12 +259,45 @@
                 "text": {
                   "allOf": [{ "$ref": "#/$defs/inlineText" }],
                   "not": { "pattern": "<a " },
-                  "description": "Headers carry no link."
+                  "description": "Headers carry no link. Level 2 is plain text: it is copied into the contents list."
                 },
-                "level": { "type": "integer", "enum": [2, 3, 4], "description": "Never 1: the page h1 comes from title." }
+                "level": { "type": "integer", "enum": [2, 3, 4], "description": "Never 1: the page h1 comes from title." },
+                "elementID": {
+                  "type": "string",
+                  "pattern": "^s[1-9][0-9]{0,2}$",
+                  "description": "Anchor id on a level-2 header. Same value in every locale: s1, s2, in order. The storefront writes it as the heading id."
+                }
               }
             }
-          }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "data": {
+                    "properties": { "level": { "const": 2 } },
+                    "required": ["level"]
+                  }
+                },
+                "required": ["data"]
+              },
+              "then": {
+                "properties": {
+                  "data": {
+                    "required": ["text", "level", "elementID"],
+                    "properties": {
+                      "text": { "$ref": "#/$defs/plainText" }
+                    }
+                  }
+                }
+              },
+              "else": {
+                "properties": {
+                  "data": { "not": { "required": ["elementID"] } }
+                }
+              }
+            }
+          ]
         },
         {
           "properties": {
@@ -297,6 +330,20 @@
             "data": {
               "type": "object",
               "additionalProperties": false,
+              "required": ["role", "caption"],
+              "properties": {
+                "role": { "const": "cover", "description": "The first block only. No file: Reviewer fills file.url and file.path at the save." },
+                "caption": { "$ref": "#/$defs/plainText", "description": "Equals this file's title. The alt text of the cover." }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": { "const": "image" },
+            "data": {
+              "type": "object",
+              "additionalProperties": false,
               "required": ["file", "caption"],
               "properties": {
                 "file": {
@@ -307,7 +354,8 @@
                     "url": {
                       "type": "string",
                       "pattern": "^https://[^\"'<>\\s{}]+$",
-                      "description": "A product photo from the product's images; starts with the CDN origin in 10-environments.md."
+                      "not": { "pattern": "/tmp/" },
+                      "description": "A product photo from the product's images; starts with the CDN origin in 10-environments.md. Never a /tmp/ address and never file.path."
                     },
                     "width": { "type": "integer", "minimum": 1 },
                     "height": { "type": "integer", "minimum": 1 }

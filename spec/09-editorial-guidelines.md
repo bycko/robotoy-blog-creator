@@ -27,7 +27,7 @@ A real-world subject is not a product. Tower Bridge, a steam locomotive, or a bo
 
 ### Where products may appear
 
-- **The opening contains no product mention** and no widget. The title, perex, and first two paragraphs deliver the answer or the promise to the reader.
+- **The opening contains no product mention** and no product widget. The title, perex, and first two paragraphs deliver the answer or the promise to the reader. The cover image is the first block and the contents list is the fourth. Neither is part of the opening and neither is product content.
 - **Nothing product-related appears before the second `h2`.** No product widget, product mention, or product link stands in the first `h2` section or above it. That section answers the reader's question.
 - Tip boxes and FAQ widgets are not product content unless they contain a product mention; then their words count as product words and the position rule applies to them.
 
@@ -249,7 +249,7 @@ A good default order: the opening that answers; a first `h2` section that explai
 Reviewer cites these ids in its findings. Other specs cite them as `09/E<n>`.
 
 1. **E1** — The article serves the plan row's one reader, answers their question, and keeps every promise of the title and perex.
-2. **E2** — The opening (title, perex, first two body paragraphs) contains no product mention and no widget.
+2. **E2** — The opening (title, perex, first two body paragraphs) contains no product mention and no product widget. The cover image and the contents list sit outside that opening.
 3. **E3** — The opening delivers the answer or the promise; it is not a lead-in.
 4. **E4** — No product widget, product mention, or product link appears before the second `h2`.
 5. **E5** — At most 2 product widgets, or 3 in `GIFT`; a grid counts as one.
@@ -270,6 +270,6 @@ Reviewer cites these ids in its findings. Other specs cite them as `09/E<n>`.
 20. **E20** — No invented or unchecked fact, number, builder, or quote; a named person only with a consent line.
 21. **E21** — The title is at most 60 characters, concrete, in sentence case, with no product or brand, no superlative, and no year unless the topic needs it.
 22. **E22** — The SEO title is at most 60 characters; the SEO description is 120–155 characters, states the answer or promise and the reader, and names no product or brand.
-23. **E23** — The cover is a photorealistic photo, in the warm lifestyle look above, that fits this article's title and topic and does not repeat the scene of a recent article, never an illustration and never a catalog product photo, with no readable text, logo, packaging, price, or recognizable kit. The body does not say the cover was generated.
+23. **E23** — The cover is a photorealistic photo, in the warm lifestyle look above, that fits this article's title and topic and does not repeat the scene of a recent article, never an illustration and never a catalog product photo, with no readable text, logo, packaging, price, or recognizable kit. It is the first block, `role` `cover`, and its caption is the article title. The body does not say the cover was generated.
 24. **E24** — The topic is not out of identity.
 25. **E25** — Correct Slovak with full diacritics, Slovak quotation marks, and hobby terms explained at first use.

@@ -16,7 +16,7 @@ Every file is valid against [`16-article-schema.json`](16-article-schema.json). 
 
 ## Fields and where they land
 
-Reviewer copies the page fields from each locale's file into the page unchanged. Nothing is rewritten on the way.
+Reviewer copies the page fields from each locale's file into the page unchanged, except the cover image block. That block has no `file` in the article. At the save, Reviewer sets `file.url` and `file.path` from the CDN upload and drops `role` ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
 
 | Article field | Page field | Limit | Rule |
 |---|---|---|---|
@@ -25,11 +25,11 @@ Reviewer copies the page fields from each locale's file into the page unchanged.
 | `seo_title` | `locale._<locale>.seo_title` | 1–60 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
 | `seo_description` | `locale._<locale>.seo_description` | 120–155 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
 | `slug` | `sk`: `uid`; every locale: the path of `url._<COUNTRY>` and the address row `_id` | 3–90 characters | see [Slug](#slug) |
-| `blocks` | `blocks._<locale>` | see [Body](#body) | copied as the array, block by block |
+| `blocks` | `blocks._<locale>` | see [Body](#body) | copied as the array, block by block, except the cover block's `file` |
 | `tags` | `tags` | — | `[]` while the tags collection is empty ([`11-storefront-data.md`](11-storefront-data.md#tags)) |
-| `cover.file` | `locale._<locale>.image`, after the pages service files the upload | — | see [Cover](#cover) |
+| `cover.file` | `locale._<locale>.image`, and the first block, after the pages service files the upload | — | see [Cover](#cover) |
 
-Every other field is the sidecar: it tells Reviewer what the article uses and never reaches the page.
+Every other field is the sidecar: it tells Reviewer what the article uses and never reaches the page. Reviewer copies page fields unchanged, except the cover image block: its `file` does not exist in the article file, and Reviewer fills it at the save ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
 
 **Counting characters.** Count Unicode characters, spaces included, as the reader sees them.
 
@@ -52,7 +52,7 @@ Every other field is the sidecar: it tells Reviewer what the article uses and ne
 | Types are `header`, `paragraph`, `list`, `image`, `HTML` | any other type |
 | `header.level` is 2, 3, or 4 | a level-1 header, or level 5 or 6 |
 | At least two level-2 headers | fewer than two |
-| The body opens with two `paragraph` blocks | the first or second block is not a paragraph |
+| The body opens with the cover image, two paragraphs, then the contents list | block 1 is not the cover image, block 2 or 3 is not a paragraph, or block 4 is not the contents widget |
 | `id` is `b` plus two digits (`b01`, `b02`, …), unique, in rising order | a duplicate or skipped pattern |
 | Every translation has the same ids, types, and order as the Slovak article | a block added, dropped, or moved |
 | A table or a widget is an `HTML` block | a table or widget in any other block |
@@ -106,14 +106,34 @@ A table is an `HTML` block whose `code` is exactly this shape, with one header r
 
 ### Widgets
 
-A widget is an `HTML` block whose `code` is one of the five templates in [`15-widgets.md`](15-widgets.md), filled. **No other HTML reaches an `HTML` block**: no hand-written markup, no copied markup from a source site.
+A widget is an `HTML` block whose `code` is one of the six templates in [`15-widgets.md`](15-widgets.md), filled. **No other HTML reaches an `HTML` block**: no hand-written markup, no copied markup from a source site.
+
+### Headers and the contents list
+
+Every level-2 header carries `elementID`: `s1`, `s2`, `s3`, … in the order the headers appear, with no gap and no repeat. The same ids are used in every language. Level 3 and 4 carry no `elementID`.
+
+A level-2 header's `text` is plain text, the same words as that item in the contents list ([`15-widgets.md`](15-widgets.md#contents)). The storefront writes `elementID` onto the heading as `id` (`robotoys-ui: templates/base/Page/Blocks/Header.template`).
 
 ### Images
 
-- An `image` block carries **a product photo only**: `file.url` is an entry of `images` of a product in `products_used`, and it starts with the CDN origin from [`10-environments.md`](10-environments.md). This is the one place a full address is written, because the image block needs it. In examples it is `<CDN origin>/…`.
-- `file.width` and `file.height` are the photo's pixel size.
+Two kinds of `image` block exist. The article file never carries `file.path` and never carries a `/tmp/` address. Reviewer adds those on the cover block only, at the save.
+
+**Cover.** The first block, and no other:
+
+```json
+{ "id": "b01", "type": "image", "data": { "role": "cover", "caption": "Kedy pri drevenom 3D puzzle siahnuť po lepidle" } }
+```
+
+- `role` is `cover`. There is no `file`. The bytes live in `runs/<run_id>/cover.png` or `cover.jpg`, not in this block.
+- `caption` equals that file's `title`. It is the alt text. It is plain text and not a sales line.
+- Exactly one cover block. A second `role: "cover"` fails.
+
+**Product photo.** Any later `image` block:
+
+- `file.url` is an entry of `images` of a product in `products_used`, and it starts with the CDN origin from [`10-environments.md`](10-environments.md). This is the one place a full address is written in the article file. In examples it is `<CDN origin>/…`.
+- `file.width` and `file.height` are the photo's pixel size. There is no `file.path` and no `role`.
 - `caption` is plain text and is also the alt text. It says what the photo shows ("Hotový model hudobnej skrinky zboku"), not a sales line. A product photo is product content and counts under [`09/E4`](09-editorial-guidelines.md#rules).
-- **No generated photo in the body.** An image block is a catalog photo: `file.url` starts with the CDN origin, and `file` has no `path`. A `path` would make the page save upload the block again ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). An image block whose `url` is not a catalog photo fails.
+- A product image whose `url` is not a catalog photo fails. A product image with `file.path` fails: the page save would upload it again ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
 
 ## Links
 
@@ -139,7 +159,7 @@ The cover is a photorealistic photograph ([`09/E23`](09-editorial-guidelines.md#
 | `cover.file` | `cover.png` or `cover.jpg` |
 | `cover.prompt` | the full prompt used, in English |
 
-Reviewer posts that file with the page ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The file is not an image block, and the body does not say how the cover was made.
+Reviewer posts that file with the page ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The same upload becomes `locale._<locale>.image` (the `og:image`, which the page does not show) and the first block (the picture at the top of the article). The body does not say how the cover was made.
 
 - The prompt describes a scene that fits the article's title and topic, in the photograph style of [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): no readable text, logo, packaging, price, or recognizable shop kit.
 - A missing cover file, or a `cover.file` that does not name it, fails.
@@ -157,7 +177,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 | `products_used` | one entry per product anywhere in the file: `product_id`, `name` as written, `path` for this locale's country, `used_in` (block ids), `checked_at` (when the availability rule passed) |
 | `reviews_quoted` | one entry per quote widget: `review_id`, `product_id`, `language` of the review, `block_id`, `text` as stored |
 | `internal_links` | one entry per link to another article: `page_id`, `path`, `block_id` |
-| `html_blocks` | one entry per `HTML` block: `block_id` and `kind` (`TABLE`, `PRODUCT_CARD`, `PRODUCT_GRID`, `TIP`, `QUOTE`, `FAQ`) |
+| `html_blocks` | one entry per `HTML` block: `block_id` and `kind` (`TABLE`, `PRODUCT_CARD`, `PRODUCT_GRID`, `TIP`, `QUOTE`, `FAQ`, `TOC`) |
 | `sources` | what informed the article: `kind` (`INSPIRED_BY`, `COMMUNITY`, `FACT`), `ref` (a source-list entry, a `community/<topic_key>/` path, or the address of the page that confirms a fact), `note` |
 | `word_counts` | Slovak file only: `body` and `product` words as defined in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#terms) |
 | `cover` | `file`, `prompt` |
@@ -171,7 +191,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 
 Reviewer returns the article with the failing rule named when any of these holds:
 
-- a level-1 header, or a block type outside the five;
+- a level-1 header, a block type outside the five, a body that does not open with the cover, two paragraphs, and the contents list, a level-2 header without `elementID`, or a contents list that does not match those headers;
 - a text field with a tag outside the subset, a `span`, an attribute other than `href`, an absolute link, or a bare `<` or `&`;
 - an `HTML` block with a non-empty `style`, without `localization: {}`, with any `{` or `}`, with an unfilled `[[slot]]`, or with markup that is not a table or a filled template;
 - a widget carrying a price, a discount, or a currency;

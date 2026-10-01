@@ -120,14 +120,12 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
   },
   "blocks": {
     "_sk": [
-      { "id": "b01", "type": "paragraph", "data": { "text": "Väčšina drevených modelov je navrhnutá tak, aby diely <b>držali na trenie</b>." } },
-      { "id": "b02", "type": "header", "data": { "text": "Kde lepidlo pomôže", "level": 2 } },
-      { "id": "b03", "type": "list", "data": { "style": "unordered", "items": [
-        { "content": "tenké dielce, ktoré sa pri skladaní uvoľňujú", "items": [] },
-        { "content": "ozdobné prvky na streche alebo na kolesách", "items": [] }
-      ] } },
-      { "id": "b04", "type": "image", "data": { "file": { "url": "<product image url>", "width": 1200, "height": 900 }, "caption": "Hotový model zboku" } },
-      { "id": "b05", "type": "HTML", "data": { "code": "<table>…</table>", "style": "", "localization": {} } }
+      { "id": "b01", "type": "image", "data": { "file": { "url": "https://cdn.robotoys.sk/page/gallery/kedy-pri-drevenom-d-puzzle-siahnut-po-lepidle-46-789.jpg", "width": 1200, "height": 675 }, "caption": "Kedy pri drevenom 3D puzzle siahnuť po lepidle" } },
+      { "id": "b02", "type": "paragraph", "data": { "text": "Väčšina drevených modelov je navrhnutá tak, aby diely <b>držali na trenie</b>." } },
+      { "id": "b03", "type": "paragraph", "data": { "text": "…" } },
+      { "id": "b04", "type": "HTML", "data": { "code": "<div class=\"rt-toc\">…</div>", "style": "", "localization": {} } },
+      { "id": "b05", "type": "header", "data": { "text": "Kde lepidlo pomôže", "level": 2, "elementID": "s1" } },
+      { "id": "b06", "type": "image", "data": { "file": { "url": "<product image url>", "width": 1200, "height": 900 }, "caption": "Hotový model zboku" } }
     ],
     "_cs": [ "… the same blocks, same ids, same order …" ]
   },
@@ -144,10 +142,10 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
 
 | `type` | `data` fields | Rendered by | Rules |
 |---|---|---|---|
-| `header` | `text`, `level`, optional `align` | `Blocks/Header.template` | `level` is 2, 3, or 4. No level 1: the page `h1` comes from `title`, and a level-1 header would replace it. |
+| `header` | `text`, `level`, optional `elementID`, optional `align` | `Blocks/Header.template` | `level` is 2, 3, or 4. No level 1: the page `h1` comes from `title`, and a level-1 header would replace it. A level-2 header carries `elementID` (`s1`, `s2`, …). The template writes it as the heading `id`. |
 | `paragraph` | `text`, optional `align` | `Blocks/Paragraph.template` | — |
 | `list` | `style`, `items` | `Blocks/List.template` | `style` is `ordered` or `unordered`. Each item is `{ content, items }`; `items` is an array on every item, `[]` when there is no sub-list, because the renderer reads its length. |
-| `image` | `file` `{ url, width, height }`, `caption` | `Blocks/Image.template` | `url` is a CDN address; `width` and `height` are the image's pixel size, used for the aspect ratio. `caption` is also the image's alt text. |
+| `image` | cover: `role`, `caption`. Product: `file` `{ url, width, height }`, `caption` | `Blocks/Image.template` | The renderer shows the block only when `file.url` is set. The article file's cover block has no `file`; the save adds it ([Posting the page](#posting-the-page)). A product photo's `url` is a catalog address. `caption` is also the alt text. `locale.image` is not drawn in the body: it is `og:image` and a hidden schema image (`robotoys-ui: templates/base/Page/Page/Detail.template`). |
 | `HTML` | `code`, `style`, `localization` | `Blocks/Html.template` | The type string is exactly `HTML`. `style` is `""`, `localization` is `{}`, see below. Tables and widgets travel only in this block. |
 
 - `id` is a short string unique within the locale. The same block carries the same `id` at the same position in every locale, so structure can be compared across languages.
@@ -238,8 +236,9 @@ Rules the service actually applies, so the body must follow them:
 
 - **`locale._sk.title` is the first key that ends in `.title`.** On create, `uid` is the slug of that first title.
 - **`enabled` is `false`.** Create defaults a page to enabled, and the same request then stores this value over it. Omitting it leaves the page enabled.
-- Every `locale._<locale>.image` is the same temporary URL from step 1. The service uploads each one whose value contains `/tmp/` and rewrites it to `/page/gallery/<title with digits removed, then slugified>-<page id>-<random>.<ext>` on `https://cdn.robotoys.<country>`.
-- An image block must not carry `file.path`. A block that has `file.path` is uploaded again. Catalog photos carry `file.url`, `file.width`, and `file.height` only.
+- Every `locale._<locale>.image` is the same temporary URL from step 1 (`https://cdn.robotoys.sk` plus the response `path`). The service uploads each one whose value contains `/tmp/` and rewrites it to `/page/gallery/<title with digits removed, then slugified>-<page id>-<random>.<ext>` on `https://cdn.robotoys.<country>`. The 21 stored addresses are not one string: each upload gets its own random id, and the host follows the country.
+- The cover image block, the first block of every locale, carries `file.url` set to that same temporary URL and `file.path` set to the response `path` (`/tmp/<name>.jpg`). `file.path` is only the switch (`ecommerce-pages-model` `Page.update`, block-image loop). The service downloads `file.url`, then replaces the whole `file` with `{ url, width, height }` under `/page/gallery/`. Width and height in the request are not kept. A cover block with `file.path` and no `file.url`, or with `file.url` pointing anywhere other than that temporary URL, is not sent: the download fails and the page may already have been inserted.
+- Every other image block is a catalog photo and must not carry `file.path`. A block that has `file.path` is uploaded again from its `file.url`.
 - Do not send `url`. After the save, the service deletes every `seo` row with this page id and `type` `article`, then inserts 21 new rows. Each address is that country's category URL, a slash, and the slug of that locale's title.
 - `pipeline_run_id` is stored as sent. The admin form does not send it; the pipeline does, so a replay can find its page.
 - The response is `{ "ok": true, "result": <page _id> }`. `result` is the new integer `_id`.
@@ -329,7 +328,7 @@ That save is the only storefront write. The service itself replaces the page's a
 | How is a page `_id` allocated? | The pages service, on `id=create`: highest `_id` plus one. Reviewer records the `result` it returns. | `ecommerce-pages-model` `Page.insert`; production pages 43, 44, 45 are consecutive. |
 | Who creates the address rows? | The same save. It deletes article rows for that page id and inserts 21, built from the category URL plus the slug of each locale title. | `Page.update_seo` in `ecommerce-pages-model`, read 2026-10-01. |
 | Where do tag `uid`s resolve, and do tags cover the pillars? | In the `tags` collection, by `uid`, per locale. It is empty, so no tags exist for any pillar; Reviewer sends `tags: []`. | Production `tags` collection is empty; every blog page 17–45 carries `tags: []`. |
-| How does the cover get onto the page? | `POST` the file to the CDN origin, then send that `/tmp/` URL as `locale._<locale>.image` on all 21 locales in the page `PATCH`. The service files each one under `/page/gallery/`. | Pages admin `Page.update` and `Page_gallery`; `Page.update` image loop in `ecommerce-pages-model`. |
+| How does the cover get onto the page? | One `POST` to the CDN origin. The same temporary URL goes into every `locale._<locale>.image` and into the first block as `file.url`, with `file.path` set to the response `path`. The service files each into `/page/gallery/` during that one `PATCH` and drops `file.path`. `locale.image` stays hidden (`og:image`); the block is the picture at the top. | `Page.update` in `ecommerce-pages-model`, read 2026-10-01: locale loop uses the field value, block loop requires `file.path` and downloads `file.url`. Live page 44 stores two gallery files, neither under `/tmp/`. |
 | What does a level-1 header do? | Its text replaces `title` as the page `h1`, and the block itself is not rendered in the body. Pipeline bodies carry none, so the `h1` is `title`. | `robotoys-ui: templates/base/Page/Page/Detail.template` (`page.heading`, and body headers rendered only when `level != 1`). |
 | What must an HTML block carry? | `code`, `style: ""`, `localization: {}`; no `>{…}<` in `code`. | `robotoys-ui: templates/base/Page/Blocks/Html.template`, `lib/pages-core/lib/models/page.js`. |
 | Where does the run id live on the page? | The extra top-level field `pipeline_run_id`. | Existing pages lack it; the renderer reads only named fields (`robotoys-ui: lib/pages/lib/classes/page.js`). |

@@ -154,10 +154,11 @@ Polish is the one exception to lowercase pronouns, because the storefront writes
 
 | Block | What changes | What stays |
 |---|---|---|
-| `header` | `text`, translated | `id`, `level` |
-| `paragraph` | `text`, translated | `id`; the first two paragraphs stay the opening, with no product |
+| `header` | `text`, translated. A level-2 header stays plain text | `id`, `level`, `elementID` |
+| `paragraph` | `text`, translated | `id`; blocks 2 and 3 stay the opening, with no product |
 | `list` | each item's `content`, translated | `style`, the number of items, the nesting; `items: []` where Slovak has it |
-| `image` | `caption`, translated; plain text | `file.url`, `file.width`, `file.height` |
+| `image`, cover | `caption`, set to this file's `title` | `id`, `role` `cover`. There is no `file` |
+| `image`, product | `caption`, translated; plain text | `file.url`, `file.width`, `file.height`. No `file.path` |
 | `HTML`, table | the text inside `th` and `td`, translated and escaped per [`15-widgets.md`](15-widgets.md#escaping) | the wrapper, every tag, the number of rows and columns, `style: ""`, `localization: {}` |
 | `HTML`, widget | the slot values; see [Products and widgets](#products-and-widgets) | the template, the kind, the products and their order, the number of FAQ pairs, `style: ""`, `localization: {}` |
 
@@ -190,7 +191,9 @@ Fill every widget again from its template in `templates/widgets/`, per [`15-widg
 | `photo_alt`, `product_name` | `name._<locale>` |
 | `pieces`, `assembly_time` | the stored parameter, as in Slovak; the hour unit written as the language writes it |
 | `difficulty` | `parameters."3"` in this file's locale; **missing in this locale → delete that `<li>` line**, never translate the Slovak value |
-| `label_pieces`, `label_assembly_time`, `label_difficulty`, `label_link`, `label_tip`, `label_translation` | translated once per language; the same words in every widget of the file |
+| `label_pieces`, `label_assembly_time`, `label_difficulty`, `label_link`, `label_tip`, `label_translation`, `label_contents` | translated once per language; the same words in every widget of the file |
+| `item_id` | the same as in Slovak (`s1`, `s2`, …) |
+| `item_text` | the text of the level-2 header with that `elementID`, in this language |
 | `tip_text` | translated, `rich`, at most 300 characters as the reader sees them |
 | `question` | translated, ends with the language's question mark, at most 120 characters |
 | `answer` | translated, `rich`, at most 400 characters as the reader sees them |
@@ -284,7 +287,7 @@ When either exists, the address belongs to another page. Make the slug more spec
 Before the commit, check every file you wrote. A file that fails is fixed, not committed.
 
 - It validates against [`16-article-schema.json`](16-article-schema.json), with `locale` set and no `word_counts`.
-- **Its block count, ids, types, and order equal the Slovak file's.** Header levels, list item counts, table rows and columns, widget kinds, grid products, and FAQ pairs equal the Slovak file's.
+- **Its block count, ids, types, and order equal the Slovak file's.** Header levels and `elementID`s, list item counts, table rows and columns, widget kinds, contents item ids, grid products, and FAQ pairs equal the Slovak file's. The cover caption equals this file's title.
 - Every product link and every `product_path` is this country's path; no Slovak path appears in any non-Slovak file.
 - Every article link is this country's path, or has been dropped with its text kept.
 - Every product name equals `name._<locale>`.

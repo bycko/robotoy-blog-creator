@@ -1,11 +1,12 @@
 # 15 — Widgets
 
-Five widgets exist: product card, product grid, tip box, customer quote, and FAQ. **An article uses no other widget.** A comparison table is a table ([`14-article-contract.md`](14-article-contract.md#tables)), not a widget; there is no call-to-action box.
+Six widgets exist: contents list, product card, product grid, tip box, customer quote, and FAQ. **An article uses no other widget.** A comparison table is a table ([`14-article-contract.md`](14-article-contract.md#tables)), not a widget; there is no call-to-action box.
 
 Each widget is an `HTML` block whose `code` is a template from `templates/widgets/`, filled:
 
 | Widget | Template | `html_blocks[].kind` |
 |---|---|---|
+| Contents list | [`toc.html`](../templates/widgets/toc.html) | `TOC` |
 | Product card | [`product-card.html`](../templates/widgets/product-card.html) | `PRODUCT_CARD` |
 | Product grid | [`product-grid.html`](../templates/widgets/product-grid.html) | `PRODUCT_GRID` |
 | Tip box | [`tip.html`](../templates/widgets/tip.html) | `TIP` |
@@ -52,6 +53,7 @@ Labels are `text` slots, so every language shows its own words. Slovak values:
 | `label_assembly_time` | `Čas skladania` |
 | `label_difficulty` | `Náročnosť` |
 | `label_link` | `Pozrieť stavebnicu` |
+| `label_contents` | `Obsah článku` |
 | `label_tip` | `Tip` |
 | `label_translation` | `Preklad` |
 
@@ -76,6 +78,20 @@ Product slots are filled from the product document in the product database ([`11
 - A product without a photo that passes the `cdn` rule is not used in a card or a grid.
 - **There is no price slot.** A widget carries no price, discount, currency, stock, or delivery text, not even inside a product name. A product whose `name._<locale>` carries such text is not used.
 - Every product in a widget passes the availability rule in [`11-storefront-data.md`](11-storefront-data.md#sold-in-all-21-countries) and is listed in `products_used` with the widget's block id.
+
+## Contents
+
+One contents list, and it is the fourth block, after the cover image and the two opening paragraphs ([`14-article-contract.md`](14-article-contract.md#body)). [`toc.html`](../templates/widgets/toc.html) repeats one item per level-2 header between `[[items]]` and `[[/items]]`, in that order.
+
+| Slot | Kind | Value |
+|---|---|---|
+| `label_contents` | `text` | the label |
+| `item_id` | `text` | that header's `elementID`: `s1`, `s2`, … The template writes it as `href="#…"`. It matches `^s[1-9][0-9]{0,2}$` |
+| `item_text` | `text` | that header's `text`, the same characters |
+
+- The number of items equals the number of level-2 headers. A missing header, an extra item, or a different order fails.
+- `item_id` values are `s1`, `s2`, … with no gap, and they are the same in every language. Only `label_contents` and `item_text` are translated.
+- The list is not product content. It carries no product name and no link except the `#sN` anchors.
 
 ## Product card
 
@@ -158,7 +174,8 @@ Question and answer pairs, **two to six**. [`faq.html`](../templates/widgets/faq
 
 ## What fails
 
-- a widget that is not one of the five templates, or a template changed outside its slots;
+- a widget that is not one of the six templates, or a template changed outside its slots;
+- a contents list that is not the fourth block, or whose items do not match the level-2 headers' `elementID` and text, in order;
 - a leftover `[[…]]`, or any `{` or `}` in `code`;
 - a slot value that is not escaped for its kind;
 - a price, discount, currency, stock, or delivery text in any widget;
