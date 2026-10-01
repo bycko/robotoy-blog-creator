@@ -1,6 +1,6 @@
 {
   "run_id": "2026-10-01-wed",
-  "round": 1,
+  "round": 2,
   "locale": "nl",
   "topic_key": "guide-fixing-sticking-mechanism",
   "pillar": "GUIDE",
@@ -72,7 +72,7 @@
       "id": "b06",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Geven de instructies plekken aan die je in de was moet zetten, volg die dan in plaats van te gokken. Als je op de verkeerde plek of te veel in de was zet, kunnen de onderdelen slechter in elkaar passen.</p>\n</div>",
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Geven de instructies plekken aan waar je bijenwas moet aanbrengen, volg die dan in plaats van te gokken. Bijenwas op de verkeerde plek of te veel bijenwas kan ervoor zorgen dat de onderdelen slechter in elkaar passen.</p>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -112,7 +112,7 @@
       "id": "b11",
       "type": "paragraph",
       "data": {
-        "text": "Breng bijenwas alleen aan waar onderdelen langs elkaar bewegen of op de plekken die de instructies aangeven. Alles in één keer in de was zetten laat een laagje achter en kan de precisie van de verbindingen verminderen. Soms is de wrijving na twee pogingen weg: probeer het mechanisme na de eerste keer in de was zetten en voeg alleen bijenwas toe waar het nog hapert."
+        "text": "Breng bijenwas alleen aan waar onderdelen langs elkaar bewegen of op de plekken die de instructies aangeven. Alles in één keer met bijenwas insmeren laat een laagje achter en kan de precisie van de verbindingen verminderen. Soms is de wrijving na twee pogingen weg: probeer het mechanisme na de eerste keer insmeren met bijenwas en voeg alleen bijenwas toe waar het nog hapert."
       }
     },
     {
@@ -240,7 +240,7 @@
             "items": []
           },
           {
-            "content": "Laten de instructies plekken zien die in de was moeten, zet dan alleen die in de was en laat de rest onbehandeld.",
+            "content": "Laten de instructies plekken zien waar bijenwas hoort, smeer dan alleen die plekken in met bijenwas en laat de rest onbehandeld.",
             "items": []
           }
         ]
@@ -274,7 +274,7 @@
       "id": "b25",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wat doe ik als het mechanisme ook na het in de was zetten vastloopt?</h3>\n    <p style=\"margin:0;\">Het in de was zetten lost alleen wrijving op. Controleer of een onderdeel verkeerd zit: de as moet tot de aanslag zijn ingeschoven, het wiel goed zijn gedraaid en de pen helemaal zijn ingedrukt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Waarom liep het model pas na enkele dagen vast?</h3>\n    <p style=\"margin:0;\">Vocht kan de oorzaak zijn: hout neemt water op uit de lucht en zet licht uit. Zet het model weg van vochtige hoeken en direct zonlicht.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mag ik het mechanisme met kracht doordraaien als het zwaar loopt?</h3>\n    <p style=\"margin:0;\">Liever niet. Een dunne pen buigt of breekt onder druk. Zoek eerst de plek waar het wrijft en neem de oorzaak weg.</p>\n  </div>\n</div>",
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wat doe ik als het mechanisme ook na het insmeren met bijenwas vastloopt?</h3>\n    <p style=\"margin:0;\">Bijenwas lost alleen wrijving op. Controleer of een onderdeel verkeerd zit: de as moet tot de aanslag zijn ingeschoven, het wiel goed zijn gedraaid en de pen helemaal zijn ingedrukt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Waarom liep het model pas na enkele dagen vast?</h3>\n    <p style=\"margin:0;\">Vocht kan de oorzaak zijn: hout neemt water op uit de lucht en zet licht uit. Zet het model weg van vochtige hoeken en direct zonlicht.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mag ik het mechanisme met kracht doordraaien als het zwaar loopt?</h3>\n    <p style=\"margin:0;\">Liever niet. Een dunne pen buigt of breekt onder druk. Zoek eerst de plek waar het wrijft en neem de oorzaak weg.</p>\n  </div>\n</div>",
         "style": "",
         "localization": {}
       }
