@@ -251,12 +251,14 @@ Follow the host's existing slug style. The storefront turns text into a slug let
 
 | Language | Rule | Example |
 |---|---|---|
-| Latin-script languages | a letter with a diacritic becomes its base letter: `č` → `c`, `ő` → `o`, `ł` → `l`, `ț` → `t`, `ã` → `a`, `ñ` → `n`, `ø` → `o`, `å` → `a` | `kdy-u-dreveneho-3d-puzzle-sahnout-po-lepidle` |
+| Latin-script languages | a letter with a diacritic becomes its base letter: `č` → `c`, `ő` → `o`, `ł` → `l`, `ț` → `t`, `ã` → `a`, `ñ` → `n`, `ø` → `o`, `å` → `a`, `đ` → `d` | `kdy-u-dreveneho-3d-puzzle-sahnout-po-lepidle` |
 | German | umlauts become the base letter, **never `ae`, `oe`, `ue`**: `ä` → `a`, `ö` → `o`, `ü` → `u`; `ß` → `ss` | `fur`, `uberraschen` |
 | Danish, French | `æ` → `ae`, `œ` → `oe` | `aeske` from „æske“, `oeuvre` from „œuvre“ |
 | All | apostrophes and punctuation are dropped, not replaced by a hyphen: `l’atelier` → `latelier` | — |
 | Greek | letter by letter, **no digraphs**: `α` a, `β` b, `γ` g, `δ` d, `ε` e, `ζ` z, `η` **h**, `θ` th, `ι` i, `κ` k, `λ` l, `μ` m, `ν` n, `ξ` ks, `ο` o, `π` p, `ρ` r, `σ`/`ς` s, `τ` t, `υ` **y**, `φ` f, `χ` **x**, `ψ` ps, `ω` **w**; accented vowels as unaccented (`ή` h, `ύ` y, `ώ` w) | `ena-dwro-gia-ton-antra-poy-ta-exei-hdh-ola` from „Ένα δώρο για τον άντρα που τα έχει ήδη όλα“ |
 | Bulgarian | letter by letter: `а` a, `б` b, `в` v, `г` g, `д` d, `е` e, `ж` zh, `з` z, `и` **y**, `й` i, `к` k, `л` l, `м` m, `н` n, `о` o, `п` p, `р` r, `с` s, `т` t, `у` u, `ф` f, `х` kh, `ц` ts, `ч` ch, `ш` sh, `щ` shch, `ъ` **dropped**, `ь` dropped, `ю` iu, `я` ia | `podark` from „подарък“ |
+
+The `đ` → `d` row comes from the storefront service itself: the stored Croatian address of page 48 reads `…mali-svijet-medu-knjigama…` for the title word „među“. Older Croatian addresses with `dj` were not made by this rule; do not copy them.
 
 The Greek example is a live address on the Greek host: `που` is `poy`, not `pou`, and `ήδη` is `hdh`. Before you write the first slug in a language, read a few blog address rows of that host from the SEO database and compare. When the existing rows follow another style than this table, follow the rows and name the difference to the Editor.
 
