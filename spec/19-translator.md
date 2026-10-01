@@ -234,10 +234,12 @@ So a Slovak review quoted in the article gets a translation line in all 20 files
 
 ## Slug
 
-Every language gets its own slug. It becomes the last segment of that country's address, `https://<host>/<blog segment>/<slug>`, and of the address row Reviewer writes ([`11-storefront-data.md`](11-storefront-data.md#address-rows)). You write only the slug; **no file carries a host or a blog segment.**
+**The address is built from the language's `title`, not from `slug`.** The storefront service makes the last segment of that country's address, `https://<host>/<blog segment>/<slug>`, and of the address row Reviewer writes ([`11-storefront-data.md`](11-storefront-data.md#address-rows)), from this file's `title` ([`14-article-contract.md`](14-article-contract.md#slug)). The `slug` field is a proposal in the file: write it **exactly as the service will make it from this file's `title`**, and run the checks below on that value. No file carries a host or a blog segment.
 
-1. Translate the meaning of the Slovak slug into the target language, about as short as the Slovak one. Keep the subject first. Drop articles and filler words the Slovak slug does not carry.
-2. Transliterate it the way the storefront does, per [Transliteration](#transliteration).
+When a check fails, change the `title` (and the `slug` with it), not only the `slug` field.
+
+1. Write the title first. Then derive the slug from this file's `title` the way the storefront does, per [Transliteration](#transliteration): letters become their Latin equivalent, punctuation is dropped, spaces become hyphens, lowercase.
+2. The slug is therefore as long as the title; keep it within 90 characters, and shorten the title when it is longer.
 3. Check the [router rule](#router-suffixes), the `faq` rule, and the length (3–90 characters).
 4. Check that it is [unique on its host](#unique-per-host).
 
@@ -282,7 +284,7 @@ The address row `_id` is `<host>/<blog segment>/<slug>`, with the host of the cu
 1. Compose that `_id` and look it up in the `seo` collection of the current SEO database.
 2. Check that no blog page's `url._<COUNTRY>` for this country ends in `/<blog segment>/<slug>`.
 
-When either exists, the address belongs to another page. Make the slug more specific (add the subject's second word, or the year for a `GIFT` topic) and check again. Two languages may share a slug, because they live on different hosts; one host never carries it twice.
+When either exists, the address belongs to another page. Make the title more specific (add the subject's second word, or the year for a `GIFT` topic), derive the slug again, and check again. Two languages may share a slug, because they live on different hosts; one host never carries it twice.
 
 ## Self-check
 
