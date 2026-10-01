@@ -115,9 +115,18 @@ A widget is an `HTML` block whose `code` is one of the six templates in [`15-wid
 
 ### Headers and the contents list
 
-Every level-2 header carries `elementID`: `s1`, `s2`, `s3`, … in the order the headers appear, with no gap and no repeat. The same ids are used in every language. Level 3 and 4 carry no `elementID`.
+Every level-2 header block carries an anchor in `tunes`, beside `data`, not inside it:
 
-A level-2 header's `text` is plain text, the same words as that item in the contents list ([`15-widgets.md`](15-widgets.md#contents)). The storefront writes `elementID` onto the heading as `id` (`robotoys-ui: templates/base/Page/Blocks/Header.template`).
+```json
+{ "id": "b05", "type": "header", "data": { "text": "Čo je book nook a odkiaľ sa vzal", "level": 2 }, "tunes": { "anchorTune": { "anchor": "co-je-book-nook-a-odkial-sa-vzal" } } }
+```
+
+- `tunes.anchorTune.anchor` is the slug of that header's `text` **in that language**, made with the `slugify` rule of [`19-translator.md`](19-translator.md#transliteration). That file is the single source of the rule; it is not copied here. Creator makes the Slovak anchors; Translator makes the anchors of the 20 other languages. Each language therefore has its own ids.
+- An anchor matches `^[a-z0-9]+(-[a-z0-9]+)*$`, is unique on the page, and does not equal another id on the page. A level-2 header whose text gives an empty slug fails; reword the header.
+- The contents list item for that header uses the same string as `item_id` and links to `#<anchor>` ([`15-widgets.md`](15-widgets.md#contents)). Contents items and level-2 headers are in the same order. Reviewer checks that every `item_id` equals the slug of its header text in every language.
+- Level 3 and 4 headers carry no `tunes`. The key `elementID` no longer exists in the article file.
+- A level-2 header's `text` is plain text, the same words as that item in the contents list.
+- **Not yet verified:** that the pages API keeps `tunes` when it creates the page (the page `PATCH`). If the service drops them, the anchors do not work; the page stays disabled and Reviewer reports it (Reviewer's rule in [`18-review-and-write.md`](18-review-and-write.md)). Runs written before this rule (for example `2026-10-07-wed`, `2026-10-05-mon`) use `elementID` or none; they are history and are not rewritten.
 
 ### Images
 
@@ -196,7 +205,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 
 Reviewer returns the article with the failing rule named when any of these holds:
 
-- a level-1 header, a block type outside the five, a body that does not open with the cover, two paragraphs, and the contents list, a level-2 header without `elementID`, or a contents list that does not match those headers;
+- a level-1 header, a block type outside the five, a body that does not open with the cover, two paragraphs, and the contents list, a level-2 header without `tunes.anchorTune.anchor`, an anchor that is not the slug of its text, a duplicate anchor, or a contents list that does not match those headers;
 - a text field with a tag outside the subset, a `span`, an attribute other than `href`, an absolute link, or a bare `<` or `&`;
 - an `HTML` block with a non-empty `style`, without `localization: {}`, with any `{` or `}`, with an unfilled `[[slot]]`, or with markup that is not a table or a filled template;
 - a widget carrying a price, a discount, or a currency;

@@ -124,7 +124,7 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
       { "id": "b02", "type": "paragraph", "data": { "text": "Väčšina drevených modelov je navrhnutá tak, aby diely <b>držali na trenie</b>." } },
       { "id": "b03", "type": "paragraph", "data": { "text": "…" } },
       { "id": "b04", "type": "HTML", "data": { "code": "<div class=\"rt-toc\">…</div>", "style": "", "localization": {} } },
-      { "id": "b05", "type": "header", "data": { "text": "Kde lepidlo pomôže", "level": 2, "elementID": "s1" } },
+      { "id": "b05", "type": "header", "data": { "text": "Kde lepidlo pomôže", "level": 2 }, "tunes": { "anchorTune": { "anchor": "kde-lepidlo-pomoze" } } },
       { "id": "b06", "type": "image", "data": { "file": { "url": "<product image url>", "width": 1200, "height": 900 }, "caption": "Hotový model zboku" } }
     ],
     "_cs": [ "… the same blocks, same ids, same order …" ]
@@ -142,7 +142,7 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
 
 | `type` | `data` fields | Rendered by | Rules |
 |---|---|---|---|
-| `header` | `text`, `level`, optional `elementID`, optional `align` | `Blocks/Header.template` | `level` is 2, 3, or 4. No level 1: the page `h1` comes from `title`, and a level-1 header would replace it. A level-2 header carries `elementID` (`s1`, `s2`, …). The template writes it as the heading `id`. |
+| `header` | `text`, `level`, optional `align`; block-level `tunes` | `Blocks/Header.template` | `level` is 2, 3, or 4. No level 1: the page `h1` comes from `title`, and a level-1 header would replace it. A level-2 header carries `tunes.anchorTune.anchor`, the slug of its text ([`14-article-contract.md`](14-article-contract.md#headers-and-the-contents-list)); older live blog pages already carry `tunes.anchorTune` on their anchored blocks. |
 | `paragraph` | `text`, optional `align` | `Blocks/Paragraph.template` | — |
 | `list` | `style`, `items` | `Blocks/List.template` | `style` is `ordered` or `unordered`. Each item is `{ content, items }`; `items` is an array on every item, `[]` when there is no sub-list, because the renderer reads its length. |
 | `image` | cover: `role`, `caption`. Product: `file` `{ url, width, height }`, `caption` | `Blocks/Image.template` | The renderer shows the block only when `file.url` is set. The article file's cover block has no `file`; the save adds it ([Posting the page](#posting-the-page)). A product photo's `url` is a catalog address. `caption` is also the alt text. `locale.image` is not drawn in the body: it is `og:image` and a hidden schema image (`robotoys-ui: templates/base/Page/Page/Detail.template`). |

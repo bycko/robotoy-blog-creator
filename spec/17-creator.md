@@ -119,7 +119,7 @@ Write `runs/<run_id>/article.json` in Slovak, `locale` `sk`, `round` `1`, valid 
 
 1. Set `run_id` to the name of the run directory, `runs/<run_id>/`; `row.tsv` has no `run_id` column. Copy `topic_key` and `pillar` from `row.tsv`.
 2. Write the opening first: title, perex (`description`), and the first two paragraphs deliver the answer or the promise to the reader, in everyday words, and name no product. The first block is the cover image (`role` `cover`, `caption` equal to `title`, no `file`). The next two blocks are those paragraphs. The fourth block is the contents list.
-3. Write the rest in the pillar's order in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#structure): at least two level-2 headers, each with `elementID` `s1`, `s2`, … in order and with plain text that names that part of the answer. A list is for steps, checks, criteria, or real alternatives. A table is for rows compared on the same criteria. Products come only after the second level-2 header, where they help the reader act. The contents list names every level-2 header, in order, with the same ids.
+3. Write the rest in the pillar's order in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#structure): at least two level-2 headers, each with `tunes.anchorTune.anchor` (the slug of its text by the rule of [`19-translator.md`](19-translator.md#transliteration)) and with plain text that names that part of the answer. A list is for steps, checks, criteria, or real alternatives. A table is for rows compared on the same criteria. Products come only after the second level-2 header, where they help the reader act. The contents list names every level-2 header, in order, with the same anchors as `item_id`.
 4. Build every widget from its template in [`../templates/widgets/`](../templates/widgets/product-card.html) by the filling and escaping rules in [`15-widgets.md`](15-widgets.md). No other markup reaches an `HTML` block.
 5. Write `slug` as the service will make it from the Slovak `title` ([`14-article-contract.md`](14-article-contract.md#slug)): the address is built from the title, `slug` is the sidecar proposal. Run the collision check on that value: not a `uid` in `pages`, not an `_id` suffix in `seo`, no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`. When it fails, change the title.
 6. `tags`: `[]` when the row's `tags` is `-`; otherwise the row's tag `uid`s.
@@ -207,8 +207,8 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 
 **Blocks and HTML**
 
-- [ ] Only `header`, `paragraph`, `list`, `image`, `HTML`; no level-1 header; at least two level-2 headers, each with `elementID` `s1`, `s2`, … and plain text.
-- [ ] Block 1 is the cover image (`role` `cover`, `caption` equals `title`, no `file`). Blocks 2 and 3 are the opening paragraphs. Block 4 is the contents widget, and its items match those headers.
+- [ ] Only `header`, `paragraph`, `list`, `image`, `HTML`; no level-1 header; at least two level-2 headers, each with `tunes.anchorTune.anchor` equal to the slug of its plain text, unique, matching `^[a-z0-9]+(-[a-z0-9]+)*$`, never empty.
+- [ ] Block 1 is the cover image (`role` `cover`, `caption` equals `title`, no `file`). Blocks 2 and 3 are the opening paragraphs. Block 4 is the contents widget, and its items match those headers: `item_id` equals the header's anchor and `item_text` its text, in the same order.
 - [ ] Ids `b01`, `b02`, … unique and rising.
 - [ ] Text fields carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;` and every other `&` is `&amp;`; no absolute link; no link in a header.
 - [ ] Every `HTML` block is a filled template or a table in the contract's shape, with `style: ""` and `localization: {}`, no `[[` or `]]`, no `{` or `}`.

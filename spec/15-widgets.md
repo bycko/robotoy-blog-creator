@@ -86,12 +86,12 @@ One contents list, and it is the fourth block, after the cover image and the two
 | Slot | Kind | Value |
 |---|---|---|
 | `label_contents` | `text` | the label |
-| `item_id` | `text` | that header's `elementID`: `s1`, `s2`, … The template writes it as `href="#…"`. It matches `^s[1-9][0-9]{0,2}$` |
+| `item_id` | `text` | that header's `tunes.anchorTune.anchor`, the slug of the header's `text` in this language ([`14-article-contract.md`](14-article-contract.md#headers-and-the-contents-list)). The template writes it as `href="#…"`. It matches `^[a-z0-9]+(-[a-z0-9]+)*$` |
 | `item_text` | `text` | that header's `text`, the same characters |
 
 - The number of items equals the number of level-2 headers. A missing header, an extra item, or a different order fails.
-- `item_id` values are `s1`, `s2`, … with no gap, and they are the same in every language. Only `label_contents` and `item_text` are translated.
-- The list is not product content. It carries no product name and no link except the `#sN` anchors.
+- `item_id` is the slug of that item's text, made with the rule of [`19-translator.md`](19-translator.md#transliteration), unique on the page, and each language has its own. `label_contents`, `item_text`, and `item_id` are all written per language.
+- The list is not product content. It carries no product name and no link except the `#<anchor>` links to the headers.
 
 ## Product card
 
@@ -175,7 +175,7 @@ Question and answer pairs, **two to six**. [`faq.html`](../templates/widgets/faq
 ## What fails
 
 - a widget that is not one of the six templates, or a template changed outside its slots;
-- a contents list that is not the fourth block, or whose items do not match the level-2 headers' `elementID` and text, in order;
+- a contents list that is not the fourth block, or whose items do not match the level-2 headers' anchors and text, in order;
 - a leftover `[[…]]`, or any `{` or `}` in `code`;
 - a slot value that is not escaped for its kind;
 - a price, discount, currency, stock, or delivery text in any widget;
