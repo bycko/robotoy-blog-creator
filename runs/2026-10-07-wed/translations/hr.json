@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "hr",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: mali svijet među knjigama na tvojoj polici",
+  "description": "Book nook je mala scena među knjigama na polici koja djeluje duboko i svijetli iznutra. Objašnjavamo odakle ideja dolazi, od čega se scena sastoji i što razmotriti prije prvog kutka.",
+  "seo_title": "Book nook: što je to i kako ga imati na polici kod kuće",
+  "seo_description": "Što je book nook, odakle ideja dolazi, kako mala scena među knjigama stvara dojam dubine i što razmotriti prije prve gradnje: mjesto, svjetlo i vrijeme.",
+  "slug": "book-nook-mali-svijet-medu-knjigama-na-tvojoj-polici",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: mali svijet među knjigama na tvojoj polici"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "<strong>Book nook</strong> je mala scena koju umetneš među knjige na polici tako da izgleda kao prozor u drugi svijet: u noćnu uličicu, knjižaru ili čarobnu trgovinicu. Možeš ga imati i kod kuće, jer zauzima samo uski razmak u nizu knjiga. Možeš ga složiti iz kompleta ili smisliti od nule."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Objasnit ćemo ti odakle ideja dolazi, zašto mala scena djeluje duboko, koje motive ljudi najčešće grade i što promisliti prije nego što započneš prvi kutak: mjesto na polici, napajanje svjetla i vrijeme."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Sadržaj članka</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Što je book nook i odakle dolazi</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Kako mala scena stvara dojam dubine</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Koje motive ljudi grade</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Što razmotriti prije prvog kutka</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Kompleti za prvi book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Česta pitanja</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Što je book nook i odakle dolazi",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Book nook, na hrvatskom knjižni kutak ili umetak za policu, je <em>diorama</em>, to jest trodimenzionalna minijaturna scena u uskoj kutiji koju gledaš sprijeda kao kroz prozor. Napravljen je tako da stane među knjige. Podsjeća na držač za knjige, samo što stoji usred niza, a ne na njegovu kraju."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Prema dostupnim izvorima, ovaj se oblik proširio oko 2018., kad je japanski dizajner izradio drvene umetke koji su prikazivali tokijske sporedne uličice i pristajali među knjige s mekim uvezom. Fotografije su se brzo proširile društvenim mrežama, osobito Redditom, gdje je nastala i zasebna zajednica. Drugi su autori počeli graditi vlastite inačice, često prema poznatim knjigama, na primjer kao uličicu iz fantasy romana."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Danas se mogu kupiti gotovi ili složiti iz kompleta. Izrađuju se i od materijala koji se često nalaze kod kuće: od kartona, tvrdog kartona ili debelog papira. Scena ne mora stajati među knjigama: može se izgraditi i kao samostalna scena u kutiji na polici."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Kako mala scena stvara dojam dubine",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Scena je obično duboka samo nekoliko centimetara, a ipak izgleda kao ulica koja se gubi u daljini. Dojam nastaje od nekoliko stvari odjednom."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspektiva.</strong> Perspektiva je smanjivanje stvari prema udaljenosti od oka. Zato su kuće straga niže i manje detaljne od onih sprijeda, iako je scena zapravo kratka.",
+            "items": []
+          },
+          {
+            "content": "<strong>Svjetlo.</strong> Tamni kut nagovještava prostor, a osvijetljen prozor nagovještava sobu iza njega. Koriste se mala LED svjetla (LED je mala svjetleća dioda) koja stanu u uska mjesta, najčešće u toploj bijeloj ili jantarnoj boji.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ogledalo straga.</strong> Neki autori stavljaju obično ogledalo na stražnju stijenku, a ispred scene, na određenoj udaljenosti od njega, poluprozirno (jednosmjerno) ogledalo kroz koje se vidi unutra. Ogledala se međusobno odražavaju pa scena djeluje kao beskrajna cesta. Poluprozirno ogledalo ne stavljaj posve naprijed jer bi odražavalo svjetlo iz sobe.",
+            "items": []
+          },
+          {
+            "content": "<strong>Mjerilo.</strong> Mjerilo je omjer stvarne i smanjene veličine. Predmeti na istoj udaljenosti trebaju imati isto mjerilo, inače scena prestaje biti uvjerljiva. Ako dodaš vlastiti predmet, prvo ga prisloni uz gotove dijelove i usporedi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Zato se isplati prvo promisliti svjetlo i mjerilo, a tek zatim dodavati sitnice. O tome kako svjetlom promijeniti raspoloženje gotove scene pišemo i u <a href=\"/blog/halloween-na-polici-kako-ukrasiti-gotovu-minijaturnu-kucicu\">članku o halloweenskom ukrašavanju minijaturne kućice</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Koje motive ljudi grade",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Motivi se razlikuju. Ovi se često pojavljuju u izvorima i mogu se graditi iz kompleta, ali i iz kartona."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Motiv</th><th>Što scena prikazuje</th><th>Što je čini uvjerljivom</th></tr></thead><tbody><tr><td>Noćna uličica</td><td>uska cesta među kućama sa svijetlećim prozorima</td><td>kuće straga su niže, a svjetlo u prozorima nagovještava sobe</td></tr><tr><td>Knjižara ili knjižnica</td><td>police, sofa i regali puni sitnih knjiga</td><td>detalji od papira i drvene police u istom mjerilu</td></tr><tr><td>Kafić ili čajanka</td><td>izlog, stolići i lampioni kod ulaza</td><td>toplo svjetlo kod ulaza i tamniji kut straga</td></tr><tr><td>Fantasy trgovinica</td><td>čarobnjakova radionica, gostionica ili tajna vrata</td><td>sitni rekviziti i neobične boje</td></tr><tr><td>Šuma ili vrt</td><td>stabla, staza i male životinje</td><td>staza koja se gubi u daljini, eventualno ogledalo straga</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ako ne znaš što odabrati, kreni od knjige koju stvarno voliš ili od mjesta koje bi te privuklo da ga posjetiš. Motiv koji te veseli pomoći će ti da izdržiš i kod sitnih detalja."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Što razmotriti prije prvog kutka",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Prije nego što počneš nešto graditi ili naručivati, prođi kroz ove točke."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Mjesto na polici.</strong> Izmjeri širinu razmaka, visinu police i njezinu dubinu te ih usporedi s dimenzijama scene u opisu kompleta ili u nacrtu. Scena se umeće među knjige, zato ih s obje strane ostavi tako da je čvrsto drže.",
+            "items": []
+          },
+          {
+            "content": "<strong>Napajanje svjetla.</strong> Svjetlo je obično na baterije ili se napaja kabelom. Doznaj gdje će biti pretinac za baterije ili kabel i možeš li do njih doći kad scena bude među knjigama.",
+            "items": []
+          },
+          {
+            "content": "<strong>Vrijeme.</strong> Ovisno o složenosti, slaganje traje od nekoliko sati do nekoliko večeri. Podatak za određeni komplet naći ćeš u njegovu opisu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pribor.</strong> Pri vlastitoj izradi od kartona trebaju ti oštar nož i podloga. Pribor je opisan u <a href=\"/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice\">članku o alatima za slaganje</a>. Autorica jednog postupka s tvrdim kartonom lijepi dijelove pištoljem za vrelo ljepilo (alat koji topi štapić ljepila) i prste štiti posebnim nastavcima.",
+            "items": []
+          },
+          {
+            "content": "<strong>Iskustvo.</strong> Ako minijaturne građevine tek razmatraš, osnove su u <a href=\"/blog/sto-trebate-znati-prije-izgradnje-minijaturnih-kuca\">članku o tome što trebaš znati prije gradnje</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Savjet:</strong> Prvo pokušaj na polici zadržati kartonsku kutiju dimenzija scene. Odmah ćeš vidjeti stane li i drže li je knjige sa strane.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kompleti za prvi book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ako želiš početi kompletom, pogledaj nekoliko podataka prije nego što ga odabereš. Pomoći će ti procijeniti hoćeš li prvu gradnju svladati bez frustracije."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Zahtjevnost i vrijeme.</strong> Za prvu gradnju odaberi komplet manje zahtjevnosti i kraćeg vremena slaganja.",
+            "items": []
+          },
+          {
+            "content": "<strong>Preporučena dob.</strong> Katalog navodi dob od koje je komplet namijenjen. Drži je se.",
+            "items": []
+          },
+          {
+            "content": "<strong>Svjetlo.</strong> Provjeri sadrži li komplet svjetlo i kako se napaja.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ljepilo.</strong> Neki ga kompleti trebaju, drugi ne. Provjeri to u opisu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Motiv.</strong> Odaberi scenu koja te veseli, čak i ako nije najmanja.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Umetci za policu za prvo slaganje",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/minijaturne-kuce/knjige-nook/knjizara-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Uložak za policu - Knjižara Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/minijaturne-kuce/knjige-nook/knjizara-rolife-tgb07-p76\">Uložak za policu - Knjižara Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Broj dijelova: 194</li>\n      <li>Vrijeme slaganja: 3 h</li>\n      <li>Zahtjevnost: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/minijaturne-kuce/knjige-nook/knjizara-rolife-tgb07-p76\">Pogledaj komplet</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/minijaturne-kuce/knjige-nook/carobna-kuca-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Uložak za police - Čarobna kuća Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/minijaturne-kuce/knjige-nook/carobna-kuca-rolife-tgb03-p58\">Uložak za police - Čarobna kuća Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Broj dijelova: 216</li>\n      <li>Vrijeme slaganja: 4 h</li>\n      <li>Zahtjevnost: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/minijaturne-kuce/knjige-nook/carobna-kuca-rolife-tgb03-p58\">Pogledaj komplet</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/minijaturne-kuce/knjige-nook/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Umetak za police - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/minijaturne-kuce/knjige-nook/time-travel-rolife-tgb04-p60\">Umetak za police - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Broj dijelova: 258</li>\n      <li>Vrijeme slaganja: 4 h</li>\n      <li>Zahtjevnost: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/minijaturne-kuce/knjige-nook/time-travel-rolife-tgb04-p60\">Pogledaj komplet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Česta pitanja",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mora li book nook stajati među knjigama?</h3>\n    <p style=\"margin:0;\">Ne mora. Namijenjen je razmaku među knjigama, ali se može izgraditi i kao samostalna scena u kutiji na polici.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Treba li ljepilo pri gradnji?</h3>\n    <p style=\"margin:0;\">Ovisi o kompletu: neki ga trebaju, drugi ne, zato provjeri upute ili opis. Kod postupka s tvrdim kartonom dijelovi se lijepe pištoljem za vrelo ljepilo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Po čemu se book nook razlikuje od minijaturne kućice?</h3>\n    <p style=\"margin:0;\">Book nook je uska scena koja se umeće među knjige i gleda se sprijeda. Minijaturna kućica obično je samostalna građevina koja stoji na polici ili na stolu.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Uložak za policu - Knjižara Rolife TGB07",
+      "path": "/minijaturne-kuce/knjige-nook/knjizara-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Uložak za police - Čarobna kuća Rolife TGB03",
+      "path": "/minijaturne-kuce/knjige-nook/carobna-kuca-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Umetak za police - Time Travel Rolife TGB04",
+      "path": "/minijaturne-kuce/knjige-nook/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blog/halloween-na-polici-kako-ukrasiti-gotovu-minijaturnu-kucicu",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/sto-trebate-znati-prije-izgradnje-minijaturnih-kuca",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

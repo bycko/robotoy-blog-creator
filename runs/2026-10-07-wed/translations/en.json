@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "en",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: a small world between the books on your shelf",
+  "description": "A book nook is a small scene between the books on a shelf that looks deep and glows from within. We explain where the idea comes from, what the scene is made of and what to think about before your first nook.",
+  "seo_title": "Book nook: what it is and how to have one on your shelf",
+  "seo_description": "What a book nook is, where the idea comes from, how a small scene between books creates depth and what to consider first: place, light and time.",
+  "slug": "book-nook-a-small-world-between-the-books-on-your-shelf",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: a small world between the books on your shelf"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A <strong>book nook</strong> is a small scene that you slide in between the books on a shelf so that it looks like a window into another world: a night-time alley, a bookshop or an enchanted little shop. You can have one at home too, because it takes up only a narrow gap in the row of books. You can assemble it from a kit or come up with it from scratch."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "We will explain where the idea comes from, why a small scene looks deep, what themes people build most often and what to think through before you start your first nook: the place on the shelf, the power for the light and the time."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Contents of the article</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">What a book nook is and where it comes from</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">How a small scene creates an impression of depth</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">What themes people build</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">What to consider before your first nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Kits for a first book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Frequently asked questions</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "What a book nook is and where it comes from",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "A book nook, also called a bookshelf insert, is a <em>diorama</em>, that is, a three-dimensional miniature scene in a narrow box that you look at from the front as through a window. It is designed to fit between books. It resembles a bookend, only it stands in the middle of the row and not at its end."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "According to the sources available, this form spread around 2018, when a Japanese designer made wooden inserts that showed Tokyo back alleys and fitted between paperback books. The photos spread quickly on social media, especially on Reddit, where a separate community also formed. Other makers began building their own versions, often after famous books, for example as a street from a fantasy novel."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Today you can buy them ready-made or assemble them from a kit. They are also made from materials that are often found at home: cardboard, board or stiff paper. The scene does not have to stand between books: it can also be built as a free-standing box scene on the shelf."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "How a small scene creates an impression of depth",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "The scene is usually only a few centimetres deep, and yet it looks like a street that fades into the distance. The impression comes from several things at once."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspective.</strong> Perspective is the way things shrink with distance from the eye. The houses at the back are therefore lower and less detailed than those at the front, although the scene is actually short.",
+            "items": []
+          },
+          {
+            "content": "<strong>Light.</strong> A dark corner suggests space, and a lit window suggests a room behind it. Small LED lights are used (an LED is a small light-emitting diode) that fit into narrow places, most often in warm white or amber.",
+            "items": []
+          },
+          {
+            "content": "<strong>A mirror at the back.</strong> Some makers put an ordinary mirror on the back wall and, in front of the scene, at some distance from it, a see-through (one-way) mirror that you look through into the scene. The mirrors reflect each other, so the scene looks like an endless road. Do not put the see-through mirror right at the front, because it would reflect the light from the room.",
+            "items": []
+          },
+          {
+            "content": "<strong>Scale.</strong> Scale is the ratio of real size to reduced size. Objects at the same distance should have the same scale, otherwise the scene stops being believable. If you add an object of your own, first hold it up to the finished parts and compare.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "That is why it pays to think about light and scale first and only then add small details. We also write about how to change the mood of a finished scene with light in the <a href=\"/blog/halloween-on-a-shelf-decorating-a-finished-miniature-house\">article on Halloween decoration for a miniature house</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "What themes people build",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Themes vary. These often appear in the sources and can be built from a kit as well as from cardboard."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Theme</th><th>What the scene shows</th><th>What makes it believable</th></tr></thead><tbody><tr><td>Night-time alley</td><td>a narrow road between houses with lit windows</td><td>the houses at the back are lower and the light in the windows suggests rooms</td></tr><tr><td>Bookshop or library</td><td>shelves, a sofa and racks full of tiny books</td><td>paper details and wooden shelves at the same scale</td></tr><tr><td>Café or tea house</td><td>a shop window, small tables and lanterns at the entrance</td><td>warm light at the entrance and a darker corner at the back</td></tr><tr><td>Fantasy shop</td><td>a wizard’s workshop, a tavern or a secret door</td><td>tiny props and unusual colours</td></tr><tr><td>Forest or garden</td><td>trees, a path and small animals</td><td>a path that fades into the distance, possibly a mirror at the back</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "If you do not know what to choose, start from a book you really love or a place you would like to visit. A theme you enjoy will help you stay the course with small details too."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "What to consider before your first nook",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Before you start building or ordering anything, go through these points."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Place on the shelf.</strong> Measure the width of the gap, the height of the shelf and its depth, and compare them with the size of the scene in the kit description or in the plan. The scene slides in between the books, so leave them on both sides so that they hold it firmly.",
+            "items": []
+          },
+          {
+            "content": "<strong>Power for the light.</strong> The light usually runs on batteries or is powered by a cable. Find out where the battery compartment or the cable will be and whether you can reach it when the scene is between the books.",
+            "items": []
+          },
+          {
+            "content": "<strong>Time.</strong> Depending on complexity, assembly takes from a few hours to a few evenings. You will find the figure for a particular kit in its description.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tools.</strong> If you make one yourself from cardboard, you need a sharp knife and a cutting mat. The tools are covered in the <a href=\"/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle\">article on tools for assembly</a>. The author of one of the board methods glues the parts with a hot glue gun (a tool that melts a glue stick) and protects her fingers with special finger guards.",
+            "items": []
+          },
+          {
+            "content": "<strong>Experience.</strong> If you are only considering miniature builds, the basics are in the <a href=\"/blog/what-you-need-to-know-before-building-miniature-houses\">article on what you need to know before building</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> First try holding a cardboard box the size of the scene up on the shelf. You will see straight away whether it fits and whether the books on the sides hold it.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kits for a first book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "If you want to start with a kit, look at a few details before you choose it. They will help you work out whether you can manage a first build without frustration."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Difficulty and time.</strong> For a first build, choose a kit with a lower difficulty and a shorter assembly time.",
+            "items": []
+          },
+          {
+            "content": "<strong>Recommended age.</strong> The catalogue states the age from which the kit is intended. Stick to it.",
+            "items": []
+          },
+          {
+            "content": "<strong>Light.</strong> Find out whether the kit includes a light and how it is powered.",
+            "items": []
+          },
+          {
+            "content": "<strong>Glue.</strong> Some kits need it, others do not. Check the description.",
+            "items": []
+          },
+          {
+            "content": "<strong>Theme.</strong> Choose a scene you enjoy, even if it is not the smallest.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Bookshelf inserts for a first build",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniature-houses/books-nook/bookstore-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Bookshelf insert - Bookstore Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniature-houses/books-nook/bookstore-rolife-tgb07-p76\">Bookshelf insert - Bookstore Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Number of pieces: 194</li>\n      <li>Assembly time: 3 h</li>\n      <li>Difficulty: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniature-houses/books-nook/bookstore-rolife-tgb07-p76\">View the kit</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniature-houses/books-nook/magical-house-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Bookshelf insert - Magical House Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniature-houses/books-nook/magical-house-rolife-tgb03-p58\">Bookshelf insert - Magical House Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Number of pieces: 216</li>\n      <li>Assembly time: 4 h</li>\n      <li>Difficulty: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniature-houses/books-nook/magical-house-rolife-tgb03-p58\">View the kit</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniature-houses/books-nook/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Bookshelf insert - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniature-houses/books-nook/time-travel-rolife-tgb04-p60\">Bookshelf insert - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Number of pieces: 258</li>\n      <li>Assembly time: 4 h</li>\n      <li>Difficulty: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniature-houses/books-nook/time-travel-rolife-tgb04-p60\">View the kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Frequently asked questions",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Does a book nook have to stand between books?</h3>\n    <p style=\"margin:0;\">No. It is meant for the gap between books, but it can also be built as a free-standing box scene on the shelf.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Is glue needed for the build?</h3>\n    <p style=\"margin:0;\">It depends on the kit: some need glue, others do not, so check the instructions or the description. In the board method, the parts are glued with a hot glue gun.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">How does a book nook differ from a miniature house?</h3>\n    <p style=\"margin:0;\">A book nook is a narrow scene that slides in between books and is viewed from the front. A miniature house is usually a free-standing build that stands on a shelf or a table.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Bookshelf insert - Bookstore Rolife TGB07",
+      "path": "/miniature-houses/books-nook/bookstore-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Bookshelf insert - Magical House Rolife TGB03",
+      "path": "/miniature-houses/books-nook/magical-house-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Bookshelf insert - Time Travel Rolife TGB04",
+      "path": "/miniature-houses/books-nook/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blog/halloween-on-a-shelf-decorating-a-finished-miniature-house",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/what-you-need-to-know-before-building-miniature-houses",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

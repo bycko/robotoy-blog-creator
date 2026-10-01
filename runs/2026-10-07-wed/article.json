@@ -1,0 +1,404 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 2,
+  "locale": "sk",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: malý svet medzi knihami na tvojej poličke",
+  "description": "Book nook je malá scéna medzi knihami na poličke, ktorá pôsobí hlboko a svieti zvnútra. Vysvetlíme, odkiaľ nápad pochádza, z čoho sa scéna skladá a čo zvážiť pred prvým kútikom.",
+  "seo_title": "Book nook: čo to je a ako ho mať na poličke doma",
+  "seo_description": "Čo je book nook, odkiaľ nápad pochádza, ako malá scéna medzi knihami vyvolá dojem hĺbky a čo zvážiť pred prvou stavbou: miesto, svetlo a čas.",
+  "slug": "book-nook-maly-svet-medzi-knihami-na-tvojej-policke",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: malý svet medzi knihami na tvojej poličke"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "<strong>Book nook</strong> je malá scéna, ktorú zasunieš medzi knihy na poličke tak, že vyzerá ako okno do iného sveta: do nočnej uličky, kníhkupectva alebo čarovného obchodíka. Dá sa mať aj doma, lebo zaberie len úzku medzeru v rade kníh. Môžeš si ho zložiť zo súpravy alebo vymyslieť od základov."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Vysvetlíme ti, odkiaľ nápad pochádza, prečo malá scéna pôsobí hlboko, aké námety ľudia stavajú najčastejšie a čo si premyslieť skôr, než začneš prvý kútik: miesto na poličke, napájanie svetla a čas."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Obsah článku</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Čo je book nook a odkiaľ sa vzal</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Ako malá scéna vyvolá dojem hĺbky</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Aké námety ľudia stavajú</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Čo zvážiť pred prvým kútikom</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Stavebnice na prvý book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Časté otázky</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Čo je book nook a odkiaľ sa vzal",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Book nook, po slovensky knižný kútik alebo vložka do police, je <em>diorama</em>, teda trojrozmerná miniatúrna scéna v úzkej škatuli, na ktorú sa pozeráš spredu ako cez okno. Je navrhnutá tak, aby sa zmestila medzi knihy. Pripomína zarážku na knihy, len stojí uprostred radu a nie na jeho konci."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Podľa dostupných zdrojov sa tento tvar rozšíril okolo roku 2018, keď japonský dizajnér vyrobil drevené vložky, ktoré zobrazovali tokijské zadné uličky a pasovali medzi brožované knihy. Fotografie sa rýchlo rozšírili po sociálnych sieťach, najmä na Reddite, kde vznikla aj samostatná komunita. Ďalší tvorcovia začali stavať vlastné verzie, často podľa slávnych kníh, napríklad ako uličku z fantasy románu."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Dnes sa dajú kúpiť hotové aj zložiť zo súpravy. Vyrábajú sa aj z materiálov, ktoré bývajú doma: z kartónu, lepenky alebo tvrdého papiera. Scéna nemusí stáť medzi knihami: dá sa postaviť aj ako samostatná škatuľová scéna na polici."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Ako malá scéna vyvolá dojem hĺbky",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Scéna má zvyčajne len niekoľko centimetrov hĺbky, a predsa vyzerá ako ulica, ktorá sa stráca v diaľke. Dojem vzniká z niekoľkých vecí naraz."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspektíva.</strong> Perspektíva je zmenšovanie vecí podľa vzdialenosti od oka. Domy vzadu sú preto nižšie a menej podrobné než tie vpredu, hoci scéna je v skutočnosti krátka.",
+            "items": []
+          },
+          {
+            "content": "<strong>Svetlo.</strong> Tmavý kút naznačuje priestor a osvetlené okno naznačuje izbu za ním. Používajú sa malé LED svetlá (LED je malá svetelná dióda), ktoré sa vojdú do úzkych miest, najčastejšie v teplej bielej alebo jantárovej farbe.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zrkadlo vzadu.</strong> Niektorí tvorcovia dávajú na zadnú stenu obyčajné zrkadlo a pred scénu, v určitej vzdialenosti od neho, priesvitné (jednosmerné) zrkadlo, cez ktoré vidno dovnútra. Zrkadlá sa navzájom odrážajú, a tak scéna pôsobí ako nekonečná cesta. Priesvitné zrkadlo nedávaj úplne dopredu, lebo by odrážalo svetlo z izby.",
+            "items": []
+          },
+          {
+            "content": "<strong>Mierka.</strong> Mierka je pomer skutočnej a zmenšenej veľkosti. Predmety v rovnakej vzdialenosti majú mať rovnakú mierku, inak scéna prestane byť uveriteľná. Ak pridáš vlastný predmet, najprv ho prilož k hotovým dielom a porovnaj.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Preto sa oplatí najprv premyslieť svetlo a mierku a až potom pridávať drobnosti. O tom, ako zmeniť náladu hotovej scény svetlom, píšeme aj v <a href=\"/blog/halloween-na-policke-ako-vyzdobit-hotovy-miniaturny-domcek\">článku o halloweenskej výzdobe miniatúrneho domčeka</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Aké námety ľudia stavajú",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Námety sa líšia. Tieto sa v zdrojoch objavujú často a dajú sa stavať zo súpravy aj z kartónu."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Námet</th><th>Čo scéna ukazuje</th><th>Čo ju robí uveriteľnou</th></tr></thead><tbody><tr><td>Nočná ulička</td><td>úzka cesta medzi domami so svietiacimi oknami</td><td>domy vzadu sú nižšie a svetlo v oknách naznačuje izby</td></tr><tr><td>Kníhkupectvo alebo knižnica</td><td>regály, pohovka a police plné drobných kníh</td><td>detaily z papiera a drevené police v rovnakej mierke</td></tr><tr><td>Kaviareň alebo čajovňa</td><td>výklad, stolíky a lampióny pri vchode</td><td>teplé svetlo pri vchode a tmavší kút vzadu</td></tr><tr><td>Fantasy obchodík</td><td>čarodejnícka dielňa, krčma alebo tajné dvere</td><td>drobné rekvizity a nezvyčajné farby</td></tr><tr><td>Les alebo záhrada</td><td>stromy, cestička a drobné zvieratká</td><td>cestička, ktorá sa v diaľke stráca, prípadne zrkadlo vzadu</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ak nevieš, čo zvoliť, vychádzaj z knihy, ktorú máš naozaj v obľube, alebo z miesta, ktoré by ťa lákalo navštíviť. Námet, ktorý ťa baví, ti pomôže vydržať aj pri drobných detailoch."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Čo zvážiť pred prvým kútikom",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Skôr než niečo začneš stavať alebo objednávať, prejdi tieto body."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Miesto na poličke.</strong> Odmeraj šírku medzery, výšku police a jej hĺbku a porovnaj ich s rozmermi scény v popise súpravy alebo v pláne. Scéna sa zasúva medzi knihy, preto ich po oboch stranách nechaj tak, aby ju pevne držali.",
+            "items": []
+          },
+          {
+            "content": "<strong>Napájanie svetla.</strong> Svetlo býva na batérie alebo sa napája káblom. Zisti, kde bude batériová schránka alebo kábel a či sa k nim dostaneš, keď bude scéna medzi knihami.",
+            "items": []
+          },
+          {
+            "content": "<strong>Čas.</strong> Podľa zložitosti trvá skladanie od niekoľkých hodín po niekoľko večerov. Údaj pri konkrétnej súprave nájdeš v jej popise.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pomôcky.</strong> Pri vlastnej výrobe z kartónu potrebuješ ostrý nôž a podložku. Pomôcky sú v <a href=\"/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojoch na skladanie</a>. Autorka jedného postupu z lepenky lepí diely tavnou pištoľou (náradie, ktoré roztaví lepiacu tyčinku) a prsty si chráni špeciálnymi nadstavcami.",
+            "items": []
+          },
+          {
+            "content": "<strong>Skúsenosti.</strong> Ak miniatúrne stavby len zvažuješ, základné veci sú v <a href=\"/blog/co-potrebujete-vediet-pred-stavbou-miniaturnych-domcekov\">článku o tom, čo treba vedieť pred stavbou</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Skús si na polici najprv podržať kartónovú škatuľu s rozmermi scény. Hneď uvidíš, či sa zmestí a či ju knihy po bokoch udržia.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Stavebnice na prvý book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ak chceš začať súpravou, pozri sa na niekoľko údajov skôr než ju vyberieš. Pomôžu ti zistiť, či zvládneš prvú stavbu bez frustrácie."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Náročnosť a čas.</strong> Pri prvej stavbe vyber súpravu s nižšou náročnosťou a kratším časom skladania.",
+            "items": []
+          },
+          {
+            "content": "<strong>Odporúčaný vek.</strong> Katalóg uvádza vek, od ktorého je súprava určená. Drž sa ho.",
+            "items": []
+          },
+          {
+            "content": "<strong>Svetlo.</strong> Zisti, či súprava svetlo obsahuje, a ako sa napája.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lepidlo.</strong> Niektoré súpravy ho potrebujú, iné nie. Skontroluj to v popise.",
+            "items": []
+          },
+          {
+            "content": "<strong>Námet.</strong> Vyber scénu, ktorá ťa baví, aj keď nie je najmenšia.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Vložky do police na prvé skladanie",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturne-domceky/knizny-kutik/knihkupectvo-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Vložka do police na knihy - Kníhkupectvo Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturne-domceky/knizny-kutik/knihkupectvo-rolife-tgb07-p76\">Vložka do police na knihy - Kníhkupectvo Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Počet dielov: 194</li>\n      <li>Čas skladania: 3 h</li>\n      <li>Náročnosť: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturne-domceky/knizny-kutik/knihkupectvo-rolife-tgb07-p76\">Pozrieť stavebnicu</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturne-domceky/knizny-kutik/carovny-dom-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Vložka do police na knihy - Čarovný dom Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturne-domceky/knizny-kutik/carovny-dom-rolife-tgb03-p58\">Vložka do police na knihy - Čarovný dom Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Počet dielov: 216</li>\n      <li>Čas skladania: 4 h</li>\n      <li>Náročnosť: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturne-domceky/knizny-kutik/carovny-dom-rolife-tgb03-p58\">Pozrieť stavebnicu</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturne-domceky/knizny-kutik/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Vložka do police na knihy - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturne-domceky/knizny-kutik/time-travel-rolife-tgb04-p60\">Vložka do police na knihy - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Počet dielov: 258</li>\n      <li>Čas skladania: 4 h</li>\n      <li>Náročnosť: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturne-domceky/knizny-kutik/time-travel-rolife-tgb04-p60\">Pozrieť stavebnicu</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Časté otázky",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Musí book nook stáť medzi knihami?</h3>\n    <p style=\"margin:0;\">Nemusí. Je určený do medzery medzi knihami, ale dá sa postaviť aj ako samostatná škatuľová scéna na polici.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Treba pri stavbe lepidlo?</h3>\n    <p style=\"margin:0;\">Závisí od súpravy: niektoré lepidlo potrebujú, iné nie, preto skontroluj návod alebo popis. Pri postupe z lepenky sa diely lepia tavnou pištoľou.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čím sa book nook líši od miniatúrneho domčeka?</h3>\n    <p style=\"margin:0;\">Book nook je úzka scéna, ktorá sa zasúva medzi knihy a pozeráš sa na ňu spredu. Miniatúrny domček býva samostatná stavba, ktorá stojí na polici alebo na stole.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Vložka do police na knihy - Kníhkupectvo Rolife TGB07",
+      "path": "/miniaturne-domceky/knizny-kutik/knihkupectvo-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:05:38+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Vložka do police na knihy - Čarovný dom Rolife TGB03",
+      "path": "/miniaturne-domceky/knizny-kutik/carovny-dom-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:05:38+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Vložka do police na knihy - Time Travel Rolife TGB04",
+      "path": "/miniaturne-domceky/knizny-kutik/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:05:38+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blog/halloween-na-policke-ako-vyzdobit-hotovy-miniaturny-domcek",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/co-potrebujete-vediet-pred-stavbou-miniaturnych-domcekov",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "word_counts": {
+    "body": 1038,
+    "product": 62
+  },
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

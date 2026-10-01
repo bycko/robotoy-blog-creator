@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "pt",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: um pequeno mundo entre os livros na tua estante",
+  "description": "Um book nook é uma pequena cena entre os livros da estante, que parece funda e brilha por dentro. Explicamos de onde vem a ideia, de que se compõe a cena e o que deves ponderar antes do teu primeiro cantinho.",
+  "seo_title": "Book nook: o que é e como o ter na estante lá de casa",
+  "seo_description": "O que é um book nook, de onde vem a ideia, como uma pequena cena entre livros cria profundidade e o que ponderar primeiro: lugar, luz e tempo.",
+  "slug": "book-nook-um-pequeno-mundo-entre-os-livros-na-tua-estante",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: um pequeno mundo entre os livros na tua estante"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Um <strong>book nook</strong> é uma pequena cena que enfias entre os livros da estante de forma que pareça uma janela para outro mundo: para uma ruela noturna, uma livraria ou uma lojinha encantada. Também o podes ter em casa, porque ocupa apenas um espaço estreito na fila de livros. Podes montá-lo a partir de um kit ou inventá-lo de raiz."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Vamos explicar-te de onde vem a ideia, porque é que uma pequena cena parece funda, que temas as pessoas constroem com mais frequência e o que deves pensar antes de começares o primeiro cantinho: o lugar na estante, a alimentação da luz e o tempo."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Conteúdo do artigo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">O que é um book nook e de onde vem</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Como uma pequena cena cria a sensação de profundidade</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Que temas as pessoas constroem</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">O que ponderar antes do primeiro cantinho</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Kits para o primeiro book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Perguntas frequentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "O que é um book nook e de onde vem",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Um book nook, em português cantinho de livros ou inserção de estante, é um <em>diorama</em>, ou seja, uma cena em miniatura tridimensional numa caixa estreita, que vês de frente como por uma janela. Foi concebido para caber entre os livros. Lembra um apoio de livros, só que fica no meio da fila e não na ponta."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Segundo as fontes disponíveis, esta forma espalhou-se por volta de 2018, quando um designer japonês fez inserções de madeira que mostravam as ruelas traseiras de Tóquio e encaixavam entre livros de capa mole. As fotografias espalharam-se depressa nas redes sociais, sobretudo no Reddit, onde nasceu também uma comunidade própria. Outros criadores começaram a construir as suas versões, muitas vezes a partir de livros famosos, por exemplo como uma rua de um romance de fantasia."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Hoje podem comprar-se prontos ou montar-se a partir de um kit. Fazem-se também com materiais que costumam existir em casa: cartão, cartão rígido ou papel grosso. A cena não tem de ficar entre livros: pode também ser construída como uma cena independente numa caixa, sobre a estante."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Como uma pequena cena cria a sensação de profundidade",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "A cena costuma ter apenas alguns centímetros de profundidade e, mesmo assim, parece uma rua que se perde ao longe. A impressão nasce de várias coisas ao mesmo tempo."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspetiva.</strong> A perspetiva é a diminuição das coisas conforme a distância ao olho. As casas do fundo são por isso mais baixas e com menos pormenor do que as da frente, embora a cena seja na realidade curta.",
+            "items": []
+          },
+          {
+            "content": "<strong>Luz.</strong> Um canto escuro sugere espaço e uma janela iluminada sugere uma divisão atrás dela. Usam-se pequenas luzes LED (um LED é um pequeno díodo emissor de luz) que cabem em sítios estreitos, mais frequentemente em branco quente ou âmbar.",
+            "items": []
+          },
+          {
+            "content": "<strong>Espelho ao fundo.</strong> Alguns criadores colocam um espelho comum na parede do fundo e, à frente da cena, a certa distância dele, um espelho semitransparente (de sentido único), através do qual se vê o interior. Os espelhos refletem-se um no outro e, assim, a cena parece um caminho sem fim. O espelho semitransparente não o ponhas mesmo à frente, porque refletiria a luz da divisão.",
+            "items": []
+          },
+          {
+            "content": "<strong>Escala.</strong> A escala é a proporção entre o tamanho real e o tamanho reduzido. Os objetos à mesma distância devem ter a mesma escala, senão a cena deixa de ser credível. Se acrescentares um objeto teu, encosta-o primeiro às peças prontas e compara.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Por isso compensa pensar primeiro na luz e na escala e só depois acrescentar pormenores. Sobre como mudar com a luz o ambiente de uma cena pronta, escrevemos também no <a href=\"/blogue/halloween-na-prateleira-decorar-casa-em-miniatura-pronta\">artigo sobre a decoração de Halloween de uma casinha em miniatura</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Que temas as pessoas constroem",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Os temas variam. Estes aparecem muitas vezes nas fontes e podem ser construídos a partir de um kit ou de cartão."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tema</th><th>O que a cena mostra</th><th>O que a torna credível</th></tr></thead><tbody><tr><td>Ruela noturna</td><td>um caminho estreito entre casas com janelas acesas</td><td>as casas do fundo são mais baixas e a luz nas janelas sugere divisões</td></tr><tr><td>Livraria ou biblioteca</td><td>estantes, um sofá e prateleiras cheias de livrinhos minúsculos</td><td>pormenores de papel e prateleiras de madeira na mesma escala</td></tr><tr><td>Café ou casa de chá</td><td>uma montra, mesinhas e lanternas à entrada</td><td>luz quente à entrada e um canto mais escuro ao fundo</td></tr><tr><td>Lojinha de fantasia</td><td>uma oficina de feiticeiro, uma taberna ou uma porta secreta</td><td>pequenos adereços e cores invulgares</td></tr><tr><td>Floresta ou jardim</td><td>árvores, um caminho e pequenos animais</td><td>um caminho que se perde ao longe, eventualmente um espelho ao fundo</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Se não sabes o que escolher, parte de um livro de que gostes mesmo ou de um lugar que gostasses de visitar. Um tema de que gostas ajuda-te a aguentar também nos pequenos pormenores."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "O que ponderar antes do primeiro cantinho",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Antes de começares a construir ou a encomendar seja o que for, passa por estes pontos."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Lugar na estante.</strong> Mede a largura do espaço, a altura da prateleira e a sua profundidade e compara-as com as dimensões da cena na descrição do kit ou no plano. A cena é enfiada entre os livros, por isso deixa-os de ambos os lados de forma que a segurem bem.",
+            "items": []
+          },
+          {
+            "content": "<strong>Alimentação da luz.</strong> A luz costuma funcionar a pilhas ou ser alimentada por cabo. Descobre onde ficará o compartimento das pilhas ou o cabo e se lhes consegues chegar quando a cena estiver entre os livros.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tempo.</strong> Conforme a complexidade, a montagem demora de algumas horas a algumas noites. O dado de um kit concreto encontras na sua descrição.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ferramentas.</strong> No fabrico próprio em cartão precisas de uma faca afiada e de uma base de corte. As ferramentas estão no <a href=\"/blogue/10-ferramentas-que-voce-precisa-ao-montar-um-quebra-cabeca-3d-de-madeira\">artigo sobre ferramentas para a montagem</a>. A autora de um dos processos em cartão rígido cola as peças com uma pistola de cola quente (uma ferramenta que derrete um bastão de cola) e protege os dedos com pontas especiais.",
+            "items": []
+          },
+          {
+            "content": "<strong>Experiência.</strong> Se apenas estás a ponderar construções em miniatura, o essencial está no <a href=\"/blogue/o-que-voce-precisa-saber-antes-de-construir-casas-em-miniatura\">artigo sobre o que precisas de saber antes de construir</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Dica:</strong> Experimenta primeiro segurar na estante uma caixa de cartão com as dimensões da cena. Vês logo se cabe e se os livros dos lados a seguram.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kits para o primeiro book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Se queres começar com um kit, vê alguns dados antes de o escolheres. Ajudam-te a perceber se consegues fazer a primeira montagem sem frustração."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Dificuldade e tempo.</strong> Na primeira montagem escolhe um kit com dificuldade mais baixa e tempo de montagem mais curto.",
+            "items": []
+          },
+          {
+            "content": "<strong>Idade recomendada.</strong> O catálogo indica a idade a partir da qual o kit é destinado. Respeita-a.",
+            "items": []
+          },
+          {
+            "content": "<strong>Luz.</strong> Descobre se o kit inclui luz e como é alimentada.",
+            "items": []
+          },
+          {
+            "content": "<strong>Cola.</strong> Alguns kits precisam dela, outros não. Confirma na descrição.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tema.</strong> Escolhe uma cena de que gostes, mesmo que não seja a mais pequena.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Inserções de estante para a primeira montagem",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/casas-em-miniatura/recanto-dos-livros/livraria-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Inserção de estante - Livraria Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/livraria-rolife-tgb07-p76\">Inserção de estante - Livraria Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Número de peças: 194</li>\n      <li>Tempo de montagem: 3 h</li>\n      <li>Dificuldade: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/livraria-rolife-tgb07-p76\">Ver o kit</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/casas-em-miniatura/recanto-dos-livros/magical-house-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Inserção de estante - Magical House Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/magical-house-rolife-tgb03-p58\">Inserção de estante - Magical House Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Número de peças: 216</li>\n      <li>Tempo de montagem: 4 h</li>\n      <li>Dificuldade: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/magical-house-rolife-tgb03-p58\">Ver o kit</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/casas-em-miniatura/recanto-dos-livros/viagem-no-tempo-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Inserção de estante - Viagem no tempo Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/viagem-no-tempo-rolife-tgb04-p60\">Inserção de estante - Viagem no tempo Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Número de peças: 258</li>\n      <li>Tempo de montagem: 4 h</li>\n      <li>Dificuldade: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/casas-em-miniatura/recanto-dos-livros/viagem-no-tempo-rolife-tgb04-p60\">Ver o kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Perguntas frequentes",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">O book nook tem de ficar entre livros?</h3>\n    <p style=\"margin:0;\">Não tem. Destina-se ao espaço entre livros, mas também pode ser construído como uma cena independente numa caixa, sobre a estante.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">É preciso cola na montagem?</h3>\n    <p style=\"margin:0;\">Depende do kit: alguns precisam de cola, outros não, por isso confirma o manual ou a descrição. No processo em cartão rígido, as peças são coladas com uma pistola de cola quente.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Em que se distingue um book nook de uma casinha em miniatura?</h3>\n    <p style=\"margin:0;\">Um book nook é uma cena estreita que se enfia entre os livros e se vê de frente. Uma casinha em miniatura costuma ser uma construção independente, que fica na estante ou sobre a mesa.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Inserção de estante - Livraria Rolife TGB07",
+      "path": "/casas-em-miniatura/recanto-dos-livros/livraria-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Inserção de estante - Magical House Rolife TGB03",
+      "path": "/casas-em-miniatura/recanto-dos-livros/magical-house-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Inserção de estante - Viagem no tempo Rolife TGB04",
+      "path": "/casas-em-miniatura/recanto-dos-livros/viagem-no-tempo-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blogue/halloween-na-prateleira-decorar-casa-em-miniatura-pronta",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blogue/10-ferramentas-que-voce-precisa-ao-montar-um-quebra-cabeca-3d-de-madeira",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blogue/o-que-voce-precisa-saber-antes-de-construir-casas-em-miniatura",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}
