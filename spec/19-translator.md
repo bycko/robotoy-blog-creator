@@ -239,8 +239,9 @@ Every level-2 header carries `tunes.anchorTune.anchor` ([`14-article-contract.md
 1. Translate the header `text` first.
 2. Make the anchor from that translated text with the same rule as the [Slug](#slug) and the [Transliteration](#transliteration) table: letters to their Latin equivalent, punctuation dropped, spaces to hyphens, lowercase.
 3. It matches `^[a-z0-9]+(-[a-z0-9]+)*$`, is never empty, and no two anchors in the file are equal and none equals another block id. When two headers give the same anchor or one gives an empty anchor, reword the header text.
-4. The contents item for that header has `item_id` equal to the same string, in the same order, and `item_text` equal to the header text.
-5. Level-3 headers carry no `tunes`. Do not add `elementID`.
+4. Check that no letter or digit of the header text is lost: every letter must be plain ASCII or appear in the [Transliteration](#transliteration) table. A letter the table does not map is dropped silently, so reword the header. The same check applies to the `title`.
+5. The contents item for that header has `item_id` equal to the same string, in the same order, and `item_text` equal to the header text.
+6. Level-3 headers carry no `tunes`. Do not add `elementID`.
 
 ## Slug
 
