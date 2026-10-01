@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "sv",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Halloween på hyllan: så dekorerar du ett färdigt miniatyrhus",
+  "description": "Ett färdigt miniatyrhus eller book nook kan du förvandla till Halloween med varmt ljus, papper och tråd, utan att limma något på delarna. Vi visar hur du tar bort dekorationen efter högtiden utan att lämna spår.",
+  "seo_title": "Halloweendekoration till ett färdigt miniatyrhus utan lim",
+  "seo_description": "Så dekorerar du ett färdigt miniatyrhus eller book nook till Halloween med ljus, papper och tråd, så att inga spår finns kvar när högtiden är över.",
+  "slug": "halloween-pa-hyllan-sa-dekorerar-du-ett-fardigt-miniatyrhus",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Ett färdigt miniatyrhus eller book nook (en liten scen instoppad mellan böcker på en hylla) kan du dekorera till Halloween utan risk för skador, om du <strong>inte limmar något direkt på det</strong>. Du ändrar ljuset och lägger till småsaker av papper och tråd som står eller hänger bredvid modellen, och när högtiden är över lägger du bara undan dem."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Vi visar dig hur du ändrar scenens stämning med varmt ljus och färg, vad du kan göra av saker som brukar finnas hemma, hur du håller tillbehören på plats utan att skada modellen och hur du tar bort dem utan spår efter den 31 oktober. Till sist hittar du en enkel idé att börja med."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Ändra ljuset först, lägg till tillbehör sedan",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Ljuset gör större skillnad än antalet dekorationer. En scen i rummets skarpa ljus ser ut som en färdig modell; en scen som lyser i en varm ton ser ut som en bostad med liv på kvällen. En regel gäller alltid: <strong>ingen låga</strong>. Papper, trä och kartong brinner, så använd bara LED-ljus med batteri."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Om modellen har eget ljus, låt det vara. Prova hur det ser ut när du löst lägger en bit genomskinligt orange silkespapper (det tunna, mjuka papper som används för att slå in paket) framför fönstret. Limma inte fast papperet.",
+            "items": []
+          },
+          {
+            "content": "Om modellen inte har något ljus, använd ett separat LED-ljus med batteri eller en kort mikro-LED-slinga. Leta efter varmvitt, alltså ungefär 2700 till 3000 kelvin (kelvin är enheten som ljusets ton anges i). En sådan ton känns som ett stearinljus eller en lampa.",
+            "items": []
+          },
+          {
+            "content": "Om det finns en för ljus punkt i fönstret, lägg till ett andra lager silkespapper eller flytta ljuset lite bakåt. Då fördelas ljuset jämnare.",
+            "items": []
+          },
+          {
+            "content": "Först när ljuset är som du vill ha det lägger du till det första tillbehöret och kontrollerar att ljuset inte döljer det.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tips:</strong> Fota scenen med mobilen. På fotot ser du direkt vad som är för stort, för ljust eller dåligt placerat, vilket du kanske inte märker på plats.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Vad du kan göra av papper, tråd och rester",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Till dekorationen behöver du inga särskilda material. Svart och orange papper, tunn tråd, bitar av kartong och rester från andra byggsatser räcker, till exempel lösa träbitar eller de kartongramar som delarna låg i. Papper och kartong skär du med en vass kniv; verktygen finns i <a href=\"/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra\">artikeln om verktyg för sammansättning</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tillbehör</th><th>Vad du gör det av</th><th>Var du placerar det så att inget skadas</th></tr></thead><tbody><tr><td>Fladdermöss</td><td>svart papper eller tunn kartong</td><td>häng dem i en tunn tråd från hyllan ovanför scenen eller från en krok på väggen, inte från modellen</td></tr><tr><td>Pumpor</td><td>orange papper och kartongrester</td><td>ställ dem på hyllan framför modellen, på en fot av kartong</td></tr><tr><td>Lövhög</td><td>bitar av orange, rött och brunt papper</td><td>lägg den framför ingången på hyllan, inte i modellen</td></tr><tr><td>Kala grenar</td><td>tunn tråd eller gem</td><td>stick ner dem i en fot av kartong som står bredvid modellen</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Gör tillbehören små, för scenen är i liten skala. Lägg varje tillbehör först bredvid modellen och se om det ser för stort ut."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Fladdermöss:</strong> klipp ut silhuetter med utbredda vingar ur svart papper och häng dem i en tunn tråd.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pumpor:</strong> gör kulor av orange papper, fyll dem med papper och rita ett ansikte med en tunn tuschpenna.",
+            "items": []
+          },
+          {
+            "content": "<strong>Löv:</strong> gör en liten hög av pappersbitar i varma toner som ligger vid ingången.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kala grenar:</strong> av tvinnade trådar blir det ett litet träd eller ett staket.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Så håller du tillbehören på plats utan att limma på delarna",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Lim, tejp eller häftmassa kan lämna ett märke på rått trä eller papper som inte går att ta bort. Bygg därför allt <em>bredvid</em> modellen, inte på den."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Ställ tillbehöret på hyllan så att det står av sig självt, till exempel på en fot av vikt papper som ger det stabilitet.",
+            "items": []
+          },
+          {
+            "content": "Om ett tillbehör måste hållas fast, använd lite <em>museum putty</em>, en mjuk massa som tillfälligt håller fast små föremål. Applicera den bara på en slät, lackad yta på hyllan, inte på rått trä, papper eller en nymålad yta.",
+            "items": []
+          },
+          {
+            "content": "Innan du använder massan på riktigt, prova den på ett dolt ställe, till exempel under hyllan, och låt den sitta där minst ett dygn. Ta sedan bort den och se efter om en fläck eller en förändring av glansen har uppstått.",
+            "items": []
+          },
+          {
+            "content": "Lägg ljusets sladd över hyllkanten och låt den hänga löst, så att den inte behöver fästas på modellen.",
+            "items": []
+          },
+          {
+            "content": "Knacka på hyllan. Om ett tillbehör rör sig, ge det en större fot, inte mer massa.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Så tar du bort dekorationen efter högtiden utan spår",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Samma tillvägagångssätt, bara baklänges. Stäng först av och ta ut ljuset, ta sedan bort tillbehören och kontrollera till sist hyllan och modellen."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Ta ner tillbehören från trådarna och lägg dem i en platt ask där de inte blir skrynkliga.",
+            "items": []
+          },
+          {
+            "content": "Ta bort massan genom att försiktigt vrida och lyfta, inte genom att dra rakt upp. Resten från hyllan tar du bort med en bit ny massa som du lätt dabbar med.",
+            "items": []
+          },
+          {
+            "content": "Ta ut silkespappret ur fönstren och vik ihop det; om det är oskadat kan det användas igen nästa år.",
+            "items": []
+          },
+          {
+            "content": "Torka av modellen och hyllan med en torr, mjuk pensel för att ta bort det damm som samlats under dekorerandet.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "En idé att börja med",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Om du inte vet var du ska börja, prova det här tillvägagångssättet en kväll. Svart papper, orange silkespapper, tråd och ett LED-ljus eller en mikro-LED-slinga räcker."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Klipp ut tre fladdermöss i olika storlekar ur svart papper och häng dem i tråd ovanför scenen.",
+            "items": []
+          },
+          {
+            "content": "Lägg ett lager orange silkespapper löst framför fönstret och tänd LED-ljuset.",
+            "items": []
+          },
+          {
+            "content": "Släck huvudbelysningen i rummet och titta på scenen från den plats där du vanligtvis ser den. Justera fladdermössens läge efter det.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Om du bara planerar att bygga ett miniatyrhus ännu, läs <a href=\"/blogg/vad-du-behover-veta-innan-du-bygger-miniatyrhus\">artikeln om vad du behöver veta innan du bygger</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Om du vill prova idén på en scen som du inte har ännu, titta på <a href=\"/miniatyrhus/bocker-nook/bokhandel-rolife-tgb07-p76\">Bokhylla-inlägg - Bokhandel Rolife TGB07</a>. Enligt uppgifterna i butiken har den 194 delar och bygget tar ungefär 3 timmar."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/miniatyrhus/bocker-nook/bokhandel-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Bokhylla-inlägg - Bokhandel Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/miniatyrhus/bocker-nook/bokhandel-rolife-tgb07-p76\">Bokhylla-inlägg - Bokhandel Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Antal delar: 194</li>\n      <li>Byggtid: 3 tim</li>\n      <li>Svårighetsgrad: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/miniatyrhus/bocker-nook/bokhandel-rolife-tgb07-p76\">Visa byggsatsen</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Vanliga frågor",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kan jag sätta ett vanligt ljus i ett tillbehör av papper?</h3>\n    <p style=\"margin:0;\">Nej. Papper, trä och kartong brinner, och lågan kan också missfärga dem. Använd ett LED-ljus med batteri, som inte blir varmt och inte har någon låga.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vad gör jag om min modell inte har eget ljus?</h3>\n    <p style=\"margin:0;\">Den kan lysas upp utifrån: ett litet LED-ljus med batteri eller en kort mikro-LED-slinga bakom modellen eller vid dess sida. Välj varmvitt, som känns mysigt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hur länge kan jag låta dekorationen stå på hyllan?</h3>\n    <p style=\"margin:0;\">Tillbehör av papper samlar damm och kan blekna i solen, så ta hellre ner dem efter högtiden och lägg dem i en ask tills du behöver dem igen.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Bokhylla-inlägg - Bokhandel Rolife TGB07",
+      "path": "/miniatyrhus/bocker-nook/bokhandel-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/blogg/vad-du-behover-veta-innan-du-bygger-miniatyrhus",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

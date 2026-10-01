@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "lt",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Helovinas ant lentynos: kaip papuošti paruoštą namelį",
+  "description": "Paruoštą miniatiūrinį namelį ar book nook per Helovyną gali pakeisti šilta šviesa, popieriumi ir viela, nieko neklijuodamas ant dalių. Parodysime, kaip po šventės papuošimus pašalinti be pėdsakų.",
+  "seo_title": "Helovino puošmenos paruoštam namelio modeliui be klijų",
+  "seo_description": "Kaip paruoštą miniatiūrinį namelį ar book nook papuošti Helovinui šviesa, popieriumi ir viela, kad po šventės neliktų jokių pėdsakų.",
+  "slug": "helovinas-ant-lentynos-kaip-papuosti-paruosta-nameli",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Paruoštą miniatiūrinį namelį ar book nook (mažą sceną, įspraustą tarp knygų lentynoje) gali papuošti Helovinui be rizikos jį sugadinti, jei <strong>nieko neklijuosi tiesiai ant jo</strong>. Pakeiti šviesą ir pridedi smulkmenų iš popieriaus ir vielos, kurios stovi ar kabo šalia modelio, o po šventės jas tiesiog padedi į šalį."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Parodysime, kaip pakeisti scenos nuotaiką šilta šviesa ir spalva, ką galima pagaminti iš daiktų, kurių paprastai būna namuose, kaip priedus pritvirtinti nesugadinant modelio ir kaip juos po spalio 31 d. pašalinti be pėdsakų. Pabaigoje rasi vieną paprastą idėją pradžiai."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Pirmiausia pakeisk šviesą, tik tada pridėk priedų",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Didesnį skirtumą nei puošmenų skaičius daro šviesa. Scena ryškioje kambario šviesoje atrodo kaip paruoštas modelis; scena, švytinti šiltu tonu, atrodo kaip būstas su vakaro gyvenimu. Viena taisyklė galioja visada: <strong>jokios liepsnos</strong>. Popierius, mediena ir kartonas dega, todėl naudok tik LED šviesas su baterijomis."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Jei modelis turi savo šviesą, palik ją tokią. Išbandyk, kaip atrodo, kai prieš langą laisvai padedi gabalėlį permatomo oranžinio vyniojamojo popieriaus (plono, minkšto popieriaus, kuriuo įpakuojami siuntiniai). Popieriaus neklijuok.",
+            "items": []
+          },
+          {
+            "content": "Jei modelis šviesos neturi, naudok atskirą LED žvakutę su baterijomis arba trumpą mikro LED girliandą. Ieškok šiltos baltos spalvos, tai yra maždaug nuo 2700 iki 3000 kelvinų (kelvinas yra vienetas, kuriuo nurodomas šviesos tonas). Toks tonas primena žvakę ar lempą.",
+            "items": []
+          },
+          {
+            "content": "Jei lange yra per ryški vieta, pridėk antrą popieriaus sluoksnį arba šviesą truputį atitolink. Taip šviesa pasiskirsto tolygiau.",
+            "items": []
+          },
+          {
+            "content": "Tik kai šviesa tokia, kokios nori, pridėk pirmą priedą ir patikrink, ar šviesa jo neuždengia.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Patarimas:</strong> Nufotografuok sceną telefonu. Nuotraukoje iškart pamatysi, kas per didelė, per ryšku ar blogai padėta, ko gyvai gali nepastebėti.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Ką galima pagaminti iš popieriaus, vielos ir likučių",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Puošmenoms nereikia ypatingų medžiagų. Pakanka juodo ir oranžinio popieriaus, plonos vielos, kartono gabalėlių ir kitų rinkinių likučių, pavyzdžiui, laisvų medinių dalių ar kartoninių rėmelių, kuriuose buvo sudėtos dalys. Popierių ir kartoną pjauni aštriu peiliu; įrankiai aprašyti <a href=\"/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione\">straipsnyje apie surinkimo įrankius</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Priedas</th><th>Iš ko jį pagaminti</th><th>Kur jį padėti, kad nieko nesugadintų</th></tr></thead><tbody><tr><td>Šikšnosparniai</td><td>juodas popierius arba plonas kartonas</td><td>pakabink juos ant plono siūlo nuo lentynos virš scenos arba nuo kabliuko ant sienos, ne nuo modelio</td></tr><tr><td>Moliūgai</td><td>oranžinis popierius ir kartono likučiai</td><td>pastatyk juos lentynoje prieš modelį, ant kartoninio pagrindo</td></tr><tr><td>Lapų krūva</td><td>oranžinio, raudono ir rudo popieriaus gabalėliai</td><td>padėk ją prieš įėjimą lentynoje, ne modelyje</td></tr><tr><td>Plikos šakos</td><td>plona viela arba sąvaržėlės</td><td>įsmeik jas į kartoninį pagrindą, stovintį šalia modelio</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Priedus daryk mažus, nes scena yra mažu masteliu. Kiekvieną pirmiausia padėk šalia modelio ir pažiūrėk, ar neatrodo per didelis."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Šikšnosparniai:</strong> iš juodo popieriaus iškirpk siluetus su išskėstais sparnais ir pakabink juos ant plono siūlo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Moliūgai:</strong> iš oranžinio popieriaus padaryk rutuliukus, prikimšk juos popieriaus ir plonu flomasteriu nupiešk veidą.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lapai:</strong> iš šiltų tonų popieriaus gabalėlių padaryk nedidelę krūvelę, gulinčią prie įėjimo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Plikos šakos:</strong> iš susuktų vielų išeina medelis arba tvora.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kaip priedus pritvirtinti neklijuojant ant dalių",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Klijai, juosta ar klijuojamoji guma ant žalios medienos ar popieriaus gali palikti pėdsaką, kurio nepavyks pašalinti. Todėl viską statyk <em>šalia</em> modelio, ne ant jo."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Priedą padėk ant lentynos taip, kad stovėtų pats, pavyzdžiui, ant sulankstyto popieriaus pagrindo, kuris suteikia stabilumo.",
+            "items": []
+          },
+          {
+            "content": "Jei priedą reikia prilaikyti, naudok šiek tiek <em>museum putty</em>, minkštos masės, kuria laikinai prilaikomi smulkūs daiktai. Tepk ją tik ant lygaus, lakuoto lentynos paviršiaus, ne ant žalios medienos, popieriaus ar ką tik nudažyto paviršiaus.",
+            "items": []
+          },
+          {
+            "content": "Prieš naudodamas masę iš tikrųjų, išbandyk ją paslėptoje vietoje, pavyzdžiui, po lentyna, ir palik ten bent dieną. Tada nuimk ją ir pažiūrėk, ar neliko dėmės ar blizgesio pokyčio.",
+            "items": []
+          },
+          {
+            "content": "Šviesos laidą perkišk per lentynos kraštą ir palik laisvą, kad jo nereikėtų tvirtinti prie modelio.",
+            "items": []
+          },
+          {
+            "content": "Pabeldk į lentyną. Jei priedas pasijudina, suteik jam didesnį pagrindą, o ne daugiau masės.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kaip po šventės papuošimus pašalinti be pėdsakų",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ta pati tvarka, tik atvirkščiai. Pirmiausia išjunk ir išimk šviesą, tada nuimk priedus ir galiausiai patikrink lentyną bei modelį."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Nuimk priedus nuo siūlų ir padėk juos į plokščią dėžę, kurioje jie nesusiglamžys.",
+            "items": []
+          },
+          {
+            "content": "Masę pašalink švelniai sukdamas ir kildamas, o ne traukdamas tiesiai aukštyn. Likutį nuo lentynos nuimk šviežiu masės gabalėliu, kuriuo lengvai paspaudinėji.",
+            "items": []
+          },
+          {
+            "content": "Vyniojamąjį popierių išimk iš langų ir sulankstyk; jei jis nepažeistas, gali praversti ir kitąmet.",
+            "items": []
+          },
+          {
+            "content": "Modelį ir lentyną nuvalyk sausu minkštu šepetėliu, kad pašalintum dulkes, susikaupusias puošiant.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "Viena idėja pradžiai",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei nežinai, nuo ko pradėti, išbandyk šią tvarką vienam vakarui. Pakanka juodo popieriaus, oranžinio vyniojamojo popieriaus, siūlo ir LED žvakutės arba mikro LED girliandos."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Iš juodo popieriaus iškirpk tris skirtingo dydžio šikšnosparnius ir pakabink juos ant siūlo virš scenos.",
+            "items": []
+          },
+          {
+            "content": "Prieš langą laisvai padėk sluoksnį oranžinio vyniojamojo popieriaus ir įjunk LED šviesą.",
+            "items": []
+          },
+          {
+            "content": "Išjunk pagrindinę šviesą kambaryje ir pažiūrėk į sceną iš vietos, iš kurios ją paprastai matai. Pagal tai pakoreguok šikšnosparnių padėtį.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei miniatiūrinio namelio statybą dar tik planuoji, peržiūrėk <a href=\"/dienorastis/ka-reikia-zinoti-pries-statant-miniatiurinius-namus\">straipsnį apie tai, ką reikia žinoti prieš statant</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei nori išbandyti idėją su scena, kurios dar neturi, peržiūrėk <a href=\"/miniatiuriniai-namai/knygu-kampelis/knygynas-rolife-tgb07-p76\">Knygų lentynos įdėklas - Knygynas Rolife TGB07</a>. Pagal parduotuvėje pateiktus duomenis jame yra 194 detalės, o surinkimas trunka apie 3 valandas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/miniatiuriniai-namai/knygu-kampelis/knygynas-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Knygų lentynos įdėklas - Knygynas Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/miniatiuriniai-namai/knygu-kampelis/knygynas-rolife-tgb07-p76\">Knygų lentynos įdėklas - Knygynas Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detalių skaičius: 194</li>\n      <li>Surinkimo laikas: 3 val.</li>\n      <li>Sudėtingumas: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/miniatiuriniai-namai/knygu-kampelis/knygynas-rolife-tgb07-p76\">Žiūrėti rinkinį</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Dažnai užduodami klausimai",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ar galiu į popierinį priedą įdėti paprastą žvakę?</h3>\n    <p style=\"margin:0;\">Ne. Popierius, mediena ir kartonas dega, o nuo liepsnos gali ir pakeisti spalvą. Naudok LED žvakutę su baterijomis, kuri nekaista ir neturi liepsnos.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ką daryti, jei mano modelis neturi savo šviesos?</h3>\n    <p style=\"margin:0;\">Jį galima apšviesti iš išorės: nedidele LED lemputė su baterijomis arba trumpa mikro LED girlianda už modelio ar jo šone. Rinkis šiltą baltą spalvą, kuri sukuria jaukumą.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kaip ilgai galiu palikti papuošimus lentynoje?</h3>\n    <p style=\"margin:0;\">Popieriniai priedai kaupia dulkes ir saulėje gali išblukti, todėl po šventės geriau juos nuimk ir padėk į dėžę, kol vėl prireiks.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Knygų lentynos įdėklas - Knygynas Rolife TGB07",
+      "path": "/miniatiuriniai-namai/knygu-kampelis/knygynas-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/dienorastis/ka-reikia-zinoti-pries-statant-miniatiurinius-namus",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

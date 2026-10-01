@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "es",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Halloween en la estantería: decorar una casita terminada",
+  "description": "Una casita en miniatura o un book nook ya montados pueden convertirse en una escena de Halloween con luz cálida, papel y alambre, sin pegar nada en las piezas. Te mostramos cómo quitar la decoración después de la fiesta sin dejar rastro.",
+  "seo_title": "Decoración de Halloween para una casita montada sin pegar",
+  "seo_description": "Cómo decorar una casita en miniatura o un book nook ya montados para Halloween con luz, papel y alambre, sin dejar marcas tras la fiesta.",
+  "slug": "halloween-en-la-estanteria-decorar-una-casita-terminada",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Una casita en miniatura o un book nook ya montados (una pequeña escena encajada entre los libros de una estantería) puedes decorarlos para Halloween sin riesgo de dañarlos si <strong>no pegas nada directamente en ellos</strong>. Cambias la luz y añades pequeños detalles de papel y alambre que se quedan de pie o colgados junto al modelo, y cuando pasa la fiesta, simplemente los guardas."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Te mostramos cómo cambiar el ambiente de la escena con luz cálida y color, qué puedes hacer con cosas que suele haber en casa, cómo sujetar los complementos sin dañar el modelo y cómo quitarlos sin dejar rastro después del 31 de octubre. Al final encontrarás una idea sencilla para empezar."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Primero cambia la luz, luego añade los complementos",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "La luz marca más diferencia que el número de adornos. Una escena bajo la luz intensa de la habitación parece un modelo terminado; una escena que brilla con un tono cálido parece una vivienda con vida por la noche. Hay una regla que siempre se cumple: <strong>nada de llama</strong>. El papel, la madera y el cartón arden, así que usa únicamente luces LED de pilas."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Si el modelo tiene luz propia, déjala como está. Prueba cómo queda cuando colocas sin fijar un trozo de papel de seda naranja translúcido (el papel fino y suave que se usa para envolver paquetes) delante de la ventana. No pegues el papel.",
+            "items": []
+          },
+          {
+            "content": "Si el modelo no tiene luz, usa una vela LED de pilas independiente o una cadena corta de micro LED. Busca el blanco cálido, es decir, aproximadamente de 2700 a 3000 kelvin (el kelvin es la unidad en que se indica el tono de la luz). Ese tono se parece al de una vela o una lámpara.",
+            "items": []
+          },
+          {
+            "content": "Si hay en la ventana un punto demasiado brillante, añade una segunda capa de papel de seda o aleja un poco la luz. Así la luz se reparte de forma más uniforme.",
+            "items": []
+          },
+          {
+            "content": "Solo cuando la luz sea como la quieres, añade el primer complemento y comprueba que la luz no lo oculte.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consejo:</strong> Haz una foto de la escena con el móvil. En la foto verás enseguida qué es demasiado grande, demasiado brillante o está mal colocado, algo que en directo quizá no notes.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Qué puedes hacer con papel, alambre y restos",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Para la decoración no necesitas materiales especiales. Bastan papel negro y naranja, alambre fino, trozos de cartón y restos de otros kits, por ejemplo piezas de madera sueltas o los marcos de cartón en los que venían las piezas. El papel y el cartón se cortan con un cuchillo afilado; las herramientas están en el <a href=\"/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera\">artículo sobre herramientas para el montaje</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Complemento</th><th>De qué lo haces</th><th>Dónde ponerlo para que no dañe nada</th></tr></thead><tbody><tr><td>Murciélagos</td><td>papel negro o cartulina fina</td><td>cuélgalos de un hilo fino desde la balda sobre la escena o desde un gancho de la pared, no del modelo</td></tr><tr><td>Calabazas</td><td>papel naranja y restos de cartón</td><td>ponlas en la estantería delante del modelo, sobre una base de cartón</td></tr><tr><td>Montón de hojas</td><td>trozos de papel naranja, rojo y marrón</td><td>colócalo delante de la entrada, en la estantería, no dentro del modelo</td></tr><tr><td>Ramas desnudas</td><td>alambre fino o clips</td><td>clávalas en una base de cartón que esté junto al modelo</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Haz los complementos pequeños, porque la escena está a escala reducida. Colócalos uno a uno junto al modelo y mira si parecen demasiado grandes."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Murciélagos:</strong> recorta en papel negro siluetas con las alas extendidas y cuélgalas de un hilo fino.",
+            "items": []
+          },
+          {
+            "content": "<strong>Calabazas:</strong> con papel naranja haz bolitas, rellénalas de papel y dibuja una cara con un rotulador fino.",
+            "items": []
+          },
+          {
+            "content": "<strong>Hojas:</strong> con trozos de papel en tonos cálidos haz un pequeño montón que quede junto a la entrada.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ramas desnudas:</strong> con alambres retorcidos sale un arbolito o una valla.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Cómo sujetar los complementos sin pegar en las piezas",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "El pegamento, la cinta o la masilla adhesiva pueden dejar en la madera cruda o en el papel una marca imposible de quitar. Por eso coloca todo <em>junto al</em> modelo, no sobre él."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pon el complemento en la estantería de modo que se sostenga solo, por ejemplo sobre una base de papel doblado que le dé estabilidad.",
+            "items": []
+          },
+          {
+            "content": "Si un complemento necesita sujeción, usa un poco de <em>museum putty</em>, una masilla blanda con la que se sujetan temporalmente objetos pequeños. Aplícala solo sobre una superficie lisa y barnizada de la estantería, no sobre madera cruda, papel ni una superficie recién pintada.",
+            "items": []
+          },
+          {
+            "content": "Antes de usar la masilla de verdad, pruébala en un lugar oculto, por ejemplo debajo de la balda, y déjala allí al menos un día. Luego retírala y mira si ha quedado una mancha o un cambio de brillo.",
+            "items": []
+          },
+          {
+            "content": "Pasa el cable de la luz por el borde de la estantería y déjalo suelto, para que no haga falta fijarlo al modelo.",
+            "items": []
+          },
+          {
+            "content": "Da un golpecito a la estantería. Si un complemento se mueve, ponle una base más grande, no más masilla.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Cómo quitar la decoración después de la fiesta sin dejar rastro",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "El mismo procedimiento, pero al revés. Primero apaga y retira la luz, después quita los complementos y por último revisa la estantería y el modelo."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Descuelga los complementos de los hilos y guárdalos en una caja plana donde no se arruguen.",
+            "items": []
+          },
+          {
+            "content": "Retira la masilla girándola y levantándola con suavidad, no tirando recto hacia arriba. El resto de la estantería quítalo con un trozo nuevo de masilla que le des ligeros toques encima.",
+            "items": []
+          },
+          {
+            "content": "Saca el papel de seda de las ventanas y dóblalo; si está intacto, puede servirte también el año que viene.",
+            "items": []
+          },
+          {
+            "content": "Pasa por el modelo y la estantería un pincel suave y seco para quitar el polvo que se ha acumulado durante la decoración.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "Una idea para empezar",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Si no sabes por dónde empezar, prueba este procedimiento durante una tarde. Bastan papel negro, papel de seda naranja, hilo y una vela LED o una cadena de micro LED."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Recorta tres murciélagos de distintos tamaños en papel negro y cuélgalos de un hilo sobre la escena.",
+            "items": []
+          },
+          {
+            "content": "Coloca sin fijar una capa de papel de seda naranja delante de la ventana y enciende la luz LED.",
+            "items": []
+          },
+          {
+            "content": "Apaga la luz principal de la habitación y mira la escena desde el lugar donde sueles verla. Según eso, ajusta la posición de los murciélagos.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Si todavía estás planeando construir una casita en miniatura, echa un vistazo al <a href=\"/blog/lo-que-necesitas-saber-antes-de-construir-casas-en-miniatura\">artículo sobre lo que necesitas saber antes de construir</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Si quieres probar la idea en una escena que aún no tienes, echa un vistazo a <a href=\"/casas-en-miniatura/rincon-de-libros/libreria-rolife-tgb07-p76\">Inserto para estantería - Librería Rolife TGB07</a>. Según los datos de la tienda, tiene 194 piezas y el montaje dura aproximadamente 3 horas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/casas-en-miniatura/rincon-de-libros/libreria-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Inserto para estantería - Librería Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/casas-en-miniatura/rincon-de-libros/libreria-rolife-tgb07-p76\">Inserto para estantería - Librería Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Número de piezas: 194</li>\n      <li>Tiempo de montaje: 3 h</li>\n      <li>Dificultad: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/casas-en-miniatura/rincon-de-libros/libreria-rolife-tgb07-p76\">Ver el kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Preguntas frecuentes",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Puedo poner una vela normal dentro de un adorno de papel?</h3>\n    <p style=\"margin:0;\">No. El papel, la madera y el cartón arden y, además, la llama puede decolorarlos. Usa una vela LED de pilas, que no calienta y no tiene llama.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Qué hago si mi modelo no tiene luz propia?</h3>\n    <p style=\"margin:0;\">Se puede iluminar desde fuera: una pequeña luz LED de pilas o una cadena corta de micro LED detrás del modelo o a su lado. Elige el blanco cálido, que resulta acogedor.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Cuánto tiempo puedo dejar la decoración en la estantería?</h3>\n    <p style=\"margin:0;\">Los complementos de papel acumulan polvo y pueden desteñirse con el sol, por eso es mejor retirarlos después de la fiesta y guardarlos en una caja hasta que los necesites de nuevo.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Inserto para estantería - Librería Rolife TGB07",
+      "path": "/casas-en-miniatura/rincon-de-libros/libreria-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/lo-que-necesitas-saber-antes-de-construir-casas-en-miniatura",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "cs",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Halloween na polici: jak ozdobit hotový miniaturní domek",
+  "description": "Hotový miniaturní domek nebo book nook můžeš o Halloweenu proměnit teplým světlem, papírem a drátkem, aniž bys cokoli lepil na díly. Ukážeme, jak výzdobu po svátku odstranit beze stop.",
+  "seo_title": "Halloweenská výzdoba hotového domku bez lepení",
+  "seo_description": "Jak ozdobíš hotový miniaturní domek nebo book nook na Halloween světlem, papírem a drátkem tak, aby po svátku nezůstaly žádné stopy.",
+  "slug": "halloween-na-polici-jak-ozdobit-hotovy-miniaturni-domek",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Hotový miniaturní domek nebo book nook (malá scéna zasunutá mezi knihy na polici) můžeš o Halloweenu ozdobit bez rizika poškození, když <strong>nic nelepíš přímo na něj</strong>. Změníš světlo, přidáš drobnosti z papíru a drátku, které stojí nebo visí vedle modelu, a po svátku je jednoduše odložíš."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ukážeme ti, jak náladu scény změnit teplým světlem a barvou, co se dá vyrobit z věcí, které bývají doma, jak doplňky přidržet bez poškození modelu a jak je po 31. říjnu odstranit beze stop. Na závěr najdeš jeden jednoduchý nápad na začátek."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Nejdřív změň světlo, teprve potom přidávej doplňky",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Větší rozdíl než počet ozdob udělá světlo. Scéna v ostrém světle pokoje působí jako hotový model; scéna, která září teplým tónem, působí jako obydlí s večerním životem. Jedno pravidlo platí vždy: <strong>žádný plamen</strong>. Papír, dřevo a lepenka hoří, proto používej výhradně LED světla na baterie."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pokud má model vlastní světlo, nech ho být. Zkus, jak vypadá, když před okno volně položíš kousek průsvitného oranžového hedvábného papíru (jemného papíru, jaký se dává do balíčků). Papír nelep.",
+            "items": []
+          },
+          {
+            "content": "Pokud model světlo nemá, použij samostatnou LED svíčku na baterie nebo krátký mikro LED řetěz. Hledej teplou bílou barvu, tedy přibližně 2700 až 3000 kelvinů (kelvin je jednotka, ve které se udává tón světla). Takový tón působí jako svíčka nebo lampa.",
+            "items": []
+          },
+          {
+            "content": "Pokud je v okně příliš jasné místo, přidej druhou vrstvu hedvábného papíru nebo světlo trochu odsuň. Světlo se tak rozloží rovnoměrněji.",
+            "items": []
+          },
+          {
+            "content": "Teprve když je světlo takové, jaké chceš, přidej první doplněk a zkontroluj, jestli ho světlo nezakrývá.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Scénu si vyfoť telefonem. Na fotce hned uvidíš, co je příliš velké, příliš jasné nebo špatně umístěné, což naživo nemusíš postřehnout.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Co vyrobíš z papíru, drátku a zbytků",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Na výzdobu nepotřebuješ speciální materiály. Stačí černý a oranžový papír, tenký drátek, kousky kartonu a zbytky z jiných stavebnic, například volné dřevěné díly nebo kartonové rámy, ve kterých byly díly uložené. Papír a karton řežeš ostrým nožem; pomůcky jsou v <a href=\"/blog/10-nastroju-ktere-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojích na skládání</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Doplněk</th><th>Z čeho ho vyrobíš</th><th>Kam ho dát, aby nic nepoškodil</th></tr></thead><tbody><tr><td>Netopýři</td><td>černý papír nebo tenký karton</td><td>pověs je na tenkou nit z police nad scénou nebo z háčku na zdi, ne z modelu</td></tr><tr><td>Dýně</td><td>oranžový papír a zbytky kartonu</td><td>postav je na polici před model, na patku z kartonu</td></tr><tr><td>Hromada listí</td><td>kousky oranžového, červeného a hnědého papíru</td><td>polož ji před vchod na polici, ne do modelu</td></tr><tr><td>Holé větve</td><td>tenký drátek nebo kancelářské sponky</td><td>zasuň je do patky z kartonu, která stojí vedle modelu</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Doplňky dělej malé, protože scéna je v malém měřítku. Každý z nich si nejdřív polož vedle modelu a podívej se, jestli nevypadá příliš velký."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Netopýři:</strong> vystřihni z černého papíru siluety s rozpjatými křídly a pověs je na tenkou nit.",
+            "items": []
+          },
+          {
+            "content": "<strong>Dýně:</strong> z oranžového papíru udělej kuličky, vycpi je papírem a tenkým fixem dokresli obličej.",
+            "items": []
+          },
+          {
+            "content": "<strong>Listí:</strong> z kousků papíru v teplých tónech udělej malou hromadu, která leží u vchodu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Holé větve:</strong> ze zkroucených drátků vznikne stromek nebo plot.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Jak doplňky přidržet bez lepení na díly",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Lepidlo, páska či lepicí guma mohou na surovém dřevě nebo papíru zanechat stopu, která se nedá odstranit. Proto všechno stavěj <em>vedle</em> modelu, ne na něm."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Doplněk polož na polici tak, aby stál sám, například na patce ze složeného papíru, která mu dá stabilitu.",
+            "items": []
+          },
+          {
+            "content": "Pokud se musí doplněk přidržet, použij trochu <em>museum putty</em>, což je měkký tmel, kterým se dočasně přidržují drobné předměty. Naneseš ho jen na hladký, lakovaný povrch police, ne na surové dřevo, papír ani čerstvě natřenou plochu.",
+            "items": []
+          },
+          {
+            "content": "Dřív než tmel použiješ doopravdy, vyzkoušej ho na skrytém místě, například pod policí, a nech ho tam alespoň den. Potom ho odstraň a podívej se, jestli nezůstala skvrna nebo změna lesku.",
+            "items": []
+          },
+          {
+            "content": "Kabel světla přelož přes okraj police a nech ho volný, aby se nemusel připevňovat na model.",
+            "items": []
+          },
+          {
+            "content": "Ťukni do police. Pokud se doplněk pohne, přidej mu větší patku, ne víc tmelu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Jak výzdobu po svátku odstranit beze stop",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Stejný postup, jen obráceně. Nejdřív vypni a vyndej světlo, potom odstraň doplňky a nakonec zkontroluj polici a model."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Doplňky sundej z nití a odlož je do ploché krabice, kde se nepomačkají.",
+            "items": []
+          },
+          {
+            "content": "Tmel odstraň jemným otáčením a nadzvednutím, ne tahem rovnou nahoru. Zbytek z police odeber čerstvým kouskem tmelu, kterým po něm lehce poklepeš.",
+            "items": []
+          },
+          {
+            "content": "Hedvábný papír vyndej z oken a slož ho; pokud je nepoškozený, může posloužit i za rok.",
+            "items": []
+          },
+          {
+            "content": "Model i polici utři suchým jemným štětcem, aby se odstranil prach, který se při výzdobě nashromáždil.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "Jeden nápad na začátek",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Pokud nevíš, čím začít, zkus tento postup na jeden večer. Stačí černý papír, oranžový hedvábný papír, nit a LED svíčka nebo mikro LED řetěz."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Vystřihni tři netopýry různé velikosti z černého papíru a pověs je na nit nad scénu.",
+            "items": []
+          },
+          {
+            "content": "Před okno volně polož vrstvu oranžového hedvábného papíru a zapni LED světlo.",
+            "items": []
+          },
+          {
+            "content": "Zhasni hlavní světlo v pokoji a podívej se na scénu z místa, odkud ji obvykle vidíš. Podle toho uprav polohu netopýrů.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Pokud teprve plánuješ stavbu miniaturního domku, podívej se na <a href=\"/blog/co-potrebujete-vedet-pred-stavbou-miniaturnich-domku\">článek o tom, co je třeba vědět před stavbou</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Pokud si chceš vyzkoušet nápad na scéně, kterou ještě nemáš, podívej se na <a href=\"/miniaturni-domecky/books-nook/knihkupectvi-rolife-tgb07-p76\">Vložka do police na knihy - Knihkupectví Rolife TGB07</a>. Podle údajů v obchodě má 194 dílů a skládání trvá přibližně 3 hodiny."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/miniaturni-domecky/books-nook/knihkupectvi-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Vložka do police na knihy - Knihkupectví Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/miniaturni-domecky/books-nook/knihkupectvi-rolife-tgb07-p76\">Vložka do police na knihy - Knihkupectví Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Počet dílů: 194</li>\n      <li>Čas skládání: 3 h</li>\n      <li>Náročnost: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/miniaturni-domecky/books-nook/knihkupectvi-rolife-tgb07-p76\">Zobrazit stavebnici</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Časté otázky",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Můžu do papírového doplňku dát obyčejnou svíčku?</h3>\n    <p style=\"margin:0;\">Ne. Papír, dřevo a lepenka hoří a od plamene se mohou i zbarvit. Použij LED svíčku na baterie, která nehřeje a nemá plamen.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Co dělat, když můj model nemá vlastní světlo?</h3>\n    <p style=\"margin:0;\">Dá se osvětlit zvenčí: malé LED světýlko na baterie nebo krátký mikro LED řetěz za modelem či na jeho boku. Vyber teplou bílou barvu, která působí útulně.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Jak dlouho můžu výzdobu nechat na polici?</h3>\n    <p style=\"margin:0;\">Papírové doplňky zachytávají prach a na slunci mohou vyblednout, proto je po svátku raději sundej a ulož do krabice, dokud je znovu nepotřebuješ.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Vložka do police na knihy - Knihkupectví Rolife TGB07",
+      "path": "/miniaturni-domecky/books-nook/knihkupectvi-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-nastroju-ktere-potrebujete-pri-skladani-dreveneho-3d-puzzle",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/co-potrebujete-vedet-pred-stavbou-miniaturnich-domku",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

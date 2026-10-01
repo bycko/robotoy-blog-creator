@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "el",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Χάλογουιν στο ράφι: διακόσμηση έτοιμου σπιτιού μινιατούρας",
+  "description": "Ένα έτοιμο σπιτάκι μινιατούρα ή book nook μπορείς να το μετατρέψεις σε σκηνή για το Χάλογουιν με ζεστό φως, χαρτί και σύρμα, χωρίς να κολλήσεις τίποτα πάνω στα κομμάτια. Δείχνουμε πώς θα αφαιρέσεις τη διακόσμηση μετά τη γιορτή χωρίς ίχνη.",
+  "seo_title": "Διακόσμηση Χάλογουιν για έτοιμο σπιτάκι χωρίς κόλλα",
+  "seo_description": "Πώς θα διακοσμήσεις ένα έτοιμο σπιτάκι μινιατούρα ή book nook για το Χάλογουιν με φως, χαρτί και σύρμα, ώστε μετά τη γιορτή να μην μείνει κανένα ίχνος.",
+  "slug": "xalogoyin-sto-rafi-diakosmhsh-etoimoy-spitioy-miniatoyras",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Ένα έτοιμο σπιτάκι μινιατούρα ή book nook (μια μικρή σκηνή που μπαίνει ανάμεσα στα βιβλία στο ράφι) μπορείς να το διακοσμήσεις για το Χάλογουιν χωρίς κίνδυνο φθοράς, αν <strong>δεν κολλήσεις τίποτα απευθείας πάνω του</strong>. Αλλάζεις το φως και προσθέτεις μικροαντικείμενα από χαρτί και σύρμα, που στέκονται ή κρέμονται δίπλα στο μοντέλο, και μετά τη γιορτή απλώς τα φυλάς."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Θα σου δείξουμε πώς να αλλάξεις τη διάθεση της σκηνής με ζεστό φως και χρώμα, τι μπορείς να φτιάξεις από πράγματα που συνήθως υπάρχουν στο σπίτι, πώς να συγκρατήσεις τα αξεσουάρ χωρίς να χαλάσεις το μοντέλο και πώς να τα αφαιρέσεις χωρίς ίχνη μετά τις 31 Οκτωβρίου. Στο τέλος θα βρεις μία απλή ιδέα για αρχή."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Πρώτα άλλαξε το φως, μετά πρόσθεσε αξεσουάρ",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Μεγαλύτερη διαφορά από τον αριθμό των διακοσμητικών κάνει το φως. Μια σκηνή στο έντονο φως του δωματίου μοιάζει με έτοιμο μοντέλο· μια σκηνή που λάμπει σε ζεστό τόνο μοιάζει με κατοικία με βραδινή ζωή. Ένας κανόνας ισχύει πάντα: <strong>καμία φλόγα</strong>. Το χαρτί, το ξύλο και το χαρτόνι καίγονται, γι’ αυτό χρησιμοποίησε αποκλειστικά φώτα LED με μπαταρία."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Αν το μοντέλο έχει δικό του φως, άφησέ το όπως είναι. Δοκίμασε πώς φαίνεται όταν ακουμπήσεις χαλαρά μπροστά στο παράθυρο ένα κομμάτι διαφανές πορτοκαλί χαρτί τσιγάρου (το λεπτό, απαλό χαρτί που μπαίνει σε δέματα). Μην κολλήσεις το χαρτί.",
+            "items": []
+          },
+          {
+            "content": "Αν το μοντέλο δεν έχει φως, χρησιμοποίησε ένα ξεχωριστό κεράκι LED με μπαταρία ή μια κοντή αλυσίδα micro LED. Ψάξε για ζεστό λευκό, δηλαδή περίπου 2700 έως 3000 Kelvin (το Kelvin είναι η μονάδα με την οποία δίνεται ο τόνος του φωτός). Ένας τέτοιος τόνος μοιάζει με κερί ή λάμπα.",
+            "items": []
+          },
+          {
+            "content": "Αν στο παράθυρο υπάρχει υπερβολικά φωτεινό σημείο, πρόσθεσε δεύτερο στρώμα χαρτιού ή απομάκρυνε λίγο το φως. Έτσι το φως απλώνεται πιο ομοιόμορφα.",
+            "items": []
+          },
+          {
+            "content": "Μόνο όταν το φως είναι όπως το θέλεις, πρόσθεσε το πρώτο αξεσουάρ και έλεγξε ότι το φως δεν το κρύβει.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Συμβουλή:</strong> Φωτογράφισε τη σκηνή με το τηλέφωνο. Στη φωτογραφία θα δεις αμέσως τι είναι πολύ μεγάλο, πολύ φωτεινό ή άσχημα τοποθετημένο, κάτι που από κοντά ίσως δεν το προσέξεις.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Τι μπορείς να φτιάξεις από χαρτί, σύρμα και υπολείμματα",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Για τη διακόσμηση δεν χρειάζεσαι ειδικά υλικά. Αρκούν μαύρο και πορτοκαλί χαρτί, λεπτό σύρμα, κομμάτια χαρτονιού και υπολείμματα από άλλα σετ, για παράδειγμα χαλαρά ξύλινα κομμάτια ή τα χάρτινα πλαίσια στα οποία ήταν τοποθετημένα τα κομμάτια. Το χαρτί και το χαρτόνι τα κόβεις με αιχμηρό μαχαίρι· τα εργαλεία περιγράφονται στο <a href=\"/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl\">άρθρο για τα εργαλεία συναρμολόγησης</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Αξεσουάρ</th><th>Από τι το φτιάχνεις</th><th>Πού να το βάλεις για να μη χαλάσει τίποτα</th></tr></thead><tbody><tr><td>Νυχτερίδες</td><td>μαύρο χαρτί ή λεπτό χαρτόνι</td><td>κρέμασέ τες από λεπτή κλωστή από το ράφι πάνω από τη σκηνή ή από γαντζάκι στον τοίχο, όχι από το μοντέλο</td></tr><tr><td>Κολοκύθες</td><td>πορτοκαλί χαρτί και υπολείμματα χαρτονιού</td><td>στήσε τες στο ράφι μπροστά από το μοντέλο, πάνω σε βάση από χαρτόνι</td></tr><tr><td>Σωρός από φύλλα</td><td>κομμάτια πορτοκαλί, κόκκινου και καφέ χαρτιού</td><td>ακούμπησέ τον μπροστά από την είσοδο στο ράφι, όχι μέσα στο μοντέλο</td></tr><tr><td>Γυμνά κλαδιά</td><td>λεπτό σύρμα ή συνδετήρες</td><td>βάλε τα σε βάση από χαρτόνι που στέκεται δίπλα στο μοντέλο</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Κάνε τα αξεσουάρ μικρά, γιατί η σκηνή είναι σε μικρή κλίμακα. Κάθε ένα ακούμπησέ το πρώτα δίπλα στο μοντέλο και δες αν δεν φαίνεται πολύ μεγάλο."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Νυχτερίδες:</strong> κόψε από μαύρο χαρτί σιλουέτες με ανοιχτά φτερά και κρέμασέ τες από λεπτή κλωστή.",
+            "items": []
+          },
+          {
+            "content": "<strong>Κολοκύθες:</strong> φτιάξε από πορτοκαλί χαρτί μπαλίτσες, γέμισέ τες με χαρτί και ζωγράφισε πρόσωπο με λεπτό μαρκαδόρο.",
+            "items": []
+          },
+          {
+            "content": "<strong>Φύλλα:</strong> φτιάξε από κομμάτια χαρτιού σε ζεστούς τόνους έναν μικρό σωρό που βρίσκεται δίπλα στην είσοδο.",
+            "items": []
+          },
+          {
+            "content": "<strong>Γυμνά κλαδιά:</strong> από στριμμένα σύρματα γίνεται ένα δεντράκι ή ένας φράχτης.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Πώς να συγκρατήσεις τα αξεσουάρ χωρίς να κολλήσεις πάνω στα κομμάτια",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Η κόλλα, η ταινία ή η κολλώδης πάστα μπορεί να αφήσουν σε ακατέργαστο ξύλο ή χαρτί σημάδι που δεν αφαιρείται. Γι’ αυτό στήνε τα πάντα <em>δίπλα</em> στο μοντέλο, όχι πάνω του."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Τοποθέτησε το αξεσουάρ στο ράφι έτσι ώστε να στέκεται μόνο του, για παράδειγμα σε βάση από διπλωμένο χαρτί που του δίνει σταθερότητα.",
+            "items": []
+          },
+          {
+            "content": "Αν ένα αξεσουάρ πρέπει να συγκρατηθεί, χρησιμοποίησε λίγο <em>museum putty</em>, μια μαλακή πάστα με την οποία συγκρατούνται προσωρινά μικρά αντικείμενα. Βάλε την μόνο σε λεία, βερνικωμένη επιφάνεια του ραφιού, όχι σε ακατέργαστο ξύλο, χαρτί ή φρεσκοβαμμένη επιφάνεια.",
+            "items": []
+          },
+          {
+            "content": "Πριν χρησιμοποιήσεις την πάστα στα σοβαρά, δοκίμασέ την σε κρυφό σημείο, για παράδειγμα κάτω από το ράφι, και άφησέ την εκεί τουλάχιστον μία μέρα. Μετά αφαίρεσέ την και δες αν έμεινε λεκές ή αλλαγή στη γυαλάδα.",
+            "items": []
+          },
+          {
+            "content": "Πέρασε το καλώδιο του φωτός πάνω από την άκρη του ραφιού και άφησέ το ελεύθερο, ώστε να μη χρειάζεται να στερεωθεί στο μοντέλο.",
+            "items": []
+          },
+          {
+            "content": "Χτύπησε ελαφρά το ράφι. Αν ένα αξεσουάρ κουνηθεί, δώσε του μεγαλύτερη βάση, όχι περισσότερη πάστα.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Πώς να αφαιρέσεις τη διακόσμηση μετά τη γιορτή χωρίς ίχνη",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Η ίδια διαδικασία, αλλά αντίστροφα. Πρώτα σβήσε και βγάλε το φως, μετά αφαίρεσε τα αξεσουάρ και στο τέλος έλεγξε το ράφι και το μοντέλο."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Κατέβασε τα αξεσουάρ από τις κλωστές και βάλε τα σε ένα επίπεδο κουτί, όπου δεν θα τσαλακωθούν.",
+            "items": []
+          },
+          {
+            "content": "Αφαίρεσε την πάστα γυρίζοντάς την και ανασηκώνοντάς την απαλά, όχι τραβώντας ευθεία προς τα πάνω. Το υπόλοιπο από το ράφι πάρε το με ένα φρέσκο κομματάκι πάστας, που θα το χτυπήσεις ελαφρά πάνω του.",
+            "items": []
+          },
+          {
+            "content": "Βγάλε το χαρτί από τα παράθυρα και δίπλωσέ το· αν δεν έχει πάθει ζημιά, μπορεί να σε βολέψει και του χρόνου.",
+            "items": []
+          },
+          {
+            "content": "Σκούπισε το μοντέλο και το ράφι με στεγνό μαλακό πινέλο, για να φύγει η σκόνη που μαζεύτηκε κατά τη διακόσμηση.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "Μία ιδέα για αρχή",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν δεν ξέρεις από πού να ξεκινήσεις, δοκίμασε αυτή τη διαδικασία για ένα βράδυ. Αρκούν μαύρο χαρτί, πορτοκαλί χαρτί τσιγάρου, κλωστή και ένα κεράκι LED ή μια αλυσίδα micro LED."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Κόψε τρεις νυχτερίδες διαφορετικού μεγέθους από μαύρο χαρτί και κρέμασέ τες από κλωστή πάνω από τη σκηνή.",
+            "items": []
+          },
+          {
+            "content": "Ακούμπησε χαλαρά ένα στρώμα πορτοκαλί χαρτί τσιγάρου μπροστά στο παράθυρο και άνοιξε το φως LED.",
+            "items": []
+          },
+          {
+            "content": "Σβήσε το κεντρικό φως του δωματίου και κοίτα τη σκηνή από το σημείο απ’ όπου συνήθως τη βλέπεις. Ανάλογα προσάρμοσε τη θέση των νυχτερίδων.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν μόλις σχεδιάζεις να φτιάξεις ένα σπιτάκι μινιατούρα, δες το <a href=\"/istologio/ti-prepei-na-gnwrizete-prin-xtisete-miniatoyres-spitiwn\">άρθρο για όσα χρειάζεται να ξέρεις πριν από την κατασκευή</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν θέλεις να δοκιμάσεις την ιδέα σε μια σκηνή που δεν έχεις ακόμη, δες το <a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\">Ένθετο ραφιού - Bookstore Rolife TGB07</a>. Σύμφωνα με τα στοιχεία στο κατάστημα έχει 194 κομμάτια και η συναρμολόγηση διαρκεί περίπου 3 ώρες."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Ένθετο ραφιού - Bookstore Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\">Ένθετο ραφιού - Bookstore Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Αριθμός κομματιών: 194</li>\n      <li>Χρόνος συναρμολόγησης: 3 ώρες</li>\n      <li>Δυσκολία: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\">Δες το σετ</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Συχνές ερωτήσεις",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Μπορώ να βάλω ένα συνηθισμένο κερί μέσα σε χάρτινο αξεσουάρ;</h3>\n    <p style=\"margin:0;\">Όχι. Το χαρτί, το ξύλο και το χαρτόνι καίγονται και από τη φλόγα μπορεί και να αλλάξουν χρώμα. Χρησιμοποίησε κεράκι LED με μπαταρία, που δεν ζεσταίνεται και δεν έχει φλόγα.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Τι να κάνω αν το μοντέλο μου δεν έχει δικό του φως;</h3>\n    <p style=\"margin:0;\">Μπορεί να φωτιστεί απ’ έξω: ένα μικρό φως LED με μπαταρία ή μια κοντή αλυσίδα micro LED πίσω από το μοντέλο ή στο πλάι του. Διάλεξε ζεστό λευκό, που δημιουργεί φιλόξενη ατμόσφαιρα.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Πόσο καιρό μπορώ να αφήσω τη διακόσμηση στο ράφι;</h3>\n    <p style=\"margin:0;\">Τα χάρτινα αξεσουάρ μαζεύουν σκόνη και στον ήλιο μπορεί να ξεθωριάσουν, γι’ αυτό μετά τη γιορτή καλύτερα να τα κατεβάσεις και να τα φυλάξεις σε κουτί μέχρι να τα χρειαστείς ξανά.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Ένθετο ραφιού - Bookstore Rolife TGB07",
+      "path": "/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/istologio/ti-prepei-na-gnwrizete-prin-xtisete-miniatoyres-spitiwn",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "run_id": "2026-10-05-mon",
+  "round": 1,
+  "locale": "lv",
+  "topic_key": "inspiration-halloween-shelf-scene",
+  "pillar": "INSPIRATION",
+  "title": "Helovīns uz plaukta: kā izrotāt gatavu miniatūru mājiņu",
+  "description": "Gatavu miniatūru mājiņu vai book nook Helovīnam vari pārvērst ar siltu gaismu, papīru un stiepli, neko nelīmējot pie detaļām. Parādīsim, kā pēc svētkiem rotājumus noņemt bez pēdām.",
+  "seo_title": "Helovīna rotājumi gatavai mājiņai bez līmes",
+  "seo_description": "Kā gatavu miniatūru mājiņu vai book nook izrotāt Helovīnam ar gaismu, papīru un stiepli tā, lai pēc svētkiem nepaliktu nekādas pēdas.",
+  "slug": "helovins-uz-plaukta-ka-izrotat-gatavu-miniaturu-majinu",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Gatavu miniatūru mājiņu vai book nook (nelielu ainu, kas iespiesta starp grāmatām plauktā) vari izrotāt Helovīnam bez bojājumu riska, ja <strong>neko nelīmē tieši pie tās</strong>. Tu nomaini gaismu un pievieno sīkumus no papīra un stieples, kas stāv vai karājas blakus modelim, bet pēc svētkiem tos vienkārši noliec malā."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Parādīsim, kā ainas noskaņu mainīt ar siltu gaismu un krāsu, ko var izgatavot no lietām, kas parasti ir mājās, kā piederumus noturēt, nebojājot modeli, un kā tos pēc 31. oktobra noņemt bez pēdām. Beigās atradīsi vienu vienkāršu ideju sākumam."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Vispirms nomaini gaismu, tikai tad pievieno piederumus",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Lielāku atšķirību nekā rotājumu skaits rada gaisma. Aina istabas asajā gaismā izskatās kā gatavs modelis; aina, kas mirdz siltā tonī, izskatās kā mājoklis ar vakara dzīvi. Viens noteikums darbojas vienmēr: <strong>nekādas liesmas</strong>. Papīrs, koks un kartons deg, tāpēc izmanto tikai LED gaismiņas ar baterijām."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Ja modelim ir sava gaisma, atstāj to, kā ir. Pamēģini, kā izskatās, kad pirms loga brīvi noliec gabaliņu caurspīdīga oranža zīdpapīra (plāna, mīksta papīra, ko liek iesaiņojumos). Papīru nelīmē.",
+            "items": []
+          },
+          {
+            "content": "Ja modelim gaismas nav, izmanto atsevišķu LED sveci ar baterijām vai īsu mikro LED virteni. Meklē siltu baltu krāsu, tas ir, aptuveni no 2700 līdz 3000 kelviniem (kelvins ir mērvienība, kādā norāda gaismas toni). Šāds tonis atgādina sveci vai lampu.",
+            "items": []
+          },
+          {
+            "content": "Ja logā ir pārāk spilgta vieta, pievieno otru zīdpapīra kārtu vai gaismu nedaudz atvirzi. Tā gaisma izkliedējas vienmērīgāk.",
+            "items": []
+          },
+          {
+            "content": "Tikai tad, kad gaisma ir tāda, kādu vēlies, pievieno pirmo piederumu un pārbaudi, vai gaisma to neaizsedz.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Padoms:</strong> Nofotografē ainu ar tālruni. Fotogrāfijā uzreiz redzēsi, kas ir pārāk liels, pārāk spilgts vai slikti novietots, ko dzīvē varbūt nepamanītu.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Ko vari izgatavot no papīra, stieples un atlikumiem",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Rotājumiem nav vajadzīgi īpaši materiāli. Pietiek ar melnu un oranžu papīru, plānu stiepli, kartona gabaliņiem un atlikumiem no citiem komplektiem, piemēram, brīvām koka detaļām vai kartona rāmjiem, kuros bija ievietotas detaļas. Papīru un kartonu griez ar asu nazi; palīglīdzekļi aprakstīti <a href=\"/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai\">rakstā par salikšanas rīkiem</a>."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Piederums</th><th>No kā to izgatavot</th><th>Kur to novietot, lai nekas netiktu sabojāts</th></tr></thead><tbody><tr><td>Sikspārņi</td><td>melns papīrs vai plāns kartons</td><td>pakar tos pie tieva diega no plaukta virs ainas vai no āķīša pie sienas, nevis no modeļa</td></tr><tr><td>Ķirbji</td><td>oranžs papīrs un kartona atlikumi</td><td>novieto tos plauktā pirms modeļa uz kartona pamatnes</td></tr><tr><td>Lapu kaudze</td><td>oranža, sarkana un brūna papīra gabaliņi</td><td>noliec to plauktā pie ieejas, nevis modelī</td></tr><tr><td>Kailie zari</td><td>plāna stieple vai papīra saspraudes</td><td>iedur tos kartona pamatnē, kas stāv blakus modelim</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Piederumus taisi mazus, jo aina ir mazā mērogā. Katru vispirms noliec blakus modelim un paskaties, vai tas neizskatās pārāk liels."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Sikspārņi:</strong> no melna papīra izgriez siluetus ar izplestiem spārniem un pakar tos pie tieva diega.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ķirbji:</strong> no oranža papīra izveido bumbiņas, piebāz tās ar papīru un ar tievu flomāsteru uzzīmē seju.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lapas:</strong> no siltu toņu papīra gabaliņiem izveido nelielu kaudzīti, kas guļ pie ieejas.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kailie zari:</strong> no savītām stieplēm top koks vai žogs.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kā piederumus noturēt, nelīmējot pie detaļām",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Līme, lente vai līmējošā masa uz neapstrādāta koka vai papīra var atstāt pēdu, ko nevar noņemt. Tāpēc visu liec <em>blakus</em> modelim, nevis uz tā."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Piederumu noliec plauktā tā, lai tas stāvētu pats, piemēram, uz salocīta papīra pamatnes, kas tam dod stabilitāti.",
+            "items": []
+          },
+          {
+            "content": "Ja piederums jānotur, izmanto nedaudz <em>museum putty</em>, mīkstas masas, ar ko īslaicīgi notur sīkus priekšmetus. Uzklāj to tikai uz gluda, lakota plaukta virsmas, nevis uz neapstrādāta koka, papīra vai tikko krāsotas virsmas.",
+            "items": []
+          },
+          {
+            "content": "Pirms masu izmanto īstenībā, izmēģini to slēptā vietā, piemēram, zem plaukta, un atstāj tur vismaz dienu. Tad noņem un paskaties, vai nav palicis traips vai mainījies spīdums.",
+            "items": []
+          },
+          {
+            "content": "Gaismas vadu pārliec pār plaukta malu un atstāj brīvu, lai to nevajadzētu stiprināt pie modeļa.",
+            "items": []
+          },
+          {
+            "content": "Pieklauvē pie plaukta. Ja piederums sakustas, dod tam lielāku pamatni, nevis vairāk masas.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kā rotājumus pēc svētkiem noņemt bez pēdām",
+        "level": 2
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Tā pati kārtība, tikai pretējā secībā. Vispirms izslēdz un izņem gaismu, tad noņem piederumus un beigās pārbaudi plauktu un modeli."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Noņem piederumus no diegiem un noliec tos plakanā kastē, kur tie nesaburzīsies.",
+            "items": []
+          },
+          {
+            "content": "Masu noņem, to viegli grozot un paceļot, nevis velkot taisni uz augšu. Atlikumu no plaukta noņem ar svaigu masas gabaliņu, ar ko viegli piesit.",
+            "items": []
+          },
+          {
+            "content": "Zīdpapīru izņem no logiem un salok; ja tas nav bojāts, tas var noderēt arī nākamgad.",
+            "items": []
+          },
+          {
+            "content": "Modeli un plauktu noslauki ar sausu mīkstu otiņu, lai noņemtu putekļus, kas sakrājušies rotāšanas laikā.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "header",
+      "data": {
+        "text": "Viena ideja sākumam",
+        "level": 2
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja nezini, ar ko sākt, izmēģini šo kārtību vienam vakaram. Pietiek ar melnu papīru, oranžu zīdpapīru, diegu un LED sveci vai mikro LED virteni."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "No melna papīra izgriez trīs dažāda izmēra sikspārņus un pakar tos pie diega virs ainas.",
+            "items": []
+          },
+          {
+            "content": "Pirms loga brīvi noliec oranža zīdpapīra kārtu un ieslēdz LED gaismu.",
+            "items": []
+          },
+          {
+            "content": "Izslēdz galveno gaismu istabā un paskaties uz ainu no vietas, no kuras to parasti redzi. Pēc tā pielāgo sikspārņu novietojumu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja miniatūras mājiņas būvniecību tikai plāno, apskati <a href=\"/emuars/kas-jums-jazina-pirms-miniaturu-maju-buvniecibas\">rakstu par to, kas jāzina pirms būvēšanas</a>."
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja gribi izmēģināt ideju ainā, kuras tev vēl nav, apskati <a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\">Grāmatplauktu ieliktnis - Bookstore Rolife TGB07</a>. Pēc veikala datiem tajā ir 194 detaļas, un salikšana aizņem aptuveni 3 stundas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Grāmatplauktu ieliktnis - Bookstore Rolife TGB07\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\">Grāmatplauktu ieliktnis - Bookstore Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detaļu skaits: 194</li>\n      <li>Salikšanas laiks: 3 h</li>\n      <li>Sarežģītība: 1</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\">Skatīt komplektu</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Biežāk uzdotie jautājumi",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai papīra piederumā drīkst ievietot parastu sveci?</h3>\n    <p style=\"margin:0;\">Nē. Papīrs, koks un kartons deg, un no liesmas var arī mainīt krāsu. Izmanto LED sveci ar baterijām, kas nesilst un kurai nav liesmas.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ko darīt, ja manam modelim nav savas gaismas?</h3>\n    <p style=\"margin:0;\">To var apgaismot no ārpuses: neliela LED gaismiņa ar baterijām vai īsa mikro LED virtene aiz modeļa vai tā sānos. Izvēlies siltu baltu krāsu, kas rada omulību.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Cik ilgi rotājumus drīkst atstāt plauktā?</h3>\n    <p style=\"margin:0;\">Papīra piederumi savāc putekļus un saulē var izbalēt, tāpēc pēc svētkiem labāk tos noņem un noliec kastē, līdz atkal vajadzēs.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Grāmatplauktu ieliktnis - Bookstore Rolife TGB07",
+      "path": "/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T11:10:06+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai",
+      "block_id": "b08"
+    },
+    {
+      "page_id": 27,
+      "path": "/emuars/kas-jums-jazina-pirms-miniaturu-maju-buvniecibas",
+      "block_id": "b21"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-miniatures",
+      "note": "Námet: sezónne úpravy hotových miniatúr, dodatočné svetlo a vystavenie; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.smallworldminiatures.com/post/miniature-halloween-decorations-9-spooky-cute-diys-for-dollhouses-mostly-from-household-stuff",
+      "note": "Len fakty o svetle: teplá biela približne 2700 až 3000 K, hodvábny papier za oknom zjemňuje svetlo, druhá vrstva alebo vzdialenejšia LED odstráni ostré miesta, plameň v blízkosti papiera nie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.quakehold.com/product/quakehold-museum-putty/",
+      "note": "Museum putty je opakovane použiteľný tmel na dočasné pridržanie drobných predmetov; odstraňuje sa otočením a nadvihnutím."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.wonderfulmuseums.com/museum/is-museum-putty-safe-on-wood/",
+      "note": "Tmel môže zanechať mastnú škvrnu na nelakovanom, poréznom dreve alebo papieri; treba ho vyskúšať na skrytom mieste a zvyšok zobrať čerstvým tmelom."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://sk.wikipedia.org/wiki/Halloween",
+      "note": "Halloween je predvečer a noc z 31. októbra na 1. novembra."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home on an autumn evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently presses a wooden gear into place. Next to the model on the desk lie a few loose wooden pieces, a small flameless LED tea light glowing warmly, and a couple of small black paper cut-outs and a sheet of orange tissue paper; an open instruction booklet is out of focus and any writing on it is unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase with dried autumn leaves, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}
