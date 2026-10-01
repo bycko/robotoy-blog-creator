@@ -102,7 +102,7 @@ Commit the review file alone as the owner's login ([`10-environments.md`](10-env
 - `article.json` validates: `check-jsonschema --schemafile spec/16-article-schema.json runs/<run_id>/article.json` prints no error. Any error is a `16` finding; name the JSON path. An unknown key is an error.
 - `topic_key` and `pillar` equal `row.tsv`. `round` is 1, 2, or 3.
 - `title` and `seo_title` 1–60 characters, `description` 150–300, `seo_description` 120–155, counted as Unicode characters with spaces. These four are plain text: no `<`, `>`, `&`, `"`, or line break.
-- `slug` follows [`14-article-contract.md`](14-article-contract.md#slug): the pattern, **no `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit, no `faq`**. It is not the `uid` of another page in the `pages` collection, and no address row exists for the host for `SK` with that slug.
+- `slug` follows [`14-article-contract.md`](14-article-contract.md#slug): it equals the slug the service makes from `title` (same slugify rule as there), and the pattern, **no `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit, no `faq`**, holds for it. That slug is not the `uid` of another page in the `pages` collection, and no address row exists for the host for `SK` with it. The address is built from the title, so the checks run on the slug made from the title.
 - `tags` is `[]` when the row's `tags` is `-`.
 
 **Blocks**
@@ -222,8 +222,8 @@ For each locale, with its country key from the locale table:
 
 **Slug and limits**
 
-- `slug` matches the pattern, **carries no `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit, and no `faq`**, and is 3–90 characters.
-- **Unique on its host.** Compose `<host for this country>/<blog segment>/<slug>` from the current environment. No row with that `_id` exists in the `seo` collection, unless it is this run's own row (its `id` equals the `_id` in `written.json`). No blog page's `url._<COUNTRY>` ends in `/<blog segment>/<slug>`, except this run's page.
+- The address is built from the language's `title`, not from `slug`: the `slug` field is only a proposal and is not what is stored ([`14-article-contract.md`](14-article-contract.md#slug)). Make the slug from `title` with the same slugify rule as there. That slug matches the pattern, **carries no `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit, and no `faq`**, and is 3–90 characters. A `slug` field that differs from it is not a finding by itself; the checks run on the slug made from the title.
+- **Unique on its host.** Compose `<host for this country>/<blog segment>/<slug made from the title>` from the current environment. No row with that `_id` exists in the `seo` collection, unless it is this run's own row (its `id` equals the `_id` in `written.json`). No blog page's `url._<COUNTRY>` ends in `/<blog segment>/<slug made from the title>`, except this run's page.
 - `title` and `seo_title` 1–60 characters, `description` 150–300, `seo_description` 120–155; all four plain text.
 
 **Quotes**
@@ -314,7 +314,7 @@ These run after the translations are approved, and again on every retry that fin
 5. **Tags.** Keep only tag `uid`s that exist in the `tags` collection with a name for all 21 locales ([`11-storefront-data.md`](11-storefront-data.md#tags)). Drop the rest and name each in your message. While the collection is empty, `tags` is `[]`.
 6. **Author and category.** The author id and the blog category id from the environments file exist in `authors` and `categories`.
 7. **Internal links, again.** For every locale's `internal_links` entry, the page of that `page_id` is still a blog page with `enabled` `true` and a non-empty `url._<COUNTRY>` for that locale's country. When one is not, stop with the row `USED` and name the link: `page_id`, locale, and country. The approved text cannot be changed after approval, so the link is not dropped here; the Editor decides.
-8. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column. No row with that `_id` exists with an `id` other than this run's `_id`. The Slovak slug is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
+8. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column, with the slug made from that language's `title` by the slugify rule of [`14-article-contract.md`](14-article-contract.md#slug); the `slug` field is not what the service stores. No row with that `_id` exists with an `id` other than this run's `_id`. The slug made from the Slovak `title` is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
 
 ## Composing the request
 
@@ -371,19 +371,19 @@ flowchart TB
    | no answer or a timeout | find by run id. Found: step 5. Not found: stop. A later retry that still finds no page may send one create |
 
 5. **Read what was stored.** Load the page by `pipeline_run_id` and its `seo` rows `{ id: <_id>, type: "article" }`. It must [pass](#what-the-stored-page-must-pass). When it does not, stop and name the field. Do not send another request.
-6. **Record.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence` from the page, `page_posted` as now, `cover_url` as the Slovak `image`, `seo_rows` as the 21 stored addresses, `products_rechecked_at`, and `outcome`. Commit and push, per [After the write](#after-the-write).
+6. **Record.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence` from the page, `page_posted` as now, `cover_url` as the Slovak `image`, `seo_rows` as the 21 stored addresses (read back, and compared with the addresses composed from the titles in the check above; a difference is named in your message), `products_rechecked_at`, and `outcome`. Commit and push, per [After the write](#after-the-write).
 
 Send nothing else: no publish call, no second save, no author, category, or tag write, no product, no review.
 
 ### What the stored page must pass
 
 - `enabled` is `false`, `pipeline_run_id` is this run, `categoryID` is the blog category id.
-- `uid` equals the Slovak `slug`.
+- `uid` equals the slug made from the Slovak `title`.
 - Every `locale._<locale>.image` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. None still contain `/tmp/`. The 21 strings need not be identical.
 - The first block of every locale is an image. Its `file.url` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. It has `width` and `height`, and no `path`, no `role`, and no `/tmp/`. Those 21 `file.url` values need not be identical, and they need not equal `locale.image`: the service files the hidden image and the block separately.
 - No other image block has `file.path`. Each still has its catalog `file.url`.
 - Every level-2 header still has the same `elementID` as in the article file.
-- `url._<COUNTRY>` is `https://` plus that country's address, and the `seo` collection has exactly those 21 rows with this `id` and `type` `article`.
+- `url._<COUNTRY>` is `https://` plus that country's address, which equals the address composed from that language's `title`, and the `seo` collection has exactly those 21 rows with this `id` and `type` `article`.
 
 ### Outcomes
 
