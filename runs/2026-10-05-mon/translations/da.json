@@ -1,20 +1,20 @@
 {
   "run_id": "2026-10-05-mon",
-  "round": 1,
+  "round": 2,
   "locale": "da",
   "topic_key": "inspiration-halloween-shelf-scene",
   "pillar": "INSPIRATION",
   "title": "Halloween på hylden: sådan pynter du et færdigt miniaturehus",
-  "description": "Et færdigt miniaturehus eller book nook kan du forvandle til en halloweenscene med varmt lys, papir og tråd, uden at du limer noget fast på delene. Vi viser, hvordan du fjerner pynten igen efter højtiden uden spor.",
+  "description": "Et færdigt miniaturehus eller book nook kan du forvandle til en halloweenscene med varmt lys, papir og ståltråd, uden at du limer noget fast på delene. Vi viser, hvordan du fjerner pynten igen efter højtiden uden spor.",
   "seo_title": "Halloweenpynt til et færdigt miniaturehus uden lim",
-  "seo_description": "Sådan pynter du et færdigt miniaturehus eller book nook til Halloween med lys, papir og tråd, så der ikke er spor tilbage, når højtiden er forbi.",
+  "seo_description": "Sådan pynter du et færdigt miniaturehus eller book nook til Halloween med lys, papir og ståltråd, så der ikke er spor tilbage, når højtiden er forbi.",
   "slug": "halloween-pa-hylden-sadan-pynter-du-et-faerdigt-miniaturehus",
   "blocks": [
     {
       "id": "b01",
       "type": "paragraph",
       "data": {
-        "text": "Et færdigt miniaturehus eller book nook (en lille scene, der står mellem bøgerne på en hylde) kan du pynte til Halloween uden risiko for skader, hvis du <strong>ikke limer noget direkte på det</strong>. Du ændrer lyset og tilføjer små ting af papir og tråd, som står eller hænger ved siden af modellen, og når højtiden er forbi, lægger du dem bare væk."
+        "text": "Et færdigt miniaturehus eller book nook (en lille scene, der står mellem bøgerne på en hylde) kan du pynte til Halloween uden risiko for skader, hvis du <strong>ikke limer noget direkte på det</strong>. Du ændrer lyset og tilføjer små ting af papir og ståltråd, som står eller hænger ved siden af modellen, og når højtiden er forbi, lægger du dem bare væk."
       }
     },
     {
@@ -77,7 +77,7 @@
       "id": "b07",
       "type": "header",
       "data": {
-        "text": "Hvad du kan lave af papir, tråd og rester",
+        "text": "Hvad du kan lave af papir, ståltråd og rester",
         "level": 2
       }
     },
@@ -85,14 +85,14 @@
       "id": "b08",
       "type": "paragraph",
       "data": {
-        "text": "Du behøver ingen særlige materialer til pynten. Sort og orange papir, tynd tråd, stykker af pap og rester fra andre byggesæt er nok, for eksempel løse trædele eller de papirammer, delene lå i. Papir og pap skærer du med en skarp kniv; værktøjet er beskrevet i <a href=\"/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae\">artiklen om værktøj til samling</a>."
+        "text": "Du behøver ingen særlige materialer til pynten. Sort og orange papir, tynd ståltråd, stykker af pap og rester fra andre byggesæt er nok, for eksempel løse trædele eller de papirammer, delene lå i. Papir og pap skærer du med en skarp kniv; værktøjet er beskrevet i <a href=\"/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae\">artiklen om værktøj til samling</a>."
       }
     },
     {
       "id": "b09",
       "type": "HTML",
       "data": {
-        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pynt</th><th>Hvad du kan lave den af</th><th>Hvor du kan sætte den, så intet bliver beskadiget</th></tr></thead><tbody><tr><td>Flagermus</td><td>sort papir eller tynd pap</td><td>hæng dem i en tynd tråd fra hylden over scenen eller fra en krog på væggen, ikke fra modellen</td></tr><tr><td>Græskar</td><td>orange papir og rester af pap</td><td>stil dem på hylden foran modellen på en fod af pap</td></tr><tr><td>Bunke løv</td><td>stykker af orange, rødt og brunt papir</td><td>læg den foran indgangen på hylden, ikke inde i modellen</td></tr><tr><td>Nøgne grene</td><td>tynd tråd eller clips</td><td>stik dem ned i en fod af pap, der står ved siden af modellen</td></tr></tbody></table></div>",
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pynt</th><th>Hvad du kan lave den af</th><th>Hvor du kan sætte den, så intet bliver beskadiget</th></tr></thead><tbody><tr><td>Flagermus</td><td>sort papir eller tynd pap</td><td>hæng dem i en tynd tråd fra hylden over scenen eller fra en krog på væggen, ikke fra modellen</td></tr><tr><td>Græskar</td><td>orange papir og rester af pap</td><td>stil dem på hylden foran modellen på en fod af pap</td></tr><tr><td>Bunke løv</td><td>stykker af orange, rødt og brunt papir</td><td>læg den foran indgangen på hylden, ikke inde i modellen</td></tr><tr><td>Nøgne grene</td><td>tynd ståltråd eller clips</td><td>stik dem ned i en fod af pap, der står ved siden af modellen</td></tr></tbody></table></div>",
         "style": "",
         "localization": {}
       }
@@ -123,7 +123,7 @@
             "items": []
           },
           {
-            "content": "<strong>Nøgne grene:</strong> af snoet tråd bliver der et lille træ eller et hegn.",
+            "content": "<strong>Nøgne grene:</strong> af snoet ståltråd bliver der et lille træ eller et hegn.",
             "items": []
           }
         ]

@@ -1,20 +1,20 @@
 {
   "run_id": "2026-10-05-mon",
-  "round": 1,
+  "round": 2,
   "locale": "nl",
   "topic_key": "inspiration-halloween-shelf-scene",
   "pillar": "INSPIRATION",
   "title": "Halloween op de plank: een af miniatuurhuisje versieren",
-  "description": "Een af miniatuurhuisje of book nook kun je met warm licht, papier en draad voor Halloween omtoveren, zonder iets op de onderdelen te plakken. We laten zien hoe je de versiering na het feest zonder sporen weghaalt.",
+  "description": "Een af miniatuurhuisje of book nook kun je met warm licht, papier en metaaldraad voor Halloween omtoveren, zonder iets op de onderdelen te plakken. We laten zien hoe je de versiering na het feest zonder sporen weghaalt.",
   "seo_title": "Halloweenversiering voor een af huisje zonder lijm",
-  "seo_description": "Zo versier je een af miniatuurhuisje of book nook voor Halloween met licht, papier en draad, zodat er na het feest geen sporen achterblijven.",
+  "seo_description": "Zo versier je een af miniatuurhuisje of book nook voor Halloween met licht, papier en metaaldraad, zodat er na het feest geen sporen achterblijven.",
   "slug": "halloween-op-de-plank-een-af-miniatuurhuisje-versieren",
   "blocks": [
     {
       "id": "b01",
       "type": "paragraph",
       "data": {
-        "text": "Een af miniatuurhuisje of book nook (een klein tafereel dat tussen de boeken op een plank staat) kun je voor Halloween zonder risico op schade versieren, als je <strong>niets rechtstreeks erop plakt</strong>. Je verandert het licht en voegt kleine dingen van papier en draad toe die naast het model staan of hangen, en na het feest berg je ze gewoon op."
+        "text": "Een af miniatuurhuisje of book nook (een klein tafereel dat tussen de boeken op een plank staat) kun je voor Halloween zonder risico op schade versieren, als je <strong>niets rechtstreeks erop plakt</strong>. Je verandert het licht en voegt kleine dingen van papier en metaaldraad toe die naast het model staan of hangen, en na het feest berg je ze gewoon op."
       }
     },
     {
@@ -77,7 +77,7 @@
       "id": "b07",
       "type": "header",
       "data": {
-        "text": "Wat je kunt maken van papier, draad en restjes",
+        "text": "Wat je kunt maken van papier, metaaldraad en restjes",
         "level": 2
       }
     },
@@ -85,14 +85,14 @@
       "id": "b08",
       "type": "paragraph",
       "data": {
-        "text": "Voor de versiering heb je geen speciale materialen nodig. Zwart en oranje papier, dun draad, stukjes karton en restjes van andere bouwsets zijn genoeg, bijvoorbeeld losse houten onderdelen of de kartonnen frames waarin de onderdelen zaten. Papier en karton snijd je met een scherp mes; gereedschap vind je in het <a href=\"/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel\">artikel over gereedschap voor het bouwen</a>."
+        "text": "Voor de versiering heb je geen speciale materialen nodig. Zwart en oranje papier, dunne metaaldraad, stukjes karton en restjes van andere bouwsets zijn genoeg, bijvoorbeeld losse houten onderdelen of de kartonnen frames waarin de onderdelen zaten. Papier en karton snijd je met een scherp mes; gereedschap vind je in het <a href=\"/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel\">artikel over gereedschap voor het bouwen</a>."
       }
     },
     {
       "id": "b09",
       "type": "HTML",
       "data": {
-        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Accessoire</th><th>Waarvan je het maakt</th><th>Waar je het neerzet zodat niets beschadigt</th></tr></thead><tbody><tr><td>Vleermuizen</td><td>zwart papier of dun karton</td><td>hang ze aan een dunne draad aan de plank boven het tafereel of aan een haakje aan de muur, niet aan het model</td></tr><tr><td>Pompoenen</td><td>oranje papier en restjes karton</td><td>zet ze op de plank voor het model, op een voetje van karton</td></tr><tr><td>Hoop bladeren</td><td>stukjes oranje, rood en bruin papier</td><td>leg hem op de plank voor de ingang, niet in het model</td></tr><tr><td>Kale takken</td><td>dun draad of paperclips</td><td>steek ze in een kartonnen voetje dat naast het model staat</td></tr></tbody></table></div>",
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Accessoire</th><th>Waarvan je het maakt</th><th>Waar je het neerzet zodat niets beschadigt</th></tr></thead><tbody><tr><td>Vleermuizen</td><td>zwart papier of dun karton</td><td>hang ze aan een dunne draad aan de plank boven het tafereel of aan een haakje aan de muur, niet aan het model</td></tr><tr><td>Pompoenen</td><td>oranje papier en restjes karton</td><td>zet ze op de plank voor het model, op een voetje van karton</td></tr><tr><td>Hoop bladeren</td><td>stukjes oranje, rood en bruin papier</td><td>leg hem op de plank voor de ingang, niet in het model</td></tr><tr><td>Kale takken</td><td>dunne metaaldraad of paperclips</td><td>steek ze in een kartonnen voetje dat naast het model staat</td></tr></tbody></table></div>",
         "style": "",
         "localization": {}
       }
@@ -123,7 +123,7 @@
             "items": []
           },
           {
-            "content": "<strong>Kale takken:</strong> van gedraaide draadjes ontstaat een boompje of een hek.",
+            "content": "<strong>Kale takken:</strong> van gedraaide metaaldraadjes ontstaat een boompje of een hek.",
             "items": []
           }
         ]

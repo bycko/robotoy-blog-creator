@@ -1,20 +1,20 @@
 {
   "run_id": "2026-10-05-mon",
-  "round": 1,
+  "round": 2,
   "locale": "sv",
   "topic_key": "inspiration-halloween-shelf-scene",
   "pillar": "INSPIRATION",
   "title": "Halloween på hyllan: så dekorerar du ett färdigt miniatyrhus",
-  "description": "Ett färdigt miniatyrhus eller book nook kan du förvandla till Halloween med varmt ljus, papper och tråd, utan att limma något på delarna. Vi visar hur du tar bort dekorationen efter högtiden utan att lämna spår.",
+  "description": "Ett färdigt miniatyrhus eller book nook kan du förvandla till Halloween med varmt ljus, papper och ståltråd, utan att limma något på delarna. Vi visar hur du tar bort dekorationen efter högtiden utan att lämna spår.",
   "seo_title": "Halloweendekoration till ett färdigt miniatyrhus utan lim",
-  "seo_description": "Så dekorerar du ett färdigt miniatyrhus eller book nook till Halloween med ljus, papper och tråd, så att inga spår finns kvar när högtiden är över.",
+  "seo_description": "Så dekorerar du ett färdigt miniatyrhus eller book nook till Halloween med ljus, papper och ståltråd, så att inga spår finns kvar när högtiden är över.",
   "slug": "halloween-pa-hyllan-sa-dekorerar-du-ett-fardigt-miniatyrhus",
   "blocks": [
     {
       "id": "b01",
       "type": "paragraph",
       "data": {
-        "text": "Ett färdigt miniatyrhus eller book nook (en liten scen instoppad mellan böcker på en hylla) kan du dekorera till Halloween utan risk för skador, om du <strong>inte limmar något direkt på det</strong>. Du ändrar ljuset och lägger till småsaker av papper och tråd som står eller hänger bredvid modellen, och när högtiden är över lägger du bara undan dem."
+        "text": "Ett färdigt miniatyrhus eller book nook (en liten scen instoppad mellan böcker på en hylla) kan du dekorera till Halloween utan risk för skador, om du <strong>inte limmar något direkt på det</strong>. Du ändrar ljuset och lägger till småsaker av papper och ståltråd som står eller hänger bredvid modellen, och när högtiden är över lägger du bara undan dem."
       }
     },
     {
@@ -77,7 +77,7 @@
       "id": "b07",
       "type": "header",
       "data": {
-        "text": "Vad du kan göra av papper, tråd och rester",
+        "text": "Vad du kan göra av papper, ståltråd och rester",
         "level": 2
       }
     },
@@ -85,14 +85,14 @@
       "id": "b08",
       "type": "paragraph",
       "data": {
-        "text": "Till dekorationen behöver du inga särskilda material. Svart och orange papper, tunn tråd, bitar av kartong och rester från andra byggsatser räcker, till exempel lösa träbitar eller de kartongramar som delarna låg i. Papper och kartong skär du med en vass kniv; verktygen finns i <a href=\"/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra\">artikeln om verktyg för sammansättning</a>."
+        "text": "Till dekorationen behöver du inga särskilda material. Svart och orange papper, tunn ståltråd, bitar av kartong och rester från andra byggsatser räcker, till exempel lösa träbitar eller de kartongramar som delarna låg i. Papper och kartong skär du med en vass kniv; verktygen finns i <a href=\"/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra\">artikeln om verktyg för sammansättning</a>."
       }
     },
     {
       "id": "b09",
       "type": "HTML",
       "data": {
-        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tillbehör</th><th>Vad du gör det av</th><th>Var du placerar det så att inget skadas</th></tr></thead><tbody><tr><td>Fladdermöss</td><td>svart papper eller tunn kartong</td><td>häng dem i en tunn tråd från hyllan ovanför scenen eller från en krok på väggen, inte från modellen</td></tr><tr><td>Pumpor</td><td>orange papper och kartongrester</td><td>ställ dem på hyllan framför modellen, på en fot av kartong</td></tr><tr><td>Lövhög</td><td>bitar av orange, rött och brunt papper</td><td>lägg den framför ingången på hyllan, inte i modellen</td></tr><tr><td>Kala grenar</td><td>tunn tråd eller gem</td><td>stick ner dem i en fot av kartong som står bredvid modellen</td></tr></tbody></table></div>",
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tillbehör</th><th>Vad du gör det av</th><th>Var du placerar det så att inget skadas</th></tr></thead><tbody><tr><td>Fladdermöss</td><td>svart papper eller tunn kartong</td><td>häng dem i en tunn tråd från hyllan ovanför scenen eller från en krok på väggen, inte från modellen</td></tr><tr><td>Pumpor</td><td>orange papper och kartongrester</td><td>ställ dem på hyllan framför modellen, på en fot av kartong</td></tr><tr><td>Lövhög</td><td>bitar av orange, rött och brunt papper</td><td>lägg den framför ingången på hyllan, inte i modellen</td></tr><tr><td>Kala grenar</td><td>tunn ståltråd eller gem</td><td>stick ner dem i en fot av kartong som står bredvid modellen</td></tr></tbody></table></div>",
         "style": "",
         "localization": {}
       }
@@ -123,7 +123,7 @@
             "items": []
           },
           {
-            "content": "<strong>Kala grenar:</strong> av tvinnade trådar blir det ett litet träd eller ett staket.",
+            "content": "<strong>Kala grenar:</strong> av tvinnade ståltrådar blir det ett litet träd eller ett staket.",
             "items": []
           }
         ]

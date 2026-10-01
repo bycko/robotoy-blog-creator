@@ -1,11 +1,11 @@
 {
   "run_id": "2026-10-05-mon",
-  "round": 1,
+  "round": 2,
   "locale": "lt",
   "topic_key": "inspiration-halloween-shelf-scene",
   "pillar": "INSPIRATION",
   "title": "Helovinas ant lentynos: kaip papuošti paruoštą namelį",
-  "description": "Paruoštą miniatiūrinį namelį ar book nook per Helovyną gali pakeisti šilta šviesa, popieriumi ir viela, nieko neklijuodamas ant dalių. Parodysime, kaip po šventės papuošimus pašalinti be pėdsakų.",
+  "description": "Paruoštą miniatiūrinį namelį ar book nook per Helovino šventę gali pakeisti šilta šviesa, popieriumi ir viela, nieko neklijuodamas ant dalių. Parodysime, kaip po šventės papuošimus pašalinti be pėdsakų.",
   "seo_title": "Helovino puošmenos paruoštam namelio modeliui be klijų",
   "seo_description": "Kaip paruoštą miniatiūrinį namelį ar book nook papuošti Helovinui šviesa, popieriumi ir viela, kad po šventės neliktų jokių pėdsakų.",
   "slug": "helovinas-ant-lentynos-kaip-papuosti-paruosta-nameli",
@@ -46,7 +46,7 @@
         "style": "ordered",
         "items": [
           {
-            "content": "Jei modelis turi savo šviesą, palik ją tokią. Išbandyk, kaip atrodo, kai prieš langą laisvai padedi gabalėlį permatomo oranžinio vyniojamojo popieriaus (plono, minkšto popieriaus, kuriuo įpakuojami siuntiniai). Popieriaus neklijuok.",
+            "content": "Jei modelis turi savo šviesą, palik ją tokią. Išbandyk, kaip atrodo, kai prieš langą laisvai padedi gabalėlį permatomo oranžinio šilkinio popieriaus (plono, minkšto popieriaus, kuriuo įpakuojamos dovanos ir smulkūs daiktai). Popieriaus neklijuok.",
             "items": []
           },
           {
@@ -54,7 +54,7 @@
             "items": []
           },
           {
-            "content": "Jei lange yra per ryški vieta, pridėk antrą popieriaus sluoksnį arba šviesą truputį atitolink. Taip šviesa pasiskirsto tolygiau.",
+            "content": "Jei lange yra per ryški vieta, pridėk antrą šilkinio popieriaus sluoksnį arba šviesą truputį atitolink. Taip šviesa pasiskirsto tolygiau.",
             "items": []
           },
           {
@@ -203,7 +203,7 @@
             "items": []
           },
           {
-            "content": "Vyniojamąjį popierių išimk iš langų ir sulankstyk; jei jis nepažeistas, gali praversti ir kitąmet.",
+            "content": "Šilkinį popierių išimk iš langų ir sulankstyk; jei jis nepažeistas, gali praversti ir kitąmet.",
             "items": []
           },
           {
@@ -225,7 +225,7 @@
       "id": "b19",
       "type": "paragraph",
       "data": {
-        "text": "Jei nežinai, nuo ko pradėti, išbandyk šią tvarką vienam vakarui. Pakanka juodo popieriaus, oranžinio vyniojamojo popieriaus, siūlo ir LED žvakutės arba mikro LED girliandos."
+        "text": "Jei nežinai, nuo ko pradėti, išbandyk šią tvarką vienam vakarui. Pakanka juodo popieriaus, oranžinio šilkinio popieriaus, siūlo ir LED žvakutės arba mikro LED girliandos."
       }
     },
     {
@@ -239,7 +239,7 @@
             "items": []
           },
           {
-            "content": "Prieš langą laisvai padėk sluoksnį oranžinio vyniojamojo popieriaus ir įjunk LED šviesą.",
+            "content": "Prieš langą laisvai padėk sluoksnį oranžinio šilkinio popieriaus ir įjunk LED šviesą.",
             "items": []
           },
           {
