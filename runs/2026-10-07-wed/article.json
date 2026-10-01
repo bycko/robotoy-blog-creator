@@ -1,6 +1,6 @@
 {
   "run_id": "2026-10-07-wed",
-  "round": 1,
+  "round": 2,
   "locale": "sk",
   "topic_key": "inspiration-book-nook-idea",
   "pillar": "INSPIRATION",
@@ -68,7 +68,7 @@
       "id": "b08",
       "type": "paragraph",
       "data": {
-        "text": "Dnes sa dajú kúpiť hotové aj zložiť zo súpravy. Vyrábajú sa aj z materiálov, ktoré bývajú doma: z kartónu, lepenky alebo tvrdého papiera."
+        "text": "Dnes sa dajú kúpiť hotové aj zložiť zo súpravy. Vyrábajú sa aj z materiálov, ktoré bývajú doma: z kartónu, lepenky alebo tvrdého papiera. Scéna nemusí stáť medzi knihami: dá sa postaviť aj ako samostatná škatuľová scéna na polici."
       }
     },
     {
@@ -102,7 +102,7 @@
             "items": []
           },
           {
-            "content": "<strong>Zrkadlo vzadu.</strong> Niektorí tvorcovia dávajú na zadnú stenu zrkadlo, ktoré scénu opakuje a vytvára dojem nekonečnej cesty. Ak taký efekt chceš, priesvitné zrkadlo nedávaj úplne dopredu, lebo by odrážalo svetlo z izby.",
+            "content": "<strong>Zrkadlo vzadu.</strong> Niektorí tvorcovia dávajú na zadnú stenu obyčajné zrkadlo a pred scénu, v určitej vzdialenosti od neho, priesvitné (jednosmerné) zrkadlo, cez ktoré vidno dovnútra. Zrkadlá sa navzájom odrážajú, a tak scéna pôsobí ako nekonečná cesta. Priesvitné zrkadlo nedávaj úplne dopredu, lebo by odrážalo svetlo z izby.",
             "items": []
           },
           {
@@ -186,7 +186,7 @@
             "items": []
           },
           {
-            "content": "<strong>Pomôcky.</strong> Pri vlastnej výrobe z kartónu potrebuješ ostrý nôž a podložku. Pomôcky sú v <a href=\"/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojoch na skladanie</a>.",
+            "content": "<strong>Pomôcky.</strong> Pri vlastnej výrobe z kartónu potrebuješ ostrý nôž a podložku. Pomôcky sú v <a href=\"/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojoch na skladanie</a>. Autorka jedného postupu z lepenky lepí diely tavnou pištoľou (náradie, ktoré roztaví lepiacu tyčinku) a prsty si chráni špeciálnymi nadstavcami.",
             "items": []
           },
           {
@@ -280,7 +280,7 @@
       "id": "b27",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Musí book nook stáť medzi knihami?</h3>\n    <p style=\"margin:0;\">Nemusí. Je určený do medzery medzi knihami, ale scéna sa dá postaviť aj ako samostatná dekorácia na polici alebo vo vitríne. Medzi knihami však vyzerá ako skrytý vchod, a to je hlavné čaro.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Treba pri stavbe lepidlo?</h3>\n    <p style=\"margin:0;\">Závisí od súpravy. Niektoré sa skladajú len z dielov, ktoré do seba zapadajú, iné lepidlo potrebujú. Zoznam pomôcok nájdeš v návode alebo v popise. Pri vlastnej výrobe z kartónu lepidlo potrebuješ takmer vždy.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čím sa book nook líši od miniatúrneho domčeka?</h3>\n    <p style=\"margin:0;\">Book nook je úzka scéna, ktorá sa zasúva medzi knihy a pozeráš sa na ňu spredu. Miniatúrny domček býva samostatná stavba, ktorá stojí na polici alebo na stole.</p>\n  </div>\n</div>",
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Musí book nook stáť medzi knihami?</h3>\n    <p style=\"margin:0;\">Nemusí. Je určený do medzery medzi knihami, ale dá sa postaviť aj ako samostatná škatuľová scéna na polici.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Treba pri stavbe lepidlo?</h3>\n    <p style=\"margin:0;\">Závisí od súpravy: niektoré lepidlo potrebujú, iné nie, preto skontroluj návod alebo popis. Pri postupe z lepenky sa diely lepia tavnou pištoľou.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čím sa book nook líši od miniatúrneho domčeka?</h3>\n    <p style=\"margin:0;\">Book nook je úzka scéna, ktorá sa zasúva medzi knihy a pozeráš sa na ňu spredu. Miniatúrny domček býva samostatná stavba, ktorá stojí na polici alebo na stole.</p>\n  </div>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -295,7 +295,7 @@
       "used_in": [
         "b25"
       ],
-      "checked_at": "2026-10-01T12:35:06+02:00"
+      "checked_at": "2026-10-01T13:05:38+02:00"
     },
     {
       "product_id": 58,
@@ -304,7 +304,7 @@
       "used_in": [
         "b25"
       ],
-      "checked_at": "2026-10-01T12:35:06+02:00"
+      "checked_at": "2026-10-01T13:05:38+02:00"
     },
     {
       "product_id": 60,
@@ -313,7 +313,7 @@
       "used_in": [
         "b25"
       ],
-      "checked_at": "2026-10-01T12:35:06+02:00"
+      "checked_at": "2026-10-01T13:05:38+02:00"
     }
   ],
   "reviews_quoted": [],
@@ -385,16 +385,16 @@
     {
       "kind": "FACT",
       "ref": "https://miniature-house.com/what-is-a-diorama/",
-      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie na polici alebo vo vitríne, námety (knižnice, čajovne, kaviarne, lesy)."
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
     },
     {
       "kind": "FACT",
       "ref": "https://jennifermaker.com/diy-book-nook/",
-      "note": "Zrkadlo na zadnej stene vytvára dojem nekonečnej scény a nepatrí úplne dopredu; vlastná výroba z kartónu, lepenky alebo tvrdého papiera; LED pásik alebo svetelná reťaz na batérie; námet les."
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
     }
   ],
   "word_counts": {
-    "body": 1014,
+    "body": 1038,
     "product": 62
   },
   "cover": {
