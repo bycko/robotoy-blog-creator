@@ -1,0 +1,5 @@
+file	property	start_date	end_date	dimensions	rows	requests	pulled_at
+2026-09-28-monthly-sk-pages.tsv	Slovak	2026-09-01	2026-09-28	page	26	1	2026-10-01T17:35:00+02:00
+2026-09-28-monthly-sk-queries.tsv	Slovak	2026-09-01	2026-09-28	query,page	51	1	2026-10-01T17:35:00+02:00
+2026-09-28-weekly-sk-queries.tsv	Slovak	2026-09-22	2026-09-28	query,page	21	1	2026-10-01T17:35:00+02:00
+2026-09-28-monthly-translations-pages.tsv	translations	2026-09-01	2026-09-28	page	468	1	2026-10-01T17:35:00+02:00
