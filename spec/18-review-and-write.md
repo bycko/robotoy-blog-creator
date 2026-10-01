@@ -15,7 +15,7 @@ You are the only bot that writes. You use `ROBOTOYS_MONGO`, which does not limit
 5. this file
 6. [`../backlog/README.md`](../backlog/README.md) — the plan row's columns
 7. [`03-pillars.md`](03-pillars.md) — what each pillar is for, out of identity
-8. [`09-editorial-guidelines.md`](09-editorial-guidelines.md) — rules `E1`–`E25`, which you cite
+8. [`09-editorial-guidelines.md`](09-editorial-guidelines.md) — rules `E1`–`E31`, which you cite
 9. [`14-article-contract.md`](14-article-contract.md) — fields, limits, blocks, links, slug, cover
 10. [`15-widgets.md`](15-widgets.md) and the templates in [`../templates/widgets/`](../templates/widgets/product-card.html)
 11. [`16-article-schema.json`](16-article-schema.json) — every article file validates against it
@@ -126,9 +126,12 @@ Read [`09-editorial-guidelines.md`](09-editorial-guidelines.md) against the plan
 - **Amounts (`E5`–`E7`).** Count product widgets, product and category links in running text, and product words yourself, against the pillar's column. Your count decides; a `word_counts` that differs from yours by more than 5 % is also a `14/Sidecar fields` finding. A Slovak body under 600 words fails `14/Body`.
 - **Removed-products test (`E8`, `E9`).** Delete every product widget, quote, and product sentence in your head and read from the title down.
 - **Tone and language (`E10`–`E16`, `E25`).** Tykanie with lowercase pronouns, a fellow builder's voice, no superlative, clickbait, urgency, price or sale word, emoji, or exclamation mark in the title, perex, headings, or SEO fields. Grammar, spelling, full diacritics, „…“ quotation marks, hobby terms explained at first use. Name each wrong sentence.
-- **Facts (`E17`–`E20`).** Every figure about a kit equals its catalog parameter. General time and difficulty statements carry a range or condition. No kit below its recommended age. No health claim. Every `FACT` source is opened in this run and confirms its claim; a factual sentence without a source, or one its source contradicts, fails `E20`. A named person needs a consent line in `community/<topic_key>/material.md`.
+- **Facts (`E17`–`E20`).** Every figure about a kit equals its catalog parameter. General time and difficulty statements carry a range or condition. No kit below its recommended age. No health claim. Every `FACT` source is opened in this run and confirms its claim; a factual sentence without a source, or one its source contradicts, fails `E20`. A cause worded more certainly than its source fails `E20`, and so does „štúdie ukazujú“, „odborníci tvrdia“, or „všeobecne sa odporúča“ unless that source says so. A named person needs a consent line in `community/<topic_key>/material.md`. A quote that is smoother, longer, or more certain than that material fails `E20`.
 - **Title, SEO, cover (`E21`–`E23`).** Look at the cover itself: a photorealistic lifestyle photo whose scene and main subject fit the article's title and topic and that does not repeat the scene of a recent run's cover, with no recognizable kit, logo, packaging, price, or readable text. A cover that does not fit the title and topic fails `E23`. `cover.file` names a file that exists. The body does not say the cover was generated.
 - **Identity (`E24`).** The topic is not out of identity ([`03-pillars.md`](03-pillars.md#out-of-identity)).
+- **Steps (`E26`–`E28`).** A step the reader must act on names the action, what to inspect or compare, and what the observation means. Where kits differ, a universal intervention with no pointer to the manual fails `E27`. Glue, force, heat, removing material, or a wiring change as the first step fails `E28` when a reversible check is available.
+- **Pillar value (`E29`, `E30`).** For `INSPIRATION`, a passage that only praises the subject fails `E29`. For `GIFT`, advice that would fit any recipient fails `E30`. The other pillar's rule does not apply.
+- **Structure (`E31`).** Every level-2 heading names its part of the answer. A generic heading, a section that only repeats an earlier one, a list of ordinary prose, or a sentence that narrates the article fails `E31`. The sections follow that pillar's order in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#structure).
 - No text or structure copied from a source site; `sources` carries no copied text.
 
 **Products**

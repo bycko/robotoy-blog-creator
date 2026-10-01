@@ -115,6 +115,8 @@ These four fields are plain text: no `<`, `>`, `&`, or ASCII `"`, and no line br
 
 The rules of [`09-editorial-guidelines.md`](09-editorial-guidelines.md) that are not about Slovak apply in every language: no product in the opening, no superlatives or hype (`09/E13`), no clickbait (`09/E14`), no urgency (`09/E15`), no price, discount, stock, or delivery words (`09/E10`), no emoji and no exclamation mark in the title, perex, headings, or SEO fields (`09/E16`), honest time and difficulty (`09/E17`), no health claims (`09/E19`). A word that is neutral in Slovak but hype in the target language is replaced with a neutral one.
 
+Keep the Slovak sentence's observation, condition, cause, and limit. Do not flatten a diagnostic step (`09/E26`), a pointer to the manual (`09/E27`), a choosing criterion (`09/E30`), or a concrete fact (`09/E29`) into a vaguer sentence. Headings stay as specific as the Slovak ones (`09/E31`).
+
 - Correct spelling with every diacritic and letter of the language; Greek and Bulgarian in their own script.
 - Sentence case as the language writes it: German capitalizes nouns, English titles are in sentence case, not title case.
 - Decimal comma in every language except English, which uses a decimal point. Numbers and units from the catalog keep their value.
