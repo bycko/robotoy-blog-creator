@@ -316,6 +316,7 @@ These run after the translations are approved, and again on every retry that fin
 6. **Author and category.** The author id and the blog category id from the environments file exist in `authors` and `categories`.
 7. **Internal links, again.** For every locale's `internal_links` entry, the page of that `page_id` is still a blog page with `enabled` `true` and a non-empty `url._<COUNTRY>` for that locale's country. When one is not, stop with the row `USED` and name the link: `page_id`, locale, and country. The approved text cannot be changed after approval, so the link is not dropped here; the Editor decides.
 8. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column, with the slug made from that language's `title` by the slugify rule of [`14-article-contract.md`](14-article-contract.md#slug); the `slug` field is not what the service stores. No row with that `_id` exists with an `id` other than this run's `_id`. The slug made from the Slovak `title` is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
+9. **Publishing day (a note, not a stop).** Compare the row's `publish_on` with today's date in Europe/Bratislava. By the Editor's decision of 2026-10-01 they are equal, because Planner plans only for the week of the publishing routines. When they differ by more than one day, in either direction, the write goes on unchanged and the written message gets the `Plán` line, and only that line. Nothing else changes: no stop, no delay, no second look at the page.
 
 ## Composing the request
 
@@ -416,7 +417,7 @@ On `written`, and on `already-complete` when the ledger has no `WRITTEN` row for
 1. Append a `WRITTEN` row to [`../ledger/topics.tsv`](../ledger/topics.tsv) per [`08-ledger.md`](08-ledger.md#the-ledger): `topic_key`, `pillar`, `run_id`, the page `_id`, `WRITTEN`, today's date, the Slovak title. **When the run already has a `WRITTEN` row, add nothing.**
 2. The plan row stays `USED`.
 3. Commit `written.json` and the ledger in one commit, `reviewer: <run_id> written page <_id>`, and push. When the push fails, the page is still written; post the message and name the failed push.
-4. **Order on the listing.** The blog listing shows enabled pages newest `_id` first, so the order follows your write order, not `publish_on`. Look for other pages with a `pipeline_run_id`, read each run's `publish_on` from its `runs/<run_id>/row.tsv`, and when a run with a later `publish_on` has a lower `_id` than this page, name it in your message: this article will show above that one.
+4. **Order on the listing (a warning for the rare case).** The blog listing shows enabled pages newest `_id` first, so the order follows your write order, not `publish_on`. With `publish_on` equal to the write date it matches. Look for other pages with a `pipeline_run_id`, read each run's `publish_on` from its `runs/<run_id>/row.tsv`, and when a run with a later `publish_on` has a lower `_id` than this page, name it in your message: this article will show above that one.
 5. Post the written line. The page is public already: there is no enabling step for the Editor.
 
 ## Continuing a run
@@ -465,7 +466,7 @@ Zostáva     oprava prekladov, kontrola prekladov, zápis
 @Translator
 ```
 
-Written. The page is public from the moment the save returns, so the line asks the Editor for nothing. It carries the page `_id`, the Slovak address, the live check, that the cover was posted with the page, every dropped tag, and, when they apply, `Plán`, `Poradie`, and `Artefakty`:
+Written. The page is public from the moment the save returns, so the line asks the Editor for nothing. It carries the page `_id`, the Slovak address, the live check, that the cover was posted with the page, and every dropped tag. `Plán`, `Poradie`, and `Artefakty` are conditional warnings and are left out of the normal line:
 
 ```
 Reviewer · 2026-10-14-wed · written
@@ -474,13 +475,20 @@ Adresa      https://robotoys.sk/blog/<slug z názvu>
 Kontrola    živá: sk, bg, de · HTTP 200 · kotvy h2 v HTML · stránka v zozname blogu
 Obálka      nahratá so stránkou, runs/2026-10-14-wed/cover.png, vo všetkých 21 jazykoch
 Štítky      žiadne vynechané
-Plán        publish_on 2026-10-28 je neskôr ako dnes; stránka je verejná už od zápisu
-Poradie     stránka 50 má vyššie _id ako stránka 49 behu 2026-10-12-mon s neskorším publish_on; v zozname blogu bude nad ňou
 Zostáva     nič; stránka je zverejnená
 ```
 
+The same message when `publish_on` differs from the write date (rare), with both warnings:
+
+```
+Plán        publish_on 2026-10-28 sa líši od dňa zápisu o viac ako 1 deň; stránka je verejná už od zápisu
+Poradie     stránka 50 má vyššie _id ako stránka 49 behu 2026-10-12-mon s neskorším publish_on; v zozname blogu bude nad ňou
+```
+
+They stand after `Štítky`.
+
 - `Kontrola` names the languages fetched. On a failure it reads `živá zlyhala: <adresa> · <čo chýba>`, `Zostáva` stays `nič; stránka je zverejnená, druhý zápis sa neposlal`, and an `Editor` line follows: `Editor      rozhodni, čo so stránkou`.
-- `Plán`, `Poradie`, and `Artefakty` (admin-editor artefacts or dropped anchors found by the read-back) appear only when they apply.
+- `Plán` appears only when step 9 of [Before the write](#before-the-write) found `publish_on` more than one day from today. `Poradie` appears only when a run with a later `publish_on` has a lower page `_id`, which with equal dates does not happen. `Artefakty` (admin-editor artefacts or dropped anchors found by the read-back) appears only when it applies.
 - In development there is no live check: `Kontrola` reads `živá: preskočená (development)`, and the `Editor` line of [`07-report-format.md`](07-report-format.md#written) ends the message.
 
 A replay:

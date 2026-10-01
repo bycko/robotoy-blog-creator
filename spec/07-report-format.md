@@ -149,7 +149,7 @@ The written message carries:
 - `Kontrola`: the result of the read-only live check of [`18-review-and-write.md`](18-review-and-write.md#write): the languages fetched, or what failed; in development `živá: preskočená (development)`;
 - `Obálka`: the cover was posted with the page, and the file path;
 - `Štítky`: every tag dropped because it lacks a name in all 21 locales, or `žiadne vynechané`;
-- `Plán`, only when the row's `publish_on` is later than the day of the write: `publish_on <date> je neskôr ako dnes; stránka je verejná už od zápisu`;
+- `Plán`, only when the row's `publish_on` differs from the day of the write by more than one day (rare; `publish_on` is normally the publishing day): `publish_on <date> sa líši od dňa zápisu o viac ako 1 deň; stránka je verejná už od zápisu`;
 - `Poradie`, only when a run with a later `publish_on` has a lower page `_id`: `stránka <_id> má vyššie _id ako stránka <_id> behu <run id> s neskorším publish_on; v zozname blogu bude nad ňou`;
 - `Artefakty`, only when the read-back of the stored page found admin-editor artefacts or dropped anchors;
 - `Push`, only when the push of `written.json` failed after the write: the page is written, the record is not pushed;
