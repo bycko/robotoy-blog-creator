@@ -266,7 +266,6 @@ Dôvod       žiadny pripravený riadok v backlog/editorial-plan.tsv: 2 riadky P
 Zapísané    nič; adresár behu nevznikol
 Zostáva     nič; ďalší beh podľa rozvrhu
 Editor      doplň must_answer alebo materiál do community/community-build-of-the-month-2026-10/
-@Editor
 ```
 
 ## Stop cases

@@ -471,7 +471,6 @@ Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png, vo všetkých
 Štítky      žiadne vynechané
 Poradie     stránka 47 má vyššie _id ako stránka 46 behu 2026-10-07-wed s neskorším publish_on; v zozname blogu bude nad ňou
 Zostáva     zapnutie (editor)
-@Editor
 ```
 
 **In development, the written line asks for no enabling.** The page and its cover were posted to the development shop ([`10-environments.md`](10-environments.md#shared-services)). One `Editor` line, `Editor      prostredie development · nezapínať`, replaces `Zapnúť do`.
@@ -492,7 +491,6 @@ Zapísané    iba riadok HELD v pláne a v ledgeri; stránka ani adresy sa nezap
 Riadok      guide-fixing-sticking-mechanism je HELD
 Zostáva     nič; náhradný článok nevznikne, ďalší beh podľa rozvrhu
 Editor      rozhodni o riadku: vráť ho do PLANNED s iným produktom, alebo ho vyraď
-@Editor
 ```
 
 ## Stop cases

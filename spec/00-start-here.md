@@ -45,9 +45,9 @@ Each line names a file in `runs/<run_id>/`; the next bot opens that file, not th
 2. Reviewer: Slovak review, `review-sk-<n>.md`. `RETURNED` → `@Creator`; `APPROVED` → `@Translator`.
 3. Translator: `translations/`. `@Reviewer`
 4. Reviewer: translation review, `review-translations-<n>.md`. `RETURNED` → `@Translator`; `APPROVED` → Reviewer writes.
-5. Reviewer: written, with the page `_id` and "enable by <publish_on>". `@Editor`
+5. Reviewer: written, with the page `_id` and "enable by <publish_on>". No mention: the pipeline ends here.
 
-Every stop mentions `@Editor`, except Translator's stop on a product, which mentions `@Reviewer` so Reviewer can hold the row ([`07-report-format.md`](07-report-format.md#translator-stop-on-a-product)). Planner's messages start no bot; they mention `@Editor` when they hold an item for the Editor. Creator's schedule reads the plan Planner pushed.
+A stop is posted to the chat without any mention; the Editor reads it there. The one exception is Translator's stop on a product, which ends `@Reviewer` so Reviewer can hold the row ([`07-report-format.md`](07-report-format.md#translator-stop-on-a-product)). Planner's messages start no bot and carry no mention. Creator's schedule reads the plan Planner pushed.
 
 ## Planner
 
