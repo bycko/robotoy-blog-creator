@@ -1,0 +1,430 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "sk",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Praskol drevený diel: ako ho opraviť a stavať ďalej",
+  "description": "Praskol ti tenký drevený diel pri vylamovaní z dosky? Ak máš všetky úlomky a hrany na seba sadnú, dá sa zlepiť drevárskym lepidlom. Pri nosnom dieli alebo chýbajúcom kúsku je lepší náhradný diel.",
+  "seo_title": "Praskol drevený diel: ako ho zlepiť a stavať ďalej",
+  "seo_description": "Praskol ti drevený diel pri skladaní? Zisti, kedy ho zlepiť, aké lepidlo použiť, ako dlho nechať spoj schnúť a kedy radšej požiadať o náhradný diel.",
+  "slug": "praskol-dreveny-diel-ako-ho-opravit-a-stavat-dalej",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Praskol drevený diel: ako ho opraviť a stavať ďalej"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Prasknutý tenký diel sa v mnohých prípadoch dá zlepiť a v stavbe môžeš pokračovať. Rozhoduje, či máš všetky úlomky a či ich hrany na seba sadnú bez medzery: vtedy stačí drevárske lepidlo, tenká vrstva a trochu trpezlivosti. Prvé, čo urob, je položiť úlomky na papier a zatiaľ nič nelepiť."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Zlom pri vylamovaní alebo zasúvaní dielu je bežný a nie je znakom, že si urobil chybu: tenké diely, drobné výstupky a spojky, ktoré držia diel v doske, sú z podstaty krehké. O tom, či diel zlepiť, rozhoduje tvar zlomu a to, čo diel v stavbe drží."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Obsah článku</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#ako-posudis-zlom-skor-nez-nieco-zlepis\">Ako posúdiš zlom skôr, než niečo zlepíš</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ake-lepidlo-pouzit-a-ako-dlho-nechat-spoj-schnut\">Aké lepidlo použiť a ako dlho nechať spoj schnúť</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ako-zlepit-cisty-zlom-aj-viac-ulomkov\">Ako zlepiť čistý zlom aj viac úlomkov</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kedy-diel-nezlepovat-a-poziadat-o-nahradny\">Kedy diel nezlepovať a požiadať o náhradný</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ako-diely-vylamovat-aby-nepraskali\">Ako diely vylamovať, aby nepraskali</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#caste-otazky\">Časté otázky</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Ako posúdiš zlom skôr, než niečo zlepíš",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ako-posudis-zlom-skor-nez-nieco-zlepis"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Polož všetky kúsky na čistý list papiera približne na pôvodné miesto. Hneď uvidíš, koľko úlomkov máš, ktoré k sebe patria a či niečo nechýba. Čerstvý zlom sa lepí čistejšie ako taký, ktorý si po prasknutí opakovane prikladal a ohýbal, preto úlomky radšej nechaj ležať."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Prilož hrany k sebe bez lepidla.</strong> Ak sadnú bez viditeľnej medzery, ide o čistý zlom a oprava je jednoduchá. Ak hrany nesedia, nelep a postupuj podľa časti o viacerých úlomkoch.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spočítaj úlomky.</strong> Dva kúsky znamenajú čistý zlom. Tri a viac znamená, že úlomky budeš lepiť po jednom, nie všetky naraz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zisti v návode, čo diel v stavbe drží.</strong> Pri ozdobnom diele stačí zlepenie. Pri nosnom diele rámu samotný spoj nemusí vrátiť dostatočnú pevnosť, preto sa pozri aj do časti o náhradnom diele.",
+            "items": []
+          },
+          {
+            "content": "<strong>Skontroluj, či žiadny kúsok nechýba.</strong> Chýbajúci malý úlomok sa dá zatmeliť, pri väčšej chýbajúcej časti je jednoduchšie získať náhradný diel.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Aké lepidlo použiť a ako dlho nechať spoj schnúť",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ake-lepidlo-pouzit-a-ako-dlho-nechat-spoj-schnut"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Na drevo na drevo použi biele drevárske lepidlo (PVA, teda bežné biele lepidlo na drevo). Vsiakne do drevených vlákien a nechá ti niekoľko minút na vyrovnanie dielu. Sekundové lepidlo sa pri tejto oprave neodporúča ako prvá voľba: zaschne takmer okamžite, takže diel nestihneš vyrovnať, a po zaschnutí je tvrdé a krehké, takže spoj môže pri rovnakom zaťažení prasknúť znova."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Lepidlo nenanášaj priamo z fľaše. Kvapku daj na odpadovú plochu, napríklad plastový vrchnák alebo kúsok voskovaného papiera, a na spoj ju prenes špáradlom. Vrstva má byť tenká, sotva viditeľná. Z nadbytku sa lepidlo pri stlačení vytlačí, zle sa skrýva a môže drevo navlhčiť."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Spoj prvých približne 30 minút nehýb. Plnú pevnosť lepidlo získava dlhšie, preto diel, ktorý niečo nesie, nechaj schnúť niekoľko hodín, radšej cez noc, a až potom na ňom stavaj ďalej. Ak sa údaje na obale tvojho lepidla líšia od tohto rozsahu, riaď sa obalom."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "biele drevárske lepidlo a špáradlo,",
+            "items": []
+          },
+          {
+            "content": "odpadová plocha na lepidlo (vrchnák, voskovaný papier),",
+            "items": []
+          },
+          {
+            "content": "maskovacia páska, malá gumička alebo malé závažie na stlačenie spoja,",
+            "items": []
+          },
+          {
+            "content": "mierne vlhká handrička na zotretie vytlačeného lepidla,",
+            "items": []
+          },
+          {
+            "content": "jemný brúsny papier na zrovnanie drsných hrán.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Ďalšie pomôcky, ktoré sa pri skladaní hodia, sú v <a href=\"/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle\">článku o nástrojoch na skladanie dreveného puzzle</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Na spoj daj maskovaciu pásku v dvoch alebo troch ľahkých vrstvách, svorky sú na takýto drobný diel priveľké. Plochý spoj môžeš namiesto pásky pritlačiť mincou, ktorá nezanechá stopy.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Ako zlepiť čistý zlom aj viac úlomkov",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ako-zlepit-cisty-zlom-aj-viac-ulomkov"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Čistý zlom sa lepí v niekoľkých krokoch. Každý krok má svoj dôvod, preto ich nepreskakuj."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Skús diely nasucho.</strong> Ak sadnú bez medzery, pokračuj. Ak nie, nelep: spoj by zostal viditeľný a slabší.",
+            "items": []
+          },
+          {
+            "content": "<strong>Nanes lepidlo na jednu z lámaných plôch.</strong> Špáradlom rozotri tenkú vrstvu. Pri natretí oboch plôch sa nadbytok pri stlačení vytlačí a zle sa odstraňuje.",
+            "items": []
+          },
+          {
+            "content": "<strong>Stlač diely pevne a rovnomerne približne 10 až 15 sekúnd.</strong> Vytlačené lepidlo hneď zotri mierne vlhkou handričkou, kým nezaschlo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spoj zafixuj.</strong> Použi pásku, pri okrúhlych dieloch gumičku, pri plochom spoji závažie. Prvých približne 30 minút ním nehýb.",
+            "items": []
+          },
+          {
+            "content": "<strong>Po zaschnutí pásku opatrne odstráň.</strong> Ak zostane jemná škára, vtlač do nej trochu tmelu na drevo, nechaj ho zaschnúť a jemne zabrús.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Pri troch a viac úlomkoch nelep všetko naraz, lebo viac voľných kúskov sa pri držaní ľahko posunie. Najprv zlep dva najväčšie úlomky a nechaj ich úplne zaschnúť. Potom pridávaj ďalšie po jednom a každému nechaj čas, aby sa uchytil."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Zlepený diel je v miestach zlomu slabší ako pôvodný. Ak sa to dá, prilep na jeho neviditeľnú zadnú stranu tenký pásik tuhého papiera alebo tenkého dreva, o niečo menší než diel, aby ostal skrytý."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Opravený diel najprv zasuň na miesto nasucho. Ak je výstupok príliš tesný, zabrús ho jemným brúsnym papierom okolo hrubosti 220, kým diel nezapadne ľahko. Ak sa po oprave zasekáva pohyblivá časť, hľadanie trenia popisuje <a href=\"/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho\">článok o zasekávajúcom sa mechanizme</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kedy diel nezlepovať a požiadať o náhradný",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kedy-diel-nezlepovat-a-poziadat-o-nahradny"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Väčšina zlomov stojí za opravu, no niekedy je rozumnejšia výmena dielu. Zváž náhradný diel, keď:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "praskol nosný diel rámu, lebo také opravy len málokedy vrátia dosť pevnosti na to, aby udržali zvyšok stavby,",
+            "items": []
+          },
+          {
+            "content": "je zlomených viac väčších nosných dielov naraz,",
+            "items": []
+          },
+          {
+            "content": "chýba väčší kus materiálu, pretože tmel pri väčších medzerách prestáva vyzerať presvedčivo.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Mnohí výrobcovia stavebníc náhradné diely ponúkajú. Priprav si názov alebo kód súpravy, údaje z objednávky, číslo chýbajúceho dielu z návodu a fotografiu strany návodu, na ktorej diel je. Kontakt na výrobcu býva v návode, často na jeho poslednej strane."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Ak na náhradu čakať nechceš, plochý diel môžeš dočasne vystrihnúť z tenkého kartónu podľa obrysu v návode a stĺpik nahradiť okrúhlym špáradlom skráteným na dĺžku. Taká náhrada je menej presná než originálny diel, preto ju skús najprv nasucho."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Ako diely vylamovať, aby nepraskali",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ako-diely-vylamovat-aby-nepraskali"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Väčšina zlomov vzniká pri dvoch činnostiach: pri vylamovaní dielu z dosky a pri zasúvaní dielu, ktorý nesedí. Oba momenty sa dajú zvládnuť technikou."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Dosku prezri proti svetlu.</strong> Diel s vlásočnicovou trhlinou alebo napoly odtrhnutou spojkou vylamuj ako posledný a mimoriadne opatrne.",
+            "items": []
+          },
+          {
+            "content": "<strong>Dosku polož naplocho na stôl.</strong> Vo vzduchu sa ohýba, a diel potom ľahšie praskne.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tlač palcom zozadu dosky a prednú stranu dielu podopri prstom.</strong> Ak diel odporuje, netlač silnejšie: hľadaj, ktorá spojka ešte drží.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pri diele s viacerými spojkami uvoľňuj jednu po druhej.</strong> Tlak sa tak rozloží postupne a diel sa nezlomí naraz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pred lepením skús každé spojenie nasucho.</strong> Ak nesedí, zisti prečo (zlý diel, zlá poloha), namiesto toho, aby si ho pretláčal.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spojenie zasúvaj tlakom pri základni výstupku, nie na jeho špičke.</strong> Výstupok sa láme v najtenšom mieste, tam, kde sa stretáva s drážkou.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Ak výrobca v návode odporúča iný spôsob vylamovania alebo zasúvania, riaď sa jeho návodom."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Časté otázky",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "caste-otazky"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Dá sa prasknutý drevený diel ešte zlepiť?</h3>\n    <p style=\"margin:0;\">Áno, ak máš všetky úlomky a ich hrany na seba sadnú bez medzery. Použi biele drevárske lepidlo, nie sekundové.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ako dlho nechať zlepený diel schnúť?</h3>\n    <p style=\"margin:0;\">Prvých približne 30 minút ním nehýb. Diel, ktorý niečo nesie, nechaj schnúť niekoľko hodín, radšej cez noc.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Môžem na opravu použiť sekundové lepidlo?</h3>\n    <p style=\"margin:0;\">Nie je to prvá voľba. Zaschne takmer okamžite, takže diel nestihneš vyrovnať, a po zaschnutí je krehké.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čo robiť, keď mi diel úplne chýba?</h3>\n    <p style=\"margin:0;\">Ozvi sa výrobcovi súpravy a pošli kód súpravy, číslo dielu z návodu a fotografiu strany návodu. Plochý diel môžeš dočasne vystrihnúť z tenkého kartónu.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-nastrojov-ktore-potrebujete-pri-skladani-dreveneho-3d-puzzle",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva na jednu plochu, maskovacia páska, gumička a závažie, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady, kedy radšej vymeniť, vylamovanie jednej spojky po druhej a skúška nasucho."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu, vylamovanie tlakom zozadu s podoprením zpredu, tlak pri základni výstupku, jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Rozloženie úlomkov, odstránenie prebytočného lepidla vlhkou handričkou a schnutie niekoľko hodín alebo cez noc; len ako potvrdenie postupu, nič z textu sa nepoužilo."
+    }
+  ],
+  "word_counts": {
+    "body": 1155,
+    "product": 0
+  },
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}
