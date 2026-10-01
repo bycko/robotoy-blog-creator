@@ -10,9 +10,9 @@ Four separate bots, one repository, and one person. Identify yourself and read o
 |---|---|---|---|
 | Planner | keeps the Slovak editorial plan four weeks ahead: a monthly run and a weekly check | its schedule | [Planner](#planner) |
 | Creator | writes the Slovak article from one plan row | its schedule, or Reviewer's return | [Creator](#creator) |
-| Reviewer | checks the Slovak article, then the 20 translations, then writes one disabled page | Creator's or Translator's chat line | [Reviewer](#reviewer) |
+| Reviewer | checks the Slovak article, then the 20 translations, then writes one public page | Creator's or Translator's chat line | [Reviewer](#reviewer) |
 | Translator | makes the other 20 languages from the approved Slovak article | Reviewer's chat line, or the Editor's retry | [Translator](#translator) |
-| Editor | a person: enables pages, supplies community material, adds `HUMAN` rows and sources | — | not a bot; see [`../README.md`](../README.md) |
+| Editor | a person: supplies community material, adds `HUMAN` rows and sources | — | not a bot; see [`../README.md`](../README.md) |
 
 You do not know which one you are? **Stop and say so. Do not guess.**
 
@@ -24,7 +24,7 @@ All times are Europe/Bratislava.
 |---|---|
 | Planner, weekly check | Monday 06:00, every Monday except the monthly run's Monday |
 | Planner, monthly run | Monday 06:00 of the last full week (Monday to Sunday) of the month, in place of that Monday's weekly check |
-| Creator | Monday 09:00 and Wednesday 09:00 |
+| Creator | Monday, Wednesday, and Friday 09:00 (three articles a week) |
 | Reviewer | no schedule; an `@Reviewer` line from Creator or Translator |
 | Translator | no schedule; an `@Translator` line from Reviewer, or a retry the Editor orders |
 
@@ -45,7 +45,7 @@ Each line names a file in `runs/<run_id>/`; the next bot opens that file, not th
 2. Reviewer: Slovak review, `review-sk-<n>.md`. `RETURNED` → `@Creator`; `APPROVED` → `@Translator`.
 3. Translator: `translations/`. `@Reviewer`
 4. Reviewer: translation review, `review-translations-<n>.md`. `RETURNED` → `@Translator`; `APPROVED` → Reviewer writes.
-5. Reviewer: written, with the page `_id` and "enable by <publish_on>". No mention: the pipeline ends here.
+5. Reviewer: written, with the page `_id`; the page is public (`enabled`). No mention: the pipeline ends here.
 
 A stop is posted to the chat without any mention; the Editor reads it there. The one exception is Translator's stop on a product, which ends `@Reviewer` so Reviewer can hold the row ([`07-report-format.md`](07-report-format.md#translator-stop-on-a-product)). Planner's messages start no bot and carry no mention. Creator's schedule reads the plan Planner pushed.
 

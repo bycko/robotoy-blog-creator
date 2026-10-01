@@ -127,7 +127,7 @@ Every level-2 header block carries an anchor in `tunes`, beside `data`, not insi
 - The contents list item for that header uses the same string as `item_id` and links to `#<anchor>` ([`15-widgets.md`](15-widgets.md#contents)). Contents items and level-2 headers are in the same order. Reviewer checks that every `item_id` equals the slug of its header text in every language.
 - Level 3 and 4 headers carry no `tunes`. The key `elementID` no longer exists in the article file.
 - A level-2 header's `text` is plain text, the same words as that item in the contents list.
-- **Not yet verified:** that the pages API keeps `tunes` when it creates the page (the page `PATCH`). If the service drops them, the anchors do not work; the page stays disabled and Reviewer reports it (Reviewer's rule in [`18-review-and-write.md`](18-review-and-write.md)). Runs written before this rule (for example `2026-10-07-wed`, `2026-10-05-mon`) use `elementID` or none; they are history and are not rewritten.
+- **Not yet verified:** that the pages API keeps `tunes` when it creates the page (the page `PATCH`). If the service drops them, the anchors do not work; Reviewer does not write the page and reports it (Reviewer's rule in [`18-review-and-write.md`](18-review-and-write.md)). Runs written before this rule (for example `2026-10-07-wed`, `2026-10-05-mon`) use `elementID` or none; they are history and are not rewritten.
 
 ### Images
 
@@ -185,7 +185,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 
 | Field | What it holds |
 |---|---|
-| `run_id` | the run id, `YYYY-MM-DD-mon` or `YYYY-MM-DD-wed`; never changes on revision |
+| `run_id` | the run id, `YYYY-MM-DD-mon`, `YYYY-MM-DD-wed`, or `YYYY-MM-DD-fri`; never changes on revision |
 | `round` | Slovak file: the Slovak round, 1 to 3. Translation file: the translation round, 1 to 3 |
 | `locale` | the file's locale key (`sk`, `cs`, …) |
 | `topic_key`, `pillar` | copied from the plan row in `runs/<run_id>/row.tsv` |

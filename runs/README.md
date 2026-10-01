@@ -7,9 +7,10 @@ One directory per article run. Every handoff between the bots is a file in it: t
 ```
 runs/YYYY-MM-DD-mon/
 runs/YYYY-MM-DD-wed/
+runs/YYYY-MM-DD-fri/
 ```
 
-The directory name is the run id: Creator's schedule date in Europe/Bratislava, then `mon` or `wed`. It is also the `run_id` inside every article file and the `pipeline_run_id` on the page, which is how Reviewer's write recognises its own page on a replay.
+The directory name is the run id: Creator's schedule date in Europe/Bratislava, then `mon`, `wed`, or `fri`. It is also the `run_id` inside every article file and the `pipeline_run_id` on the page, which is how Reviewer's write recognises its own page on a replay.
 
 - **The run id never changes on a retry or a revision.** A retry on a later day keeps the id of the run it retries.
 - A retry writes into the existing directory. **There is never a second directory for one run.**
@@ -97,7 +98,7 @@ Each line names a file in this directory; the next bot opens that file, not the 
 4. Translator: `translations/`.
 5. Reviewer: translation review, `review-translations-<n>.md`.
 6. On `RETURNED`, Translator fixes the failing languages; on `APPROVED`, Reviewer writes.
-7. Reviewer: written, with the page `_id` and „enable by <publish_on>“.
+7. Reviewer: written, with the page `_id`; the page is public.
 
 ## Example
 

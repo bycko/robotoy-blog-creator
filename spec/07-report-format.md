@@ -24,7 +24,7 @@ Every bot posts one message per event to the group chat. The message tells the E
 
 | Run | Run id | Example |
 |---|---|---|
-| Article run | `<schedule date>-mon` or `<schedule date>-wed` | `2026-10-05-mon` |
+| Article run | `<schedule date>-mon`, `<schedule date>-wed`, or `<schedule date>-fri` | `2026-10-05-mon` |
 | Planner's monthly run | `plan-<plan month>` | `plan-2026-11` |
 | Planner's weekly check | `check-<date>` | `check-2026-10-12` |
 
@@ -40,7 +40,7 @@ Every bot posts one message per event to the group chat. The message tells the E
 | Translator `translations done (round 1)`, `translations rewritten (round <r>)` | `@Reviewer` | `runs/<run id>/translations/` |
 | Reviewer `translations returned (round <n>)` | `@Translator` | `runs/<run id>/review-translations-<n>.md` |
 | Reviewer `translations approved (round <n>)` | none | Reviewer goes on to the write itself |
-| Reviewer `written`, `written (already complete)`, `written (rows added)` | none | — (the pipeline ends; the Editor reads the message and enables the page in the admin) |
+| Reviewer `written`, `written (already complete)`, `written (rows added)` | none | — (the pipeline ends; the page is public, and the Editor only reads the message) |
 | Translator `stopped` on a product ([`19-translator.md`](19-translator.md#when-you-stop)) | `@Reviewer` | `runs/<run id>/article.json`; Reviewer re-checks the products and holds the row |
 | Any other `stopped` | none | — (the Editor reads the message in the chat) |
 | Planner, any run | none | — (the Editor reads the message in the chat) |
@@ -61,9 +61,8 @@ The `Zostáva` line lists, in order, what the run still owes after this message,
 | Translator's rewrite of failing languages | `oprava prekladov` |
 | Reviewer's translation check | `kontrola prekladov` |
 | Reviewer's write | `zápis` |
-| The Editor enables the page | `zapnutie (editor)` |
 
-When the run is over, whether written or stopped, the line says what comes next: `zapnutie (editor)` after a write in production, `nič; ďalší beh podľa rozvrhu` after a stop that leaves nothing to retry, `opakovanie behu <run id>` after a stop a retry continues.
+When the run is over, whether written or stopped, the line says what comes next: `nič; stránka je zverejnená` after a write, `nič; ďalší beh podľa rozvrhu` after a stop that leaves nothing to retry, `opakovanie behu <run id>` after a stop a retry continues.
 
 ## Creator
 
@@ -145,8 +144,7 @@ Zostáva     zápis
 
 The written message carries:
 
-- `Stránka`: the page `_id`, that it is disabled, the language and address counts, and the environment;
-- `Zapnúť do`: the row's `publish_on`;
+- `Stránka`: the page `_id`, that it is public (`zapnutá`), the language and address counts, and the environment;
 - `Obálka`: the cover was posted with the page, and the file path;
 - `Štítky`: every tag dropped because it lacks a name in all 21 locales, or `žiadne vynechané`;
 - `Poradie`, only when a run with a later `publish_on` has a lower page `_id`: `stránka <_id> má vyššie _id ako stránka <_id> behu <run id> s neskorším publish_on; v zozname blogu bude nad ňou`;
@@ -155,20 +153,19 @@ The written message carries:
 
 ```
 Reviewer · 2026-10-05-mon · written
-Stránka     47, vypnutá · 21 jazykov · 21 adries · prostredie production
-Zapnúť do   2026-10-05
+Stránka     47, zapnutá · 21 jazykov · 21 adries · prostredie production
 Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png, vo všetkých 21 jazykoch
 Štítky      žiadne vynechané
-Zostáva     zapnutie (editor)
+Zostáva     nič; stránka je zverejnená
 ```
 
-**In development, the message asks for no enabling.** The page and its cover were posted to the development shop ([`10-environments.md`](10-environments.md#shared-services)). One `Editor` line replaces `Zapnúť do`:
+**In development, the page goes public in the development shop only** ([`10-environments.md`](10-environments.md#shared-services)). One `Editor` line says so:
 
 ```
 Reviewer · 2026-10-05-mon · written
-Stránka     47, vypnutá · 21 jazykov · 21 adries · prostredie development
+Stránka     47, zapnutá · 21 jazykov · 21 adries · prostredie development
 Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png
-Editor      prostredie development · nezapínať
+Editor      prostredie development · verejná len vo vývojovom obchode
 Štítky      vynechaný štítok stavanie-s-detmi (nemá názov v jazyku lv)
 Zostáva     nič; kontrola behu v prostredí development
 ```
@@ -177,8 +174,8 @@ A replay:
 
 ```
 Reviewer · 2026-10-05-mon · written (already complete)
-Stránka     47, vypnutá · nič sa nezmenilo · runs/2026-10-05-mon/written.json
-Zostáva     zapnutie (editor)
+Stránka     47, zapnutá · nič sa nezmenilo · runs/2026-10-05-mon/written.json
+Zostáva     nič; stránka je zverejnená
 ```
 
 ## Translator

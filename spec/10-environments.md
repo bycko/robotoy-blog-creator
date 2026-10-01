@@ -64,7 +64,7 @@ The reviews API and the CDN origin are the same in both environments. The pages 
 
 | Service | Origin | Who may write |
 |---|---|---|
-| Admin UI | `https://robotoys.sk/admin` and `https://robotoys.sk/pages/admin` | nobody; the Editor uses it to enable a page |
+| Admin UI | `https://robotoys.sk/admin` and `https://robotoys.sk/pages/admin` | nobody; the Editor uses it to look at pages |
 | Pages API, production | `https://robotoys.sk/pages/api` (`Host: robotoys.sk` selects the live shop) | Reviewer, one save per run, production only |
 | Pages API, development | the same service on the server at `127.0.0.1:8085`, `Host: dev.robotoys.sk` | Reviewer, one save per run, development only |
 | Reviews API | `https://robotoys.sk/reviews/api` | nobody; read only |
@@ -74,7 +74,7 @@ The public dev site does not route `/pages/api` to this service, and `https://ro
 
 `PUT /pages/api/publish` is the admin button Publikovať. It requests `GET https://<first shop host>/restart` and restarts the storefront. No bot sends it.
 
-Development also reads the production reviews and users databases. The Editor enables pages only in the shop of the current environment.
+Development also reads the production reviews and users databases. A page Reviewer writes goes public only in the shop of the current environment; the Editor no longer enables pages.
 
 ## Credentials
 
@@ -135,7 +135,7 @@ Scheduled runs start without anyone watching, so `git` against this repository m
 
 ## What you may and may not do
 
-- You read the current environment's databases. If you are Reviewer, you post one new disabled page through that environment's pages API, which stores the page, the cover, and the address rows ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
+- You read the current environment's databases. If you are Reviewer, you post one new public page through that environment's pages API, which stores the page, the cover, and the address rows ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
 - Reading one environment's products and posting to the other environment's pages API is an error on which you stop the run and name what you mixed.
 - You compose every address from the current environment's hosts. A development page carrying a production host is a failed write.
 - You never write to an enabled page, a non-blog page, or any product, review, user, or order.
@@ -150,7 +150,7 @@ This is not a bot's job. Without it the dry run does not start.
 - `ROBOTOYS_MONGO` on all four bots
 - the Search Console service account added as a restricted user to both properties
 - `GH_TOKEN` on all four bots, limited to this repository
-- the schedules: Planner weekly Monday 06:00 and monthly at 06:00 on the Monday of the last full week (in place of that Monday's weekly check), Creator Monday and Wednesday 09:00 (Europe/Bratislava)
+- the schedules: Planner weekly Monday 06:00 and monthly at 06:00 on the Monday of the last full week (in place of that Monday's weekly check), Creator Monday, Wednesday, and Friday 09:00 (Europe/Bratislava)
 - the group chat in which one bot's message starts the next
 - optional: Google Ads Basic access on the Cloud project, the account values above, and the two Ads secrets
 
