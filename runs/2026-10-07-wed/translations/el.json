@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "el",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: ένας μικρός κόσμος ανάμεσα στα βιβλία σου",
+  "description": "Το book nook είναι μια μικρή σκηνή ανάμεσα στα βιβλία του ραφιού, που δίνει αίσθηση βάθους και φωτίζει από μέσα. Εξηγούμε από πού προέρχεται η ιδέα, από τι αποτελείται η σκηνή και τι να σκεφτείς πριν από την πρώτη σου γωνιά.",
+  "seo_title": "Book nook: τι είναι και πώς να το έχεις στο ράφι σου",
+  "seo_description": "Τι είναι το book nook, από πού προέρχεται, πώς μια μικρή σκηνή ανάμεσα στα βιβλία δίνει βάθος και τι να σκεφτείς πρώτα: χώρος, φως και χρόνος.",
+  "slug": "book-nook-enas-mikros-kosmos-anamesa-sta-biblia-sto-rafi-soy",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: ένας μικρός κόσμος ανάμεσα στα βιβλία σου"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Το <strong>book nook</strong> είναι μια μικρή σκηνή που τη βάζεις ανάμεσα στα βιβλία του ραφιού έτσι ώστε να μοιάζει με παράθυρο σε έναν άλλο κόσμο: σε ένα νυχτερινό σοκάκι, σε ένα βιβλιοπωλείο ή σε ένα μαγικό μαγαζάκι. Μπορείς να το έχεις και στο σπίτι, γιατί πιάνει μόνο ένα στενό κενό στη σειρά των βιβλίων. Μπορείς να το συναρμολογήσεις από ένα σετ ή να το επινοήσεις από το μηδέν."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Θα σου εξηγήσουμε από πού προέρχεται η ιδέα, γιατί μια μικρή σκηνή δίνει αίσθηση βάθους, ποια θέματα φτιάχνουν οι άνθρωποι πιο συχνά και τι να σκεφτείς πριν ξεκινήσεις την πρώτη σου γωνιά: τη θέση στο ράφι, την τροφοδοσία του φωτός και τον χρόνο."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Περιεχόμενα άρθρου</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Τι είναι το book nook και από πού προέρχεται</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Πώς η μικρή σκηνή δίνει αίσθηση βάθους</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Ποια θέματα φτιάχνουν οι άνθρωποι</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Τι να σκεφτείς πριν από την πρώτη γωνιά</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Σετ για το πρώτο book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Συχνές ερωτήσεις</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Τι είναι το book nook και από πού προέρχεται",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Το book nook, στα ελληνικά γωνιά βιβλίων ή ένθετο ραφιού, είναι ένα <em>ντιοράμα</em>, δηλαδή μια τρισδιάστατη μινιατούρα σκηνής μέσα σε ένα στενό κουτί, που τη βλέπεις από μπροστά σαν από παράθυρο. Είναι φτιαγμένο ώστε να χωράει ανάμεσα στα βιβλία. Θυμίζει στήριγμα βιβλίων, μόνο που στέκεται στη μέση της σειράς και όχι στην άκρη της."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Σύμφωνα με τις διαθέσιμες πηγές, αυτή η μορφή διαδόθηκε γύρω στο 2018, όταν ένας Ιάπωνας σχεδιαστής έφτιαξε ξύλινα ένθετα που απεικόνιζαν σοκάκια του Τόκιο και ταίριαζαν ανάμεσα σε βιβλία με μαλακό εξώφυλλο. Οι φωτογραφίες εξαπλώθηκαν γρήγορα στα μέσα κοινωνικής δικτύωσης, ιδίως στο Reddit, όπου δημιουργήθηκε και μια ξεχωριστή κοινότητα. Άλλοι δημιουργοί άρχισαν να φτιάχνουν τις δικές τους εκδοχές, συχνά βασισμένες σε διάσημα βιβλία, για παράδειγμα ως σοκάκι από ένα μυθιστόρημα φαντασίας."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Σήμερα μπορείς να τα αγοράσεις έτοιμα ή να τα συναρμολογήσεις από σετ. Φτιάχνονται και από υλικά που συχνά υπάρχουν στο σπίτι: από χαρτόνι, σκληρό χαρτόνι ή χοντρό χαρτί. Η σκηνή δεν χρειάζεται να στέκεται ανάμεσα στα βιβλία: μπορεί να φτιαχτεί και ως ανεξάρτητη σκηνή σε κουτί πάνω στο ράφι."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Πώς η μικρή σκηνή δίνει αίσθηση βάθους",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Η σκηνή έχει συνήθως βάθος μόλις μερικά εκατοστά, κι όμως μοιάζει με δρόμο που χάνεται στο βάθος. Η εντύπωση προκύπτει από πολλά πράγματα μαζί."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Προοπτική.</strong> Η προοπτική είναι η σμίκρυνση των πραγμάτων ανάλογα με την απόσταση από το μάτι. Τα σπίτια στο βάθος είναι γι’ αυτό πιο χαμηλά και με λιγότερη λεπτομέρεια από εκείνα μπροστά, παρότι η σκηνή στην πραγματικότητα είναι κοντή.",
+            "items": []
+          },
+          {
+            "content": "<strong>Φως.</strong> Μια σκοτεινή γωνιά υποδηλώνει χώρο και ένα φωτισμένο παράθυρο υποδηλώνει ένα δωμάτιο πίσω του. Χρησιμοποιούνται μικρά φωτάκια LED (το LED είναι μια μικρή φωτοδίοδος), που χωρούν σε στενά σημεία, συνήθως σε ζεστό λευκό ή κεχριμπαρί χρώμα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Καθρέφτης στο βάθος.</strong> Μερικοί δημιουργοί βάζουν έναν απλό καθρέφτη στο πίσω τοίχωμα και μπροστά από τη σκηνή, σε κάποια απόσταση από αυτόν, έναν ημιδιαφανή (μονής όψης) καθρέφτη, μέσα από τον οποίο φαίνεται το εσωτερικό. Οι καθρέφτες αντανακλώνται μεταξύ τους και έτσι η σκηνή μοιάζει με ατέλειωτο δρόμο. Τον ημιδιαφανή καθρέφτη μην τον βάζεις εντελώς μπροστά, γιατί θα αντανακλούσε το φως του δωματίου.",
+            "items": []
+          },
+          {
+            "content": "<strong>Κλίμακα.</strong> Η κλίμακα είναι η αναλογία μεταξύ του πραγματικού και του μειωμένου μεγέθους. Τα αντικείμενα στην ίδια απόσταση πρέπει να έχουν την ίδια κλίμακα, αλλιώς η σκηνή παύει να είναι πιστευτή. Αν προσθέσεις δικό σου αντικείμενο, πρώτα τοποθέτησέ το δίπλα στα έτοιμα κομμάτια και σύγκρινε.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Γι’ αυτό αξίζει πρώτα να σκεφτείς το φως και την κλίμακα και μετά να προσθέσεις τις μικρολεπτομέρειες. Για το πώς αλλάζεις με το φως τη διάθεση μιας έτοιμης σκηνής, γράφουμε και στο <a href=\"/istologio/xalogoyin-sto-rafi-diakosmhsh-etoimoy-spitioy-miniatoyras\">άρθρο για τη διακόσμηση ενός σπιτιού μινιατούρας για το Χάλογουιν</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Ποια θέματα φτιάχνουν οι άνθρωποι",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Τα θέματα διαφέρουν. Αυτά εμφανίζονται συχνά στις πηγές και μπορούν να φτιαχτούν τόσο από σετ όσο και από χαρτόνι."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Θέμα</th><th>Τι δείχνει η σκηνή</th><th>Τι την κάνει πιστευτή</th></tr></thead><tbody><tr><td>Νυχτερινό σοκάκι</td><td>ένας στενός δρόμος ανάμεσα σε σπίτια με φωτισμένα παράθυρα</td><td>τα σπίτια στο βάθος είναι πιο χαμηλά και το φως στα παράθυρα υποδηλώνει δωμάτια</td></tr><tr><td>Βιβλιοπωλείο ή βιβλιοθήκη</td><td>ράφια, ένας καναπές και τραπέζια γεμάτα μικροσκοπικά βιβλία</td><td>λεπτομέρειες από χαρτί και ξύλινα ράφια στην ίδια κλίμακα</td></tr><tr><td>Καφέ ή τεϊοποτείο</td><td>βιτρίνα, τραπεζάκια και φανάρια στην είσοδο</td><td>ζεστό φως στην είσοδο και πιο σκοτεινή γωνιά στο βάθος</td></tr><tr><td>Μαγαζάκι φαντασίας</td><td>εργαστήριο μάγου, ταβέρνα ή μυστική πόρτα</td><td>μικρά σκηνικά αντικείμενα και ασυνήθιστα χρώματα</td></tr><tr><td>Δάσος ή κήπος</td><td>δέντρα, ένα μονοπάτι και μικρά ζώα</td><td>ένα μονοπάτι που χάνεται στο βάθος, ενδεχομένως και καθρέφτης στο βάθος</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν δεν ξέρεις τι να διαλέξεις, ξεκίνα από ένα βιβλίο που αγαπάς πραγματικά ή από έναν τόπο που θα ήθελες να επισκεφτείς. Ένα θέμα που σου αρέσει θα σε βοηθήσει να αντέξεις και στις μικρές λεπτομέρειες."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Τι να σκεφτείς πριν από την πρώτη γωνιά",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Πριν αρχίσεις να φτιάχνεις ή να παραγγέλνεις οτιδήποτε, πέρασε από αυτά τα σημεία."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Θέση στο ράφι.</strong> Μέτρησε το πλάτος του κενού, το ύψος του ραφιού και το βάθος του και σύγκρινέ τα με τις διαστάσεις της σκηνής στην περιγραφή του σετ ή στο σχέδιο. Η σκηνή μπαίνει ανάμεσα στα βιβλία, γι’ αυτό άφησε τα βιβλία και από τις δύο πλευρές έτσι ώστε να τη στηρίζουν σταθερά.",
+            "items": []
+          },
+          {
+            "content": "<strong>Τροφοδοσία του φωτός.</strong> Το φως λειτουργεί συνήθως με μπαταρίες ή τροφοδοτείται με καλώδιο. Βρες πού θα είναι η θήκη μπαταριών ή το καλώδιο και αν θα μπορείς να τα φτάσεις όταν η σκηνή βρίσκεται ανάμεσα στα βιβλία.",
+            "items": []
+          },
+          {
+            "content": "<strong>Χρόνος.</strong> Ανάλογα με την πολυπλοκότητα, η συναρμολόγηση διαρκεί από λίγες ώρες έως μερικά βράδια. Το στοιχείο για ένα συγκεκριμένο σετ θα το βρεις στην περιγραφή του.",
+            "items": []
+          },
+          {
+            "content": "<strong>Εργαλεία.</strong> Για δική σου κατασκευή από χαρτόνι χρειάζεσαι ένα κοφτερό μαχαίρι και μια επιφάνεια κοπής. Τα εργαλεία περιγράφονται στο <a href=\"/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl\">άρθρο για τα εργαλεία συναρμολόγησης</a>. Η δημιουργός μιας μεθόδου με σκληρό χαρτόνι κολλά τα κομμάτια με πιστόλι θερμοκόλλησης (ένα εργαλείο που λιώνει ένα στικ κόλλας) και προστατεύει τα δάχτυλά της με ειδικά καλύμματα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Εμπειρία.</strong> Αν απλώς σκέφτεσαι τις μινιατούρες κατασκευές, τα βασικά είναι στο <a href=\"/istologio/ti-prepei-na-gnwrizete-prin-xtisete-miniatoyres-spitiwn\">άρθρο για το τι πρέπει να ξέρεις πριν από την κατασκευή</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Συμβουλή:</strong> Δοκίμασε πρώτα να κρατήσεις στο ράφι ένα χάρτινο κουτί με τις διαστάσεις της σκηνής. Θα δεις αμέσως αν χωράει και αν τα βιβλία στα πλάγια την κρατούν.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Σετ για το πρώτο book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν θέλεις να ξεκινήσεις με ένα σετ, δες μερικά στοιχεία πριν το διαλέξεις. Θα σε βοηθήσουν να καταλάβεις αν θα τα καταφέρεις στην πρώτη κατασκευή χωρίς απογοήτευση."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Δυσκολία και χρόνος.</strong> Στην πρώτη κατασκευή διάλεξε ένα σετ με χαμηλότερη δυσκολία και μικρότερο χρόνο συναρμολόγησης.",
+            "items": []
+          },
+          {
+            "content": "<strong>Συνιστώμενη ηλικία.</strong> Ο κατάλογος αναφέρει την ηλικία από την οποία προορίζεται το σετ. Τήρησέ την.",
+            "items": []
+          },
+          {
+            "content": "<strong>Φως.</strong> Δες αν το σετ περιλαμβάνει φως και πώς τροφοδοτείται.",
+            "items": []
+          },
+          {
+            "content": "<strong>Κόλλα.</strong> Μερικά σετ τη χρειάζονται, άλλα όχι. Έλεγξέ το στην περιγραφή.",
+            "items": []
+          },
+          {
+            "content": "<strong>Θέμα.</strong> Διάλεξε μια σκηνή που σου αρέσει, ακόμη κι αν δεν είναι η μικρότερη.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Ένθετα ραφιού για πρώτη συναρμολόγηση",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Ένθετο ραφιού - Bookstore Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\">Ένθετο ραφιού - Bookstore Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Αριθμός κομματιών: 194</li>\n      <li>Χρόνος συναρμολόγησης: 3 ώρες</li>\n      <li>Δυσκολία: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76\">Δες το σετ</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/mikroskopika-spitia/biblia-nook/magical-house-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Ένθετο ραφιού - Magical House Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/mikroskopika-spitia/biblia-nook/magical-house-rolife-tgb03-p58\">Ένθετο ραφιού - Magical House Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Αριθμός κομματιών: 216</li>\n      <li>Χρόνος συναρμολόγησης: 4 ώρες</li>\n      <li>Δυσκολία: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/mikroskopika-spitia/biblia-nook/magical-house-rolife-tgb03-p58\">Δες το σετ</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/mikroskopika-spitia/biblia-nook/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Ένθετο ραφιού - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/mikroskopika-spitia/biblia-nook/time-travel-rolife-tgb04-p60\">Ένθετο ραφιού - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Αριθμός κομματιών: 258</li>\n      <li>Χρόνος συναρμολόγησης: 4 ώρες</li>\n      <li>Δυσκολία: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/mikroskopika-spitia/biblia-nook/time-travel-rolife-tgb04-p60\">Δες το σετ</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Συχνές ερωτήσεις",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Πρέπει το book nook να στέκεται ανάμεσα στα βιβλία;</h3>\n    <p style=\"margin:0;\">Όχι απαραίτητα. Προορίζεται για το κενό ανάμεσα στα βιβλία, αλλά μπορεί να φτιαχτεί και ως ανεξάρτητη σκηνή σε κουτί πάνω στο ράφι.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Χρειάζεται κόλλα στην κατασκευή;</h3>\n    <p style=\"margin:0;\">Εξαρτάται από το σετ: ορισμένα τη χρειάζονται, άλλα όχι, γι’ αυτό έλεγξε τις οδηγίες ή την περιγραφή. Στη μέθοδο με σκληρό χαρτόνι τα κομμάτια κολλιούνται με πιστόλι θερμοκόλλησης.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Σε τι διαφέρει το book nook από ένα σπιτάκι μινιατούρας;</h3>\n    <p style=\"margin:0;\">Το book nook είναι μια στενή σκηνή που μπαίνει ανάμεσα στα βιβλία και τη βλέπεις από μπροστά. Το σπιτάκι μινιατούρας είναι συνήθως ανεξάρτητη κατασκευή που στέκεται στο ράφι ή στο τραπέζι.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Ένθετο ραφιού - Bookstore Rolife TGB07",
+      "path": "/mikroskopika-spitia/biblia-nook/bookstore-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Ένθετο ραφιού - Magical House Rolife TGB03",
+      "path": "/mikroskopika-spitia/biblia-nook/magical-house-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Ένθετο ραφιού - Time Travel Rolife TGB04",
+      "path": "/mikroskopika-spitia/biblia-nook/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/istologio/xalogoyin-sto-rafi-diakosmhsh-etoimoy-spitioy-miniatoyras",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/istologio/ti-prepei-na-gnwrizete-prin-xtisete-miniatoyres-spitiwn",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

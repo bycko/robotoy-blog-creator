@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "pl",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: mały świat między książkami na Twojej półce",
+  "description": "Book nook to mała scena między książkami na półce, która sprawia wrażenie głębi i świeci od środka. Wyjaśniamy, skąd wziął się pomysł, z czego składa się scena i co rozważyć przed pierwszym kącikiem.",
+  "seo_title": "Book nook: czym jest i jak mieć go na półce w domu",
+  "seo_description": "Czym jest book nook, skąd wziął się pomysł, jak mała scena między książkami daje wrażenie głębi i co rozważyć najpierw: miejsce, światło i czas.",
+  "slug": "book-nook-maly-swiat-miedzy-ksiazkami-na-twojej-polce",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: mały świat między książkami na Twojej półce"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "<strong>Book nook</strong> to mała scena, którą wsuwasz między książki na półce tak, że wygląda jak okno do innego świata: do nocnej uliczki, księgarni albo zaczarowanego sklepiku. Możesz go mieć także w domu, bo zajmuje tylko wąską lukę w rzędzie książek. Możesz go złożyć z zestawu albo wymyślić od podstaw."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Wyjaśnimy Ci, skąd wziął się pomysł, dlaczego mała scena sprawia wrażenie głębi, jakie motywy ludzie budują najczęściej i co przemyśleć, zanim zaczniesz pierwszy kącik: miejsce na półce, zasilanie światła i czas."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Spis treści artykułu</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Czym jest book nook i skąd się wziął</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Jak mała scena daje wrażenie głębi</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Jakie motywy ludzie budują</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Co rozważyć przed pierwszym kącikiem</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Zestawy na pierwszy book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Częste pytania</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Czym jest book nook i skąd się wziął",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Book nook, po polsku kącik książkowy lub wkładka na półkę, to <em>diorama</em>, czyli trójwymiarowa miniaturowa scena w wąskim pudełku, na którą patrzysz od frontu jak przez okno. Jest zaprojektowany tak, by zmieścić się między książkami. Przypomina podpórkę do książek, tylko że stoi pośrodku rzędu, a nie na jego końcu."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Według dostępnych źródeł ta forma rozpowszechniła się około 2018 roku, gdy japoński projektant wykonał drewniane wkładki przedstawiające tokijskie zaułki, które pasowały między książki w miękkiej oprawie. Zdjęcia szybko rozeszły się w mediach społecznościowych, zwłaszcza na Reddicie, gdzie powstała też osobna społeczność. Kolejni twórcy zaczęli budować własne wersje, często na podstawie słynnych książek, na przykład jako uliczkę z powieści fantasy."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Dziś można je kupić gotowe albo złożyć z zestawu. Powstają także z materiałów, które często są w domu: z kartonu, tektury lub sztywnego papieru. Scena nie musi stać między książkami: można ją zbudować także jako samodzielną scenę w pudełku na półce."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Jak mała scena daje wrażenie głębi",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Scena ma zwykle zaledwie kilka centymetrów głębokości, a mimo to wygląda jak ulica, która ginie w oddali. Wrażenie powstaje z kilku rzeczy naraz."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspektywa.</strong> Perspektywa to zmniejszanie się rzeczy wraz z odległością od oka. Domy z tyłu są więc niższe i mniej szczegółowe niż te z przodu, choć scena w rzeczywistości jest krótka.",
+            "items": []
+          },
+          {
+            "content": "<strong>Światło.</strong> Ciemny kąt sugeruje przestrzeń, a oświetlone okno sugeruje pokój za nim. Stosuje się małe światełka LED (LED to mała dioda świecąca), które mieszczą się w wąskich miejscach, najczęściej w ciepłej bieli lub w kolorze bursztynu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lustro z tyłu.</strong> Niektórzy twórcy umieszczają na tylnej ściance zwykłe lustro, a przed sceną, w pewnej odległości od niego, lustro półprzezroczyste (weneckie), przez które widać wnętrze. Lustra odbijają się nawzajem, dzięki czemu scena wygląda jak nieskończona droga. Półprzezroczystego lustra nie umieszczaj całkiem z przodu, bo odbijałoby światło z pokoju.",
+            "items": []
+          },
+          {
+            "content": "<strong>Skala.</strong> Skala to stosunek rzeczywistego rozmiaru do zmniejszonego. Przedmioty w tej samej odległości powinny mieć tę samą skalę, inaczej scena przestaje być wiarygodna. Jeśli dodajesz własny przedmiot, najpierw przyłóż go do gotowych elementów i porównaj.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Dlatego warto najpierw przemyśleć światło i skalę, a dopiero potem dodawać drobiazgi. O tym, jak światłem zmienić nastrój gotowej sceny, piszemy także w <a href=\"/blog/halloween-na-polce-jak-udekorowac-gotowy-miniaturowy-domek\">artykule o halloweenowej dekoracji miniaturowego domku</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Jakie motywy ludzie budują",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Motywy są różne. Te często pojawiają się w źródłach i można je budować zarówno z zestawu, jak i z kartonu."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Motyw</th><th>Co pokazuje scena</th><th>Co czyni ją wiarygodną</th></tr></thead><tbody><tr><td>Nocna uliczka</td><td>wąska droga między domami ze świecącymi oknami</td><td>domy z tyłu są niższe, a światło w oknach sugeruje pokoje</td></tr><tr><td>Księgarnia lub biblioteka</td><td>regały, sofa i półki pełne maleńkich książek</td><td>papierowe detale i drewniane półki w tej samej skali</td></tr><tr><td>Kawiarnia lub herbaciarnia</td><td>witryna, stoliki i lampiony przy wejściu</td><td>ciepłe światło przy wejściu i ciemniejszy kąt z tyłu</td></tr><tr><td>Sklepik fantasy</td><td>pracownia czarodzieja, karczma lub tajne drzwi</td><td>drobne rekwizyty i niezwykłe kolory</td></tr><tr><td>Las lub ogród</td><td>drzewa, ścieżka i małe zwierzęta</td><td>ścieżka, która ginie w oddali, ewentualnie lustro z tyłu</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Jeśli nie wiesz, co wybrać, wyjdź od książki, którą naprawdę lubisz, albo od miejsca, które chciałbyś lub chciałabyś odwiedzić. Motyw, który Ci się podoba, pomoże Ci wytrwać także przy drobnych detalach."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Co rozważyć przed pierwszym kącikiem",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Zanim zaczniesz coś budować lub zamawiać, przejdź przez te punkty."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Miejsce na półce.</strong> Zmierz szerokość luki, wysokość półki i jej głębokość i porównaj je z wymiarami sceny w opisie zestawu lub w planie. Scenę wsuwa się między książki, dlatego po obu stronach zostaw je tak, by mocno ją trzymały.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zasilanie światła.</strong> Światło działa zwykle na baterie lub jest zasilane kablem. Sprawdź, gdzie będzie schowek na baterie albo kabel i czy dosięgniesz do nich, gdy scena będzie między książkami.",
+            "items": []
+          },
+          {
+            "content": "<strong>Czas.</strong> W zależności od stopnia trudności składanie trwa od kilku godzin do kilku wieczorów. Dane konkretnego zestawu znajdziesz w jego opisie.",
+            "items": []
+          },
+          {
+            "content": "<strong>Narzędzia.</strong> Przy własnoręcznym wykonaniu z kartonu potrzebujesz ostrego noża i podkładki. Narzędzia opisano w <a href=\"/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d\">artykule o narzędziach do składania</a>. Autorka jednej z metod z tektury skleja elementy pistoletem do kleju na gorąco (narzędziem, które topi kolbę kleju), a palce chroni specjalnymi nakładkami.",
+            "items": []
+          },
+          {
+            "content": "<strong>Doświadczenie.</strong> Jeśli miniaturowe budowle dopiero rozważasz, podstawy znajdziesz w <a href=\"/blog/co-musisz-wiedziec-przed-budowa-miniaturowych-domow\">artykule o tym, co warto wiedzieć przed budową</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Wskazówka:</strong> Spróbuj najpierw przytrzymać na półce kartonowe pudełko o wymiarach sceny. Od razu zobaczysz, czy się zmieści i czy książki po bokach je utrzymają.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Zestawy na pierwszy book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Jeśli chcesz zacząć od zestawu, przyjrzyj się kilku danym, zanim go wybierzesz. Pomogą Ci ocenić, czy poradzisz sobie z pierwszą budową bez frustracji."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Trudność i czas.</strong> Na pierwszą budowę wybierz zestaw o niższej trudności i krótszym czasie składania.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zalecany wiek.</strong> Katalog podaje wiek, od którego zestaw jest przeznaczony. Trzymaj się go.",
+            "items": []
+          },
+          {
+            "content": "<strong>Światło.</strong> Sprawdź, czy zestaw zawiera światło i jak jest zasilane.",
+            "items": []
+          },
+          {
+            "content": "<strong>Klej.</strong> Niektóre zestawy go potrzebują, inne nie. Sprawdź to w opisie.",
+            "items": []
+          },
+          {
+            "content": "<strong>Motyw.</strong> Wybierz scenę, która Ci się podoba, nawet jeśli nie jest najmniejsza.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Wkładki na półkę na pierwsze składanie",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturowe-domki/kacik-ksiazek/ksiegarnia-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Wkładka na półkę na książki - Księgarnia Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/ksiegarnia-rolife-tgb07-p76\">Wkładka na półkę na książki - Księgarnia Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Liczba części: 194</li>\n      <li>Czas składania: 3 godz.</li>\n      <li>Trudność: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/ksiegarnia-rolife-tgb07-p76\">Zobacz zestaw</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturowe-domki/kacik-ksiazek/magiczny-dom-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Wkładka na półkę na książki - Magiczny Dom Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/magiczny-dom-rolife-tgb03-p58\">Wkładka na półkę na książki - Magiczny Dom Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Liczba części: 216</li>\n      <li>Czas składania: 4 godz.</li>\n      <li>Trudność: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/magiczny-dom-rolife-tgb03-p58\">Zobacz zestaw</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturowe-domki/kacik-ksiazek/podroz-w-czasie-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Wkładka na półkę na książki - Podróż w Czasie Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/podroz-w-czasie-rolife-tgb04-p60\">Wkładka na półkę na książki - Podróż w Czasie Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Liczba części: 258</li>\n      <li>Czas składania: 4 godz.</li>\n      <li>Trudność: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturowe-domki/kacik-ksiazek/podroz-w-czasie-rolife-tgb04-p60\">Zobacz zestaw</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Częste pytania",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czy book nook musi stać między książkami?</h3>\n    <p style=\"margin:0;\">Nie musi. Jest przeznaczony do luki między książkami, ale można go zbudować także jako samodzielną scenę w pudełku na półce.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czy przy budowie potrzebny jest klej?</h3>\n    <p style=\"margin:0;\">To zależy od zestawu: jedne go potrzebują, inne nie, dlatego sprawdź instrukcję lub opis. Przy metodzie z tektury elementy skleja się pistoletem do kleju na gorąco.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czym book nook różni się od miniaturowego domku?</h3>\n    <p style=\"margin:0;\">Book nook to wąska scena, którą wsuwa się między książki i ogląda od frontu. Miniaturowy domek to zwykle samodzielna konstrukcja, która stoi na półce lub na stole.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Wkładka na półkę na książki - Księgarnia Rolife TGB07",
+      "path": "/miniaturowe-domki/kacik-ksiazek/ksiegarnia-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Wkładka na półkę na książki - Magiczny Dom Rolife TGB03",
+      "path": "/miniaturowe-domki/kacik-ksiazek/magiczny-dom-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Wkładka na półkę na książki - Podróż w Czasie Rolife TGB04",
+      "path": "/miniaturowe-domki/kacik-ksiazek/podroz-w-czasie-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blog/halloween-na-polce-jak-udekorowac-gotowy-miniaturowy-domek",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/co-musisz-wiedziec-przed-budowa-miniaturowych-domow",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

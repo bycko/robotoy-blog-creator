@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "ro",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: o lume mică între cărțile de pe raftul tău",
+  "description": "Un book nook este o scenă mică între cărțile de pe raft, care pare adâncă și luminează dinăuntru. Explicăm de unde vine ideea, din ce se compune scena și ce să iei în calcul înainte de primul colț.",
+  "seo_title": "Book nook: ce este și cum să-l ai pe raftul de acasă",
+  "seo_description": "Ce este un book nook, de unde vine ideea, cum o scenă mică între cărți creează adâncime și ce să iei în calcul mai întâi: loc, lumină și timp.",
+  "slug": "book-nook-o-lume-mica-intre-cartile-de-pe-raftul-tau",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: o lume mică între cărțile de pe raftul tău"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Un <strong>book nook</strong> este o scenă mică pe care o strecori între cărțile de pe raft astfel încât să arate ca o fereastră spre altă lume: spre o străduță de noapte, o librărie sau un magazin fermecat. Îl poți avea și acasă, pentru că ocupă doar un spațiu îngust în rândul de cărți. Îl poți asambla dintr-un set sau îl poți născoci de la zero."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Îți explicăm de unde vine ideea, de ce o scenă mică pare adâncă, ce teme construiesc oamenii cel mai des și ce să te gândești înainte de a începe primul colț: locul pe raft, alimentarea luminii și timpul."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Cuprinsul articolului</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Ce este un book nook și de unde vine</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Cum creează o scenă mică impresia de adâncime</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Ce teme construiesc oamenii</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Ce să iei în calcul înainte de primul colț</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Seturi pentru primul book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Întrebări frecvente</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Ce este un book nook și de unde vine",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Un book nook, în română colț de lectură în miniatură sau inserție de raft, este o <em>diorama</em>, adică o scenă miniaturală tridimensională într-o cutie îngustă, la care te uiți din față ca printr-o fereastră. Este făcut astfel încât să încapă între cărți. Seamănă cu un suport de cărți, doar că stă în mijlocul rândului, nu la capătul lui."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Potrivit surselor disponibile, această formă s-a răspândit în jurul anului 2018, când un designer japonez a făcut inserții de lemn care înfățișau străduțele din spate ale Tokyo-ului și se potriveau între cărți cu copertă moale. Fotografiile s-au răspândit repede pe rețelele sociale, mai ales pe Reddit, unde s-a format și o comunitate aparte. Alți creatori au început să construiască propriile versiuni, adesea după cărți celebre, de pildă ca o străduță dintr-un roman fantasy."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Azi se pot cumpăra gata făcute sau asambla dintr-un set. Se fac și din materiale care se găsesc adesea acasă: din carton, carton gros sau hârtie tare. Scena nu trebuie neapărat să stea între cărți: poate fi construită și ca o scenă independentă într-o cutie, pe raft."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Cum creează o scenă mică impresia de adâncime",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Scena are de obicei doar câțiva centimetri adâncime și totuși arată ca o stradă care se pierde în depărtare. Impresia apare din mai multe lucruri deodată."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspectiva.</strong> Perspectiva este micșorarea lucrurilor în funcție de distanța față de ochi. Casele din spate sunt de aceea mai joase și mai puțin detaliate decât cele din față, deși scena este în realitate scurtă.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lumina.</strong> Un colț întunecat sugerează spațiu, iar o fereastră luminată sugerează o cameră în spatele ei. Se folosesc luminițe LED mici (LED-ul este o diodă luminoasă mică), care încap în locuri înguste, cel mai des în alb cald sau chihlimbar.",
+            "items": []
+          },
+          {
+            "content": "<strong>Oglinda din spate.</strong> Unii creatori pun pe peretele din spate o oglindă obișnuită, iar în fața scenei, la o anumită distanță de ea, o oglindă semitransparentă (cu o singură față), prin care se vede înăuntru. Oglinzile se reflectă una în alta, iar scena pare un drum nesfârșit. Oglinda semitransparentă nu o pune chiar în față, pentru că ar reflecta lumina din cameră.",
+            "items": []
+          },
+          {
+            "content": "<strong>Scara.</strong> Scara este raportul dintre dimensiunea reală și cea micșorată. Obiectele aflate la aceeași distanță trebuie să aibă aceeași scară, altfel scena nu mai este credibilă. Dacă adaugi un obiect al tău, apropie-l mai întâi de piesele gata făcute și compară.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "De aceea merită să te gândești mai întâi la lumină și la scară și abia apoi să adaugi mărunțișuri. Despre cum schimbi cu lumina atmosfera unei scene gata făcute scriem și în <a href=\"/blog/halloween-pe-raft-cum-decorezi-o-mini-casuta-gata-facuta\">articolul despre decorul de Halloween pentru o căsuță în miniatură</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Ce teme construiesc oamenii",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Temele diferă. Acestea apar des în surse și pot fi construite atât dintr-un set, cât și din carton."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tema</th><th>Ce arată scena</th><th>Ce o face credibilă</th></tr></thead><tbody><tr><td>Străduță de noapte</td><td>un drum îngust între case cu ferestre luminate</td><td>casele din spate sunt mai joase, iar lumina din ferestre sugerează camere</td></tr><tr><td>Librărie sau bibliotecă</td><td>rafturi, o canapea și etajere pline de cărți minuscule</td><td>detalii din hârtie și rafturi de lemn la aceeași scară</td></tr><tr><td>Cafenea sau ceainărie</td><td>o vitrină, măsuțe și felinare la intrare</td><td>lumină caldă la intrare și un colț mai întunecat în spate</td></tr><tr><td>Magazin fantasy</td><td>un atelier de vrăjitor, o tavernă sau o ușă secretă</td><td>recuzită mică și culori neobișnuite</td></tr><tr><td>Pădure sau grădină</td><td>copaci, o cărare și animale mici</td><td>o cărare care se pierde în depărtare, eventual o oglindă în spate</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Dacă nu știi ce să alegi, pornește de la o carte pe care o iubești cu adevărat sau de la un loc pe care ți-ar plăcea să-l vizitezi. O temă care îți place te va ajuta să reziști și la detaliile mici."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Ce să iei în calcul înainte de primul colț",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Înainte să începi să construiești sau să comanzi ceva, parcurge aceste puncte."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Locul pe raft.</strong> Măsoară lățimea spațiului, înălțimea raftului și adâncimea lui și compară-le cu dimensiunile scenei din descrierea setului sau din plan. Scena se strecoară între cărți, de aceea lasă-le de ambele părți astfel încât s-o țină ferm.",
+            "items": []
+          },
+          {
+            "content": "<strong>Alimentarea luminii.</strong> Lumina funcționează de obicei pe baterii sau se alimentează cu cablu. Află unde va fi compartimentul pentru baterii sau cablul și dacă vei ajunge la ele când scena va fi între cărți.",
+            "items": []
+          },
+          {
+            "content": "<strong>Timpul.</strong> În funcție de complexitate, asamblarea durează de la câteva ore la câteva seri. Datele unui anumit set le găsești în descrierea lui.",
+            "items": []
+          },
+          {
+            "content": "<strong>Unelte.</strong> La confecționarea proprie din carton ai nevoie de un cuțit ascuțit și de un suport de tăiat. Uneltele sunt în <a href=\"/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn\">articolul despre uneltele pentru asamblare</a>. Autoarea uneia dintre metodele din carton gros lipește piesele cu un pistol de lipit la cald (o unealtă care topește un baton de adeziv) și își protejează degetele cu vârfuri speciale.",
+            "items": []
+          },
+          {
+            "content": "<strong>Experiența.</strong> Dacă abia iei în calcul construcțiile în miniatură, lucrurile de bază sunt în <a href=\"/blog/ce-trebuie-sa-stiti-inainte-de-a-construi-case-in-miniatura\">articolul despre ce trebuie să știi înainte de a construi</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Sfat:</strong> Încearcă mai întâi să ții pe raft o cutie de carton cu dimensiunile scenei. Vezi imediat dacă încape și dacă o țin cărțile din părți.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Seturi pentru primul book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Dacă vrei să începi cu un set, uită-te la câteva date înainte de a-l alege. Te vor ajuta să-ți dai seama dacă vei face față primei construcții fără frustrare."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Dificultate și timp.</strong> La prima construcție alege un set cu dificultate mai mică și timp de asamblare mai scurt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Vârsta recomandată.</strong> Catalogul indică vârsta de la care este destinat setul. Respect-o.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lumina.</strong> Verifică dacă setul include lumină și cum se alimentează.",
+            "items": []
+          },
+          {
+            "content": "<strong>Adezivul.</strong> Unele seturi au nevoie de el, altele nu. Verifică în descriere.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tema.</strong> Alege o scenă care îți place, chiar dacă nu este cea mai mică.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Inserții de raft pentru prima asamblare",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/case-miniaturale/carti-nook/libraria-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Inserție de raft - Librăria Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/case-miniaturale/carti-nook/libraria-rolife-tgb07-p76\">Inserție de raft - Librăria Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Număr de piese: 194</li>\n      <li>Timp de asamblare: 3 h</li>\n      <li>Dificultate: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/case-miniaturale/carti-nook/libraria-rolife-tgb07-p76\">Vezi setul</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/case-miniaturale/carti-nook/casa-magica-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Inserție de bibliotecă - Casa Magică Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/case-miniaturale/carti-nook/casa-magica-rolife-tgb03-p58\">Inserție de bibliotecă - Casa Magică Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Număr de piese: 216</li>\n      <li>Timp de asamblare: 4 h</li>\n      <li>Dificultate: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/case-miniaturale/carti-nook/casa-magica-rolife-tgb03-p58\">Vezi setul</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/case-miniaturale/carti-nook/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Inserție pentru bibliotecă - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/case-miniaturale/carti-nook/time-travel-rolife-tgb04-p60\">Inserție pentru bibliotecă - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Număr de piese: 258</li>\n      <li>Timp de asamblare: 4 h</li>\n      <li>Dificultate: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/case-miniaturale/carti-nook/time-travel-rolife-tgb04-p60\">Vezi setul</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Întrebări frecvente",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Trebuie ca un book nook să stea între cărți?</h3>\n    <p style=\"margin:0;\">Nu trebuie. Este făcut pentru spațiul dintre cărți, dar poate fi construit și ca o scenă independentă într-o cutie, pe raft.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Este nevoie de adeziv la construcție?</h3>\n    <p style=\"margin:0;\">Depinde de set: unele au nevoie, altele nu, de aceea verifică instrucțiunile sau descrierea. La metoda din carton gros, piesele se lipesc cu un pistol de lipit la cald.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prin ce se deosebește un book nook de o căsuță în miniatură?</h3>\n    <p style=\"margin:0;\">Un book nook este o scenă îngustă care se strecoară între cărți și la care te uiți din față. O căsuță în miniatură este de obicei o construcție independentă, care stă pe raft sau pe masă.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Inserție de raft - Librăria Rolife TGB07",
+      "path": "/case-miniaturale/carti-nook/libraria-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Inserție de bibliotecă - Casa Magică Rolife TGB03",
+      "path": "/case-miniaturale/carti-nook/casa-magica-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Inserție pentru bibliotecă - Time Travel Rolife TGB04",
+      "path": "/case-miniaturale/carti-nook/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/blog/halloween-pe-raft-cum-decorezi-o-mini-casuta-gata-facuta",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/blog/ce-trebuie-sa-stiti-inainte-de-a-construi-case-in-miniatura",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}

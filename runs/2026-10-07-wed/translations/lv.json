@@ -1,0 +1,400 @@
+{
+  "run_id": "2026-10-07-wed",
+  "round": 1,
+  "locale": "lv",
+  "topic_key": "inspiration-book-nook-idea",
+  "pillar": "INSPIRATION",
+  "title": "Book nook: maza pasaule starp grāmatām tavā plauktā",
+  "description": "Book nook ir maza aina starp grāmatām plauktā, kas šķiet dziļa un spīd no iekšpuses. Paskaidrosim, no kurienes radusies ideja, no kā aina sastāv un ko apsvērt pirms pirmā stūrīša.",
+  "seo_title": "Book nook: kas tas ir un kā to iegūt plauktā mājās",
+  "seo_description": "Kas ir book nook, no kurienes radusies ideja, kā maza aina starp grāmatām rada dziļuma iespaidu un ko apsvērt pirms pirmās būves: vietu, gaismu un laiku.",
+  "slug": "book-nook-maza-pasaule-starp-gramatam-tava-plaukta",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Book nook: maza pasaule starp grāmatām tavā plauktā"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "<strong>Book nook</strong> ir maza aina, ko iebīdi starp grāmatām plauktā tā, ka tā izskatās kā logs uz citu pasauli: uz nakts šķērsieliņu, grāmatnīcu vai burvju veikaliņu. To var turēt arī mājās, jo tas aizņem tikai šauru spraugu grāmatu rindā. Vari to salikt no komplekta vai izdomāt no nulles."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Paskaidrosim tev, no kurienes radusies ideja, kāpēc maza aina šķiet dziļa, kādas tēmas cilvēki būvē visbiežāk un ko pārdomāt, pirms sāc pirmo stūrīti: vietu plauktā, gaismas barošanu un laiku."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Raksta saturs</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#s1\">Kas ir book nook un no kurienes tas radies</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s2\">Kā maza aina rada dziļuma iespaidu</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s3\">Kādas tēmas cilvēki būvē</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s4\">Ko apsvērt pirms pirmā stūrīša</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s5\">Komplekti pirmajam book nook</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#s6\">Biežāk uzdotie jautājumi</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kas ir book nook un no kurienes tas radies",
+        "level": 2,
+        "elementID": "s1"
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Book nook, latviski grāmatu stūrītis vai plaukta ieliktnis, ir <em>diorāma</em>, tas ir, trīsdimensiju miniatūra aina šaurā kastē, uz kuru skaties no priekšas kā pa logu. Tā ir veidota tā, lai ietilptu starp grāmatām. Tas atgādina grāmatu balstu, tikai stāv rindas vidū, nevis tās galā."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Pēc pieejamajiem avotiem šī forma izplatījās ap 2018. gadu, kad japāņu dizainers izgatavoja koka ieliktņus, kas attēloja Tokijas aizmugures ieliņas un der starp mīkstajos vākos iesietām grāmatām. Fotogrāfijas ātri izplatījās sociālajos tīklos, īpaši Reddit, kur izveidojās arī atsevišķa kopiena. Citi veidotāji sāka būvēt savas versijas, bieži pēc slavenām grāmatām, piemēram, kā ielu no fantāzijas romāna."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Mūsdienās tos var nopirkt gatavus vai salikt no komplekta. Tos izgatavo arī no materiāliem, kas bieži atrodami mājās: no kartona, biezā kartona vai cieta papīra. Ainai nav obligāti jāstāv starp grāmatām: to var uzbūvēt arī kā patstāvīgu kastes ainu plauktā."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "header",
+      "data": {
+        "text": "Kā maza aina rada dziļuma iespaidu",
+        "level": 2,
+        "elementID": "s2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Aina parasti ir tikai dažus centimetrus dziļa, un tomēr izskatās kā iela, kas zūd tālumā. Iespaids rodas no vairākām lietām reizē."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Perspektīva.</strong> Perspektīva ir lietu samazināšanās atkarībā no attāluma līdz acij. Tāpēc mājas aizmugurē ir zemākas un mazāk detalizētas nekā priekšā, lai gan aina patiesībā ir īsa.",
+            "items": []
+          },
+          {
+            "content": "<strong>Gaisma.</strong> Tumšs kaktiņš liek nojaust telpu, bet apgaismots logs – istabu aiz tā. Izmanto mazas LED gaismiņas (LED ir maza gaismas diode), kas ietilpst šaurās vietās, visbiežāk siltbaltā vai dzintara krāsā.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spogulis aizmugurē.</strong> Daži veidotāji uz aizmugures sienas liek parastu spoguli, bet pirms ainas, zināmā attālumā no tā, – daļēji caurspīdīgu (vienpusēju) spoguli, caur kuru redz iekšpusē. Spoguļi atspoguļojas cits citā, tāpēc aina šķiet kā bezgalīgs ceļš. Daļēji caurspīdīgo spoguli neliec pavisam priekšā, jo tas atspoguļotu istabas gaismu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Mērogs.</strong> Mērogs ir īstā un samazinātā izmēra attiecība. Priekšmetiem vienādā attālumā jābūt vienādā mērogā, citādi aina vairs nešķiet ticama. Ja pievieno savu priekšmetu, vispirms pieliec to pie gatavajām daļām un salīdzini.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12",
+      "type": "paragraph",
+      "data": {
+        "text": "Tāpēc ir vērts vispirms pārdomāt gaismu un mērogu un tikai tad pievienot sīkumus. Par to, kā ar gaismu mainīt gatavas ainas noskaņu, rakstām arī <a href=\"/emuars/helovins-uz-plaukta-ka-izrotat-gatavu-miniaturu-majinu\">rakstā par miniatūras mājiņas Helovīna rotāšanu</a>."
+      }
+    },
+    {
+      "id": "b13",
+      "type": "header",
+      "data": {
+        "text": "Kādas tēmas cilvēki būvē",
+        "level": 2,
+        "elementID": "s3"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Tēmas atšķiras. Šīs avotos sastopamas bieži, un tās var būvēt gan no komplekta, gan no kartona."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Tēma</th><th>Ko aina rāda</th><th>Kas to dara ticamu</th></tr></thead><tbody><tr><td>Nakts šķērsieliņa</td><td>šaurs ceļš starp mājām ar spīdošiem logiem</td><td>mājas aizmugurē ir zemākas, un gaisma logos liek nojaust istabas</td></tr><tr><td>Grāmatnīca vai bibliotēka</td><td>plaukti, dīvāns un plauktiņi, pilni sīku grāmatu</td><td>papīra detaļas un koka plaukti tādā pašā mērogā</td></tr><tr><td>Kafejnīca vai tējas nams</td><td>skatlogs, galdiņi un laternas pie ieejas</td><td>silta gaisma pie ieejas un tumšāks kaktiņš aizmugurē</td></tr><tr><td>Fantāzijas veikaliņš</td><td>burvja darbnīca, krogs vai slepenas durvis</td><td>sīki rekviziti un neparastas krāsas</td></tr><tr><td>Mežs vai dārzs</td><td>koki, taciņa un sīki dzīvnieki</td><td>taciņa, kas zūd tālumā, iespējams, spogulis aizmugurē</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja nezini, ko izvēlēties, sāc no grāmatas, kas tev patiešām patīk, vai no vietas, ko tu gribētu apmeklēt. Tēma, kas tev patīk, palīdzēs izturēt arī pie sīkām detaļām."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "header",
+      "data": {
+        "text": "Ko apsvērt pirms pirmā stūrīša",
+        "level": 2,
+        "elementID": "s4"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Pirms sāc ko būvēt vai pasūtīt, izej cauri šiem punktiem."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Vieta plauktā.</strong> Izmēri spraugas platumu, plaukta augstumu un tā dziļumu un salīdzini ar ainas izmēriem komplekta aprakstā vai plānā. Aina tiek iebīdīta starp grāmatām, tāpēc abās pusēs atstāj tās tā, lai tās to stingri turētu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Gaismas barošana.</strong> Gaisma parasti darbojas ar baterijām vai tiek barota ar vadu. Noskaidro, kur būs bateriju nodalījums vai vads un vai tiem varēsi piekļūt, kad aina atradīsies starp grāmatām.",
+            "items": []
+          },
+          {
+            "content": "<strong>Laiks.</strong> Atkarībā no sarežģītības salikšana ilgst no dažām stundām līdz dažiem vakariem. Datus par konkrētu komplektu atradīsi tā aprakstā.",
+            "items": []
+          },
+          {
+            "content": "<strong>Rīki.</strong> Gatavojot pašam no kartona, vajadzīgs ass nazis un paliktnis. Rīki aprakstīti <a href=\"/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai\">rakstā par salikšanas rīkiem</a>. Viena biezā kartona paņēmiena autore daļas līmē ar karstās līmes pistoli (rīku, kas izkausē līmes standziņu) un pirkstus aizsargā ar īpašiem uzgaļiem.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pieredze.</strong> Ja miniatūras būves tikai apsver, pamati ir <a href=\"/emuars/kas-jums-jazina-pirms-miniaturu-maju-buvniecibas\">rakstā par to, kas jāzina pirms būvēšanas</a>.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b20",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Padoms:</strong> Vispirms mēģini plauktā pieturēt kartona kasti ar ainas izmēriem. Uzreiz redzēsi, vai tā ietilpst un vai sānos esošās grāmatas to notur.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Komplekti pirmajam book nook",
+        "level": 2,
+        "elementID": "s5"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja gribi sākt ar komplektu, pirms izvēles apskati dažus datus. Tie palīdzēs saprast, vai pirmo būvi veiksi bez vilšanās."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "<strong>Sarežģītība un laiks.</strong> Pirmajai būvei izvēlies komplektu ar zemāku sarežģītību un īsāku salikšanas laiku.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ieteicamais vecums.</strong> Katalogā norādīts vecums, no kura komplekts paredzēts. Pieturies pie tā.",
+            "items": []
+          },
+          {
+            "content": "<strong>Gaisma.</strong> Noskaidro, vai komplektā ir gaisma un kā tā tiek barota.",
+            "items": []
+          },
+          {
+            "content": "<strong>Līme.</strong> Dažiem komplektiem tā vajadzīga, citiem nē. Pārbaudi aprakstā.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tēma.</strong> Izvēlies ainu, kas tev patīk, pat ja tā nav mazākā.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Plauktu ieliktņi pirmajai salikšanai",
+        "level": 3
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-grid\" style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0;\">\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-knihkupectvo-rolife-tgb07-p528.jpg\" alt=\"Grāmatplauktu ieliktnis - Bookstore Rolife TGB07\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\">Grāmatplauktu ieliktnis - Bookstore Rolife TGB07</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Detaļu skaits: 194</li>\n      <li>Salikšanas laiks: 3 h</li>\n      <li>Sarežģītība: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76\">Skatīt komplektu</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturas-majas/gramatas-nook/magical-house-rolife-tgb03-p58\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-carovny-dom-rolife-tgb03-p289.jpg\" alt=\"Grāmatu plaukta ieliktnis - Magical House Rolife TGB03\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturas-majas/gramatas-nook/magical-house-rolife-tgb03-p58\">Grāmatu plaukta ieliktnis - Magical House Rolife TGB03</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Detaļu skaits: 216</li>\n      <li>Salikšanas laiks: 4 h</li>\n      <li>Sarežģītība: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturas-majas/gramatas-nook/magical-house-rolife-tgb03-p58\">Skatīt komplektu</a></p>\n  </div>\n  <div class=\"rt-product-grid-item\" style=\"display:flex;flex-direction:column;padding:12px;border:1px solid #e5e5e5;border-radius:12px;\">\n    <a href=\"/miniaturas-majas/gramatas-nook/time-travel-rolife-tgb04-p60\"><img src=\"https://cdn.robotoys.sk/vlozka-do-police-na-knihy-time-travel-rolife-tgb04-p291.jpg\" alt=\"Grāmatplauktu ieliktnis - Time Travel Rolife TGB04\" width=\"240\" height=\"240\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:8px;\"></a>\n    <p style=\"margin:8px 0;font-weight:bold;\"><a href=\"/miniaturas-majas/gramatas-nook/time-travel-rolife-tgb04-p60\">Grāmatplauktu ieliktnis - Time Travel Rolife TGB04</a></p>\n    <ul style=\"margin:0 0 8px;padding-left:18px;font-size:14px;\">\n      <li>Detaļu skaits: 258</li>\n      <li>Salikšanas laiks: 4 h</li>\n      <li>Sarežģītība: 1</li>\n    </ul>\n    <p style=\"margin:auto 0 0;\"><a href=\"/miniaturas-majas/gramatas-nook/time-travel-rolife-tgb04-p60\">Skatīt komplektu</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Biežāk uzdotie jautājumi",
+        "level": 2,
+        "elementID": "s6"
+      }
+    },
+    {
+      "id": "b27",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai book nook jāstāv starp grāmatām?</h3>\n    <p style=\"margin:0;\">Nav obligāti. Tas paredzēts spraugai starp grāmatām, taču to var uzbūvēt arī kā patstāvīgu kastes ainu plauktā.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai būvējot vajadzīga līme?</h3>\n    <p style=\"margin:0;\">Tas atkarīgs no komplekta: dažiem tā vajadzīga, citiem nē, tāpēc pārbaudi instrukciju vai aprakstu. Biezā kartona paņēmienā daļas līmē ar karstās līmes pistoli.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ar ko book nook atšķiras no miniatūras mājiņas?</h3>\n    <p style=\"margin:0;\">Book nook ir šaura aina, kas tiek iebīdīta starp grāmatām un uz kuru skatās no priekšas. Miniatūra mājiņa parasti ir patstāvīga būve, kas stāv plauktā vai uz galda.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 76,
+      "name": "Grāmatplauktu ieliktnis - Bookstore Rolife TGB07",
+      "path": "/miniaturas-majas/gramatas-nook/bookstore-rolife-tgb07-p76",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 58,
+      "name": "Grāmatu plaukta ieliktnis - Magical House Rolife TGB03",
+      "path": "/miniaturas-majas/gramatas-nook/magical-house-rolife-tgb03-p58",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    },
+    {
+      "product_id": 60,
+      "name": "Grāmatplauktu ieliktnis - Time Travel Rolife TGB04",
+      "path": "/miniaturas-majas/gramatas-nook/time-travel-rolife-tgb04-p60",
+      "used_in": [
+        "b25"
+      ],
+      "checked_at": "2026-10-01T13:28:33+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 47,
+      "path": "/emuars/helovins-uz-plaukta-ka-izrotat-gatavu-miniaturu-majinu",
+      "block_id": "b12"
+    },
+    {
+      "page_id": 20,
+      "path": "/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai",
+      "block_id": "b19"
+    },
+    {
+      "page_id": 27,
+      "path": "/emuars/kas-jums-jazina-pirms-miniaturu-maju-buvniecibas",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b20",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b25",
+      "kind": "PRODUCT_GRID"
+    },
+    {
+      "block_id": "b27",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-booknooks",
+      "note": "Námet: čo je book nook a ako sa scéna skladá; stránku sa nepodarilo načítať (zablokovaná), nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "booknookworkshop",
+      "note": "Úvodná stránka sa načítala, nič z nej sa nepoužilo; len námet na vysvetlenie pojmu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Book_nook",
+      "note": "Book nook je miniatúrna diorama určená medzi knihy; podobá sa zarážke na knihy, ale stojí v strede radu; vznik okolo roku 2018; námety často podľa slávnych kníh; hotové aj vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.bbc.com/news/blogs-trending-50840434",
+      "note": "Japonský dizajnér a jeho uličky pre poličky; šírenie na Reddite a vznik samostatnej komunity; námety ako ulička, krčma, obchod s elixírmi."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mymodernmet.com/monde-back-alley-bookshelf-diorama/",
+      "note": "Japonský dizajnér monde, drevené vložky s tokijskými zadnými uličkami, rozmer na brožované knihy, rok 2018 (len z úryvku vo vyhľadávaní)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://miniature-house.com/what-is-a-diorama/",
+      "note": "Úzka hĺbka scény, perspektíva (vzdialené veci menšie), teplé LED svetlo a svietiace okná, dôraz na jednotnú mierku, samostatné použitie ako škatuľová scéna (shadow box) na polici, námety (knižnice, čajovne, kaviarne, lesy)."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://jennifermaker.com/diy-book-nook/",
+      "note": "Efekt nekonečnej scény: zrkadlo vzadu a priesvitné (jednosmerné) zrkadlo pred ním, ktoré sa nedáva úplne dopredu, lebo by odrážalo svetlo z izby; vlastná výroba z lepenky, kartónu alebo tvrdého papiera; jeden postup z lepenky lepí diely tavnou pištoľou a používa nadstavce na prsty; LED pásik alebo svetelná reťaz na batérie; námet les."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 50mm lens at f/2, shallow depth of field. A close view of a wooden bookshelf in a cozy home on an evening: a finished miniature shelf insert, a narrow \"book nook\" diorama of a tiny old street with an arched doorway, small lit windows and a few miniature lanterns, sits snugly between two rows of hardcover books and glows with warm LED light from inside. The insert is the generic, unbranded handmade-looking scene made of plywood, paper and tiny props; the receding street clearly looks much deeper than the shelf. It is placed in the center of the frame so a square crop keeps it. The book spines on both sides are plain, muted cloth colors without any lettering, softly out of focus. A small potted plant at the far end of the shelf and a soft cream wall are blurred in the background. No people. Warm light, natural wood tones. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model."
+  }
+}
