@@ -1,6 +1,6 @@
 {
   "run_id": "2026-10-12-mon",
-  "round": 1,
+  "round": 2,
   "locale": "sk",
   "topic_key": "guide-repairing-broken-part",
   "pillar": "GUIDE",
@@ -103,7 +103,7 @@
       "id": "b09",
       "type": "paragraph",
       "data": {
-        "text": "Na drevo na drevo použi biele drevárske lepidlo (PVA, teda bežné biele lepidlo na drevo). Vsiakne do drevených vlákien a nechá ti niekoľko minút na vyrovnanie dielu. Sekundové lepidlo sa pri tejto oprave neodporúča ako prvá voľba: zaschne takmer okamžite, takže diel nestihneš vyrovnať, a po zaschnutí je tvrdé a krehké, takže spoj môže pri rovnakom zaťažení prasknúť znova."
+        "text": "Na lepenie dreva na drevo použi biele drevárske lepidlo (PVA, teda bežné biele lepidlo na drevo). Vsiakne do drevených vlákien a nechá ti niekoľko minút na vyrovnanie dielu. Sekundové lepidlo sa pri tejto oprave neodporúča ako prvá voľba: zaschne takmer okamžite, takže diel nestihneš vyrovnať, a po zaschnutí je tvrdé a krehké, takže spoj môže pri rovnakom zaťažení prasknúť znova."
       }
     },
     {
@@ -160,7 +160,7 @@
       "id": "b14",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Na spoj daj maskovaciu pásku v dvoch alebo troch ľahkých vrstvách, svorky sú na takýto drobný diel priveľké. Plochý spoj môžeš namiesto pásky pritlačiť mincou, ktorá nezanechá stopy.</p>\n</div>",
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Plochý spoj môžeš namiesto pásky zaťažiť mincou, aby na dreve nezostali stopy po páske. Ak spoj držíš páskou, napni ju len mierne, aby ho tlačila ľahko.</p>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -182,7 +182,7 @@
       "id": "b16",
       "type": "paragraph",
       "data": {
-        "text": "Čistý zlom sa lepí v niekoľkých krokoch. Každý krok má svoj dôvod, preto ich nepreskakuj."
+        "text": "Pri čistom zlome postupuj podľa toho, čo vidíš a robíš: najprv hrany, potom lepidlo, nakoniec fixácia a schnutie."
       }
     },
     {
@@ -192,23 +192,19 @@
         "style": "ordered",
         "items": [
           {
-            "content": "<strong>Skús diely nasucho.</strong> Ak sadnú bez medzery, pokračuj. Ak nie, nelep: spoj by zostal viditeľný a slabší.",
+            "content": "<strong>Hrany sadnú bez medzery: môžeš lepiť.</strong> Ak medzera zostáva, nelep. Spoj by bol viditeľný a slabší, preto sa vráť k časti o viacerých úlomkoch.",
             "items": []
           },
           {
-            "content": "<strong>Nanes lepidlo na jednu z lámaných plôch.</strong> Špáradlom rozotri tenkú vrstvu. Pri natretí oboch plôch sa nadbytok pri stlačení vytlačí a zle sa odstraňuje.",
+            "content": "<strong>Lepidlo a stlačenie.</strong> Špáradlom rozotri na spoj tenkú vrstvu lepidla, diely pritlač pevne a rovnomerne, nie silou, a podrž ich približne minútu. Pri správnom tlaku sa zo spoja vytlačí len nepatrné množstvo lepidla, ktoré hneď zotri mierne vlhkou handričkou.",
             "items": []
           },
           {
-            "content": "<strong>Stlač diely pevne a rovnomerne približne 10 až 15 sekúnd.</strong> Vytlačené lepidlo hneď zotri mierne vlhkou handričkou, kým nezaschlo.",
+            "content": "<strong>Fixácia a schnutie.</strong> Spoj drž páskou, pri okrúhlom diele gumičkou a pri plochom diele závažím. Prvých približne 30 minút ním nehýb a nosný diel nechaj schnúť niekoľko hodín až cez noc.",
             "items": []
           },
           {
-            "content": "<strong>Spoj zafixuj.</strong> Použi pásku, pri okrúhlych dieloch gumičku, pri plochom spoji závažie. Prvých približne 30 minút ním nehýb.",
-            "items": []
-          },
-          {
-            "content": "<strong>Po zaschnutí pásku opatrne odstráň.</strong> Ak zostane jemná škára, vtlač do nej trochu tmelu na drevo, nechaj ho zaschnúť a jemne zabrús.",
+            "content": "<strong>Škára po zaschnutí.</strong> Pásku odstráň až po zaschnutí. Ak zostane jemná škára, vtlač do nej trochu tmelu na drevo, nechaj ho zaschnúť a jemne zabrús.",
             "items": []
           }
         ]
@@ -232,7 +228,7 @@
       "id": "b20",
       "type": "paragraph",
       "data": {
-        "text": "Opravený diel najprv zasuň na miesto nasucho. Ak je výstupok príliš tesný, zabrús ho jemným brúsnym papierom okolo hrubosti 220, kým diel nezapadne ľahko. Ak sa po oprave zasekáva pohyblivá časť, hľadanie trenia popisuje <a href=\"/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho\">článok o zasekávajúcom sa mechanizme</a>."
+        "text": "Opravený diel najprv skús zasunúť na miesto nasucho. Ak je výstupok príliš tesný: ak návod pri tomto diele radí inak, riaď sa ním; inak ho zľahka zabrús jemným brúsnym papierom okolo hrubosti 220, kým diel nezapadne ľahko, a po každom zabrúsení skús diel znova nasucho. Ak sa po oprave zasekáva pohyblivá časť, hľadanie trenia popisuje <a href=\"/blog/mechanizmus-sa-zasekava-ako-najst-trenie-a-odstranit-ho\">článok o zasekávajúcom sa mechanizme</a>."
       }
     },
     {
@@ -280,14 +276,14 @@
       "id": "b24",
       "type": "paragraph",
       "data": {
-        "text": "Mnohí výrobcovia stavebníc náhradné diely ponúkajú. Priprav si názov alebo kód súpravy, údaje z objednávky, číslo chýbajúceho dielu z návodu a fotografiu strany návodu, na ktorej diel je. Kontakt na výrobcu býva v návode, často na jeho poslednej strane."
+        "text": "Mnohí výrobcovia stavebníc náhradné diely ponúkajú. Kontakt na výrobcu býva v návode, často na jeho poslednej strane. Pošli fotografiu strany návodu, na ktorej je chýbajúci diel, a k nej jeho číslo, názov alebo kód súpravy a údaje z objednávky."
       }
     },
     {
       "id": "b25",
       "type": "paragraph",
       "data": {
-        "text": "Ak na náhradu čakať nechceš, plochý diel môžeš dočasne vystrihnúť z tenkého kartónu podľa obrysu v návode a stĺpik nahradiť okrúhlym špáradlom skráteným na dĺžku. Taká náhrada je menej presná než originálny diel, preto ju skús najprv nasucho."
+        "text": "Chýba ti len malý výstupok, ktorý diely iba zarovnával? Stavba bez neho často drží, ak návod neurčuje inak: hrany zlep priamo a spoj z neviditeľnej strany podopri pásikom tenkého dreva alebo špáradlom. Plochý chýbajúci diel môžeš dočasne vystrihnúť z tenkého kartónu podľa obrysu v návode, stĺpik nahradiť okrúhlym špáradlom skráteným na dĺžku. Náhradu najprv skús nasucho, lebo je menej presná než originálny diel."
       }
     },
     {
@@ -317,7 +313,7 @@
         "style": "ordered",
         "items": [
           {
-            "content": "<strong>Dosku prezri proti svetlu.</strong> Diel s vlásočnicovou trhlinou alebo napoly odtrhnutou spojkou vylamuj ako posledný a mimoriadne opatrne.",
+            "content": "<strong>Dosku prezri proti svetlu.</strong> Diel s vlásočnicovou trhlinou alebo napoly odtrhnutou spojkou vylamuj mimoriadne opatrne.",
             "items": []
           },
           {
@@ -337,7 +333,7 @@
             "items": []
           },
           {
-            "content": "<strong>Spojenie zasúvaj tlakom pri základni výstupku, nie na jeho špičke.</strong> Výstupok sa láme v najtenšom mieste, tam, kde sa stretáva s drážkou.",
+            "content": "<strong>Spojenie zasúvaj tlakom pri základni výstupku, nie na jeho špičke.</strong> Výstupok sa láme v najtenšom mieste, ktoré je zvyčajne tam, kde sa stretáva s drážkou.",
             "items": []
           }
         ]
@@ -406,21 +402,31 @@
     {
       "kind": "FACT",
       "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
-      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva na jednu plochu, maskovacia páska, gumička a závažie, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady, kedy radšej vymeniť, vylamovanie jednej spojky po druhej a skúška nasucho."
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
     },
     {
       "kind": "FACT",
       "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
-      "note": "Prezretie dielov proti svetlu, vylamovanie tlakom zozadu s podoprením zpredu, tlak pri základni výstupku, jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie."
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
     },
     {
       "kind": "FACT",
       "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
-      "note": "Rozloženie úlomkov, odstránenie prebytočného lepidla vlhkou handričkou a schnutie niekoľko hodín alebo cez noc; len ako potvrdenie postupu, nič z textu sa nepoužilo."
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
     }
   ],
   "word_counts": {
-    "body": 1155,
+    "body": 1222,
     "product": 0
   },
   "cover": {
