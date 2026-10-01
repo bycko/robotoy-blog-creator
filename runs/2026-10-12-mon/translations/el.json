@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "el",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Ράγισε ξύλινο κομμάτι: πώς να το επισκευάσεις και να χτίσεις",
+  "description": "Ράγισε ένα λεπτό ξύλινο κομμάτι όταν το έβγαζες από το φύλλο; Αν έχεις όλα τα θραύσματα και οι άκρες τους ταιριάζουν, μπορεί να κολληθεί με ξυλόκολλα. Σε κομμάτι που στηρίζει τη δομή ή αν λείπει κομμάτι, είναι καλύτερο ένα ανταλλακτικό.",
+  "seo_title": "Ράγισε ξύλινο κομμάτι: πώς να το κολλήσεις και να συνεχίσεις",
+  "seo_description": "Ράγισε ξύλινο κομμάτι στη συναρμολόγηση; Δες πότε να το κολλήσεις, ποια κόλλα να βάλεις, πόσο να στεγνώσει και πότε να ζητήσεις ανταλλακτικό.",
+  "slug": "ragise-ksylino-kommati-pws-na-to-episkeyaseis-kai-na-xtiseis",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Ράγισε ξύλινο κομμάτι: πώς να το επισκευάσεις και να χτίσεις"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ένα ράγισμα σε λεπτό κομμάτι σε πολλές περιπτώσεις κολλιέται και μπορείς να συνεχίσεις τη συναρμολόγηση. Αποφασιστικό είναι αν έχεις όλα τα θραύσματα και αν οι άκρες τους ταιριάζουν χωρίς κενό: τότε αρκούν ξυλόκολλα, ένα λεπτό στρώμα και λίγη υπομονή. Το πρώτο που πρέπει να κάνεις είναι να βάλεις τα θραύσματα πάνω σε ένα φύλλο χαρτί και προς το παρόν να μην κολλήσεις τίποτα."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Το σπάσιμο όταν βγάζεις ή βάζεις ένα κομμάτι είναι συνηθισμένο και δεν σημαίνει ότι έκανες λάθος: τα λεπτά κομμάτια, οι μικρές προεξοχές και οι γέφυρες που κρατούν το κομμάτι στο φύλλο είναι εκ φύσεως εύθραυστα. Το αν θα κολλήσεις το κομμάτι εξαρτάται από το σχήμα του σπασίματος και από το τι κρατά το κομμάτι στην κατασκευή."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Περιεχόμενα άρθρου</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#pws-tha-krineis-to-spasimo-prin-kollhseis-otidhpote\">Πώς θα κρίνεις το σπάσιμο πριν κολλήσεις οτιδήποτε</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#poia-kolla-na-xrhsimopoihseis-kai-poso-na-stegnwsei-h-enwsh\">Ποια κόλλα να χρησιμοποιήσεις και πόσο να στεγνώσει η ένωση</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#pws-na-kollhseis-ena-katharo-spasimo-kai-perissotera-thraysmata\">Πώς να κολλήσεις ένα καθαρό σπάσιμο και περισσότερα θραύσματα</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#pote-na-mhn-kollhseis-to-kommati-kai-na-zhthseis-antallaktiko\">Πότε να μην κολλήσεις το κομμάτι και να ζητήσεις ανταλλακτικό</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#pws-na-bgazeis-ta-kommatia-wste-na-mh-ragizoyn\">Πώς να βγάζεις τα κομμάτια ώστε να μη ραγίζουν</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#syxnes-erwthseis\">Συχνές ερωτήσεις</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Πώς θα κρίνεις το σπάσιμο πριν κολλήσεις οτιδήποτε",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pws-tha-krineis-to-spasimo-prin-kollhseis-otidhpote"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Βάλε όλα τα κομμάτια σε ένα καθαρό φύλλο χαρτί, περίπου στην αρχική τους θέση. Θα δεις αμέσως πόσα θραύσματα έχεις, ποια ταιριάζουν μεταξύ τους και αν λείπει κάτι. Ένα φρέσκο σπάσιμο κολλιέται πιο καθαρά από ένα που, μετά το ράγισμα, το ταίριαζες και το λύγιζες ξανά και ξανά, γι’ αυτό άφησε καλύτερα τα θραύσματα εκεί που είναι."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Ένωσε τις άκρες χωρίς κόλλα.</strong> Αν ταιριάζουν χωρίς ορατό κενό, πρόκειται για καθαρό σπάσιμο και η επισκευή είναι απλή. Αν οι άκρες δεν ταιριάζουν, μην κολλήσεις και ακολούθησε την ενότητα για περισσότερα θραύσματα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Μέτρησε τα θραύσματα.</strong> Δύο κομμάτια σημαίνουν καθαρό σπάσιμο. Τρία ή περισσότερα σημαίνει ότι θα κολλήσεις τα θραύσματα ένα ένα, όχι όλα μαζί.",
+            "items": []
+          },
+          {
+            "content": "<strong>Δες στις οδηγίες τι κρατά το κομμάτι στην κατασκευή.</strong> Σε διακοσμητικό κομμάτι αρκεί η κόλληση. Σε κομμάτι του πλαισίου που στηρίζει, η ίδια η ένωση μπορεί να μην επαναφέρει αρκετή αντοχή, γι’ αυτό δες και την ενότητα για το ανταλλακτικό.",
+            "items": []
+          },
+          {
+            "content": "<strong>Έλεγξε αν λείπει κάποιο κομμάτι.</strong> Ένα μικρό θραύσμα που λείπει μπορεί να καλυφθεί με στόκο, ενώ αν λείπει μεγαλύτερο τμήμα, είναι πιο εύκολο να πάρεις ανταλλακτικό.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Ποια κόλλα να χρησιμοποιήσεις και πόσο να στεγνώσει η ένωση",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "poia-kolla-na-xrhsimopoihseis-kai-poso-na-stegnwsei-h-enwsh"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Για να κολλήσεις ξύλο με ξύλο, χρησιμοποίησε λευκή ξυλόκολλα (PVA, δηλαδή τη συνηθισμένη λευκή κόλλα για ξύλο). Απορροφάται στις ίνες του ξύλου και σου αφήνει μερικά λεπτά για να ευθυγραμμίσεις το κομμάτι. Η στιγμιαία κόλλα δεν συνιστάται ως πρώτη επιλογή σε αυτή την επισκευή: στεγνώνει σχεδόν αμέσως, οπότε δεν προλαβαίνεις να ευθυγραμμίσεις το κομμάτι, και μετά το στέγνωμα είναι σκληρή και εύθραυστη, οπότε η ένωση μπορεί να σπάσει ξανά με το ίδιο φορτίο."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Μην απλώνεις την κόλλα κατευθείαν από το μπουκάλι. Βάλε μια σταγόνα σε μια επιφάνεια μιας χρήσης, για παράδειγμα ένα πλαστικό καπάκι ή ένα κομμάτι κερωμένο χαρτί, και μετάφερέ τη στην ένωση με μια οδοντογλυφίδα. Το στρώμα πρέπει να είναι λεπτό, μόλις ορατό. Από το περίσσευμα, η κόλλα βγαίνει όταν πιέσεις, κρύβεται δύσκολα και μπορεί να υγράνει το ξύλο."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Μην κουνάς την ένωση τα πρώτα περίπου 30 λεπτά. Η κόλλα αποκτά πλήρη αντοχή πιο αργά, γι’ αυτό άφησε ένα κομμάτι που στηρίζει κάτι να στεγνώσει για αρκετές ώρες, καλύτερα όλη τη νύχτα, και μόνο μετά συνέχισε να χτίζεις πάνω του. Αν τα στοιχεία στη συσκευασία της κόλλας σου διαφέρουν από αυτό το εύρος, ακολούθησε τη συσκευασία."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "λευκή ξυλόκολλα και οδοντογλυφίδα,",
+            "items": []
+          },
+          {
+            "content": "επιφάνεια μιας χρήσης για την κόλλα (καπάκι, κερωμένο χαρτί),",
+            "items": []
+          },
+          {
+            "content": "χαρτοταινία, ένα μικρό λαστιχάκι ή ένα μικρό βαρίδι για να πιέσεις την ένωση,",
+            "items": []
+          },
+          {
+            "content": "ένα ελαφρά νωπό πανάκι για να σκουπίσεις την κόλλα που βγήκε,",
+            "items": []
+          },
+          {
+            "content": "λεπτό γυαλόχαρτο για να λειάνεις τις τραχιές άκρες.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Άλλα εργαλεία που χρειάζονται στη συναρμολόγηση θα βρεις στο <a href=\"/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl\">άρθρο για τα εργαλεία συναρμολόγησης ξύλινου παζλ</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Συμβουλή:</strong> Μια επίπεδη ένωση μπορείς αντί για ταινία να τη βαρύνεις με ένα νόμισμα, ώστε να μη μείνουν σημάδια από την ταινία στο ξύλο. Αν κρατάς την ένωση με ταινία, τέντωσέ την μόνο ελαφρά, ώστε να πιέζει την ένωση απαλά.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Πώς να κολλήσεις ένα καθαρό σπάσιμο και περισσότερα θραύσματα",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pws-na-kollhseis-ena-katharo-spasimo-kai-perissotera-thraysmata"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Σε ένα καθαρό σπάσιμο ακολούθησε αυτό που βλέπεις και κάνεις: πρώτα οι άκρες, μετά η κόλλα, τέλος η στερέωση και το στέγνωμα."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Οι άκρες ταιριάζουν χωρίς κενό: μπορείς να κολλήσεις.</strong> Αν μένει κενό, μην κολλήσεις. Η ένωση θα φαινόταν και θα ήταν πιο αδύναμη, γι’ αυτό γύρισε στην ενότητα για περισσότερα θραύσματα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Κόλλα και πίεση.</strong> Με μια οδοντογλυφίδα άπλωσε ένα λεπτό στρώμα κόλλας στην ένωση, πίεσε τα κομμάτια σταθερά και ομοιόμορφα, όχι με δύναμη, και κράτησέ τα περίπου ένα λεπτό. Με σωστή πίεση βγαίνει από την ένωση μόνο μια ελάχιστη ποσότητα κόλλας, που τη σκουπίζεις αμέσως με ένα ελαφρά νωπό πανάκι.",
+            "items": []
+          },
+          {
+            "content": "<strong>Στερέωση και στέγνωμα.</strong> Κράτα την ένωση με ταινία, σε στρογγυλό κομμάτι με λαστιχάκι και σε επίπεδο κομμάτι με βαρίδι. Τα πρώτα περίπου 30 λεπτά μην την κουνάς και άφησε ένα κομμάτι που στηρίζει να στεγνώσει για αρκετές ώρες έως όλη τη νύχτα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Η χαραμάδα μετά το στέγνωμα.</strong> Αφαίρεσε την ταινία μόνο αφού στεγνώσει η κόλλα. Αν μείνει λεπτή χαραμάδα, πίεσε μέσα της λίγο στόκο ξύλου, άφησέ τον να στεγνώσει και λείανε ελαφρά.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Σε τρία ή περισσότερα θραύσματα μην κολλάς όλα μαζί, γιατί πολλά ελεύθερα κομμάτια μετακινούνται εύκολα όταν τα κρατάς. Κόλλησε πρώτα τα δύο μεγαλύτερα θραύσματα και άφησέ τα να στεγνώσουν εντελώς. Μετά πρόσθετε τα υπόλοιπα ένα ένα και δώσε στο καθένα χρόνο να πιάσει."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Ένα κολλημένο κομμάτι είναι στο σημείο του σπασίματος πιο αδύναμο από το αρχικό. Αν γίνεται, κόλλησε στην αόρατη πίσω πλευρά του μια λεπτή λωρίδα σκληρό χαρτί ή λεπτό ξύλο, λίγο μικρότερη από το κομμάτι, ώστε να μένει κρυφή."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Το επισκευασμένο κομμάτι δοκίμασε πρώτα να το βάλεις στη θέση του χωρίς κόλλα. Αν μια προεξοχή είναι πολύ σφιχτή: αν οι οδηγίες για αυτό το κομμάτι συμβουλεύουν διαφορετικά, ακολούθησέ τες· αλλιώς λείανέ την ελαφρά με λεπτό γυαλόχαρτο περίπου 220, μέχρι το κομμάτι να μπαίνει εύκολα, και μετά από κάθε λείανση δοκίμασε ξανά το κομμάτι χωρίς κόλλα. Αν μετά την επισκευή κολλάει ένα κινούμενο μέρος, την αναζήτηση της τριβής την περιγράφει το <a href=\"/istologio/o-mhxanismos-kollaei-bres-thn-tribh-kai-diorthwse-thn\">άρθρο για τον μηχανισμό που κολλάει</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Πότε να μην κολλήσεις το κομμάτι και να ζητήσεις ανταλλακτικό",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pote-na-mhn-kollhseis-to-kommati-kai-na-zhthseis-antallaktiko"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Τα περισσότερα σπασίματα αξίζει να επισκευαστούν, αλλά κάποιες φορές είναι πιο λογική η αντικατάσταση του κομματιού. Σκέψου ανταλλακτικό όταν:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "έχει ραγίσει κομμάτι του πλαισίου που στηρίζει, γιατί τέτοιες επισκευές σπάνια επαναφέρουν αρκετή αντοχή ώστε να κρατήσουν την υπόλοιπη κατασκευή,",
+            "items": []
+          },
+          {
+            "content": "έχουν σπάσει ταυτόχρονα πολλά μεγαλύτερα κομμάτια που στηρίζουν,",
+            "items": []
+          },
+          {
+            "content": "λείπει μεγαλύτερο κομμάτι υλικού, γιατί ο στόκος σε μεγαλύτερα κενά παύει να φαίνεται πειστικός.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Πολλοί κατασκευαστές κιτ προσφέρουν ανταλλακτικά. Τα στοιχεία επικοινωνίας του κατασκευαστή βρίσκονται συνήθως στις οδηγίες, συχνά στην τελευταία σελίδα. Στείλε φωτογραφία της σελίδας των οδηγιών όπου φαίνεται το κομμάτι που λείπει και μαζί τον αριθμό του, το όνομα ή τον κωδικό του κιτ και τα στοιχεία της παραγγελίας."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Σου λείπει μόνο μια μικρή προεξοχή που απλώς ευθυγράμμιζε τα κομμάτια; Η κατασκευή συχνά κρατά και χωρίς αυτήν, αν οι οδηγίες δεν ορίζουν διαφορετικά: κόλλησε τις άκρες απευθείας και στήριξε την ένωση από την αόρατη πλευρά με μια λωρίδα λεπτό ξύλο ή με οδοντογλυφίδα. Ένα επίπεδο κομμάτι που λείπει μπορείς να το κόψεις προσωρινά από λεπτό χαρτόνι, ακολουθώντας το περίγραμμα των οδηγιών, και έναν στύλο να τον αντικαταστήσεις με στρογγυλή οδοντογλυφίδα κομμένη στο μήκος. Την αντικατάσταση δοκίμασέ την πρώτα χωρίς κόλλα, γιατί είναι λιγότερο ακριβής από το αρχικό κομμάτι."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Πώς να βγάζεις τα κομμάτια ώστε να μη ραγίζουν",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pws-na-bgazeis-ta-kommatia-wste-na-mh-ragizoyn"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Τα περισσότερα σπασίματα γίνονται σε δύο ενέργειες: όταν βγάζεις ένα κομμάτι από το φύλλο και όταν βάζεις ένα κομμάτι που δεν ταιριάζει. Και οι δύο στιγμές αντιμετωπίζονται με τεχνική."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Κοίτα το φύλλο στο φως.</strong> Ένα κομμάτι με τριχοειδές ράγισμα ή με μισοσκισμένη γέφυρα βγάλε το με ιδιαίτερη προσοχή.",
+            "items": []
+          },
+          {
+            "content": "<strong>Άφησε το φύλλο ίσιο πάνω στο τραπέζι.</strong> Στον αέρα λυγίζει και το κομμάτι τότε σπάει πιο εύκολα.",
+            "items": []
+          },
+          {
+            "content": "<strong>Πίεσε με τον αντίχειρα από πίσω και στήριξε με ένα δάχτυλο την μπροστινή πλευρά του κομματιού.</strong> Αν το κομμάτι αντιστέκεται, μην πιέσεις πιο δυνατά: ψάξε ποια γέφυρα κρατάει ακόμη.",
+            "items": []
+          },
+          {
+            "content": "<strong>Σε κομμάτι με πολλές γέφυρες λύσε τη μία μετά την άλλη.</strong> Η πίεση έτσι μοιράζεται σταδιακά και το κομμάτι δεν σπάει μονομιάς.",
+            "items": []
+          },
+          {
+            "content": "<strong>Πριν κολλήσεις, δοκίμασε κάθε σύνδεση χωρίς κόλλα.</strong> Αν δεν ταιριάζει, βρες γιατί (λάθος κομμάτι, λάθος θέση), αντί να το πιέζεις με το ζόρι.",
+            "items": []
+          },
+          {
+            "content": "<strong>Βάζε τη σύνδεση πιέζοντας στη βάση της προεξοχής, όχι στην άκρη της.</strong> Η προεξοχή σπάει στο λεπτότερο σημείο, που είναι συνήθως εκεί όπου συναντά την εγκοπή.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Αν ο κατασκευαστής στις οδηγίες συνιστά άλλον τρόπο για να βγάζεις ή να βάζεις τα κομμάτια, ακολούθησε τις οδηγίες του."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Συχνές ερωτήσεις",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "syxnes-erwthseis"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Μπορεί να κολληθεί ένα ραγισμένο ξύλινο κομμάτι;</h3>\n    <p style=\"margin:0;\">Ναι, αν έχεις όλα τα θραύσματα και οι άκρες τους ταιριάζουν χωρίς κενό. Χρησιμοποίησε λευκή ξυλόκολλα, όχι στιγμιαία.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Πόσο να στεγνώσει ένα κολλημένο κομμάτι;</h3>\n    <p style=\"margin:0;\">Τα πρώτα περίπου 30 λεπτά μην το κουνάς. Ένα κομμάτι που στηρίζει κάτι άφησέ το να στεγνώσει για αρκετές ώρες, καλύτερα όλη τη νύχτα.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Μπορώ να χρησιμοποιήσω στιγμιαία κόλλα για την επισκευή;</h3>\n    <p style=\"margin:0;\">Δεν είναι η πρώτη επιλογή. Στεγνώνει σχεδόν αμέσως, οπότε δεν προλαβαίνεις να ευθυγραμμίσεις το κομμάτι, και μετά το στέγνωμα είναι εύθραυστη.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Τι να κάνω αν μου λείπει εντελώς ένα κομμάτι;</h3>\n    <p style=\"margin:0;\">Επικοινώνησε με τον κατασκευαστή του κιτ και στείλε τον κωδικό του κιτ, τον αριθμό του κομματιού από τις οδηγίες και φωτογραφία της σελίδας των οδηγιών. Ένα επίπεδο κομμάτι μπορείς να το κόψεις προσωρινά από λεπτό χαρτόνι.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/istologio/10-ergaleia-poy-xreiazeste-otan-synarmologeite-ena-ksylino-trisdiastato-pazl",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/istologio/o-mhxanismos-kollaei-bres-thn-tribh-kai-diorthwse-thn",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

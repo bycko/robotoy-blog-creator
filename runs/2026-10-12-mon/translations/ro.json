@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "ro",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Piesă de lemn crăpată: cum o repari și continui construcția",
+  "description": "Ți s-a crăpat o piesă subțire de lemn când ai scos-o din placă? Dacă ai toate fragmentele și marginile lor se potrivesc, poate fi lipită cu adeziv pentru lemn. La o piesă portantă sau la o bucată lipsă e mai bună o piesă de schimb.",
+  "seo_title": "Piesă de lemn crăpată: cum o lipești și continui construcția",
+  "seo_description": "Ți s-a crăpat o piesă de lemn la asamblare? Află când s-o lipești, ce adeziv să folosești, cât să lași la uscat și când să ceri o piesă de schimb.",
+  "slug": "piesa-de-lemn-crapata-cum-o-repari-si-continui-constructia",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Piesă de lemn crăpată: cum o repari și continui construcția"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "O piesă subțire crăpată poate fi lipită în multe cazuri și poți continua construcția. Hotărăște dacă ai toate fragmentele și dacă marginile lor se potrivesc fără rost: atunci ajung adezivul pentru lemn, un strat subțire și puțină răbdare. Primul lucru de făcut este să așezi fragmentele pe o foaie de hârtie și deocamdată să nu lipești nimic."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "O ruptură la scoaterea sau la introducerea unei piese este obișnuită și nu înseamnă că ai greșit: piesele subțiri, ieșiturile mici și punțile care țin piesa în placă sunt fragile prin natura lor. Dacă lipești piesa depinde de forma rupturii și de ce ține piesa în construcție."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Cuprinsul articolului</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#cum-evaluezi-ruptura-inainte-sa-lipesti-ceva\">Cum evaluezi ruptura înainte să lipești ceva</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-adeziv-sa-folosesti-si-cat-sa-lasi-imbinarea-la-uscat\">Ce adeziv să folosești și cât să lași îmbinarea la uscat</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cum-lipesti-o-ruptura-curata-si-mai-multe-fragmente\">Cum lipești o ruptură curată și mai multe fragmente</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cand-sa-nu-lipesti-piesa-si-sa-ceri-una-de-schimb\">Când să nu lipești piesa și să ceri una de schimb</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cum-scoti-piesele-ca-sa-nu-se-crape\">Cum scoți piesele ca să nu se crape</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#intrebari-frecvente\">Întrebări frecvente</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Cum evaluezi ruptura înainte să lipești ceva",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cum-evaluezi-ruptura-inainte-sa-lipesti-ceva"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Așază toate bucățile pe o foaie curată de hârtie, aproximativ la locul lor inițial. Vezi imediat câte fragmente ai, care aparțin împreună și dacă lipsește ceva. O ruptură proaspătă se lipește mai curat decât una pe care, după ce s-a crăpat, ai apropiat-o și ai îndoit-o de mai multe ori, de aceea lasă fragmentele mai bine pe loc."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Apropie marginile fără adeziv.</strong> Dacă se potrivesc fără rost vizibil, este o ruptură curată și repararea e simplă. Dacă marginile nu se potrivesc, nu lipi și urmează partea despre mai multe fragmente.",
+            "items": []
+          },
+          {
+            "content": "<strong>Numără fragmentele.</strong> Două bucăți înseamnă o ruptură curată. Trei sau mai multe înseamnă că vei lipi fragmentele pe rând, nu pe toate deodată.",
+            "items": []
+          },
+          {
+            "content": "<strong>Verifică în instrucțiuni ce ține piesa în construcție.</strong> La o piesă decorativă ajunge lipirea. La o piesă portantă a cadrului, îmbinarea singură poate să nu readucă destulă rezistență, de aceea citește și partea despre piesa de schimb.",
+            "items": []
+          },
+          {
+            "content": "<strong>Verifică dacă nu lipsește vreo bucată.</strong> O așchie mică lipsă poate fi umplută cu chit, dar dacă lipsește o parte mai mare, e mai simplu să obții o piesă de schimb.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Ce adeziv să folosești și cât să lași îmbinarea la uscat",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-adeziv-sa-folosesti-si-cat-sa-lasi-imbinarea-la-uscat"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Ca să lipești lemn pe lemn, folosește adeziv alb pentru lemn (PVA, adică adezivul alb obișnuit pentru lemn). Pătrunde în fibrele lemnului și îți lasă câteva minute pentru a alinia piesa. Adezivul instant nu este recomandat ca prim alegere la această reparație: se întărește aproape instantaneu, așa că nu apuci să aliniezi piesa, iar după întărire este dur și fragil, de aceea îmbinarea se poate rupe din nou la aceeași sarcină."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Nu aplica adezivul direct din sticlă. Pune o picătură pe o suprafață de unică folosință, de exemplu un capac de plastic sau o bucățică de hârtie cerată, și du-o pe îmbinare cu o scobitoare. Stratul trebuie să fie subțire, abia vizibil. Dintr-un exces, adezivul iese la apăsare, se ascunde greu și poate umezi lemnul."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Nu mișca îmbinarea în primele aproximativ 30 de minute. Adezivul capătă rezistența deplină mai lent, de aceea lasă o piesă care poartă ceva să se usuce câteva ore, mai bine peste noapte, și abia apoi construiește mai departe pe ea. Dacă datele de pe ambalajul adezivului tău diferă de acest interval, urmează ambalajul."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "adeziv alb pentru lemn și o scobitoare,",
+            "items": []
+          },
+          {
+            "content": "o suprafață de unică folosință pentru adeziv (capac, hârtie cerată),",
+            "items": []
+          },
+          {
+            "content": "bandă de mascare, o bandă elastică mică sau o greutate mică pentru a apăsa îmbinarea,",
+            "items": []
+          },
+          {
+            "content": "o cârpă ușor umedă pentru a șterge adezivul ieșit,",
+            "items": []
+          },
+          {
+            "content": "șmirghel fin pentru netezirea marginilor aspre.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Alte ajutoare utile la asamblare găsești în <a href=\"/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn\">articolul despre uneltele pentru asamblarea unui puzzle 3D din lemn</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Sfat:</strong> O îmbinare plată o poți încărca cu o monedă în loc de bandă, ca banda să nu lase urme pe lemn. Dacă ții îmbinarea cu bandă, întinde-o doar ușor, ca să o apese blând.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Cum lipești o ruptură curată și mai multe fragmente",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cum-lipesti-o-ruptura-curata-si-mai-multe-fragmente"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "La o ruptură curată, urmează ceea ce vezi și faci: mai întâi marginile, apoi adezivul, la urmă fixarea și uscarea."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Marginile se potrivesc fără rost: poți lipi.</strong> Dacă rămâne un rost, nu lipi. Îmbinarea ar fi vizibilă și mai slabă, de aceea întoarce-te la partea despre mai multe fragmente.",
+            "items": []
+          },
+          {
+            "content": "<strong>Adeziv și apăsare.</strong> Cu o scobitoare întinde pe îmbinare un strat subțire de adeziv, apasă piesele ferm și uniform, nu cu forța, și ține-le aproximativ un minut. La apăsarea corectă iese din îmbinare doar o cantitate neînsemnată de adeziv, pe care o ștergi imediat cu o cârpă ușor umedă.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fixare și uscare.</strong> Ține îmbinarea cu bandă, la o piesă rotundă cu o bandă elastică, iar la o piesă plată cu o greutate. În primele aproximativ 30 de minute nu o mișca, iar o piesă portantă lasă-o la uscat câteva ore, până peste noapte.",
+            "items": []
+          },
+          {
+            "content": "<strong>Rostul după uscare.</strong> Scoate banda abia după uscare. Dacă rămâne un rost fin, apasă în el puțin chit pentru lemn, lasă-l să se usuce și șlefuiește ușor.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "La trei sau mai multe fragmente nu lipi totul deodată, fiindcă mai multe bucăți libere se deplasează ușor cât le ții. Lipește mai întâi cele două fragmente mai mari și lasă-le să se usuce complet. Apoi adaugă-le pe celelalte pe rând și dă-i fiecăruia timp să se prindă."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "O piesă lipită este în locul rupturii mai slabă decât cea originală. Dacă se poate, lipește pe partea ei din spate, nevăzută, o fâșie subțire de hârtie rigidă sau de lemn subțire, puțin mai mică decât piesa, ca să rămână ascunsă."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Piesa reparată încearcă mai întâi s-o pui la loc fără adeziv. Dacă o ieșitură e prea strânsă: dacă instrucțiunile pentru această piesă sfătuiesc altfel, urmează-le; altfel șlefuiește-o ușor cu șmirghel fin cu granulație de aproximativ 220, până când piesa intră ușor, și după fiecare șlefuire încearcă din nou piesa fără adeziv. Dacă după reparație se blochează o parte mobilă, căutarea frecării este descrisă în <a href=\"/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini\">articolul despre mecanismul care se blochează</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Când să nu lipești piesa și să ceri una de schimb",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cand-sa-nu-lipesti-piesa-si-sa-ceri-una-de-schimb"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Cele mai multe rupturi merită reparate, dar uneori e mai rezonabil să înlocuiești piesa. Gândește-te la o piesă de schimb când:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "s-a crăpat o piesă portantă a cadrului, pentru că astfel de reparații redau rareori destulă rezistență ca să țină restul construcției,",
+            "items": []
+          },
+          {
+            "content": "s-au rupt deodată mai multe piese portante mai mari,",
+            "items": []
+          },
+          {
+            "content": "lipsește o bucată mai mare de material, pentru că chitul la rosturi mai mari nu mai arată convingător.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Mulți producători de seturi oferă piese de schimb. Contactul producătorului este de obicei în instrucțiuni, adesea pe ultima pagină. Trimite o fotografie a paginii din instrucțiuni pe care apare piesa lipsă și, odată cu ea, numărul ei, numele sau codul setului și datele comenzii."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Îți lipsește doar o mică ieșitură care doar alinia piesele? Construcția ține adesea și fără ea, dacă instrucțiunile nu prevăd altfel: lipește marginile direct și sprijină îmbinarea din partea nevăzută cu o fâșie de lemn subțire sau cu o scobitoare. O piesă plată lipsă o poți decupa provizoriu din carton subțire după conturul din instrucțiuni, iar un stâlp îl poți înlocui cu o scobitoare rotundă scurtată la lungime. Încearcă mai întâi înlocuirea fără adeziv, fiindcă este mai puțin precisă decât piesa originală."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Cum scoți piesele ca să nu se crape",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cum-scoti-piesele-ca-sa-nu-se-crape"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Cele mai multe rupturi apar în două momente: când scoți o piesă din placă și când introduci o piesă care nu se potrivește. Ambele momente se pot stăpâni cu tehnică."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Privește placa împotriva luminii.</strong> O piesă cu o fisură cât un fir de păr sau cu o punte pe jumătate ruptă scoate-o cu mare grijă.",
+            "items": []
+          },
+          {
+            "content": "<strong>Așază placa plat pe masă.</strong> În aer se îndoaie, iar piesa se rupe atunci mai ușor.",
+            "items": []
+          },
+          {
+            "content": "<strong>Apasă cu degetul mare din spatele plăcii și sprijină cu un deget fața piesei.</strong> Dacă piesa se opune, nu apăsa mai tare: caută care punte încă ține.",
+            "items": []
+          },
+          {
+            "content": "<strong>La o piesă cu mai multe punți, eliberează-le una după alta.</strong> Presiunea se distribuie astfel treptat, iar piesa nu se rupe dintr-odată.",
+            "items": []
+          },
+          {
+            "content": "<strong>Înainte de lipire, încearcă fiecare îmbinare fără adeziv.</strong> Dacă nu se potrivește, află de ce (piesă greșită, poziție greșită), în loc s-o împingi cu forța.",
+            "items": []
+          },
+          {
+            "content": "<strong>Introdu îmbinarea apăsând la baza ieșiturii, nu pe vârful ei.</strong> O ieșitură se rupe în locul cel mai subțire, care este de obicei acolo unde se întâlnește cu canalul.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Dacă producătorul recomandă în instrucțiuni un alt mod de scoatere sau de introducere, urmează instrucțiunile lui."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Întrebări frecvente",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "intrebari-frecvente"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Se mai poate lipi o piesă de lemn crăpată?</h3>\n    <p style=\"margin:0;\">Da, dacă ai toate fragmentele și marginile lor se potrivesc fără rost. Folosește adeziv alb pentru lemn, nu adeziv instant.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Cât să se usuce o piesă lipită?</h3>\n    <p style=\"margin:0;\">În primele aproximativ 30 de minute nu o mișca. O piesă care poartă ceva lasă-o să se usuce câteva ore, mai bine peste noapte.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Pot folosi adeziv instant pentru reparație?</h3>\n    <p style=\"margin:0;\">Nu este prima alegere. Se întărește aproape instantaneu, așa că nu apuci să aliniezi piesa, iar după întărire este fragil.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ce fac dacă îmi lipsește complet o piesă?</h3>\n    <p style=\"margin:0;\">Contactează producătorul setului și trimite codul setului, numărul piesei din instrucțiuni și o fotografie a paginii din instrucțiuni. O piesă plată o poți decupa provizoriu din carton subțire.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-unelte-de-care-aveti-nevoie-atunci-cand-asamblati-un-puzzle-3d-din-lemn",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

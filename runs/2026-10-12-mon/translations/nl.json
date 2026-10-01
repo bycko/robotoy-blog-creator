@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "nl",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Houten onderdeel gebarsten: repareren en verder bouwen",
+  "description": "Is een dun houten onderdeel gebarsten toen je het uit de plaat drukte? Als je alle stukjes hebt en de randen op elkaar aansluiten, kun je het lijmen met houtlijm. Bij een dragend onderdeel of een ontbrekend stuk is een vervangend onderdeel beter.",
+  "seo_title": "Houten onderdeel gebarsten: zo lijm je het en bouw je verder",
+  "seo_description": "Is een houten onderdeel gebarsten tijdens het bouwen? Lees wanneer je lijmt, welke lijm je kiest, hoe lang het droogt en wanneer een vervanging beter is.",
+  "slug": "houten-onderdeel-gebarsten-repareren-en-verder-bouwen",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Houten onderdeel gebarsten: repareren en verder bouwen"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Een gebarsten dun onderdeel kun je in veel gevallen lijmen en dan kun je verder bouwen. Doorslaggevend is of je alle stukjes hebt en of de randen zonder spleet op elkaar aansluiten: dan volstaan houtlijm, een dunne laag en een beetje geduld. Het eerste wat je doet, is de stukjes op een vel papier leggen en voorlopig niets lijmen."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Een breuk bij het losdrukken of inpassen van een onderdeel komt vaak voor en betekent niet dat je iets verkeerd hebt gedaan: dunne onderdelen, kleine uitsteeksels en de verbindingsstukjes die het onderdeel in de plaat vasthouden, zijn van nature kwetsbaar. Of je het onderdeel lijmt, hangt af van de vorm van de breuk en van wat het onderdeel in de bouw draagt."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Inhoud van het artikel</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#zo-beoordeel-je-de-breuk-voordat-je-iets-lijmt\">Zo beoordeel je de breuk voordat je iets lijmt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#welke-lijm-je-gebruikt-en-hoe-lang-de-verbinding-moet-drogen\">Welke lijm je gebruikt en hoe lang de verbinding moet drogen</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#zo-lijm-je-een-schone-breuk-en-meerdere-stukjes\">Zo lijm je een schone breuk en meerdere stukjes</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#wanneer-je-het-onderdeel-niet-lijmt-maar-een-vervanging-vraagt\">Wanneer je het onderdeel niet lijmt maar een vervanging vraagt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#zo-druk-je-onderdelen-los-zonder-dat-ze-barsten\">Zo druk je onderdelen los zonder dat ze barsten</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#veelgestelde-vragen\">Veelgestelde vragen</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Zo beoordeel je de breuk voordat je iets lijmt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "zo-beoordeel-je-de-breuk-voordat-je-iets-lijmt"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Leg alle stukjes op een schoon vel papier, ongeveer op hun oorspronkelijke plek. Je ziet meteen hoeveel stukjes je hebt, welke bij elkaar horen en of er iets ontbreekt. Een verse breuk lijmt schoner dan een breuk die je na het breken herhaaldelijk hebt aangelegd en gebogen, dus laat de stukjes liever liggen."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Leg de randen zonder lijm tegen elkaar.</strong> Als ze zonder zichtbare spleet aansluiten, is het een schone breuk en is de reparatie eenvoudig. Als de randen niet passen, lijm dan niet en volg het deel over meerdere stukjes.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tel de stukjes.</strong> Twee stukjes betekenen een schone breuk. Drie of meer betekent dat je de stukjes een voor een lijmt, niet allemaal tegelijk.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zoek in de handleiding op wat het onderdeel in de bouw draagt.</strong> Bij een decoratief onderdeel volstaat lijmen. Bij een dragend onderdeel van het frame geeft de verbinding alleen misschien niet genoeg sterkte terug, kijk dus ook naar het deel over een vervangend onderdeel.",
+            "items": []
+          },
+          {
+            "content": "<strong>Controleer of er geen stukje ontbreekt.</strong> Een klein ontbrekend splintertje kun je opvullen met plamuur, maar bij een groter ontbrekend deel is het eenvoudiger een vervangend onderdeel te regelen.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Welke lijm je gebruikt en hoe lang de verbinding moet drogen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "welke-lijm-je-gebruikt-en-hoe-lang-de-verbinding-moet-drogen"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Om hout op hout te lijmen gebruik je witte houtlijm (PVA, de gewone witte lijm voor hout). Die trekt in de houtvezels en laat je enkele minuten om het onderdeel uit te lijnen. Secondelijm wordt bij deze reparatie niet als eerste keuze aanbevolen: hij droogt bijna meteen, dus je hebt geen tijd om het onderdeel uit te lijnen, en na het drogen is hij hard en bros, zodat de verbinding bij dezelfde belasting opnieuw kan breken."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Breng de lijm niet rechtstreeks uit de fles aan. Doe een druppel op een wegwerpoppervlak, bijvoorbeeld een plastic dop of een stukje waspapier, en breng hem met een tandenstoker op de verbinding aan. De laag moet dun zijn, nauwelijks zichtbaar. Bij te veel lijm wordt die bij het aandrukken naar buiten geperst, is hij moeilijk te verbergen en kan hij het hout vochtig maken."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Beweeg de verbinding de eerste ongeveer 30 minuten niet. De lijm bereikt pas na langere tijd zijn volle sterkte, dus laat een onderdeel dat iets draagt enkele uren drogen, liefst een nacht, en bouw pas daarna verder. Als de gegevens op de verpakking van jouw lijm afwijken van dit bereik, volg dan de verpakking."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "witte houtlijm en een tandenstoker,",
+            "items": []
+          },
+          {
+            "content": "een wegwerpoppervlak voor de lijm (dop, waspapier),",
+            "items": []
+          },
+          {
+            "content": "afplaktape, een klein elastiekje of een klein gewichtje om de verbinding aan te drukken,",
+            "items": []
+          },
+          {
+            "content": "een licht vochtig doekje om uitgeperste lijm af te vegen,",
+            "items": []
+          },
+          {
+            "content": "fijn schuurpapier om ruwe randen glad te maken.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Meer hulpmiddelen die bij het bouwen van pas komen, vind je in het <a href=\"/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel\">artikel over gereedschap voor het in elkaar zetten van een houten puzzel</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Een vlakke verbinding kun je in plaats van met tape belasten met een munt, zodat de tape geen sporen op het hout achterlaat. Als je de verbinding met tape vasthoudt, trek de tape dan maar licht aan, zodat hij de verbinding zacht aandrukt.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Zo lijm je een schone breuk en meerdere stukjes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "zo-lijm-je-een-schone-breuk-en-meerdere-stukjes"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ga bij een schone breuk af op wat je ziet en doet: eerst de randen, dan de lijm, tot slot fixeren en drogen."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>De randen sluiten zonder spleet aan: je kunt lijmen.</strong> Blijft er een spleet, lijm dan niet. De verbinding zou zichtbaar en zwakker zijn, dus ga terug naar het deel over meerdere stukjes.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lijm en druk.</strong> Smeer met een tandenstoker een dunne laag lijm op de verbinding, druk de delen stevig en gelijkmatig aan, niet met kracht, en houd ze ongeveer een minuut vast. Bij de juiste druk komt er slechts een heel kleine hoeveelheid lijm uit de verbinding, die je meteen met een licht vochtig doekje afveegt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fixeren en drogen.</strong> Houd de verbinding vast met tape, bij een rond onderdeel met een elastiekje en bij een vlak onderdeel met een gewichtje. Beweeg hem de eerste ongeveer 30 minuten niet en laat een dragend onderdeel enkele uren tot een hele nacht drogen.",
+            "items": []
+          },
+          {
+            "content": "<strong>De naad na het drogen.</strong> Verwijder de tape pas als de lijm droog is. Blijft er een fijne naad over, druk er dan wat houtplamuur in, laat het drogen en schuur licht bij.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Lijm bij drie of meer stukjes niet alles tegelijk, want meerdere losse stukjes schuiven tijdens het vasthouden gemakkelijk weg. Lijm eerst de twee grootste stukjes aan elkaar en laat ze volledig drogen. Voeg daarna de andere een voor een toe en geef elk de tijd om te hechten."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Een gelijmd onderdeel is bij de breuk zwakker dan het origineel. Lijm, als het kan, op de onzichtbare achterkant een dun reepje stevig papier of dun hout, iets kleiner dan het onderdeel zodat het verborgen blijft."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Probeer het gerepareerde onderdeel eerst droog op zijn plek te passen. Als een uitsteeksel te strak zit: als de handleiding bij dit onderdeel iets anders aanraadt, volg die dan; schuur het anders licht bij met fijn schuurpapier met een korrel van ongeveer 220 tot het onderdeel gemakkelijk past, en probeer het onderdeel na elke schuurbeurt opnieuw droog. Als na de reparatie een bewegend deel blijft haperen, staat het zoeken naar de wrijving beschreven in het <a href=\"/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen\">artikel over een mechanisme dat vastloopt</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Wanneer je het onderdeel niet lijmt maar een vervanging vraagt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "wanneer-je-het-onderdeel-niet-lijmt-maar-een-vervanging-vraagt"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "De meeste breuken zijn de moeite van repareren waard, maar soms is vervangen verstandiger. Denk aan een vervangend onderdeel wanneer:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "een dragend onderdeel van het frame is gebarsten, omdat zulke reparaties zelden genoeg sterkte teruggeven om de rest van de bouw te dragen,",
+            "items": []
+          },
+          {
+            "content": "meerdere grotere dragende onderdelen tegelijk gebroken zijn,",
+            "items": []
+          },
+          {
+            "content": "een groter stuk materiaal ontbreekt, omdat plamuur bij grotere openingen niet meer overtuigend oogt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Veel fabrikanten van bouwpakketten bieden vervangende onderdelen aan. De contactgegevens van de fabrikant staan meestal in de handleiding, vaak op de laatste pagina. Stuur een foto van de pagina van de handleiding waarop het ontbrekende onderdeel staat, samen met het nummer ervan, de naam of code van het pakket en je bestelgegevens."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Ontbreekt er alleen een klein uitsteeksel dat de delen slechts uitlijnde? De bouw houdt het vaak ook zonder, tenzij de handleiding iets anders voorschrijft: lijm de randen rechtstreeks aan elkaar en ondersteun de verbinding aan de onzichtbare kant met een reepje dun hout of een tandenstoker. Een plat ontbrekend onderdeel kun je tijdelijk uit dun karton knippen volgens de omtrek in de handleiding, en een paaltje vervang je door een ronde tandenstoker die je op lengte hebt afgeknipt. Probeer de vervanging eerst droog, want die is minder nauwkeurig dan het originele onderdeel."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Zo druk je onderdelen los zonder dat ze barsten",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "zo-druk-je-onderdelen-los-zonder-dat-ze-barsten"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "De meeste breuken ontstaan bij twee handelingen: bij het losdrukken van een onderdeel uit de plaat en bij het inpassen van een onderdeel dat niet past. Beide momenten zijn met techniek te beheersen."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Bekijk de plaat tegen het licht.</strong> Druk een onderdeel met een haarscheurtje of een half losgescheurd verbindingsstukje extra voorzichtig los.",
+            "items": []
+          },
+          {
+            "content": "<strong>Leg de plaat plat op tafel.</strong> In de lucht buigt ze door en het onderdeel breekt dan sneller.",
+            "items": []
+          },
+          {
+            "content": "<strong>Duw met je duim vanaf de achterkant van de plaat en ondersteun de voorkant van het onderdeel met een vinger.</strong> Als het onderdeel tegenstribbelt, duw dan niet harder: zoek uit welk verbindingsstukje nog vasthoudt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Maak bij een onderdeel met meerdere verbindingsstukjes ze een voor een los.</strong> De druk wordt zo geleidelijk verdeeld en het onderdeel breekt niet in één keer.",
+            "items": []
+          },
+          {
+            "content": "<strong>Probeer elke verbinding droog voordat je lijmt.</strong> Past ze niet, zoek dan uit waarom (verkeerd onderdeel, verkeerde positie) in plaats van haar erdoorheen te duwen.",
+            "items": []
+          },
+          {
+            "content": "<strong>Duw de verbinding in met druk aan de basis van het uitsteeksel, niet aan de punt.</strong> Een uitsteeksel breekt op de dunste plek, en dat is meestal waar het de groef raakt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Raadt de fabrikant in de handleiding een andere manier van losdrukken of inpassen aan, volg dan zijn handleiding."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Veelgestelde vragen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "veelgestelde-vragen"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kun je een gebarsten houten onderdeel nog lijmen?</h3>\n    <p style=\"margin:0;\">Ja, als je alle stukjes hebt en de randen zonder spleet op elkaar aansluiten. Gebruik witte houtlijm, geen secondelijm.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hoe lang moet een gelijmd onderdeel drogen?</h3>\n    <p style=\"margin:0;\">Beweeg het de eerste ongeveer 30 minuten niet. Laat een onderdeel dat iets draagt enkele uren drogen, liefst een nacht.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kan ik secondelijm gebruiken voor de reparatie?</h3>\n    <p style=\"margin:0;\">Het is niet de eerste keuze. Hij droogt bijna meteen, dus je hebt geen tijd om het onderdeel uit te lijnen, en na het drogen is hij bros.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wat moet ik doen als een onderdeel helemaal ontbreekt?</h3>\n    <p style=\"margin:0;\">Neem contact op met de fabrikant van het pakket en stuur de code van het pakket, het nummer van het onderdeel uit de handleiding en een foto van de pagina van de handleiding. Een plat onderdeel kun je tijdelijk uit dun karton knippen.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

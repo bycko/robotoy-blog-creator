@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "sl",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Počen leseni del: kako ga popraviti in graditi naprej",
+  "description": "Ti je med izlomljenjem iz plošče počil tanek leseni del? Če imaš vse koščke in se njihovi robovi ujemajo, ga lahko prilepiš z lepilom za les. Pri nosilnem delu ali manjkajočem koščku je boljši nadomestni del.",
+  "seo_title": "Počen leseni del: kako ga zlepiti in graditi naprej",
+  "seo_description": "Ti je med sestavljanjem počil leseni del? Izvedi, kdaj ga zlepiti, katero lepilo uporabiti, kako dolgo naj se suši in kdaj prositi za nadomestni del.",
+  "slug": "pocen-leseni-del-kako-ga-popraviti-in-graditi-naprej",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Počen leseni del: kako ga popraviti in graditi naprej"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Počen tanek del se v mnogih primerih da zlepiti in z gradnjo lahko nadaljuješ. Odloča, ali imaš vse koščke in ali se njihovi robovi ujemajo brez reže: takrat zadostujejo lepilo za les, tanka plast in malo potrpljenja. Najprej položi koščke na list papirja in za zdaj ničesar ne lepi."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Zlom pri izlomljenju ali vstavljanju dela je običajen in ne pomeni, da je napaka tvoja: tanki deli, drobni izrastki in mostički, ki držijo del v plošči, so po naravi krhki. O tem, ali del zlepiti, odločata oblika zloma in to, kaj del v gradnji drži."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Kazalo članka</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-oceniti-zlom-preden-karkoli-zlepis\">Kako oceniti zlom, preden karkoli zlepiš</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#katero-lepilo-uporabiti-in-kako-dolgo-naj-se-spoj-susi\">Katero lepilo uporabiti in kako dolgo naj se spoj suši</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-zlepiti-cist-zlom-in-vec-kosckov\">Kako zlepiti čist zlom in več koščkov</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kdaj-dela-ne-zlepiti-in-zaprositi-za-nadomestnega\">Kdaj dela ne zlepiti in zaprositi za nadomestnega</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-izlocati-dele-da-ne-pocijo\">Kako izločati dele, da ne počijo</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#pogosta-vprasanja\">Pogosta vprašanja</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kako oceniti zlom, preden karkoli zlepiš",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-oceniti-zlom-preden-karkoli-zlepis"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Vse koščke položi na čist list papirja približno na izvirna mesta. Takoj vidiš, koliko koščkov imaš, kateri sodijo skupaj in ali kaj manjka. Svež zlom se lepi čistije kot tak, ki je bil po počenju večkrat sestavljen in upognjen, zato koščke raje pusti ležati."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Robove prilagodi drug k drugemu brez lepila.</strong> Če se ujemajo brez vidne reže, gre za čist zlom in popravilo je preprosto. Če se robovi ne ujemajo, ne lepi in sledi delu o več koščkih.",
+            "items": []
+          },
+          {
+            "content": "<strong>Preštej koščke.</strong> Dva kosa pomenita čist zlom. Trije ali več pomeni, da koščke lepiš enega za drugim, ne vseh naenkrat.",
+            "items": []
+          },
+          {
+            "content": "<strong>V navodilih ugotovi, kaj del v gradnji drži.</strong> Pri okrasnem delu zadostuje lepljenje. Pri nosilnem delu okvirja sam spoj morda ne bo vrnil dovolj trdnosti, zato poglej tudi del o nadomestnem delu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Preveri, ali kak košček manjka.</strong> Manjkajoči majhen drobec je mogoče zapolniti s kitom, pri večjem manjkajočem delu pa je lažje dobiti nadomestni del.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Katero lepilo uporabiti in kako dolgo naj se spoj suši",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "katero-lepilo-uporabiti-in-kako-dolgo-naj-se-spoj-susi"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Za lepljenje lesa na les uporabi belo lepilo za les (PVA, torej običajno belo lepilo za les). Vpije se v lesna vlakna in ti pusti nekaj minut za poravnavo dela. Sekundno lepilo pri tem popravilu ni priporočljivo kot prva izbira: strdi se skoraj takoj, zato dela ne utegneš poravnati, po strditvi pa je trdo in krhko, zato lahko spoj pri enaki obremenitvi spet poči."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Lepila ne nanašaj naravnost iz stekleničke. Kapljico daj na odpadno površino, na primer plastičen pokrovček ali košček povoščenega papirja, in jo z zobotrebcem prenesi na spoj. Plast naj bo tanka, komaj vidna. Pri preveliki količini se lepilo ob stiskanju iztisne, ga je težko skriti in lahko navlaži les."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Spoja prvih približno 30 minut ne premikaj. Polno trdnost lepilo doseže dlje, zato del, ki kaj nosi, pusti sušiti več ur, raje čez noč, in šele nato gradi naprej nanj. Če se podatki na embalaži tvojega lepila razlikujejo od tega razpona, se ravnaj po embalaži."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "belo lepilo za les in zobotrebec,",
+            "items": []
+          },
+          {
+            "content": "odpadna površina za lepilo (pokrovček, povoščen papir),",
+            "items": []
+          },
+          {
+            "content": "slikarski lepilni trak, majhna elastika ali majhna utež za stiskanje spoja,",
+            "items": []
+          },
+          {
+            "content": "rahlo vlažna krpica za brisanje iztisnjenega lepila,",
+            "items": []
+          },
+          {
+            "content": "droben brusni papir za zglajevanje grobih robov.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Več pripomočkov, ki pridejo prav pri sestavljanju, je v <a href=\"/blog/10-orodij-ki-jih-potrebujete-pri-sestavljanju-lesene-3d-sestavljanke\">članku o orodjih za sestavljanje lesene sestavljanke</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nasvet:</strong> Ploščat spoj lahko namesto s trakom obtežiš s kovancem, da trak ne pusti sledi na lesu. Če spoj držiš s trakom, ga napni le rahlo, da spoj stiska narahlo.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kako zlepiti čist zlom in več koščkov",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-zlepiti-cist-zlom-in-vec-kosckov"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Pri čistem zlomu se ravnaj po tem, kar vidiš in delaš: najprej robovi, nato lepilo, nazadnje pritrditev in sušenje."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Robovi se ujemajo brez reže: lahko lepiš.</strong> Če reža ostane, ne lepi. Spoj bi bil viden in šibkejši, zato se vrni k delu o več koščkih.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lepilo in stiskanje.</strong> Z zobotrebcem razmaži po spoju tanko plast lepila, dela pritisni trdno in enakomerno, ne s silo, in ju drži približno minuto. Pri pravilnem pritisku se iz spoja iztisne le neznatna količina lepila, ki ga takoj obriši z rahlo vlažno krpico.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pritrditev in sušenje.</strong> Spoj drži s trakom, pri okroglem delu z elastiko, pri ploščatem delu pa z utežjo. Prvih približno 30 minut ga ne premikaj, nosilni del pa pusti sušiti več ur do cele noči.",
+            "items": []
+          },
+          {
+            "content": "<strong>Špranja po sušenju.</strong> Trak odstrani šele po sušenju. Če ostane drobna špranja, vtisni vanjo malo kita za les, počakaj, da se posuši, in rahlo zbrusi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Pri treh ali več koščkih ne lepi vsega naenkrat, ker se več prostih kosov pri držanju zlahka premakne. Najprej zlepi dva največja koščka in ju pusti, da se povsem posušita. Nato dodajaj druge enega za drugim in vsakemu daj čas, da se prime."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Zlepljen del je na mestu zloma šibkejši od izvirnega. Če gre, na njegovo nevidno zadnjo stran prilepi tanek trak trdega papirja ali tankega lesa, nekoliko manjši od dela, da ostane skrit."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Popravljeni del najprej poskusi vstaviti na mesto na suho. Če je izrastek pretesen: če navodila za ta del svetujejo drugače, se ravnaj po njih; sicer ga rahlo zbrusi z drobnim brusnim papirjem z zrnatostjo okoli 220, dokler del ne zdrsne zlahka na mesto, in po vsakem brušenju del znova poskusi na suho. Če se po popravilu zatika premični del, iskanje trenja opisuje <a href=\"/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti\">članek o mehanizmu, ki se zatika</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kdaj dela ne zlepiti in zaprositi za nadomestnega",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kdaj-dela-ne-zlepiti-in-zaprositi-za-nadomestnega"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Večina zlomov je vredna popravila, a včasih je pametneje del zamenjati. Pomisli na nadomestni del, kadar:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "je počil nosilni del okvirja, ker takšna popravila redko vrnejo dovolj trdnosti, da bi zdržala preostalo gradnjo,",
+            "items": []
+          },
+          {
+            "content": "je naenkrat počilo več večjih nosilnih delov,",
+            "items": []
+          },
+          {
+            "content": "manjka večji kos materiala, ker kit pri večjih režah ne deluje več prepričljivo.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Številni proizvajalci kompletov ponujajo nadomestne dele. Kontakt proizvajalca je običajno v navodilih, pogosto na njihovi zadnji strani. Pošlji fotografijo strani navodil, na kateri je manjkajoči del, in zraven njegovo številko, ime ali kodo kompleta in podatke iz naročila."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Ti manjka samo majhen izrastek, ki je dele le poravnaval? Gradnja brez njega pogosto drži, če navodila ne določajo drugače: robove zlepi neposredno, spoj z nevidne strani pa podpri s trakom tankega lesa ali z zobotrebcem. Ploščat manjkajoči del lahko začasno izrežeš iz tankega kartona po obrisu v navodilih, stebriček pa nadomestiš z okroglim zobotrebcem, skrajšanim na dolžino. Nadomestek najprej poskusi na suho, ker je manj natančen kot izvirni del."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Kako izločati dele, da ne počijo",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-izlocati-dele-da-ne-pocijo"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Večina zlomov nastane pri dveh opravilih: pri izločanju dela iz plošče in pri vstavljanju dela, ki se ne ujema. Oba trenutka je mogoče obvladati s tehniko."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Ploščo poglej proti svetlobi.</strong> Del z lasno razpoko ali napol odtrganim mostičkom izloči izjemno previdno.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ploščo položi ravno na mizo.</strong> V zraku se upogiba in del takrat laže poči.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pritiskaj s palcem od zadaj na plošči, sprednjo stran dela pa podpri s prstom.</strong> Če se del upira, ne pritiskaj močneje: poišči, kateri mostiček še drži.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pri delu z več mostički jih sproščaj enega za drugim.</strong> Pritisk se tako porazdeli postopoma in del se ne zlomi naenkrat.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pred lepljenjem vsak spoj poskusi na suho.</strong> Če se ne ujema, ugotovi, zakaj (napačen del, napačen položaj), namesto da ga na silo potiskaš.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spoj vstavljaj s pritiskom ob vznožju izrastka, ne na njegovi konici.</strong> Izrastek se zlomi na najtanjšem mestu, ki je običajno tam, kjer se sreča z utorom.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Če proizvajalec v navodilih priporoča drugačen način izločanja ali vstavljanja, se ravnaj po njegovih navodilih."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Pogosta vprašanja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pogosta-vprasanja"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ali je počen leseni del še mogoče zlepiti?</h3>\n    <p style=\"margin:0;\">Da, če imaš vse koščke in se njihovi robovi ujemajo brez reže. Uporabi belo lepilo za les, ne sekundnega.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kako dolgo naj se zlepljen del suši?</h3>\n    <p style=\"margin:0;\">Prvih približno 30 minut ga ne premikaj. Del, ki kaj nosi, pusti sušiti več ur, raje čez noč.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ali lahko za popravilo uporabim sekundno lepilo?</h3>\n    <p style=\"margin:0;\">To ni prva izbira. Strdi se skoraj takoj, zato dela ne utegneš poravnati, po strditvi pa je krhko.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kaj storiti, če mi del povsem manjka?</h3>\n    <p style=\"margin:0;\">Obrni se na proizvajalca kompleta in pošlji kodo kompleta, številko dela iz navodil in fotografijo strani navodil. Ploščat del lahko začasno izrežeš iz tankega kartona.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-orodij-ki-jih-potrebujete-pri-sestavljanju-lesene-3d-sestavljanke",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

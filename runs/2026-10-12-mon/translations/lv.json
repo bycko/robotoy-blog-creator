@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "lv",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Ieplīsusi koka detaļa: kā to salabot un būvēt tālāk",
+  "description": "Vai plāna koka detaļa ieplīsa, kad tu to izlauzi no plāksnes? Ja tev ir visas lauskas un to malas sakrīt, to var salīmēt ar koka līmi. Nesošas detaļas vai trūkstoša gabala gadījumā labāka ir rezerves detaļa.",
+  "seo_title": "Ieplīsusi koka detaļa: kā to salīmēt un būvēt tālāk",
+  "seo_description": "Vai būvējot ieplīsa koka detaļa? Uzzini, kad to līmēt, kādu līmi izmantot, cik ilgi ļaut savienojumam žūt un kad labāk lūgt rezerves detaļu.",
+  "slug": "ieplisusi-koka-detala-ka-to-salabot-un-buvet-talak",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Ieplīsusi koka detaļa: kā to salabot un būvēt tālāk"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ieplīsušu plānu detaļu daudzos gadījumos var salīmēt, un būvēšanu vari turpināt. Izšķir tas, vai tev ir visas lauskas un vai to malas sakrīt bez sprauslas: tad pietiek ar koka līmi, plānu kārtiņu un nedaudz pacietības. Vispirms noliec lauskas uz papīra lapas un pagaidām neko nelīmē."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Lūzums, izlauzot vai ievietojot detaļu, ir ierasts un nenozīmē, ka kaut ko izdarīji nepareizi: plānas detaļas, sīki izcilņi un tiltiņi, kas notur detaļu plāksnē, pēc savas būtības ir trausli. Vai detaļu līmēt, nosaka lūzuma forma un tas, ko detaļa notur konstrukcijā."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Raksta saturs</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#ka-novertet-luzumu-pirms-kaut-ko-lime\">Kā novērtēt lūzumu, pirms kaut ko līmē</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kadu-limi-izmantot-un-cik-ilgi-laut-savienojumam-zut\">Kādu līmi izmantot un cik ilgi ļaut savienojumam žūt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ka-salimet-tiru-luzumu-un-vairakas-lauskas\">Kā salīmēt tīru lūzumu un vairākas lauskas</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kad-detalu-nelimet-un-lugt-rezerves-detalu\">Kad detaļu nelīmēt un lūgt rezerves detaļu</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ka-izlauzt-detalas-lai-tas-neplistu\">Kā izlauzt detaļas, lai tās neplīstu</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#biezak-uzdotie-jautajumi\">Biežāk uzdotie jautājumi</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kā novērtēt lūzumu, pirms kaut ko līmē",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ka-novertet-luzumu-pirms-kaut-ko-lime"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Noliec visus gabalus uz tīras papīra lapas aptuveni to sākotnējās vietās. Uzreiz redzēsi, cik lauskas tev ir, kuras pieder kopā un vai kaut kas netrūkst. Svaigs lūzums līmējas tīrāk nekā tāds, kas pēc ieplīšanas vairākkārt pielikts un locīts, tāpēc lauskas labāk atstāj guļam."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Pielīdzini malas viena otrai bez līmes.</strong> Ja tās sakrīt bez redzamas sprauslas, tas ir tīrs lūzums un labošana ir vienkārša. Ja malas nesakrīt, nelīmē un seko daļai par vairākām lauskām.",
+            "items": []
+          },
+          {
+            "content": "<strong>Saskaiti lauskas.</strong> Divi gabali nozīmē tīru lūzumu. Trīs vai vairāk nozīmē, ka lauskas līmēsi pa vienai, nevis visas uzreiz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Instrukcijā noskaidro, ko detaļa notur konstrukcijā.</strong> Dekoratīvai detaļai pietiek ar salīmēšanu. Nesošai rāmja detaļai pats savienojums var neatgriezt pietiekamu izturību, tāpēc apskaties arī daļu par rezerves detaļu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pārbaudi, vai neviens gabals netrūkst.</strong> Trūkstošu mazu lauskiņu var aizpildīt ar špakteli, bet, ja trūkst lielāka daļa, vieglāk ir iegūt rezerves detaļu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Kādu līmi izmantot un cik ilgi ļaut savienojumam žūt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kadu-limi-izmantot-un-cik-ilgi-laut-savienojumam-zut"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Koka līmēšanai pie koka izmanto baltu koka līmi (PVA, proti, parasto balto līmi kokam). Tā iesūcas koka šķiedrās un atstāj tev vairākas minūtes detaļas izlīdzināšanai. Sekunžu līmi šim labojumam kā pirmo izvēli nav ieteicams izmantot: tā sacietē gandrīz uzreiz, tāpēc nepaspēj detaļu izlīdzināt, un pēc sacietēšanas tā ir cieta un trausla, tāpēc savienojums pie tādas pašas slodzes var atkal ieplīst."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Neuzklāj līmi tieši no pudelītes. Pilienu uzpilini uz vienreizlietojamas virsmas, piemēram, plastmasas vāciņa vai vaskota papīra gabaliņa, un ar zobu bakstāmo pārnes uz savienojumu. Kārtiņai jābūt plānai, tikko redzamai. No pārpalikuma līme, saspiežot, izspiežas, to grūti noslēpt un tā var samitrināt koku."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Pirmās aptuveni 30 minūtes savienojumu nekustini. Pilnu izturību līme gūst ilgāk, tāpēc detaļu, kas kaut ko notur, ļauj žūt vairākas stundas, labāk pa nakti, un tikai tad būvē tai virsū tālāk. Ja dati uz tavas līmes iepakojuma atšķiras no šī diapazona, vadies pēc iepakojuma."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "balta koka līme un zobu bakstāmais,",
+            "items": []
+          },
+          {
+            "content": "vienreizlietojama virsma līmei (vāciņš, vaskots papīrs),",
+            "items": []
+          },
+          {
+            "content": "maskēšanas lente, maza gumija vai neliels atsvars savienojuma piespiešanai,",
+            "items": []
+          },
+          {
+            "content": "nedaudz mitra lupatiņa izspiestās līmes noslaucīšanai,",
+            "items": []
+          },
+          {
+            "content": "smalks smilšpapīrs rupju malu nolīdzināšanai.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Citus palīglīdzekļus, kas noder salikšanā, atradīsi <a href=\"/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai\">rakstā par rīkiem koka puzles salikšanai</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Padoms:</strong> Plakanu savienojumu lentes vietā vari noslogot ar monētu, lai lente neatstātu pēdas uz koka. Ja savienojumu notur ar lenti, nostiep to tikai nedaudz, lai tā to piespiestu viegli.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kā salīmēt tīru lūzumu un vairākas lauskas",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ka-salimet-tiru-luzumu-un-vairakas-lauskas"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Tīra lūzuma gadījumā vadies pēc tā, ko redzi un dari: vispirms malas, tad līme, beigās fiksēšana un žūšana."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Malas sakrīt bez sprauslas: vari līmēt.</strong> Ja sprauslas paliek, nelīmē. Savienojums būtu redzams un vājāks, tāpēc atgriezies pie daļas par vairākām lauskām.",
+            "items": []
+          },
+          {
+            "content": "<strong>Līme un piespiešana.</strong> Ar zobu bakstāmo uzklāj uz savienojuma plānu līmes kārtiņu, detaļas piespied stingri un vienmērīgi, nevis ar spēku, un tur aptuveni minūti. Pareizā spiedienā no savienojuma izspiežas tikai niecīgs līmes daudzums, ko uzreiz noslauki ar nedaudz mitru lupatiņu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fiksēšana un žūšana.</strong> Savienojumu notur ar lenti, apaļai detaļai ar gumiju, bet plakanai detaļai ar atsvaru. Pirmās aptuveni 30 minūtes to nekustini, bet nesošu detaļu ļauj žūt vairākas stundas līdz pat naktij.",
+            "items": []
+          },
+          {
+            "content": "<strong>Sprauga pēc nožūšanas.</strong> Lenti noņem tikai pēc nožūšanas. Ja paliek smalka sprauga, iespied tajā nedaudz koka špakteles, ļauj nožūt un viegli nolīdzini ar smilšpapīru.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja lauskas ir trīs vai vairāk, nelīmē visu uzreiz, jo vairāki brīvi gabali turot viegli pārbīdās. Vispirms salīmē divas lielākās lauskas un ļauj tām pilnībā nožūt. Pēc tam pievieno pārējās pa vienai un katrai ļauj laiku, lai tā satvertos."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Salīmēta detaļa lūzuma vietā ir vājāka nekā oriģinālā. Ja iespējams, uz tās neredzamās aizmugures puses pielīmē plānu stingra papīra vai plāna koka sloksnīti, nedaudz mazāku par detaļu, lai tā paliktu apslēpta."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Salaboto detaļu vispirms mēģini ievietot vietā bez līmes. Ja izcilnis ir pārāk ciešs: ja instrukcija šai detaļai iesaka citādi, vadies pēc tās; citādi viegli nolīdzini to ar smalku smilšpapīru ar aptuveni 220 graudiņu, līdz detaļa viegli ieiet, un pēc katras slīpēšanas atkal pamēģini detaļu bez līmes. Ja pēc labošanas iestrēgst kustīga daļa, berzes meklēšanu apraksta <a href=\"/emuars/mehanisms-iestregst-ka-atrast-berzi-un-to-noverst\">raksts par mehānismu, kas iestrēgst</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kad detaļu nelīmēt un lūgt rezerves detaļu",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kad-detalu-nelimet-un-lugt-rezerves-detalu"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Lielāko daļu lūzumu ir vērts labot, bet dažreiz saprātīgāk ir detaļu nomainīt. Apsver rezerves detaļu, ja:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "ir ieplīsusi nesoša rāmja detaļa, jo šādi labojumi reti atgriež pietiekamu izturību, lai noturētu pārējo konstrukciju,",
+            "items": []
+          },
+          {
+            "content": "vienlaikus ir salūzušas vairākas lielākas nesošas detaļas,",
+            "items": []
+          },
+          {
+            "content": "trūkst lielāks materiāla gabals, jo špaktele pie lielākām spraugām pārstāj izskatīties pārliecinoši.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Daudzi komplektu ražotāji piedāvā rezerves detaļas. Ražotāja kontakti parasti ir instrukcijā, bieži tās pēdējā lappusē. Nosūti instrukcijas lappuses fotogrāfiju, kurā redzama trūkstošā detaļa, un kopā ar to tās numuru, komplekta nosaukumu vai kodu un pasūtījuma datus."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Vai tev trūkst tikai neliela izcilņa, kas detaļas tikai izlīdzināja? Konstrukcija bez tā bieži turas, ja instrukcija nenosaka citādi: malas salīmē tieši un savienojumu no neredzamās puses atbalsti ar plāna koka sloksnīti vai zobu bakstāmo. Plakanu trūkstošu detaļu vari īslaicīgi izgriezt no plāna kartona pēc kontūras instrukcijā, bet stabiņu aizstāt ar apaļu zobu bakstāmo, saīsinātu līdz vajadzīgajam garumam. Aizstājēju vispirms pamēģini bez līmes, jo tas ir mazāk precīzs nekā oriģinālā detaļa."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Kā izlauzt detaļas, lai tās neplīstu",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ka-izlauzt-detalas-lai-tas-neplistu"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Lielākā daļa lūzumu rodas divu darbību laikā: izlaužot detaļu no plāksnes un ievietojot detaļu, kas neder. Abus brīžus var pārvaldīt ar tehniku."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Apskati plāksni pret gaismu.</strong> Detaļu ar matu plānu plaisu vai līdz pusei norautu tiltiņu izlauz īpaši uzmanīgi.",
+            "items": []
+          },
+          {
+            "content": "<strong>Noliec plāksni plakaniski uz galda.</strong> Gaisā tā liecas, un detaļa tad plīst vieglāk.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spied ar īkšķi no plāksnes aizmugures, bet detaļas priekšpusi atbalsti ar pirkstu.</strong> Ja detaļa pretojas, nespied stiprāk: meklē, kurš tiltiņš vēl notur.",
+            "items": []
+          },
+          {
+            "content": "<strong>Detaļai ar vairākiem tiltiņiem atbrīvo tos pa vienam.</strong> Spiediens tā sadalās pakāpeniski, un detaļa nesalūst uzreiz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pirms līmēšanas pamēģini katru savienojumu bez līmes.</strong> Ja tas nederēs, noskaidro, kāpēc (nepareiza detaļa, nepareiza pozīcija), nevis spied to ar varu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Savienojumu ievieto, spiežot pie izcilņa pamatnes, nevis tā galā.</strong> Izcilnis lūst plānākajā vietā, kas parasti ir tur, kur tas sastopas ar rievu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja ražotājs instrukcijā iesaka citu izlaušanas vai ievietošanas veidu, vadies pēc viņa instrukcijas."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Biežāk uzdotie jautājumi",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "biezak-uzdotie-jautajumi"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai ieplīsušu koka detaļu vēl var salīmēt?</h3>\n    <p style=\"margin:0;\">Jā, ja tev ir visas lauskas un to malas sakrīt bez sprauslas. Izmanto baltu koka līmi, nevis sekunžu līmi.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Cik ilgi ļaut salīmētai detaļai žūt?</h3>\n    <p style=\"margin:0;\">Pirmās aptuveni 30 minūtes to nekustini. Detaļu, kas kaut ko notur, ļauj žūt vairākas stundas, labāk pa nakti.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai labošanai drīkst izmantot sekunžu līmi?</h3>\n    <p style=\"margin:0;\">Tā nav pirmā izvēle. Tā sacietē gandrīz uzreiz, tāpēc nepaspēj detaļu izlīdzināt, un pēc sacietēšanas tā ir trausla.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ko darīt, ja detaļas nav pavisam?</h3>\n    <p style=\"margin:0;\">Sazinies ar komplekta ražotāju un nosūti komplekta kodu, detaļas numuru no instrukcijas un instrukcijas lappuses fotogrāfiju. Plakanu detaļu vari īslaicīgi izgriezt no plāna kartona.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/emuars/mehanisms-iestregst-ka-atrast-berzi-un-to-noverst",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

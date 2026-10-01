@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "lt",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Įskilo medinė detalė: kaip ją sutaisyti ir statyti toliau",
+  "description": "Ar įskilo plona medinė detalė, kai ją išlaužei iš plokštės? Jei turi visus nuolaužų gabalėlius ir jų kraštai tinka vienas prie kito, ją galima suklijuoti medienos klijais. Atraminės detalės arba trūkstamo gabalo atveju geriau pakaitinė detalė.",
+  "seo_title": "Įskilo medinė detalė: kaip ją suklijuoti ir statyti toliau",
+  "seo_description": "Ar statant įskilo medinė detalė? Sužinok, kada ją klijuoti, kokių klijų imti, kiek laiko leisti džiūti ir kada verčiau paprašyti pakaitinės detalės.",
+  "slug": "iskilo-medine-detale-kaip-ja-sutaisyti-ir-statyti-toliau",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Įskilo medinė detalė: kaip ją sutaisyti ir statyti toliau"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Įskilusią ploną detalę daugeliu atvejų galima suklijuoti ir statybą gali tęsti. Lemia tai, ar turi visus gabalėlius ir ar jų kraštai tinka be tarpo: tada pakanka medienos klijų, plono sluoksnio ir šiek tiek kantrybės. Pirmiausia sudėk gabalėlius ant popieriaus lapo ir kol kas nieko neklijuok."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Lūžis išlaužiant ar įstatant detalę yra įprastas ir nereiškia, kad padarei klaidą: plonos detalės, smulkūs iškyšuliai ir tilteliai, laikantys detalę plokštėje, iš prigimties trapūs. Ar detalę klijuoti, lemia lūžio forma ir tai, ką detalė laiko konstrukcijoje."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Straipsnio turinys</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaip-ivertinti-luzi-pries-ka-nors-klijuojant\">Kaip įvertinti lūžį, prieš ką nors klijuojant</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kokiu-kliju-naudoti-ir-kiek-laiko-leisti-sujungimui-dziuti\">Kokių klijų naudoti ir kiek laiko leisti sujungimui džiūti</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaip-suklijuoti-svaru-luzi-ir-kelis-gabalelius\">Kaip suklijuoti švarų lūžį ir kelis gabalėlius</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kada-detales-neklijuoti-ir-paprasyti-pakaitines\">Kada detalės neklijuoti ir paprašyti pakaitinės</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaip-islauzti-detales-kad-jos-neiskiltu\">Kaip išlaužti detales, kad jos neįskiltų</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#dazniausiai-uzduodami-klausimai\">Dažniausiai užduodami klausimai</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kaip įvertinti lūžį, prieš ką nors klijuojant",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaip-ivertinti-luzi-pries-ka-nors-klijuojant"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Sudėk visus gabalėlius ant švaraus popieriaus lapo maždaug į jų pirminę vietą. Iškart pamatysi, kiek turi gabalėlių, kurie tinka vienas prie kito ir ar kažko netrūksta. Šviežias lūžis klijuojasi švariau nei toks, kurį po įskilimo ne kartą pridėjai ir lankstei, todėl gabalėlius verčiau palik gulėti."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Pridėk kraštus vieną prie kito be klijų.</strong> Jei jie tinka be matomo tarpo, tai švarus lūžis ir taisyti paprasta. Jei kraštai netinka, neklijuok ir vadovaukis dalimi apie kelis gabalėlius.",
+            "items": []
+          },
+          {
+            "content": "<strong>Suskaičiuok gabalėlius.</strong> Du gabalai reiškia švarų lūžį. Trys ar daugiau reiškia, kad gabalėlius klijuosi po vieną, o ne visus iš karto.",
+            "items": []
+          },
+          {
+            "content": "<strong>Instrukcijoje patikrink, ką detalė laiko konstrukcijoje.</strong> Dekoratyvinę detalę pakanka suklijuoti. Atraminės karkaso detalės vien sujungimas gali negrąžinti pakankamo tvirtumo, todėl perskaityk ir dalį apie pakaitinę detalę.",
+            "items": []
+          },
+          {
+            "content": "<strong>Patikrink, ar nė vieno gabalo netrūksta.</strong> Trūkstamą mažą skeveldrėlę galima užglaistyti glaistu, o kai trūksta didesnės dalies, lengviau gauti pakaitinę detalę.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Kokių klijų naudoti ir kiek laiko leisti sujungimui džiūti",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kokiu-kliju-naudoti-ir-kiek-laiko-leisti-sujungimui-dziuti"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Medieną prie medienos klijuok baltais medienos klijais (PVA, tai įprasti balti klijai medienai). Jie įsigeria į medienos pluoštą ir palieka kelias minutes detalei sulygiuoti. Akimirksniniai klijai šiam taisymui kaip pirmasis pasirinkimas nerekomenduojami: jie sukietėja beveik iš karto, todėl nespėji detalės sulygiuoti, o sukietėję yra kieti ir trapūs, tad sujungimas esant tokiam pat apkrovimui gali vėl įtrūkti."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Klijų nepilk tiesiai iš buteliuko. Lašą užlašink ant vienkartinio paviršiaus, pavyzdžiui, plastikinio dangtelio ar vaškuoto popieriaus gabalėlio, ir dantų krapštuku perkelk ant sujungimo. Sluoksnis turi būti plonas, vos matomas. Dėl pertekliaus klijai spaudžiant išsispaudžia, juos sunku paslėpti ir jie gali sudrėkinti medieną."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Pirmąsias maždaug 30 minučių sujungimo nejudink. Pilną tvirtumą klijai įgyja ilgiau, todėl detalę, kuri ką nors laiko, palik džiūti kelias valandas, geriau per naktį, ir tik tada statyk toliau. Jei duomenys ant tavo klijų pakuotės skiriasi nuo šio intervalo, vadovaukis pakuote."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "balti medienos klijai ir dantų krapštukas,",
+            "items": []
+          },
+          {
+            "content": "vienkartinis paviršius klijams (dangtelis, vaškuotas popierius),",
+            "items": []
+          },
+          {
+            "content": "popierinė dažymo juosta, maža gumytė arba mažas svarelis sujungimui prispausti,",
+            "items": []
+          },
+          {
+            "content": "truputį drėgna šluostė išsispaudusiems klijams nuvalyti,",
+            "items": []
+          },
+          {
+            "content": "smulkus švitrinis popierius šiurkštiems kraštams nušlifuoti.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Daugiau priemonių, kurios praverčia statant, rasi <a href=\"/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione\">straipsnyje apie įrankius medinei dėlionei surinkti</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Patarimas:</strong> Plokščią sujungimą vietoj juostos gali apsunkinti moneta, kad juosta nepaliktų žymių ant medienos. Jei sujungimą laikai juosta, ją tempk tik šiek tiek, kad ji sujungimą spaustų lengvai.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kaip suklijuoti švarų lūžį ir kelis gabalėlius",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaip-suklijuoti-svaru-luzi-ir-kelis-gabalelius"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Švaraus lūžio atveju vadovaukis tuo, ką matai ir darai: pirmiausia kraštai, paskui klijai, galiausiai tvirtinimas ir džiūvimas."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Kraštai tinka be tarpo: gali klijuoti.</strong> Jei lieka tarpas, neklijuok. Sujungimas būtų matomas ir silpnesnis, todėl grįžk prie dalies apie kelis gabalėlius.",
+            "items": []
+          },
+          {
+            "content": "<strong>Klijai ir prispaudimas.</strong> Dantų krapštuku ištepk ant sujungimo ploną klijų sluoksnį, detales prispausk tvirtai ir tolygiai, ne jėga, ir palaikyk maždaug minutę. Tinkamai spaudžiant iš sujungimo išsispaudžia tik menkas klijų kiekis, kurį iškart nuvalyk truputį drėgna šluoste.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tvirtinimas ir džiūvimas.</strong> Sujungimą laikyk juosta, apvalią detalę gumyte, o plokščią detalę svareliu. Pirmąsias maždaug 30 minučių jo nejudink, o atraminę detalę palik džiūti kelias valandas iki nakties.",
+            "items": []
+          },
+          {
+            "content": "<strong>Siūlė po išdžiūvimo.</strong> Juostą nuimk tik po išdžiūvimo. Jei lieka plona siūlė, įspausk į ją šiek tiek medienos glaisto, palik išdžiūti ir lengvai nušlifuok.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Kai gabalėlių trys ar daugiau, neklijuok visko iš karto, nes keli laisvi gabalėliai laikant lengvai pasislenka. Pirmiausia suklijuok du didžiausius gabalėlius ir leisk jiems visiškai išdžiūti. Tada po vieną pridėk kitus ir kiekvienam palik laiko prilipti."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Suklijuota detalė lūžio vietoje silpnesnė nei pirminė. Jei galima, ant jos nematomos galinės pusės priklijuok ploną standaus popieriaus ar plono medžio juostelę, šiek tiek mažesnę už detalę, kad liktų paslėpta."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Sutaisytą detalę pirmiausia pabandyk įstatyti į vietą be klijų. Jei iškyšulys per standus: jei instrukcija šiai detalei pataria kitaip, vadovaukis ja; kitu atveju jį lengvai nušlifuok smulkiu apie 220 grūdėtumo švitriniu popieriumi, kol detalė lengvai įeis, o po kiekvieno šlifavimo vėl išbandyk detalę be klijų. Jei po taisymo strigsta judanti dalis, trinties paiešką aprašo <a href=\"/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti\">straipsnis apie stringantį mechanizmą</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kada detalės neklijuoti ir paprašyti pakaitinės",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kada-detales-neklijuoti-ir-paprasyti-pakaitines"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Dauguma lūžių verti taisymo, tačiau kartais protingiau detalę pakeisti. Apsvarstyk pakaitinę detalę, kai:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "įskilo atraminė karkaso detalė, nes tokie taisymai retai grąžina pakankamą tvirtumą, kad išlaikytų likusią konstrukciją,",
+            "items": []
+          },
+          {
+            "content": "vienu metu sulūžo kelios didesnės atraminės detalės,",
+            "items": []
+          },
+          {
+            "content": "trūksta didesnio medžiagos gabalo, nes glaistas prie didesnių tarpų nebeatrodo įtikinamai.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Daugelis rinkinių gamintojų siūlo pakaitines detales. Gamintojo kontaktai paprastai būna instrukcijoje, dažnai paskutiniame jos puslapyje. Atsiųsk instrukcijos puslapio, kuriame yra trūkstama detalė, nuotrauką ir kartu jos numerį, rinkinio pavadinimą ar kodą bei užsakymo duomenis."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Trūksta tik mažo iškyšulio, kuris detales tik sulygiuodavo? Konstrukcija be jo dažnai laikosi, jei instrukcija nenurodo kitaip: kraštus suklijuok tiesiogiai, o sujungimą iš nematomos pusės paremk plono medžio juostele ar dantų krapštuku. Trūkstamą plokščią detalę gali laikinai iškirpti iš plono kartono pagal instrukcijos kontūrą, o stulpelį pakeisti apvaliu dantų krapštuku, sutrumpintu iki reikiamo ilgio. Pakaitalą pirmiausia išbandyk be klijų, nes jis mažiau tikslus nei originali detalė."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Kaip išlaužti detales, kad jos neįskiltų",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaip-islauzti-detales-kad-jos-neiskiltu"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Dauguma lūžių atsiranda atliekant du veiksmus: išlaužiant detalę iš plokštės ir įstatant detalę, kuri netinka. Abu momentus galima įveikti technika."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Apžiūrėk plokštę prieš šviesą.</strong> Detalę su plaukelio storio įtrūkimu ar pusiau nutrūkusiu tilteliu išlaužk ypač atsargiai.",
+            "items": []
+          },
+          {
+            "content": "<strong>Padėk plokštę plokščiai ant stalo.</strong> Ore ji linksta, o detalė tada lengviau įskyla.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spausk nykščiu iš plokštės galinės pusės, o priekinę detalės pusę paremk pirštu.</strong> Jei detalė priešinasi, nespausk stipriau: ieškok, kuris tiltelis dar laiko.",
+            "items": []
+          },
+          {
+            "content": "<strong>Jei detalė turi kelis tiltelius, atlaisvink juos po vieną.</strong> Spaudimas taip pasiskirsto palaipsniui ir detalė nesulūžta iš karto.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prieš klijuojant kiekvieną sujungimą išbandyk be klijų.</strong> Jei netinka, išsiaiškink kodėl (netinkama detalė, netinkama padėtis), o ne kišk jos jėga.",
+            "items": []
+          },
+          {
+            "content": "<strong>Sujungimą stumk spausdamas prie iškyšulio pagrindo, o ne ties jo galiuku.</strong> Iškyšulys lūžta plonėliausioje vietoje, kuri paprastai yra ten, kur jis susitinka su grioveliu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei gamintojas instrukcijoje rekomenduoja kitokį išlaužimo ar įstatymo būdą, vadovaukis jo instrukcija."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Dažniausiai užduodami klausimai",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "dazniausiai-uzduodami-klausimai"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ar įskilusią medinę detalę dar galima suklijuoti?</h3>\n    <p style=\"margin:0;\">Taip, jei turi visus gabalėlius ir jų kraštai tinka be tarpo. Naudok baltus medienos klijus, ne akimirksninius.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kiek laiko leisti suklijuotai detalei džiūti?</h3>\n    <p style=\"margin:0;\">Pirmąsias maždaug 30 minučių jos nejudink. Detalę, kuri ką nors laiko, palik džiūti kelias valandas, geriau per naktį.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ar remontui galiu naudoti akimirksninius klijus?</h3>\n    <p style=\"margin:0;\">Tai ne pirmas pasirinkimas. Jie sukietėja beveik iš karto, todėl nespėji detalės sulygiuoti, o sukietėję yra trapūs.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ką daryti, jei detalės visai trūksta?</h3>\n    <p style=\"margin:0;\">Susisiek su rinkinio gamintoju ir atsiųsk rinkinio kodą, detalės numerį iš instrukcijos ir instrukcijos puslapio nuotrauką. Plokščią detalę gali laikinai iškirpti iš plono kartono.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/dienorastis/10-irankiu-kuriu-prireiks-surenkant-medine-3d-delione",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

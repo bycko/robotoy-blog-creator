@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "sv",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Sprucken träbit: så lagar du den och bygger vidare",
+  "description": "Sprack en tunn träbit när du bröt loss den ur plattan? Om du har alla bitar och kanterna passar ihop går den att limma med trälim. Vid en bärande del eller en bit som saknas är en ersättningsdel bättre.",
+  "seo_title": "Sprucken träbit: så limmar du den och bygger vidare",
+  "seo_description": "Sprack en träbit när du byggde? Ta reda på när du ska limma den, vilket lim du ska använda, hur länge den ska torka och när du bör be om en ny del.",
+  "slug": "sprucken-trabit-sa-lagar-du-den-och-bygger-vidare",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Sprucken träbit: så lagar du den och bygger vidare"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "En sprucken tunn bit går i många fall att limma, och du kan bygga vidare. Det avgörande är om du har alla bitar och om kanterna passar ihop utan glapp: då räcker trälim, ett tunt lager och lite tålamod. Det första du gör är att lägga bitarna på ett papper och tills vidare inte limma något."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Ett brott när du bryter loss eller sätter i en del är vanligt och betyder inte att du gjort fel: tunna delar, små utskott och de bryggor som håller delen i plattan är ömtåliga till sin natur. Om du ska limma delen beror på brottets form och på vad delen håller uppe i bygget."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Artikelns innehåll</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#sa-bedomer-du-brottet-innan-du-limmar-nagot\">Så bedömer du brottet innan du limmar något</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#vilket-lim-du-ska-anvanda-och-hur-lange-fogen-ska-torka\">Vilket lim du ska använda och hur länge fogen ska torka</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sa-limmar-du-ett-rent-brott-och-flera-bitar\">Så limmar du ett rent brott och flera bitar</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#nar-du-inte-ska-limma-delen-utan-be-om-en-ersattning\">När du inte ska limma delen utan be om en ersättning</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sa-bryter-du-loss-delar-utan-att-de-spricker\">Så bryter du loss delar utan att de spricker</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#vanliga-fragor\">Vanliga frågor</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Så bedömer du brottet innan du limmar något",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sa-bedomer-du-brottet-innan-du-limmar-nagot"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Lägg alla bitar på ett rent papper, ungefär på sina ursprungliga platser. Du ser direkt hur många bitar du har, vilka som hör ihop och om något saknas. Ett färskt brott limmas renare än ett som du efter sprickan lagt ihop och böjt flera gånger, så låt hellre bitarna ligga."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Håll kanterna mot varandra utan lim.</strong> Om de passar utan synligt glapp är det ett rent brott och lagningen är enkel. Om kanterna inte passar ska du inte limma utan följa avsnittet om flera bitar.",
+            "items": []
+          },
+          {
+            "content": "<strong>Räkna bitarna.</strong> Två bitar betyder ett rent brott. Tre eller fler betyder att du limmar bitarna en i taget, inte alla på en gång.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ta reda på i instruktionen vad delen håller uppe i bygget.</strong> För en dekorativ del räcker det att limma. På en bärande ramdel kanske själva fogen inte ger tillbaka tillräcklig styrka, så titta också på avsnittet om en ersättningsdel.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kontrollera att ingen bit saknas.</strong> En liten flisa som saknas går att fylla med spackel, men om en större del saknas är det enklare att skaffa en ersättningsdel.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Vilket lim du ska använda och hur länge fogen ska torka",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vilket-lim-du-ska-anvanda-och-hur-lange-fogen-ska-torka"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "För att limma trä mot trä använder du vitt trälim (PVA, alltså det vanliga vita limmet för trä). Det sugs in i träfibrerna och ger dig några minuter att justera delen. Sekundlim rekommenderas inte som förstahandsval vid den här lagningen: det härdar nästan direkt, så du hinner inte justera delen, och när det härdat är det hårt och sprött, så fogen kan spricka igen vid samma belastning."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Applicera inte limmet direkt från flaskan. Sätt en droppe på en engångsyta, till exempel ett plastlock eller en bit vaxat papper, och för över den till fogen med en tandpetare. Lagret ska vara tunt, knappt synligt. Av för mycket lim pressas det ut när du trycker, det är svårt att dölja och kan göra träet fuktigt."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Rör inte fogen de första cirka 30 minuterna. Limmet får full styrka först efter längre tid, så låt en del som bär något torka flera timmar, helst över natten, och bygg vidare på den först sedan. Om uppgifterna på ditt lims förpackning avviker från det här intervallet, följ förpackningen."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "vitt trälim och en tandpetare,",
+            "items": []
+          },
+          {
+            "content": "en engångsyta för limmet (lock, vaxat papper),",
+            "items": []
+          },
+          {
+            "content": "maskeringstejp, ett litet gummiband eller en liten vikt för att trycka ihop fogen,",
+            "items": []
+          },
+          {
+            "content": "en lätt fuktig trasa för att torka bort utpressat lim,",
+            "items": []
+          },
+          {
+            "content": "fint sandpapper för att jämna ut sträva kanter.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Fler hjälpmedel som är bra att ha när du bygger finns i <a href=\"/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra\">artikeln om verktyg för att bygga ett 3D-pussel i trä</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tips:</strong> En plan fog kan du belasta med ett mynt i stället för tejp, så att tejpen inte lämnar märken på träet. Om du håller fogen med tejp, spänn den bara lätt så att den trycker ihop fogen försiktigt.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Så limmar du ett rent brott och flera bitar",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sa-limmar-du-ett-rent-brott-och-flera-bitar"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Vid ett rent brott går du efter det du ser och gör: först kanterna, sedan limmet, till sist fixering och torkning."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Kanterna passar utan glapp: du kan limma.</strong> Om det finns kvar ett glapp ska du inte limma. Fogen skulle synas och bli svagare, så gå tillbaka till avsnittet om flera bitar.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lim och tryck.</strong> Bred ut ett tunt lager lim på fogen med en tandpetare, tryck ihop delarna fast och jämnt, inte med kraft, och håll dem ungefär en minut. Vid rätt tryck pressas bara en obetydlig mängd lim ut ur fogen, som du genast torkar bort med en lätt fuktig trasa.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fixering och torkning.</strong> Håll fogen med tejp, på en rund del med ett gummiband och på en platt del med en vikt. Rör den inte de första cirka 30 minuterna och låt en bärande del torka flera timmar upp till över natten.",
+            "items": []
+          },
+          {
+            "content": "<strong>Springan efter torkning.</strong> Ta bort tejpen först när limmet har torkat. Om en fin springa blir kvar, tryck in lite träspackel i den, låt det torka och slipa lätt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Vid tre eller fler bitar ska du inte limma allt på en gång, eftersom flera lösa bitar lätt flyttar sig medan du håller dem. Limma först ihop de två största bitarna och låt dem torka helt. Lägg sedan till de övriga en i taget och ge var och en tid att fästa."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "En limmad del är svagare vid brottet än originalet. Om det går, limma på dess osynliga baksida en tunn remsa styvt papper eller tunt trä, något mindre än delen så att den förblir dold."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Prova först att sätta den lagade delen på plats utan lim. Om ett utskott sitter för trångt: om instruktionen för den här delen råder något annat, följ den; annars slipa det lätt med fint sandpapper med korn omkring 220 tills delen går i lätt, och prova delen utan lim på nytt efter varje slipning. Om en rörlig del kärvar efter lagningen beskrivs letandet efter friktionen i <a href=\"/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den\">artikeln om en mekanism som kärvar</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "När du inte ska limma delen utan be om en ersättning",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "nar-du-inte-ska-limma-delen-utan-be-om-en-ersattning"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "De flesta brott är värda att laga, men ibland är det klokare att byta delen. Överväg en ersättningsdel när:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "en bärande del i ramen har spruckit, eftersom sådana lagningar sällan ger tillbaka tillräcklig styrka för att hålla resten av bygget,",
+            "items": []
+          },
+          {
+            "content": "flera större bärande delar har gått av samtidigt,",
+            "items": []
+          },
+          {
+            "content": "en större bit material saknas, eftersom spackel vid större luckor slutar se övertygande ut.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Många tillverkare av byggsatser erbjuder ersättningsdelar. Tillverkarens kontaktuppgifter finns oftast i instruktionen, ofta på dess sista sida. Skicka ett foto av sidan i instruktionen där den saknade delen finns och med det dess nummer, satsens namn eller kod och uppgifterna från beställningen."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Saknar du bara ett litet utskott som bara justerade delarna? Bygget håller ofta utan det, om inte instruktionen anger något annat: limma kanterna direkt och stötta fogen från den osynliga sidan med en remsa tunt trä eller en tandpetare. En platt del som saknas kan du tillfälligt klippa ut av tunn kartong efter konturen i instruktionen, och en stolpe kan du ersätta med en rund tandpetare avkortad till rätt längd. Prova ersättningen utan lim först, eftersom den är mindre exakt än originaldelen."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Så bryter du loss delar utan att de spricker",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sa-bryter-du-loss-delar-utan-att-de-spricker"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "De flesta brott uppstår vid två moment: när du bryter loss en del ur plattan och när du sätter i en del som inte passar. Båda momenten går att klara med teknik."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Titta på plattan mot ljuset.</strong> En del med en hårfin spricka eller en halvt avriven brygga bryter du loss extra försiktigt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lägg plattan platt på bordet.</strong> I luften böjer den sig, och delen spricker då lättare.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tryck med tummen bakifrån på plattan och stötta delens framsida med ett finger.</strong> Om delen står emot ska du inte trycka hårdare: leta efter vilken brygga som fortfarande håller.",
+            "items": []
+          },
+          {
+            "content": "<strong>På en del med flera bryggor lossar du dem en efter en.</strong> Trycket fördelas då gradvis och delen går inte av på en gång.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prova varje fog utan lim innan du limmar.</strong> Om den inte passar, ta reda på varför (fel del, fel läge) i stället för att pressa in den.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tryck ihop fogen vid utskottets bas, inte på dess spets.</strong> Ett utskott går av på det tunnaste stället, som oftast är där det möter spåret.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Om tillverkaren i instruktionen rekommenderar ett annat sätt att bryta loss eller sätta i delarna, följ tillverkarens instruktion."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Vanliga frågor",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vanliga-fragor"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Går en sprucken träbit fortfarande att limma?</h3>\n    <p style=\"margin:0;\">Ja, om du har alla bitar och kanterna passar ihop utan glapp. Använd vitt trälim, inte sekundlim.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hur länge ska en limmad del torka?</h3>\n    <p style=\"margin:0;\">Rör den inte de första cirka 30 minuterna. En del som bär något låter du torka flera timmar, helst över natten.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kan jag använda sekundlim till lagningen?</h3>\n    <p style=\"margin:0;\">Det är inte förstahandsvalet. Det härdar nästan direkt, så du hinner inte justera delen, och när det härdat är det sprött.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vad gör jag om en del saknas helt?</h3>\n    <p style=\"margin:0;\">Kontakta tillverkaren av satsen och skicka satsens kod, delens nummer från instruktionen och ett foto av sidan i instruktionen. En platt del kan du tillfälligt klippa ut av tunn kartong.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

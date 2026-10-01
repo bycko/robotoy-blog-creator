@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "de",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Gesprungenes Holzteil: so reparierst du es und baust weiter",
+  "description": "Ist dir ein dünnes Holzteil beim Herauslösen aus der Platte gebrochen? Wenn du alle Bruchstücke hast und die Kanten aneinanderpassen, lässt es sich mit Holzleim kleben. Bei einem tragenden Teil oder einem fehlenden Stück ist ein Ersatzteil besser.",
+  "seo_title": "Gesprungenes Holzteil: so klebst du es und baust weiter",
+  "seo_description": "Ist dir beim Bauen ein Holzteil gebrochen? Finde heraus, wann du klebst, welchen Leim du nimmst, wie lange er trocknet und wann ein Ersatzteil besser ist.",
+  "slug": "gesprungenes-holzteil-so-reparierst-du-es-und-baust-weiter",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Gesprungenes Holzteil: so reparierst du es und baust weiter"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein gebrochenes dünnes Teil lässt sich in vielen Fällen kleben, und du kannst weiterbauen. Entscheidend ist, ob du alle Bruchstücke hast und ob ihre Kanten ohne Spalt aneinanderpassen: Dann genügen Holzleim, eine dünne Schicht und etwas Geduld. Als Erstes legst du die Bruchstücke auf ein Blatt Papier und klebst noch nichts."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein Bruch beim Herauslösen oder Einstecken eines Teils ist häufig und kein Zeichen dafür, dass du etwas falsch gemacht hast: Dünne Teile, kleine Zapfen und die Stege, die das Teil in der Platte halten, sind von Natur aus zerbrechlich. Ob du das Teil klebst, hängt von der Form des Bruchs ab und davon, was das Teil im Bau hält."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Inhalt des Artikels</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#so-beurteilst-du-den-bruch-bevor-du-etwas-klebst\">So beurteilst du den Bruch, bevor du etwas klebst</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#welchen-leim-du-nimmst-und-wie-lange-die-verbindung-trocknen-muss\">Welchen Leim du nimmst und wie lange die Verbindung trocknen muss</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#so-klebst-du-einen-glatten-bruch-und-mehrere-bruchstucke\">So klebst du einen glatten Bruch und mehrere Bruchstücke</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#wann-du-das-teil-nicht-klebst-und-ein-ersatzteil-anfragst\">Wann du das Teil nicht klebst und ein Ersatzteil anfragst</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#so-lost-du-teile-heraus-ohne-dass-sie-brechen\">So löst du Teile heraus, ohne dass sie brechen</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#haufige-fragen\">Häufige Fragen</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "So beurteilst du den Bruch, bevor du etwas klebst",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "so-beurteilst-du-den-bruch-bevor-du-etwas-klebst"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Lege alle Stücke auf ein sauberes Blatt Papier, ungefähr an ihre ursprüngliche Stelle. Du siehst sofort, wie viele Bruchstücke du hast, welche zusammengehören und ob etwas fehlt. Ein frischer Bruch lässt sich sauberer kleben als einer, den du nach dem Brechen mehrmals aneinandergelegt und gebogen hast, deshalb lass die Bruchstücke lieber liegen."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Lege die Kanten ohne Leim aneinander.</strong> Wenn sie ohne sichtbaren Spalt passen, ist es ein glatter Bruch, und die Reparatur ist einfach. Wenn die Kanten nicht passen, klebe nicht und folge dem Abschnitt über mehrere Bruchstücke.",
+            "items": []
+          },
+          {
+            "content": "<strong>Zähle die Bruchstücke.</strong> Zwei Stücke bedeuten einen glatten Bruch. Bei drei oder mehr klebst du die Bruchstücke nacheinander, nicht alle auf einmal.",
+            "items": []
+          },
+          {
+            "content": "<strong>Finde in der Anleitung heraus, was das Teil im Bau hält.</strong> Bei einem Zierteil genügt das Kleben. Bei einem tragenden Teil des Rahmens gibt die Klebestelle allein vielleicht nicht genug Festigkeit zurück, deshalb lies auch den Abschnitt über das Ersatzteil.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prüfe, ob kein Stück fehlt.</strong> Ein kleines fehlendes Splitterchen lässt sich mit Spachtelmasse füllen, bei einem größeren fehlenden Stück ist es einfacher, ein Ersatzteil zu besorgen.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Welchen Leim du nimmst und wie lange die Verbindung trocknen muss",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "welchen-leim-du-nimmst-und-wie-lange-die-verbindung-trocknen-muss"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Zum Kleben von Holz auf Holz nimm weißen Holzleim (PVA, also den üblichen weißen Leim für Holz). Er zieht in die Holzfasern ein und lässt dir einige Minuten, um das Teil auszurichten. Sekundenkleber wird bei dieser Reparatur nicht als erste Wahl empfohlen: Er trocknet fast sofort, sodass du das Teil nicht mehr ausrichten kannst, und nach dem Aushärten ist er hart und spröde, sodass die Verbindung bei gleicher Belastung wieder brechen kann."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Trage den Leim nicht direkt aus der Flasche auf. Gib einen Tropfen auf eine Wegwerffläche, zum Beispiel einen Plastikdeckel oder ein Stück Wachspapier, und übertrage ihn mit einem Zahnstocher auf die Klebestelle. Die Schicht soll dünn und kaum sichtbar sein. Bei zu viel Leim wird er beim Zusammendrücken herausgepresst, lässt sich schlecht verbergen und kann das Holz durchfeuchten."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Bewege die Verbindung die ersten etwa 30 Minuten nicht. Die volle Festigkeit erreicht der Leim erst später, deshalb lass ein Teil, das etwas trägt, mehrere Stunden trocknen, am besten über Nacht, und baue erst dann darauf weiter. Wenn die Angaben auf der Verpackung deines Leims von diesem Bereich abweichen, richte dich nach der Verpackung."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "weißer Holzleim und ein Zahnstocher,",
+            "items": []
+          },
+          {
+            "content": "eine Wegwerffläche für den Leim (Deckel, Wachspapier),",
+            "items": []
+          },
+          {
+            "content": "Malerkrepp, ein kleines Gummiband oder ein kleines Gewicht zum Andrücken der Verbindung,",
+            "items": []
+          },
+          {
+            "content": "ein leicht feuchtes Tuch, um herausgepressten Leim abzuwischen,",
+            "items": []
+          },
+          {
+            "content": "feines Schleifpapier, um raue Kanten zu glätten.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Weitere Hilfsmittel, die sich beim Zusammenbau lohnen, findest du im <a href=\"/bloggen/10-werkzeuge-die-sie-zum-zusammenbau-eines-3d-holzpuzzles-benotigen\">Artikel über Werkzeuge zum Zusammenbau eines Holzpuzzles</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> Eine flache Verbindung kannst du statt mit Klebeband mit einer Münze beschweren, damit auf dem Holz keine Spuren vom Band zurückbleiben. Wenn du die Verbindung mit Band hältst, spanne es nur leicht, damit es die Stelle sanft andrückt.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "So klebst du einen glatten Bruch und mehrere Bruchstücke",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "so-klebst-du-einen-glatten-bruch-und-mehrere-bruchstucke"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Bei einem glatten Bruch gehst du nach dem vor, was du siehst und tust: zuerst die Kanten, dann der Leim, am Ende Fixieren und Trocknen."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Die Kanten passen ohne Spalt: Du kannst kleben.</strong> Bleibt ein Spalt, klebe nicht. Die Verbindung wäre sichtbar und schwächer, deshalb geh zurück zum Abschnitt über mehrere Bruchstücke.",
+            "items": []
+          },
+          {
+            "content": "<strong>Leim und Andrücken.</strong> Verteile mit einem Zahnstocher eine dünne Schicht Leim auf der Klebestelle, drücke die Teile fest und gleichmäßig zusammen, nicht mit Kraft, und halte sie etwa eine Minute. Bei richtigem Druck wird nur eine winzige Menge Leim aus der Verbindung gepresst, die du sofort mit einem leicht feuchten Tuch abwischst.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fixieren und Trocknen.</strong> Halte die Verbindung mit Klebeband, bei einem runden Teil mit einem Gummiband und bei einem flachen Teil mit einem Gewicht. Bewege sie die ersten etwa 30 Minuten nicht und lass ein tragendes Teil mehrere Stunden bis über Nacht trocknen.",
+            "items": []
+          },
+          {
+            "content": "<strong>Die Fuge nach dem Trocknen.</strong> Entferne das Band erst nach dem Trocknen. Bleibt eine feine Fuge, drücke etwas Holzspachtel hinein, lass ihn trocknen und schleife leicht nach.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Bei drei oder mehr Bruchstücken klebe nicht alles auf einmal, denn mehrere lose Stücke verrutschen beim Halten leicht. Klebe zuerst die zwei größten Bruchstücke zusammen und lass sie vollständig trocknen. Füge dann die weiteren nacheinander hinzu und gib jedem Zeit, sich zu verbinden."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein geklebtes Teil ist an der Bruchstelle schwächer als das Original. Wenn es geht, klebe auf die unsichtbare Rückseite einen dünnen Streifen steifes Papier oder dünnes Holz, etwas kleiner als das Teil, damit er verborgen bleibt."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Probiere das reparierte Teil zuerst trocken an seinem Platz aus. Wenn ein Zapfen zu stramm sitzt: Rät die Anleitung bei diesem Teil zu etwas anderem, richte dich danach; sonst schleife ihn leicht mit feinem Schleifpapier der Körnung um 220, bis das Teil leicht hineingeht, und probiere das Teil nach jedem Schleifen erneut trocken. Wenn nach der Reparatur ein bewegliches Teil klemmt, beschreibt die Suche nach der Reibung der <a href=\"/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen\">Artikel über einen klemmenden Mechanismus</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Wann du das Teil nicht klebst und ein Ersatzteil anfragst",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "wann-du-das-teil-nicht-klebst-und-ein-ersatzteil-anfragst"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Die meisten Brüche sind eine Reparatur wert, manchmal ist aber ein Austausch des Teils vernünftiger. Denke an ein Ersatzteil, wenn:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "ein tragendes Teil des Rahmens gebrochen ist, weil solche Reparaturen nur selten genug Festigkeit zurückbringen, um den Rest des Baus zu halten,",
+            "items": []
+          },
+          {
+            "content": "mehrere größere tragende Teile gleichzeitig gebrochen sind,",
+            "items": []
+          },
+          {
+            "content": "ein größeres Stück Material fehlt, weil Spachtelmasse bei größeren Lücken nicht mehr überzeugend aussieht.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Viele Hersteller von Bausätzen bieten Ersatzteile an. Der Kontakt zum Hersteller steht meist in der Anleitung, oft auf der letzten Seite. Schicke ein Foto der Seite der Anleitung, auf der das fehlende Teil abgebildet ist, dazu seine Nummer, den Namen oder Code des Bausatzes und die Angaben aus deiner Bestellung."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Fehlt dir nur ein kleiner Zapfen, der die Teile lediglich ausgerichtet hat? Der Bau hält ohne ihn oft, wenn die Anleitung nichts anderes vorgibt: Klebe die Kanten direkt zusammen und stütze die Verbindung von der unsichtbaren Seite mit einem Streifen dünnem Holz oder einem Zahnstocher. Ein flaches fehlendes Teil kannst du vorübergehend aus dünnem Karton nach dem Umriss in der Anleitung ausschneiden, einen Pfosten durch einen auf Länge gekürzten runden Zahnstocher ersetzen. Probiere den Ersatz zuerst trocken aus, denn er ist weniger präzise als das Originalteil."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "So löst du Teile heraus, ohne dass sie brechen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "so-lost-du-teile-heraus-ohne-dass-sie-brechen"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Die meisten Brüche entstehen bei zwei Tätigkeiten: beim Herauslösen eines Teils aus der Platte und beim Einstecken eines Teils, das nicht passt. Beide Momente lassen sich mit Technik beherrschen."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Prüfe die Platte gegen das Licht.</strong> Ein Teil mit einem Haarriss oder einem halb abgerissenen Steg löse besonders vorsichtig heraus.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lege die Platte flach auf den Tisch.</strong> In der Luft biegt sie sich, und das Teil bricht dann leichter.",
+            "items": []
+          },
+          {
+            "content": "<strong>Drücke mit dem Daumen von der Rückseite der Platte und stütze die Vorderseite des Teils mit einem Finger.</strong> Wenn das Teil sich wehrt, drücke nicht stärker: Suche, welcher Steg noch hält.",
+            "items": []
+          },
+          {
+            "content": "<strong>Löse bei einem Teil mit mehreren Stegen einen nach dem anderen.</strong> Der Druck verteilt sich so allmählich, und das Teil bricht nicht auf einmal.",
+            "items": []
+          },
+          {
+            "content": "<strong>Probiere vor dem Kleben jede Verbindung trocken aus.</strong> Wenn sie nicht passt, finde heraus, warum (falsches Teil, falsche Lage), statt sie durchzudrücken.",
+            "items": []
+          },
+          {
+            "content": "<strong>Stecke die Verbindung mit Druck am Fuß des Zapfens zusammen, nicht an seiner Spitze.</strong> Ein Zapfen bricht an der dünnsten Stelle, die meist dort liegt, wo er auf die Nut trifft.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Empfiehlt der Hersteller in der Anleitung eine andere Art des Herauslösens oder Einsteckens, richte dich nach seiner Anleitung."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Häufige Fragen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "haufige-fragen"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Lässt sich ein gebrochenes Holzteil noch kleben?</h3>\n    <p style=\"margin:0;\">Ja, wenn du alle Bruchstücke hast und ihre Kanten ohne Spalt aneinanderpassen. Nimm weißen Holzleim, keinen Sekundenkleber.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wie lange muss ein geklebtes Teil trocknen?</h3>\n    <p style=\"margin:0;\">Bewege es die ersten etwa 30 Minuten nicht. Ein Teil, das etwas trägt, lass mehrere Stunden trocknen, am besten über Nacht.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kann ich für die Reparatur Sekundenkleber verwenden?</h3>\n    <p style=\"margin:0;\">Er ist nicht die erste Wahl. Er trocknet fast sofort, sodass du das Teil nicht mehr ausrichten kannst, und nach dem Aushärten ist er spröde.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Was tun, wenn mir ein Teil ganz fehlt?</h3>\n    <p style=\"margin:0;\">Wende dich an den Hersteller des Bausatzes und schicke den Code des Bausatzes, die Teilenummer aus der Anleitung und ein Foto der Seite der Anleitung. Ein flaches Teil kannst du vorübergehend aus dünnem Karton ausschneiden.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/bloggen/10-werkzeuge-die-sie-zum-zusammenbau-eines-3d-holzpuzzles-benotigen",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

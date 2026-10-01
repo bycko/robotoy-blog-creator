@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "hu",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Megrepedt fa alkatrész: így javítsd meg, és építs tovább",
+  "description": "Megrepedt egy vékony fa alkatrész, amikor kinyomtad a lapból? Ha megvan az összes töredék, és az éleik illeszkednek, faragasztóval összeragasztható. Teherviselő alkatrésznél vagy hiányzó darabnál jobb a pótalkatrész.",
+  "seo_title": "Megrepedt fa alkatrész: így ragaszd meg, és építs tovább",
+  "seo_description": "Megrepedt egy fa alkatrész építés közben? Megtudhatod, mikor ragaszd meg, milyen ragasztót használj, mennyi ideig száradjon, és mikor kérj pótalkatrészt.",
+  "slug": "megrepedt-fa-alkatresz-igy-javitsd-meg-es-epits-tovabb",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Megrepedt fa alkatrész: így javítsd meg, és építs tovább"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A megrepedt vékony alkatrész sok esetben összeragasztható, és folytathatod az építést. Az dönt, hogy megvan-e az összes töredék, és az éleik rés nélkül illeszkednek-e: ilyenkor elég a faragasztó, egy vékony réteg és egy kis türelem. Először is rakd a töredékeket egy papírlapra, és egyelőre ne ragassz semmit."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "A törés az alkatrész kinyomásakor vagy behelyezésekor gyakori, és nem jelenti azt, hogy hibáztál: a vékony alkatrészek, az apró kitüremkedések és a hidak, amelyek a lapban tartják az alkatrészt, természetüknél fogva törékenyek. Hogy megragasztod-e az alkatrészt, a törés alakján és azon múlik, mit tart az alkatrész az építményben."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>A cikk tartalma</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#hogyan-iteld-meg-a-torest-mielott-barmit-megragasztanal\">Hogyan ítéld meg a törést, mielőtt bármit megragasztanál</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#milyen-ragasztot-hasznalj-es-mennyi-ideig-szaradjon-a-kotes\">Milyen ragasztót használj, és mennyi ideig száradjon a kötés</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hogyan-ragaszd-meg-a-tiszta-torest-es-a-tobb-toredeket\">Hogyan ragaszd meg a tiszta törést és a több töredéket</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#mikor-ne-ragaszd-meg-az-alkatreszt-es-kerj-potalkatreszt\">Mikor ne ragaszd meg az alkatrészt, és kérj pótalkatrészt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hogyan-nyomd-ki-az-alkatreszeket-hogy-ne-repedjenek-meg\">Hogyan nyomd ki az alkatrészeket, hogy ne repedjenek meg</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#gyakori-kerdesek\">Gyakori kérdések</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Hogyan ítéld meg a törést, mielőtt bármit megragasztanál",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hogyan-iteld-meg-a-torest-mielott-barmit-megragasztanal"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Tedd az összes darabot egy tiszta papírlapra, nagyjából az eredeti helyükre. Rögtön látni fogod, hány töredéked van, melyek tartoznak össze, és hiányzik-e valami. A friss törés tisztábban ragasztható, mint az, amelyet a repedés után többször egymáshoz illesztettél és meghajlítottál, ezért a töredékeket inkább hagyd fekve."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Illeszd az éleket egymáshoz ragasztó nélkül.</strong> Ha látható rés nélkül illeszkednek, tiszta törésről van szó, és a javítás egyszerű. Ha az élek nem illeszkednek, ne ragassz, hanem kövesd a több töredékről szóló részt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Számold meg a töredékeket.</strong> Két darab tiszta törést jelent. Három vagy több azt jelenti, hogy a töredékeket egyenként ragasztod, nem mindet egyszerre.",
+            "items": []
+          },
+          {
+            "content": "<strong>Nézd meg az útmutatóban, mit tart az alkatrész az építményben.</strong> Díszítő alkatrésznél elég a ragasztás. A váz teherviselő alkatrészénél maga a kötés nem biztos, hogy visszaadja a kellő szilárdságot, ezért nézd meg a pótalkatrészről szóló részt is.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ellenőrizd, hogy nem hiányzik-e valamelyik darab.</strong> A hiányzó apró szilánkot ki lehet tömíteni gittel, nagyobb hiányzó résznél egyszerűbb pótalkatrészt szerezni.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Milyen ragasztót használj, és mennyi ideig száradjon a kötés",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "milyen-ragasztot-hasznalj-es-mennyi-ideig-szaradjon-a-kotes"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Fa fához ragasztásához használj fehér faragasztót (PVA, vagyis a szokásos fehér ragasztó fához). Beszívódik a fa szálaiba, és néhány percet hagy az alkatrész kiigazítására. A pillanatragasztót ennél a javításnál nem ajánlott első választásnak: szinte azonnal megköt, így nem marad időd kiigazítani az alkatrészt, és megkötés után kemény és törékeny, ezért a kötés ugyanakkora terhelésnél újra eltörhet."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Ne közvetlenül a flakonból vidd fel a ragasztót. Cseppents egy cseppet eldobható felületre, például műanyag kupakra vagy egy darab viaszolt papírra, és fogpiszkálóval vidd át a kötésre. A réteg legyen vékony, alig látható. A felesleges ragasztó összenyomáskor kipréselődik, nehezen rejthető el, és átnedvesítheti a fát."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "A kötést az első körülbelül 30 percben ne mozgasd. A ragasztó teljes szilárdságát hosszabb idő alatt éri el, ezért a terhet viselő alkatrészt hagyd több órát száradni, lehetőleg egész éjszaka, és csak utána építs tovább rá. Ha a ragasztód csomagolásán lévő adatok eltérnek ettől a tartománytól, a csomagolást kövesd."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "fehér faragasztó és fogpiszkáló,",
+            "items": []
+          },
+          {
+            "content": "eldobható felület a ragasztónak (kupak, viaszolt papír),",
+            "items": []
+          },
+          {
+            "content": "festőszalag, kis gumigyűrű vagy kis súly a kötés összenyomására,",
+            "items": []
+          },
+          {
+            "content": "enyhén nedves rongy a kipréselődött ragasztó letörlésére,",
+            "items": []
+          },
+          {
+            "content": "finom csiszolópapír a durva élek elsimítására.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "További segédeszközök, amelyek az összeszereléskor jól jönnek, <a href=\"/blog/10-eszkoz-amire-szukseged-lesz-egy-fabol-keszult-3d-puzzle-osszeallitasahoz\">a fa puzzle összeszereléséhez szükséges szerszámokról szóló cikkben</a> vannak."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> A lapos kötést szalag helyett érmével is leterhelheted, hogy a szalag ne hagyjon nyomot a fán. Ha szalaggal tartod a kötést, csak enyhén feszítsd meg, hogy könnyedén nyomja.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Hogyan ragaszd meg a tiszta törést és a több töredéket",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hogyan-ragaszd-meg-a-tiszta-torest-es-a-tobb-toredeket"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Tiszta töréskor azt kövesd, amit látsz és teszel: először az élek, aztán a ragasztó, végül a rögzítés és a száradás."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Az élek rés nélkül illeszkednek: ragaszthatsz.</strong> Ha rés marad, ne ragassz. A kötés látható és gyengébb lenne, ezért menj vissza a több töredékről szóló részhez.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ragasztó és összenyomás.</strong> Fogpiszkálóval kend a kötésre vékony réteg ragasztót, az alkatrészeket nyomd össze határozottan és egyenletesen, nem erővel, és tartsd őket körülbelül egy percig. Helyes nyomásnál a kötésből csak jelentéktelen mennyiségű ragasztó préselődik ki, amit azonnal letörölsz egy enyhén nedves ronggyal.",
+            "items": []
+          },
+          {
+            "content": "<strong>Rögzítés és száradás.</strong> A kötést tartsd szalaggal, kerek alkatrésznél gumigyűrűvel, lapos alkatrésznél súllyal. Az első körülbelül 30 percben ne mozgasd, a teherviselő alkatrészt pedig hagyd több órát, akár egész éjszaka száradni.",
+            "items": []
+          },
+          {
+            "content": "<strong>A rés száradás után.</strong> A szalagot csak a száradás után told el. Ha vékony rés marad, nyomj bele egy kis fagittet, hagyd megszáradni, és finoman csiszold le.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Három vagy több töredéknél ne ragassz mindent egyszerre, mert több szabad darab tartás közben könnyen elcsúszik. Először ragaszd össze a két legnagyobb töredéket, és hagyd teljesen megszáradni. Aztán egyenként add hozzá a többit, és mindegyiknek hagyj időt, hogy megfogjon."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "A megragasztott alkatrész a törés helyén gyengébb az eredetinél. Ha lehet, ragassz a nem látható hátoldalára egy vékony csík merev papírt vagy vékony fát, az alkatrésznél valamivel kisebbet, hogy rejtve maradjon."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "A megjavított alkatrészt először próbáld ragasztó nélkül a helyére illeszteni. Ha egy kitüremkedés túl szoros: ha az útmutató ennél az alkatrésznél mást tanácsol, azt kövesd; különben finoman csiszold le körülbelül 220-as szemcséjű finom csiszolópapírral, amíg az alkatrész könnyen a helyére nem kerül, és minden csiszolás után próbáld újra az alkatrészt ragasztó nélkül. Ha a javítás után egy mozgó alkatrész elakad, a súrlódás keresését <a href=\"/blog/elakad-a-szerkezet-keresd-meg-a-surlodast-es-szuntesd-meg\">az elakadó szerkezetről szóló cikk</a> írja le."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Mikor ne ragaszd meg az alkatrészt, és kérj pótalkatrészt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mikor-ne-ragaszd-meg-az-alkatreszt-es-kerj-potalkatreszt"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "A legtöbb törést érdemes megjavítani, de néha ésszerűbb az alkatrészt kicserélni. Gondolj pótalkatrészre, ha:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "megrepedt a váz teherviselő alkatrésze, mert az ilyen javítások ritkán adják vissza elég szilárdságot ahhoz, hogy megtartsák az építmény többi részét,",
+            "items": []
+          },
+          {
+            "content": "egyszerre több nagyobb teherviselő alkatrész tört el,",
+            "items": []
+          },
+          {
+            "content": "nagyobb darab anyag hiányzik, mert a gitt nagyobb réseknél már nem tűnik meggyőzőnek.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Sok készletgyártó kínál pótalkatrészt. A gyártó elérhetősége általában az útmutatóban van, gyakran annak utolsó oldalán. Küldj fényképet az útmutató azon oldaláról, amelyen a hiányzó alkatrész látható, és mellé a számát, a készlet nevét vagy kódját és a rendelés adatait."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Csak egy kis kitüremkedés hiányzik, amely az alkatrészeket csupán igazította? Az építmény gyakran nélküle is megáll, ha az útmutató mást nem ír elő: az éleket ragaszd össze közvetlenül, a kötést pedig a nem látható oldalról támaszd meg egy vékony fa csíkkal vagy fogpiszkálóval. A hiányzó lapos alkatrészt ideiglenesen kivághatod vékony kartonból az útmutatóban látható körvonal szerint, az oszlopot pedig lecserélheted hosszra rövidített kerek fogpiszkálóra. A pótlást először próbáld ragasztó nélkül, mert kevésbé pontos, mint az eredeti alkatrész."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Hogyan nyomd ki az alkatrészeket, hogy ne repedjenek meg",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hogyan-nyomd-ki-az-alkatreszeket-hogy-ne-repedjenek-meg"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "A legtöbb törés két tevékenység közben keletkezik: amikor az alkatrészt kinyomod a lapból, és amikor egy nem illeszkedő alkatrészt tolsz be. Mindkét pillanat technikával kezelhető."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Nézd át a lapot fény felé tartva.</strong> A hajszálrepedéses vagy félig letört hídú alkatrészt rendkívül óvatosan nyomd ki.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tedd a lapot laposan az asztalra.</strong> A levegőben meghajlik, és az alkatrész akkor könnyebben törik.",
+            "items": []
+          },
+          {
+            "content": "<strong>Nyomd hüvelykujjal a lap hátuljáról, az alkatrész elülső oldalát pedig támaszd meg ujjal.</strong> Ha az alkatrész ellenáll, ne nyomd erősebben: keresd meg, melyik híd tart még.",
+            "items": []
+          },
+          {
+            "content": "<strong>Több hidas alkatrésznél egymás után oldd ki őket.</strong> A nyomás így fokozatosan oszlik el, és az alkatrész nem törik el egyszerre.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ragasztás előtt próbálj ki minden illesztést ragasztó nélkül.</strong> Ha nem illeszkedik, derítsd ki, miért (rossz alkatrész, rossz helyzet), ahelyett, hogy erőltetnéd.",
+            "items": []
+          },
+          {
+            "content": "<strong>Az illesztést a kitüremkedés tövénél nyomva told be, ne a csúcsán.</strong> A kitüremkedés a legvékonyabb helyen törik, ami általában ott van, ahol a hornyot éri.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Ha a gyártó az útmutatóban más módot javasol a kinyomásra vagy a behelyezésre, az ő útmutatóját kövesd."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Gyakori kérdések",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "gyakori-kerdesek"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ragasztható még a megrepedt fa alkatrész?</h3>\n    <p style=\"margin:0;\">Igen, ha megvan az összes töredék, és az éleik rés nélkül illeszkednek. Használj fehér faragasztót, ne pillanatragasztót.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mennyi ideig száradjon a megragasztott alkatrész?</h3>\n    <p style=\"margin:0;\">Az első körülbelül 30 percben ne mozgasd. A terhet viselő alkatrészt hagyd több órát száradni, lehetőleg egész éjszaka.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Használhatok pillanatragasztót a javításhoz?</h3>\n    <p style=\"margin:0;\">Nem ez az első választás. Szinte azonnal megköt, így nem marad időd kiigazítani az alkatrészt, és megkötés után törékeny.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mit tegyek, ha egy alkatrész teljesen hiányzik?</h3>\n    <p style=\"margin:0;\">Fordulj a készlet gyártójához, és küldd el a készlet kódját, az alkatrész számát az útmutatóból és az útmutató oldalának fényképét. A lapos alkatrészt ideiglenesen kivághatod vékony kartonból.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-eszkoz-amire-szukseged-lesz-egy-fabol-keszult-3d-puzzle-osszeallitasahoz",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/elakad-a-szerkezet-keresd-meg-a-surlodast-es-szuntesd-meg",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

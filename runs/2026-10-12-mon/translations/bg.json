@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "bg",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Спукана дървена част: как да я поправиш и да продължиш",
+  "description": "Спука ли ти се тънка дървена част, докато я изваждаше от плочата? Ако имаш всички парчета и краищата им си пасват, може да се залепи с лепило за дърво. При носеща част или липсващо парче е по-добре да поискаш резервна част.",
+  "seo_title": "Спукана дървена част: как да я залепиш и да продължиш",
+  "seo_description": "Спука ли ти се дървена част при сглобяването? Виж кога да я залепиш, кое лепило да ползваш, колко да съхне и кога да поискаш резервна част.",
+  "slug": "spukana-drvena-chast-kak-da-ia-popravysh-y-da-prodlzhysh",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Спукана дървена част: как да я поправиш и да продължиш"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Спуканата тънка част в много случаи може да се залепи и ти можеш да продължиш със сглобяването. Решаващо е дали имаш всички парчета и дали краищата им си пасват без процеп: тогава стигат лепило за дърво, тънък слой и малко търпение. Първото, което да направиш, е да подредиш парчетата върху лист хартия и засега нищо да не лепиш."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Счупването при изваждане или поставяне на част е често срещано и не означава грешка от твоя страна: тънките части, дребните издатини и мостчетата, които държат частта в плочата, са крехки по природа. Дали да залепиш частта, зависи от формата на счупването и от това, какво частта държи в конструкцията."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Съдържание на статията</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kak-da-pretsenysh-schupvaneto-predy-da-zalepysh-kakvoto-y-da-e\">Как да прецениш счупването, преди да залепиш каквото и да е</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kakvo-lepylo-da-polzvash-y-kolko-dlgo-da-skhne-sedynenyeto\">Какво лепило да ползваш и колко дълго да съхне съединението</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kak-da-zalepysh-chysto-schupvane-y-niakolko-parcheta\">Как да залепиш чисто счупване и няколко парчета</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#koga-da-ne-zalepiash-chastta-y-da-poyskash-rezervna\">Кога да не залепяш частта и да поискаш резервна</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kak-da-yzvazhdash-chastyte-bez-da-se-spukvat\">Как да изваждаш частите, без да се спукват</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#chesto-zadavany-vprosy\">Често задавани въпроси</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Как да прецениш счупването, преди да залепиш каквото и да е",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kak-da-pretsenysh-schupvaneto-predy-da-zalepysh-kakvoto-y-da-e"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Постави всички парчета върху чист лист хартия, приблизително на първоначалните им места. Веднага ще видиш колко парчета имаш, кои си пасват и дали нещо липсва. Прясното счупване се лепи по-чисто от такова, което след спукването е многократно слагано и огъвано, затова по-добре остави парчетата да лежат."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Долепи краищата един до друг без лепило.</strong> Ако пасват без видим процеп, това е чисто счупване и поправката е лесна. Ако краищата не си пасват, не лепи и следвай частта за няколко парчета.",
+            "items": []
+          },
+          {
+            "content": "<strong>Преброй парчетата.</strong> Две парчета означават чисто счупване. Три или повече означава, че ще лепиш парчетата едно по едно, а не всички наведнъж.",
+            "items": []
+          },
+          {
+            "content": "<strong>Разбери от инструкцията какво държи частта в конструкцията.</strong> При декоративна част стига залепването. При носеща част на рамката самото съединение може да не върне достатъчна здравина, затова погледни и частта за резервната част.",
+            "items": []
+          },
+          {
+            "content": "<strong>Провери дали не липсва някое парче.</strong> Липсващо малко парченце може да се запълни с шпакловка, а при по-голяма липсваща част е по-лесно да се набави резервна част.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Какво лепило да ползваш и колко дълго да съхне съединението",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kakvo-lepylo-da-polzvash-y-kolko-dlgo-da-skhne-sedynenyeto"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "За лепене на дърво с дърво ползвай бяло лепило за дърво (PVA, тоест обикновеното бяло лепило за дърво). Попива в дървесните влакна и ти оставя няколко минути да подравниш частта. Секундното лепило не се препоръчва като първи избор при тази поправка: засъхва почти мигновено, така че не успяваш да подравниш частта, а след засъхване е твърдо и крехко, затова съединението може при същото натоварване да се счупи отново."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Не нанасяй лепилото направо от шишето. Капни една капка върху повърхност за изхвърляне, например пластмасово капаче или парче вощена хартия, и я пренеси върху съединението с клечка за зъби. Слоят трябва да е тънък, едва видим. От излишъка лепилото се изстисква при притискане, трудно се скрива и може да навлажни дървото."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Не докосвай съединението през първите около 30 минути. Лепилото придобива пълна здравина по-дълго, затова оставяй част, която носи нещо, да съхне няколко часа, за предпочитане през нощта, и едва тогава продължавай да сглобяваш върху нея. Ако данните на опаковката на твоето лепило се различават от този диапазон, ръководи се от опаковката."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "бяло лепило за дърво и клечка за зъби,",
+            "items": []
+          },
+          {
+            "content": "повърхност за лепилото, която можеш да изхвърлиш (капаче, вощена хартия),",
+            "items": []
+          },
+          {
+            "content": "маскираща лента, малко ластиче или малка тежест за притискане на съединението,",
+            "items": []
+          },
+          {
+            "content": "леко влажна кърпичка за забърсване на изстисканото лепило,",
+            "items": []
+          },
+          {
+            "content": "фина шкурка за заглаждане на грубите краища.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Още помощни средства, които са удобни при сглобяването, има в <a href=\"/blog/10-ynstrumenta-ot-koyto-se-nuzhdaete-kogato-sglobiavate-drven-3d-pzel\">статията за инструментите за сглобяване на дървен пъзел</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Съвет:</strong> Плоско съединение можеш вместо с лента да натовариш с монета, за да не останат следи от лентата по дървото. Ако държиш съединението с лента, опъни я само леко, така че да го притиска нежно.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Как да залепиш чисто счупване и няколко парчета",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kak-da-zalepysh-chysto-schupvane-y-niakolko-parcheta"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "При чисто счупване следвай това, което виждаш и правиш: първо краищата, после лепилото, накрая задържането и съхненето."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Краищата пасват без процеп: можеш да лепиш.</strong> Ако остава процеп, не лепи. Съединението би било видимо и по-слабо, затова се върни към частта за няколко парчета.",
+            "items": []
+          },
+          {
+            "content": "<strong>Лепило и притискане.</strong> С клечка за зъби разнеси тънък слой лепило по съединението, притисни частите здраво и равномерно, без сила, и ги задръж около минута. При правилен натиск от съединението се изстисква само съвсем малко лепило, което веднага забърсваш с леко влажна кърпичка.",
+            "items": []
+          },
+          {
+            "content": "<strong>Задържане и съхнене.</strong> Дръж съединението с лента, при кръгла част с ластиче, а при плоска част с тежест. През първите около 30 минути не го докосвай, а носеща част остави да съхне няколко часа до цяла нощ.",
+            "items": []
+          },
+          {
+            "content": "<strong>Фугата след засъхване.</strong> Махни лентата едва след засъхването. Ако остане тънка фуга, втрий в нея малко шпакловка за дърво, остави я да засъхне и я шлифовай леко.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "При три или повече парчета не лепи всичко наведнъж, защото повече свободни парчета лесно се изместват, докато ги държиш. Първо залепи двете най-големи парчета и ги остави да засъхнат напълно. После добавяй останалите едно по едно и на всяко дай време да се захване."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Залепената част е на мястото на счупването по-слаба от първоначалната. Ако е възможно, залепи на невидимата ѝ задна страна тънка ивица твърда хартия или тънко дърво, малко по-малка от частта, за да остане скрита."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Поправената част първо пробвай да поставиш на мястото ѝ на сухо. Ако издатината е прекалено стегната: ако инструкцията за тази част съветва друго, следвай нея; иначе я шлифовай леко с фина шкурка със зърнистост около 220, докато частта влезе лесно, и след всяко шлифоване пробвай частта отново на сухо. Ако след поправката подвижна част заяжда, търсенето на триенето е описано в <a href=\"/blog/mekhanyzmt-zaiazhda-kak-da-otkryesh-tryeneto-y-da-go-makhnesh\">статията за заяждащ механизъм</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Кога да не залепяш частта и да поискаш резервна",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "koga-da-ne-zalepiash-chastta-y-da-poyskash-rezervna"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Повечето счупвания си струва да се поправят, но понякога по-разумна е смяната на частта. Помисли за резервна част, когато:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "се е спукала носеща част на рамката, защото такива поправки рядко връщат достатъчно здравина, за да удържат останалата част от конструкцията,",
+            "items": []
+          },
+          {
+            "content": "са счупени няколко по-големи носещи части едновременно,",
+            "items": []
+          },
+          {
+            "content": "липсва по-голямо парче материал, защото шпакловката при по-големи пролуки престава да изглежда убедително.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Много производители на комплекти предлагат резервни части. Контактът с производителя обикновено е в инструкцията, често на последната ѝ страница. Изпрати снимка на страницата от инструкцията, на която е липсващата част, и към нея нейния номер, името или кода на комплекта и данните от поръчката."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Липсва ли ти само малка издатина, която само е подравнявала частите? Конструкцията често издържа и без нея, освен ако инструкцията не указва друго: залепи краищата директно и подпри съединението от невидимата страна с ивица тънко дърво или клечка за зъби. Плоска липсваща част можеш временно да изрежеш от тънък картон по контура от инструкцията, а колонка да замениш с кръгла клечка за зъби, скъсена по дължина. Замяната първо пробвай на сухо, защото е по-неточна от оригиналната част."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Как да изваждаш частите, без да се спукват",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kak-da-yzvazhdash-chastyte-bez-da-se-spukvat"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Повечето счупвания стават при две действия: при изваждане на част от плочата и при вкарване на част, която не пасва. И двата момента могат да се овладеят с техника."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Огледай плочата срещу светлина.</strong> Част с косъмчеста пукнатина или наполовина откъснато мостче изваждай изключително внимателно.",
+            "items": []
+          },
+          {
+            "content": "<strong>Постави плочата плоско на масата.</strong> Във въздуха тя се огъва и частта тогава по-лесно се спуква.",
+            "items": []
+          },
+          {
+            "content": "<strong>Натискай с палец отзад на плочата, а лицевата страна на частта подпри с пръст.</strong> Ако частта се съпротивлява, не натискай по-силно: търси кое мостче още държи.",
+            "items": []
+          },
+          {
+            "content": "<strong>При част с няколко мостчета освобождавай едно след друго.</strong> Натискът така се разпределя постепенно и частта не се чупи наведнъж.",
+            "items": []
+          },
+          {
+            "content": "<strong>Преди лепенето пробвай всяко съединение на сухо.</strong> Ако не пасва, разбери защо (грешна част, грешно положение), вместо да го натискаш със сила.",
+            "items": []
+          },
+          {
+            "content": "<strong>Вкарвай съединението с натиск при основата на издатината, не на върха ѝ.</strong> Издатината се чупи на най-тънкото място, което обикновено е там, където се среща с улея.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Ако производителят в инструкцията препоръчва друг начин за изваждане или вкарване, ръководи се от неговата инструкция."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Често задавани въпроси",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "chesto-zadavany-vprosy"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Може ли спукана дървена част още да се залепи?</h3>\n    <p style=\"margin:0;\">Да, ако имаш всички парчета и краищата им пасват без процеп. Ползвай бяло лепило за дърво, не секундно.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Колко дълго да съхне залепената част?</h3>\n    <p style=\"margin:0;\">През първите около 30 минути не я докосвай. Част, която носи нещо, остави да съхне няколко часа, за предпочитане през нощта.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Мога ли да ползвам секундно лепило за поправката?</h3>\n    <p style=\"margin:0;\">Не е първи избор. Засъхва почти мигновено, така че не успяваш да подравниш частта, а след засъхване е крехко.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Какво да правя, ако една част ми липсва напълно?</h3>\n    <p style=\"margin:0;\">Обърни се към производителя на комплекта и изпрати кода на комплекта, номера на частта от инструкцията и снимка на страницата от инструкцията. Плоска част можеш временно да изрежеш от тънък картон.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-ynstrumenta-ot-koyto-se-nuzhdaete-kogato-sglobiavate-drven-3d-pzel",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mekhanyzmt-zaiazhda-kak-da-otkryesh-tryeneto-y-da-go-makhnesh",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

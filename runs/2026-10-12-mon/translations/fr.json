@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "fr",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Pièce en bois fissurée : comment la réparer et continuer",
+  "description": "Une pièce fine en bois s’est fissurée quand tu l’as détachée de la planche ? Si tu as tous les morceaux et que leurs bords s’ajustent, tu peux la recoller avec de la colle à bois. Pour une pièce porteuse ou un morceau manquant, mieux vaut une pièce de rechange.",
+  "seo_title": "Pièce en bois fissurée : comment la recoller et continuer",
+  "seo_description": "Une pièce en bois s’est fissurée ? Vois quand la recoller, quelle colle utiliser, combien de temps la laisser sécher et quand demander une pièce neuve.",
+  "slug": "piece-en-bois-fissuree-comment-la-reparer-et-continuer",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Pièce en bois fissurée : comment la réparer et continuer"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Une pièce fine fissurée peut souvent se recoller, et tu peux poursuivre la construction. Ce qui décide, c’est si tu as tous les morceaux et si leurs bords s’ajustent sans jeu : alors de la colle à bois, une couche mince et un peu de patience suffisent. La première chose à faire est de poser les morceaux sur une feuille de papier et de ne rien coller pour l’instant."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Une casse au moment de détacher ou d’insérer une pièce est courante et ne veut pas dire que tu as fait une erreur : les pièces fines, les petits ergots et les attaches qui retiennent la pièce dans la planche sont fragiles par nature. Recoller ou non la pièce dépend de la forme de la cassure et de ce que la pièce tient dans la construction."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Sommaire de l’article</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#comment-juger-la-cassure-avant-de-coller-quoi-que-ce-soit\">Comment juger la cassure avant de coller quoi que ce soit</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#quelle-colle-utiliser-et-combien-de-temps-laisser-secher-le-joint\">Quelle colle utiliser et combien de temps laisser sécher le joint</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#comment-recoller-une-cassure-nette-et-plusieurs-morceaux\">Comment recoller une cassure nette et plusieurs morceaux</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#quand-ne-pas-recoller-la-piece-et-demander-une-piece-de-rechange\">Quand ne pas recoller la pièce et demander une pièce de rechange</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#comment-detacher-les-pieces-pour-quelles-ne-se-fissurent-pas\">Comment détacher les pièces pour qu’elles ne se fissurent pas</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#questions-frequentes\">Questions fréquentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Comment juger la cassure avant de coller quoi que ce soit",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "comment-juger-la-cassure-avant-de-coller-quoi-que-ce-soit"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Pose tous les morceaux sur une feuille de papier propre, à peu près à leur place d’origine. Tu verras tout de suite combien de morceaux tu as, lesquels vont ensemble et s’il manque quelque chose. Une cassure fraîche se recolle plus proprement qu’une cassure que tu as rapprochée et pliée plusieurs fois après la casse, donc il vaut mieux laisser les morceaux en place."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Rapproche les bords sans colle.</strong> S’ils s’ajustent sans jeu visible, c’est une cassure nette et la réparation est simple. Si les bords ne correspondent pas, ne colle pas et suis la partie sur plusieurs morceaux.",
+            "items": []
+          },
+          {
+            "content": "<strong>Compte les morceaux.</strong> Deux morceaux signifient une cassure nette. Trois ou plus signifient que tu colleras les morceaux un par un, et non tous à la fois.",
+            "items": []
+          },
+          {
+            "content": "<strong>Vois dans la notice ce que la pièce tient dans la construction.</strong> Pour une pièce décorative, le collage suffit. Pour une pièce porteuse du cadre, le joint seul peut ne pas rendre assez de solidité, alors lis aussi la partie sur la pièce de rechange.",
+            "items": []
+          },
+          {
+            "content": "<strong>Vérifie qu’aucun morceau ne manque.</strong> Un petit éclat manquant peut se reboucher avec du mastic, mais si une partie plus grande manque, il est plus simple d’obtenir une pièce de rechange.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Quelle colle utiliser et combien de temps laisser sécher le joint",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "quelle-colle-utiliser-et-combien-de-temps-laisser-secher-le-joint"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Pour coller du bois sur du bois, utilise de la colle à bois blanche (PVA, c’est-à-dire la colle blanche courante pour le bois). Elle pénètre dans les fibres du bois et te laisse quelques minutes pour ajuster la pièce. La colle cyanoacrylate n’est pas conseillée en premier choix pour cette réparation : elle prend presque instantanément, donc tu n’as pas le temps d’ajuster la pièce, et une fois prise elle est dure et cassante, si bien que le joint peut se rompre de nouveau sous la même charge."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "N’applique pas la colle directement depuis le flacon. Dépose une goutte sur une surface jetable, par exemple un couvercle en plastique ou un morceau de papier ciré, et porte-la sur le joint avec un cure-dent. La couche doit être mince, à peine visible. Avec trop de colle, elle déborde quand tu presses, se cache mal et peut humidifier le bois."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Ne bouge pas le joint pendant les 30 premières minutes environ. La colle atteint sa pleine solidité plus lentement, donc laisse sécher plusieurs heures, de préférence toute la nuit, une pièce qui porte quelque chose, et ne continue à construire dessus qu’ensuite. Si les indications sur l’emballage de ta colle diffèrent de cette durée, suis l’emballage."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "de la colle à bois blanche et un cure-dent,",
+            "items": []
+          },
+          {
+            "content": "une surface jetable pour la colle (couvercle, papier ciré),",
+            "items": []
+          },
+          {
+            "content": "du ruban de masquage, un petit élastique ou un petit poids pour presser le joint,",
+            "items": []
+          },
+          {
+            "content": "un chiffon légèrement humide pour essuyer la colle qui déborde,",
+            "items": []
+          },
+          {
+            "content": "du papier de verre fin pour adoucir les bords rugueux.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "D’autres accessoires utiles au montage figurent dans l’<a href=\"/blog/10-outils-dont-vous-avez-besoin-pour-assembler-un-puzzle-3d-en-bois\">article sur les outils pour assembler un puzzle 3D en bois</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Astuce :</strong> Tu peux lester un joint plat avec une pièce de monnaie au lieu du ruban, pour que le ruban ne laisse pas de traces sur le bois. Si tu maintiens le joint avec du ruban, tends-le seulement un peu pour qu’il presse légèrement le joint.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Comment recoller une cassure nette et plusieurs morceaux",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "comment-recoller-une-cassure-nette-et-plusieurs-morceaux"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Pour une cassure nette, fie-toi à ce que tu vois et fais : d’abord les bords, puis la colle, enfin le maintien et le séchage."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Les bords s’ajustent sans jeu : tu peux coller.</strong> S’il reste un jeu, ne colle pas. Le joint serait visible et plus faible, alors reviens à la partie sur plusieurs morceaux.",
+            "items": []
+          },
+          {
+            "content": "<strong>Colle et pression.</strong> Étale avec un cure-dent une couche mince de colle sur le joint, presse les pièces fermement et régulièrement, sans forcer, et maintiens-les environ une minute. Avec la bonne pression, seule une infime quantité de colle sort du joint, que tu essuies aussitôt avec un chiffon légèrement humide.",
+            "items": []
+          },
+          {
+            "content": "<strong>Maintien et séchage.</strong> Maintiens le joint avec du ruban, avec un élastique pour une pièce ronde et avec un poids pour une pièce plate. Ne le bouge pas pendant les 30 premières minutes environ et laisse sécher une pièce porteuse plusieurs heures, jusqu’à toute la nuit.",
+            "items": []
+          },
+          {
+            "content": "<strong>L’interstice après séchage.</strong> N’enlève le ruban qu’une fois la colle sèche. S’il reste un fin interstice, enfonce-y un peu de mastic à bois, laisse sécher et ponce légèrement.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Avec trois morceaux ou plus, ne colle pas tout à la fois, car plusieurs morceaux libres bougent facilement pendant que tu les tiens. Colle d’abord les deux plus gros morceaux et laisse-les sécher complètement. Ajoute ensuite les autres un par un et laisse à chacun le temps de prendre."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Une pièce recollée est plus faible à l’endroit de la cassure que l’original. Si possible, colle sur sa face arrière invisible une fine bande de papier rigide ou de bois mince, un peu plus petite que la pièce pour qu’elle reste cachée."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Essaie d’abord de remettre la pièce réparée en place à sec. Si un ergot est trop serré : si la notice de cette pièce conseille autre chose, suis-la ; sinon ponce-le légèrement avec du papier de verre fin d’un grain d’environ 220 jusqu’à ce que la pièce entre facilement, et après chaque ponçage essaie de nouveau la pièce à sec. Si une partie mobile coince après la réparation, la recherche du frottement est décrite dans l’<a href=\"/blog/mecanisme-bloque-trouver-le-frottement-et-le-supprimer\">article sur un mécanisme qui bloque</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Quand ne pas recoller la pièce et demander une pièce de rechange",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "quand-ne-pas-recoller-la-piece-et-demander-une-piece-de-rechange"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "La plupart des cassures valent la peine d’être réparées, mais il est parfois plus raisonnable de remplacer la pièce. Envisage une pièce de rechange quand :"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "une pièce porteuse du cadre s’est fissurée, car de telles réparations rendent rarement assez de solidité pour tenir le reste de la construction,",
+            "items": []
+          },
+          {
+            "content": "plusieurs grosses pièces porteuses sont cassées en même temps,",
+            "items": []
+          },
+          {
+            "content": "un morceau de matière assez grand manque, car le mastic cesse d’être convaincant sur de plus grands vides.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "De nombreux fabricants de kits proposent des pièces de rechange. Les coordonnées du fabricant se trouvent généralement dans la notice, souvent sur sa dernière page. Envoie une photo de la page de la notice où figure la pièce manquante, avec son numéro, le nom ou le code du kit et les données de ta commande."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Il te manque seulement un petit ergot qui ne faisait qu’aligner les pièces ? La construction tient souvent sans lui, sauf si la notice indique autre chose : colle directement les bords et soutiens le joint côté invisible avec une bande de bois mince ou un cure-dent. Tu peux découper provisoirement une pièce plate manquante dans du carton fin en suivant le contour de la notice, et remplacer un montant par un cure-dent rond raccourci à la bonne longueur. Essaie d’abord le remplacement à sec, car il est moins précis que la pièce d’origine."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Comment détacher les pièces pour qu’elles ne se fissurent pas",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "comment-detacher-les-pieces-pour-quelles-ne-se-fissurent-pas"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "La plupart des cassures surviennent lors de deux gestes : quand on détache une pièce de la planche et quand on insère une pièce qui ne s’ajuste pas. Ces deux moments se maîtrisent par la technique."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Regarde la planche à contre-jour.</strong> Détache avec un soin particulier une pièce qui présente une fissure très fine ou une attache à moitié arrachée.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pose la planche à plat sur la table.</strong> En l’air, elle plie et la pièce casse alors plus facilement.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pousse avec le pouce par l’arrière de la planche et soutiens la face avant de la pièce avec un doigt.</strong> Si la pièce résiste, ne pousse pas plus fort : cherche quelle attache tient encore.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pour une pièce à plusieurs attaches, libère-les l’une après l’autre.</strong> La pression se répartit ainsi progressivement et la pièce ne casse pas d’un coup.",
+            "items": []
+          },
+          {
+            "content": "<strong>Avant de coller, essaie chaque assemblage à sec.</strong> S’il ne s’ajuste pas, cherche pourquoi (mauvaise pièce, mauvaise position) au lieu de le forcer.",
+            "items": []
+          },
+          {
+            "content": "<strong>Enfonce l’assemblage en appuyant à la base de l’ergot, pas à sa pointe.</strong> Un ergot casse à l’endroit le plus mince, qui est généralement celui où il rencontre la rainure.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Si le fabricant recommande dans la notice une autre façon de détacher ou d’insérer les pièces, suis sa notice."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Questions fréquentes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "questions-frequentes"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Peut-on encore recoller une pièce en bois fissurée ?</h3>\n    <p style=\"margin:0;\">Oui, si tu as tous les morceaux et que leurs bords s’ajustent sans jeu. Utilise de la colle à bois blanche, pas de la colle cyanoacrylate.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Combien de temps laisser sécher une pièce recollée ?</h3>\n    <p style=\"margin:0;\">Ne la bouge pas pendant les 30 premières minutes environ. Laisse sécher plusieurs heures, de préférence toute la nuit, une pièce qui porte quelque chose.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Puis-je utiliser de la colle cyanoacrylate pour la réparation ?</h3>\n    <p style=\"margin:0;\">Ce n’est pas le premier choix. Elle prend presque instantanément, donc tu n’as pas le temps d’ajuster la pièce, et une fois prise elle est cassante.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Que faire si une pièce manque complètement ?</h3>\n    <p style=\"margin:0;\">Contacte le fabricant du kit et envoie le code du kit, le numéro de la pièce dans la notice et une photo de la page de la notice. Tu peux découper provisoirement une pièce plate dans du carton fin.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-outils-dont-vous-avez-besoin-pour-assembler-un-puzzle-3d-en-bois",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mecanisme-bloque-trouver-le-frottement-et-le-supprimer",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

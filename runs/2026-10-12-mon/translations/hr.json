@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "hr",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Puknuo je drveni dio: kako ga popraviti i nastaviti graditi",
+  "description": "Je li ti pukao tanki drveni dio pri vađenju iz ploče? Ako imaš sve komadiće i njihovi se rubovi poklapaju, može se zalijepiti ljepilom za drvo. Kod nosivog dijela ili komada koji nedostaje bolji je zamjenski dio.",
+  "seo_title": "Puknuo je drveni dio: kako ga zalijepiti i nastaviti graditi",
+  "seo_description": "Je li ti pukao drveni dio pri slaganju? Saznaj kada ga zalijepiti, koje ljepilo upotrijebiti, koliko dugo ga sušiti i kada zatražiti zamjenski dio.",
+  "slug": "puknuo-je-drveni-dio-kako-ga-popraviti-i-nastaviti-graditi",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Puknuo je drveni dio: kako ga popraviti i nastaviti graditi"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Puknuti tanki dio u mnogim se slučajevima može zalijepiti i možeš nastaviti s gradnjom. Presuđuje imaš li sve komadiće i poklapaju li im se rubovi bez razmaka: tada su dovoljni ljepilo za drvo, tanak sloj i malo strpljenja. Prvo što trebaš napraviti jest položiti komadiće na papir i zasad ništa ne lijepiti."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Lom pri vađenju ili umetanju dijela čest je i ne znači da je pogreška tvoja: tanki dijelovi, sitni izbočeni dijelovi i spojnice koje drže dio u ploči po svojoj su prirodi krhki. O tome hoćeš li dio zalijepiti odlučuju oblik loma i ono što dio drži u konstrukciji."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Sadržaj članka</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-procijeniti-lom-prije-nego-sto-bilo-sto-zalijepis\">Kako procijeniti lom prije nego što bilo što zalijepiš</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#koje-ljepilo-upotrijebiti-i-koliko-dugo-spoj-mora-susiti\">Koje ljepilo upotrijebiti i koliko dugo spoj mora sušiti</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-zalijepiti-cisti-lom-i-vise-komadica\">Kako zalijepiti čisti lom i više komadića</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kada-dio-ne-lijepiti-i-zatraziti-zamjenski\">Kada dio ne lijepiti i zatražiti zamjenski</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kako-vaditi-dijelove-da-ne-pucaju\">Kako vaditi dijelove da ne pucaju</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cesta-pitanja\">Česta pitanja</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kako procijeniti lom prije nego što bilo što zalijepiš",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-procijeniti-lom-prije-nego-sto-bilo-sto-zalijepis"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Položi sve komadiće na čist list papira otprilike na izvorna mjesta. Odmah ćeš vidjeti koliko komadića imaš, koji pripadaju zajedno i nedostaje li nešto. Svjež se lom lijepi čišće od onoga koji je nakon pucanja više puta prislanjan i savijan, zato komadiće radije ostavi da leže."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Prisloni rubove bez ljepila.</strong> Ako se poklapaju bez vidljivog razmaka, riječ je o čistom lomu i popravak je jednostavan. Ako se rubovi ne poklapaju, ne lijepi i slijedi dio o više komadića.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prebroji komadiće.</strong> Dva komada znače čist lom. Tri ili više znači da ćeš komadiće lijepiti jedan po jedan, a ne sve odjednom.",
+            "items": []
+          },
+          {
+            "content": "<strong>Provjeri u uputama što dio drži u konstrukciji.</strong> Kod ukrasnog dijela dovoljno je lijepljenje. Kod nosivog dijela okvira sam spoj možda neće vratiti dovoljnu čvrstoću, zato pogledaj i dio o zamjenskom dijelu.",
+            "items": []
+          },
+          {
+            "content": "<strong>Provjeri nedostaje li neki komad.</strong> Mali komadić koji nedostaje može se popuniti kitom, a kod većeg dijela koji nedostaje lakše je nabaviti zamjenski dio.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Koje ljepilo upotrijebiti i koliko dugo spoj mora sušiti",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "koje-ljepilo-upotrijebiti-i-koliko-dugo-spoj-mora-susiti"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Za lijepljenje drva na drvo upotrijebi bijelo ljepilo za drvo (PVA, to jest uobičajeno bijelo ljepilo za drvo). Upija se u drvena vlakna i ostavlja ti nekoliko minuta za poravnavanje dijela. Trenutno ljepilo ne preporučuje se kao prvi izbor za ovaj popravak: stvrdne se gotovo odmah pa ne stigneš poravnati dio, a nakon stvrdnjavanja tvrdo je i krhko pa spoj pri istom opterećenju može ponovno puknuti."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Ne nanosi ljepilo izravno iz bočice. Kapljicu stavi na površinu za jednokratnu uporabu, na primjer plastični poklopac ili komad voskiranog papira, i čačkalicom je prenesi na spoj. Sloj treba biti tanak, jedva vidljiv. Od viška se ljepilo pri stiskanju istisne, teško se skriva i može navlažiti drvo."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Spoj ne pomiči prvih otprilike 30 minuta. Ljepilo puni čvrstoću postiže dulje, zato dio koji nešto nosi ostavi sušiti nekoliko sati, najbolje preko noći, i tek onda nastavi graditi na njemu. Ako se podaci na ambalaži tvojeg ljepila razlikuju od ovog raspona, drži se ambalaže."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "bijelo ljepilo za drvo i čačkalica,",
+            "items": []
+          },
+          {
+            "content": "površina za jednokratnu uporabu za ljepilo (poklopac, voskirani papir),",
+            "items": []
+          },
+          {
+            "content": "papirnata ljepljiva traka, mala gumica ili mali uteg za stiskanje spoja,",
+            "items": []
+          },
+          {
+            "content": "lagano vlažna krpica za brisanje istisnutog ljepila,",
+            "items": []
+          },
+          {
+            "content": "fini brusni papir za izravnavanje hrapavih rubova.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Dodatna pomagala koja dobro dođu pri slaganju nalaze se u <a href=\"/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice\">članku o alatima za slaganje drvene slagalice</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Savjet:</strong> Ravan spoj možeš umjesto trake opteretiti novčićem kako traka ne bi ostavila tragove na drvu. Ako spoj držiš trakom, zategni je samo malo kako bi ga lagano pritiskala.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kako zalijepiti čisti lom i više komadića",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-zalijepiti-cisti-lom-i-vise-komadica"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Kod čistog loma postupaj prema onome što vidiš i radiš: prvo rubovi, zatim ljepilo, naposljetku pridržavanje i sušenje."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Rubovi se poklapaju bez razmaka: možeš lijepiti.</strong> Ako ostane razmak, ne lijepi. Spoj bi bio vidljiv i slabiji, zato se vrati na dio o više komadića.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ljepilo i stiskanje.</strong> Čačkalicom razmaži na spoj tanak sloj ljepila, dijelove pritisni čvrsto i ravnomjerno, ne silom, i drži ih otprilike minutu. Pri pravilnom pritisku iz spoja se istisne samo neznatna količina ljepila, koju odmah obriši lagano vlažnom krpicom.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pridržavanje i sušenje.</strong> Spoj drži trakom, kod okruglog dijela gumicom, a kod ravnog dijela utegom. Prvih otprilike 30 minuta ga ne pomiči, a nosivi dio ostavi sušiti nekoliko sati do preko noći.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pukotina nakon sušenja.</strong> Traku skini tek nakon sušenja. Ako ostane tanka pukotina, utisni u nju malo kita za drvo, ostavi da se osuši i lagano izbrusi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Kod triju ili više komadića ne lijepi sve odjednom jer se više slobodnih komada pri držanju lako pomakne. Prvo zalijepi dva najveća komadića i pusti ih da se potpuno osuše. Zatim dodavaj ostale jedan po jedan i svakomu daj vremena da se prihvati."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Zalijepljeni dio na mjestu loma slabiji je od izvornog. Ako je moguće, na njegovu nevidljivu stražnju stranu zalijepi tanku traku krutog papira ili tankog drva, nešto manju od dijela da ostane skrivena."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Popravljeni dio najprije pokušaj staviti na mjesto bez ljepila. Ako je izbočeni dio pretijesan: ako upute za taj dio savjetuju drukčije, drži ih se; inače ga lagano izbrusi finim brusnim papirom granulacije oko 220 dok dio ne uđe lako, a nakon svakog brušenja ponovno probaj dio bez ljepila. Ako se nakon popravka zaglavljuje pokretni dio, traženje trenja opisuje <a href=\"/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga\">članak o mehanizmu koji se zaglavljuje</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kada dio ne lijepiti i zatražiti zamjenski",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kada-dio-ne-lijepiti-i-zatraziti-zamjenski"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Većina lomova vrijedi popravka, no ponekad je razumnije zamijeniti dio. Razmisli o zamjenskom dijelu kada:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "je pukao nosivi dio okvira, jer takvi popravci rijetko vraćaju dovoljno čvrstoće da izdrže ostatak konstrukcije,",
+            "items": []
+          },
+          {
+            "content": "je odjednom slomljeno više većih nosivih dijelova,",
+            "items": []
+          },
+          {
+            "content": "nedostaje veći komad materijala, jer kit kod većih rupa prestaje izgledati uvjerljivo.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Mnogi proizvođači setova nude zamjenske dijelove. Kontakt proizvođača obično je u uputama, često na njihovoj posljednjoj stranici. Pošalji fotografiju stranice uputa na kojoj je dio koji nedostaje i uz nju njegov broj, naziv ili kod seta i podatke iz narudžbe."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Nedostaje ti samo mali izbočeni dio koji je dijelove samo poravnavao? Konstrukcija često drži i bez njega ako upute ne određuju drukčije: rubove zalijepi izravno, a spoj s nevidljive strane poduprij trakom tankog drva ili čačkalicom. Ravan dio koji nedostaje možeš privremeno izrezati iz tankog kartona prema obrisu u uputama, a stupić zamijeniti okruglom čačkalicom skraćenom na duljinu. Zamjenu najprije probaj bez ljepila jer je manje precizna od izvornog dijela."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Kako vaditi dijelove da ne pucaju",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kako-vaditi-dijelove-da-ne-pucaju"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Većina lomova nastaje pri dvije radnje: pri vađenju dijela iz ploče i pri umetanju dijela koji ne pristaje. Oba se trenutka mogu svladati tehnikom."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Pregledaj ploču prema svjetlu.</strong> Dio s vlasastom pukotinom ili napola otkinutom spojnicom vadi iznimno oprezno.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ploču položi ravno na stol.</strong> U zraku se savija, a dio tada lakše pukne.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pritišći palcem sa stražnje strane ploče, a prednju stranu dijela poduprij prstom.</strong> Ako se dio opire, ne pritišći jače: potraži koja spojnica još drži.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kod dijela s više spojnica otpuštaj jednu za drugom.</strong> Pritisak se tako raspoređuje postupno i dio se ne slomi odjednom.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prije lijepljenja probaj svaki spoj bez ljepila.</strong> Ako ne pristaje, otkrij zašto (pogrešan dio, pogrešan položaj) umjesto da ga na silu guraš.",
+            "items": []
+          },
+          {
+            "content": "<strong>Spoj umetni pritiskom pri podnožju izbočenog dijela, a ne na njegovu vrhu.</strong> Izbočeni dio puca na najtanjem mjestu, koje je obično tamo gdje se susreće s utorom.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Ako proizvođač u uputama preporučuje drukčiji način vađenja ili umetanja, drži se njegovih uputa."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Česta pitanja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cesta-pitanja"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Može li se puknuti drveni dio još zalijepiti?</h3>\n    <p style=\"margin:0;\">Da, ako imaš sve komadiće i njihovi se rubovi poklapaju bez razmaka. Upotrijebi bijelo ljepilo za drvo, ne trenutno.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Koliko dugo ostaviti zalijepljeni dio da se suši?</h3>\n    <p style=\"margin:0;\">Prvih otprilike 30 minuta ga ne pomiči. Dio koji nešto nosi ostavi sušiti nekoliko sati, najbolje preko noći.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mogu li za popravak upotrijebiti trenutno ljepilo?</h3>\n    <p style=\"margin:0;\">Nije prvi izbor. Stvrdne se gotovo odmah pa ne stigneš poravnati dio, a nakon stvrdnjavanja krhko je.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Što učiniti ako mi dio potpuno nedostaje?</h3>\n    <p style=\"margin:0;\">Obrati se proizvođaču seta i pošalji kod seta, broj dijela iz uputa i fotografiju stranice uputa. Ravan dio možeš privremeno izrezati iz tankog kartona.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-alata-koji-su-vam-potrebni-za-sastavljanje-drvene-3d-slagalice",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

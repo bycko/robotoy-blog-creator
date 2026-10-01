@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "it",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Pezzo di legno rotto: come ripararlo e continuare a montare",
+  "description": "Ti si è rotto un pezzo sottile di legno mentre lo staccavi dalla tavola? Se hai tutti i frammenti e i bordi combaciano, si può incollare con la colla per legno. Per un pezzo portante o un frammento mancante è meglio un pezzo di ricambio.",
+  "seo_title": "Pezzo di legno rotto: come incollarlo e proseguire",
+  "seo_description": "Ti si è rotto un pezzo di legno durante il montaggio? Scopri quando incollarlo, quale colla usare, quanto farla asciugare e quando chiedere un ricambio.",
+  "slug": "pezzo-di-legno-rotto-come-ripararlo-e-continuare-a-montare",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Pezzo di legno rotto: come ripararlo e continuare a montare"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Un pezzo sottile rotto in molti casi si può incollare e puoi continuare la costruzione. Decide se hai tutti i frammenti e se i loro bordi combaciano senza spazio: allora bastano la colla per legno, uno strato sottile e un po’ di pazienza. La prima cosa da fare è appoggiare i frammenti su un foglio di carta e per ora non incollare nulla."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Una rottura mentre stacchi o inserisci un pezzo è comune e non significa che hai sbagliato: i pezzi sottili, le piccole sporgenze e i ponticelli che tengono il pezzo nella tavola sono fragili per natura. Se incollare il pezzo dipende dalla forma della rottura e da ciò che il pezzo sostiene nella costruzione."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Indice dell’articolo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#come-valutare-la-rottura-prima-di-incollare-qualsiasi-cosa\">Come valutare la rottura prima di incollare qualsiasi cosa</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#quale-colla-usare-e-quanto-lasciare-asciugare-il-giunto\">Quale colla usare e quanto lasciare asciugare il giunto</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#come-incollare-una-rottura-netta-e-piu-frammenti\">Come incollare una rottura netta e più frammenti</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#quando-non-incollare-il-pezzo-e-chiedere-un-ricambio\">Quando non incollare il pezzo e chiedere un ricambio</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#come-staccare-i-pezzi-perche-non-si-rompano\">Come staccare i pezzi perché non si rompano</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#domande-frequenti\">Domande frequenti</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Come valutare la rottura prima di incollare qualsiasi cosa",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "come-valutare-la-rottura-prima-di-incollare-qualsiasi-cosa"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Appoggia tutti i pezzi su un foglio di carta pulito, più o meno al loro posto originale. Vedrai subito quanti frammenti hai, quali vanno insieme e se manca qualcosa. Una rottura fresca si incolla in modo più pulito di una che hai accostato e piegato più volte dopo la rottura, quindi è meglio lasciare i frammenti dove sono."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Accosta i bordi senza colla.</strong> Se combaciano senza spazio visibile, è una rottura netta e la riparazione è semplice. Se i bordi non combaciano, non incollare e segui la parte sui frammenti multipli.",
+            "items": []
+          },
+          {
+            "content": "<strong>Conta i frammenti.</strong> Due pezzi significano una rottura netta. Tre o più significano che incollerai i frammenti uno alla volta, non tutti insieme.",
+            "items": []
+          },
+          {
+            "content": "<strong>Controlla nelle istruzioni che cosa sostiene il pezzo nella costruzione.</strong> Per un pezzo decorativo basta l’incollaggio. Per un pezzo portante del telaio, il giunto da solo può non restituire abbastanza resistenza, perciò guarda anche la parte sul pezzo di ricambio.",
+            "items": []
+          },
+          {
+            "content": "<strong>Controlla che non manchi nessun pezzo.</strong> Una piccola scheggia mancante si può stuccare, ma se manca una parte più grande è più semplice procurarsi un pezzo di ricambio.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Quale colla usare e quanto lasciare asciugare il giunto",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "quale-colla-usare-e-quanto-lasciare-asciugare-il-giunto"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Per incollare legno su legno usa la colla vinilica bianca per legno (PVA, cioè la comune colla bianca per legno). Penetra nelle fibre del legno e ti lascia qualche minuto per allineare il pezzo. La colla istantanea non è consigliata come prima scelta per questa riparazione: fa presa quasi subito, quindi non fai in tempo ad allineare il pezzo, e una volta indurita è dura e fragile, perciò il giunto può rompersi di nuovo con lo stesso carico."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Non applicare la colla direttamente dal flacone. Metti una goccia su una superficie usa e getta, per esempio un tappo di plastica o un pezzo di carta cerata, e portala sul giunto con uno stuzzicadenti. Lo strato deve essere sottile, appena visibile. Con troppa colla, questa fuoriesce quando premi, si nasconde male e può inumidire il legno."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Non muovere il giunto per i primi 30 minuti circa. La colla raggiunge la piena resistenza più lentamente, perciò lascia asciugare per diverse ore, meglio per tutta la notte, un pezzo che sostiene qualcosa, e solo dopo continua a costruire su di esso. Se i dati sulla confezione della tua colla differiscono da questo intervallo, segui la confezione."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "colla bianca per legno e uno stuzzicadenti,",
+            "items": []
+          },
+          {
+            "content": "una superficie usa e getta per la colla (tappo, carta cerata),",
+            "items": []
+          },
+          {
+            "content": "nastro di carta da mascheratura, un piccolo elastico o un piccolo peso per pressare il giunto,",
+            "items": []
+          },
+          {
+            "content": "un panno leggermente umido per asciugare la colla fuoriuscita,",
+            "items": []
+          },
+          {
+            "content": "carta vetrata fine per levigare i bordi ruvidi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Altri accessori utili durante il montaggio sono nell’<a href=\"/blog/10-strumenti-di-cui-hai-bisogno-per-assemblare-un-puzzle-3d-in-legno\">articolo sugli attrezzi per montare un puzzle 3D in legno</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consiglio:</strong> Un giunto piatto puoi appesantirlo con una moneta invece che con il nastro, così il nastro non lascia segni sul legno. Se tieni il giunto con il nastro, tendilo solo leggermente perché prema in modo delicato.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Come incollare una rottura netta e più frammenti",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "come-incollare-una-rottura-netta-e-piu-frammenti"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Con una rottura netta, procedi in base a ciò che vedi e fai: prima i bordi, poi la colla, infine il fissaggio e l’asciugatura."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>I bordi combaciano senza spazio: puoi incollare.</strong> Se resta uno spazio, non incollare. Il giunto sarebbe visibile e più debole, perciò torna alla parte sui frammenti multipli.",
+            "items": []
+          },
+          {
+            "content": "<strong>Colla e pressione.</strong> Con uno stuzzicadenti stendi sul giunto uno strato sottile di colla, premi i pezzi con decisione e in modo uniforme, senza forzare, e tienili per circa un minuto. Con la pressione giusta dal giunto fuoriesce solo una minima quantità di colla, che asciughi subito con un panno leggermente umido.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fissaggio e asciugatura.</strong> Tieni il giunto con il nastro, con un elastico su un pezzo tondo e con un peso su un pezzo piatto. Non muoverlo per i primi 30 minuti circa e lascia asciugare un pezzo portante per diverse ore, fino a tutta la notte.",
+            "items": []
+          },
+          {
+            "content": "<strong>La fessura dopo l’asciugatura.</strong> Togli il nastro solo dopo l’asciugatura. Se resta una fessura sottile, premici dentro un po’ di stucco per legno, lascia asciugare e leviga leggermente.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Con tre o più frammenti non incollare tutto insieme, perché più pezzi liberi si spostano facilmente mentre li tieni. Incolla prima i due frammenti più grandi e lasciali asciugare completamente. Poi aggiungi gli altri uno alla volta e dai a ciascuno il tempo di attaccarsi."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Un pezzo incollato è più debole nel punto di rottura rispetto all’originale. Se puoi, incolla sul suo lato posteriore invisibile una sottile striscia di carta rigida o di legno sottile, un po’ più piccola del pezzo in modo che resti nascosta."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Prova prima a inserire il pezzo riparato al suo posto a secco. Se una sporgenza è troppo stretta: se le istruzioni per questo pezzo consigliano altro, seguile; altrimenti levigala leggermente con carta vetrata fine di grana circa 220 finché il pezzo entra con facilità, e dopo ogni levigatura prova di nuovo il pezzo a secco. Se dopo la riparazione una parte mobile si inceppa, la ricerca dell’attrito è descritta nell’<a href=\"/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo\">articolo sul meccanismo che si inceppa</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Quando non incollare il pezzo e chiedere un ricambio",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "quando-non-incollare-il-pezzo-e-chiedere-un-ricambio"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "La maggior parte delle rotture vale la pena di essere riparata, ma a volte è più ragionevole sostituire il pezzo. Valuta un pezzo di ricambio quando:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "si è rotto un pezzo portante del telaio, perché tali riparazioni raramente restituiscono abbastanza resistenza da reggere il resto della costruzione,",
+            "items": []
+          },
+          {
+            "content": "si sono rotti contemporaneamente più pezzi portanti più grandi,",
+            "items": []
+          },
+          {
+            "content": "manca un pezzo di materiale più grande, perché lo stucco sulle lacune maggiori smette di sembrare convincente.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Molti produttori di kit offrono pezzi di ricambio. Il contatto del produttore si trova di solito nelle istruzioni, spesso sull’ultima pagina. Invia una foto della pagina delle istruzioni in cui compare il pezzo mancante, insieme al suo numero, al nome o al codice del kit e ai dati dell’ordine."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Ti manca solo una piccola sporgenza che serviva soltanto ad allineare i pezzi? La costruzione spesso regge anche senza, salvo diversa indicazione delle istruzioni: incolla direttamente i bordi e sostieni il giunto dal lato invisibile con una striscia di legno sottile o con uno stuzzicadenti. Un pezzo piatto mancante puoi ritagliarlo provvisoriamente da cartoncino sottile seguendo il contorno delle istruzioni, e un montante puoi sostituirlo con uno stuzzicadenti tondo accorciato alla lunghezza giusta. Prova prima la sostituzione a secco, perché è meno precisa del pezzo originale."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Come staccare i pezzi perché non si rompano",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "come-staccare-i-pezzi-perche-non-si-rompano"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "La maggior parte delle rotture avviene in due momenti: quando si stacca un pezzo dalla tavola e quando si inserisce un pezzo che non combacia. Entrambi i momenti si gestiscono con la tecnica."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Controlla la tavola controluce.</strong> Un pezzo con una crepa sottilissima o con un ponticello mezzo staccato staccalo con particolare cautela.",
+            "items": []
+          },
+          {
+            "content": "<strong>Appoggia la tavola in piano sul tavolo.</strong> In aria si piega e il pezzo si rompe più facilmente.",
+            "items": []
+          },
+          {
+            "content": "<strong>Premi con il pollice da dietro la tavola e sostieni con un dito il lato anteriore del pezzo.</strong> Se il pezzo oppone resistenza, non premere più forte: cerca quale ponticello tiene ancora.",
+            "items": []
+          },
+          {
+            "content": "<strong>Per un pezzo con più ponticelli, liberali uno dopo l’altro.</strong> La pressione si distribuisce così gradualmente e il pezzo non si spezza di colpo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prima di incollare, prova ogni incastro a secco.</strong> Se non combacia, scopri perché (pezzo sbagliato, posizione sbagliata) invece di forzarlo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Inserisci l’incastro premendo alla base della sporgenza, non sulla punta.</strong> Una sporgenza si spezza nel punto più sottile, che di solito è dove incontra la scanalatura.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Se il produttore nelle istruzioni consiglia un altro modo di staccare o inserire i pezzi, segui le sue istruzioni."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Domande frequenti",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "domande-frequenti"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Un pezzo di legno rotto si può ancora incollare?</h3>\n    <p style=\"margin:0;\">Sì, se hai tutti i frammenti e i loro bordi combaciano senza spazio. Usa la colla bianca per legno, non la colla istantanea.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Quanto lasciare asciugare un pezzo incollato?</h3>\n    <p style=\"margin:0;\">Non muoverlo per i primi 30 minuti circa. Un pezzo che sostiene qualcosa lascialo asciugare per diverse ore, meglio per tutta la notte.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Posso usare la colla istantanea per la riparazione?</h3>\n    <p style=\"margin:0;\">Non è la prima scelta. Fa presa quasi subito, quindi non fai in tempo ad allineare il pezzo, e una volta indurita è fragile.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Che cosa fare se un pezzo manca del tutto?</h3>\n    <p style=\"margin:0;\">Contatta il produttore del kit e invia il codice del kit, il numero del pezzo dalle istruzioni e una foto della pagina delle istruzioni. Un pezzo piatto puoi ritagliarlo provvisoriamente da cartoncino sottile.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-strumenti-di-cui-hai-bisogno-per-assemblare-un-puzzle-3d-in-legno",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "da",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Knækket trædel: sådan reparerer du den og bygger videre",
+  "description": "Knækkede en tynd trædel, da du trykkede den ud af pladen? Hvis du har alle stykkerne, og kanterne passer sammen, kan den limes med trælim. Ved en bærende del eller et manglende stykke er en erstatningsdel bedre.",
+  "seo_title": "Knækket trædel: sådan limer du den og bygger videre",
+  "seo_description": "Knækkede en trædel under samlingen? Se, hvornår du skal lime den, hvilken lim du skal bruge, hvor længe den skal tørre, og hvornår du skal bede om en ny.",
+  "slug": "knaekket-traedel-sadan-reparerer-du-den-og-bygger-videre",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Knækket trædel: sådan reparerer du den og bygger videre"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "En knækket tynd del kan ofte limes, og så kan du bygge videre. Det afgør sig ved, om du har alle stykkerne, og om kanterne passer sammen uden mellemrum: så er trælim, et tyndt lag og lidt tålmodighed nok. Det første, du skal gøre, er at lægge stykkerne på et stykke papir og ikke lime noget endnu."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Et brud, når du trykker en del ud eller sætter den i, er almindeligt og betyder ikke, at du har lavet en fejl: tynde dele, små fremspring og de små broer, der holder delen fast i pladen, er skøre af natur. Om du skal lime delen, afhænger af bruddets form og af, hvad delen holder oppe i konstruktionen."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Indhold</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#sadan-vurderer-du-bruddet-for-du-limer-noget\">Sådan vurderer du bruddet, før du limer noget</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hvilken-lim-du-skal-bruge-og-hvor-laenge-samlingen-skal-torre\">Hvilken lim du skal bruge, og hvor længe samlingen skal tørre</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sadan-limer-du-et-rent-brud-og-flere-stykker\">Sådan limer du et rent brud og flere stykker</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hvornar-du-ikke-skal-lime-delen-og-i-stedet-bede-om-en-erstatning\">Hvornår du ikke skal lime delen og i stedet bede om en erstatning</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sadan-trykker-du-delene-ud-sa-de-ikke-knaekker\">Sådan trykker du delene ud, så de ikke knækker</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ofte-stillede-sporgsmal\">Ofte stillede spørgsmål</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Sådan vurderer du bruddet, før du limer noget",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sadan-vurderer-du-bruddet-for-du-limer-noget"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Læg alle stykkerne på et rent ark papir, nogenlunde på deres oprindelige plads. Du kan med det samme se, hvor mange stykker du har, hvilke der hører sammen, og om noget mangler. Et friskt brud limer renere end et, som du har sat sammen og bøjet igen og igen, efter det knækkede, så lad hellere stykkerne ligge."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Hold kanterne sammen uden lim.</strong> Hvis de passer uden synligt mellemrum, er det et rent brud, og reparationen er enkel. Hvis kanterne ikke passer, så lad være med at lime og følg afsnittet om flere stykker.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tæl stykkerne.</strong> To stykker betyder et rent brud. Tre eller flere betyder, at du skal lime stykkerne ét ad gangen og ikke alle på én gang.",
+            "items": []
+          },
+          {
+            "content": "<strong>Find i vejledningen ud af, hvad delen holder oppe i konstruktionen.</strong> Ved en pyntedel er det nok at lime. Ved en bærende del af rammen giver selve samlingen måske ikke nok styrke igen, så læs også afsnittet om en erstatningsdel.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tjek, at der ikke mangler et stykke.</strong> Et lille manglende stykke kan spartles, men ved et større manglende stykke er det nemmere at få en erstatningsdel.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Hvilken lim du skal bruge, og hvor længe samlingen skal tørre",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hvilken-lim-du-skal-bruge-og-hvor-laenge-samlingen-skal-torre"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Når du skal lime træ på træ, så brug hvid trælim (PVA, altså den almindelige hvide lim til træ). Den suger ind i træets fibre og giver dig nogle minutter til at rette delen ind. Superlim anbefales ikke som første valg til denne reparation: det hærder næsten med det samme, så du ikke når at rette delen ind, og når det er hærdet, er det hårdt og sprødt, så samlingen kan knække igen under den samme belastning."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Smør ikke limen direkte fra flasken. Sæt en dråbe på en overflade, du kan smide ud, for eksempel et plastiklåg eller et stykke vokspapir, og før den over på samlingen med en tandstikker. Laget skal være tyndt, næsten ikke synligt. Af for meget lim bliver der presset lim ud, når du trykker, det er svært at skjule, og det kan gøre træet fugtigt."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Rør ikke samlingen i de første cirka 30 minutter. Limen får først fuld styrke efter længere tid, så lad en del, der bærer noget, tørre i flere timer, helst natten over, og byg først derefter videre på den. Hvis oplysningerne på emballagen til din lim afviger fra dette interval, så følg emballagen."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "hvid trælim og en tandstikker,",
+            "items": []
+          },
+          {
+            "content": "en overflade til limen, som du kan smide ud (låg, vokspapir),",
+            "items": []
+          },
+          {
+            "content": "malertape, et lille elastikbånd eller en lille vægt til at presse samlingen sammen,",
+            "items": []
+          },
+          {
+            "content": "en let fugtig klud til at tørre udpresset lim af,",
+            "items": []
+          },
+          {
+            "content": "fint sandpapir til at glatte ru kanter.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Flere hjælpemidler, der er gode at have, når du samler, finder du i <a href=\"/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae\">artiklen om værktøj til at samle et puslespil i træ</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> En flad samling kan du i stedet for tape belaste med en mønt, så tapen ikke efterlader mærker på træet. Hvis du holder samlingen med tape, så stram den kun let, så den trykker samlingen forsigtigt.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Sådan limer du et rent brud og flere stykker",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sadan-limer-du-et-rent-brud-og-flere-stykker"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Ved et rent brud skal du gå efter det, du ser og gør: først kanterne, så limen og til sidst fastholdelse og tørring."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Kanterne passer uden mellemrum: du kan lime.</strong> Hvis der er et mellemrum, så lad være med at lime. Samlingen ville være synlig og svagere, så gå tilbage til afsnittet om flere stykker.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lim og tryk.</strong> Smør et tyndt lag lim på samlingen med en tandstikker, tryk delene fast og jævnt sammen, ikke med kraft, og hold dem i cirka et minut. Ved det rette tryk presses der kun en ganske lille mængde lim ud af samlingen, som du straks tørrer af med en let fugtig klud.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fastholdelse og tørring.</strong> Hold samlingen fast med tape, på en rund del med et elastikbånd og på en flad del med en vægt. Rør den ikke i de første cirka 30 minutter, og lad en bærende del tørre i flere timer op til natten over.",
+            "items": []
+          },
+          {
+            "content": "<strong>Fugen efter tørring.</strong> Fjern tapen først, når limen er tørret. Hvis der bliver en fin fuge, så tryk lidt spartelmasse ind i den, lad det tørre og slib forsigtigt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Ved tre eller flere stykker skal du ikke lime alt på én gang, for flere løse stykker rykker sig let, mens du holder dem. Lim først de to største stykker sammen, og lad dem tørre helt. Tilføj så de andre ét ad gangen, og giv hvert stykke tid til at sætte sig fast."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "En limet del er svagere ved bruddet end den oprindelige. Hvis det er muligt, så lim en tynd strimmel stift papir eller tyndt træ på den usynlige bagside, lidt mindre end delen, så den forbliver skjult."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Prøv først at sætte den reparerede del på plads uden lim. Hvis et fremspring er for stramt: hvis vejledningen til denne del anbefaler noget andet, så følg den; ellers slib det forsigtigt med fint sandpapir i kornstørrelse omkring 220, indtil delen glider let på plads, og prøv delen igen uden lim efter hver slibning. Hvis en bevægelig del sidder fast efter reparationen, beskriver <a href=\"/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den\">artiklen om en mekanisme, der sidder fast</a>, hvordan du finder gnidningen."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Hvornår du ikke skal lime delen og i stedet bede om en erstatning",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hvornar-du-ikke-skal-lime-delen-og-i-stedet-bede-om-en-erstatning"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "De fleste brud er værd at reparere, men nogle gange er det mere fornuftigt at udskifte delen. Overvej en erstatningsdel, når:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "en bærende del af rammen er knækket, fordi sådanne reparationer sjældent giver nok styrke tilbage til at holde resten af konstruktionen oppe,",
+            "items": []
+          },
+          {
+            "content": "flere større bærende dele er knækket på én gang,",
+            "items": []
+          },
+          {
+            "content": "et større stykke materiale mangler, fordi spartelmassen ikke ser overbevisende ud ved større huller.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Mange producenter af byggesæt tilbyder erstatningsdele. Producentens kontaktoplysninger står som regel i vejledningen, ofte på den sidste side. Send et foto af den side i vejledningen, hvor den manglende del er, og dertil dens nummer, byggesættets navn eller kode og dine oplysninger fra ordren."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Mangler du bare et lille fremspring, som kun rettede delene ind? Konstruktionen holder ofte uden det, medmindre vejledningen siger noget andet: lim kanterne direkte sammen og støt samlingen fra den usynlige side med en strimmel tyndt træ eller en tandstikker. En flad manglende del kan du midlertidigt klippe ud af tynd pap efter omridset i vejledningen, og en søjle kan du erstatte med en rund tandstikker, der er kortet af til længden. Prøv erstatningen uden lim først, for den er mindre præcis end den originale del."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Sådan trykker du delene ud, så de ikke knækker",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sadan-trykker-du-delene-ud-sa-de-ikke-knaekker"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "De fleste brud sker ved to handlinger: når du trykker en del ud af pladen, og når du sætter en del i, som ikke passer. Begge øjeblikke kan klares med teknik."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Se pladen igennem mod lyset.</strong> En del med en hårfin revne eller en halvt revet bro skal du trykke ud ekstra forsigtigt.",
+            "items": []
+          },
+          {
+            "content": "<strong>Læg pladen fladt på bordet.</strong> I luften bøjer den, og delen knækker så lettere.",
+            "items": []
+          },
+          {
+            "content": "<strong>Tryk med tommelfingeren bagfra på pladen, og støt forsiden af delen med en finger.</strong> Hvis delen gør modstand, så tryk ikke hårdere: find ud af, hvilken bro der stadig holder.",
+            "items": []
+          },
+          {
+            "content": "<strong>Ved en del med flere broer skal du løsne dem én efter én.</strong> Trykket fordeler sig så gradvist, og delen knækker ikke på én gang.",
+            "items": []
+          },
+          {
+            "content": "<strong>Prøv hver forbindelse uden lim, før du limer.</strong> Hvis den ikke passer, så find ud af hvorfor (forkert del, forkert position) i stedet for at presse den ind.",
+            "items": []
+          },
+          {
+            "content": "<strong>Skub forbindelsen ind med tryk ved fremspringets rod, ikke ved spidsen.</strong> Et fremspring knækker på det tyndeste sted, som som regel er dér, hvor det møder rillen.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Hvis producenten i vejledningen anbefaler en anden måde at trykke ud eller sætte i på, så følg producentens vejledning."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Ofte stillede spørgsmål",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ofte-stillede-sporgsmal"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kan en knækket trædel stadig limes?</h3>\n    <p style=\"margin:0;\">Ja, hvis du har alle stykkerne, og kanterne passer sammen uden mellemrum. Brug hvid trælim, ikke superlim.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvor længe skal en limet del tørre?</h3>\n    <p style=\"margin:0;\">Rør den ikke i de første cirka 30 minutter. En del, der bærer noget, skal tørre i flere timer, helst natten over.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kan jeg bruge superlim til reparationen?</h3>\n    <p style=\"margin:0;\">Det er ikke det første valg. Det hærder næsten med det samme, så du ikke når at rette delen ind, og når det er hærdet, er det sprødt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvad skal jeg gøre, hvis en del helt mangler?</h3>\n    <p style=\"margin:0;\">Kontakt producenten af byggesættet, og send byggesættets kode, delens nummer fra vejledningen og et foto af siden i vejledningen. En flad del kan du midlertidigt klippe ud af tynd pap.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

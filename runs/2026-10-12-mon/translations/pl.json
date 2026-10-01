@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "pl",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Pękła drewniana część: jak ją naprawić i budować dalej",
+  "description": "Pękła Ci cienka drewniana część przy wyłamywaniu z arkusza? Jeśli masz wszystkie odłamki, a ich krawędzie do siebie pasują, można ją skleić klejem do drewna. Przy części nośnej lub brakującym kawałku lepsza jest część zamienna.",
+  "seo_title": "Pękła drewniana część: jak ją skleić i budować dalej",
+  "seo_description": "Pękła Ci drewniana część podczas składania? Sprawdź, kiedy ją skleić, jakiego kleju użyć, jak długo schnie połączenie i kiedy poprosić o część zamienną.",
+  "slug": "pekla-drewniana-czesc-jak-ja-naprawic-i-budowac-dalej",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Pękła drewniana część: jak ją naprawić i budować dalej"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Pękniętą cienką część w wielu przypadkach da się skleić i możesz budować dalej. Decyduje to, czy masz wszystkie odłamki i czy ich krawędzie pasują do siebie bez szczeliny: wtedy wystarczą klej do drewna, cienka warstwa i trochę cierpliwości. Pierwsze, co zrób, to położyć odłamki na kartce papieru i na razie niczego nie kleić."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Złamanie przy wyłamywaniu lub wsuwaniu części jest częste i nie świadczy o błędzie po Twojej stronie: cienkie części, drobne występy i mostki, które trzymają część w arkuszu, są z natury kruche. O tym, czy część skleić, decyduje kształt złamania i to, co część trzyma w konstrukcji."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Spis treści artykułu</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#jak-ocenic-zlamanie-zanim-cokolwiek-skleisz\">Jak ocenić złamanie, zanim cokolwiek skleisz</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#jakiego-kleju-uzyc-i-jak-dlugo-ma-schnac-polaczenie\">Jakiego kleju użyć i jak długo ma schnąć połączenie</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#jak-skleic-czyste-zlamanie-i-kilka-odlamkow\">Jak skleić czyste złamanie i kilka odłamków</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kiedy-nie-kleic-czesci-i-poprosic-o-zamienna\">Kiedy nie kleić części i poprosić o zamienną</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#jak-wylamywac-czesci-zeby-nie-pekaly\">Jak wyłamywać części, żeby nie pękały</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#czeste-pytania\">Częste pytania</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Jak ocenić złamanie, zanim cokolwiek skleisz",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "jak-ocenic-zlamanie-zanim-cokolwiek-skleisz"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Połóż wszystkie kawałki na czystej kartce papieru mniej więcej w ich pierwotnych miejscach. Od razu zobaczysz, ile masz odłamków, które do siebie należą i czy czegoś nie brakuje. Świeże złamanie klei się czyściej niż takie, które po pęknięciu było wielokrotnie przykładane i wyginane, dlatego odłamki lepiej zostaw tak, jak leżą."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Przyłóż krawędzie do siebie bez kleju.</strong> Jeśli pasują bez widocznej szczeliny, to czyste złamanie i naprawa jest prosta. Jeśli krawędzie nie pasują, nie klej i postępuj według części o kilku odłamkach.",
+            "items": []
+          },
+          {
+            "content": "<strong>Policz odłamki.</strong> Dwa kawałki oznaczają czyste złamanie. Trzy lub więcej oznacza, że odłamki będziesz kleić po jednym, a nie wszystkie naraz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Sprawdź w instrukcji, co część trzyma w konstrukcji.</strong> Przy części ozdobnej wystarczy sklejenie. Przy nośnej części ramy samo połączenie może nie przywrócić dostatecznej wytrzymałości, dlatego zajrzyj też do części o części zamiennej.",
+            "items": []
+          },
+          {
+            "content": "<strong>Sprawdź, czy żaden kawałek nie brakuje.</strong> Brakujący mały odłamek można wypełnić szpachlą, przy większej brakującej części łatwiej zdobyć część zamienną.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Jakiego kleju użyć i jak długo ma schnąć połączenie",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "jakiego-kleju-uzyc-i-jak-dlugo-ma-schnac-polaczenie"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Do klejenia drewna z drewnem użyj białego kleju do drewna (PVA, czyli zwykłego białego kleju do drewna). Wsiąka we włókna drewna i daje Ci kilka minut na wyrównanie części. Klej błyskawiczny nie jest przy tej naprawie zalecany jako pierwszy wybór: zasycha niemal natychmiast, więc nie zdążysz wyrównać części, a po zaschnięciu jest twardy i kruchy, przez co połączenie przy takim samym obciążeniu może pęknąć ponownie."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Nie nakładaj kleju prosto z butelki. Kroplę połóż na powierzchni jednorazowej, na przykład plastikowej nakrętce lub kawałku papieru woskowanego, i przenieś ją na połączenie wykałaczką. Warstwa ma być cienka, ledwo widoczna. Z nadmiaru klej przy dociśnięciu się wyciska, trudno go ukryć i może zwilżyć drewno."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Połączenia nie ruszaj przez pierwsze około 30 minut. Pełną wytrzymałość klej uzyskuje dłużej, dlatego część, która coś niesie, zostaw do wyschnięcia na kilka godzin, najlepiej na noc, i dopiero potem buduj na niej dalej. Jeśli dane na opakowaniu Twojego kleju różnią się od tego zakresu, kieruj się opakowaniem."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "biały klej do drewna i wykałaczka,",
+            "items": []
+          },
+          {
+            "content": "jednorazowa powierzchnia na klej (nakrętka, papier woskowany),",
+            "items": []
+          },
+          {
+            "content": "taśma malarska, mała gumka recepturka lub mały ciężarek do dociśnięcia połączenia,",
+            "items": []
+          },
+          {
+            "content": "lekko wilgotna szmatka do zetrzenia wyciśniętego kleju,",
+            "items": []
+          },
+          {
+            "content": "drobny papier ścierny do wyrównania szorstkich krawędzi.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Więcej przydatnych przy składaniu pomocy znajdziesz w <a href=\"/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d\">artykule o narzędziach do składania drewnianych puzzli</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Wskazówka:</strong> Płaskie połączenie możesz zamiast taśmą obciążyć monetą, żeby taśma nie zostawiła śladów na drewnie. Jeśli trzymasz połączenie taśmą, naciągnij ją tylko lekko, żeby dociskała je delikatnie.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Jak skleić czyste złamanie i kilka odłamków",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "jak-skleic-czyste-zlamanie-i-kilka-odlamkow"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Przy czystym złamaniu postępuj według tego, co widzisz i robisz: najpierw krawędzie, potem klej, na końcu unieruchomienie i schnięcie."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Krawędzie pasują bez szczeliny: możesz kleić.</strong> Jeśli szczelina zostaje, nie klej. Połączenie byłoby widoczne i słabsze, dlatego wróć do części o kilku odłamkach.",
+            "items": []
+          },
+          {
+            "content": "<strong>Klej i docisk.</strong> Wykałaczką rozprowadź na połączeniu cienką warstwę kleju, części dociśnij mocno i równomiernie, bez użycia siły, i przytrzymaj około minuty. Przy właściwym nacisku z połączenia wyciska się tylko nieznaczna ilość kleju, którą od razu zetrzyj lekko wilgotną szmatką.",
+            "items": []
+          },
+          {
+            "content": "<strong>Unieruchomienie i schnięcie.</strong> Trzymaj połączenie taśmą, przy części okrągłej gumką, a przy części płaskiej ciężarkiem. Przez pierwsze około 30 minut go nie ruszaj, a część nośną zostaw do wyschnięcia na kilka godzin, nawet na całą noc.",
+            "items": []
+          },
+          {
+            "content": "<strong>Szczelina po wyschnięciu.</strong> Taśmę zdejmij dopiero po wyschnięciu. Jeśli zostanie drobna szczelina, wciśnij w nią trochę szpachli do drewna, zostaw do wyschnięcia i lekko zeszlifuj.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Przy trzech lub więcej odłamkach nie klej wszystkiego naraz, bo kilka luźnych kawałków łatwo się przesuwa podczas trzymania. Najpierw sklej dwa największe odłamki i zostaw je do całkowitego wyschnięcia. Potem dodawaj kolejne po jednym i każdemu daj czas, żeby złapał."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Sklejona część jest w miejscu złamania słabsza niż oryginalna. Jeśli się da, przyklej na jej niewidocznej tylnej stronie cienki pasek sztywnego papieru lub cienkiego drewna, nieco mniejszy niż część, żeby pozostał ukryty."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Naprawioną część najpierw spróbuj wsunąć na miejsce na sucho. Jeśli występ jest zbyt ciasny: jeśli instrukcja przy tej części radzi inaczej, kieruj się nią; w przeciwnym razie zeszlifuj go lekko drobnym papierem ściernym o gradacji około 220, aż część wejdzie łatwo, i po każdym szlifowaniu znów spróbuj części na sucho. Jeśli po naprawie zacina się ruchoma część, szukanie tarcia opisuje <a href=\"/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac\">artykuł o zacinającym się mechanizmie</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Kiedy nie kleić części i poprosić o zamienną",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kiedy-nie-kleic-czesci-i-poprosic-o-zamienna"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Większość złamań warto naprawiać, ale czasem rozsądniejsza jest wymiana części. Rozważ część zamienną, gdy:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "pękła nośna część ramy, bo takie naprawy rzadko przywracają dość wytrzymałości, by utrzymać resztę konstrukcji,",
+            "items": []
+          },
+          {
+            "content": "jednocześnie złamało się kilka większych części nośnych,",
+            "items": []
+          },
+          {
+            "content": "brakuje większego kawałka materiału, bo szpachla przy większych ubytkach przestaje wyglądać przekonująco.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Wielu producentów zestawów oferuje części zamienne. Kontakt do producenta bywa w instrukcji, często na jej ostatniej stronie. Wyślij zdjęcie strony instrukcji, na której jest brakująca część, a do niego jej numer, nazwę lub kod zestawu i dane z zamówienia."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Brakuje Ci tylko małego występu, który jedynie wyrównywał części? Konstrukcja bez niego często się trzyma, jeśli instrukcja nie stanowi inaczej: krawędzie sklej bezpośrednio, a połączenie od niewidocznej strony podeprzyj paskiem cienkiego drewna lub wykałaczką. Płaską brakującą część możesz tymczasowo wyciąć z cienkiego kartonu według obrysu w instrukcji, a słupek zastąpić okrągłą wykałaczką skróconą do właściwej długości. Zamiennik najpierw wypróbuj na sucho, bo jest mniej dokładny niż oryginalna część."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Jak wyłamywać części, żeby nie pękały",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "jak-wylamywac-czesci-zeby-nie-pekaly"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Większość złamań powstaje przy dwóch czynnościach: przy wyłamywaniu części z arkusza i przy wsuwaniu części, która nie pasuje. Oba momenty można opanować techniką."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Obejrzyj arkusz pod światło.</strong> Część z włoskowatym pęknięciem lub do połowy oderwanym mostkiem wyłamuj wyjątkowo ostrożnie.",
+            "items": []
+          },
+          {
+            "content": "<strong>Połóż arkusz płasko na stole.</strong> W powietrzu się wygina, a część wtedy łatwiej pęka.",
+            "items": []
+          },
+          {
+            "content": "<strong>Naciskaj kciukiem od tyłu arkusza, a przednią stronę części podeprzyj palcem.</strong> Jeśli część się opiera, nie naciskaj mocniej: sprawdź, który mostek jeszcze trzyma.",
+            "items": []
+          },
+          {
+            "content": "<strong>Przy części z kilkoma mostkami uwalniaj je jeden po drugim.</strong> Nacisk rozkłada się wtedy stopniowo i część nie łamie się naraz.",
+            "items": []
+          },
+          {
+            "content": "<strong>Przed klejeniem wypróbuj każde połączenie na sucho.</strong> Jeśli nie pasuje, ustal dlaczego (zła część, zła pozycja), zamiast je przepychać.",
+            "items": []
+          },
+          {
+            "content": "<strong>Połączenie wsuwaj naciskiem przy podstawie występu, a nie na jego czubku.</strong> Występ łamie się w najcieńszym miejscu, które zwykle jest tam, gdzie spotyka się z rowkiem.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Jeśli producent w instrukcji zaleca inny sposób wyłamywania lub wsuwania, kieruj się jego instrukcją."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Częste pytania",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "czeste-pytania"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czy pękniętą drewnianą część można jeszcze skleić?</h3>\n    <p style=\"margin:0;\">Tak, jeśli masz wszystkie odłamki, a ich krawędzie pasują bez szczeliny. Użyj białego kleju do drewna, nie błyskawicznego.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Jak długo ma schnąć sklejona część?</h3>\n    <p style=\"margin:0;\">Przez pierwsze około 30 minut jej nie ruszaj. Część, która coś niesie, zostaw do wyschnięcia na kilka godzin, najlepiej na noc.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Czy do naprawy mogę użyć kleju błyskawicznego?</h3>\n    <p style=\"margin:0;\">To nie pierwszy wybór. Zasycha niemal natychmiast, więc nie zdążysz wyrównać części, a po zaschnięciu jest kruchy.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Co zrobić, gdy brakuje mi części całkowicie?</h3>\n    <p style=\"margin:0;\">Skontaktuj się z producentem zestawu i wyślij kod zestawu, numer części z instrukcji oraz zdjęcie strony instrukcji. Płaską część możesz tymczasowo wyciąć z cienkiego kartonu.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-narzedzi-potrzebnych-przy-skladaniu-drewnianych-puzzli-3d",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

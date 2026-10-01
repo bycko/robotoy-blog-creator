@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "en",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Cracked wooden part: how to fix it and keep building",
+  "description": "Did a thin wooden part crack while you were popping it out of the sheet? If you have all the fragments and their edges fit together, wood glue can fix it. For a load-bearing part or a missing piece, a replacement part is the better choice.",
+  "seo_title": "Cracked wooden part: how to glue it and keep building",
+  "seo_description": "Did a wooden part crack while you were building? Find out when to glue it, which glue to use, how long to let it dry and when to ask for a spare part.",
+  "slug": "cracked-wooden-part-how-to-fix-it-and-keep-building",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Cracked wooden part: how to fix it and keep building"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A cracked thin part can often be glued, and you can carry on building. What decides it is whether you have all the fragments and whether their edges fit together without a gap: then wood glue, a thin layer and a little patience are enough. The first thing to do is lay the fragments out on a sheet of paper and glue nothing yet."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "A break while popping out or inserting a part is common and does not mean you made a mistake: thin parts, small protrusions and the tabs that hold the part in the sheet are fragile by nature. Whether to glue the part depends on the shape of the break and on what the part holds in the build."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Contents of the article</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#how-to-judge-the-break-before-you-glue-anything\">How to judge the break before you glue anything</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#which-glue-to-use-and-how-long-to-let-the-joint-dry\">Which glue to use and how long to let the joint dry</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#how-to-glue-a-clean-break-and-several-fragments\">How to glue a clean break and several fragments</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#when-not-to-glue-the-part-and-ask-for-a-replacement\">When not to glue the part and ask for a replacement</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#how-to-pop-parts-out-so-they-do-not-crack\">How to pop parts out so they do not crack</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#frequently-asked-questions\">Frequently asked questions</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "How to judge the break before you glue anything",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "how-to-judge-the-break-before-you-glue-anything"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Lay all the pieces on a clean sheet of paper, roughly in their original places. You will see at once how many fragments you have, which ones belong together and whether anything is missing. A fresh break glues more cleanly than one you have fitted together and bent over and over after it cracked, so it is better to leave the fragments lying."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Hold the edges together without glue.</strong> If they meet with no visible gap, it is a clean break and the repair is simple. If the edges do not match, do not glue, and follow the section on several fragments.",
+            "items": []
+          },
+          {
+            "content": "<strong>Count the fragments.</strong> Two pieces mean a clean break. Three or more mean you will glue the fragments one at a time, not all at once.",
+            "items": []
+          },
+          {
+            "content": "<strong>Check in the instructions what the part holds in the build.</strong> For a decorative part, gluing is enough. For a load-bearing frame part, the joint alone may not restore enough strength, so also read the section on a replacement part.",
+            "items": []
+          },
+          {
+            "content": "<strong>Check that no piece is missing.</strong> A missing small chip can be filled with putty, but for a larger missing piece it is easier to get a replacement part.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Which glue to use and how long to let the joint dry",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "which-glue-to-use-and-how-long-to-let-the-joint-dry"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "To glue wood to wood, use white wood glue (PVA, the ordinary white glue for wood). It soaks into the wood fibres and leaves you several minutes to line the part up. Super glue is not recommended as a first choice for this repair: it sets almost instantly, so you will not have time to line the part up, and once set it is hard and brittle, so the joint can crack again under the same load."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Do not apply the glue straight from the bottle. Put a drop on a disposable surface, such as a plastic lid or a piece of waxed paper, and carry it to the joint with a toothpick. The layer should be thin, barely visible. With too much glue, it squeezes out when pressed, is hard to hide and can dampen the wood."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Do not move the joint for the first 30 minutes or so. The glue reaches full strength more slowly, so let a part that carries something dry for several hours, preferably overnight, and only then build on it. If the information on your glue’s packaging differs from this range, follow the packaging."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "white wood glue and a toothpick,",
+            "items": []
+          },
+          {
+            "content": "a disposable surface for the glue (a lid, waxed paper),",
+            "items": []
+          },
+          {
+            "content": "masking tape, a small rubber band or a small weight to press the joint,",
+            "items": []
+          },
+          {
+            "content": "a slightly damp cloth to wipe off squeezed-out glue,",
+            "items": []
+          },
+          {
+            "content": "fine sandpaper to smooth rough edges.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "More aids that come in handy when building are in <a href=\"/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle\">the article about tools for assembling a wooden puzzle</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> A flat joint can be weighted with a coin instead of tape, so that the tape leaves no marks on the wood. If you hold the joint with tape, pull it only slightly so that it presses the joint lightly.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "How to glue a clean break and several fragments",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "how-to-glue-a-clean-break-and-several-fragments"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "For a clean break, go by what you see and do: first the edges, then the glue, and finally holding and drying."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>The edges meet without a gap: you can glue.</strong> If a gap remains, do not glue. The joint would be visible and weaker, so go back to the section on several fragments.",
+            "items": []
+          },
+          {
+            "content": "<strong>Glue and pressing.</strong> Spread a thin layer of glue on the joint with a toothpick, press the parts together firmly and evenly, not with force, and hold them for about a minute. With the right pressure only a tiny amount of glue squeezes out of the joint, and you wipe it off at once with a slightly damp cloth.",
+            "items": []
+          },
+          {
+            "content": "<strong>Holding and drying.</strong> Hold the joint with tape, with a rubber band on a round part and with a weight on a flat part. Do not move it for the first 30 minutes or so, and let a load-bearing part dry for several hours, up to overnight.",
+            "items": []
+          },
+          {
+            "content": "<strong>The hairline gap after drying.</strong> Remove the tape only after the glue has dried. If a fine gap remains, press a little wood putty into it, let it dry and sand it lightly.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "With three or more fragments, do not glue everything at once, because several loose pieces shift easily while you hold them. First glue the two largest fragments and let them dry completely. Then add the others one at a time and give each of them time to take hold."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "A glued part is weaker at the break than the original. If you can, glue a thin strip of stiff paper or thin wood onto its invisible back side, slightly smaller than the part so that it stays hidden."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "First try fitting the repaired part in place dry. If a protrusion is too tight: if the instructions for this part advise otherwise, follow them; if not, sand it lightly with fine sandpaper of about 220 grit until the part goes in easily, and after each round of sanding try the part dry again. If a moving part sticks after the repair, finding the friction is described in <a href=\"/blog/sticking-mechanism-how-to-find-the-friction-and-fix-it\">the article about a sticking mechanism</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "When not to glue the part and ask for a replacement",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "when-not-to-glue-the-part-and-ask-for-a-replacement"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Most breaks are worth repairing, but sometimes replacing the part is the more sensible choice. Consider a replacement part when:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "a load-bearing frame part has cracked, because such repairs rarely restore enough strength to hold up the rest of the build,",
+            "items": []
+          },
+          {
+            "content": "several larger load-bearing parts are broken at once,",
+            "items": []
+          },
+          {
+            "content": "a larger piece of material is missing, because putty stops looking convincing over larger gaps.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Many kit makers offer replacement parts. The maker’s contact details are usually in the instructions, often on the last page. Send a photo of the instruction page that shows the missing part, together with its number, the name or code of the kit and your order details."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Are you missing only a small protrusion that merely lined the parts up? The build often holds without it, unless the instructions say otherwise: glue the edges directly and support the joint from the invisible side with a strip of thin wood or a toothpick. A missing flat part can be cut temporarily from thin cardboard, following the outline in the instructions, and a post can be replaced with a round toothpick cut to length. Try the replacement dry first, because it is less precise than the original part."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "How to pop parts out so they do not crack",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "how-to-pop-parts-out-so-they-do-not-crack"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Most breaks happen during two activities: when popping a part out of the sheet and when inserting a part that does not fit. Both moments can be handled with technique."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Inspect the sheet against the light.</strong> Pop out a part with a hairline crack or a half-torn tab with extra care.",
+            "items": []
+          },
+          {
+            "content": "<strong>Lay the sheet flat on the table.</strong> In the air it bends, and the part then cracks more easily.",
+            "items": []
+          },
+          {
+            "content": "<strong>Push with your thumb from the back of the sheet and support the front of the part with a finger.</strong> If the part resists, do not push harder: look for which tab is still holding.",
+            "items": []
+          },
+          {
+            "content": "<strong>With a part that has several tabs, release them one after another.</strong> The pressure is then spread gradually and the part does not break all at once.",
+            "items": []
+          },
+          {
+            "content": "<strong>Try every connection dry before gluing.</strong> If it does not fit, find out why (wrong part, wrong position) instead of forcing it through.",
+            "items": []
+          },
+          {
+            "content": "<strong>Push the connection in with pressure at the base of the protrusion, not at its tip.</strong> A protrusion breaks at its thinnest point, which is usually where it meets the slot.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "If the maker’s instructions recommend another way of popping out or inserting parts, follow their instructions."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Frequently asked questions",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "frequently-asked-questions"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Can a cracked wooden part still be glued?</h3>\n    <p style=\"margin:0;\">Yes, if you have all the fragments and their edges fit together without a gap. Use white wood glue, not super glue.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">How long should a glued part dry?</h3>\n    <p style=\"margin:0;\">Do not move it for the first 30 minutes or so. Let a part that carries something dry for several hours, preferably overnight.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Can I use super glue for the repair?</h3>\n    <p style=\"margin:0;\">It is not the first choice. It sets almost instantly, so you will not have time to line the part up, and once set it is brittle.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">What should I do if a part is missing completely?</h3>\n    <p style=\"margin:0;\">Contact the kit maker and send the kit code, the part number from the instructions and a photo of the instruction page. A flat part can be cut temporarily from thin cardboard.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-tools-you-need-when-assembling-a-wooden-3d-puzzle",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/sticking-mechanism-how-to-find-the-friction-and-fix-it",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "es",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Pieza de madera agrietada: cómo repararla y seguir montando",
+  "description": "¿Se te ha agrietado una pieza fina de madera al sacarla de la plancha? Si tienes todos los fragmentos y sus bordes encajan, se puede pegar con cola para madera. Si es una pieza que sostiene la estructura o falta un trozo, es mejor una pieza de repuesto.",
+  "seo_title": "Pieza de madera agrietada: cómo pegarla y seguir montando",
+  "seo_description": "¿Se te ha roto una pieza de madera al montar? Descubre cuándo pegarla, qué cola usar, cuánto debe secar la unión y cuándo pedir una pieza de repuesto.",
+  "slug": "pieza-de-madera-agrietada-como-repararla-y-seguir-montando",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Pieza de madera agrietada: cómo repararla y seguir montando"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Una pieza fina agrietada se puede pegar en muchos casos, y puedes seguir con el montaje. Lo que decide es si tienes todos los fragmentos y si sus bordes encajan sin hueco: entonces bastan cola para madera, una capa fina y algo de paciencia. Lo primero que debes hacer es colocar los fragmentos sobre una hoja de papel y no pegar nada todavía."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Una rotura al sacar o al encajar una pieza es habitual y no significa que hayas hecho algo mal: las piezas finas, los pequeños salientes y los puentes que sujetan la pieza en la plancha son frágiles por naturaleza. Que pegues o no la pieza depende de la forma de la rotura y de lo que la pieza sujeta en el montaje."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Contenido del artículo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#como-valorar-la-rotura-antes-de-pegar-nada\">Cómo valorar la rotura antes de pegar nada</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#que-cola-usar-y-cuanto-debe-secar-la-union\">Qué cola usar y cuánto debe secar la unión</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#como-pegar-una-rotura-limpia-y-varios-fragmentos\">Cómo pegar una rotura limpia y varios fragmentos</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cuando-no-pegar-la-pieza-y-pedir-una-de-repuesto\">Cuándo no pegar la pieza y pedir una de repuesto</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#como-sacar-las-piezas-para-que-no-se-agrieten\">Cómo sacar las piezas para que no se agrieten</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#preguntas-frecuentes\">Preguntas frecuentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Cómo valorar la rotura antes de pegar nada",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "como-valorar-la-rotura-antes-de-pegar-nada"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Coloca todos los trozos sobre una hoja de papel limpia, más o menos en su sitio original. Verás enseguida cuántos fragmentos tienes, cuáles van juntos y si falta algo. Una rotura reciente se pega más limpia que una que has juntado y doblado varias veces después de romperse, por eso es mejor dejar los fragmentos donde están."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Junta los bordes sin cola.</strong> Si encajan sin hueco visible, es una rotura limpia y la reparación es sencilla. Si los bordes no encajan, no pegues y sigue el apartado sobre varios fragmentos.",
+            "items": []
+          },
+          {
+            "content": "<strong>Cuenta los fragmentos.</strong> Dos trozos significan una rotura limpia. Tres o más significan que pegarás los fragmentos de uno en uno, no todos a la vez.",
+            "items": []
+          },
+          {
+            "content": "<strong>Comprueba en las instrucciones qué sujeta la pieza en el montaje.</strong> En una pieza decorativa basta con pegarla. En una pieza del marco que soporta carga, la unión por sí sola puede no devolver suficiente resistencia, por eso consulta también el apartado sobre la pieza de repuesto.",
+            "items": []
+          },
+          {
+            "content": "<strong>Comprueba que no falte ningún trozo.</strong> Una astilla pequeña que falte se puede rellenar con masilla, pero si falta una parte mayor es más sencillo conseguir una pieza de repuesto.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Qué cola usar y cuánto debe secar la unión",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "que-cola-usar-y-cuanto-debe-secar-la-union"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Para pegar madera con madera, usa cola blanca para madera (PVA, es decir, la cola blanca habitual para madera). Penetra en las fibras de la madera y te deja varios minutos para alinear la pieza. El pegamento instantáneo no se recomienda como primera opción en esta reparación: fragua casi al instante, así que no te da tiempo a alinear la pieza, y una vez seco es duro y quebradizo, de modo que la unión puede volver a romperse con la misma carga."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "No apliques la cola directamente del bote. Pon una gota sobre una superficie desechable, por ejemplo una tapa de plástico o un trozo de papel encerado, y llévala a la unión con un palillo. La capa debe ser fina, apenas visible. Con demasiada cola, esta rebosa al apretar, es difícil de disimular y puede humedecer la madera."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "No muevas la unión durante los primeros 30 minutos aproximadamente. La cola tarda más en alcanzar su resistencia total, por eso deja secar varias horas, mejor toda la noche, una pieza que soporte algo, y solo después sigue montando sobre ella. Si los datos del envase de tu cola difieren de este intervalo, guíate por el envase."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "cola blanca para madera y un palillo,",
+            "items": []
+          },
+          {
+            "content": "una superficie desechable para la cola (tapa, papel encerado),",
+            "items": []
+          },
+          {
+            "content": "cinta de carrocero, una goma elástica pequeña o un peso pequeño para apretar la unión,",
+            "items": []
+          },
+          {
+            "content": "un paño ligeramente húmedo para limpiar la cola que rebose,",
+            "items": []
+          },
+          {
+            "content": "papel de lija fino para alisar los bordes ásperos.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Más utensilios que vienen bien al montar están en el <a href=\"/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera\">artículo sobre herramientas para montar un puzle de madera</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consejo:</strong> Una unión plana puedes cargarla con una moneda en lugar de usar cinta, para que la cinta no deje marcas en la madera. Si sujetas la unión con cinta, tensa la cinta solo un poco para que apriete la unión con suavidad.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Cómo pegar una rotura limpia y varios fragmentos",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "como-pegar-una-rotura-limpia-y-varios-fragmentos"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "En una rotura limpia, guíate por lo que ves y haces: primero los bordes, luego la cola y por último la sujeción y el secado."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Los bordes encajan sin hueco: puedes pegar.</strong> Si queda un hueco, no pegues. La unión se vería y sería más débil, así que vuelve al apartado sobre varios fragmentos.",
+            "items": []
+          },
+          {
+            "content": "<strong>Cola y presión.</strong> Con un palillo, extiende una capa fina de cola sobre la unión, presiona las piezas con firmeza y de forma uniforme, sin fuerza, y sujétalas aproximadamente un minuto. Con la presión correcta solo sale de la unión una cantidad mínima de cola, que limpias enseguida con un paño ligeramente húmedo.",
+            "items": []
+          },
+          {
+            "content": "<strong>Sujeción y secado.</strong> Sujeta la unión con cinta, en una pieza redonda con una goma elástica y en una pieza plana con un peso. No la muevas durante los primeros 30 minutos aproximadamente, y deja secar una pieza que soporte carga varias horas, hasta toda la noche.",
+            "items": []
+          },
+          {
+            "content": "<strong>La rendija tras el secado.</strong> Quita la cinta solo cuando la cola esté seca. Si queda una rendija fina, mete en ella un poco de masilla para madera, deja que seque y lija con suavidad.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Con tres o más fragmentos, no pegues todo a la vez, porque varios trozos sueltos se desplazan con facilidad mientras los sujetas. Pega primero los dos fragmentos más grandes y deja que sequen por completo. Después añade los demás de uno en uno y dale a cada uno tiempo para que agarre."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Una pieza pegada es más débil en la zona de la rotura que la original. Si puedes, pega en su cara trasera, la que no se ve, una tira fina de papel rígido o de madera fina, algo más pequeña que la pieza para que quede oculta."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Prueba primero a encajar la pieza reparada en su sitio sin cola. Si un saliente queda demasiado justo: si las instrucciones de esta pieza indican otra cosa, síguelas; si no, líjalo con suavidad con papel de lija fino de grano alrededor de 220 hasta que la pieza entre con facilidad, y tras cada lijado prueba la pieza de nuevo sin cola. Si tras la reparación se atasca una parte móvil, la búsqueda de la fricción se describe en el <a href=\"/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla\">artículo sobre un mecanismo que se atasca</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Cuándo no pegar la pieza y pedir una de repuesto",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cuando-no-pegar-la-pieza-y-pedir-una-de-repuesto"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "La mayoría de las roturas merecen una reparación, pero a veces es más sensato cambiar la pieza. Plantéate una pieza de repuesto cuando:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "se haya agrietado una pieza del marco que soporta carga, porque esas reparaciones rara vez devuelven suficiente resistencia para sostener el resto del montaje,",
+            "items": []
+          },
+          {
+            "content": "se hayan roto a la vez varias piezas grandes que soportan carga,",
+            "items": []
+          },
+          {
+            "content": "falte un trozo grande de material, porque la masilla deja de ser convincente en huecos mayores.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Muchos fabricantes de kits ofrecen piezas de repuesto. El contacto del fabricante suele estar en las instrucciones, a menudo en la última página. Envía una foto de la página de las instrucciones en la que aparece la pieza que falta y, junto a ella, su número, el nombre o el código del kit y los datos del pedido."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "¿Te falta solo un pequeño saliente que se limitaba a alinear las piezas? El montaje a menudo aguanta sin él, salvo que las instrucciones indiquen otra cosa: pega los bordes directamente y refuerza la unión por el lado que no se ve con una tira de madera fina o con un palillo. Una pieza plana que falte puedes recortarla de forma provisional en cartón fino siguiendo el contorno de las instrucciones, y un poste puedes sustituirlo por un palillo redondo cortado a la longitud necesaria. Prueba primero la sustitución sin cola, porque es menos precisa que la pieza original."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Cómo sacar las piezas para que no se agrieten",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "como-sacar-las-piezas-para-que-no-se-agrieten"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "La mayoría de las roturas se producen en dos momentos: al sacar una pieza de la plancha y al encajar una pieza que no entra bien. Ambos momentos se pueden manejar con técnica."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Mira la plancha a contraluz.</strong> Una pieza con una grieta muy fina o con un puente medio roto sácala con especial cuidado.",
+            "items": []
+          },
+          {
+            "content": "<strong>Coloca la plancha plana sobre la mesa.</strong> En el aire se dobla y la pieza se rompe entonces con más facilidad.",
+            "items": []
+          },
+          {
+            "content": "<strong>Empuja con el pulgar desde la parte trasera de la plancha y apoya con un dedo la cara delantera de la pieza.</strong> Si la pieza se resiste, no empujes con más fuerza: busca qué puente sigue sujetando.",
+            "items": []
+          },
+          {
+            "content": "<strong>En una pieza con varios puentes, suéltalos uno tras otro.</strong> La presión se reparte así poco a poco y la pieza no se rompe de golpe.",
+            "items": []
+          },
+          {
+            "content": "<strong>Antes de pegar, prueba cada unión sin cola.</strong> Si no encaja, averigua por qué (pieza equivocada, posición equivocada) en lugar de forzarla.",
+            "items": []
+          },
+          {
+            "content": "<strong>Encaja la unión presionando en la base del saliente, no en su punta.</strong> Un saliente se rompe en el punto más fino, que suele estar donde se une con la ranura.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Si el fabricante recomienda en las instrucciones otra manera de sacar o encajar las piezas, sigue sus instrucciones."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Preguntas frecuentes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "preguntas-frecuentes"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Se puede pegar todavía una pieza de madera agrietada?</h3>\n    <p style=\"margin:0;\">Sí, si tienes todos los fragmentos y sus bordes encajan sin hueco. Usa cola blanca para madera, no pegamento instantáneo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Cuánto debe secar una pieza pegada?</h3>\n    <p style=\"margin:0;\">No la muevas durante los primeros 30 minutos aproximadamente. Una pieza que soporte algo, déjala secar varias horas, mejor toda la noche.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Puedo usar pegamento instantáneo para la reparación?</h3>\n    <p style=\"margin:0;\">No es la primera opción. Fragua casi al instante, así que no te da tiempo a alinear la pieza, y una vez seco es quebradizo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Qué hago si me falta una pieza por completo?</h3>\n    <p style=\"margin:0;\">Ponte en contacto con el fabricante del kit y envía el código del kit, el número de la pieza de las instrucciones y una foto de la página de las instrucciones. Una pieza plana puedes recortarla de forma provisional en cartón fino.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-herramientas-que-necesitas-al-armar-un-rompecabezas-3d-de-madera",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "run_id": "2026-10-12-mon",
+  "round": 1,
+  "locale": "et",
+  "topic_key": "guide-repairing-broken-part",
+  "pillar": "GUIDE",
+  "title": "Pragunenud puitdetail: kuidas parandada ja ehitada edasi",
+  "description": "Kas õhuke puitdetail pragunes plaadist välja murdes? Kui sul on kõik killud olemas ja nende servad sobivad kokku, saab selle puiduliimiga kokku liimida. Kandva detaili või puuduva tüki korral on parem asendusdetail.",
+  "seo_title": "Pragunenud puitdetail: kuidas liimida ja ehitada edasi",
+  "seo_description": "Kas puitdetail pragunes kokkupanekul? Uuri, millal see liimida, millist liimi kasutada, kui kaua liidet kuivatada ja millal küsida asendusdetaili.",
+  "slug": "pragunenud-puitdetail-kuidas-parandada-ja-ehitada-edasi",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Pragunenud puitdetail: kuidas parandada ja ehitada edasi"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Õhukese detaili saab pragunemise korral paljudel juhtudel kokku liimida ja sa võid ehitamist jätkata. Otsustab see, kas sul on kõik killud olemas ja kas nende servad sobivad kokku ilma piluta: siis piisab puiduliimist, õhukesest kihist ja natukesest kannatlikkusest. Esimese asjana pane killud paberilehele ja ära veel midagi liimi."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Murdumine detaili välja murdes või sisse pannes on tavaline ega tähenda, et oleksid vea teinud: õhukesed detailid, väikesed eendid ja sillad, mis hoiavad detaili plaadis, on loomu poolest õrnad. Kas detail liimida, sõltub murdekoha kujust ja sellest, mida detail ehituses hoiab."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Artikli sisukord</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kuidas-murdekohta-hinnata-enne-kui-midagi-liimid\">Kuidas murdekohta hinnata, enne kui midagi liimid</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#millist-liimi-kasutada-ja-kui-kaua-liidet-kuivada-lasta\">Millist liimi kasutada ja kui kaua liidet kuivada lasta</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kuidas-liimida-puhast-murdu-ja-mitut-kildu\">Kuidas liimida puhast murdu ja mitut kildu</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#millal-detaili-mitte-liimida-ja-kusida-asendusdetaili\">Millal detaili mitte liimida ja küsida asendusdetaili</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kuidas-detaile-valja-murda-et-need-ei-puruneks\">Kuidas detaile välja murda, et need ei puruneks</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#korduma-kippuvad-kusimused\">Korduma kippuvad küsimused</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kuidas murdekohta hinnata, enne kui midagi liimid",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kuidas-murdekohta-hinnata-enne-kui-midagi-liimid"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Pane kõik tükid puhtale paberilehele ligikaudu nende algsetele kohtadele. Näed kohe, mitu kildu sul on, millised kuuluvad kokku ja kas midagi puudub. Värske murdekoht liimub puhtamalt kui see, mida oled pärast purunemist korduvalt kokku pannud ja painutanud, seetõttu jäta killud parem lamama."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Pane servad ilma liimita üksteise vastu.</strong> Kui need sobivad nähtava piluta, on tegu puhta murdega ja parandus on lihtne. Kui servad ei sobi, ära liimi ja järgi osa mitme killu kohta.",
+            "items": []
+          },
+          {
+            "content": "<strong>Loe killud üle.</strong> Kaks tükki tähendab puhast murdu. Kolm või rohkem tähendab, et liimid killud ühekaupa, mitte kõik korraga.",
+            "items": []
+          },
+          {
+            "content": "<strong>Uuri juhendist, mida detail ehituses hoiab.</strong> Dekoratiivse detaili puhul piisab liimimisest. Raami kandva detaili puhul ei pruugi liide üksi piisavat tugevust tagasi anda, seepärast vaata ka asendusdetaili osa.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kontrolli, et ükski tükk ei puuduks.</strong> Puuduva väikese killu saab täita pahtliga, suurema puuduva osa korral on lihtsam hankida asendusdetail.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b08",
+      "type": "header",
+      "data": {
+        "text": "Millist liimi kasutada ja kui kaua liidet kuivada lasta",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "millist-liimi-kasutada-ja-kui-kaua-liidet-kuivada-lasta"
+        }
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Puidu puidule liimimiseks kasuta valget puiduliimi (PVA ehk tavaline valge puiduliim). See imbub puidukiududesse ja jätab sulle mõne minuti, et detail õigesse asendisse seada. Sekundiliimi ei soovitata selle paranduse esimese valikuna: see kivistub peaaegu kohe, nii et sa ei jõua detaili joondada, ja kivistununa on see kõva ja habras, mistõttu võib liide sama koormuse all uuesti murduda."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Ära kanna liimi otse pudelist peale. Pane tilk ära visatavale pinnale, näiteks plastkorgile või tükile vahapaberile, ja vii see hambaorgiga liitekohale. Kiht olgu õhuke, vaevu nähtav. Liigsest liimist pressitakse see kokku vajutades välja, seda on raske peita ja see võib puitu niisutada."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Ära liiguta liidet esimesed umbes 30 minutit. Liim saavutab täieliku tugevuse pikema aja jooksul, seetõttu lase detailil, mis midagi kannab, kuivada mitu tundi, parem üle öö, ja ehita sellele edasi alles siis. Kui sinu liimi pakendil olevad andmed erinevad sellest vahemikust, juhindu pakendist."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "valge puiduliim ja hambaork,",
+            "items": []
+          },
+          {
+            "content": "ära visatav pind liimi jaoks (kork, vahapaber),",
+            "items": []
+          },
+          {
+            "content": "maalriteip, väike kummirõngas või väike raskus liite kokku surumiseks,",
+            "items": []
+          },
+          {
+            "content": "kergelt niiske lapp väljapressitud liimi pühkimiseks,",
+            "items": []
+          },
+          {
+            "content": "peen liivapaber karmide servade siluks.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Muid kokkupanekul kasulikke abivahendeid leiad <a href=\"/blogi/10-tooriista-mida-vajate-puidust-3d-pusle-kokkupanemisel\">artiklist puidust pusle kokkupaneku tööriistade kohta</a>."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nõuanne:</strong> Lamedat liidet võid teibi asemel mündiga raskendada, et teip ei jätaks puidule jälgi. Kui hoiad liidet teibiga, tõmba teipi vaid kergelt, et see suruks liidet õrnalt.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b15",
+      "type": "header",
+      "data": {
+        "text": "Kuidas liimida puhast murdu ja mitut kildu",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kuidas-liimida-puhast-murdu-ja-mitut-kildu"
+        }
+      }
+    },
+    {
+      "id": "b16",
+      "type": "paragraph",
+      "data": {
+        "text": "Puhta murde puhul toimi selle järgi, mida näed ja teed: kõigepealt servad, siis liim, lõpuks kinnitamine ja kuivatamine."
+      }
+    },
+    {
+      "id": "b17",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Servad sobivad ilma piluta: võid liimida.</strong> Kui piluke jääb, ära liimi. Liide oleks nähtav ja nõrgem, seepärast pöördu tagasi osa juurde mitme killu kohta.",
+            "items": []
+          },
+          {
+            "content": "<strong>Liim ja surumine.</strong> Määri hambaorgiga liitekohale õhuke kiht liimi, suru osad kindlalt ja ühtlaselt kokku, mitte jõuga, ja hoia neid umbes minut. Õige surve korral pressub liitekohast välja vaid tilluke kogus liimi, mille pühid kohe kergelt niiske lapiga ära.",
+            "items": []
+          },
+          {
+            "content": "<strong>Kinnitamine ja kuivamine.</strong> Hoia liidet teibiga, ümara detaili puhul kummirõngaga ja lameda detaili puhul raskusega. Ära liiguta seda esimesed umbes 30 minutit ning lase kandval detailil kuivada mitu tundi kuni üle öö.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pilu pärast kuivamist.</strong> Eemalda teip alles pärast kuivamist. Kui jääb peen pilu, suru sellesse veidi puidupahtlit, lase kuivada ja lihvi õrnalt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Kolme või enama killu korral ära liimi kõike korraga, sest mitu lahtist tükki liigub hoidmisel kergesti paigast. Liimi kõigepealt kokku kaks suurimat kildu ja lase neil täielikult kuivada. Seejärel lisa ülejäänud ühekaupa ja anna igaühele aega kinnituda."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Kokku liimitud detail on murdekohas nõrgem kui algne. Võimalusel liimi selle nähtamatule tagaküljele õhuke riba jäika paberit või õhukest puitu, veidi detailist väiksem, et see jääks peidetuks."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Parandatud detaili proovi esmalt paigale panna ilma liimita. Kui eend on liiga tihe: kui juhend selle detaili kohta soovitab teisiti, järgi seda; muidu lihvi seda kergelt peene liivapaberiga, mille terasuurus on umbes 220, kuni detail läheb hõlpsasti paika, ja proovi pärast iga lihvimist detaili uuesti ilma liimita. Kui pärast parandust jääb liikuv osa kinni, kirjeldab hõõrdumise leidmist <a href=\"/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see\">artikkel kinnijäävast mehhanismist</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "header",
+      "data": {
+        "text": "Millal detaili mitte liimida ja küsida asendusdetaili",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "millal-detaili-mitte-liimida-ja-kusida-asendusdetaili"
+        }
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Enamik murdeid tasub ära parandada, kuid mõnikord on mõistlikum detail välja vahetada. Kaalu asendusdetaili, kui:"
+      }
+    },
+    {
+      "id": "b23",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "raami kandev detail on murdunud, sest sellised parandused annavad harva piisavalt tugevust tagasi, et ülejäänud ehitust hoida,",
+            "items": []
+          },
+          {
+            "content": "mitu suuremat kandvat detaili on korraga murdunud,",
+            "items": []
+          },
+          {
+            "content": "puudub suurem tükk materjali, sest pahtel lakkab suuremate aukude puhul veenvana paistmast.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b24",
+      "type": "paragraph",
+      "data": {
+        "text": "Paljud komplektide tootjad pakuvad asendusdetaile. Tootja kontakt on tavaliselt juhendis, sageli selle viimasel leheküljel. Saada foto juhendi leheküljest, kus on puuduv detail, ning lisa selle number, komplekti nimi või kood ja tellimuse andmed."
+      }
+    },
+    {
+      "id": "b25",
+      "type": "paragraph",
+      "data": {
+        "text": "Kas sul puudub vaid väike eend, mis ainult joondas detaile? Ehitus peab ilma selleta sageli vastu, kui juhend ei ütle teisiti: liimi servad otse kokku ja toeta liidet nähtamatust küljest õhukese puiduriba või hambaorgiga. Lameda puuduva detaili võid ajutiselt välja lõigata õhukesest papist juhendi kontuuri järgi ning posti asendada pikkuse järgi lühendatud ümara hambaorgiga. Asendust proovi esmalt ilma liimita, sest see on vähem täpne kui originaaldetail."
+      }
+    },
+    {
+      "id": "b26",
+      "type": "header",
+      "data": {
+        "text": "Kuidas detaile välja murda, et need ei puruneks",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kuidas-detaile-valja-murda-et-need-ei-puruneks"
+        }
+      }
+    },
+    {
+      "id": "b27",
+      "type": "paragraph",
+      "data": {
+        "text": "Enamik murdeid tekib kahe tegevuse käigus: detaili plaadist välja murdes ja detaili sisse pannes, kui see ei sobi. Mõlemat hetke saab tehnikaga kontrolli all hoida."
+      }
+    },
+    {
+      "id": "b28",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "<strong>Vaata plaati valguse vastu.</strong> Karvapeene prao või poolenisti katkise sillaga detaili murra välja erakordselt ettevaatlikult.",
+            "items": []
+          },
+          {
+            "content": "<strong>Pane plaat lamedalt lauale.</strong> Õhus see paindub ja detail puruneb siis kergemini.",
+            "items": []
+          },
+          {
+            "content": "<strong>Suru pöidlaga plaadi tagant ja toeta detaili esikülge sõrmega.</strong> Kui detail ei anna järele, ära suru tugevamini: otsi, milline sild veel hoiab.",
+            "items": []
+          },
+          {
+            "content": "<strong>Mitme sillaga detaili puhul vabasta need ükshaaval.</strong> Surve jaotub nii järk-järgult ja detail ei murdu korraga.",
+            "items": []
+          },
+          {
+            "content": "<strong>Proovi enne liimimist iga ühendust ilma liimita.</strong> Kui see ei sobi, uuri välja, miks (vale detail, vale asend), selle asemel et seda jõuga sisse suruda.",
+            "items": []
+          },
+          {
+            "content": "<strong>Suru ühendus kokku eendi alusest, mitte selle tipust.</strong> Eend murdub kõige peenemast kohast, mis on tavaliselt seal, kus see kohtub soonega.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b29",
+      "type": "paragraph",
+      "data": {
+        "text": "Kui tootja soovitab juhendis teist moodi välja murda või sisse panna, juhindu tema juhendist."
+      }
+    },
+    {
+      "id": "b30",
+      "type": "header",
+      "data": {
+        "text": "Korduma kippuvad küsimused",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "korduma-kippuvad-kusimused"
+        }
+      }
+    },
+    {
+      "id": "b31",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kas murdunud puitdetaili saab veel liimida?</h3>\n    <p style=\"margin:0;\">Jah, kui sul on kõik killud olemas ja nende servad sobivad kokku ilma piluta. Kasuta valget puiduliimi, mitte sekundiliimi.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kui kaua peab liimitud detail kuivama?</h3>\n    <p style=\"margin:0;\">Ära liiguta seda esimesed umbes 30 minutit. Detailil, mis midagi kannab, lase kuivada mitu tundi, parem üle öö.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kas ma võin parandamiseks kasutada sekundiliimi?</h3>\n    <p style=\"margin:0;\">See pole esimene valik. See kivistub peaaegu kohe, nii et sa ei jõua detaili joondada, ja kivistununa on see habras.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mida teha, kui detail puudub täiesti?</h3>\n    <p style=\"margin:0;\">Võta ühendust komplekti tootjaga ja saada komplekti kood, detaili number juhendist ning foto juhendi leheküljest. Lameda detaili võid ajutiselt välja lõigata õhukesest papist.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogi/10-tooriista-mida-vajate-puidust-3d-pusle-kokkupanemisel",
+      "block_id": "b13"
+    },
+    {
+      "page_id": 46,
+      "path": "/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b14",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b31",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://www.craftsandkits.com/blog/help-i-broke-a-piece-how-to-fix-broken-wooden-parts-in-miniature-kits",
+      "note": "Drevárske lepidlo PVA namiesto sekundového (zaschne takmer okamžite a krehko), prenášanie lepidla špáradlom, tenká vrstva, maskovacia páska, gumička a minca ako závažie namiesto pásky, približne 30 minút bez pohybu a niekoľko hodín až cez noc pre nosný diel, lepenie úlomkov po jednom, zadný spevňovací pásik, tmel na škáry, kontakt na výrobcu, dočasné náhrady z kartónu a špáradla, kedy radšej vymeniť, vylamovanie jednej spojky po druhej. Poradie a zoskupenie krokov v článku je vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://handyloom.com/wood-glue-laser-cut-parts/",
+      "note": "Druhý zdroj k postupu lepenia laserom rezaného dreva: PVA lepidlo dáva čas na vyrovnanie, skúška nasucho a jemné zabrúsenie tesných spojov brúsnym papierom 220, tenká vrstva lepidla, pevný a rovnomerný tlak bez drvenia s nepatrným vytlačením lepidla, maskovacia páska ako jemná svorka, 30 až 60 minút do zaobchádzania a 24 hodín do plnej pevnosti, zotretie vytlačeného lepidla vlhkou handričkou, tmel a zabrúsenie škár, sekundové lepidlo je krehké."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://booknookworkshop.com/2026/05/08/how-to-fix-broken-tabs-in-book-nook-kits/",
+      "note": "Skúška nasucho pred opravou, PVA lepidlo, podržanie spoja asi minútu a úplné zaschnutie pred opätovným zasunutím, skrytá výstuž zozadu z tenkého dreva alebo špáradiel, zľahka zabrúsiť tesné drážky a výstupky, malá spojka často len zarovnáva diely a stavba drží aj bez nej, páska a gumičky počas schnutia."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://thereadingresidence.com/how-to-handle-fragile-parts-in-wooden-3d-model-puzzle-projects/",
+      "note": "Prezretie dielov proti svetlu a opatrnejšie zaobchádzanie s krehkými, vylamovanie tlakom zozadu s podoprením zpredu a po jednej spojke, tlak pri základni výstupku (výstupok sa láme v najtenšom mieste, zvyčajne pri drážke), jemné zabrúsenie tesného výstupku brúsnym papierom 220, čerstvý zlom sa lepí čistejšie, podržanie spoja asi minútu."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://smilegrower.com/fix-a-busted-3d-wooden-puzzle/",
+      "note": "Potvrdenie postupu: rozloženie úlomkov, tenká vrstva lepidla, zotretie vytlačeného lepidla vlhkou handričkou, schnutie niekoľko hodín alebo cez noc. Nič z textu sa nepoužilo."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with an 85mm lens at f/2.2, shallow depth of field. A high-angle close-up of a light wooden table next to a window in soft, warm morning daylight, seen from slightly above. In the exact center of the frame, on a sheet of plain white waxed paper, the two halves of a thin broken laser-cut plywood part (a small generic window frame with one clean diagonal crack) are being pressed gently back together by the fingertips of one hand, while the other hand holds a wooden toothpick with a tiny dot of white wood glue on its tip. Beside the part lie a small clear plastic lid with a dab of white glue, two short strips of masking tape stuck to the table edge, a small brass washer used as a weight, a folded soft cloth and a few spare small wooden pieces. The background is softly blurred: a pale wall, a window with a sheer curtain and a small ceramic mug. Natural wood tones and a warm cream palette. No faces, no lamp, no model kit in the frame. No logo, no packaging, no bottle with a label, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every wooden piece is generic and unbranded. The repaired part and the hands stay near the center so a square crop keeps them."
+  }
+}
