@@ -64,7 +64,7 @@
         { "not": { "pattern": "-[gpcna][0-9]" } },
         { "not": { "pattern": "faq" } }
       ],
-      "description": "sk: the page uid. Every locale: the last path segment of url._<COUNTRY> and of the address row _id. Never a router id suffix, never faq."
+      "description": "Sidecar proposal: the slug the storefront service will make from this file's title. The service builds sk uid and the last path segment of url._<COUNTRY> and of the address row _id from the title, not from this field. Never a router id suffix, never faq."
     },
     "blocks": {
       "type": "array",

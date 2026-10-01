@@ -24,7 +24,7 @@ Reviewer copies the page fields from each locale's file into the page unchanged,
 | `description` | `locale._<locale>.description` | 150–300 characters | plain text; the perex, one to three sentences; also the page's meta description |
 | `seo_title` | `locale._<locale>.seo_title` | 1–60 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
 | `seo_description` | `locale._<locale>.seo_description` | 120–155 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
-| `slug` | `sk`: `uid`; every locale: the path of `url._<COUNTRY>` and the address row `_id` | 3–90 characters | see [Slug](#slug) |
+| `slug` | none: the storefront service builds `sk` `uid`, the path of `url._<COUNTRY>` and the address row `_id` from each locale's `title` | 3–90 characters | a proposal in the sidecar, used for the collision check; see [Slug](#slug) |
 | `blocks` | `blocks._<locale>` | see [Body](#body) | copied as the array, block by block, except the cover block's `file` |
 | `tags` | `tags` | — | `[]` while the tags collection is empty ([`11-storefront-data.md`](11-storefront-data.md#tags)) |
 | `cover.file` | `locale._<locale>.image`, and the first block, after the pages service files the upload | — | see [Cover](#cover) |
@@ -37,11 +37,14 @@ Every other field is the sidecar: it tells Reviewer what the article uses and ne
 
 ### Slug
 
-- Lowercase ASCII letters, digits, and single hyphens: `^[a-z0-9]+(-[a-z0-9]+)*$`. Transliterate diacritics (`č` → `c`, `ô` → `o`).
+**The address is built from the title, not from `slug`.** The storefront service makes the Slovak `uid` and, in every language, the last path segment of `url._<COUNTRY>` and of the address row from that language's `title` ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). It turns the title into a slug letter by letter: a letter becomes its Latin equivalent, a character that is not a letter, a digit, a space, or a hyphen is dropped, spaces become hyphens, and the result is lowercased ([`19-translator.md`](19-translator.md#transliteration) reproduces the table). The `slug` field is a proposal in the sidecar: Creator writes it **exactly as the service will make it from the Slovak `title`**, so the checks below run on the real address.
+
+- Lowercase ASCII letters, digits, and single hyphens: `^[a-z0-9]+(-[a-z0-9]+)*$`. Diacritics become the base letter (`č` → `c`, `ô` → `o`); punctuation such as `:` or `,` is dropped.
 - **Never contains `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit**, because the router reads that as an id ([`11-storefront-data.md`](11-storefront-data.md#fields)).
 - **Never contains `faq`**, because a `uid` with `faq` switches the page to the FAQ layout.
-- The Slovak slug becomes the page `uid`, so it is unique in the whole `pages` collection. Every slug is unique on its host among the address rows.
-- The address is `https://<host>/<blog segment>/<slug>`, composed by Reviewer from the current environment. **No article file carries a host.**
+- The slug the service makes from the Slovak title becomes the page `uid`, so it is unique in the whole `pages` collection and among the `seo` address rows of the Slovak host.
+- When a check fails, **change the `title`**, not only the `slug` field: the title is what the service reads.
+- The address is `https://<host>/<blog segment>/<slug the service made>`. **No article file carries a host.**
 
 ## Body
 

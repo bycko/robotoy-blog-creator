@@ -121,7 +121,7 @@ Write `runs/<run_id>/article.json` in Slovak, `locale` `sk`, `round` `1`, valid 
 2. Write the opening first: title, perex (`description`), and the first two paragraphs deliver the answer or the promise to the reader, in everyday words, and name no product. The first block is the cover image (`role` `cover`, `caption` equal to `title`, no `file`). The next two blocks are those paragraphs. The fourth block is the contents list.
 3. Write the rest in the pillar's order in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#structure): at least two level-2 headers, each with `elementID` `s1`, `s2`, … in order and with plain text that names that part of the answer. A list is for steps, checks, criteria, or real alternatives. A table is for rows compared on the same criteria. Products come only after the second level-2 header, where they help the reader act. The contents list names every level-2 header, in order, with the same ids.
 4. Build every widget from its template in [`../templates/widgets/`](../templates/widgets/product-card.html) by the filling and escaping rules in [`15-widgets.md`](15-widgets.md). No other markup reaches an `HTML` block.
-5. Derive `slug` from the title per [`14-article-contract.md`](14-article-contract.md#slug).
+5. Write `slug` as the service will make it from the Slovak `title` ([`14-article-contract.md`](14-article-contract.md#slug)): the address is built from the title, `slug` is the sidecar proposal. Run the collision check on that value: not a `uid` in `pages`, not an `_id` suffix in `seo`, no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`. When it fails, change the title.
 6. `tags`: `[]` when the row's `tags` is `-`; otherwise the row's tag `uid`s.
 7. Fill the sidecar: `products_used`, `reviews_quoted`, `internal_links`, `html_blocks`, `sources`, `word_counts`, `cover`. The body does not say how the cover was made.
 
@@ -202,7 +202,7 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 - [ ] `article.json` validates against the schema: `check-jsonschema --schemafile spec/16-article-schema.json runs/<run_id>/article.json` prints no error. An unknown key fails.
 - [ ] `run_id` equals the run directory name (`runs/<run_id>/`); `topic_key` and `pillar` equal `row.tsv`, which is compared only on those two fields; `locale` is `sk`; `round` is this round.
 - [ ] `title` and `seo_title` at most 60 characters; `description` 150–300; `seo_description` 120–155; counted as Unicode characters with spaces.
-- [ ] `slug` matches the slug rules: no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`.
+- [ ] `slug` equals what the service makes from `title` (letters to Latin, punctuation dropped, spaces to hyphens, lowercase) and matches the slug rules: no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`, free in `pages.uid` and in `seo`.
 - [ ] The cover file exists in the directory and `cover.file` names it. The body does not say the cover was generated.
 
 **Blocks and HTML**
