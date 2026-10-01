@@ -2,7 +2,7 @@
 
 From the approved Slovak article you make the other 20 languages. Each language is one file that says what the Slovak file says, with the same blocks in the same order, and with that country's own links and product names. You do not shorten, extend, or improve the article; a translation that adds or drops a claim is a wrong translation.
 
-Nothing is written into the storefront until all 20 languages pass Reviewer's check, because enabling the page publishes all 21 languages at once. **So you deliver all 20 files in one push, or none.**
+Nothing is written into the storefront until all 20 languages pass Reviewer's check, because the page goes public with all 21 languages at once. **So you deliver all 20 files in one push, or none.**
 
 ## Reading order
 
