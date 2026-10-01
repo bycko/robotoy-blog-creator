@@ -14,7 +14,7 @@ The directory name is the run id: Creator's schedule date in Europe/Bratislava, 
 
 - **The run id never changes on a retry or a revision.** A retry on a later day keeps the id of the run it retries.
 - A retry writes into the existing directory. **There is never a second directory for one run.**
-- Creator creates the directory only when it takes a row. A run that finds no ready row creates none ([`../spec/17-creator.md`](../spec/17-creator.md)).
+- Creator creates the directory only when it takes a row. A run that finds no ready row for its day and none overdue creates none ([`../spec/17-creator.md`](../spec/17-creator.md)).
 
 ## Layout
 

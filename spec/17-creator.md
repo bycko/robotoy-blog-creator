@@ -34,7 +34,7 @@ You do not need Planner's, Reviewer's, or Translator's spec files. What you need
 - You never compute a new run id for a retry. A retry on a later day uses the run id of the run it retries.
 - Planner's weekly check runs at 06:00 on Monday and may change the plan before you start. So you always sync first.
 - **The blog publishes three articles a week**, one per scheduled run. A page Reviewer writes is **public at once** (`enabled` `true`) after both checks pass; the Editor no longer enables anything. Your run is the first stage of a live publication.
-- `publish_on` of a row is the day the row was planned for. It is **not a gate**: you take the earliest `PLANNED` ready row by `publish_on`, also when its date is later than today's schedule date, and the page goes public when Reviewer writes it, not on `publish_on`.
+- **`publish_on` is the real day the article is written and published.** Planner plans for each slot only an article that fits that week, so the row for today's run has `publish_on` equal to today's schedule date, and the page goes public when Reviewer writes it, the same day. You never take a row dated later than the schedule date.
 
 ## Scheduled run
 
@@ -53,7 +53,12 @@ Look for `runs/<run_id>/`.
 
 Read [`../backlog/editorial-plan.tsv`](../backlog/editorial-plan.tsv). If it is missing, or a line does not have 15 fields, **stop the run and name the file and the line.**
 
-Walk the rows with `status` `PLANNED` in `publish_on` order, oldest first; for the same date, the earlier line in the file. **Take the first row that is ready.** A row is ready when all of these hold:
+Only rows with `status` `PLANNED` and a `publish_on` **on or before the schedule date** are candidates. A row with a later `publish_on` is never taken, and never counted as a gap. Choose in this order:
+
+1. **Today's row:** the ready row whose `publish_on` equals the schedule date. When two rows carry that date, the earlier line in the file.
+2. **An overdue row**, only when no ready row has today's date: the ready `PLANNED` row with the earliest `publish_on` before the schedule date (a row that is `USED`, `HELD`, or `DROPPED` is never overdue). Same date: the earlier line. Your chat line says so with an `Oneskorený` line naming the row's `publish_on` and the schedule date ([`07-report-format.md`](07-report-format.md)).
+
+A row is ready when all of these hold:
 
 | Check | Not ready when |
 |---|---|
@@ -62,12 +67,12 @@ Walk the rows with `status` `PLANNED` in `publish_on` order, oldest first; for t
 | Community material | `pillar` is `COMMUNITY` and `community/<topic_key>/material.md` is missing, or holds no item you may use ([`08-ledger.md`](08-ledger.md#community-material)) |
 | Pillar | `pillar` is not one of `GUIDE`, `INSPIRATION`, `GIFT`, `COMMUNITY` |
 
-- **A `COMMUNITY` row whose material is missing is skipped, not stopped on.** Remember its `topic_key` and `publish_on`; your chat line names it as waiting. Take the next ready row.
+- **A `COMMUNITY` row whose material is missing is skipped, not stopped on.** Remember its `topic_key` and `publish_on`; your chat line names it as waiting. Go on with the order above: another ready row of today, then an overdue one.
 - Every other row that is not ready is skipped the same way and named in the line with the failing check.
 - You never change a skipped row. It stays `PLANNED`.
 - **A row whose topic is out of identity** ([`03-pillars.md`](03-pillars.md#out-of-identity)) is not skipped: **stop the run and name the row and the topic.** Nothing is taken and no directory is created.
 
-**When no row is ready, stop the run.** Name the gap: the plan file, how many `PLANNED` rows you looked at, and why each failed. **No run directory is created** and the plan is not changed.
+**When there is no ready row for today and none overdue, stop the run.** That includes a plan whose only `PLANNED` rows are dated later. Post one factual message to the group chat, without a mention, with the reason: the schedule date, how many `PLANNED` rows you looked at on or before it, why each failed, and the `publish_on` of the nearest later row, if any. **No run directory is created**, the plan is not changed, and the later row is not taken.
 
 ### 4. Take the row
 
@@ -267,6 +272,18 @@ Zostáva     slovenská kontrola, preklad, kontrola prekladov, zápis
 @Reviewer
 ```
 
+A run that took an overdue row:
+
+```
+Creator · 2026-10-09-fri · done (round 1)
+Článok      runs/2026-10-09-fri/article.json
+Obálka      runs/2026-10-09-fri/cover.png
+Riadok      guide-gluing-small-parts · GUIDE · publish_on 2026-10-07
+Oneskorený  riadok mal publish_on 2026-10-07, dnešný beh je 2026-10-09; na dnes nebol pripravený žiadny riadok
+Zostáva     slovenská kontrola, preklad, kontrola prekladov, zápis
+@Reviewer
+```
+
 A revision:
 
 ```
@@ -280,7 +297,7 @@ A stop with no ready row:
 
 ```
 Creator · 2026-10-07-wed · stopped
-Dôvod       žiadny pripravený riadok v backlog/editorial-plan.tsv: 2 riadky PLANNED, oba nepripravené (inspiration-halloween-shelf-scene: prázdne must_answer; community-build-of-the-month-2026-10: chýba materiál)
+Dôvod       žiadny pripravený riadok na 2026-10-07 ani po termíne v backlog/editorial-plan.tsv: 1 riadok PLANNED s publish_on do 2026-10-07, nepripravený (community-build-of-the-month-2026-10: chýba materiál); najbližší ďalší riadok má publish_on 2026-10-09 a nebol prevzatý
 Zapísané    nič; adresár behu nevznikol
 Zostáva     nič; ďalší beh podľa rozvrhu
 Editor      doplň must_answer alebo materiál do community/community-build-of-the-month-2026-10/
@@ -293,7 +310,7 @@ A stop is posted as a failure line per [`07-report-format.md`](07-report-format.
 | What fails | When | Directory | Row | Outcome |
 |---|---|---|---|---|
 | Plan missing or a line with the wrong field count | step 3 | not created | unchanged | **stop**; name the file and the line |
-| No ready row | step 3 | not created | unchanged | **stop**; name the gap and every skipped row |
+| No ready row for today and none overdue (a row with a later `publish_on` is never taken) | step 3 | not created | unchanged | **stop**; one factual group message with the reason, every skipped row, and the nearest later `publish_on` |
 | Row out of identity | step 3 | not created | unchanged | **stop**; name the row and the topic |
 | Push of the taken row refused twice, or refused otherwise | step 4 | not created | stays `PLANNED` | **stop**; name the refusal |
 | Tunnel down, a collection unreadable | step 5 | exists | `USED` | **stop**; name the database and collection; a retry continues |

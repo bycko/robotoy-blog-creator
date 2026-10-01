@@ -73,7 +73,7 @@ When the run is over, whether written or stopped, the line says what comes next:
 | `stopped` | see [Failure](#failure) |
 | `no work` | a retry finds nothing owed by Creator |
 
-The first message carries the article and cover paths, the row (`topic_key`, `pillar`, `publish_on`), every skipped row with its reason, and a waiting `COMMUNITY` row by name ([`17-creator.md`](17-creator.md)).
+The first message carries the article and cover paths, the row (`topic_key`, `pillar`, `publish_on`), every skipped row with its reason, and a waiting `COMMUNITY` row by name ([`17-creator.md`](17-creator.md)). When the row's `publish_on` is earlier than the schedule date, an `Oneskorený` line says so: `riadok mal publish_on <date>, dnešný beh je <schedule date>; na dnes nebol pripravený žiadny riadok`. A run never takes a row with a later `publish_on`; with no row for today and none overdue it stops and posts the reason, with no mention.
 
 ```
 Creator · 2026-10-05-mon · done (round 1)

@@ -11,7 +11,7 @@ Start at **[`spec/00-start-here.md`](spec/00-start-here.md)**. Identify your rol
 ## How an article is made
 
 1. **Planner** keeps [`backlog/editorial-plan.tsv`](backlog/editorial-plan.tsv) four weeks ahead. Once a month it builds the next month from three content pillars, Search Console, Keyword Planner, the holiday calendar, and the source list; every other Monday it adjusts open rows to fresh data.
-2. **Creator** takes the next ready row on Monday, Wednesday, and Friday, and writes the Slovak article with product and community widgets and a photorealistic cover photo into `runs/<run_id>/`.
+2. **Creator** takes, on Monday, Wednesday, and Friday, the ready row whose `publish_on` is that day (else the earliest overdue row, never a later one), and writes the Slovak article with product and community widgets and a photorealistic cover photo into `runs/<run_id>/`.
 3. **Reviewer** checks the Slovak article without the writer's reasoning. It returns a failing article to Creator at most twice; a third failure holds the row for you.
 4. **Translator** writes the other 20 languages from the approved Slovak article.
 5. **Reviewer** checks the translations, re-checks every product, and posts **one public page** (`enabled`) with its cover, 21 languages, and 21 addresses through the same pages API request the admin uses to save an article.
