@@ -209,6 +209,7 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 
 - [ ] Only `header`, `paragraph`, `list`, `image`, `HTML`; no level-1 header; at least two level-2 headers, each with `tunes.anchorTune.anchor` equal to the slug of its plain text, unique, matching `^[a-z0-9]+(-[a-z0-9]+)*$`, never empty.
 - [ ] Block 1 is the cover image (`role` `cover`, `caption` equals `title`, no `file`). Blocks 2 and 3 are the opening paragraphs. Block 4 is the contents widget, and its items match those headers: `item_id` equals the header's anchor and `item_text` its text, in the same order.
+- [ ] Anchor letters: compute the slug of every level-2 header and of the `title` with the rule of [`19-translator.md`](19-translator.md#transliteration) and compare it with the text. (a) Every letter and digit of the text maps to something in the slug (no letter dropped; a letter outside the table, such as one with no entry, vanishes silently). (b) The slug is non-empty, matches `^[a-z0-9]+(-[a-z0-9]+)*$`, and is unique on the page. When one fails, reword the header or title. No script does this in the repository; walk it by hand for each header.
 - [ ] Ids `b01`, `b02`, … unique and rising.
 - [ ] Text fields carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;` and every other `&` is `&amp;`; no absolute link; no link in a header.
 - [ ] Every `HTML` block is a filled template or a table in the contract's shape, with `style: ""` and `localization: {}`, no `[[` or `]]`, no `{` or `}`.
