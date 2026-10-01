@@ -108,7 +108,7 @@ Commit the review file alone as the owner's login ([`10-environments.md`](10-env
 **Blocks**
 
 - Only `header`, `paragraph`, `list`, `image`, `HTML`. **A level-1 header, or level 5 or 6, is a `14/Body` finding.**
-- Block 1 is the cover image: `role` `cover`, no `file`, `caption` equal to `title`. Blocks 2 and 3 are paragraphs. Block 4 is the contents widget. At least two level-2 headers follow, with `elementID` `s1`, `s2`, … in order and plain text that matches the contents items. The body does not say the cover was generated.
+- Block 1 is the cover image: `role` `cover`, no `file`, `caption` equal to `title`. Blocks 2 and 3 are paragraphs. Block 4 is the contents widget. At least two level-2 headers follow in plain text. Each carries `tunes.anchorTune.anchor` equal to the slug of its text (the `slugify` rule of [`19-translator.md`](19-translator.md#transliteration)), matching `^[a-z0-9]+(-[a-z0-9]+)*$`, never empty, unique on the page; the contents item has `item_id` equal to that anchor and `item_text` equal to the header's text, in the same order. No `elementID` appears, and level 3 and 4 headers carry no `tunes`. The body does not say the cover was generated.
 - Ids `b01`, `b02`, … unique and rising.
 - Every list item carries `items`, `[]` when empty.
 - Header, paragraph, and list text and image captions carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;`, every other `&` is `&amp;`; no attribute but `href`; no absolute link; no link in a header ([`14-article-contract.md`](14-article-contract.md#text-fields)).
@@ -210,7 +210,8 @@ For each locale, with its country key from the locale table:
 - The file validates against [`16-article-schema.json`](16-article-schema.json), `locale` is this locale, and it carries no `word_counts`.
 - `run_id`, `topic_key`, `pillar`, `reviews_quoted`, `html_blocks`, `sources`, `cover.file`, and `cover.prompt` equal the Slovak file.
 - **The block count, every `id`, every `type`, and the order equal the Slovak file.** A missing, added, merged, or moved block fails `14/Body`; name the block `id`.
-- Header levels and every `elementID`, list styles and item counts, table rows and columns, widget kinds, contents item ids, grid products and their order, and FAQ pair counts equal the Slovak file. Cover `caption` equals that file's `title`. Contents item text equals that file's level-2 headers.
+- Header levels, list styles and item counts, table rows and columns, widget kinds, contents item ids, grid products and their order, and FAQ pair counts equal the Slovak file. Cover `caption` equals that file's `title`. Contents item text equals that file's level-2 headers.
+- **Anchors are per language, not equal to the Slovak ones.** Every level-2 header has `tunes.anchorTune.anchor` equal to the slug of that file's own header text (the `slugify` rule of [`19-translator.md`](19-translator.md#transliteration)), matching `^[a-z0-9]+(-[a-z0-9]+)*$`, never empty, unique on the page. Each contents item's `item_id` equals the anchor of the header at the same position, and its `item_text` equals that header's text. No `elementID` appears, and level 3 and 4 headers carry no `tunes`.
 - No block says the cover was generated.
 
 **Links and products**
@@ -331,7 +332,7 @@ Build the `PATCH` body per [`11-storefront-data.md`](11-storefront-data.md#posti
 | `locale._<locale>.seo_title` | that locale's `seo_title` |
 | `locale._<locale>.seo_description` | that locale's `seo_description` |
 | `locale._<locale>.image` | the temporary cover URL from the CDN upload, the same value on all 21 locales |
-| `blocks._<locale>` | that locale's `blocks`. On the cover block only, drop `role` and set `file` to `{ "url": "<the temporary URL>", "path": "<the response path>" }`. No other image block carries `file.path` |
+| `blocks._<locale>` | that locale's `blocks`, `tunes` included, as written. On the cover block only, drop `role` and set `file` to `{ "url": "<the temporary URL>", "path": "<the response path>" }`. No other image block carries `file.path`. Nothing else is stripped, added, or reformatted |
 
 All 21 locale keys are present; take them from the locale table, never derive one from the other. Do not send `url`, `uid`, `_id`, or `sequence`. The service sets those. **A body missing one language is not sent.**
 
@@ -370,7 +371,7 @@ flowchart TB
    | `{ ok: false }` or an HTTP error | find by run id. Found: step 5. Not found: stop and name the status. Do not send a second create in this attempt |
    | no answer or a timeout | find by run id. Found: step 5. Not found: stop. A later retry that still finds no page may send one create |
 
-5. **Read what was stored.** Load the page by `pipeline_run_id` and its `seo` rows `{ id: <_id>, type: "article" }`. It must [pass](#what-the-stored-page-must-pass). When it does not, stop and name the field. Do not send another request.
+5. **Read what was stored.** Load the page by `pipeline_run_id` and its `seo` rows `{ id: <_id>, type: "article" }`. It must [pass](#what-the-stored-page-must-pass). When it does not, stop and name the field. Do not send another request. Record whether the page, right after the write, carries admin-editor artefacts (a level-1 header block as block 1, `tunes` other than the anchors, extra image keys such as `withBorder`, `withBackground`, or `stretched` beyond the cover's, `tags` other than `[]`, an `HTML` block without `localization`, inline tags missing from a text field) and name each one in your message; it is a finding about the service, not a reason to send again.
 6. **Record.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence` from the page, `page_posted` as now, `cover_url` as the Slovak `image`, `seo_rows` as the 21 stored addresses (read back, and compared with the addresses composed from the titles in the check above; a difference is named in your message), `products_rechecked_at`, and `outcome`. Commit and push, per [After the write](#after-the-write).
 
 Send nothing else: no publish call, no second save, no author, category, or tag write, no product, no review.
@@ -382,7 +383,8 @@ Send nothing else: no publish call, no second save, no author, category, or tag 
 - Every `locale._<locale>.image` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. None still contain `/tmp/`. The 21 strings need not be identical.
 - The first block of every locale is an image. Its `file.url` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. It has `width` and `height`, and no `path`, no `role`, and no `/tmp/`. Those 21 `file.url` values need not be identical, and they need not equal `locale.image`: the service files the hidden image and the block separately.
 - No other image block has `file.path`. Each still has its catalog `file.url`.
-- Every level-2 header still has the same `elementID` as in the article file.
+- Every level-2 header of every locale still has `tunes.anchorTune.anchor` equal to the value sent for it, and every contents item's `item_id` still equals the anchor of its header.
+- **When the service dropped `tunes`** (an anchor is missing in the stored page), the stored page does not pass: stop, and say so plainly in the written message. The page stays disabled; send no second save and no retry.
 - `url._<COUNTRY>` is `https://` plus that country's address, which equals the address composed from that language's `title`, and the `seo` collection has exactly those 21 rows with this `id` and `type` `article`.
 
 ### Outcomes
