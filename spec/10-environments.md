@@ -26,7 +26,7 @@ One file says which storefront a run talks to: which databases it reads, which d
 
 **The repository branch keeps the two environments' state apart.** Plan statuses, run directories, ledger rows, and Search Console snapshots that a run pushes land on the branch of the current column only, so a development run never marks a topic `USED`, `WRITTEN`, or `HELD` for production. Bots push only run artifacts, plan rows, ledger rows, and snapshots, and only to that branch. Changes to the specification itself land on `main` through the owner, never through a bot; the owner brings them into `dry-run` from `main`. The marker on the branch a bot syncs is the marker that applies, and the owner switches the bots to `main` in the same change that sets `current` to `production`.
 
-Search Console always reads the production properties, because development has no search traffic. Ranking uses the Slovak property only; reporting adds the translations property ([`12-google-data.md`](12-google-data.md)).
+Search Console always reads the production properties, because development has no search traffic. Ranking uses both properties, the Slovak one and the translations one, and so does reporting ([`12-google-data.md`](12-google-data.md)).
 
 The author id and category id were read from the production pages database on 2026-09-30: one author, uid `1`, name "Robotoys"; the blog category `_id` `7`, path `blog`. If the Editor creates a dedicated pipeline author, only this table changes.
 

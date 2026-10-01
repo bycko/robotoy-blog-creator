@@ -8,7 +8,7 @@ Four separate bots, one repository, and one person. Identify yourself and read o
 
 | Role | What it does | Starts on | List |
 |---|---|---|---|
-| Planner | keeps the Slovak editorial plan four weeks ahead: a monthly run and a weekly check | its schedule | [Planner](#planner) |
+| Planner | keeps the Slovak editorial plan at least four weeks ahead, three slots a week (Monday, Wednesday, Friday): a monthly run and a weekly check | its schedule | [Planner](#planner) |
 | Creator | writes the Slovak article from one plan row | its schedule, or Reviewer's return | [Creator](#creator) |
 | Reviewer | checks the Slovak article, then the 20 translations, then writes one public page | Creator's or Translator's chat line | [Reviewer](#reviewer) |
 | Translator | makes the other 20 languages from the approved Slovak article | Reviewer's chat line, or the Editor's retry | [Translator](#translator) |

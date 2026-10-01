@@ -11,8 +11,8 @@ The properties, the secret names, and the Google Ads account fields live in [`10
 | Source | Required | Used for | When it fails |
 |---|---|---|---|
 | Search Console, the Slovak property | yes | ranking, weekly signals, per-article report | stop the run |
-| Search Console, the translations property | no | per-article report only | report labelled Slovak-only |
-| Keyword Planner | no, until provisioned | ranking by volume for Slovakia | plan from Search Console alone |
+| Search Console, the translations property | no | ranking by queries in all languages and countries, weekly signals, per-article report | rank on the Slovak property alone; report labelled Slovak-only |
+| Keyword Planner | no, until provisioned | ranking by volume for Slovakia; a check in the language and country of a foreign query | plan from Search Console alone |
 
 ## Search Console
 
@@ -51,9 +51,16 @@ The translations property uses the same end date, so both halves of a report cov
 | `monthly-sk-pages` | monthly | Slovak | 28 days ending with the latest final date | `["page"]` | Slovak blog pages |
 | `monthly-sk-queries` | monthly | Slovak | same | `["query", "page"]` | Slovak blog pages |
 | `monthly-translations-pages` | monthly | translations | same | `["page"]` | translated blog pages |
+| `monthly-translations-allpages` | monthly | translations | same | `["page"]` | none |
+| `monthly-translations-queries` | monthly | translations | same | `["query", "page"]` | none |
+| `monthly-translations-countries` | monthly | translations | same | `["query", "country"]` | none |
 | `weekly-sk-queries` | weekly | Slovak | 7 days ending with the latest final date | `["query", "page"]` | Slovak blog pages |
+| `weekly-translations-queries` | weekly | translations | same | `["query", "page"]` | none |
+| `weekly-translations-countries` | weekly | translations | same | `["query", "country"]` | none |
 
 The monthly range starts 27 days before the latest final date. The weekly range starts 6 days before it.
+
+**The query pulls of the translations property have no page filter.** Most of that property's traffic (September 2026: 164,579 impressions and 2,518 clicks, against 4,967 and 254 on the Slovak property) lands on product, brand, and category pages in 20 languages, and the queries there show what people want to read about too. The country dimension is the three-letter country code as Search Console reports it (`pol`, `ita`, `fra`).
 
 The page filter is one `dimensionFilterGroups` entry with `groupType: "and"` and one filter: `dimension: "page"`, `operator: "includingRegex"`, and an RE2 expression that matches `https://<any host>/<blog segment>/`. For the Slovak property the segment is the Slovak blog segment. For the translations property it is any of the 20 other blog segments, joined with `|`. Both come from [`11-storefront-data.md`](11-storefront-data.md).
 
@@ -90,8 +97,8 @@ Example body for `monthly-sk-queries`, first page:
 
 ### What each pull is used for
 
-- **Ranking** uses the Slovak property only: `monthly-sk-queries` on the monthly run, `weekly-sk-queries` on the weekly check. A query where a blog page appears but no article answers it is a candidate topic.
-- **Per-article reporting** in the monthly message uses `monthly-sk-pages` plus `monthly-translations-pages`. An article's clicks and impressions are the sum of the rows whose page is one of its 21 addresses.
+- **Ranking** uses both properties. The Slovak property gives `monthly-sk-queries` on the monthly run and `weekly-sk-queries` on the weekly check. The translations property gives `monthly-translations-queries` and `monthly-translations-countries` on the monthly run, `weekly-translations-queries` and `weekly-translations-countries` on the weekly check: queries in every language, by country. A query where a blog page appears but no article answers it is a candidate topic; so is a query that lands on a product or category page when no article answers the subject behind it. How foreign-language queries become Slovak topics is in [`13-planner.md`](13-planner.md#non-slovak-queries).
+- **Per-article reporting** in the monthly message uses `monthly-sk-pages` plus `monthly-translations-pages` (`monthly-translations-allpages` gives the property totals). An article's clicks and impressions are the sum of the rows whose page is one of its 21 addresses.
 - Match an article by path, `/<blog segment>/<slug>`, on the production host for that country. A development page carries development hosts, which Search Console never sees.
 - Compare with the previous `monthly-*-pages` snapshot to show the change month over month. When no previous snapshot exists, say `first month`.
 - The report names its date range, for example `31. 8. – 27. 9. 2026`.
@@ -135,6 +142,25 @@ The response pages. Repeat with `pageToken` set to the last `nextPageToken` unti
 
 `POST {base}:generateKeywordHistoricalMetrics` with `keywords` set to the candidate keywords, in batches of at most 1,000. Candidates are the ideas you keep from step 1 plus the Slovak queries a candidate topic rests on. Keep each result's `text` and `keywordMetrics`.
 
+### Step 3 — a foreign query in its own market
+
+A candidate that rests on a foreign-language query may have no Slovak keyword with volume. Then `generateKeywordHistoricalMetrics` is sent once more for the foreign keyword with the `language` and `geoTargetConstants` of the country the query came from, instead of Slovak and Slovakia: one request per language and country. The other fields are as above.
+
+| Country | Geo constant | Language | Language constant |
+|---|---|---|---|
+| Slovakia | `2703` | Slovak | `1033` |
+| Poland | `2616` | Polish | `1030` |
+| Germany | `2276` | German | `1001` |
+| Netherlands | `2528` | Dutch | `1010` |
+| France | `2250` | French | `1002` |
+| Spain | `2724` | Spanish | `1003` |
+| Italy | `2380` | Italian | `1004` |
+| Czechia | `2203` | Czech | `1021` |
+| Hungary | `2348` | Hungarian | `1024` |
+| Sweden | `2752` | Swedish | `1015` |
+
+A foreign volume is evidence for the topic, never added to a Slovak volume, and the plan row's `reason` names its country. A country not in the table: find its constant with `geoTargetConstants:suggest` and its language in Google's language-constant table (Sources).
+
 ### What you keep
 
 From both methods keep `avgMonthlySearches`, `competition`, `competitionIndex`, and **every entry of `monthlySearchVolumes`** (`year`, `month`, `monthlySearches`). The monthly volumes show the season: a keyword that peaks in May is planned ahead of May. Google refreshes these figures once a month, so one pull per monthly run is enough.
@@ -157,7 +183,7 @@ Planner writes and commits every pull with the plan. Nobody else writes these fi
 | Source | Location | File name |
 |---|---|---|
 | Search Console | [`../data/search-console/`](../data/search-console/README.md) | `<end date>-<pull>.tsv`, e.g. `2026-09-27-monthly-sk-queries.tsv` |
-| Keyword Planner | `data/keyword-planner/` | `<plan month>.tsv`, e.g. `2026-10.tsv` |
+| Keyword Planner | `data/keyword-planner/` | `<plan month>.tsv`, e.g. `2026-10.tsv`; foreign-market checks in `<plan month>-countries.tsv`, e.g. `2026-10-countries.tsv` |
 
 The Search Console columns, the pull log, and retention are in [`../data/search-console/README.md`](../data/search-console/README.md).
 
@@ -178,6 +204,8 @@ The Search Console columns, the pull log, and retention are in [`../data/search-
 | `monthly_searches` | `YYYY-MM=n` pairs joined by `;`, oldest first |
 | `fetched_on` | `YYYY-MM-DD` |
 
+`<plan month>-countries.tsv` has the same columns as `<plan month>.tsv` with the column `country` (two letters) inserted after `keyword`; it holds the `HISTORICAL` rows of step 3 and of the Slovak keywords checked with them. `avg_monthly_searches` and the volume columns are empty when Google returns no figure for a keyword.
+
 **Keep every file.** A rerun with the same end date or plan month overwrites that one file with the same pull. You never edit or delete an older file.
 
 ## Failures
@@ -186,7 +214,7 @@ The Search Console columns, the pull log, and retention are in [`../data/search-
 |---|---|---|
 | Search Console, Slovak property | 401 | **Stop the run.** Name the Slovak property and `GSC_SERVICE_ACCOUNT_JSON`: the key is invalid or revoked. |
 | Search Console, Slovak property | 403 | **Stop the run.** Name the Slovak property and the service account's email: it is not a user of the property, or the Search Console API is not enabled in its Cloud project. |
-| Search Console, translations property | 401 or 403 | Continue. Label the report Slovak-only, and name the translations property and the service account's email as a gap to fix. |
+| Search Console, translations property | 401 or 403 | Continue. Rank on the Slovak property alone, label the report Slovak-only, and name the translations property and the service account's email as a gap to fix. |
 | Search Console, any property | 429 or 5xx | Retry the same request after 10 s, 60 s, and 5 min. After the third retry fails, treat it as a 403 for that property. |
 | Search Console, any property | 400 | **Stop the run.** Name the pull and the error message; the request breaks this file. |
 | Search Console, any property | success with zero rows | Not an error. Save the empty file and say `no data` for that pull. |

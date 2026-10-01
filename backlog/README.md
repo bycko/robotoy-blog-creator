@@ -1,6 +1,6 @@
 # Editorial plan
 
-The plan of Slovak articles, two a week: one on Monday, one on Wednesday. Planner keeps it at least four weeks ahead; Creator takes its topic from it and from nothing else.
+The plan of Slovak articles, three a week: one on Monday, one on Wednesday, one on Friday. Planner keeps it at least four weeks ahead; Creator takes its topic from it and from nothing else.
 
 The rules are in [`../spec/13-planner.md`](../spec/13-planner.md). Topic keys and deduplication are in [`../spec/08-ledger.md`](../spec/08-ledger.md); pillars are in [`../spec/03-pillars.md`](../spec/03-pillars.md).
 
@@ -30,7 +30,7 @@ week	publish_on	topic_key	pillar	working_title	reader	reader_question	must_answe
 | `status` | `PLANNED`, `USED`, `HELD`, `DROPPED` |
 | `origin` | `PLANNER` or `HUMAN` |
 
-Every row has exactly 15 fields; an empty value is `-`. Each Monday and each Wednesday holds at most one row that is not `DROPPED`.
+Every row has exactly 15 fields; an empty value is `-`. Each Monday, each Wednesday and each Friday holds at most one row that is not `DROPPED`.
 
 ## Who changes what
 
@@ -45,7 +45,7 @@ Every row has exactly 15 fields; an empty value is `-`. Each Monday and each Wed
 
 ## Adding a row as the Editor
 
-1. Pick a free Monday or Wednesday. Set `origin` to `HUMAN` and `status` to `PLANNED`.
+1. Pick a free Monday, Wednesday or Friday. Set `origin` to `HUMAN` and `status` to `PLANNED`.
 2. Build the `topic_key` per [`../spec/08-ledger.md`](../spec/08-ledger.md#topic-key) and check the ledger: a covered topic does not come back.
 3. Fill `reader`, `reader_question`, and `must_answer`. Without them the row is not ready and Creator skips it; Planner proposes values in its message.
 4. For a `COMMUNITY` row, put the material in `community/<topic_key>/` before the writing day ([`../community/README.md`](../community/README.md)).

@@ -10,7 +10,7 @@ Use the identifiers (`GUIDE`, `INSPIRATION`, `GIFT`, `COMMUNITY`) in the plan an
 |---|---|---|---|---|
 | `GUIDE` | „Čo mám urobiť?“ | building, tools, glue, finishing, lighting, repairs, troubleshooting, choosing a first model | Planner or Editor | none |
 | `INSPIRATION` | „Čo je na tom zaujímavé a čo si môžem všimnúť?“ | stories and history behind a model's real subject, how a mechanism works, a technique, the hobby as a way of spending time, displaying finished builds | Planner or Editor | none |
-| `GIFT` | „Ako vyberiem niečo vhodné pre tohto človeka?“ | a gift guide tied to one international or commemorative day in the [holiday calendar](../calendar/README.md) | Planner or Editor | only inside that day's holiday window; **never both articles of the same week** |
+| `GIFT` | „Ako vyberiem niečo vhodné pre tohto človeka?“ | a gift guide tied to one international or commemorative day in the [holiday calendar](../calendar/README.md) | Planner or Editor | only inside that day's holiday window; **never in a week that holds another holiday row** |
 | `COMMUNITY` | „Čo urobili iní a čo si z toho môžem vziať?“ | challenge results, build of the month, a builder's technique, what builders say | **Editor only**, with material in [`community/`](../community/README.md) | Creator skips the row when its material is missing |
 
 **Planner never writes a `COMMUNITY` row.** It has no material and must not invent builders, photos, quotes, numbers, or results.
