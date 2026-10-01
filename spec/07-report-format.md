@@ -258,7 +258,7 @@ Every Monday run of Planner, the weekly check and the monthly run alike, reports
 | row `USED`, no successful `written.json` | `nedokončený` | the newest file in the directory; the run waits for a retry |
 | no directory | `nevznikol` | `Creator sa zastavil pred prevzatím riadku` |
 
-3. **The count is the number of `zapísaný` runs, of two**: `Týždeň 2026-W41: 1 z 2 článkov`. A stopped run is not caught up, so a week can deliver one article or none, and the count says so. Every run that is not `zapísaný` gets its own line with the reason.
+3. **The count is the number of `zapísaný` runs, of three**: `Týždeň 2026-W41: 1 z 3 článkov`. A stopped run is not caught up, so a week can deliver fewer than three articles, and the count says so. Every run that is not `zapísaný` gets its own line with the reason.
 4. The count is taken once, at the Monday run. A run finished later is not recounted.
 
 ### Weekly check
@@ -267,9 +267,10 @@ The weekly message carries the count, what changed in the plan and why, the read
 
 ```
 Planner · check-2026-10-12 · done
-Týždeň      2026-W41: 1 z 2 článkov
+Týždeň      2026-W41: 2 z 3 článkov
   2026-10-05-mon  zapísaný · stránka 47
   2026-10-07-wed  zastavený · tretí neúspech kontroly prekladov (runs/2026-10-07-wed/review-translations-3.md) · riadok HELD, náhradný článok nevznikol
+  2026-10-09-fri  zapísaný · stránka 48
 Zmeny       2026-10-21: guide-painting-wooden-models nahradil guide-storing-finished-models (Search Console: 64 zobrazení za 7 dní na dotazy o farbení dreva, žiadny článok na ne neodpovedá)
 Plán        backlog/editorial-plan.tsv · pripravené týždne 5
 Čaká        community-challenge-results-2026-09: chýba materiál v community/community-challenge-results-2026-09/
@@ -279,7 +280,7 @@ When nothing changed, the plan line says so in one line and the count stays:
 
 ```
 Planner · check-2026-10-26 · no change
-Týždeň      2026-W43: 2 z 2 článkov
+Týždeň      2026-W43: 3 z 3 článkov
 Plán        bez zmeny · pripravené týždne 5
 ```
 
@@ -311,7 +312,7 @@ A label with nothing to report is left out, except `Plán`, `Zdroje`, and `Výko
 
 ```
 Planner · plan-2026-11 · done
-Týždeň      2026-W42: 2 z 2 článkov
+Týždeň      2026-W42: 3 z 3 článkov
 Plán        backlog/editorial-plan.tsv · plnenie do 2026-12-28 · pripravené týždne 6
 Zmeny       pridané 9 · vyradené 1 (guide-first-model-glue: Vyradené: téma je pokrytá stránkou 52.) · presunuté 1
 Zdroje      Search Console slovenský web OK · preklady OK · Keyword Planner chýba

@@ -5,7 +5,7 @@
 - **Avatar:** 📅
 - **Name:** Robotoys Blog — Planner
 - **Label:** Editorial plan, monthly and weekly
-- **Description:** Keeps the Slovak editorial plan at least four weeks ahead from three content pillars, Search Console, Keyword Planner, the holiday calendar, and the source list. Does not write an article, does not write a `COMMUNITY` row, does not touch `USED`, `HELD`, or `HUMAN` rows.
+- **Description:** Keeps the Slovak editorial plan at least four weeks ahead (three articles a week) from three content pillars, Search Console, Keyword Planner, the holiday calendar, and the source list. Does not write an article, does not write a `COMMUNITY` row, does not touch `USED`, `HELD`, or `HUMAN` rows.
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Schedule (Europe/Bratislava):** weekly check Monday 06:00; monthly run Monday 06:00 of the last full week (Monday to Sunday) of the month, in place of that Monday's weekly check
