@@ -217,9 +217,10 @@ Najlepšie lepidlo a TOP miniatúrne domčeky Rolife len u nás! Objednaj ešte 
 ### Cover
 
 - The cover is a photorealistic photograph made by the image model, never a drawing, an illustration, a flat graphic, or a 3D render, and never a product photo from the catalog.
-- It looks like a warm lifestyle photo of someone building at home. A wooden desk, a brass lamp with a glowing bulb, a person in profile, and their hands assembling a wooden mechanical model (gears, small wooden parts) in the middle of the frame. Loose pieces and an open instruction booklet lie on the desk. A wooden shelf behind holds a finished wooden model and a small vase of flowers. The light is warm, the depth of field is shallow, and the colors are natural wood, brass, and a soft wall.
+- **The scene and the main subject come from this article's title and topic, not from a fixed motif.** A reader who sees only the cover and the title must feel they belong together. Decide the one thing the title promises (a finished build on a shelf, a mechanism, a tool, a workspace, a season, a gift moment) and show that. Example: for an article on decorating a finished miniature house for Halloween, the cover shows a decorated miniature house on a shelf with autumn decorations. Two articles do not reuse the same scene: before writing the prompt, look at the `cover.prompt` of recent runs in `runs/` and pick a different scene and main subject.
+- It looks like a warm lifestyle photo taken at home, in natural, warm light with a shallow depth of field. People, if any, are shown from behind, in profile, or only by their hands. Everything in the scene is generic wooden, paper, or craft material: no product, no packaging, no brand.
 - **Any writing in the scene is out of focus and not readable.** No logo, no packaging, no price, no readable text or numbers, and no kit a reader could match to a product in the shop.
-- Landscape, at least 1200 × 675 pixels, with the hands and the model near the center so a square crop keeps them.
+- Landscape, at least 1200 × 675 pixels, with the main subject near the center so a square crop keeps it.
 - The body does not mention that the cover was generated.
 
 ## Structure in brief
@@ -269,6 +270,6 @@ Reviewer cites these ids in its findings. Other specs cite them as `09/E<n>`.
 20. **E20** — No invented or unchecked fact, number, builder, or quote; a named person only with a consent line.
 21. **E21** — The title is at most 60 characters, concrete, in sentence case, with no product or brand, no superlative, and no year unless the topic needs it.
 22. **E22** — The SEO title is at most 60 characters; the SEO description is 120–155 characters, states the answer or promise and the reader, and names no product or brand.
-23. **E23** — The cover is a photorealistic photo of someone building a wooden model at a home desk, in the warm lifestyle look above, never an illustration and never a catalog product photo, with no readable text, logo, packaging, or price. The body does not say the cover was generated.
+23. **E23** — The cover is a photorealistic photo, in the warm lifestyle look above, that fits this article's title and topic and does not repeat the scene of a recent article, never an illustration and never a catalog product photo, with no readable text, logo, packaging, price, or recognizable kit. The body does not say the cover was generated.
 24. **E24** — The topic is not out of identity.
 25. **E25** — Correct Slovak with full diacritics, Slovak quotation marks, and hobby terms explained at first use.

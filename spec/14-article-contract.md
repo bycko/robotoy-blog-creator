@@ -132,7 +132,7 @@ Every link is site-relative: a path that starts with `/`, never a host.
 
 ## Cover
 
-The cover is a photorealistic photograph ([`09/E23`](09-editorial-guidelines.md#rules)): a warm home desk, a brass lamp, and hands assembling a wooden mechanical model, as in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover). Creator writes it to `runs/<run_id>/cover.png` (or `cover.jpg`), landscape, at least 1200 × 675 pixels, and records it in `cover`:
+The cover is a photorealistic photograph ([`09/E23`](09-editorial-guidelines.md#rules)) made for this article: its scene and main subject come from the article's title and topic, as in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover). Creator writes it to `runs/<run_id>/cover.png` (or `cover.jpg`), landscape, at least 1200 × 675 pixels, and records it in `cover`:
 
 | Field | Value |
 |---|---|
@@ -141,7 +141,7 @@ The cover is a photorealistic photograph ([`09/E23`](09-editorial-guidelines.md#
 
 Reviewer posts that file with the page ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The file is not an image block, and the body does not say how the cover was made.
 
-- The prompt asks for the lifestyle photograph in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): no readable text, logo, packaging, price, or recognizable shop kit.
+- The prompt describes a scene that fits the article's title and topic, in the photograph style of [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): no readable text, logo, packaging, price, or recognizable shop kit.
 - A missing cover file, or a `cover.file` that does not name it, fails.
 
 ## Sidecar fields

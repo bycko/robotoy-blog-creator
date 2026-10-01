@@ -128,7 +128,7 @@ The file carries no host except the CDN origin in an image block's `url`.
 
 ### 8. Make the cover
 
-Generate the cover as a photorealistic photograph per [`14-article-contract.md`](14-article-contract.md#cover) and [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): landscape, at least 1200 × 675 pixels, a warm home desk with a brass lamp and hands assembling a wooden mechanical model, **no readable text, logo, packaging, price, or recognizable shop kit**. Save it as `runs/<run_id>/cover.png` (or `cover.jpg`) and write the full English prompt into `cover.prompt`.
+Generate the cover as a photorealistic photograph per [`14-article-contract.md`](14-article-contract.md#cover) and [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): landscape, at least 1200 × 675 pixels, with a scene and main subject taken from this article's title and topic (not a fixed motif, and not the scene of a recent run's `cover.prompt`), **no readable text, logo, packaging, price, or recognizable shop kit**. Save it as `runs/<run_id>/cover.png` (or `cover.jpg`) and write the full English prompt into `cover.prompt`.
 
 When image generation fails, try once more. When it fails again, **stop the run and name it.** Do not push an article without its cover.
 
@@ -231,7 +231,7 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 - [ ] `E8`, `E9`: delete every product widget, quote, and product sentence in your head; the article still answers and nothing points at what is gone. Every step works for the kind of kit.
 - [ ] `E10`–`E16`: tykanie with lowercase pronouns, a fellow builder's voice, no superlative, clickbait, urgency, emoji, or exclamation mark in title, perex, headings, or SEO fields.
 - [ ] `E17`–`E20`: kit figures from parameters, ranges with conditions, no kit below its age, no health claim, no unchecked fact, no named person without a consent line.
-- [ ] `E21`–`E23`: title and SEO rules; the cover is a lifestyle photograph with no readable text, logo, or price, and the body does not mention that it was generated.
+- [ ] `E21`–`E23`: title and SEO rules; the cover is a lifestyle photograph that fits the title and topic and differs from recent covers, with no readable text, logo, or price, and the body does not mention that it was generated.
 - [ ] `E24`, `E25`: the topic is in identity; correct Slovak with diacritics, „…“ quotation marks, hobby terms explained at first use.
 - [ ] No text or structure copied from a source site; `sources` records what informed the article.
 
