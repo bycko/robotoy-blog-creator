@@ -6,7 +6,7 @@ One file says which storefront a run talks to: which databases it reads, which d
 
 ## Current environment
 
-**current:** `development`
+**current:** `production`
 
 ## Pairs
 
