@@ -5,7 +5,7 @@
 - **Avatar:** ✍️
 - **Name:** Robotoys Blog — Creator
 - **Label:** Slovak article from a plan row
-- **Description:** Takes the next ready row of the editorial plan and writes a finished Slovak article with widgets, an AI cover, and every field the page needs. Revises it when Reviewer returns it, at most twice. Does not write to any database, does not translate, does not enable anything.
+- **Description:** Takes the next ready row of the editorial plan and writes a finished Slovak article with widgets, a photorealistic cover photo, and every field the page needs. Revises it when Reviewer returns it, at most twice. Does not write to any database, does not translate, does not enable anything.
 - **Repository:** `<repository URL>`, the repository branch of the current environment (`spec/10-environments.md`: `dry-run` in development, `main` in production)
 - **Entry file:** `spec/00-start-here.md`
 - **Schedule (Europe/Bratislava):** Monday 09:00 and Wednesday 09:00. Also started by Reviewer's `@Creator` line with verdict `RETURNED`, or by the Editor naming a run id for a retry

@@ -70,7 +70,7 @@
       "type": "array",
       "minItems": 5,
       "items": { "$ref": "#/$defs/block" },
-      "description": "blocks._<locale>. Opens with two paragraphs, holds at least two level-2 headers, ends with the AI label paragraph."
+      "description": "blocks._<locale>. Opens with two paragraphs and holds at least two level-2 headers."
     },
     "tags": {
       "type": "array",
@@ -173,19 +173,15 @@
         "body": { "type": "integer", "minimum": 600 },
         "product": { "type": "integer", "minimum": 0 }
       },
-      "description": "Slovak file only. Body words and product words as defined in 09-editorial-guidelines.md, the AI label excluded."
+      "description": "Slovak file only. Body words and product words as defined in 09-editorial-guidelines.md."
     },
     "cover": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["file", "prompt", "ai_label"],
+      "required": ["file", "prompt"],
       "properties": {
         "file": { "type": "string", "pattern": "^cover\\.(png|jpg)$" },
-        "prompt": { "type": "string", "minLength": 20, "description": "The full prompt, in English." },
-        "ai_label": {
-          "allOf": [{ "$ref": "#/$defs/plainText" }],
-          "description": "Equals the text inside <em>…</em> of the last block."
-        }
+        "prompt": { "type": "string", "minLength": 20, "description": "The full prompt, in English." }
       }
     }
   },
@@ -193,10 +189,7 @@
     {
       "if": { "properties": { "locale": { "const": "sk" } }, "required": ["locale"] },
       "then": {
-        "required": ["word_counts"],
-        "properties": {
-          "cover": { "properties": { "ai_label": { "const": "Titulný obrázok je ilustračný, vytvorila ho umelá inteligencia." } } }
-        }
+        "required": ["word_counts"]
       },
       "else": { "not": { "required": ["word_counts"] } }
     }

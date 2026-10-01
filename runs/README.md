@@ -32,7 +32,7 @@ runs/<run_id>/
 |---|---|---|
 | `row.tsv` | Creator, in the same commit that sets the plan row `USED` | the plan header line and the taken row, exactly as in [`../backlog/editorial-plan.tsv`](../backlog/editorial-plan.tsv): 15 columns, `status` `USED` |
 | `article.json` | Creator | the Slovak article of the current round, valid against [`../spec/16-article-schema.json`](../spec/16-article-schema.json). Overwritten on each revision; its `round` field says which |
-| `cover.png` or `cover.jpg` | Creator | the AI cover, labeled per [`../spec/14-article-contract.md`](../spec/14-article-contract.md#cover-and-ai-label); shared by all 21 languages |
+| `cover.png` or `cover.jpg` | Creator | the cover photograph per [`../spec/14-article-contract.md`](../spec/14-article-contract.md#cover); shared by all 21 languages and posted with the page |
 | `review-sk-<n>.md` | Reviewer | the Slovak findings of round `n`. Ends with one verdict line |
 | `translations/<locale>.json` | Translator | one file per locale except `sk`, 20 in all; same schema as `article.json`, with `locale` set |
 | `review-translations-<n>.md` | Reviewer | the translation findings of round `n`, one section per language. Ends with one verdict line |
@@ -61,19 +61,19 @@ The newest review file of a kind is the one with the highest `n`. `n` of a Slova
 
 ### `written.json`
 
-Reviewer writes it before the first insert and updates it after each step, so a replay reuses the same page `_id` and creates only what is missing.
+Reviewer writes it after the page post, or when a replay finds the page already stored. A replay does not post again.
 
 | Field | Value |
 |---|---|
 | `run_id` | the run id |
 | `environment` | `development` or `production`, from [`../spec/10-environments.md`](../spec/10-environments.md) |
-| `_id` | the page `_id`, allocated once |
-| `sequence` | the page `sequence`, allocated once |
-| `allocated_at` | when both were allocated |
-| `page_inserted` | `false`, or the time the page was inserted or found |
-| `seo_rows` | 21 entries, one per country: the address row `_id` and `inserted` or `existing` |
+| `_id` | the page `_id` returned by the pages API |
+| `sequence` | the page `sequence` stored by the service |
+| `page_posted` | when the save returned, or when the page was found |
+| `cover_url` | the Slovak `locale._sk.image` after the service filed it |
+| `seo_rows` | the 21 stored addresses |
 | `products_rechecked_at` | when the availability rule passed immediately before the write |
-| `outcome` | the result of the write |
+| `outcome` | `written`, `already-complete`, or `stopped` |
 
 ## Status of the plan row
 

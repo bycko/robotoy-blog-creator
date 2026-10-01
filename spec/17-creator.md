@@ -122,14 +122,13 @@ Write `runs/<run_id>/article.json` in Slovak, `locale` `sk`, `round` `1`, valid 
 4. Build every widget from its template in [`../templates/widgets/`](../templates/widgets/product-card.html) by the filling and escaping rules in [`15-widgets.md`](15-widgets.md). No other markup reaches an `HTML` block.
 5. Derive `slug` from the title per [`14-article-contract.md`](14-article-contract.md#slug).
 6. `tags`: `[]` when the row's `tags` is `-`; otherwise the row's tag `uid`s.
-7. End the body with the AI label paragraph, exactly as in [`14-article-contract.md`](14-article-contract.md#cover-and-ai-label).
-8. Fill the sidecar: `products_used`, `reviews_quoted`, `internal_links`, `html_blocks`, `sources`, `word_counts`, `cover`.
+7. Fill the sidecar: `products_used`, `reviews_quoted`, `internal_links`, `html_blocks`, `sources`, `word_counts`, `cover`. The body does not say how the cover was made.
 
 The file carries no host except the CDN origin in an image block's `url`.
 
 ### 8. Make the cover
 
-Generate the cover as an AI illustration per [`14-article-contract.md`](14-article-contract.md#cover-and-ai-label) and [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): landscape, at least 1200 × 675 pixels, the subject or activity, **no product, logo, packaging, text, numbers, or price**. Save it as `runs/<run_id>/cover.png` (or `cover.jpg`) and write the full English prompt into `cover.prompt`.
+Generate the cover as a photorealistic photograph per [`14-article-contract.md`](14-article-contract.md#cover) and [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): landscape, at least 1200 × 675 pixels, a warm home desk with a brass lamp and hands assembling a wooden mechanical model, **no readable text, logo, packaging, price, or recognizable shop kit**. Save it as `runs/<run_id>/cover.png` (or `cover.jpg`) and write the full English prompt into `cover.prompt`.
 
 When image generation fails, try once more. When it fails again, **stop the run and name it.** Do not push an article without its cover.
 
@@ -203,12 +202,12 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 - [ ] `run_id` equals the run directory name (`runs/<run_id>/`); `topic_key` and `pillar` equal `row.tsv`, which is compared only on those two fields; `locale` is `sk`; `round` is this round.
 - [ ] `title` and `seo_title` at most 60 characters; `description` 150–300; `seo_description` 120–155; counted as Unicode characters with spaces.
 - [ ] `slug` matches the slug rules: no `-g`, `-p`, `-c`, `-n`, or `-a` before a digit, no `faq`.
-- [ ] The cover file exists in the directory, `cover.file` names it, and `cover.ai_label` equals the label text.
+- [ ] The cover file exists in the directory and `cover.file` names it. The body does not say the cover was generated.
 
 **Blocks and HTML**
 
 - [ ] Only `header`, `paragraph`, `list`, `image`, `HTML`; no level-1 header; at least two level-2 headers.
-- [ ] The first two blocks are paragraphs; the last block is the AI label paragraph.
+- [ ] The first two blocks are paragraphs.
 - [ ] Ids `b01`, `b02`, … unique and rising.
 - [ ] Text fields carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;` and every other `&` is `&amp;`; no absolute link; no link in a header.
 - [ ] Every `HTML` block is a filled template or a table in the contract's shape, with `style: ""` and `localization: {}`, no `[[` or `]]`, no `{` or `}`.
@@ -232,7 +231,7 @@ Run it on every round. It mirrors what Reviewer checks in Slovak; a file that pa
 - [ ] `E8`, `E9`: delete every product widget, quote, and product sentence in your head; the article still answers and nothing points at what is gone. Every step works for the kind of kit.
 - [ ] `E10`–`E16`: tykanie with lowercase pronouns, a fellow builder's voice, no superlative, clickbait, urgency, emoji, or exclamation mark in title, perex, headings, or SEO fields.
 - [ ] `E17`–`E20`: kit figures from parameters, ranges with conditions, no kit below its age, no health claim, no unchecked fact, no named person without a consent line.
-- [ ] `E21`–`E23`: title and SEO rules; the cover shows no product, logo, text, or price and is labeled.
+- [ ] `E21`–`E23`: title and SEO rules; the cover is a lifestyle photograph with no readable text, logo, or price, and the body does not mention that it was generated.
 - [ ] `E24`, `E25`: the topic is in identity; correct Slovak with diacritics, „…“ quotation marks, hobby terms explained at first use.
 - [ ] No text or structure copied from a source site; `sources` records what informed the article.
 
@@ -243,7 +242,7 @@ A scheduled Monday run that skipped a community row:
 ```
 Creator · 2026-10-05-mon · done (round 1)
 Článok      runs/2026-10-05-mon/article.json
-Obálka      runs/2026-10-05-mon/cover.png (ilustrácia od umelej inteligencie)
+Obálka      runs/2026-10-05-mon/cover.png
 Riadok      guide-fixing-sticking-mechanism · GUIDE · publish_on 2026-10-05
 Preskočené  community-challenge-results-2026-09 (COMMUNITY, 2026-09-30): chýba materiál v community/community-challenge-results-2026-09/, riadok čaká.
 Zostáva     slovenská kontrola, preklad, kontrola prekladov, zápis

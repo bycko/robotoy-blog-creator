@@ -76,8 +76,8 @@ Verdict: RETURNED
 ```
 
 - **Every finding has a number, the rule it breaks, the block or field it is in, what is wrong, and the fix required.** A finding without a rule or a place is not written.
-- Rule ids: `09/E<n>` for an editorial rule ([`09-editorial-guidelines.md`](09-editorial-guidelines.md#rules)); for a contract rule, the spec number and its section, such as `14/Body`, `14/Text fields`, `14/Slug`, `14/Links`, `14/Cover and AI label`, `14/Sidecar fields`, `15/Which review`, `15/Product values`, `11/Sold in all 21 countries`; `16` for a schema error, with the JSON path.
-- The place is a block `id` (`b07`), a field (`title`, `slug`, `cover.ai_label`), or a sidecar entry (`products_used[2]`).
+- Rule ids: `09/E<n>` for an editorial rule ([`09-editorial-guidelines.md`](09-editorial-guidelines.md#rules)); for a contract rule, the spec number and its section, such as `14/Body`, `14/Text fields`, `14/Slug`, `14/Links`, `14/Cover`, `14/Sidecar fields`, `15/Which review`, `15/Product values`, `11/Sold in all 21 countries`; `16` for a schema error, with the JSON path.
+- The place is a block `id` (`b07`), a field (`title`, `slug`, `cover.file`), or a sidecar entry (`products_used[2]`).
 - The finding text and the fix are in Slovak; the labels and the verdict line are as shown.
 - **Walk every check, even after the first fails, and list everything in one file**, so the next round fixes it all at once.
 - `Commit` is the commit hash you reviewed (`git rev-parse HEAD` after the sync). It is how you later prove the approved files have not changed.
@@ -108,7 +108,7 @@ Commit the review file alone as the owner's login ([`10-environments.md`](10-env
 **Blocks**
 
 - Only `header`, `paragraph`, `list`, `image`, `HTML`. **A level-1 header, or level 5 or 6, is a `14/Body` finding.**
-- At least two level-2 headers. The first two blocks are paragraphs. The last block is the AI label paragraph, exactly as in [`14-article-contract.md`](14-article-contract.md#cover-and-ai-label).
+- At least two level-2 headers. The first two blocks are paragraphs. The body does not say the cover was generated.
 - Ids `b01`, `b02`, … unique and rising.
 - Every list item carries `items`, `[]` when empty.
 - Header, paragraph, and list text and image captions carry only `b`, `i`, `strong`, `em`, and `a href="/…"`; every other `<` is `&lt;`, every other `&` is `&amp;`; no attribute but `href`; no absolute link; no link in a header ([`14-article-contract.md`](14-article-contract.md#text-fields)).
@@ -127,7 +127,7 @@ Read [`09-editorial-guidelines.md`](09-editorial-guidelines.md) against the plan
 - **Removed-products test (`E8`, `E9`).** Delete every product widget, quote, and product sentence in your head and read from the title down.
 - **Tone and language (`E10`–`E16`, `E25`).** Tykanie with lowercase pronouns, a fellow builder's voice, no superlative, clickbait, urgency, price or sale word, emoji, or exclamation mark in the title, perex, headings, or SEO fields. Grammar, spelling, full diacritics, „…“ quotation marks, hobby terms explained at first use. Name each wrong sentence.
 - **Facts (`E17`–`E20`).** Every figure about a kit equals its catalog parameter. General time and difficulty statements carry a range or condition. No kit below its recommended age. No health claim. Every `FACT` source is opened in this run and confirms its claim; a factual sentence without a source, or one its source contradicts, fails `E20`. A named person needs a consent line in `community/<topic_key>/material.md`.
-- **Title, SEO, cover (`E21`–`E23`).** Look at the cover itself: an illustration of the subject, no recognizable kit, logo, packaging, price, text, or numbers. `cover.file` names a file that exists; `cover.ai_label` equals the label text.
+- **Title, SEO, cover (`E21`–`E23`).** Look at the cover itself: a photorealistic lifestyle photo of someone building a wooden model at a home desk, no recognizable kit, logo, packaging, price, or readable text. `cover.file` names a file that exists. The body does not say the cover was generated.
 - **Identity (`E24`).** The topic is not out of identity ([`03-pillars.md`](03-pillars.md#out-of-identity)).
 - No text or structure copied from a source site; `sources` carries no copied text.
 
@@ -208,7 +208,7 @@ For each locale, with its country key from the locale table:
 - `run_id`, `topic_key`, `pillar`, `reviews_quoted`, `html_blocks`, `sources`, `cover.file`, and `cover.prompt` equal the Slovak file.
 - **The block count, every `id`, every `type`, and the order equal the Slovak file.** A missing, added, merged, or moved block fails `14/Body`; name the block `id`.
 - Header levels, list styles and item counts, table rows and columns, widget kinds, grid products and their order, and FAQ pair counts equal the Slovak file.
-- The last block is the AI label in `<em>…</em>`, and its text equals `cover.ai_label`.
+- No block says the cover was generated.
 
 **Links and products**
 
@@ -300,11 +300,11 @@ A stop for any other reason (tunnel, credential, push, a foreign `_id` or addres
 
 ## Before the write
 
-These run after the translations are approved, and again on every retry that finds no page for the run. **All must pass before the first insert.** Any failure is a stop, and nothing is written.
+These run after the translations are approved, and again on every retry that finds no page for the run. **All must pass before the page post.** Any failure is a stop, and nothing is written.
 
 1. **Environment.** Read the `current` marker in [`10-environments.md`](10-environments.md#current-environment). Open the connection with `ROBOTOYS_MONGO`, and read and write only the databases of that column. When `written.json` exists and its `environment` differs from the marker, stop and name both. **The `Environment` line of the newest `review-sk-<n>.md` and of the newest `review-translations-<n>.md` must equal the marker**; when either differs, stop with the row `USED` and name the file and both values, because that review read the other environment's products and pages. A refused write is a stop, never a reason to write to the other column.
 2. **Approved files.** The newest `review-sk-<n>.md` and `review-translations-<n>.md` end `APPROVED`, and `git diff --quiet <Commit of the translation review> HEAD -- runs/<run_id>/article.json runs/<run_id>/cover.* runs/<run_id>/translations/` shows no difference.
-3. **Products, again.** Read every product in `products_used` now and apply the availability rule for all 21 countries. **A product withdrawn between review and write stops the write**: name the product and the country, and [stop the run](#stopping-a-run) with the row `HELD` for the Editor. No product is dropped at this point, because the approved text carries it in 21 languages. Note the time it passed as `products_rechecked_at`; when more than 30 minutes pass before the first insert, re-check again.
+3. **Products, again.** Read every product in `products_used` now and apply the availability rule for all 21 countries. **A product withdrawn between review and write stops the write**: name the product and the country, and [stop the run](#stopping-a-run) with the row `HELD` for the Editor. No product is dropped at this point, because the approved text carries it in 21 languages. Note the time it passed as `products_rechecked_at`; when more than 30 minutes pass before the page post, re-check again.
 4. **Every block in all 21 languages** against the HTML rules.
    - **Every `HTML` block is on the allowlist, or the write stops.** Its `code` equals one of the five templates in [`../templates/widgets/`](../templates/widgets/product-card.html) with only slot values changed, line by line, and each slot value obeys the escaping rule of its slot kind in [`15-widgets.md`](15-widgets.md#escaping); or it matches exactly the table shape in [`14-article-contract.md`](14-article-contract.md#tables), with only cell text changed and escaped the same way. Anything else, however harmless it looks, stops the write: name the locale and the block `id`.
    - As an extra check on top of the allowlist: the text subset in text fields, `style: ""`, `localization: {}`, no `{` or `}`, no slot marker, no `script`, `style`, `iframe`, `form`, `object`, `embed`, `svg`, `math`, `meta`, `base`, or `link` element, no event attribute (`on…=`), no numeric entity `&#`, no `javascript:` or `data:` address, no level-1 header, only the five types. The schema in [`16-article-schema.json`](16-article-schema.json) enforces this denylist; it never replaces the allowlist.
@@ -313,87 +313,82 @@ These run after the translations are approved, and again on every retry that fin
 7. **Internal links, again.** For every locale's `internal_links` entry, the page of that `page_id` is still a blog page with `enabled` `true` and a non-empty `url._<COUNTRY>` for that locale's country. When one is not, stop with the row `USED` and name the link: `page_id`, locale, and country. The approved text cannot be changed after approval, so the link is not dropped here; the Editor decides.
 8. **Addresses.** For each of the 21 countries, compose the row `_id` `<host>/<blog segment>/<slug>` from the current column. No row with that `_id` exists with an `id` other than this run's `_id`. The Slovak slug is not the `uid` of another page. When one is taken, stop and name the address: the translations were approved against a free address, so someone took it since.
 
-## Composing the page
+## Composing the request
 
-Build the document per [`11-storefront-data.md`](11-storefront-data.md#the-blog-page). Copy every page field from its file unchanged.
+Build the `PATCH` body per [`11-storefront-data.md`](11-storefront-data.md#posting-the-page). Copy every text field from its file unchanged.
 
-| Page field | Value |
+| Body field | Value |
 |---|---|
-| `_id`, `sequence` | from `written.json`, see [Write](#write) |
-| `uid` | the Slovak `slug` |
-| `authorID`, `categoryID` | the author id and blog category id from the environments file |
-| `created`, `updated` | Unix seconds now, the same value |
 | `enabled` | **`false`** |
-| `tags` | the tags kept in step 5 above |
+| `categoryID` | the blog category id from the environments file; only because `id` is `create` |
 | `pipeline_run_id` | the run id |
-| `locale._<locale>` | from that locale's file: `title`, `description`, `image` `""`, `seo` `{title, description}` from `seo_title` and `seo_description`, and the same two values as `seo_title` and `seo_description` |
-| `blocks._<locale>` | that locale's `blocks`, unchanged |
-| `url._<COUNTRY>` | `https://` + that country's row `_id` |
+| `tags` | the tags kept in step 5 above |
+| `locale._<locale>.title` | that locale's `title`. **`locale._sk.title` is the first key that ends in `.title`** |
+| `locale._<locale>.description` | that locale's `description` |
+| `locale._<locale>.seo_title` | that locale's `seo_title` |
+| `locale._<locale>.seo_description` | that locale's `seo_description` |
+| `locale._<locale>.image` | the temporary cover URL from the CDN upload, the same value on all 21 locales |
+| `blocks._<locale>` | that locale's `blocks`, unchanged, and no image block carries `file.path` |
 
-All 21 locale keys and all 21 country keys are present; take locale and country keys from the locale table, never derive one from the other. **A page missing one language or one address is not written.**
+All 21 locale keys are present; take them from the locale table, never derive one from the other. Do not send `url`, `uid`, `_id`, or `sequence`. The service sets those. **A body missing one language is not sent.**
 
 ## Write
 
-The run id is the key. The page carries it as `pipeline_run_id`, and `runs/<run_id>/written.json` records the `_id` before the first insert, so every replay inserts under the same `_id` and creates only what is missing. **You never update or delete an existing page or row.**
+The run id is the key. The page carries it as `pipeline_run_id`. **You send the save once. You never send it again, and you never update or delete a page or a row yourself.**
 
 ```mermaid
 flowchart TB
-  W[Write with run id] --> ID[Reuse _id from written.json, or allocate it, record it and push]
-  ID --> F{Page with this run id exists?}
-  F -->|no| INS[Insert disabled page under that _id]
-  INS -->|duplicate key, same run id| MISS
-  INS -->|inserted| ROWS[Insert each address row if absent]
-  F -->|yes| MISS{All 21 rows present?}
-  MISS -->|yes| DONE[Already complete, change nothing]
-  MISS -->|no| ROWS
-  ROWS --> REC[Record rows in written.json]
-  INS -->|refused otherwise| STOP[Stop, write nothing further]
+  W[Write with run id] --> F{Page with this run id exists?}
+  F -->|yes, enabled| STOP[Stop, send nothing]
+  F -->|yes, disabled and complete| DONE[Already complete, change nothing]
+  F -->|yes, disabled and incomplete| STOP2[Stop, name what is missing]
+  F -->|no| PRE[Before the write]
+  PRE --> UP[POST the cover to the CDN]
+  UP --> SAVE["PATCH id=create once, with the image"]
+  SAVE --> CHECK[Read the page and its 21 rows]
+  CHECK --> REC[Record written.json]
 ```
 
 ### Steps
 
 1. **Read `written.json`** when it exists. Check `run_id` and `environment`.
 2. **Find the page**: `pages.find({ pipeline_run_id: "<run_id>" })` in the current pages database.
-   - More than one: stop and name the `_id`s. Write nothing.
-   - One, with `enabled` `true`: **stop. Write nothing, not even an address row**; the page belongs to the Editor now. Name the page and the rows still missing.
-   - One, with an `_id` other than the one in `written.json`: stop and name both.
-   - One, and `written.json` is missing: record that page's `_id` and `sequence` in a new `written.json`, then go to step 6.
-   - One, otherwise: go to step 6.
+   - More than one: stop and name the `_id`s. Send nothing.
+   - One, with `enabled` `true`: **stop. Send nothing.** The page belongs to the Editor now.
+   - One, disabled, and [the stored page passes](#what-the-stored-page-must-pass): already complete. Record it if `written.json` lacks the `_id`, and do not send the save.
+   - One, disabled, and it does not pass: **stop and name what is missing.** Do not send the save again; a second `PATCH` would change the page.
    - None: run [Before the write](#before-the-write), then step 3.
-3. **Reuse or allocate.** When `written.json` holds `_id` and `sequence`, reuse them; never allocate again. Otherwise allocate per [`11-storefront-data.md`](11-storefront-data.md#page-_id): `_id` = the highest `_id` in the whole `pages` collection plus one, `sequence` = the highest `sequence` among blog pages plus one.
-4. **Record before inserting.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence`, `allocated_at`, `page_inserted: false`, `seo_rows` with the 21 composed addresses and no status, `products_rechecked_at`, and `outcome: "pending"`. Commit, `reviewer: <run_id> allocate page <_id>`, and push. When the push is refused as not a fast-forward, sync and push once more: your commit touches only `written.json`, so nothing conflicts. **When the push fails again, or fails any other way, insert nothing**; stop and name it.
-5. **Insert the page** under that `_id`, composed per [Composing the page](#composing-the-page).
+3. **Upload the cover** per [`11-storefront-data.md`](11-storefront-data.md#posting-the-page): `POST` the cover file to the CDN origin, field `file`. Keep the temporary URL. A response without a `/tmp/` path is a stop. Send no page request.
+4. **Save the page once.** `PATCH` `id=create` to the current environment's pages API, body from [Composing the request](#composing-the-request), `Host` of that environment. A development request uses the forward and `Host: dev.robotoys.sk`. **Never send it to host `robotoys.sk` during development.**
 
    | Result | What you do |
    |---|---|
-   | inserted | set `page_inserted` to now; step 6 |
-   | duplicate key on `_id`, and the document with that `_id` carries this `pipeline_run_id` | the page exists. If its `enabled` is `true`, stop as in step 2. Otherwise set `page_inserted` to now; step 6 |
-   | duplicate key on `_id`, and that document carries no or another run id | **someone else took the `_id`. Stop, write nothing further, and name the `_id`.** Do not allocate another in this run; the Editor decides |
-   | any other refusal, or a permission error | stop and name it |
-   | no answer or a timeout | find by run id. Found: treat as inserted. Not found: send the same insert once more. Still unknown: stop; a retry continues from step 1 |
+   | `{ ok: true, result: <_id> }` | step 5 with that `_id` |
+   | `{ ok: false }` or an HTTP error | find by run id. Found: step 5. Not found: stop and name the status. Do not send a second create in this attempt |
+   | no answer or a timeout | find by run id. Found: step 5. Not found: stop. A later retry that still finds no page may send one create |
 
-6. **Insert the address rows.** For each of the 21 countries, in the order of the locale table: find the row by its `_id`.
+5. **Read what was stored.** Load the page by `pipeline_run_id` and its `seo` rows `{ id: <_id>, type: "article" }`. It must [pass](#what-the-stored-page-must-pass). When it does not, stop and name the field. Do not send another request.
+6. **Record.** Write `written.json` with `run_id`, `environment`, `_id`, `sequence` from the page, `page_posted` as now, `cover_url` as the Slovak `image`, `seo_rows` as the 21 stored addresses, `products_rechecked_at`, and `outcome`. Commit and push, per [After the write](#after-the-write).
 
-   | Found | What you do |
-   |---|---|
-   | nothing | insert `{ "_id": "<host>/<blog segment>/<slug>", "id": <_id>, "type": "article" }`; mark it `inserted`. A duplicate key on that insert: find it again and decide by this table |
-   | a row with `id` equal to the page `_id` and `type` `article` | mark it `existing`; insert nothing |
-   | a row with another `id` or `type` | **the address belongs to another page. Stop, write nothing further, and name the address** |
+Send nothing else: no publish call, no second save, no author, category, or tag write, no product, no review.
 
-7. **Record.** Write `seo_rows` and `outcome` into `written.json`, commit, and push, per [After the write](#after-the-write).
+### What the stored page must pass
 
-Write nothing else: no other page, no other row, no author, category, or tag, no product, no review.
+- `enabled` is `false`, `pipeline_run_id` is this run, `categoryID` is the blog category id.
+- `uid` equals the Slovak `slug`.
+- Every `locale._<locale>.image` starts with `https://cdn.robotoys.` and contains `/page/gallery/` and the page `_id`. None still contain `/tmp/`.
+- `url._<COUNTRY>` is `https://` plus that country's address, and the `seo` collection has exactly those 21 rows with this `id` and `type` `article`.
+- No image block has `file.path`.
 
 ### Outcomes
 
 | `outcome` | When | What changed |
 |---|---|---|
-| `written` | this attempt inserted the page and its rows | one new page, 21 new rows |
-| `already-complete` | the page and all 21 rows existed; a replay | **nothing**; the page stays exactly as it was |
-| `rows-added` | the page existed, some rows were missing | only the missing rows |
+| `written` | this attempt posted the page | one new disabled page, its cover, 21 address rows |
+| `already-complete` | the page already passed; a replay | **nothing**; the page stays exactly as it was |
 | `stopped` | any stop in the steps above | nothing after the stop; the stop reason names what |
 
-`written`, `already-complete`, and `rows-added` are success. A replay never adds a second page, never changes the first, and never adds a second `WRITTEN` ledger row.
+`written` and `already-complete` are success. A replay never adds a second page, never changes the first, and never adds a second `WRITTEN` ledger row.
 
 ### What each outcome looks like in the databases
 
@@ -401,18 +396,16 @@ Check it in the current environment's databases with `pages.find({ pipeline_run_
 
 | Situation | Pages database | SEO database | `written.json` |
 |---|---|---|---|
-| `written` | exactly one page with this `pipeline_run_id`, the recorded `_id`, `enabled` `false`, 21 locale keys, 21 `url` keys on the current hosts | exactly 21 rows with `id` = that `_id`, one per current host; each row `_id` equals its `url` without `https://` | `page_inserted` set, 21 rows `inserted`, `outcome` `written` |
-| `already-complete`, a replay after a timeout | the same single page, unchanged: same `created`, `updated`, and fields as before the replay | the same 21 rows, no new one | 21 rows `existing`, `outcome` `already-complete` |
-| `rows-added`, a replay after the page but before the rows | the same single page, unchanged | 21 rows; only the formerly missing ones are new | the new rows `inserted`, the others `existing`, `outcome` `rows-added` |
-| stopped before the first insert (a product withdrawn, an address taken, a push failed) | no page with this `pipeline_run_id` | no row with this `_id` | missing, or `page_inserted: false`, `outcome` `stopped` |
-| stopped on a foreign `_id` | no page with this `pipeline_run_id`; the page holding that `_id` is untouched | no row with this `_id` | `page_inserted: false`, `outcome` `stopped` |
-| stopped on a foreign address | the run's page may exist, disabled | the rows before the collision exist; the colliding row is untouched and carries another `id` | the rows written so far, `outcome` `stopped` |
+| `written` | exactly one page with this `pipeline_run_id`, the recorded `_id`, `enabled` `false`, 21 locale images under `/page/gallery/`, 21 `url` keys on the current hosts | exactly 21 rows with `id` = that `_id`, one per current host; each row `_id` equals its `url` without `https://` | `page_posted` set, `cover_url` set, 21 addresses, `outcome` `written` |
+| `already-complete`, a replay | the same single page, unchanged | the same 21 rows, no new one | `outcome` `already-complete` |
+| stopped before the post (a product withdrawn, an address taken) | no page with this `pipeline_run_id` | no row for this run | missing, or `outcome` `stopped` without `_id` |
+| stopped because the stored page does not pass | the page may exist, disabled; it is not saved again | whatever the one save wrote | `outcome` `stopped`, and the line names the field |
 | stopped because the page is enabled | the page untouched, `enabled` `true` | untouched | `outcome` `stopped` |
 | any outcome | no page and no row in the other environment's databases | — | `environment` equals the current marker |
 
 ## After the write
 
-On `written` or `rows-added`, and on `already-complete` when the ledger has no `WRITTEN` row for this run:
+On `written`, and on `already-complete` when the ledger has no `WRITTEN` row for this run:
 
 1. Append a `WRITTEN` row to [`../ledger/topics.tsv`](../ledger/topics.tsv) per [`08-ledger.md`](08-ledger.md#the-ledger): `topic_key`, `pillar`, `run_id`, the page `_id`, `WRITTEN`, today's date, the Slovak title. **When the run already has a `WRITTEN` row, add nothing.**
 2. The plan row stays `USED`.
@@ -466,20 +459,20 @@ Zostáva     oprava prekladov, kontrola prekladov, zápis
 @Translator
 ```
 
-Written. The line carries the page `_id`, „zapnúť do <publish_on>“, the cover upload task with the file path and its AI label, every dropped tag, and the listing-order note when there is one:
+Written. The line carries the page `_id`, „zapnúť do <publish_on>“, that the cover was posted with the page, every dropped tag, and the listing-order note when there is one:
 
 ```
 Reviewer · 2026-10-05-mon · written
 Stránka     47, vypnutá · 21 jazykov · 21 adries · prostredie production
 Zapnúť do   2026-10-05
-Obálka      pred zapnutím nahraj runs/2026-10-05-mon/cover.png ako obrázok stránky vo všetkých 21 jazykoch; je to ilustrácia od umelej inteligencie, v texte je označená
+Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png, vo všetkých 21 jazykoch
 Štítky      žiadne vynechané
 Poradie     stránka 47 má vyššie _id ako stránka 46 behu 2026-10-07-wed s neskorším publish_on; v zozname blogu bude nad ňou
 Zostáva     zapnutie (editor)
 @Editor
 ```
 
-**In development, the written line asks for no upload and no enabling**, because the admin and the CDN are production services ([`10-environments.md`](10-environments.md#shared-production-services)). One `Editor` line, `Editor      prostredie development · nezapínať, obálku nenahrávať`, replaces `Zapnúť do` and `Obálka`.
+**In development, the written line asks for no enabling.** The page and its cover were posted to the development shop ([`10-environments.md`](10-environments.md#shared-services)). One `Editor` line, `Editor      prostredie development · nezapínať`, replaces `Zapnúť do`.
 
 A replay:
 
@@ -516,11 +509,9 @@ Every stop posts the failure line of [`07-report-format.md`](07-report-format.md
 | Environment marker and `written.json` differ; a permission refusal | `USED` | nothing | both values, or the refusal |
 | The `Environment` line of the newest `review-sk-<n>.md` or `review-translations-<n>.md` differs from the marker | `USED` | nothing | the file and both values |
 | An `internal_links` page is no longer an enabled blog page with an address for that country | `USED` | nothing | the link: `page_id`, locale, and country |
-| An address or the `uid` taken by another page before the first insert | `USED` | nothing | the address |
-| Push of `written.json` fails before the first insert: a second non-fast-forward refusal after a sync, or any other refusal | `USED` | nothing | the push |
-| Duplicate key on `_id` from another page | `USED` | nothing | the `_id` |
-| The run's page is enabled | `USED` | nothing | the page and the missing rows |
-| An address row belongs to another page, during the rows | `USED` | the page and the rows before it | the address |
+| An address or the `uid` taken by another page before the post | `USED` | nothing | the address |
+| The run's page is enabled | `USED` | nothing further | the page |
+| The stored page does not pass after the one save | `USED` | the page the service stored; it is not saved again | the field that failed |
 | `git commit/push blocked — approval required` | as found | as found | the push |
 
 ## What you must not do
@@ -529,8 +520,7 @@ Every stop posts the failure line of [`07-report-format.md`](07-report-format.md
 - Approve a round with a finding, or return a Slovak article a fourth time.
 - Start Translator on a returned article, or write before all 20 languages pass.
 - Drop or replace a product in the write, or in one language.
-- Update, replace, or delete any document; write to a page whose `enabled` is `true`; touch another page, another address row, an author, a category, a tag, a product, or a review.
-- Allocate a second `_id` for a run, or insert before `written.json` is pushed.
-- Write with the other environment's credential, or compose an address from the other environment's hosts.
-- Enable, schedule, or upload anything, or save through the admin, the pages API, or the CDN.
+- Update, replace, or delete any document yourself; send the page save a second time; write to a page whose `enabled` is `true`; touch another page, an author, a category, a tag, a product, or a review.
+- Send `PUT /pages/api/publish`, or post a development page to host `robotoys.sk`.
+- Write with the other environment's pages API, or compose an address from the other environment's hosts.
 - Paste a file into the chat instead of pushing it.

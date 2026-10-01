@@ -22,12 +22,12 @@ Reviewer copies the page fields from each locale's file into the page unchanged.
 |---|---|---|---|
 | `title` | `locale._<locale>.title` | 1–60 characters | plain text; the page `h1` and meta title; [`09/E21`](09-editorial-guidelines.md#rules) |
 | `description` | `locale._<locale>.description` | 150–300 characters | plain text; the perex, one to three sentences; also the page's meta description |
-| `seo_title` | `locale._<locale>.seo.title` and `locale._<locale>.seo_title` | 1–60 characters | plain text; same value in both fields; [`09/E22`](09-editorial-guidelines.md#rules) |
-| `seo_description` | `locale._<locale>.seo.description` and `locale._<locale>.seo_description` | 120–155 characters | plain text; same value in both fields; [`09/E22`](09-editorial-guidelines.md#rules) |
+| `seo_title` | `locale._<locale>.seo_title` | 1–60 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
+| `seo_description` | `locale._<locale>.seo_description` | 120–155 characters | plain text; the admin save sends this flat key; [`09/E22`](09-editorial-guidelines.md#rules) |
 | `slug` | `sk`: `uid`; every locale: the path of `url._<COUNTRY>` and the address row `_id` | 3–90 characters | see [Slug](#slug) |
 | `blocks` | `blocks._<locale>` | see [Body](#body) | copied as the array, block by block |
 | `tags` | `tags` | — | `[]` while the tags collection is empty ([`11-storefront-data.md`](11-storefront-data.md#tags)) |
-| `cover.file` | none; `locale._<locale>.image` stays `""` | — | see [Cover and AI label](#cover-and-ai-label) |
+| `cover.file` | `locale._<locale>.image`, after the pages service files the upload | — | see [Cover](#cover) |
 
 Every other field is the sidecar: it tells Reviewer what the article uses and never reaches the page.
 
@@ -53,12 +53,11 @@ Every other field is the sidecar: it tells Reviewer what the article uses and ne
 | `header.level` is 2, 3, or 4 | a level-1 header, or level 5 or 6 |
 | At least two level-2 headers | fewer than two |
 | The body opens with two `paragraph` blocks | the first or second block is not a paragraph |
-| The last block is the AI label paragraph | the label is missing or moved |
 | `id` is `b` plus two digits (`b01`, `b02`, …), unique, in rising order | a duplicate or skipped pattern |
 | Every translation has the same ids, types, and order as the Slovak article | a block added, dropped, or moved |
 | A table or a widget is an `HTML` block | a table or widget in any other block |
 | `HTML` blocks carry `code`, `style: ""`, `localization: {}` | a non-empty `style`, a missing or non-empty `localization` |
-| Body words, the AI label excluded, are 600 or more in Slovak | a Slovak body under 600 words |
+| Body words are 600 or more in Slovak | a Slovak body under 600 words |
 
 Do not set `align` on headers or paragraphs; the storefront's default alignment applies.
 
@@ -114,7 +113,7 @@ A widget is an `HTML` block whose `code` is one of the five templates in [`15-wi
 - An `image` block carries **a product photo only**: `file.url` is an entry of `images` of a product in `products_used`, and it starts with the CDN origin from [`10-environments.md`](10-environments.md). This is the one place a full address is written, because the image block needs it. In examples it is `<CDN origin>/…`.
 - `file.width` and `file.height` are the photo's pixel size.
 - `caption` is plain text and is also the alt text. It says what the photo shows ("Hotový model hudobnej skrinky zboku"), not a sales line. A product photo is product content and counts under [`09/E4`](09-editorial-guidelines.md#rules).
-- **No AI illustration in the body.** An image block needs a CDN address, and the pipeline has no upload path ([`11-storefront-data.md`](11-storefront-data.md#cover-image)). An image block whose `url` is not a catalog photo fails.
+- **No generated photo in the body.** An image block is a catalog photo: `file.url` starts with the CDN origin, and `file` has no `path`. A `path` would make the page save upload the block again ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). An image block whose `url` is not a catalog photo fails.
 
 ## Links
 
@@ -131,34 +130,19 @@ Every link is site-relative: a path that starts with `/`, never a host.
 - Every link is recorded: products in `products_used`, articles in `internal_links`.
 - Link counts per pillar are in [`09/E7`](09-editorial-guidelines.md#rules).
 
-## Cover and AI label
+## Cover
 
-The cover is an AI illustration ([`09/E23`](09-editorial-guidelines.md#rules)). Creator writes it to `runs/<run_id>/cover.png` (or `cover.jpg`), landscape, at least 1200 × 675 pixels, and records it in `cover`:
+The cover is a photorealistic photograph ([`09/E23`](09-editorial-guidelines.md#rules)): a warm home desk, a brass lamp, and hands assembling a wooden mechanical model, as in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover). Creator writes it to `runs/<run_id>/cover.png` (or `cover.jpg`), landscape, at least 1200 × 675 pixels, and records it in `cover`:
 
 | Field | Value |
 |---|---|
 | `cover.file` | `cover.png` or `cover.jpg` |
 | `cover.prompt` | the full prompt used, in English |
-| `cover.ai_label` | the label below, in the file's language |
 
-The cover is not uploaded by any bot, so it never shows in the body. **The label therefore lives in the body itself: the last block of every locale is this paragraph**, so the page says the cover is illustrative in all 21 languages once the Editor uploads it.
+Reviewer posts that file with the page ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The file is not an image block, and the body does not say how the cover was made.
 
-Slovak label text, exactly:
-
-```text
-Titulný obrázok je ilustračný, vytvorila ho umelá inteligencia.
-```
-
-Slovak last block, exactly:
-
-```json
-{ "id": "b24", "type": "paragraph", "data": { "text": "<em>Titulný obrázok je ilustračný, vytvorila ho umelá inteligencia.</em>" } }
-```
-
-- `cover.ai_label` equals the text inside `<em>…</em>` of the last block. Translator translates both, identically.
-- The prompt asks for no product, logo, packaging, text, numbers, or price in the image.
-- Reviewer's message to the Editor names the cover file and says it is an AI illustration to upload before enabling ([`18-review-and-write.md`](18-review-and-write.md)).
-- **A cover without `ai_label`, a label that differs from the text above, or a body without the label paragraph fails.**
+- The prompt asks for the lifestyle photograph in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#cover): no readable text, logo, packaging, price, or recognizable shop kit.
+- A missing cover file, or a `cover.file` that does not name it, fails.
 
 ## Sidecar fields
 
@@ -176,7 +160,7 @@ These fields do not reach the page. Reviewer checks the article against them and
 | `html_blocks` | one entry per `HTML` block: `block_id` and `kind` (`TABLE`, `PRODUCT_CARD`, `PRODUCT_GRID`, `TIP`, `QUOTE`, `FAQ`) |
 | `sources` | what informed the article: `kind` (`INSPIRED_BY`, `COMMUNITY`, `FACT`), `ref` (a source-list entry, a `community/<topic_key>/` path, or the address of the page that confirms a fact), `note` |
 | `word_counts` | Slovak file only: `body` and `product` words as defined in [`09-editorial-guidelines.md`](09-editorial-guidelines.md#terms) |
-| `cover` | `file`, `prompt`, `ai_label` |
+| `cover` | `file`, `prompt` |
 
 - Every product in the body appears in `products_used`, and every entry there appears in the body. A product fails the availability rule in [`11-storefront-data.md`](11-storefront-data.md#sold-in-all-21-countries) at the time of `checked_at` → it is not in the article.
 - Every `HTML` block appears exactly once in `html_blocks`, and every entry points at an `HTML` block.
@@ -193,6 +177,6 @@ Reviewer returns the article with the failing rule named when any of these holds
 - a widget carrying a price, a discount, or a currency;
 - a product grid with fewer than three or more than six products;
 - a quote whose text differs from the stored review;
-- a cover without the AI label, or a body without the label paragraph;
+- a missing cover file, or a `cover.file` that does not name it;
 - a field over its limit, or a slug that breaks the slug rules;
 - a file that does not validate against [`16-article-schema.json`](16-article-schema.json).

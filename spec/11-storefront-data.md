@@ -56,34 +56,34 @@ A blog article is one document in the `pages` collection. It holds all 21 langua
 
 ### Fields
 
-| Field | Type | What Reviewer writes |
+| Field | Type | Where it comes from |
 |---|---|---|
-| `_id` | integer | allocated once per run, see [Page `_id`](#page-_id) |
-| `uid` | string | the Slovak slug; unique across the whole `pages` collection; never contains `faq` |
-| `authorID` | integer | the author id from the environments file; it references `authors.uid` |
-| `categoryID` | integer | the blog category id from the environments file |
-| `created` | integer | Unix seconds at the write |
-| `updated` | integer | the same value as `created` |
-| `enabled` | boolean | always `false` |
-| `sequence` | integer | the highest `sequence` among blog pages plus one |
-| `tags` | array | `[]`, see [Tags](#tags) |
-| `pipeline_run_id` | string | the run id, for example `2026-10-19-mon` |
-| `locale._<locale>` | object | per locale: `title`, `description`, `image`, `seo` `{title, description}`, `seo_title`, `seo_description` |
-| `blocks._<locale>` | array | per locale: the body blocks, see [Body blocks](#body-blocks) |
-| `url._<COUNTRY>` | string | per country: `https://<host>/<blog segment>/<slug>`, with the host of the current environment |
+| `_id` | integer | the pages service, on create; see [Page `_id`](#page-_id) |
+| `uid` | string | the slug of `locale._sk.title`, the first title key in the save; unique across `pages`; never contains `faq` |
+| `authorID` | integer | the service default, the author id from the environments file |
+| `categoryID` | integer | the blog category id, sent only on create |
+| `created` | integer | the service, at create |
+| `updated` | integer | the service, at create |
+| `enabled` | boolean | the save sends `false` |
+| `sequence` | integer | the service, highest blog-page `sequence` plus one |
+| `tags` | array | the save sends `[]`, see [Tags](#tags) |
+| `pipeline_run_id` | string | the save sends the run id, for example `2026-10-19-mon` |
+| `locale._<locale>` | object | the save sends `title`, `description`, `seo_title`, `seo_description`, and the temporary `image` |
+| `blocks._<locale>` | array | the save sends the body blocks, see [Body blocks](#body-blocks) |
+| `url._<COUNTRY>` | string | the service, from the category URL plus the slug of that locale's title |
 
 Rules on these fields:
 
 - **All 21 locale keys and all 21 country keys are present.** A page missing one language or one address is not written.
 - `description` is the perex. The page's meta title and meta description come from `title` and `description` (`robotoys-ui: templates/base/Page/Page/Detail.template`). Write the SEO title and SEO description into both `seo` and the flat `seo_title` / `seo_description`, with the same values; recent pages carry both shapes.
-- `image` is the cover's CDN address, or `""`. There is no upload path for the pipeline, so it is `""`; see [Cover image](#cover-image).
+- `image` is the cover's CDN address under `/page/gallery/`. Reviewer does not write it by hand. The page post sends a temporary CDN address, and the pages service replaces it; see [Posting the page](#posting-the-page).
 - `uid`: a page renders only with a `uid`, and a `uid` containing `faq` switches the page to the FAQ layout, which drops every block except lists, level-2 headings, and paragraphs (`robotoys-ui: templates/base/Page/Page/Detail.template`).
 - Slugs, in `uid` and in every address, **never contain `-g`, `-p`, `-c`, `-n`, or `-a` followed by a digit.** The router reads such a pattern anywhere in a path as an id and never looks up the address row (`robotoys-ui: lib/seo/seo.js`). `papier-a4` and `model-a4-mesto` both fail; write `papier-format-a-4` or drop the number.
 - `pipeline_run_id` is new. Existing pages lack it, and the renderer ignores unknown fields. It is how a replay recognises its own page.
 
 ### Example
 
-Two locales shown; the other 19 locales and 19 addresses follow the same shape. Hosts are placeholders; a real page carries the hosts of the current environment.
+Two locales shown; the other 19 locales and 19 addresses follow the same shape. Hosts are placeholders; a real page carries the hosts of the current environment. The gallery `image` values are what the pages service stores after the save in [Posting the page](#posting-the-page). The save itself sends `seo_title` and `seo_description`, not the nested `seo` object.
 
 ```json
 {
@@ -101,7 +101,7 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
     "_sk": {
       "title": "Kedy pri drevenom 3D puzzle siahnuť po lepidle",
       "description": "Väčšina drevených modelov drží bez lepidla. Poradíme, kde sa kvapka predsa hodí a ako ju naniesť, aby nebolo vidieť stopy.",
-      "image": "",
+      "image": "https://cdn.robotoys.sk/page/gallery/kedy-pri-drevenom-d-puzzle-siahnut-po-lepidle-46-123.jpg",
       "seo": {
         "title": "Lepidlo pri drevenom 3D puzzle: kedy áno a kedy nie",
         "description": "Kde drevený model lepidlo potrebuje, ktoré lepidlo zvoliť a ako ho naniesť bez stôp. Praktické tipy pre pokojné a čisté skladanie."
@@ -112,7 +112,7 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
     "_cs": {
       "title": "Kdy u dřevěného 3D puzzle sáhnout po lepidle",
       "description": "…",
-      "image": "",
+      "image": "https://cdn.robotoys.cz/page/gallery/kdy-u-dreveneho-d-puzzle-sahnout-po-lepidle-46-456.jpg",
       "seo": { "title": "…", "description": "…" },
       "seo_title": "…",
       "seo_description": "…"
@@ -164,12 +164,7 @@ If tags exist later: a page renders only when every tag on it is localized in th
 
 ## Page `_id`
 
-`_id` is an integer, allocated sequentially: production pages 43, 44, and 45 are consecutive, and the development pages database ends at 43 because it lags production.
-
-1. Reviewer allocates `_id` as the highest `_id` in the whole `pages` collection of the current pages database, plus one, and `sequence` as the highest `sequence` among blog pages, plus one.
-2. It records both in `runs/<run_id>/written.json` before the first insert ([`../runs/README.md`](../runs/README.md)). A replay reuses the recorded values and never allocates again.
-3. An insert refused as a duplicate key on a document that carries the same `pipeline_run_id` means the page already exists; the write continues with the address rows.
-4. **An insert refused as a duplicate key on a document without this run id means someone else took the `_id`. Stop, write nothing further, and name the `_id`.** Do not allocate a new one within the same run; the Editor decides.
+`_id` is an integer. The pages service allocates it on create as the highest `_id` in `pages` plus one. Reviewer does not choose it. It records the `result` from the save in `runs/<run_id>/written.json` ([`../runs/README.md`](../runs/README.md)). A replay finds the page by `pipeline_run_id` and does not create another.
 
 The write flow is in [`18-review-and-write.md`](18-review-and-write.md).
 
@@ -188,13 +183,68 @@ A blog article's addresses are rows in the `seo` collection of the SEO database,
 | `type` | `article` |
 
 - `url._<COUNTRY>` on the page is exactly `https://` followed by that country's row `_id`.
-- **The page's writer also writes its rows.** Production page 45 is disabled and already has its 21 rows, so they did not come from enabling it. Reviewer writes all 21 rows, each insert-if-absent.
-- A row that already exists with the same `_id` and a different `id` means the address belongs to another page. Stop, write nothing further, and name the address.
+- **The page save writes its rows.** It deletes article rows for that page id and inserts 21 new ones ([Posting the page](#posting-the-page)). Reviewer does not insert them itself. Before the save, an address that already exists with a different `id` means it belongs to another page: stop and name it.
+- Production page 45 is disabled and already has its 21 rows, so rows are not created by enabling a page.
 - Product documents have 24 rows each, because of three extra hosts. Those are not blog hosts and article rows never use them.
 
 ## Cover image
 
-Existing covers live under the CDN origin at `/page/gallery/<slug>-<id>-<random>.jpg` and were uploaded through the admin. The admin and the CDN are production services, and **no bot uploads anything**. So `locale._<locale>.image` stays `""`, the cover file stays in the run directory, and Reviewer's message asks the Editor to upload it before enabling. How the cover is made and labeled is in [`14-article-contract.md`](14-article-contract.md).
+A stored cover is a CDN address under `/page/gallery/<title-slug>-<page id>-<random>.<ext>`. The host is `https://cdn.robotoys.<country>`, with the country key in lowercase (`sk`, `cz`, `eu`, …). The pages service writes that address itself when the save request carries a temporary image URL. How the cover is made is in [`14-article-contract.md`](14-article-contract.md). How Reviewer sends it is in [Posting the page](#posting-the-page).
+
+## Posting the page
+
+Reviewer creates the page with the same two requests the pages admin sends when someone saves an article and its cover. Read from the pages admin and the pages API on 2026-10-01 (`ecommerce-pages`, `ecommerce-pages-api`, `ecommerce-pages-model`).
+
+The button labeled Publikovať is not one of them. It sends `PUT /pages/api/publish` with `{}`, and the service then requests `GET https://<first shop host>/restart`. That restarts the storefront. **No bot sends it.**
+
+### 1. Upload the cover
+
+`POST` the CDN origin `/` (`https://cdn.robotoys.sk/`) as `multipart/form-data` with one field, `file`, the bytes of `runs/<run_id>/cover.png` or `cover.jpg`.
+
+The response JSON has `path`, a temporary file such as `/tmp/<name>.jpg`. The cover URL is the CDN origin plus that path, for example `https://cdn.robotoys.sk/tmp/<name>.jpg`. It contains `/tmp/`. A response without `path`, or a URL that does not contain `/tmp/`, is a stop: the pages service stores such a URL as-is and does not file it in the gallery.
+
+### 2. Save the article with that image
+
+`PATCH /pages/api/page/update?id=create`
+
+| Environment | Where |
+|---|---|
+| production | `https://robotoys.sk/pages/api/page/update?id=create` |
+| development | `http://127.0.0.1:18085/pages/api/page/update?id=create` with header `Host: dev.robotoys.sk`, through the forward in [`10-environments.md`](10-environments.md#shared-services) |
+
+`Content-Type` is `application/json`. The body is one object of dotted keys, the same shape the admin builds from the page form. One cover URL is copied onto every locale, which is what the gallery widget does.
+
+```json
+{
+  "enabled": false,
+  "categoryID": 7,
+  "pipeline_run_id": "2026-10-19-mon",
+  "tags": [],
+  "locale._sk.image": "https://cdn.robotoys.sk/tmp/<name>.jpg",
+  "locale._cs.image": "https://cdn.robotoys.sk/tmp/<name>.jpg",
+  "locale._sk.title": "Kedy pri drevenom 3D puzzle siahnuť po lepidle",
+  "locale._cs.title": "Kdy u dřevěného 3D puzzle sáhnout po lepidle",
+  "locale._sk.description": "…",
+  "locale._sk.seo_title": "…",
+  "locale._sk.seo_description": "…",
+  "blocks._sk": [],
+  "blocks._cs": []
+}
+```
+
+The other 19 locales follow the same keys. `categoryID` is the blog category id from the environments file, and it is sent only when `id` is `create`.
+
+Rules the service actually applies, so the body must follow them:
+
+- **`locale._sk.title` is the first key that ends in `.title`.** On create, `uid` is the slug of that first title.
+- **`enabled` is `false`.** Create defaults a page to enabled, and the same request then stores this value over it. Omitting it leaves the page enabled.
+- Every `locale._<locale>.image` is the same temporary URL from step 1. The service uploads each one whose value contains `/tmp/` and rewrites it to `/page/gallery/<title with digits removed, then slugified>-<page id>-<random>.<ext>` on `https://cdn.robotoys.<country>`.
+- An image block must not carry `file.path`. A block that has `file.path` is uploaded again. Catalog photos carry `file.url`, `file.width`, and `file.height` only.
+- Do not send `url`. After the save, the service deletes every `seo` row with this page id and `type` `article`, then inserts 21 new rows. Each address is that country's category URL, a slash, and the slug of that locale's title.
+- `pipeline_run_id` is stored as sent. The admin form does not send it; the pipeline does, so a replay can find its page.
+- The response is `{ "ok": true, "result": <page _id> }`. `result` is the new integer `_id`.
+
+A second `PATCH` to an existing id updates that page and rebuilds its address rows. **Reviewer sends `id=create` once per run and never sends the request again.** The procedure is in [`18-review-and-write.md`](18-review-and-write.md).
 
 ## Products
 
@@ -266,18 +316,20 @@ Link only to blog pages that are enabled, using the path of that page's `url._<C
 - `authors`, `categories`, and `tags`: read only
 - any address row that is not one of the current run's 21
 - any product, review, user, or order
-- the admin, the pages API, the reviews API, and the CDN, beyond the reads above
+- the admin UI, the reviews API, and `PUT /pages/api/publish`
+- the pages API, except Reviewer's one save in [Posting the page](#posting-the-page)
+- the CDN, except the one cover upload inside that save
 
-Reviewer writes only `insert` into the pages and SEO collections ([`10-environments.md`](10-environments.md)); nothing here asks for an update or a delete.
+That save is the only storefront write. The service itself replaces the page's address rows as part of it. Reviewer does not run an update or a delete of its own, and a replay does not send the save again.
 
 ## Settled findings
 
 | Question | Finding | Evidence |
 |---|---|---|
-| How is a page `_id` allocated? | Integer, highest plus one; Reviewer allocates it, records it, and stops on a foreign duplicate key. | Production pages 43, 44, 45 are consecutive; development ends at page 43. `sequence` rises by one per blog page (27, 28, 29 on pages 43–45). |
-| Who creates the address rows? | The page's writer. Reviewer writes 21 rows, insert-if-absent. | Production page 45 is disabled and has 21 rows, `_id` `<host>/<blog segment>/<slug>`, `id` 45, `type` `article`. |
-| Where do tag `uid`s resolve, and do tags cover the pillars? | In the `tags` collection, by `uid`, per locale. It is empty, so no tags exist for any pillar; Reviewer writes `[]`. | Production `tags` collection is empty; every blog page 17–45 carries `tags: []`. |
-| Is there an image upload path for the pipeline? | No. Covers are uploaded through the admin to the CDN, both production services. `image` stays `""`. | Existing blog covers are CDN addresses under `/page/gallery/`; `robotoys-ui` has no upload route for pages. |
+| How is a page `_id` allocated? | The pages service, on `id=create`: highest `_id` plus one. Reviewer records the `result` it returns. | `ecommerce-pages-model` `Page.insert`; production pages 43, 44, 45 are consecutive. |
+| Who creates the address rows? | The same save. It deletes article rows for that page id and inserts 21, built from the category URL plus the slug of each locale title. | `Page.update_seo` in `ecommerce-pages-model`, read 2026-10-01. |
+| Where do tag `uid`s resolve, and do tags cover the pillars? | In the `tags` collection, by `uid`, per locale. It is empty, so no tags exist for any pillar; Reviewer sends `tags: []`. | Production `tags` collection is empty; every blog page 17–45 carries `tags: []`. |
+| How does the cover get onto the page? | `POST` the file to the CDN origin, then send that `/tmp/` URL as `locale._<locale>.image` on all 21 locales in the page `PATCH`. The service files each one under `/page/gallery/`. | Pages admin `Page.update` and `Page_gallery`; `Page.update` image loop in `ecommerce-pages-model`. |
 | What does a level-1 header do? | Its text replaces `title` as the page `h1`, and the block itself is not rendered in the body. Pipeline bodies carry none, so the `h1` is `title`. | `robotoys-ui: templates/base/Page/Page/Detail.template` (`page.heading`, and body headers rendered only when `level != 1`). |
 | What must an HTML block carry? | `code`, `style: ""`, `localization: {}`; no `>{…}<` in `code`. | `robotoys-ui: templates/base/Page/Blocks/Html.template`, `lib/pages-core/lib/models/page.js`. |
 | Where does the run id live on the page? | The extra top-level field `pipeline_run_id`. | Existing pages lack it; the renderer reads only named fields (`robotoys-ui: lib/pages/lib/classes/page.js`). |
@@ -286,5 +338,4 @@ Reviewer writes only `insert` into the pages and SEO collections ([`10-environme
 
 The dry run checks these before the first production write; until then the rules above stand.
 
-- **The admin's save.** Whether saving a page in the admin also inserts address rows is not verified, because the admin's source is not available. Rows are insert-if-absent, so an admin save that finds them should change nothing. The dry run makes no admin save, because the admin is a production service; the owner confirms this with the admin's maintainer, and after the Editor enables the first production article, Reviewer's next run checks that exactly 21 rows carry its `id`.
 - **Sitemaps.** The sitemaps are generated outside the storefront source, so whether they list disabled pages is not known. The dry run reads the sitemap of the host for `SK` and searches it for the Slovak address of production page 45, which is disabled.

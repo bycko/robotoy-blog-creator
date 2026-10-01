@@ -160,7 +160,6 @@ Polish is the one exception to lowercase pronouns, because the storefront writes
 | `image` | `caption`, translated; plain text | `file.url`, `file.width`, `file.height` |
 | `HTML`, table | the text inside `th` and `td`, translated and escaped per [`15-widgets.md`](15-widgets.md#escaping) | the wrapper, every tag, the number of rows and columns, `style: ""`, `localization: {}` |
 | `HTML`, widget | the slot values; see [Products and widgets](#products-and-widgets) | the template, the kind, the products and their order, the number of FAQ pairs, `style: ""`, `localization: {}` |
-| last block | the AI label, translated; see [AI label](#ai-label) | its position and its `<em>…</em>` |
 
 Text fields keep the subset of [`14-article-contract.md`](14-article-contract.md#text-fields): `b`, `i`, `strong`, `em`, and `a href="/…"`. Keep emphasis on the words that carry the same meaning. **Every other `<` is `&lt;` and every other `&` is `&amp;`**, in every language.
 
@@ -213,10 +212,6 @@ So a Slovak review quoted in the article gets a translation line in all 20 files
 
 `product_name` in the quote is `name._<locale>` of the reviewed product. `reviews_quoted` is copied from the Slovak file unchanged.
 
-### AI label
-
-The last block is the AI label paragraph. Translate the Slovak label into the target language, keep it inside `<em>…</em>`, and write the same text, without the tags, into `cover.ai_label`. **The two must be identical.** `cover.file` and `cover.prompt` are copied unchanged; the prompt stays in English.
-
 ### Sidecar
 
 | Field | In a translation |
@@ -229,7 +224,7 @@ The last block is the AI label paragraph. Translate the Slovak label into the ta
 | `internal_links` | the same `page_id`s as Slovak with this country's `path`, minus any link dropped under [Links](#links) |
 | `html_blocks` | copied unchanged |
 | `sources` | copied unchanged |
-| `cover` | `file` and `prompt` copied; `ai_label` translated |
+| `cover` | `file` and `prompt` copied; the prompt stays in English |
 | `word_counts` | **absent**; it belongs to the Slovak file only |
 
 ## Slug
@@ -294,7 +289,7 @@ Before the commit, check every file you wrote. A file that fails is fixed, not c
 - Every article link is this country's path, or has been dropped with its text kept.
 - Every product name equals `name._<locale>`.
 - Every quote carries the original `review_lang`, `review_text`, and `reviewer_name`; a translation line exists exactly when the review's language differs from this file's locale.
-- The last block is the translated AI label, equal to `cover.ai_label`.
+- No block says the cover was generated.
 - `title`, `description`, `seo_title`, `seo_description`, and `slug` are within their limits.
 - The slug matches the pattern, carries no router suffix and no `faq`, and is unique on its host.
 - No price, currency, discount, stock, or delivery word; no `{` or `}` or `[[` in any `code`; no tag outside the subset in any text field.

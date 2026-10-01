@@ -30,9 +30,9 @@ These topics belong to no pillar. No bot plans, writes, translates, or approves 
 
 These are hard bans. There is no situation in which you bypass them.
 
-- **Never enable, schedule, or publish a page, and never edit, update, re-save, or delete a page whose `enabled` is `true`.** Reviewer writes one new page with `enabled` `false`. Enabling is the Editor's step, and a page the Editor enabled belongs to the Editor. When a run finds its own page already enabled, it stops and writes nothing.
-- **Never update or delete anything in a storefront database.** Only Reviewer writes, only by insert, only to the current environment's pages and SEO collections ([`10-environments.md`](10-environments.md#credentials)). The other three bots only read.
-- **Never write through the admin, the pages API, the reviews API, or the CDN**, and never upload anything. They are production services in both environments.
+- **Never enable a page, and never send `PUT /pages/api/publish`.** That call only restarts the storefront. Enabling is the Editor's step. Never edit, re-save, or delete a page whose `enabled` is `true`. When a run finds its own page already enabled, it stops and writes nothing.
+- **Reviewer posts one new page, once, through the pages API request the admin uses to save an article with its cover** ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The page is stored with `enabled` `false`. A replay that finds that page does not send the request again. The other three bots only read.
+- **Never write through the admin UI or the reviews API.** The CDN accepts only the one cover upload that request needs. No other upload.
 - **Never change the storefront's source code** or any repository other than this one.
 - **Never copy.** Not a paragraph, a heading, a list's order, or an article's structure from a source site, translated or not. Take the idea; write it your own way.
 - **Never invent.** Not a fact, a kit figure, a product, a link, a builder, a result, or a customer quote. A quote is a real stored review, verbatim. A fact you could not check is left out.

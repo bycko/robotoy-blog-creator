@@ -58,18 +58,23 @@ Every address a bot composes is `https://<host>/<blog segment>/<slug>`, with the
 | `sv` | `SE` | `dev.se.robotoys.eu` | `se.robotoys.eu` |
 | `en` | `EU` | `dev.robotoys.eu` | `robotoys.eu` |
 
-### Shared production services
+### Shared services
 
-These services are the same in both environments. **Bots only read from them; no bot writes to, uploads to, or saves through any of them.**
+The reviews API and the CDN origin are the same in both environments. The pages API is one service; it picks the shop from the request `Host`.
 
-| Service | Origin |
-|---|---|
-| Admin | `https://robotoys.sk/admin` |
-| Pages API | `https://robotoys.sk/pages/api` |
-| Reviews API | `https://robotoys.sk/reviews/api` |
-| CDN | `https://cdn.robotoys.sk` |
+| Service | Origin | Who may write |
+|---|---|---|
+| Admin UI | `https://robotoys.sk/admin` and `https://robotoys.sk/pages/admin` | nobody; the Editor uses it to enable a page |
+| Pages API, production | `https://robotoys.sk/pages/api` (`Host: robotoys.sk` selects the live shop) | Reviewer, one save per run, production only |
+| Pages API, development | the same service on the server at `127.0.0.1:8085`, `Host: dev.robotoys.sk` | Reviewer, one save per run, development only |
+| Reviews API | `https://robotoys.sk/reviews/api` | nobody; read only |
+| CDN | `https://cdn.robotoys.sk` | Reviewer, one cover upload per run |
 
-Development also reads the production reviews and users databases. An Editor action in the admin during a development run touches production data, so a development run never asks the Editor for an admin save.
+The public dev site does not route `/pages/api` to this service, and `https://robotoys.sk/pages/api` always selects the live shop. A development save therefore goes through the SSH host of the database tunnel, local forward `127.0.0.1:18085` to `127.0.0.1:8085`, with header `Host: dev.robotoys.sk`. **A development save sent to host `robotoys.sk` is a stop you do not make.** The CDN upload is always `POST https://cdn.robotoys.sk/`; the pages service downloads that temporary file whichever shop it is writing.
+
+`PUT /pages/api/publish` is the admin button Publikovať. It requests `GET https://<first shop host>/restart` and restarts the storefront. No bot sends it.
+
+Development also reads the production reviews and users databases. The Editor enables pages only in the shop of the current environment.
 
 ## Credentials
 
@@ -83,7 +88,7 @@ Only secret **names** belong here. Values live in the bot platform's secret stor
 | `GOOGLE_ADS_REFRESH_TOKEN` | Planner | OAuth refresh token for the Ads user, scope `adwords` |
 | `GH_TOKEN` | all four bots | fine-grained token, contents read and write on this repository only |
 
-**One credential, `ROBOTOYS_MONGO`, serves every bot and every database.** It does not separate reading from writing, and the database does not enforce it, so the rules do. Only Reviewer writes, and only `insert` into the pages and SEO collections of the current column. No bot runs `update`, `delete`, or `drop`, and no bot touches a database of the other column. A write refused for any reason is a stop.
+**One credential, `ROBOTOYS_MONGO`, serves every bot and every database.** It does not separate reading from writing, and the database does not enforce it, so the rules do. Only Reviewer writes, and only by the one pages API save of the current environment ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). No bot runs `update`, `delete`, or `drop` itself, and no bot touches a database of the other column. A write refused for any reason is a stop.
 
 ### Google Ads account
 
@@ -116,6 +121,8 @@ The SSH user, hostname, and identity file live in `~/.ssh/config` on the bot com
 
 A stored connection string that points anywhere other than `127.0.0.1:27027` is a stop.
 
+A development page post needs a second forward on the same SSH host: local `127.0.0.1:18085` to remote `127.0.0.1:8085`. Check it the same way. When it is down, start `ssh -N -f -o BatchMode=yes -o ExitOnForwardFailure=yes -L 127.0.0.1:18085:127.0.0.1:8085 robotoys-mongo`. The request then uses `Host: dev.robotoys.sk`, as in [Shared services](#shared-services). Production does not use this forward.
+
 ## Git commits and pushes
 
 Bots commit and push to this repository as the repository owner's GitHub login, with `GH_TOKEN`. No bot identity is invented.
@@ -128,11 +135,11 @@ Scheduled runs start without anyone watching, so `git` against this repository m
 
 ## What you may and may not do
 
-- You read the current environment's databases and write, if you are Reviewer, only to the current environment's pages and SEO databases.
-- Reading one environment's products and writing to the other environment's pages is an error on which you stop the run and name what you mixed.
+- You read the current environment's databases. If you are Reviewer, you post one new disabled page through that environment's pages API, which stores the page, the cover, and the address rows ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)).
+- Reading one environment's products and posting to the other environment's pages API is an error on which you stop the run and name what you mixed.
 - You compose every address from the current environment's hosts. A development page carrying a production host is a failed write.
 - You never write to an enabled page, a non-blog page, or any product, review, user, or order.
-- You never write through the admin, the pages API, the reviews API, or the CDN.
+- You never use the admin UI, the reviews API, or `PUT /pages/api/publish`. The only CDN write is the cover upload inside the page post.
 
 ## What must be ready before the first run
 

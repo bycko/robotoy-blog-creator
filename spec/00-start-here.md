@@ -12,7 +12,7 @@ Four separate bots, one repository, and one person. Identify yourself and read o
 | Creator | writes the Slovak article from one plan row | its schedule, or Reviewer's return | [Creator](#creator) |
 | Reviewer | checks the Slovak article, then the 20 translations, then writes one disabled page | Creator's or Translator's chat line | [Reviewer](#reviewer) |
 | Translator | makes the other 20 languages from the approved Slovak article | Reviewer's chat line, or the Editor's retry | [Translator](#translator) |
-| Editor | a person: enables pages, uploads covers, supplies community material, adds `HUMAN` rows and sources | — | not a bot; see [`../README.md`](../README.md) |
+| Editor | a person: enables pages, supplies community material, adds `HUMAN` rows and sources | — | not a bot; see [`../README.md`](../README.md) |
 
 You do not know which one you are? **Stop and say so. Do not guess.**
 
@@ -101,7 +101,7 @@ You write `runs/<run_id>/row.tsv`, `article.json`, and the cover, and set your r
 12. [`../runs/README.md`](../runs/README.md)
 13. [`07-report-format.md`](07-report-format.md) — your chat lines
 
-You write the review files, `written.json`, the page and its 21 address rows, `WRITTEN` and `HELD` ledger rows, and a `HELD` status on a stop. You never read Creator's or Translator's reasoning.
+You write the review files and `written.json`, you post the page once through the pages API (that call stores the page, the cover, and the 21 address rows), and you write `WRITTEN` and `HELD` ledger rows and a `HELD` status on a stop. You never read Creator's or Translator's reasoning.
 
 ## Translator
 

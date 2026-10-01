@@ -11,10 +11,10 @@ Start at **[`spec/00-start-here.md`](spec/00-start-here.md)**. Identify your rol
 ## How an article is made
 
 1. **Planner** keeps [`backlog/editorial-plan.tsv`](backlog/editorial-plan.tsv) four weeks ahead. Once a month it builds the next month from three content pillars, Search Console, Keyword Planner, the holiday calendar, and the source list; every other Monday it adjusts open rows to fresh data.
-2. **Creator** takes the next ready row on Monday and Wednesday, and writes the Slovak article with product and community widgets and an AI cover into `runs/<run_id>/`.
+2. **Creator** takes the next ready row on Monday and Wednesday, and writes the Slovak article with product and community widgets and a photorealistic cover photo into `runs/<run_id>/`.
 3. **Reviewer** checks the Slovak article without the writer's reasoning. It returns a failing article to Creator at most twice; a third failure holds the row for you.
 4. **Translator** writes the other 20 languages from the approved Slovak article.
-5. **Reviewer** checks the translations, re-checks every product, and writes **one disabled page** with 21 languages and its 21 addresses into the storefront database.
+5. **Reviewer** checks the translations, re-checks every product, and posts **one disabled page** with its cover, 21 languages, and 21 addresses through the same pages API request the admin uses to save an article.
 6. **You enable it.** Nothing is public until you do.
 
 Every handoff is a file in `runs/<run_id>/`; a bot's line in the group chat only names the file ([`runs/README.md`](runs/README.md)).
@@ -32,8 +32,7 @@ All times are Europe/Bratislava. A profile is the text pasted into the bot platf
 
 | Job | When | Where |
 |---|---|---|
-| Enable the page in the admin | by the "enable by" date in Reviewer's written line, which is the row's `publish_on` | the admin; the page `_id` is in the line |
-| Upload the cover | before enabling, as Reviewer's line asks: the file is `runs/<run_id>/cover.png` or `.jpg`, used for all 21 languages | the admin |
+| Enable the page in the admin | by the "enable by" date in Reviewer's written line, which is the row's `publish_on` | the admin; the page `_id` is in the line. The cover is already on the page |
 | Supply community material, with a consent line for every person | before the writing day of a `COMMUNITY` row | [`community/README.md`](community/README.md) |
 | Add a planned topic by hand | any time; set `origin` `HUMAN` | [`backlog/README.md`](backlog/README.md) |
 | Decide a `HELD` row | after a stop | the plan and [`ledger/README.md`](ledger/README.md) |
@@ -43,7 +42,7 @@ All times are Europe/Bratislava. A profile is the text pasted into the bot platf
 | Act on a reported instruction | when a bot names fetched content that tried to instruct it | the chat line names where |
 | Order a retry: name the run id and the bot (Creator, Reviewer, or Translator) | after a stop whose line says `opakovanie behu <run id>` | the group chat |
 
-In development, Reviewer's line asks for no upload and no enabling, because the admin and the CDN are production services. Do not save or upload anything for a development page.
+In development, Reviewer's line asks for no enabling. The page was posted to the development shop, cover included. Do not enable it from the production admin.
 
 ## Switching environment
 

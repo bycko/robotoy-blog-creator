@@ -78,7 +78,7 @@ The first message carries the article and cover paths, the row (`topic_key`, `pi
 ```
 Creator · 2026-10-05-mon · done (round 1)
 Článok      runs/2026-10-05-mon/article.json
-Obálka      runs/2026-10-05-mon/cover.png (ilustrácia od umelej inteligencie)
+Obálka      runs/2026-10-05-mon/cover.png
 Riadok      guide-fixing-sticking-mechanism · GUIDE · publish_on 2026-10-05
 Preskočené  community-challenge-results-2026-09 (COMMUNITY, 2026-09-30): chýba materiál v community/community-challenge-results-2026-09/, riadok čaká.
 Zostáva     slovenská kontrola, preklad, kontrola prekladov, zápis
@@ -146,7 +146,7 @@ The written message carries:
 
 - `Stránka`: the page `_id`, that it is disabled, the language and address counts, and the environment;
 - `Zapnúť do`: the row's `publish_on`;
-- `Obálka`: the upload task, with the cover path and that it is an AI illustration labeled in the text;
+- `Obálka`: the cover was posted with the page, and the file path;
 - `Štítky`: every tag dropped because it lacks a name in all 21 locales, or `žiadne vynechané`;
 - `Poradie`, only when a run with a later `publish_on` has a lower page `_id`: `stránka <_id> má vyššie _id ako stránka <_id> behu <run id> s neskorším publish_on; v zozname blogu bude nad ňou`;
 - `Push`, only when the push of `written.json` failed after the write: the page is written, the record is not pushed;
@@ -156,18 +156,19 @@ The written message carries:
 Reviewer · 2026-10-05-mon · written
 Stránka     47, vypnutá · 21 jazykov · 21 adries · prostredie production
 Zapnúť do   2026-10-05
-Obálka      pred zapnutím nahraj runs/2026-10-05-mon/cover.png ako obrázok stránky vo všetkých 21 jazykoch; je to ilustrácia od umelej inteligencie, v texte je označená
+Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png, vo všetkých 21 jazykoch
 Štítky      žiadne vynechané
 Zostáva     zapnutie (editor)
 @Editor
 ```
 
-**In development, the message asks for no upload and no enabling**, because the admin and the CDN are production services ([`10-environments.md`](10-environments.md#shared-production-services)). One `Editor` line replaces `Zapnúť do` and `Obálka`:
+**In development, the message asks for no enabling.** The page and its cover were posted to the development shop ([`10-environments.md`](10-environments.md#shared-services)). One `Editor` line replaces `Zapnúť do`:
 
 ```
 Reviewer · 2026-10-05-mon · written
 Stránka     47, vypnutá · 21 jazykov · 21 adries · prostredie development
-Editor      prostredie development · nezapínať, obálku nenahrávať
+Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png
+Editor      prostredie development · nezapínať
 Štítky      vynechaný štítok stavanie-s-detmi (nemá názov v jazyku lv)
 Zostáva     nič; kontrola behu v prostredí development
 @Editor
@@ -246,7 +247,7 @@ Every Monday run of Planner, the weekly check and the monthly run alike, reports
 
 | What the files show | State | Reason to write |
 |---|---|---|
-| `written.json` with `outcome` `written`, `rows-added`, or `already-complete` | `zapísaný` | the page `_id` |
+| `written.json` with `outcome` `written` or `already-complete` | `zapísaný` | the page `_id` |
 | row `HELD`, `review-sk-3.md` ends `Verdict: STOPPED` | `zastavený` | `tretí neúspech slovenskej kontroly`, the file |
 | row `HELD`, `review-translations-3.md` ends `Verdict: STOPPED` | `zastavený` | `tretí neúspech kontroly prekladov`, the file |
 | row `HELD`, no round-3 review | `zastavený` | `produkt prestal spĺňať dostupnosť po schválení` |
