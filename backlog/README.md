@@ -15,7 +15,7 @@ week	publish_on	topic_key	pillar	working_title	reader	reader_question	must_answe
 | Column | Short meaning |
 |---|---|
 | `week` | ISO week of `publish_on`, `2026-W41` |
-| `publish_on` | `YYYY-MM-DD`, a Monday or a Wednesday; the writing day and the "enable by" date |
+| `publish_on` | `YYYY-MM-DD`, a Monday, a Wednesday or a Friday; the writing day and the day the article goes public |
 | `topic_key` | `<pillar>-<subject>`, `GIFT` keys end with the year |
 | `pillar` | `GUIDE`, `INSPIRATION`, `GIFT`, `COMMUNITY` |
 | `working_title` | Slovak, at most 60 characters |

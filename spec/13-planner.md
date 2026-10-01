@@ -1,6 +1,6 @@
 # 13 — Planner
 
-You keep the editorial plan: two Slovak articles a week, Monday and Wednesday, at least four weeks ahead. Once a month you build the plan for the month ahead; on each remaining Monday you check it against fresh data. The output is [`../backlog/editorial-plan.tsv`](../backlog/editorial-plan.tsv).
+You keep the editorial plan: three Slovak articles a week, Monday, Wednesday and Friday, at least four weeks ahead. Each article is published straight to the public blog by the pipeline; there is no separate enabling step by the Editor. Once a month you build the plan for the month ahead; on each remaining Monday you check it against fresh data. The output is [`../backlog/editorial-plan.tsv`](../backlog/editorial-plan.tsv).
 
 Creator takes its topic from this file and from nothing else ([`17-creator.md`](17-creator.md)). A slot without a ready row is an article that does not get written.
 
@@ -62,7 +62,7 @@ week	publish_on	topic_key	pillar	working_title	reader	reader_question	must_answe
 | # | Column | Meaning |
 |---|---|---|
 | 1 | `week` | ISO week of `publish_on`, `YYYY-Www`, e.g. `2026-W41` |
-| 2 | `publish_on` | `YYYY-MM-DD`, a **Monday or a Wednesday**; the date Creator writes the article and the "enable by" date Reviewer names |
+| 2 | `publish_on` | `YYYY-MM-DD`, a **Monday, a Wednesday or a Friday**; the date Creator writes the article and the day it goes public |
 | 3 | `topic_key` | key per [`08-ledger.md`](08-ledger.md): `<pillar>-<subject>`, and for `GIFT` `-<year of the holiday>` |
 | 4 | `pillar` | `GUIDE`, `INSPIRATION`, `GIFT`, or `COMMUNITY` ([`03-pillars.md`](03-pillars.md)) |
 | 5 | `working_title` | Slovak working headline that already follows the title rules in [`09-editorial-guidelines.md`](09-editorial-guidelines.md): at most 60 characters, no product or brand, no year |
@@ -79,7 +79,7 @@ week	publish_on	topic_key	pillar	working_title	reader	reader_question	must_answe
 
 ### Slots
 
-Each ISO week has two slots: its Monday and its Wednesday. **Each slot holds at most one row that is not `DROPPED`.** When a `HUMAN` row takes a slot that a `PLANNER` row holds, the `PLANNER` row moves.
+Each ISO week has three slots: its Monday, its Wednesday and its Friday. **Each slot holds at most one row that is not `DROPPED`.** When a `HUMAN` row takes a slot that a `PLANNER` row holds, the `PLANNER` row moves.
 
 ### Who sets which status
 
@@ -102,7 +102,7 @@ A row is **ready** when all of these hold:
 - for `COMMUNITY`: its material is present in `community/<topic_key>/` per [`08-ledger.md`](08-ledger.md#community-material);
 - for a row with a `product_hint`: the hint passes its check ([Product hint](#product-hint)).
 
-A **ready week** is an ISO week whose Monday slot and Wednesday slot both hold a ready row.
+A **ready week** is an ISO week whose Monday, Wednesday and Friday slots all hold a ready row.
 
 ### Reader, question, answer
 
@@ -148,7 +148,7 @@ A holiday that falls in the horizon but whose `publish_on` falls before the run 
 For a holiday on date `D` with `lead_weeks` `L`:
 
 1. **Target:** `D − 7 × L` days.
-2. **`publish_on`:** the latest Monday or Wednesday on or before the target. With `L = 3` the article comes 21 to 25 days before the day, with `L = 4` 28 to 32 days: three to four weeks ahead, never at the peak.
+2. **`publish_on`:** the latest Monday, Wednesday or Friday on or before the target. With `L = 3` the article comes 21 to 23 days before the day, with `L = 4` 28 to 30 days: three to four weeks ahead, never at the peak.
 3. **Holiday window:** from `D − 7 × (L + 1)` to `D − 14`. A holiday row may only sit inside its window, and the weekly check may move it only inside it.
 4. **Pillar:** the calendar's `pillar` for that day. You may file a `GIFT` day's row as `INSPIRATION` when the gift topic for that year is covered or held; the reader and question must then really be `INSPIRATION` ([`03-pillars.md`](03-pillars.md#borderline-cases)).
 5. **Key:** a `GIFT` key names the occasion and ends with the year of `D`: `gift-mothers-day-2027`.
@@ -163,12 +163,12 @@ For a holiday on date `D` with `lead_weeks` `L`:
 
 ## Pillar mix
 
-Per four consecutive weeks (eight slots), counting every row that is not `DROPPED`:
+Per four consecutive weeks (twelve slots), counting every row that is not `DROPPED`:
 
 | Rule | Limit |
 |---|---|
-| `GUIDE` | at least 2 |
-| `INSPIRATION` | at least 2 |
+| `GUIDE` | at least 3 |
+| `INSPIRATION` | at least 3 |
 | `GIFT` | only as holiday rows; so at most one per week |
 | `COMMUNITY` | only rows the Editor added, with `origin` `HUMAN` |
 | Same pillar in consecutive slots | at most 3 in a row |
@@ -252,21 +252,22 @@ The April 2027 plan is built on Monday 2027-03-22.
 
 1. Holiday horizon: 2027-04-01 to 2027-05-28 (30 April plus 28 days).
 2. `mothers-day` has the rule `nth-weekday 05 SUN 2`: the second Sunday of May 2027 is **2027-05-09**. It is in the horizon.
-3. `lead_weeks` is 3, so the target is 2027-04-18, a Sunday. The latest Monday or Wednesday on or before it is **Wednesday 2027-04-14**, week `2027-W15`, 25 days before the day.
-4. The window is 2027-04-11 to 2027-04-25; 2027-04-14 is inside.
+3. `lead_weeks` is 3, so the target is 2027-04-18, a Sunday. The latest Monday, Wednesday or Friday on or before it is **Friday 2027-04-16**, week `2027-W15`, 23 days before the day.
+4. The window is 2027-04-11 to 2027-04-25; 2027-04-16 is inside.
 5. The calendar's pillar is `GIFT`; the key is `gift-mothers-day-2027`. The ledger has no row for it.
-6. Monday 2027-04-12, the other slot of `2027-W15`, gets a `GUIDE` or `INSPIRATION` row, **never `GIFT`**.
+6. Monday 2027-04-12 and Wednesday 2027-04-14, the other slots of `2027-W15`, get `GUIDE` or `INSPIRATION` rows, **never `GIFT`**.
 
 | week | publish_on | topic_key | pillar | holiday_key |
 |---|---|---|---|---|
 | `2027-W15` | `2027-04-12` | `guide-cleaning-dusty-models` | `GUIDE` | `-` |
-| `2027-W15` | `2027-04-14` | `gift-mothers-day-2027` | `GIFT` | `mothers-day` |
+| `2027-W15` | `2027-04-14` | `inspiration-wooden-model-shelf-ideas` | `INSPIRATION` | `-` |
+| `2027-W15` | `2027-04-16` | `gift-mothers-day-2027` | `GIFT` | `mothers-day` |
 
 ### Children's Day enters with the May plan
 
 The April plan filled slots up to 2027-05-28, including Monday 2027-05-10, with an ordinary `PLANNER` row. Children's Day, 2027-06-01, was outside the April horizon.
 
-The May plan is built on Monday 2027-04-19; its horizon runs to 2027-06-28. `childrens-day` (`fixed 06-01`, lead 3) targets 2027-05-11, a Tuesday, so `publish_on` is **Monday 2027-05-10**, inside the window 2027-05-04 to 2027-05-18. The row already there is open and `PLANNER`, so it moves to a free slot or becomes `DROPPED` with `Vyradené: slot prevzal riadok gift-childrens-day-2027.` `fathers-day` (third Sunday of June, 2027-06-20) lands on Wednesday 2027-05-26 the same way.
+The May plan is built on Monday 2027-04-19; its horizon runs to 2027-06-28. `childrens-day` (`fixed 06-01`, lead 3) targets 2027-05-11, a Tuesday, so `publish_on` is **Monday 2027-05-10**, inside the window 2027-05-04 to 2027-05-18. The row already there is open and `PLANNER`, so it moves to a free slot or becomes `DROPPED` with `Vyradené: slot prevzal riadok gift-childrens-day-2027.` `fathers-day` (third Sunday of June, 2027-06-20) lands on Friday 2027-05-28 the same way.
 
 ### Four ready weeks in the third week of a month
 
