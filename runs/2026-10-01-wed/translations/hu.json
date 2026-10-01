@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "hu",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Elakad a szerkezet: keresd meg a súrlódást és szüntesd meg",
+  "description": "Ha egy fa modell szerkezete elakad, többnyire az alkatrészek közti súrlódás áll a háttérben, nem hibás alkatrész. Megmutatjuk, hogyan találod meg a helyét szétszedés nélkül, és mivel enyhítheted.",
+  "seo_title": "Elakadó szerkezet fa modellben: okok és megoldás",
+  "seo_description": "Hol dörzsölődnek az alkatrészek egy fa modellben, hogyan csökkentheted a súrlódást otthoni dolgokkal, és mikor rossz az illesztés. Első modellhez.",
+  "slug": "elakad-a-szerkezet-keresd-meg-a-surlodast-es-szuntesd-meg",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Amikor egy fa modell szerkezete elakad, ritkán hibás alkatrész a ludas, inkább a <strong>súrlódás</strong>: két alkatrész erősebben nyomódik egymásnak, mint kellene. Elég megtalálni ezt a helyet és enyhíteni a súrlódást, a modellt nem kell szétszedni. Megmutatjuk, hogyan."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A súrlódás helyét lassú forgatással találod meg, figyelve, hol nő az ellenállás, vagy hol hallatszik csikorgás. Utána olyan dolgokkal enyhítjük, amelyek általában otthon is akadnak, és elmondjuk, mikor a rosszul illesztett alkatrész az ok, és hogyan javítsd ki. A végén ellenőrzöd, hogy minden simán fut-e."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Hogyan találd meg a helyet, ahol az alkatrészek dörzsölődnek",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "A <em>súrlódás</em> az az ellenállás, amely akkor keletkezik, amikor két felület mozgás közben egymásnak nyomódik. Egy fogaskerekes modellben (a fogaskerék fogakkal ellátott kerek alkatrész, amely a következőbe kapaszkodik, és átadja a mozgást) egyszerre több helyen is megbújhat, ezért semmit se szedj szét, amíg nem tudod, hol keress."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "A szerkezetet forgasd <strong>lassan</strong>, ne erővel az ütközésig. Figyeld meg, hogy az ellenállás az egész körben egyforma-e, vagy csak egy állásban nő. Az egy állásban jelentkező ellenállás egy bizonyos fogra vagy alkatrészre mutat.",
+            "items": []
+          },
+          {
+            "content": "Minden keréknél, amelyet elérsz, próbáld meg ujjal külön megforgatni. Az a kerék gyanús, amelyik nehezebben jár a többinél.",
+            "items": []
+          },
+          {
+            "content": "Hallgatózz. A csikorgás vagy nyikorgás, valamint azok a helyek, ahol a mozgás egy pillanatra megakad, elárulják, hol nyomódnak egymásnak az alkatrészek.",
+            "items": []
+          },
+          {
+            "content": "Ellenőrizd, hogy valamelyik alkatrész nincs-e megemelkedve vagy ferdén behelyezve. A szomszédos alkatrészhez dörzsölődő élt gyakran oldalról nézve veszed észre.",
+            "items": []
+          },
+          {
+            "content": "Jegyezd fel a gyanús helyet, hogy a beavatkozás után összehasonlíthasd, változott-e az ellenállás.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> Ha az útmutató megjelöli a viaszolandó helyeket, azt kövesd, ne a megérzésedet. A rossz helyre vagy túl sok viasz miatt az alkatrészek rosszabbul illeszkedhetnek.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Mivel csökkentheted a súrlódást",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "A legtöbb problémához elég az, ami általában otthon is van. Kezdd a legkíméletesebbel, és minden beavatkozás után forgasd meg újra a szerkezetet, hogy lásd, segített-e."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Segédeszköz</th><th>Hol hasznos</th><th>Mire figyelj</th></tr></thead><tbody><tr><td>Finom csiszolópapír</td><td>apró egyenetlenségek egy másik alkatrésznek nyomódó alkatrész élén</td><td>csak könnyedén csiszolj; a túl sok csiszolás meglazítja a tartó kötéseket</td></tr><tr><td>Méhviasz vagy gyertya</td><td>a fogaskerekek fogai és a csúszó részek</td><td>csak nagyon vékony réteg, könnyedén felvíve</td></tr><tr><td>Puha rongy</td><td>a felesleges viasz letörlése</td><td>minden felvitel után töröld le, hogy ne maradjon bevonat az alkatrészeken</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Inkább kerüld: az olajat, a zsíros spray-ket és a bútorfényezőket. Elszínezhetik a fát, megköthetik a port, és összeragaszthatják a szűk szerkezetet."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "A viaszt csak ott vidd fel, ahol az alkatrészek egymáshoz képest mozognak, vagy ahol az útmutató jelzi. Ha mindent egyszerre viaszolsz, bevonat marad, és romolhat a kötések pontossága. A súrlódás néha két próbálkozásra megszűnik: az első viaszolás után próbáld ki a szerkezetet, és csak oda tegyél még viaszt, ahol még akad."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Ha az ok nem a súrlódás: rosszul illesztett alkatrész",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "A <em>rosszul illesztett alkatrész</em> olyan alkatrész, amely a modellben benne van, de nem pontosan ott ül, ahová való: a tengely nincs ütközésig betolva, a kerék az útmutatóhoz képest fordítva áll, vagy a csap nincs végig benyomva. A szerkezet ilyenkor akkor is elakad, ha egyetlen felület sem dörzsölődik feleslegesen, és a viasz ilyenkor nem segít."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Keresd meg az útmutatóban azt a lépést, amelyben az alkatrész bekerült, és hasonlítsd össze a helyzetét az ábrával.",
+            "items": []
+          },
+          {
+            "content": "Ellenőrizd, hogy a tengely mindkét furatban ütközésig be van-e tolva, és hogy az egyik oldalon nem áll-e ki jobban, mint a másikon.",
+            "items": []
+          },
+          {
+            "content": "Győződj meg róla, hogy az alkatrész nincs fordítva, és nem cserélted össze egy hasonlóval.",
+            "items": []
+          },
+          {
+            "content": "Óvatosan húzd ki az alkatrészt, és helyezd be újra. Ha nyomnod kell, valami akadályozza: ellenőrizd az élét, és finoman simítsd le. A vékony csapok nyomás alatt eltörnek.",
+            "items": []
+          },
+          {
+            "content": "Ha az alkatrészt törés nélkül nem lehet kihúzni, ne használj erőt. Próbáld finoman oldalirányban mozgatni, és derítsd ki, mi tartja.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Egy másik lehetséges ok a nedvesség. A fa a levegőből nedvességet szív fel, és kissé megduzzad, ezért nedves helyiségben az alkatrészek erősebben nyomódhatnak egymásnak. Ha a szerkezet csak idő után akadt el, vidd a modellt a nedves sarkoktól és a közvetlen napfénytől távol."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Hogyan ellenőrizd, hogy a szerkezet simán fut",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Jó teszt az, amely nem az érzéstől függ. Menj végig ezeken a pontokon, mielőtt lezárod a modellt, vagy felteszed a polcra."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Forgasd végig a szerkezetet egy teljes cikluson megállás nélkül. A mozgásnak egyenletesnek kell lennie, olyan hely nélkül, ahol rá kell nyomni.",
+            "items": []
+          },
+          {
+            "content": "Ismételd meg kicsit gyorsabban. Ha csak magasabb tempónál akad el, keress olyan alkatrészt, amely mozgás közben egy pillanatra lemarad.",
+            "items": []
+          },
+          {
+            "content": "Ellenőrizd a szerkezetet még egyszer pár óra múlva, majd másnap. Néhány probléma csak idővel jelentkezik.",
+            "items": []
+          },
+          {
+            "content": "Ha nyikorgást hallasz, adj egy kevés viaszt arra a helyre, ahonnan a hang jön.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Hogyan kerüld el az elakadást a következő modellnél",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "A súrlódást a legegyszerűbb menet közben, az építés során kezelni, nem utólag. Az olyan segédeszközöket, mint a csiszolópapír és a csipesz, <a href=\"/blog/10-eszkoz-amire-szukseged-lesz-egy-fabol-keszult-3d-puzzle-osszeallitasahoz\">az összeszereléshez szükséges eszközökről szóló cikkben</a> találod."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Minden olyan lépés után, amely kereket vagy tengelyt ad hozzá, forgasd meg a szerkezetet. Így az elakadást azonnal észreveszed, és világos lesz, melyik alkatrész okozta.",
+            "items": []
+          },
+          {
+            "content": "A mozgó helyeket viaszold már az összeszerelés közben, mert a kész modellben rejtettek és nehezen elérhetők.",
+            "items": []
+          },
+          {
+            "content": "Összeszerelés előtt húzd végig az ujjad azoknak az alkatrészeknek az élein, amelyek forogni vagy csúszni fognak, és az apró egyenetlenségeket csiszold le könnyedén.",
+            "items": []
+          },
+          {
+            "content": "Ha az útmutató viaszolandó helyeket mutat, csak azokat viaszold, a többit hagyd kezeletlenül.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ha a javítás után újabb mechanikus modell csábít, nézd meg a következőt: <a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/faliora-zodiac-rokr-lc601-p52\">Fából készült mechanikus 3D puzzle - Falióra Zodiac ROKR LC601</a>. A bolt adatai szerint 168 darabból áll, és az összeszerelés körülbelül 4 órát vesz igénybe."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/faliora-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Fából készült mechanikus 3D puzzle - Falióra Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/faliora-zodiac-rokr-lc601-p52\">Fából készült mechanikus 3D puzzle - Falióra Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Darabszám: 168</li>\n      <li>Összeszerelési idő: 4 óra</li>\n      <li>Nehézség: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/faliora-zodiac-rokr-lc601-p52\">A készlet megtekintése</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Gyakori kérdések",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mit tegyek, ha a szerkezet viaszolás után is elakad?</h3>\n    <p style=\"margin:0;\">A viasz csak a súrlódást oldja meg. Ellenőrizd, hogy valamelyik alkatrész nincs-e rosszul illesztve: a tengelynek ütközésig be kell lennie tolva, a kerék megfelelően fordítva, a csapnak pedig végig benyomva.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miért akadt el a modell csak néhány nap után?</h3>\n    <p style=\"margin:0;\">Az ok lehet a nedvesség: a fa vizet szív fel a levegőből, és kissé megduzzad. Vidd a modellt a nedves sarkoktól és a közvetlen napfénytől távol.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Megforgathatom erővel a szerkezetet, ha nehezen jár?</h3>\n    <p style=\"margin:0;\">Inkább ne. A vékony csap nyomás alatt meghajlik vagy eltörik. Előbb keresd meg a súrlódás helyét, és szüntesd meg az okot.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Fából készült mechanikus 3D puzzle - Falióra Zodiac ROKR LC601",
+      "path": "/fabol-keszult-3d-puzzle/orak-naptarak/faliora-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-eszkoz-amire-szukseged-lesz-egy-fabol-keszult-3d-puzzle-osszeallitasahoz",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

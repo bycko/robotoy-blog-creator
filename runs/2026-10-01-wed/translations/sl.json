@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "sl",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mehanizem se zatika: kako najti trenje in ga odpraviti",
+  "description": "Kadar se mehanizem v lesenem modelu zatika, je vzrok običajno trenje med deli in ne okvarjen del. Pokažemo, kako najdeš mesto brez razstavljanja in s čim trenje omiliš.",
+  "seo_title": "Zatikanje mehanizma v lesenem modelu: vzroki in rešitev",
+  "seo_description": "Kako najti mesto, kjer se deli v lesenem modelu drgnejo, trenje zmanjšati z gospodinjskimi stvarmi in prepoznati slabo vstavljen del. Vodnik za prvi model.",
+  "slug": "mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Kadar se mehanizem v lesenem modelu zatika, večinoma ni kriv okvarjen del, ampak <strong>trenje</strong>: dva dela se tiščita drug ob drugega močneje, kot bi se morala. Dovolj je najti to mesto in trenje omiliti, modela ni treba razstavljati. Pokazali ti bomo, kako."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Mesto trenja najdeš z počasnim vrtenjem in natančnim opazovanjem, kje upor narašča ali se sliši praskanje. Nato ga omilimo s stvarmi, ki jih običajno imaš doma, in ti povemo, kdaj je vzrok slabo vstavljen del in kako ga popraviti. Na koncu preveriš, ali vse teče gladko."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Kako najti mesto, kjer se deli drgnejo",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Trenje</em> je upor, ki nastane, ko se dve površini med gibanjem tiščita druga ob drugo. V modelu z zobniki (zobnik je okrogel del z zobmi, ki zaskoči v naslednjega in prenaša gibanje) se lahko skriva na več mestih hkrati, zato ničesar ne razstavljaj, dokler ne veš, kje iskati."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mehanizem vrti <strong>počasi</strong> in ne s silo do konca. Opazuj, ali je upor med celotnim obratom enak ali se poveča samo v enem položaju. Upor v enem položaju kaže na določen zob ali del.",
+            "items": []
+          },
+          {
+            "content": "Pri vsakem kolesu, do katerega prideš, ga poskusi s prstom zavrteti posebej. Kolo, ki gre težje kot ostala, je sumljivo.",
+            "items": []
+          },
+          {
+            "content": "Poslušaj. Praskanje ali škripanje in mesta, kjer se gibanje za trenutek ustavi, izdajo, kje se deli tiščijo drug ob drugega.",
+            "items": []
+          },
+          {
+            "content": "Preveri, ali je kak del dvignjen ali postavljen postrani. Rob, ki se drgne ob sosednji del, pogosto vidiš, če pogledaš s strani.",
+            "items": []
+          },
+          {
+            "content": "Sumljivo mesto si zapiši, da boš po posegu lahko primerjal, ali se je upor spremenil.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nasvet:</strong> Če navodila označujejo mesta za voskanje, se drži njih in ne ugibaj. Vosek na napačnem mestu ali v preveliki količini lahko povzroči, da se deli slabše prilegajo.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "S čim trenje zmanjšati",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Za večino težav zadoščajo stvari, ki jih običajno imaš doma. Začni z najmilejšo in po vsakem posegu mehanizem znova zavrti, da vidiš, ali je pomagalo."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Pripomoček</th><th>Kam se prilega</th><th>Na kaj paziti</th></tr></thead><tbody><tr><td>Droben brusni papir</td><td>majhne neravnine na robovih dela, ki se tišči ob drugega</td><td>brusi le rahlo; preveč brušenja zrahlja spoje, ki morajo držati</td></tr><tr><td>Čebelji vosek ali sveča</td><td>zobje zobnikov in drsni deli</td><td>le zelo tanka plast, ki jo nanesi rahlo</td></tr><tr><td>Mehka krpa</td><td>brisanje odvečnega voska</td><td>briši po vsakem nanosu, da na delih ne ostane obloga</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Raje se izogni: oljem, mastnim razpršilom in sredstvom za poliranje pohištva. Lahko obarvajo les, lovijo prah in zalepijo tesen mehanizem."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Vosek nanašaj le tam, kjer se deli gibljejo drug proti drugemu, ali na mestih, ki jih označujejo navodila. Če vse navoskaš naenkrat, ostane obloga in natančnost spojev se lahko poslabša. Trenje se včasih odpravi v dveh poskusih: po prvem voskanju mehanizem preizkusi in dodaj vosek le tam, kjer še drgne."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kadar vzrok ni trenje: slabo vstavljen del",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Slabo vstavljen del</em> je del, ki v modelu je, a ne sedi povsem tam, kamor spada: os ni potisnjena do konca, kolo je obrnjeno obratno, kot kažejo navodila, ali zatič ni dotlačen. Mehanizem se potem zatika, čeprav se nobena površina po nepotrebnem ne drgne, vosek pa v takem primeru ne pomaga."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "V navodilih poišči korak, v katerem je bil del dodan, in primerjaj njegov položaj s sliko.",
+            "items": []
+          },
+          {
+            "content": "Preveri, ali je os potisnjena v obe odprtini do konca in ali ne moli na eni strani bolj kot na drugi.",
+            "items": []
+          },
+          {
+            "content": "Prepričaj se, da del ni obrnjen narobe ali zamenjan s podobnim delom.",
+            "items": []
+          },
+          {
+            "content": "Del previdno izvleci in ga znova vstavi. Če ga moraš tlačiti, mu nekaj ovira pot: preveri njegov rob in ga rahlo zgladi. Tanki zatiči pod pritiskom pokajo.",
+            "items": []
+          },
+          {
+            "content": "Če dela ni mogoče izvleči brez lomljenja, ne uporabi sile. Poskusi ga nežno premikati z ene strani na drugo in ugotovi, kaj ga drži.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Drug možen vzrok je vlaga. Les vpija vlago iz zraka in rahlo nabrekne, zato se lahko deli v vlažnem prostoru močneje tiščijo drug ob drugega. Če se je mehanizem začel zatikati šele čez čas, model prestavi stran od vlažnih kotov in neposrednega sonca."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kako preveriti, da mehanizem teče gladko",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Dober preizkus je tak, ki ni odvisen od občutka. Preglej te točke, preden model zapreš ali ga postaviš na polico."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mehanizem zavrti skozi celoten cikel brez ustavljanja. Gibanje mora biti enakomerno, brez mesta, kjer moraš pritisniti.",
+            "items": []
+          },
+          {
+            "content": "Ponovi malo hitreje. Če se zatakne šele pri višjem tempu, poišči del, ki med gibanjem za trenutek zaostane.",
+            "items": []
+          },
+          {
+            "content": "Mehanizem preveri še enkrat čez nekaj ur in naslednji dan. Nekatere težave se pokažejo šele s časom.",
+            "items": []
+          },
+          {
+            "content": "Če zaslišiš škripanje, dodaj majhno količino voska na mesto, od koder prihaja zvok.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Kako se zatikanju izogniti pri naslednjem modelu",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Trenje je najlažje reševati sproti, med gradnjo, in ne šele po njej. Pripomočke, kot sta brusni papir in pinceta, najdeš v <a href=\"/blog/10-orodij-ki-jih-potrebujete-pri-sestavljanju-lesene-3d-sestavljanke\">članku o orodjih za sestavljanje</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Po vsakem koraku, ki doda kolo ali os, mehanizem zavrti. Zatikanje tako odkriješ takoj in jasno bo, kateri del ga je povzročil.",
+            "items": []
+          },
+          {
+            "content": "Gibljiva mesta obdelaj z voskom že med sestavljanjem, ker so v končnem modelu skrita in težko dostopna.",
+            "items": []
+          },
+          {
+            "content": "Pred sestavljanjem podrsaj s prstom po robovih delov, ki se bodo vrteli ali drsali, in majhne neravnine rahlo zbrusi.",
+            "items": []
+          },
+          {
+            "content": "Če navodila kažejo mesta za voskanje, navoskaj samo ta in druga pusti neobdelana.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Če te po popravilu premami še kak mehanski model, poglej <a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/stenska-ura-zodiac-rokr-lc601-p52\">Lesena mehanska 3D sestavljanka - Stenska ura Zodiac ROKR LC601</a>. Po podatkih iz trgovine ima 168 delov, sestavljanje pa traja približno 4 ure."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/stenska-ura-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Lesena mehanska 3D sestavljanka - Stenska ura Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/stenska-ura-zodiac-rokr-lc601-p52\">Lesena mehanska 3D sestavljanka - Stenska ura Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Število delov: 168</li>\n      <li>Čas sestavljanja: 4 h</li>\n      <li>Zahtevnost: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/stenska-ura-zodiac-rokr-lc601-p52\">Poglej komplet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Pogosta vprašanja",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kaj storiti, če se mehanizem zatika tudi po voskanju?</h3>\n    <p style=\"margin:0;\">Vosek reši le trenje. Preveri, ali je kak del slabo vstavljen: os mora biti potisnjena do konca, kolo pravilno obrnjeno in zatič dotlačen.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zakaj se je model zataknil šele po nekaj dneh?</h3>\n    <p style=\"margin:0;\">Vzrok je lahko vlaga: les vpija vodo iz zraka in rahlo nabrekne. Model prestavi stran od vlažnih kotov in neposrednega sonca.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ali smem mehanizem zavrteti s silo, ko gre težko?</h3>\n    <p style=\"margin:0;\">Raje ne. Tanek zatič se pod pritiskom upogne ali zlomi. Najprej poišči mesto trenja in odpravi vzrok.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Lesena mehanska 3D sestavljanka - Stenska ura Zodiac ROKR LC601",
+      "path": "/lesena-3d-sestavljanka/ure-in-koledarji/stenska-ura-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-orodij-ki-jih-potrebujete-pri-sestavljanju-lesene-3d-sestavljanke",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

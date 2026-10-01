@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "sv",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mekanismen fastnar: hitta friktionen och åtgärda den",
+  "description": "När mekanismen i en trämodell fastnar beror det oftast på friktion mellan delarna och inte på en felaktig del. Vi visar hur du hittar stället utan att ta isär något och vad som lindrar friktionen.",
+  "seo_title": "Fastnande mekanism i trämodell: orsaker och lösning",
+  "seo_description": "Så hittar du var delarna skaver i en trämodell, minskar friktionen med saker hemifrån och känner igen en felsatt del. En guide för din första modell.",
+  "slug": "mekanismen-fastnar-hitta-friktionen-och-atgarda-den",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "När mekanismen i en trämodell fastnar är det oftast inte en felaktig del som är skulden, utan <strong>friktionen</strong>: två delar trycker mot varandra hårdare än de borde. Du behöver bara hitta stället och lindra friktionen, du behöver inte ta isär modellen. Vi visar dig hur."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Stället hittar du genom att vrida långsamt och noga se efter var motståndet ökar eller ett skrapljud hörs. Sedan lindrar vi friktionen med saker som oftast finns hemma, och berättar när orsaken är en felsatt del och hur du rättar till den. Till sist kontrollerar du att allt går mjukt."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Så hittar du stället där delarna skaver",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Friktion</em> är det motstånd som uppstår när två ytor trycker mot varandra under rörelsen. I en modell med kugghjul (ett kugghjul är en rund del med kuggar som griper in i nästa och för över rörelsen) kan den gömma sig på flera ställen samtidigt, så ta inte isär något innan du vet var du ska leta."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Vrid mekanismen <strong>långsamt</strong> och inte med kraft ända till stoppet. Lägg märke till om motståndet är lika hela varvet eller bara ökar i ett läge. Motstånd i ett läge pekar på en viss kugg eller del.",
+            "items": []
+          },
+          {
+            "content": "Vid varje hjul du kommer åt, försök vrida det för sig med ett finger. Ett hjul som går tyngre än de andra är misstänkt.",
+            "items": []
+          },
+          {
+            "content": "Lyssna. Skrap eller knarr och ställen där rörelsen tvärstannar ett ögonblick avslöjar var delarna trycker mot varandra.",
+            "items": []
+          },
+          {
+            "content": "Kontrollera om någon del sitter uppåt eller snett. En kant som skaver mot grannen syns ofta när du tittar från sidan.",
+            "items": []
+          },
+          {
+            "content": "Anteckna det misstänkta stället så att du efter ingreppet kan jämföra om motståndet har ändrats.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tips:</strong> Om anvisningen markerar ställen att vaxa, följ den i stället för att gissa. Vax på fel ställe eller för mycket vax kan göra att delarna passar sämre.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Vad du kan minska friktionen med",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Till de flesta problem räcker saker som oftast finns hemma. Börja med det mildaste och vrid mekanismen igen efter varje ingrepp, så att du ser om det hjälpte."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Hjälpmedel</th><th>Var det passar</th><th>Vad du ska se upp med</th></tr></thead><tbody><tr><td>Fint sandpapper</td><td>små ojämnheter på kanterna av en del som trycker mot en annan</td><td>slipa bara lätt; för mycket slipning lossar fogar som ska hålla</td></tr><tr><td>Bivax eller ett ljus</td><td>kuggarna på kugghjul och glidande delar</td><td>bara ett mycket tunt lager som du stryker på lätt</td></tr><tr><td>Mjuk trasa</td><td>torka bort överflödigt vax</td><td>torka efter varje påföring så att det inte blir en beläggning på delarna</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Undvik hellre: olja, feta sprejer och möbelpolish. De kan missfärga träet, samla damm och klistra ihop en trång mekanism."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Stryk på vax bara där delar rör sig mot varandra, eller på de ställen som anvisningen markerar. Om du vaxar allt på en gång blir det en beläggning och fogarnas precision kan försämras. Ibland försvinner friktionen på två försök: efter första vaxningen provar du mekanismen och lägger till vax bara där det fortfarande kärvar."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "När orsaken inte är friktion: en felsatt del",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>En felsatt del</em> är en del som finns i modellen men inte sitter riktigt där den ska: en axel är inte intryckt ända till stoppet, ett hjul är vänt åt motsatt håll mot vad anvisningen visar, eller en tapp är inte nedtryckt. Mekanismen fastnar då fastän ingen yta skaver i onödan, och vax hjälper inte i det fallet."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Hitta steget i anvisningen där delen lades till och jämför dess läge med bilden.",
+            "items": []
+          },
+          {
+            "content": "Kontrollera att axeln är intryckt ända till stoppet i båda hålen och inte sticker ut mer på ena sidan än på den andra.",
+            "items": []
+          },
+          {
+            "content": "Försäkra dig om att delen inte sitter åt fel håll eller är förväxlad med en liknande del.",
+            "items": []
+          },
+          {
+            "content": "Dra försiktigt ut delen och sätt in den igen. Om du måste pressa den på plats är något i vägen: kontrollera dess kant och släta till den lätt. Tunna tappar går sönder under tryck.",
+            "items": []
+          },
+          {
+            "content": "Om delen inte går att dra ut utan att gå sönder, använd inte våld. Försök röra den försiktigt från sida till sida och ta reda på vad som håller fast den.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "En annan möjlig orsak är fukt. Trä tar upp fukt ur luften och sväller något, så i ett fuktigt rum kan delarna trycka hårdare mot varandra. Om mekanismen fastnade först efter en tid, flytta modellen bort från fuktiga hörn och direkt solljus."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Så kontrollerar du att mekanismen går mjukt",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Ett bra test är ett som inte beror på känslan. Gå igenom de här punkterna innan du stänger modellen eller ställer den på hyllan."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Vrid mekanismen ett helt varv utan att stanna. Rörelsen ska vara jämn, utan något ställe där du måste trycka på.",
+            "items": []
+          },
+          {
+            "content": "Upprepa det lite snabbare. Om den fastnar först vid högre tempo, leta efter en del som släpar efter ett ögonblick under rörelsen.",
+            "items": []
+          },
+          {
+            "content": "Kontrollera mekanismen igen efter några timmar och dagen efter. Vissa problem visar sig först med tiden.",
+            "items": []
+          },
+          {
+            "content": "Om du hör ett knarr, lägg till en liten mängd vax på stället där ljudet kommer ifrån.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Så undviker du att det fastnar i nästa modell",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Friktion löser du lättast på vägen, medan du bygger, och inte först efteråt. Hjälpmedel som sandpapper och pincett hittar du i <a href=\"/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra\">artikeln om verktyg för ihopsättning</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Efter varje steg som lägger till ett hjul eller en axel, vrid mekanismen. Då märker du direkt att det fastnar och det blir tydligt vilken del som orsakade det.",
+            "items": []
+          },
+          {
+            "content": "Behandla de rörliga ställena med vax redan under ihopsättningen, eftersom de i den färdiga modellen är dolda och svåra att komma åt.",
+            "items": []
+          },
+          {
+            "content": "Dra före ihopsättningen ett finger över kanterna på de delar som ska rotera eller glida, och slipa små ojämnheter lätt.",
+            "items": []
+          },
+          {
+            "content": "Om anvisningen visar ställen att vaxa, vaxa bara dem och låt de övriga vara obehandlade.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Om en annan mekanisk modell lockar dig efter reparationen, ta en titt på <a href=\"/3d-pussel-i-tra/klockor-kalendrar/vaggklocka-zodiac-rokr-lc601-p52\">Mekaniskt 3D-pussel i trä - Väggklocka Zodiac ROKR LC601</a>. Enligt uppgifterna i butiken har den 168 delar och ihopsättningen tar cirka 4 timmar."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/3d-pussel-i-tra/klockor-kalendrar/vaggklocka-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Mekaniskt 3D-pussel i trä - Väggklocka Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/3d-pussel-i-tra/klockor-kalendrar/vaggklocka-zodiac-rokr-lc601-p52\">Mekaniskt 3D-pussel i trä - Väggklocka Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Antal delar: 168</li>\n      <li>Byggtid: 4 tim</li>\n      <li>Svårighetsgrad: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/3d-pussel-i-tra/klockor-kalendrar/vaggklocka-zodiac-rokr-lc601-p52\">Visa byggsatsen</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Vanliga frågor",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vad gör jag om mekanismen fastnar även efter vaxning?</h3>\n    <p style=\"margin:0;\">Vax löser bara friktion. Kontrollera om någon del sitter fel: axeln ska vara intryckt ända till stoppet, hjulet rätt vänt och tappen nedtryckt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Varför fastnade modellen först efter några dagar?</h3>\n    <p style=\"margin:0;\">Orsaken kan vara fukt: trä tar upp vatten ur luften och sväller något. Flytta modellen bort från fuktiga hörn och direkt solljus.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Får jag vrida mekanismen med kraft när den går trögt?</h3>\n    <p style=\"margin:0;\">Helst inte. En tunn tapp böjs eller går av under tryck. Hitta först stället som skaver och åtgärda orsaken.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Mekaniskt 3D-pussel i trä - Väggklocka Zodiac ROKR LC601",
+      "path": "/3d-pussel-i-tra/klockor-kalendrar/vaggklocka-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogg/10-verktyg-du-behover-nar-du-satter-ihop-ett-3d-pussel-i-tra",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

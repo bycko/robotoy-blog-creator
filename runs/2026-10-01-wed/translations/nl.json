@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "nl",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mechanisme loopt vast: de wrijving vinden en verhelpen",
+  "description": "Als het mechanisme in een houten model vastloopt, is meestal de wrijving tussen de onderdelen de oorzaak en niet een defect onderdeel. We laten zien hoe je de plek vindt zonder iets uit elkaar te halen en wat helpt.",
+  "seo_title": "Vastlopend mechanisme in houten model: oorzaak en oplossing",
+  "seo_description": "Zo vind je waar onderdelen wrijven, verminder je wrijving met spullen uit huis en herken je een verkeerd geplaatst onderdeel. Voor je eerste model.",
+  "slug": "mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Als het mechanisme in een houten model vastloopt, is meestal geen onderdeel defect, maar is er <strong>wrijving</strong>: twee onderdelen drukken harder tegen elkaar dan zou moeten. Je hoeft alleen die plek te vinden en de wrijving te verminderen, het model uit elkaar halen hoeft niet. We laten je zien hoe."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "De plek van de wrijving vind je door langzaam te draaien en goed te letten op waar de weerstand toeneemt of een schurend geluid klinkt. Daarna verminderen we de wrijving met spullen die je meestal in huis hebt, en we vertellen je wanneer een verkeerd geplaatst onderdeel de oorzaak is en hoe je dat herstelt. Tot slot controleer je of alles soepel loopt."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Zo vind je de plek waar onderdelen wrijven",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Wrijving</em> is de weerstand die ontstaat wanneer twee oppervlakken tijdens de beweging tegen elkaar drukken. In een model met tandwielen (een tandwiel is een rond onderdeel met tanden dat in het volgende grijpt en de beweging doorgeeft) kan ze op meerdere plekken tegelijk zitten, dus haal niets uit elkaar voordat je weet waar je moet zoeken."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Draai het mechanisme <strong>langzaam</strong> en niet met kracht tot de aanslag. Let erop of de weerstand de hele omwenteling gelijk is of alleen in één stand toeneemt. Weerstand in één stand wijst op een bepaalde tand of een bepaald onderdeel.",
+            "items": []
+          },
+          {
+            "content": "Probeer bij elk wiel dat je kunt bereiken, het los met een vinger te draaien. Een wiel dat zwaarder draait dan de andere is verdacht.",
+            "items": []
+          },
+          {
+            "content": "Luister. Schuren of kraken en plekken waar de beweging even stokt, verraden waar de onderdelen tegen elkaar drukken.",
+            "items": []
+          },
+          {
+            "content": "Controleer of een onderdeel omhoog staat of scheef zit. Een rand die langs het naburige onderdeel schuurt, zie je vaak als je van opzij kijkt.",
+            "items": []
+          },
+          {
+            "content": "Noteer de verdachte plek, zodat je na je ingreep kunt vergelijken of de weerstand veranderd is.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Geven de instructies plekken aan die je in de was moet zetten, volg die dan in plaats van te gokken. Als je op de verkeerde plek of te veel in de was zet, kunnen de onderdelen slechter in elkaar passen.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Waarmee je de wrijving vermindert",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Voor de meeste problemen volstaan spullen die je meestal in huis hebt. Begin met het mildste en draai het mechanisme na elk ingreep opnieuw, om te zien of het geholpen heeft."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Hulpmiddel</th><th>Waar het past</th><th>Waar je op moet letten</th></tr></thead><tbody><tr><td>Fijn schuurpapier</td><td>kleine oneffenheden op de randen van een onderdeel dat tegen een ander drukt</td><td>schuur slechts licht; te veel schuren maakt verbindingen los die moeten blijven zitten</td></tr><tr><td>Bijenwas of een kaars</td><td>tanden van tandwielen en schuivende delen</td><td>alleen een heel dun laagje, dat je licht aanbrengt</td></tr><tr><td>Zachte doek</td><td>overtollige bijenwas wegvegen</td><td>veeg na elke keer aanbrengen af, zodat er geen laagje op de onderdelen achterblijft</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Vermijd liever: olie, vette sprays en meubelboenwas. Ze kunnen het hout verkleuren, stof vasthouden en een nauw mechanisme laten vastkleven."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Breng bijenwas alleen aan waar onderdelen langs elkaar bewegen of op de plekken die de instructies aangeven. Alles in één keer in de was zetten laat een laagje achter en kan de precisie van de verbindingen verminderen. Soms is de wrijving na twee pogingen weg: probeer het mechanisme na de eerste keer in de was zetten en voeg alleen bijenwas toe waar het nog hapert."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Als wrijving niet de oorzaak is: een verkeerd geplaatst onderdeel",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Een verkeerd geplaatst onderdeel</em> is een onderdeel dat wel in het model zit, maar niet helemaal zit waar het hoort: een as is niet tot de aanslag ingeschoven, een wiel zit andersom dan de instructies tonen, of een pen is niet helemaal ingedrukt. Het mechanisme loopt dan vast, hoewel geen enkel oppervlak onnodig wrijft, en bijenwas helpt dan niet."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Zoek in de instructies de stap waarin het onderdeel is toegevoegd en vergelijk de positie met de afbeelding.",
+            "items": []
+          },
+          {
+            "content": "Controleer of de as in beide gaten tot de aanslag is ingeschoven en niet aan de ene kant verder uitsteekt dan aan de andere.",
+            "items": []
+          },
+          {
+            "content": "Controleer of het onderdeel niet andersom zit of verwisseld is met een soortgelijk onderdeel.",
+            "items": []
+          },
+          {
+            "content": "Trek het onderdeel voorzichtig eruit en plaats het opnieuw. Als je het moet indrukken, zit er iets in de weg: controleer de rand en strijk die licht glad. Dunne pennen breken onder druk.",
+            "items": []
+          },
+          {
+            "content": "Als het onderdeel er niet uit te halen is zonder te breken, gebruik dan geen kracht. Probeer het voorzichtig heen en weer te bewegen en ontdek wat het vasthoudt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Een andere mogelijke oorzaak is vocht. Hout neemt vocht op uit de lucht en zet licht uit, waardoor onderdelen in een vochtige ruimte harder tegen elkaar kunnen drukken. Als het mechanisme pas na een tijd is vastgelopen, zet het model dan weg van vochtige hoeken en direct zonlicht."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Zo controleer je of het mechanisme soepel loopt",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Een goede test is een test die niet van gevoel afhangt. Loop deze punten door voordat je het model afsluit of op de plank zet."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Draai het mechanisme een hele cyclus rond zonder te stoppen. De beweging moet gelijkmatig zijn, zonder plek waar je moet duwen.",
+            "items": []
+          },
+          {
+            "content": "Herhaal het iets sneller. Loopt het pas bij een hoger tempo vast, zoek dan een onderdeel dat tijdens de beweging even achterblijft.",
+            "items": []
+          },
+          {
+            "content": "Controleer het mechanisme nog een keer na een paar uur en de volgende dag. Sommige problemen komen pas na verloop van tijd naar boven.",
+            "items": []
+          },
+          {
+            "content": "Hoor je gekraak, voeg dan een kleine hoeveelheid bijenwas toe op de plek waar het geluid vandaan komt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Zo voorkom je vastlopen bij je volgende model",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Wrijving los je het gemakkelijkst gaandeweg op, tijdens het bouwen en niet pas erna. Hulpmiddelen zoals schuurpapier en een pincet vind je in <a href=\"/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel\">het artikel over gereedschap voor het bouwen</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Draai het mechanisme na elke stap die een wiel of as toevoegt. Zo merk je het vastlopen meteen en is duidelijk welk onderdeel het veroorzaakte.",
+            "items": []
+          },
+          {
+            "content": "Behandel de bewegende plekken al tijdens het bouwen met bijenwas, want in het afgebouwde model zijn ze verborgen en moeilijk bereikbaar.",
+            "items": []
+          },
+          {
+            "content": "Haal voor het bouwen een vinger langs de randen van de onderdelen die gaan draaien of schuiven en schuur kleine oneffenheden licht weg.",
+            "items": []
+          },
+          {
+            "content": "Laten de instructies plekken zien die in de was moeten, zet dan alleen die in de was en laat de rest onbehandeld.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Als een ander mechanisch model je na de reparatie aanspreekt, kijk dan naar <a href=\"/houten-3d-puzzel/klokken-kalenders/wandklok-zodiac-rokr-lc601-p52\">Houten mechanische 3D-puzzel - Wandklok Zodiac ROKR LC601</a>. Volgens de gegevens van de winkel heeft het 168 onderdelen en duurt het bouwen ongeveer 4 uur."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/houten-3d-puzzel/klokken-kalenders/wandklok-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Houten mechanische 3D-puzzel - Wandklok Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/houten-3d-puzzel/klokken-kalenders/wandklok-zodiac-rokr-lc601-p52\">Houten mechanische 3D-puzzel - Wandklok Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Aantal onderdelen: 168</li>\n      <li>Bouwtijd: 4 u</li>\n      <li>Moeilijkheid: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/houten-3d-puzzel/klokken-kalenders/wandklok-zodiac-rokr-lc601-p52\">Bekijk de bouwset</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Veelgestelde vragen",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wat doe ik als het mechanisme ook na het in de was zetten vastloopt?</h3>\n    <p style=\"margin:0;\">Het in de was zetten lost alleen wrijving op. Controleer of een onderdeel verkeerd zit: de as moet tot de aanslag zijn ingeschoven, het wiel goed zijn gedraaid en de pen helemaal zijn ingedrukt.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Waarom liep het model pas na enkele dagen vast?</h3>\n    <p style=\"margin:0;\">Vocht kan de oorzaak zijn: hout neemt water op uit de lucht en zet licht uit. Zet het model weg van vochtige hoeken en direct zonlicht.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mag ik het mechanisme met kracht doordraaien als het zwaar loopt?</h3>\n    <p style=\"margin:0;\">Liever niet. Een dunne pen buigt of breekt onder druk. Zoek eerst de plek waar het wrijft en neem de oorzaak weg.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Houten mechanische 3D-puzzel - Wandklok Zodiac ROKR LC601",
+      "path": "/houten-3d-puzzel/klokken-kalenders/wandklok-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-gereedschappen-die-je-nodig-hebt-bij-het-samenstellen-van-een-houten-3d-puzzel",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

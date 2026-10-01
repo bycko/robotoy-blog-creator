@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "bg",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Механизмът заяжда: как да откриеш триенето и да го махнеш",
+  "description": "Когато механизмът в дървен модел заяжда, най-често причината е триене между частите, а не дефектна част. Показваме как да откриеш мястото, без да разглобяваш, и с какво да го смекчиш.",
+  "seo_title": "Заяждане на механизма в дървен модел: причини и решение",
+  "seo_description": "Как да откриеш къде се търкат частите в дървен модел, да намалиш триенето с вещи от дома и да познаеш зле поставена част. Ръководство за първия модел.",
+  "slug": "mekhanyzmt-zaiazhda-kak-da-otkryesh-tryeneto-y-da-go-makhnesh",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Когато механизмът в дървен модел заяжда, обикновено не е виновна дефектна част, а <strong>триенето</strong>: две части се притискат една в друга повече, отколкото трябва. Достатъчно е да откриеш това място и да смекчиш триенето, не е нужно да разглобяваш модела. Ще ти покажем как."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Мястото на триенето ще откриеш, като въртиш бавно и следиш внимателно къде съпротивлението расте или се чува стържене. После ще го смекчим с неща, които обикновено има в къщи, и ще ти кажем кога причината е зле поставена част и как да я поправиш. Накрая ще провериш дали всичко върви плавно."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Как да откриеш мястото, където частите се търкат",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Триенето</em> е съпротивлението, което се появява, когато две повърхности се притискат една в друга при движение. В модел със зъбни колела (зъбното колело е кръгла част със зъби, която зацепва в следващата и предава движението) то може да се крие на няколко места едновременно, затова не разглобявай нищо, докато не знаеш къде да търсиш."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Върти механизма <strong>бавно</strong>, а не със сила до упор. Обръщай внимание дали съпротивлението е еднакво през целия оборот, или се увеличава само в едно положение. Съпротивление в едно положение сочи към конкретен зъб или конкретна част.",
+            "items": []
+          },
+          {
+            "content": "При всяко колело, до което можеш да стигнеш, опитай с пръст да го завъртиш поотделно. Колело, което се върти по-трудно от останалите, е заподозряно.",
+            "items": []
+          },
+          {
+            "content": "Слушай. Стърженето или скърцането и местата, където движението за момент спира, показват къде частите се притискат една в друга.",
+            "items": []
+          },
+          {
+            "content": "Провери дали някоя част не е повдигната или поставена накриво. Ръб, който се търка в съседната част, често се вижда, когато погледнеш отстрани.",
+            "items": []
+          },
+          {
+            "content": "Отбележи си подозрителното място, за да можеш след намесата да сравниш дали съпротивлението се е променило.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Съвет:</strong> Ако инструкцията отбелязва места за намазване с восък, следвай нея, а не догадките си. Восък на грешното място или в излишък може да направи така, че частите да влизат по-зле.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "С какво да намалиш триенето",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "За повечето проблеми стигат неща, които обикновено има в къщи. Започни с най-нежното и след всяка намеса завърти механизма отново, за да видиш дали е помогнало."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Помощно средство</th><th>Къде е подходящо</th><th>На какво да внимаваш</th></tr></thead><tbody><tr><td>Фина шкурка</td><td>дребни неравности по ръбовете на част, която се притиска в друга</td><td>шлифовай само леко; прекалено шлифоване разхлабва връзките, които трябва да държат</td></tr><tr><td>Пчелен восък или свещ</td><td>зъбите на зъбните колела и подвижните части</td><td>само много тънък слой, нанесен леко</td></tr><tr><td>Мека кърпа</td><td>избърсване на излишния восък</td><td>бърши след всяко нанасяне, за да не остане налеп по частите</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Най-добре избягвай: масло, мазни спрейове и полир за мебели. Могат да оцветят дървото, да задържат прах и да залепят тесния механизъм."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Нанасяй восък само там, където частите се движат една спрямо друга, или на местата, които отбелязва инструкцията. Ако намажеш всичко наведнъж, ще остане налеп и точността на връзките може да се влоши. Понякога триенето се премахва с два опита: след първото намазване изпробвай механизма и добавяй восък само там, където още се дърпа."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Когато причината не е триенето: зле поставена част",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Зле поставена част</em> е част, която е в модела, но не седи съвсем там, където ѝ е мястото: оста не е вкарана докрай, колелото е обърнато обратно на показаното в инструкцията или щифтът не е дотиснат. Тогава механизмът заяжда, макар никоя повърхност да не се търка излишно, а восъкът в такъв случай не помага."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Намери в инструкцията стъпката, в която е добавена частта, и сравни положението ѝ с картинката.",
+            "items": []
+          },
+          {
+            "content": "Провери дали оста е вкарана в двата отвора докрай и дали не стърчи повече от едната страна, отколкото от другата.",
+            "items": []
+          },
+          {
+            "content": "Увери се, че частта не е обърната наобратно и не е сбъркана с подобна част.",
+            "items": []
+          },
+          {
+            "content": "Внимателно извади частта и я постави отново. Ако трябва да я натискаш, нещо ѝ пречи: провери ръба ѝ и го изглади леко. Тънките щифтове се чупят под натиск.",
+            "items": []
+          },
+          {
+            "content": "Ако частта не може да се извади, без да се счупи, не използвай сила. Опитай се леко да я движиш от една страна на друга и разбери какво я държи.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Друга възможна причина е влагата. Дървото попива влага от въздуха и леко набъбва, така че във влажна стая частите могат да се притискат повече една в друга. Ако механизмът е заял чак след време, премести модела далеч от влажни ъгли и от пряка слънчева светлина."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Как да провериш, че механизмът върви плавно",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Добрият тест не зависи от усещането. Мини през тези точки, преди да затвориш модела или да го сложиш на рафта."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Завърти механизма през цял цикъл без да спираш. Движението трябва да е равномерно, без място, където трябва да натиснеш.",
+            "items": []
+          },
+          {
+            "content": "Повтори малко по-бързо. Ако заседне едва при по-висок темп, търси част, която за момент изостава при движението.",
+            "items": []
+          },
+          {
+            "content": "Провери механизма още веднъж след няколко часа и на следващия ден. Някои проблеми се показват чак с времето.",
+            "items": []
+          },
+          {
+            "content": "Ако се чуе скърцане, добави малко восък на мястото, откъдето идва звукът.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Как да избегнеш заяждането при следващия модел",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Триенето се решава най-лесно по време на самата сглобка, а не след нея. Помощни средства като шкурка и пинсета ще намериш в <a href=\"/blog/10-ynstrumenta-ot-koyto-se-nuzhdaete-kogato-sglobiavate-drven-3d-pzel\">статията за инструментите при сглобяване</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "След всяка стъпка, която добавя колело или ос, завърти механизма. Така ще забележиш заяждането веднага и ще е ясно коя част го е причинила.",
+            "items": []
+          },
+          {
+            "content": "Обработи подвижните места с восък още по време на сглобяването, защото в готовия модел са скрити и трудно достъпни.",
+            "items": []
+          },
+          {
+            "content": "Преди сглобяване прокарай пръст по ръбовете на частите, които ще се въртят или плъзгат, и леко изшлифовай дребните неравности.",
+            "items": []
+          },
+          {
+            "content": "Ако инструкцията показва места за намазване с восък, намазвай само тях, а останалите остави необработени.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ако след поправката те привлече още един механичен модел, виж <a href=\"/drven-3d-pzel/chasovnytsy-y-kalendary/stenen-chasovnyk-zodyak-rokr-lc601-p52\">Дървен механичен 3D пъзел - Стенен часовник Зодиак ROKR LC601</a>. Според данните в магазина той има 168 части, а сглобяването отнема около 4 часа."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drven-3d-pzel/chasovnytsy-y-kalendary/stenen-chasovnyk-zodyak-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Дървен механичен 3D пъзел - Стенен часовник Зодиак ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drven-3d-pzel/chasovnytsy-y-kalendary/stenen-chasovnyk-zodyak-rokr-lc601-p52\">Дървен механичен 3D пъзел - Стенен часовник Зодиак ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Брой части: 168</li>\n      <li>Време за сглобяване: 4 ч</li>\n      <li>Трудност: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drven-3d-pzel/chasovnytsy-y-kalendary/stenen-chasovnyk-zodyak-rokr-lc601-p52\">Виж комплекта</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Често задавани въпроси",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Какво да направя, ако механизмът заяжда и след намазване с восък?</h3>\n    <p style=\"margin:0;\">Восъкът решава само триенето. Провери дали някоя част не е зле поставена: оста трябва да е вкарана докрай, колелото правилно обърнато, а щифтът дотиснат.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Защо моделът заседна чак след няколко дни?</h3>\n    <p style=\"margin:0;\">Причина може да е влагата: дървото поема вода от въздуха и леко набъбва. Премести модела далеч от влажни ъгли и от пряка слънчева светлина.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Мога ли да завъртя механизма със сила, когато върви трудно?</h3>\n    <p style=\"margin:0;\">По-добре не. Тънкият щифт се огъва или чупи под натиск. Първо намери мястото на триене и премахни причината.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Дървен механичен 3D пъзел - Стенен часовник Зодиак ROKR LC601",
+      "path": "/drven-3d-pzel/chasovnytsy-y-kalendary/stenen-chasovnyk-zodyak-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-ynstrumenta-ot-koyto-se-nuzhdaete-kogato-sglobiavate-drven-3d-pzel",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

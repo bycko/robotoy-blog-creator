@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "da",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mekanismen sidder fast: find gnidningen og fjern den",
+  "description": "Når en mekanisme i en træmodel sidder fast, skyldes det oftest gnidning mellem delene og ikke en defekt del. Vi viser, hvordan du finder stedet uden at skille noget ad, og hvad der dæmper gnidningen.",
+  "seo_title": "Mekanisme der sidder fast i træmodel: årsager og løsning",
+  "seo_description": "Sådan finder du stedet, hvor delene gnider i en træmodel, dæmper gnidningen med ting fra hjemmet og ser, om en del sidder forkert. Til din første model.",
+  "slug": "mekanismen-sidder-fast-find-gnidningen-og-fjern-den",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Når mekanismen i en træmodel sidder fast, er det som regel ikke en defekt del, men <strong>gnidning</strong>: to dele trykker mod hinanden hårdere, end de skal. Du skal bare finde stedet og dæmpe gnidningen, du behøver ikke skille modellen ad. Vi viser dig, hvordan."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Stedet finder du ved at dreje langsomt og holde godt øje med, hvor modstanden vokser, eller hvor der kommer en skurrende lyd. Derefter dæmper vi gnidningen med ting, der som regel findes derhjemme, og fortæller dig, hvornår en forkert siddende del er årsagen, og hvordan du retter den. Til sidst tjekker du, at det hele kører jævnt."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Sådan finder du stedet, hvor delene gnider",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Gnidning</em> er den modstand, der opstår, når to flader trykker mod hinanden under bevægelse. I en model med tandhjul (et tandhjul er en rund del med tænder, der griber ind i det næste og overfører bevægelsen) kan den gemme sig flere steder på én gang, så skil ikke noget ad, før du ved, hvor du skal lede."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Drej mekanismen <strong>langsomt</strong> og ikke med kraft helt til anslag. Læg mærke til, om modstanden er den samme hele omdrejningen, eller om den kun stiger i én stilling. Modstand i én stilling peger på en bestemt tand eller del.",
+            "items": []
+          },
+          {
+            "content": "Prøv ved hvert hjul, du kan nå, at dreje det for sig med en finger. Et hjul, der går tungere end de andre, er mistænkeligt.",
+            "items": []
+          },
+          {
+            "content": "Lyt. Skurren eller knirken og steder, hvor bevægelsen et øjeblik stopper, afslører, hvor delene trykker mod hinanden.",
+            "items": []
+          },
+          {
+            "content": "Tjek, om en del er løftet eller sidder skævt. En kant, der gnider mod nabodelen, kan du ofte se, når du kigger fra siden.",
+            "items": []
+          },
+          {
+            "content": "Marker det mistænkelige sted, så du efter indgrebet kan sammenligne, om modstanden har ændret sig.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Hvis vejledningen markerer steder, der skal vokses, så følg den og lad være med at gætte. Voks på det forkerte sted eller for meget voks kan gøre, at delene passer dårligere sammen.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Hvad der kan dæmpe gnidningen",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Til de fleste problemer er der nok med ting, der som regel findes derhjemme. Start med det mildeste, og drej mekanismen igen efter hvert indgreb, så du kan se, om det hjalp."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Hjælpemiddel</th><th>Hvor det passer</th><th>Hvad du skal passe på</th></tr></thead><tbody><tr><td>Fint sandpapir</td><td>små ujævnheder på kanterne af en del, der trykker mod en anden</td><td>slib kun let; for meget slibning løsner samlinger, der skal holde</td></tr><tr><td>Bivoks eller et lys</td><td>tandhjulenes tænder og glidende dele</td><td>kun et meget tyndt lag, som du påfører let</td></tr><tr><td>Blød klud</td><td>aftørring af overskydende voks</td><td>tør af efter hver påføring, så der ikke bliver en belægning på delene</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Undgå hellere: olie, fedtede sprays og møbelpolish. De kan misfarve træet, samle støv og gøre en tæt mekanisme klistret."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Påfør kun voks, hvor delene bevæger sig mod hinanden, eller på de steder, som vejledningen markerer. Hvis du vokser alt på én gang, bliver der en belægning, og samlingerne kan blive mindre præcise. Nogle gange forsvinder gnidningen på to forsøg: prøv mekanismen efter første vokning, og tilføj kun voks, hvor det stadig hakker."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Når gnidning ikke er årsagen: en forkert siddende del",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>En forkert siddende del</em> er en del, der er i modellen, men ikke sidder helt, hvor den hører til: en aksel er ikke skubbet helt ind, et hjul vender modsat af, hvad vejledningen viser, eller en tap er ikke trykket helt på plads. Mekanismen sidder så fast, selv om ingen flade gnider unødigt, og voks hjælper ikke i det tilfælde."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Find trinnet i vejledningen, hvor delen kom til, og sammenlign dens placering med billedet.",
+            "items": []
+          },
+          {
+            "content": "Tjek, at akslen er skubbet helt ind i begge huller og ikke stikker mere ud på den ene side end på den anden.",
+            "items": []
+          },
+          {
+            "content": "Kontrollér, at delen ikke vender forkert eller er byttet med en lignende del.",
+            "items": []
+          },
+          {
+            "content": "Træk delen forsigtigt ud, og sæt den i igen. Hvis du skal presse den på plads, er der noget i vejen: tjek dens kant, og glat den let. Tynde tappe knækker under tryk.",
+            "items": []
+          },
+          {
+            "content": "Hvis delen ikke kan trækkes ud uden at gå i stykker, så brug ikke kraft. Prøv at bevæge den forsigtigt fra side til side, og find ud af, hvad der holder den fast.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "En anden mulig årsag er fugt. Træ optager fugt fra luften og svulmer let op, så delene i et fugtigt rum kan trykke mere mod hinanden. Hvis mekanismen først sad fast efter nogen tid, så flyt modellen væk fra fugtige kroge og direkte sol."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Sådan tjekker du, at mekanismen kører jævnt",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "En god test er en, der ikke afhænger af fornemmelsen. Gå disse punkter igennem, før du lukker modellen eller stiller den på hylden."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Drej mekanismen en hel cyklus uden at stoppe. Bevægelsen skal være jævn, uden et sted, hvor du skal trykke.",
+            "items": []
+          },
+          {
+            "content": "Gentag det lidt hurtigere. Hvis den først sætter sig fast ved højere tempo, så led efter en del, der et øjeblik kommer bagud under bevægelsen.",
+            "items": []
+          },
+          {
+            "content": "Tjek mekanismen igen efter nogle timer og dagen efter. Nogle problemer viser sig først med tiden.",
+            "items": []
+          },
+          {
+            "content": "Hvis du hører en knirken, så tilføj en lille smule voks det sted, lyden kommer fra.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Sådan undgår du, at det sidder fast, i din næste model",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Gnidning løser du lettest undervejs, mens du bygger, og ikke først bagefter. Hjælpemidler som sandpapir og pincet finder du i <a href=\"/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae\">artiklen om værktøj til samling</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Drej mekanismen efter hvert trin, der tilføjer et hjul eller en aksel. Så opdager du, at noget sidder fast, med det samme, og det er klart, hvilken del der forårsagede det.",
+            "items": []
+          },
+          {
+            "content": "Behandl de bevægelige steder med voks allerede under samlingen, fordi de er skjulte og svære at nå i den færdige model.",
+            "items": []
+          },
+          {
+            "content": "Før samlingen kan du køre en finger langs kanterne af de dele, der skal dreje eller glide, og slibe små ujævnheder let.",
+            "items": []
+          },
+          {
+            "content": "Hvis vejledningen viser steder, der skal vokses, så voks kun dem og lad de andre være ubehandlede.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Hvis en anden mekanisk model frister dig efter reparationen, så se <a href=\"/trae-3d-puslespil/ure-kalendere/vaegur-zodiac-rokr-lc601-p52\">Træ mekanisk 3D puslespil - Vægur Zodiac ROKR LC601</a>. Ifølge butikkens oplysninger har den 168 dele, og samlingen tager ca. 4 timer."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/trae-3d-puslespil/ure-kalendere/vaegur-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Træ mekanisk 3D puslespil - Vægur Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/trae-3d-puslespil/ure-kalendere/vaegur-zodiac-rokr-lc601-p52\">Træ mekanisk 3D puslespil - Vægur Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Antal dele: 168</li>\n      <li>Samletid: 4 t</li>\n      <li>Sværhedsgrad: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/trae-3d-puslespil/ure-kalendere/vaegur-zodiac-rokr-lc601-p52\">Se byggesættet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Ofte stillede spørgsmål",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvad gør jeg, hvis mekanismen stadig sidder fast efter vokning?</h3>\n    <p style=\"margin:0;\">Voks løser kun gnidning. Tjek, om en del sidder forkert: akslen skal være skubbet helt ind, hjulet vende rigtigt og tappen være trykket på plads.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvorfor sad modellen først fast efter nogle dage?</h3>\n    <p style=\"margin:0;\">Årsagen kan være fugt: træ optager vand fra luften og svulmer let op. Flyt modellen væk fra fugtige kroge og direkte sol.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Må jeg tvinge mekanismen rundt, når den går tungt?</h3>\n    <p style=\"margin:0;\">Helst ikke. En tynd tap bøjer eller knækker under tryk. Find først stedet, der gnider, og fjern årsagen.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Træ mekanisk 3D puslespil - Vægur Zodiac ROKR LC601",
+      "path": "/trae-3d-puslespil/ure-kalendere/vaegur-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-vaerktojer-du-skal-bruge-nar-du-samler-et-3d-puslespil-af-trae",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

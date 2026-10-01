@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "fr",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mécanisme bloqué : trouver le frottement et le supprimer",
+  "description": "Quand un mécanisme se bloque dans une maquette en bois, la cause est le plus souvent un frottement entre les pièces, pas une pièce défectueuse. Voici comment repérer l’endroit sans rien démonter et quoi faire.",
+  "seo_title": "Mécanisme bloqué dans une maquette en bois : que faire",
+  "seo_description": "Où les pièces frottent dans une maquette en bois, comment réduire le frottement avec des produits courants et repérer une pièce mal placée. Pour débuter.",
+  "slug": "mecanisme-bloque-trouver-le-frottement-et-le-supprimer",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Quand le mécanisme d’une maquette en bois se bloque, la cause n’est généralement pas une pièce défectueuse, mais le <strong>frottement</strong> : deux pièces se pressent l’une contre l’autre plus qu’elles ne devraient. Il suffit de trouver l’endroit et d’atténuer le frottement, sans démonter la maquette. On te montre comment faire."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Tu trouveras l’endroit en tournant lentement et en observant bien où la résistance augmente ou où un grincement se fait entendre. Ensuite, on l’atténue avec des choses qu’on a souvent à la maison, et on te dit quand la cause est une pièce mal placée et comment la corriger. À la fin, tu vérifies que tout tourne sans à-coups."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Comment trouver l’endroit où les pièces frottent",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "Le <em>frottement</em> est la résistance qui apparaît quand deux surfaces se pressent l’une contre l’autre pendant le mouvement. Dans un modèle à engrenages (un engrenage est une pièce ronde à dents qui s’engage dans la suivante et transmet le mouvement), il peut se cacher à plusieurs endroits à la fois : ne démonte donc rien tant que tu ne sais pas où chercher."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Tourne le mécanisme <strong>lentement</strong>, sans forcer jusqu’en butée. Observe si la résistance est la même sur tout le tour ou si elle augmente dans une seule position. Une résistance dans une seule position désigne une dent ou une pièce précise.",
+            "items": []
+          },
+          {
+            "content": "Pour chaque roue que tu peux atteindre, essaie de la faire tourner seule du doigt. Une roue qui tourne plus difficilement que les autres est suspecte.",
+            "items": []
+          },
+          {
+            "content": "Écoute. Un frottement ou un grincement, et les endroits où le mouvement s’arrête un instant, révèlent où les pièces se pressent l’une contre l’autre.",
+            "items": []
+          },
+          {
+            "content": "Vérifie si une pièce n’est pas soulevée ou posée de travers. Un bord qui frotte contre la pièce voisine se voit souvent quand on regarde de côté.",
+            "items": []
+          },
+          {
+            "content": "Note l’endroit suspect pour pouvoir comparer, après ton intervention, si la résistance a changé.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Astuce :</strong> Si la notice indique des endroits à cirer, suis-la plutôt que ton estimation. De la cire au mauvais endroit ou en excès peut faire que les pièces s’ajustent moins bien.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Avec quoi réduire le frottement",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Pour la plupart des problèmes, des choses qu’on a souvent à la maison suffisent. Commence par le plus doux et, après chaque intervention, refais tourner le mécanisme pour voir si cela a aidé."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Accessoire</th><th>Où il convient</th><th>À quoi faire attention</th></tr></thead><tbody><tr><td>Papier de verre fin</td><td>petites irrégularités sur les bords d’une pièce qui appuie contre une autre</td><td>ponce seulement légèrement ; trop poncer desserre les assemblages qui doivent tenir</td></tr><tr><td>Cire d’abeille ou bougie</td><td>dents des engrenages et pièces coulissantes</td><td>une couche très fine, appliquée légèrement</td></tr><tr><td>Chiffon doux</td><td>essuyer l’excès de cire</td><td>essuie après chaque application pour qu’aucun dépôt ne reste sur les pièces</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "À éviter plutôt : l’huile, les sprays gras et l’encaustique pour meubles. Ils peuvent tacher le bois, retenir la poussière et encrasser un mécanisme serré."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "N’applique la cire que là où les pièces bougent l’une contre l’autre, ou aux endroits que la notice indique. Cirer tout d’un coup laisse un dépôt et peut réduire la précision des assemblages. Le frottement disparaît parfois en deux essais : après un premier cirage, teste le mécanisme et ajoute de la cire seulement là où ça accroche encore."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Quand la cause n’est pas le frottement : une pièce mal placée",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Une <em>pièce mal placée</em> est une pièce présente dans le modèle mais qui n’est pas tout à fait à sa place : un axe n’est pas enfoncé jusqu’en butée, une roue est tournée à l’envers par rapport à la notice, ou un ergot n’est pas enfoncé à fond. Le mécanisme se bloque alors qu’aucune surface ne frotte inutilement, et la cire n’y change rien."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Trouve dans la notice l’étape où la pièce a été ajoutée et compare sa position avec l’image.",
+            "items": []
+          },
+          {
+            "content": "Vérifie que l’axe est enfoncé à fond dans les deux trous et qu’il ne dépasse pas plus d’un côté que de l’autre.",
+            "items": []
+          },
+          {
+            "content": "Assure-toi que la pièce n’est pas tournée à l’envers ni confondue avec une pièce semblable.",
+            "items": []
+          },
+          {
+            "content": "Retire la pièce avec précaution et remets-la. Si tu dois l’enfoncer de force, quelque chose la gêne : examine son bord et lisse-le légèrement. Les ergots fins cassent sous la pression.",
+            "items": []
+          },
+          {
+            "content": "Si la pièce ne se retire pas sans casser, n’utilise pas la force. Essaie de la bouger doucement de côté et d’autre et cherche ce qui la retient.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "L’humidité est une autre cause possible. Le bois absorbe l’humidité de l’air et gonfle légèrement, si bien que dans une pièce humide les pièces peuvent se presser davantage l’une contre l’autre. Si le mécanisme ne s’est bloqué qu’au bout d’un moment, éloigne la maquette des coins humides et du soleil direct."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Comment vérifier que le mécanisme tourne sans à-coups",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Un bon test est un test qui ne dépend pas du ressenti. Passe en revue ces points avant de refermer la maquette ou de la poser sur l’étagère."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Fais faire au mécanisme un cycle complet sans t’arrêter. Le mouvement doit être régulier, sans endroit où il faut appuyer.",
+            "items": []
+          },
+          {
+            "content": "Recommence un peu plus vite. S’il se bloque seulement à un rythme plus rapide, cherche une pièce qui prend du retard un instant pendant le mouvement.",
+            "items": []
+          },
+          {
+            "content": "Vérifie encore le mécanisme quelques heures plus tard, puis le lendemain. Certains problèmes n’apparaissent qu’avec le temps.",
+            "items": []
+          },
+          {
+            "content": "Si tu entends un grincement, ajoute une petite quantité de cire à l’endroit d’où vient le bruit.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Comment éviter les blocages avec ton prochain modèle",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Le frottement se règle plus facilement en cours de route, pendant le montage, et non après. Tu trouveras des accessoires comme le papier de verre et la pince à épiler dans <a href=\"/blog/10-outils-dont-vous-avez-besoin-pour-assembler-un-puzzle-3d-en-bois\">l’article sur les outils de montage</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Après chaque étape qui ajoute une roue ou un axe, fais tourner le mécanisme. Tu repères tout de suite un blocage et tu sais quelle pièce l’a causé.",
+            "items": []
+          },
+          {
+            "content": "Traite les zones mobiles à la cire dès le montage, car dans le modèle terminé elles sont cachées et difficiles d’accès.",
+            "items": []
+          },
+          {
+            "content": "Avant d’assembler, passe le doigt sur les bords des pièces qui vont tourner ou coulisser et ponce légèrement les petites irrégularités.",
+            "items": []
+          },
+          {
+            "content": "Si la notice indique des endroits à cirer, ne cire que ceux-là et laisse les autres sans traitement.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Si un autre modèle mécanique te tente après la réparation, regarde <a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/horloge-murale-zodiac-rokr-lc601-p52\">Puzzle 3D mécanique en bois - Horloge murale Zodiac ROKR LC601</a>. Selon les données de la boutique, il compte 168 pièces et son montage dure environ 4 heures."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/horloge-murale-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Puzzle 3D mécanique en bois - Horloge murale Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/horloge-murale-zodiac-rokr-lc601-p52\">Puzzle 3D mécanique en bois - Horloge murale Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Nombre de pièces : 168</li>\n      <li>Temps de montage : 4 h</li>\n      <li>Difficulté : 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/horloge-murale-zodiac-rokr-lc601-p52\">Voir le kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Questions fréquentes",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Que faire si le mécanisme se bloque encore après le cirage ?</h3>\n    <p style=\"margin:0;\">La cire ne règle que le frottement. Vérifie si une pièce est mal placée : l’axe doit être enfoncé jusqu’en butée, la roue bien orientée et l’ergot bien enfoncé.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Pourquoi le modèle s’est-il bloqué seulement après quelques jours ?</h3>\n    <p style=\"margin:0;\">L’humidité peut en être la cause : le bois absorbe l’eau de l’air et gonfle légèrement. Éloigne la maquette des coins humides et du soleil direct.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Puis-je forcer le mécanisme quand il tourne difficilement ?</h3>\n    <p style=\"margin:0;\">Mieux vaut éviter. Un ergot fin plie ou casse sous la pression. Trouve d’abord l’endroit qui frotte et supprime la cause.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Puzzle 3D mécanique en bois - Horloge murale Zodiac ROKR LC601",
+      "path": "/casse-tete-3d-en-bois/horloges-et-calendriers/horloge-murale-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blog/10-outils-dont-vous-avez-besoin-pour-assembler-un-puzzle-3d-en-bois",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "et",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mehhanism jääb kinni: leia hõõrdumine ja kõrvalda see",
+  "description": "Kui puitmudeli mehhanism jääb kinni, on põhjuseks enamasti osade vaheline hõõrdumine, mitte vigane osa. Näitame, kuidas koha ilma lahti võtmata üles leida ja mis hõõrdumist vähendab.",
+  "seo_title": "Puitmudeli mehhanism jääb kinni: põhjused ja lahendus",
+  "seo_description": "Kuidas leida puitmudelis koht, kus osad hõõruvad, vähendada hõõrdumist kodus leiduva abil ja ära tunda valesti kinnitatud osa. Juhend esimese mudeli jaoks.",
+  "slug": "mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Kui puitmudeli mehhanism jääb kinni, ei ole süüdi tavaliselt vigane osa, vaid <strong>hõõrdumine</strong>: kaks osa suruvad üksteise vastu rohkem, kui peaksid. Piisab, kui leiad selle koha ja hõõrdumist vähendad, mudelit pole vaja lahti võtta. Näitame sulle, kuidas."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Hõõrdumise koha leiad, kui pöörad mehhanismi aeglaselt ja jälgid tähelepanelikult, kus takistus kasvab või kostab kriginat. Seejärel vähendame hõõrdumist asjadega, mis on tavaliselt kodus olemas, ning ütleme sulle, millal on põhjuseks valesti paigas osa ja kuidas seda parandada. Lõpuks kontrollid, et kõik liigub sujuvalt."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Kuidas leida koht, kus osad hõõruvad",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Hõõrdumine</em> on takistus, mis tekib, kui kaks pinda liikumisel üksteise vastu suruvad. Hammasratastega mudelis (hammasratas on ümar hammastega osa, mis haakub järgmisega ja annab liikumise edasi) võib see peituda korraga mitmes kohas, seega ära võta midagi lahti, enne kui tead, kust otsida."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pööra mehhanismi <strong>aeglaselt</strong> ja mitte jõuga lõpuni. Jälgi, kas takistus on kogu pöörde jooksul ühesugune või kasvab ainult ühes asendis. Takistus ühes asendis osutab kindlale hambale või osale.",
+            "items": []
+          },
+          {
+            "content": "Proovi iga ratta juures, millele ligi pääsed, seda sõrmega eraldi pöörata. Ratas, mis liigub raskemini kui teised, on kahtlane.",
+            "items": []
+          },
+          {
+            "content": "Kuula. Krigin, kriuksumine ja kohad, kus liikumine hetkeks peatub, annavad märku, kus osad üksteise vastu suruvad.",
+            "items": []
+          },
+          {
+            "content": "Kontrolli, kas mõni osa on üles tõusnud või viltu pandud. Serva, mis naaberosa vastu hõõrub, näed sageli küljelt vaadates.",
+            "items": []
+          },
+          {
+            "content": "Märgi kahtlane koht üles, et saaksid pärast sekkumist võrrelda, kas takistus muutus.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nõuanne:</strong> Kui juhend tähistab kohad, mida vahatada, järgi seda, mitte oma oletust. Vaha vales kohas või liiga palju vaha võib põhjustada, et osad sobituvad halvemini.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Millega hõõrdumist vähendada",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Enamiku probleemide jaoks piisab asjadest, mis on tavaliselt kodus olemas. Alusta kõige õrnemast ja pööra mehhanismi pärast iga sekkumist uuesti, et näha, kas see aitas."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Abivahend</th><th>Kuhu sobib</th><th>Mille peale tähelepanu pöörata</th></tr></thead><tbody><tr><td>Peen liivapaber</td><td>väikesed konarused osa servadel, mis surub teise vastu</td><td>lihvi ainult kergelt; liiga palju lihvimist lõdvendab liiteid, mis peavad kindlalt hoidma</td></tr><tr><td>Mesilasvaha või küünal</td><td>hammasratta hambad ja liugurosad</td><td>ainult väga õhuke kiht, mille kannad peale kergelt</td></tr><tr><td>Pehme lapp</td><td>liigse vaha äratõmbamine</td><td>pühi iga peale kandmise järel, et osadele ei jääks kihti</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Pigem väldi: õli, rasvaseid pihusteid ja mööblipolituuri. Need võivad puitu värvida, koguda tolmu ja kitsa mehhanismi kinni kleepida."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Kanna vaha peale ainult sinna, kus osad üksteise suhtes liiguvad, või kohtadesse, mida juhend tähistab. Kõige korraga vahatamine jätab kihi ja võib liidete täpsust halvendada. Hõõrdumine kaob mõnikord kahe katsega: pärast esimest vahatamist proovi mehhanismi ja lisa vaha ainult sinna, kus see veel kipub kinni jääma."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kui põhjuseks ei ole hõõrdumine: valesti paigas osa",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Valesti paigas osa</em> on osa, mis on mudelis olemas, kuid ei asu päris seal, kuhu ta kuulub: telg ei ole lõpuni sisse lükatud, ratas on pööratud vastupidi, kui juhend näitab, või tihvt ei ole lõpuni sisse surutud. Mehhanism jääb siis kinni, kuigi ükski pind ei hõõru tarbetult, ja vaha sel juhul ei aita."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Leia juhendist samm, kus osa lisati, ja võrdle selle asendit pildiga.",
+            "items": []
+          },
+          {
+            "content": "Kontrolli, kas telg on mõlemas august lõpuni sisse lükatud ja ei ulatu ühele poole rohkem välja kui teisele.",
+            "items": []
+          },
+          {
+            "content": "Veendu, et osa ei ole vastupidi pööratud ega sarnase osaga vahetatud.",
+            "items": []
+          },
+          {
+            "content": "Tõmba osa ettevaatlikult välja ja pane uuesti. Kui pead seda sisse suruma, on miski ees: kontrolli selle serva ja silu seda kergelt. Õhukesed tihvtid murduvad surve all.",
+            "items": []
+          },
+          {
+            "content": "Kui osa ei saa murdmata välja tõmmata, ära kasuta jõudu. Proovi seda õrnalt küljelt küljele liigutada ja uuri, mis seda hoiab.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Veel üks võimalik põhjus on niiskus. Puit imab õhust niiskust ja paisub veidi, nii et niiskes ruumis võivad osad üksteise vastu rohkem suruda. Kui mehhanism jäi kinni alles aja möödudes, vii mudel niisketest nurkadest ja otsesest päikesest eemale."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kuidas kontrollida, et mehhanism liigub sujuvalt",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Hea test on selline, mis ei sõltu tundest. Käi need punktid läbi, enne kui mudeli sulged või riiulile paned."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pööra mehhanismi terve tsükkel peatumata. Liikumine peab olema ühtlane, ilma kohata, kus tuleb peale suruda.",
+            "items": []
+          },
+          {
+            "content": "Korda seda veidi kiiremini. Kui see jääb kinni alles kõrgemal tempol, otsi osa, mis liikumisel hetkeks maha jääb.",
+            "items": []
+          },
+          {
+            "content": "Kontrolli mehhanismi veel kord mõne tunni pärast ja järgmisel päeval. Mõned probleemid ilmnevad alles ajaga.",
+            "items": []
+          },
+          {
+            "content": "Kui kuuled kriginat, lisa kohta, kust heli tuleb, väike kogus vaha.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Kuidas järgmise mudeli puhul kinnijäämist vältida",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Hõõrdumist on kõige lihtsam lahendada jooksvalt, ehituse käigus, mitte alles pärast seda. Abivahendeid nagu liivapaber ja pintsetid leiad <a href=\"/blogi/10-tooriista-mida-vajate-puidust-3d-pusle-kokkupanemisel\">kokkupaneku tööriistade artiklist</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Pööra mehhanismi pärast iga sammu, mis lisab ratta või telje. Nii märkad kinnijäämist kohe ja on selge, milline osa selle põhjustas.",
+            "items": []
+          },
+          {
+            "content": "Töötle liikuvad kohad vahaga juba kokkupanemise ajal, sest valmis mudelis on need peidus ja raskesti ligipääsetavad.",
+            "items": []
+          },
+          {
+            "content": "Enne kokkupanekut libista sõrmega mööda nende osade servi, mis hakkavad pöörlema või liikuma, ja lihvi väikesed konarused kergelt maha.",
+            "items": []
+          },
+          {
+            "content": "Kui juhend näitab kohti, mida vahatada, vahata ainult neid ja ülejäänud jäta töötlemata.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Kui sind pärast parandust ahvatleb veel üks mehaaniline mudel, vaata <a href=\"/puidust-3d-pusle/kellad-kalendrid/seinakell-zodiac-rokr-lc601-p52\">Puidust mehaaniline 3D pusle - Seinakell Zodiac ROKR LC601</a>. Poe andmetel on selles 168 detaili ja kokkupanek võtab umbes 4 tundi."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puidust-3d-pusle/kellad-kalendrid/seinakell-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Puidust mehaaniline 3D pusle - Seinakell Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puidust-3d-pusle/kellad-kalendrid/seinakell-zodiac-rokr-lc601-p52\">Puidust mehaaniline 3D pusle - Seinakell Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detailide arv: 168</li>\n      <li>Kokkupaneku aeg: 4 h</li>\n      <li>Raskus: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puidust-3d-pusle/kellad-kalendrid/seinakell-zodiac-rokr-lc601-p52\">Vaata komplekti</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Korduma kippuvad küsimused",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mida teha, kui mehhanism jääb kinni ka pärast vahatamist?</h3>\n    <p style=\"margin:0;\">Vaha lahendab ainult hõõrdumise. Kontrolli, kas mõni osa on valesti paigas: telg peab olema lõpuni sisse lükatud, ratas õigesti pööratud ja tihvt sisse surutud.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miks mudel jäi kinni alles mõne päeva pärast?</h3>\n    <p style=\"margin:0;\">Põhjuseks võib olla niiskus: puit imab õhust vett ja paisub veidi. Vii mudel niisketest nurkadest ja otsesest päikesest eemale.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kas ma võin mehhanismi jõuga läbi pöörata, kui see liigub raskelt?</h3>\n    <p style=\"margin:0;\">Parem mitte. Õhuke tihvt paindub või murdub surve all. Leia kõigepealt koht, kus see hõõrub, ja kõrvalda põhjus.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Puidust mehaaniline 3D pusle - Seinakell Zodiac ROKR LC601",
+      "path": "/puidust-3d-pusle/kellad-kalendrid/seinakell-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/blogi/10-tooriista-mida-vajate-puidust-3d-pusle-kokkupanemisel",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

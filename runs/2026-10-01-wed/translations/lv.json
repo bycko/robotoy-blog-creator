@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "lv",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mehānisms iestrēgst: kā atrast berzi un to novērst",
+  "description": "Ja koka modeļa mehānisms iestrēgst, visbiežāk vainojama ir nevis bojāta detaļa, bet berze starp detaļām. Parādīsim, kā atrast vietu, neko neizjaucot, un ar ko berzi mazināt.",
+  "seo_title": "Iestrēdzis mehānisms koka modelī: cēloņi un risinājums",
+  "seo_description": "Kā atrast vietu, kur koka modelī detaļas beržas, mazināt berzi ar mājas lietām un atpazīt nepareizi ievietotu detaļu. Ceļvedis pirmajam modelim.",
+  "slug": "mehanisms-iestregst-ka-atrast-berzi-un-to-noverst",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Kad koka modeļa mehānisms iestrēgst, parasti vainojama nav bojāta detaļa, bet <strong>berze</strong>: divas detaļas spiežas viena pret otru stiprāk, nekā vajadzētu. Pietiek atrast šo vietu un berzi mazināt, modeli izjaukt nav jāmēģina. Parādīsim, kā to izdarīt."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Berzes vietu atradīsi, lēnām griežot un uzmanīgi vērojot, kur pretestība pieaug vai atskan skrāpēšana. Pēc tam berzi mazinām ar lietām, kas parasti ir mājās, un pastāstām, kad cēlonis ir nepareizi ievietota detaļa un kā to izlabot. Beigās pārbaudi, vai viss darbojas vienmērīgi."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "Kā atrast vietu, kur detaļas beržas",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Berze</em> ir pretestība, kas rodas, kad divas virsmas kustībā spiežas viena pret otru. Modelī ar zobratiem (zobrats ir apaļa detaļa ar zobiem, kas ieķeras nākamajā un pārnes kustību) tā var slēpties vairākās vietās vienlaikus, tāpēc neko neizjauc, kamēr nezini, kur meklēt."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Mehānismu griez <strong>lēnām</strong>, nevis ar spēku līdz galam. Pamani, vai pretestība visā apgriezienā ir vienāda, vai pieaug tikai vienā pozīcijā. Pretestība vienā pozīcijā norāda uz konkrētu zobu vai detaļu.",
+            "items": []
+          },
+          {
+            "content": "Pie katra riteņa, kuram vari piekļūt, pamēģini ar pirkstu pagriezt to atsevišķi. Ritenis, kas griežas smagāk par citiem, ir aizdomīgs.",
+            "items": []
+          },
+          {
+            "content": "Klausies. Skrāpēšana vai čīkstēšana un vietas, kur kustība uz brīdi apstājas, atklāj, kur detaļas spiežas viena pret otru.",
+            "items": []
+          },
+          {
+            "content": "Pārbaudi, vai kāda detaļa nav pacelta vai šķību ievietota. Malu, kas beržas pret blakus detaļu, bieži var redzēt, paskatoties no sāniem.",
+            "items": []
+          },
+          {
+            "content": "Atzīmē aizdomīgo vietu, lai pēc iejaukšanās varētu salīdzināt, vai pretestība ir mainījusies.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Padoms:</strong> Ja instrukcija atzīmē vietas vaskošanai, ievēro to, nevis minējumus. Vasks nepareizā vietā vai pārāk daudz vaska var padarīt, ka detaļas saderas sliktāk.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Ar ko mazināt berzi",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Lielākajai daļai problēmu pietiek ar lietām, kas parasti ir mājās. Sāc ar vieglāko un pēc katras iejaukšanās mehānismu pagriez vēlreiz, lai redzētu, vai palīdzēja."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Palīglīdzeklis</th><th>Kur der</th><th>Kam pievērst uzmanību</th></tr></thead><tbody><tr><td>Smalka smilšpapīra loksne</td><td>sīki nelīdzenumi detaļas malās, kas spiežas pret citu</td><td>slīpē tikai viegli; pārāk daudz slīpējot, atslābst savienojumi, kuriem jāturas</td></tr><tr><td>Bišu vasks vai svece</td><td>zobratu zobi un bīdāmās daļas</td><td>tikai ļoti plāna kārtiņa, ko uzklāj viegli</td></tr><tr><td>Mīksta lupatiņa</td><td>liekā vaska noslaucīšana</td><td>slauki pēc katras uzklāšanas, lai uz detaļām neatstātu kārtiņu</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Labāk izvairies no: eļļas, taukainiem aerosoliem un mēbeļu pulēšanas līdzekļiem. Tie var iekrāsot koku, uzkrāt putekļus un salīmēt ciešu mehānismu."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Vasku uzklāj tikai tur, kur detaļas kustas viena pret otru, vai vietās, ko atzīmē instrukcija. Ja vaskosi visu uzreiz, paliek kārtiņa un savienojumu precizitāte var pasliktināties. Dažreiz berze pazūd divos mēģinājumos: pēc pirmās vaskošanas pamēģini mehānismu un pievieno vasku tikai tur, kur vēl aizķeras."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Kad cēlonis nav berze: nepareizi ievietota detaļa",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Nepareizi ievietota detaļa</em> ir detaļa, kas modelī ir, bet nesēž pavisam tur, kur tai jābūt: ass nav iebīdīta līdz galam, ritenis ir pagriezts pretēji tam, ko rāda instrukcija, vai tapa nav iespiesta. Tad mehānisms iestrēgst, kaut arī neviena virsma bez vajadzības neberžas, un vasks tādā gadījumā nepalīdz."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Instrukcijā atrodi soli, kurā detaļa tika pievienota, un salīdzini tās novietojumu ar attēlu.",
+            "items": []
+          },
+          {
+            "content": "Pārbaudi, vai ass ir iebīdīta abos caurumos līdz galam un vai tā no vienas puses neizvirzās vairāk nekā no otras.",
+            "items": []
+          },
+          {
+            "content": "Pārliecinies, ka detaļa nav apgriezta otrādi vai sajaukta ar līdzīgu detaļu.",
+            "items": []
+          },
+          {
+            "content": "Uzmanīgi izvelc detaļu un ievieto to vēlreiz. Ja tā jāspiež, kaut kas traucē: pārbaudi tās malu un viegli to nogludini. Plānas tapas zem spiediena lūst.",
+            "items": []
+          },
+          {
+            "content": "Ja detaļu nevar izvilkt, to nesalaužot, nelieto spēku. Pamēģini to saudzīgi kustināt uz sāniem un noskaidro, kas to tur.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Cits iespējamais cēlonis ir mitrums. Koks uzsūc mitrumu no gaisa un nedaudz uzbriest, tāpēc mitrā telpā detaļas var stiprāk spiesties viena pret otru. Ja mehānisms iestrēga tikai pēc kāda laika, pārvieto modeli prom no mitriem stūriem un tiešiem saules stariem."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kā pārbaudīt, vai mehānisms darbojas vienmērīgi",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Labs tests ir tāds, kas nav atkarīgs no sajūtas. Izej cauri šiem punktiem, pirms modeli aizver vai novieto plauktā."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Pagriez mehānismu cauri visam ciklam, neapstājoties. Kustībai jābūt vienmērīgai, bez vietas, kur jāpiespiež.",
+            "items": []
+          },
+          {
+            "content": "Atkārto nedaudz ātrāk. Ja tas iestrēgst tikai ātrākā tempā, meklē detaļu, kas kustībā uz brīdi atpaliek.",
+            "items": []
+          },
+          {
+            "content": "Pārbaudi mehānismu vēlreiz pēc dažām stundām un nākamajā dienā. Dažas problēmas parādās tikai laika gaitā.",
+            "items": []
+          },
+          {
+            "content": "Ja atskan čīkstēšana, pievieno nelielu daudzumu vaska vietā, no kuras skan skaņa.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "Kā izvairīties no iestrēgšanas nākamajā modelī",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Berzi vieglāk risināt pa ceļam, būvēšanas laikā, nevis tikai pēc tās. Palīglīdzekļus, piemēram, smilšpapīru un pinceti, atradīsi <a href=\"/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai\">rakstā par instrumentiem salikšanai</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Pēc katra soļa, kas pievieno riteni vai asi, pagriez mehānismu. Iestrēgšanu pamanīsi uzreiz, un būs skaidrs, kura detaļa to izraisīja.",
+            "items": []
+          },
+          {
+            "content": "Kustīgās vietas apstrādā ar vasku jau salikšanas laikā, jo gatavā modelī tās ir paslēptas un grūti pieejamas.",
+            "items": []
+          },
+          {
+            "content": "Pirms salikšanas pavelc ar pirkstu pa to detaļu malām, kas griezīsies vai bīdīsies, un sīkos nelīdzenumus viegli noslīpē.",
+            "items": []
+          },
+          {
+            "content": "Ja instrukcija rāda vietas vaskošanai, vasko tikai tās, bet pārējās atstāj neapstrādātas.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Ja pēc labošanas tevi vilinās vēl kāds mehānisks modelis, apskati <a href=\"/koka-3d-puzle/pulksteni-kalendari/sienas-pulkstenis-zodiac-rokr-lc601-p52\">Koka mehāniskā 3D puzle - Sienas pulkstenis Zodiac ROKR LC601</a>. Pēc veikala datiem tajā ir 168 detaļas, un salikšana aizņem apmēram 4 stundas."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/koka-3d-puzle/pulksteni-kalendari/sienas-pulkstenis-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Koka mehāniskā 3D puzle - Sienas pulkstenis Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/koka-3d-puzle/pulksteni-kalendari/sienas-pulkstenis-zodiac-rokr-lc601-p52\">Koka mehāniskā 3D puzle - Sienas pulkstenis Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detaļu skaits: 168</li>\n      <li>Salikšanas laiks: 4 h</li>\n      <li>Sarežģītība: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/koka-3d-puzle/pulksteni-kalendari/sienas-pulkstenis-zodiac-rokr-lc601-p52\">Skatīt komplektu</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Biežāk uzdotie jautājumi",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ko darīt, ja mehānisms iestrēgst arī pēc vaskošanas?</h3>\n    <p style=\"margin:0;\">Vasks risina tikai berzi. Pārbaudi, vai kāda detaļa nav nepareizi ievietota: asij jābūt iebīdītai līdz galam, ritenim pareizi pagrieztam un tapai iespiestai.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kāpēc modelis iestrēga tikai pēc dažām dienām?</h3>\n    <p style=\"margin:0;\">Cēlonis var būt mitrums: koks uzsūc ūdeni no gaisa un nedaudz uzbriest. Pārvieto modeli prom no mitriem stūriem un tiešiem saules stariem.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vai drīkstu mehānismu pagriezt ar spēku, kad tas iet smagi?</h3>\n    <p style=\"margin:0;\">Labāk nē. Plāna tapa zem spiediena saliecas vai lūst. Vispirms atrodi berzes vietu un novērs cēloni.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Koka mehāniskā 3D puzle - Sienas pulkstenis Zodiac ROKR LC601",
+      "path": "/koka-3d-puzle/pulksteni-kalendari/sienas-pulkstenis-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/emuars/10-riki-kas-nepieciesami-koka-3d-puzles-saliksanai",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}

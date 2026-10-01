@@ -1,0 +1,343 @@
+{
+  "run_id": "2026-10-01-wed",
+  "round": 1,
+  "locale": "de",
+  "topic_key": "guide-fixing-sticking-mechanism",
+  "pillar": "GUIDE",
+  "title": "Mechanismus klemmt: Reibung finden und beseitigen",
+  "description": "Wenn ein Mechanismus im Holzmodell klemmt, ist meist die Reibung zwischen den Teilen schuld, nicht ein fehlerhaftes Teil. Wir zeigen, wie du die Stelle ohne Zerlegen findest und was die Reibung mildert.",
+  "seo_title": "Klemmender Mechanismus im Holzmodell: Ursachen und Lösung",
+  "seo_description": "So findest du reibende Stellen im Holzmodell, senkst die Reibung mit Haushaltsmitteln und erkennst ein falsch sitzendes Teil. Für dein erstes Modell.",
+  "slug": "mechanismus-klemmt-reibung-finden-und-beseitigen",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "paragraph",
+      "data": {
+        "text": "Wenn der Mechanismus in einem Holzmodell klemmt, ist meist nicht ein fehlerhaftes Teil schuld, sondern die <strong>Reibung</strong>: Zwei Teile drücken stärker aufeinander, als sie sollten. Du musst nur die Stelle finden und die Reibung mindern, das Modell musst du nicht zerlegen. Wir zeigen dir, wie."
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Die Stelle findest du, indem du langsam drehst und genau beobachtest, wo der Widerstand wächst oder ein Schleifen zu hören ist. Danach mildern wir die Reibung mit Dingen, die meist zu Hause sind, und sagen dir, wann ein falsch sitzendes Teil die Ursache ist und wie du es korrigierst. Zum Schluss prüfst du, ob alles gleichmäßig läuft."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "header",
+      "data": {
+        "text": "So findest du die Stelle, an der Teile reiben",
+        "level": 2
+      }
+    },
+    {
+      "id": "b04",
+      "type": "paragraph",
+      "data": {
+        "text": "<em>Reibung</em> ist der Widerstand, der entsteht, wenn sich zwei Flächen bei der Bewegung aneinander drücken. In einem Modell mit Zahnrädern (ein Zahnrad ist ein rundes Teil mit Zähnen, das in das nächste greift und die Bewegung überträgt) kann sie an mehreren Stellen gleichzeitig stecken, also zerlege nichts, bevor du weißt, wo du suchen musst."
+      }
+    },
+    {
+      "id": "b05",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Drehe den Mechanismus <strong>langsam</strong> und nicht mit Kraft bis zum Anschlag. Achte darauf, ob der Widerstand die ganze Umdrehung gleich ist oder nur in einer Stellung steigt. Widerstand in einer Stellung weist auf einen bestimmten Zahn oder ein bestimmtes Teil hin.",
+            "items": []
+          },
+          {
+            "content": "Versuche bei jedem Rad, das du erreichst, es einzeln mit dem Finger zu drehen. Ein Rad, das schwerer geht als die anderen, ist verdächtig.",
+            "items": []
+          },
+          {
+            "content": "Höre hin. Schleifen oder Knarren und Stellen, an denen die Bewegung kurz stockt, verraten, wo die Teile aneinander drücken.",
+            "items": []
+          },
+          {
+            "content": "Prüfe, ob ein Teil angehoben oder schief eingesetzt ist. Eine Kante, die am Nachbarteil reibt, siehst du oft beim Blick von der Seite.",
+            "items": []
+          },
+          {
+            "content": "Markiere dir die verdächtige Stelle, damit du nach dem Eingriff vergleichen kannst, ob sich der Widerstand verändert hat.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> Wenn die Anleitung Stellen zum Wachsen markiert, halte dich daran und schätze nicht. Wachs an der falschen Stelle oder zu viel davon kann dazu führen, dass die Teile schlechter ineinanderpassen.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b07",
+      "type": "header",
+      "data": {
+        "text": "Womit du die Reibung senkst",
+        "level": 2
+      }
+    },
+    {
+      "id": "b08",
+      "type": "paragraph",
+      "data": {
+        "text": "Für die meisten Probleme reichen Dinge, die meist zu Hause sind. Beginne mit dem Sanftesten und drehe den Mechanismus nach jedem Eingriff erneut, damit du siehst, ob es geholfen hat."
+      }
+    },
+    {
+      "id": "b09",
+      "type": "HTML",
+      "data": {
+        "code": "<div style=\"overflow-x:auto\"><table><thead><tr><th>Hilfsmittel</th><th>Wofür es sich eignet</th><th>Worauf du achten solltest</th></tr></thead><tbody><tr><td>Feines Schleifpapier</td><td>kleine Unebenheiten an den Kanten eines Teils, das gegen ein anderes drückt</td><td>schleife nur leicht; zu viel Schleifen lockert Verbindungen, die halten sollen</td></tr><tr><td>Bienenwachs oder Kerze</td><td>Zähne von Zahnrädern und gleitende Teile</td><td>nur eine sehr dünne Schicht, die du leicht aufträgst</td></tr><tr><td>Weiches Tuch</td><td>überschüssiges Wachs abwischen</td><td>wische nach jedem Auftragen ab, damit kein Belag auf den Teilen bleibt</td></tr></tbody></table></div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b10",
+      "type": "paragraph",
+      "data": {
+        "text": "Besser vermeiden: Öl, fettige Sprays und Möbelpolitur. Sie können das Holz verfärben, Staub binden und einen engen Mechanismus verkleben."
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Trage Wachs nur dort auf, wo sich Teile gegeneinander bewegen, oder an den Stellen, die die Anleitung markiert. Wenn du alles auf einmal wachst, bleibt ein Belag und die Passgenauigkeit der Verbindungen kann leiden. Manchmal ist die Reibung nach zwei Versuchen weg: Probiere den Mechanismus nach dem ersten Wachsen aus und füge nur dort Wachs hinzu, wo es noch hakt."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "header",
+      "data": {
+        "text": "Wenn nicht die Reibung schuld ist: ein falsch sitzendes Teil",
+        "level": 2
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein <em>falsch sitzendes Teil</em> ist ein Teil, das zwar im Modell steckt, aber nicht ganz dort sitzt, wo es hingehört: Eine Achse ist nicht bis zum Anschlag eingeschoben, ein Rad ist entgegen der Anleitung andersherum eingesetzt oder ein Stift ist nicht ganz eingedrückt. Der Mechanismus klemmt dann, obwohl keine Fläche unnötig reibt, und Wachs hilft in diesem Fall nicht."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Suche in der Anleitung den Schritt, in dem das Teil dazukam, und vergleiche seine Lage mit dem Bild.",
+            "items": []
+          },
+          {
+            "content": "Prüfe, ob die Achse in beiden Öffnungen bis zum Anschlag eingeschoben ist und auf einer Seite nicht weiter übersteht als auf der anderen.",
+            "items": []
+          },
+          {
+            "content": "Vergewissere dich, dass das Teil nicht falsch herum eingesetzt oder mit einem ähnlichen Teil vertauscht ist.",
+            "items": []
+          },
+          {
+            "content": "Ziehe das Teil vorsichtig heraus und setze es neu ein. Wenn du es hineindrücken musst, steht ihm etwas im Weg: Prüfe seine Kante und glätte sie leicht. Dünne Stifte brechen unter Druck.",
+            "items": []
+          },
+          {
+            "content": "Lässt sich das Teil nicht ohne Bruch herausziehen, wende keine Gewalt an. Bewege es vorsichtig hin und her und finde heraus, was es festhält.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b15",
+      "type": "paragraph",
+      "data": {
+        "text": "Eine weitere mögliche Ursache ist Feuchtigkeit. Holz nimmt Feuchtigkeit aus der Luft auf und quillt leicht, sodass sich Teile in einem feuchten Raum stärker aneinander drücken können. Wenn der Mechanismus erst nach einiger Zeit geklemmt hat, stelle das Modell weg von feuchten Ecken und direkter Sonne."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "So prüfst du, ob der Mechanismus gleichmäßig läuft",
+        "level": 2
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein guter Test ist einer, der nicht vom Gefühl abhängt. Gehe diese Punkte durch, bevor du das Modell schließt oder ins Regal stellst."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Drehe den Mechanismus einen ganzen Zyklus ohne anzuhalten. Die Bewegung soll gleichmäßig sein, ohne eine Stelle, an der du nachdrücken musst.",
+            "items": []
+          },
+          {
+            "content": "Wiederhole es etwas schneller. Klemmt es erst bei höherem Tempo, suche ein Teil, das bei der Bewegung kurz hinterherhinkt.",
+            "items": []
+          },
+          {
+            "content": "Prüfe den Mechanismus noch einmal nach ein paar Stunden und am nächsten Tag. Manche Probleme zeigen sich erst mit der Zeit.",
+            "items": []
+          },
+          {
+            "content": "Wenn ein Knarren zu hören ist, gib eine kleine Menge Wachs an die Stelle, von der das Geräusch kommt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b19",
+      "type": "header",
+      "data": {
+        "text": "So vermeidest du Klemmen beim nächsten Modell",
+        "level": 2
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Reibung lässt sich am leichtesten laufend lösen, während des Baus und nicht erst danach. Hilfsmittel wie Schleifpapier und Pinzette findest du im <a href=\"/bloggen/10-werkzeuge-die-sie-zum-zusammenbau-eines-3d-holzpuzzles-benotigen\">Artikel über Werkzeuge zum Zusammenbau</a>."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Drehe den Mechanismus nach jedem Schritt, der ein Rad oder eine Achse hinzufügt. So bemerkst du das Klemmen sofort und es ist klar, welches Teil es verursacht hat.",
+            "items": []
+          },
+          {
+            "content": "Behandle die beweglichen Stellen schon beim Zusammenbau mit Wachs, denn im fertigen Modell sind sie verdeckt und schwer zugänglich.",
+            "items": []
+          },
+          {
+            "content": "Fahre vor dem Zusammenbau mit dem Finger über die Kanten der Teile, die sich drehen oder gleiten werden, und schleife kleine Unebenheiten leicht ab.",
+            "items": []
+          },
+          {
+            "content": "Wenn die Anleitung Stellen zum Wachsen zeigt, wachse nur diese und lasse die übrigen unbehandelt.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b22",
+      "type": "paragraph",
+      "data": {
+        "text": "Wenn dich nach der Reparatur ein weiteres mechanisches Modell reizt, sieh dir <a href=\"/3d-puzzle-aus-holz/uhren-kalender/wanduhr-zodiac-rokr-lc601-p52\">Mechanisches 3D-Puzzle aus Holz - Wanduhr Zodiac ROKR LC601</a> an. Laut den Daten im Shop hat das Modell 168 Teile und der Zusammenbau dauert etwa 4 Stunden."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/3d-puzzle-aus-holz/uhren-kalender/wanduhr-zodiac-rokr-lc601-p52\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-nastenne-hodiny-zodiac-rokr-lc601-p282.jpg\" alt=\"Mechanisches 3D-Puzzle aus Holz - Wanduhr Zodiac ROKR LC601\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/3d-puzzle-aus-holz/uhren-kalender/wanduhr-zodiac-rokr-lc601-p52\">Mechanisches 3D-Puzzle aus Holz - Wanduhr Zodiac ROKR LC601</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Anzahl der Teile: 168</li>\n      <li>Bauzeit: 4 Std.</li>\n      <li>Schwierigkeit: 3</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/3d-puzzle-aus-holz/uhren-kalender/wanduhr-zodiac-rokr-lc601-p52\">Bausatz ansehen</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b24",
+      "type": "header",
+      "data": {
+        "text": "Häufige Fragen",
+        "level": 2
+      }
+    },
+    {
+      "id": "b25",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Was tun, wenn der Mechanismus auch nach dem Wachsen klemmt?</h3>\n    <p style=\"margin:0;\">Wachs löst nur Reibung. Prüfe, ob ein Teil falsch sitzt: Die Achse muss bis zum Anschlag eingeschoben, das Rad richtig herum eingesetzt und der Stift ganz eingedrückt sein.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Warum hat das Modell erst nach einigen Tagen geklemmt?</h3>\n    <p style=\"margin:0;\">Schuld kann Feuchtigkeit sein: Holz nimmt Wasser aus der Luft auf und quillt leicht. Stelle das Modell weg von feuchten Ecken und direkter Sonne.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Darf ich den Mechanismus mit Kraft durchdrehen, wenn er schwer geht?</h3>\n    <p style=\"margin:0;\">Besser nicht. Ein dünner Stift verbiegt oder bricht unter Druck. Finde zuerst die Stelle, an der es reibt, und beseitige die Ursache.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 52,
+      "name": "Mechanisches 3D-Puzzle aus Holz - Wanduhr Zodiac ROKR LC601",
+      "path": "/3d-puzzle-aus-holz/uhren-kalender/wanduhr-zodiac-rokr-lc601-p52",
+      "used_in": [
+        "b22",
+        "b23"
+      ],
+      "checked_at": "2026-10-01T09:12:05+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 20,
+      "path": "/bloggen/10-werkzeuge-die-sie-zum-zusammenbau-eines-3d-holzpuzzles-benotigen",
+      "block_id": "b20"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b06",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b09",
+      "kind": "TABLE"
+    },
+    {
+      "block_id": "b23",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b25",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "INSPIRED_BY",
+      "ref": "reddit-rokrpuzzles",
+      "note": "Námet: stavitelia mechanických modelov sa často zasekávajú; stránku sa nepodarilo načítať, nič z nej sa nepoužilo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.rokronline.com/blogs/news/sand-and-wax-your-3d-wooden-puzzle",
+      "note": "Trenie po zložení, jemné brúsenie len drobných nerovností, voskovanie len pohyblivých miest alebo miest z návodu, olejové spreje a leštidlá, sviečka ako náhrada, utretie prebytku vosku mäkkou handričkou, vlhké kúty a slnko."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://mangalls.com/do-wooden-puzzles-expand-in-humidity-pc569/",
+      "note": "Drevo nasáva vlhkosť zo vzduchu a napučiava, vo vlhku sa môžu diely viac tlačiť."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, shot on a full-frame camera with a 50mm lens at f/1.8, shallow depth of field. A wooden desk in a cozy home in the evening; a brass desk lamp with a softly glowing bulb stands on the left. A person seen in profile sits at the desk, and their hands, placed near the center of the frame, are assembling a small wooden mechanical model made of laser-cut plywood gears and little wooden parts; one finger gently turns a wooden gear to test that it runs freely. Loose wooden pieces, a small block of beeswax and an open instruction booklet lie on the desk; any writing on the booklet is out of focus and unreadable. Behind the desk a wooden shelf holds a finished wooden model and a small vase of flowers, softly blurred. Warm light, natural wood tones, brass and a soft cream wall. No logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; the wooden model is generic and unbranded. Hands and model near the center so a square crop keeps them."
+  }
+}
