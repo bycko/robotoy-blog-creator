@@ -145,15 +145,21 @@ Zostáva     zápis
 The written message carries:
 
 - `Stránka`: the page `_id`, that it is public (`zapnutá`), the language and address counts, and the environment;
+- `Adresa`, in production: the Slovak address of the page;
+- `Kontrola`: the result of the read-only live check of [`18-review-and-write.md`](18-review-and-write.md#write): the languages fetched, or what failed; in development `živá: preskočená (development)`;
 - `Obálka`: the cover was posted with the page, and the file path;
 - `Štítky`: every tag dropped because it lacks a name in all 21 locales, or `žiadne vynechané`;
+- `Plán`, only when the row's `publish_on` is later than the day of the write: `publish_on <date> je neskôr ako dnes; stránka je verejná už od zápisu`;
 - `Poradie`, only when a run with a later `publish_on` has a lower page `_id`: `stránka <_id> má vyššie _id ako stránka <_id> behu <run id> s neskorším publish_on; v zozname blogu bude nad ňou`;
+- `Artefakty`, only when the read-back of the stored page found admin-editor artefacts or dropped anchors;
 - `Push`, only when the push of `written.json` failed after the write: the page is written, the record is not pushed;
 - `Zostáva`.
 
 ```
 Reviewer · 2026-10-05-mon · written
 Stránka     47, zapnutá · 21 jazykov · 21 adries · prostredie production
+Adresa      https://robotoys.sk/blog/<slug z názvu>
+Kontrola    živá: sk, bg, de · HTTP 200 · kotvy h2 v HTML · stránka v zozname blogu
 Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png, vo všetkých 21 jazykoch
 Štítky      žiadne vynechané
 Zostáva     nič; stránka je zverejnená
@@ -164,11 +170,14 @@ Zostáva     nič; stránka je zverejnená
 ```
 Reviewer · 2026-10-05-mon · written
 Stránka     47, zapnutá · 21 jazykov · 21 adries · prostredie development
+Kontrola    živá: preskočená (development)
 Obálka      nahratá so stránkou, runs/2026-10-05-mon/cover.png
 Editor      prostredie development · verejná len vo vývojovom obchode
 Štítky      vynechaný štítok stavanie-s-detmi (nemá názov v jazyku lv)
 Zostáva     nič; kontrola behu v prostredí development
 ```
+
+A failed live check keeps the `written` line: `Kontrola` reads `živá zlyhala: <adresa> · <čo chýba>`, `Zostáva` reads `nič; stránka je zverejnená, druhý zápis sa neposlal`, and an `Editor` line follows (`rozhodni, čo so stránkou`). A save whose stored page does not pass is posted as a stop; its shape is in [`18-review-and-write.md`](18-review-and-write.md#chat-lines).
 
 A replay:
 

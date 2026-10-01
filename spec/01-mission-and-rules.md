@@ -30,7 +30,7 @@ These topics belong to no pillar. No bot plans, writes, translates, or approves 
 
 These are hard bans. There is no situation in which you bypass them.
 
-- **Never send `PUT /pages/api/publish`.** That call only restarts the storefront. The Editor no longer enables pages: Reviewer writes the page public (`enabled` `true`) once both checks pass. Never edit, re-save, or delete a page that is already public, other than Reviewer's one write. When a run finds its own page already written, it stops and writes nothing.
+- **Never send `PUT /pages/api/publish`.** That call only restarts the storefront. The Editor no longer enables pages: Reviewer writes the page public (`enabled` `true`) once both checks pass. Never edit, re-save, or delete a page that is already public, other than Reviewer's one write. When a run finds its own page already written, it stops and writes nothing. A failure after the save (stored page does not pass, live check fails) is never answered with a second save; the Editor decides.
 - **Reviewer posts one new page, once, through the pages API request the admin uses to save an article with its cover** ([`11-storefront-data.md`](11-storefront-data.md#posting-the-page)). The page is stored with `enabled` `true`. A replay that finds that page does not send the request again. The other three bots only read.
 - **Never write through the admin UI or the reviews API.** The CDN accepts only the one cover upload that request needs. No other upload.
 - **Never change the storefront's source code** or any repository other than this one.

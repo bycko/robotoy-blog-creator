@@ -64,7 +64,7 @@ A blog article is one document in the `pages` collection. It holds all 21 langua
 | `categoryID` | integer | the blog category id, sent only on create |
 | `created` | integer | the service, at create |
 | `updated` | integer | the service, at create |
-| `enabled` | boolean | the save sends `false` |
+| `enabled` | boolean | the save sends `true` |
 | `sequence` | integer | the service, highest blog-page `sequence` plus one |
 | `tags` | array | the save sends `[]`, see [Tags](#tags) |
 | `pipeline_run_id` | string | the save sends the run id, for example `2026-10-19-mon` |
@@ -93,7 +93,7 @@ Two locales shown; the other 19 locales and 19 addresses follow the same shape. 
   "categoryID": 7,
   "created": 1792395600,
   "updated": 1792395600,
-  "enabled": false,
+  "enabled": true,
   "sequence": 30,
   "tags": [],
   "pipeline_run_id": "2026-10-19-mon",
@@ -214,7 +214,7 @@ The response JSON has `path`, a temporary file such as `/tmp/<name>.jpg`. The co
 
 ```json
 {
-  "enabled": false,
+  "enabled": true,
   "categoryID": 7,
   "pipeline_run_id": "2026-10-19-mon",
   "tags": [],
@@ -235,7 +235,7 @@ The other 19 locales follow the same keys. `categoryID` is the blog category id 
 Rules the service actually applies, so the body must follow them:
 
 - **`locale._sk.title` is the first key that ends in `.title`.** On create, `uid` is the slug of that first title.
-- **`enabled` is `false`.** Create defaults a page to enabled, and the same request then stores this value over it. Omitting it leaves the page enabled.
+- **`enabled` is `true`** (the Editor's decision of 2026-10-01: pipeline pages go public directly). Create defaults a page to enabled, and the same request then stores the sent value over it. The page is public as soon as the response returns, in all 21 languages; nothing in the request delays it. The row's `publish_on` is not sent and does not delay it (see the open question below).
 - Every `locale._<locale>.image` is the same temporary URL from step 1 (`https://cdn.robotoys.sk` plus the response `path`). The service uploads each one whose value contains `/tmp/` and rewrites it to `/page/gallery/<title with digits removed, then slugified>-<page id>-<random>.<ext>` on `https://cdn.robotoys.<country>`. The 21 stored addresses are not one string: each upload gets its own random id, and the host follows the country.
 - The cover image block, the first block of every locale, carries `file.url` set to that same temporary URL and `file.path` set to the response `path` (`/tmp/<name>.jpg`). `file.path` is only the switch (`ecommerce-pages-model` `Page.update`, block-image loop). The service downloads `file.url`, then replaces the whole `file` with `{ url, width, height }` under `/page/gallery/`. Width and height in the request are not kept. A cover block with `file.path` and no `file.url`, or with `file.url` pointing anywhere other than that temporary URL, is not sent: the download fails and the page may already have been inserted.
 - Every other image block is a catalog photo and must not carry `file.path`. A block that has `file.path` is uploaded again from its `file.url`.
@@ -334,6 +334,8 @@ That save is the only storefront write. The service itself replaces the page's a
 | Where does the run id live on the page? | The extra top-level field `pipeline_run_id`. | Existing pages lack it; the renderer reads only named fields (`robotoys-ui: lib/pages/lib/classes/page.js`). |
 
 ## Open
+
+- **`publish_on` and a public page.** A page is public from the moment it is saved with `enabled` `true`. The page document has no publish date the storefront filters on: `created` and `updated` are set by the service at the save, and the served article shows the date of the save (page 49, saved 2026-10-01 for `publish_on` 2026-10-14, shows 1. 10. 2026). Creator's rule ([`17-creator.md`](17-creator.md)) is that `publish_on` is not a gate, so a row planned three to four weeks ahead goes public when its run is written. Whether the storefront, the sitemaps, or the listing treat a later `publish_on` in any way is not known, and nothing in this specification delays a page. Open for the Editor: accept that a row goes public on its writing day, or give the pipeline a way to hold a finished article until its day. Reviewer does not guess one; it only names the gap in the `Plán` line of its written message.
 
 The dry run checks these before the first production write; until then the rules above stand.
 
