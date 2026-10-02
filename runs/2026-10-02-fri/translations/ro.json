@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "ro",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Cum funcționează cucul din ceas: mecanismul pas cu pas",
+  "description": "Ceasul cu cuc este pus în mișcare de o greutate, iar ticăitul este ținut de pendul. La ora fixă se eliberează un al doilea angrenaj: deschide ușița, scoate păsărica și, prin două burdufuri, trimite aer în țevi care dau tonurile cântului cucului.",
+  "seo_title": "Cum funcționează un ceas cu cuc: mecanism și sunet",
+  "seo_description": "Greutate, roți dințate, pendul și burdufuri: cum pornește pasărea într-un ceas cu cuc și de ce ceasurile mecanice rămân în urmă sau se grăbesc.",
+  "slug": "cum-functioneaza-cucul-din-ceas-mecanismul-pas-cu-pas",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Cum funcționează cucul din ceas: mecanismul pas cu pas"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ceasurile cu cuc clasice sunt puse în mișcare de o greutate, nu de o baterie. Greutatea trage un lanț, lanțul rotește roțile dințate, iar acestea mișcă acele. Ritmul îl ține pendulul: la fiecare oscilație el eliberează angrenajul cu un dinte și apare ticăitul cunoscut."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "La ora fixă se eliberează un al doilea angrenaj, numit angrenaj de sonerie. Acesta deschide ușița, scoate păsărica și ridică două burdufuri mici. Aerul este împins prin două țevi și dă tonurile pe care le auzi ca pe cântul cucului. Fără această eliberare, pasărea nu s-ar auzi, chiar dacă acele ar merge mai departe."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Cuprinsul articolului</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-pune-ceasul-in-miscare-si-cum-ajunge-miscarea-la-ace\">Ce pune ceasul în mișcare și cum ajunge mișcarea la ace</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-declanseaza-cucul-si-sunetul-la-ora-fixa\">Ce declanșează cucul și sunetul la ora fixă</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-sa-observi-la-roti-si-la-parghii-si-de-ce-ceasul-ramane-in-urma\">Ce să observi la roți și la pârghii și de ce ceasul rămâne în urmă</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#intrebari-frecvente\">Întrebări frecvente</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Ce pune ceasul în mișcare și cum ajunge mișcarea la ace",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-pune-ceasul-in-miscare-si-cum-ajunge-miscarea-la-ace"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Un angrenaj este un sistem de roți dințate care transmit mișcarea de la un arbore la altul. În ceasuri, de obicei sunt separate <strong>angrenajul orelor</strong> (acele) și <strong>angrenajul de sonerie</strong> (cucul și sunetul). Fiecare are propria greutate, așa că cele două angrenaje funcționează independent."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Greutatea coboară din cauza gravitației și rotește, prin lanț, roata mare. Roțile mai mici accelerează transmisia și duc mișcarea la arborele central cu acele. Fără reglare, totul s-ar derula deodată: de aceea, la capătul angrenajului orelor se află un <strong>mecanism de scăpare</strong> (escapement) legat de pendul."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "La oscilația spre stânga, o pârghie eliberează un dinte al roții de scăpare.",
+            "items": []
+          },
+          {
+            "content": "La oscilația spre dreapta, a doua pârghie prinde dintele și roata se oprește o clipă.",
+            "items": []
+          },
+          {
+            "content": "Așa apare un ticăit uniform, iar acele înaintează în pași mici, nu dintr-un singur clic.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Un pendul de o anumită lungime oscilează aproximativ în același ritm. De aceea lungimea pendulului stabilește dacă ceasul merge corect: prin alungire ceasul încetinește, prin scurtare se grăbește. Pendulul în sine nu pune ceasul în mișcare: energia greutății este eliberată în doze mici de mecanismul de scăpare, iar pendulul stabilește ritmul."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Ce declanșează cucul și sunetul la ora fixă",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-declanseaza-cucul-si-sunetul-la-ora-fixa"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Angrenajul de sonerie așteaptă blocat până când acul minutar termină o rotație. Pe mecanism se află o camă (disc cu camă): când acul minutar ajunge la ora fixă sau la jumătate de oră, cama ridică o pârghie, iar aceasta eliberează angrenajul de sonerie. Atunci pornesc deodată mai multe mișcări prin sârmulițe subțiri și pârghii."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "O sârmuliță întredeschide ușița din fața păsării.",
+            "items": []
+          },
+          {
+            "content": "O pârghie scoate pasărea din căsuță pe un braț articulat.",
+            "items": []
+          },
+          {
+            "content": "Cama ridică pe rând cele două burdufuri: unul dă primul ton, celălalt al doilea ton al cântului.",
+            "items": []
+          },
+          {
+            "content": "După ce loviturile se termină, pasărea intră la loc și ușița se închide.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Sunetul nu vine de la un difuzor. Fiecare burduf are partea de sus din hârtie și o țeavă din lemn: aerul împins prin țeavă formează tonul. Cele două burdufuri nu sunt, așadar, un ornament, ci două tonuri diferite. La ora fixă cântul se repetă după numărul orelor; la jumătate de oră, adesea doar o dată."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Înainte de lovitura propriu-zisă, uneori poți vedea o scurtă „avertizare”: ușița se deschide puțin înainte să iasă pasărea. Face parte din sincronizarea angrenajului de sonerie, nu este un defect. Dacă angrenajul nu s-ar elibera la momentul potrivit, acele ar arăta ora fixă, dar cucul ar tăcea."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Sfat:</strong> Când un model cu roți dințate se mișcă, urmărește o roată de la un dinte la altul: dacă un dinte se oprește mai devreme decât ceilalți, exact acolo ceva se freacă sau se blochează.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Ce să observi la roți și la pârghii și de ce ceasul rămâne în urmă",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-sa-observi-la-roti-si-la-parghii-si-de-ce-ceasul-ramane-in-urma"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Când mecanismul se mișcă, urmărește locurile în care se întâlnesc dinții roților și în care pârghiile ridică sârmulițele. Dinții trebuie să se angreneze uniform: dacă o roată smucește și alta stă, cauza poate fi praful de pe axe sau o sârmuliță care se blochează. Sârmulițele spre ușiță și spre burdufuri trebuie să se miște liber; frecarea de carcasă poate opri toată lovitura."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Ceasurile mecanice pot rămâne în urmă sau se pot grăbi din cauza lungimii pendulului; ritmul este influențat și de temperatura la care tija pendulului se dilată sau se contractă ușor, și de poziționarea strâmbă a ceasului. Un pendul prea lung încetinește mersul, unul mai scurt îl accelerează. Praful de pe axe sau frecarea adaugă rezistență, iar lovitura, uneori chiar întreg mersul, se poate opri. De aceea, la întreținere contează o mișcare liberă și curată, nu o tragere mai puternică."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Pe un model din lemn cu angrenaj vei vedea aceeași logică într-o formă simplificată: roțile transmit mișcarea, pârghiile declanșează acțiunea următoare, iar un dinte blocat oprește tot sistemul. Când angrenajul tău se blochează vreodată, ajută aceeași privire ca la ceasuri: găsește locul de frecare înainte să forțezi. Cum se face pas cu pas, scriem în articolul <a href=\"/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini\">despre mecanismul care se blochează</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Dacă te atrage ideea de a asambla un ceas cu cuc ca model din lemn, acest set te-ar putea interesa. Conform catalogului, este un model din lemn de asamblat, cu 435 de piese și mecanism cu cuarț. Timpul de asamblare și dificultatea le iei din parametrii de mai jos; la construcție se aplică instrucțiunile modelului respectiv."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-mecanic-3d-din-lemn-ceas-cu-cuc-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Puzzle mecanic 3D din lemn - Ceas cu cuc ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-mecanic-3d-din-lemn-ceas-cu-cuc-rokr-lc901c-p198\">Puzzle mecanic 3D din lemn - Ceas cu cuc ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Număr de piese: 435</li>\n      <li>Timp de asamblare: 6 h</li>\n      <li>Dificultate: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-mecanic-3d-din-lemn-ceas-cu-cuc-rokr-lc901c-p198\">Vezi setul</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Întrebări frecvente",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "intrebari-frecvente"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Ce pune în mișcare un ceas cu cuc clasic?</h3>\n    <p style=\"margin:0;\">De cele mai multe ori două greutăți pe lanțuri: una pune în mișcare angrenajul orelor cu acele, cealaltă angrenajul de sonerie cu cucul. Pendulul doar reglează ritmul, nu furnizează energie.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">De ce cântă cucul chiar la ora fixă?</h3>\n    <p style=\"margin:0;\">Când acul minutar ajunge la ora fixă, cama eliberează angrenajul de sonerie. Acesta deschide ușița, scoate pasărea și ridică pe rând două burdufuri; aerul împins prin țevi dă cele două tonuri ale cântului.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">De ce ceasurile mecanice rămân în urmă sau se grăbesc?</h3>\n    <p style=\"margin:0;\">Ritmul depinde de lungimea pendulului și de angrenarea curată a dinților. Un pendul mai lung încetinește ceasul, unul mai scurt îl accelerează. Un angrenaj care se blochează, în schimb, îl încetinește sau îl oprește.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Puzzle mecanic 3D din lemn - Ceas cu cuc ROKR LC901C",
+      "path": "/puzzle-3d-din-lemn/ceasuri-calendare/puzzle-mecanic-3d-din-lemn-ceas-cu-cuc-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mecanismul-se-blocheaza-cum-gasesti-frecarea-si-o-elimini",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

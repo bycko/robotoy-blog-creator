@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "lt",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Kaip veikia gegutė laikrodyje: mechanizmo žingsniai",
+  "description": "Gegutės laikrodį varo svarelis, o tiksėjimą palaiko švytuoklė. Kas valandą atsilaisvina antroji pavara: ji atidaro dureles, išstumia paukštelį ir per dvi dumples paleidžia orą į vamzdelius, kurie sukuria gegutės kukavimo tonus.",
+  "seo_title": "Kaip veikia gegutės laikrodis: mechanizmas ir garsas",
+  "seo_description": "Svarelis, krumpliaračiai, švytuoklė ir dumplės: kaip gegutės laikrodyje pradeda judėti paukštelis ir kodėl mechaniniai laikrodžiai vėluoja arba skuba.",
+  "slug": "kaip-veikia-gegute-laikrodyje-mechanizmo-zingsniai",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Kaip veikia gegutė laikrodyje: mechanizmo žingsniai"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Klasikinį gegutės laikrodį varo svarelis, o ne baterija. Svarelis tempia grandinę, grandinė suka krumpliaračius, o šie stumia rodykles. Tempą palaiko švytuoklė: kiekvieną kartą supdamasi ji atlaisvina pavarą per vieną dantį ir pasigirsta pažįstamas tiksėjimas."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Pilną valandą atsilaisvina antroji pavara, vadinamoji mušimo pavara. Ji atidaro dureles, išstumia paukštelį ir pakelia dvi mažas dumples. Oras išstumiamas pro du vamzdelius ir sukuria tonus, kuriuos girdi kaip gegutės kukavimą. Be šio atlaisvinimo paukštelis nekukuotų, net jei rodyklės judėtų toliau."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Straipsnio turinys</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kas-suka-laikrodi-ir-kaip-judesys-pasiekia-rodykles\">Kas suka laikrodį ir kaip judesys pasiekia rodykles</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kas-paleidzia-gegute-ir-garsa-pilna-valanda\">Kas paleidžia gegutę ir garsą pilną valandą</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ka-pastebeti-ant-ratu-ir-svirciu-ir-kodel-laikrodis-veluoja\">Ką pastebėti ant ratų ir svirčių ir kodėl laikrodis vėluoja</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#dazniausiai-uzduodami-klausimai\">Dažniausiai užduodami klausimai</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kas suka laikrodį ir kaip judesys pasiekia rodykles",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kas-suka-laikrodi-ir-kaip-judesys-pasiekia-rodykles"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Krumpliaračių pavara – tai krumpliaračių sistema, perduodanti judesį iš vieno veleno į kitą. Laikrodžiuose dažniausiai būna atskirtos <strong>laiko pavara</strong> (rodyklės) ir <strong>mušimo pavara</strong> (gegutė ir garsas). Kiekviena turi savo svarelį, todėl abi pavaros veikia nepriklausomai."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Svarelis leidžiasi dėl gravitacijos ir per grandinę suka didįjį ratą. Mažesni ratai pagreitina pavarą ir perduoda judesį vidurinei ašiai su rodyklėmis. Be reguliavimo viskas nusiristų iš karto: todėl laiko pavaros gale yra <strong>inkaro mechanizmas</strong> (escapement), sujungtas su švytuokle."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Švytuoklei pasisukus į kairę, viena svirtis atlaisvina krumpliaračio dantį.",
+            "items": []
+          },
+          {
+            "content": "Pasisukus į dešinę, antroji svirtis sulaiko dantį ir ratas akimirką sustoja.",
+            "items": []
+          },
+          {
+            "content": "Taip atsiranda tolygus tiksėjimas, o rodyklės juda mažais žingsniais, o ne vienu spragtelėjimu.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Tam tikro ilgio švytuoklė svyruoja maždaug vienodu tempu. Todėl švytuoklės ilgis lemia, ar laikrodis eina teisingai: ją pailginus laikrodis sulėtėja, sutrumpinus – paspartėja. Pati švytuoklė laikrodžio nevaro: svarelio energiją mažomis porcijomis atleidžia inkaro mechanizmas, o švytuoklė nustato tempą."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Kas paleidžia gegutę ir garsą pilną valandą",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kas-paleidzia-gegute-ir-garsa-pilna-valanda"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Mušimo pavara laukia užfiksuota, kol minutinė rodyklė užbaigs apsisukimą. Mechanizme yra kumštelis (kumštelinis diskas): kai minutinė rodyklė pasiekia pilną valandą ar pusvalandį, kumštelis pakelia svirtį, o ji atlaisvina mušimo pavarą. Tada per plonas vielutes ir svirtis vienu metu pajuda keli judesiai."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Vielutė praveria dureles prieš paukštelį.",
+            "items": []
+          },
+          {
+            "content": "Svirtis ant lankstinės rankenos išstumia paukštelį iš namelio.",
+            "items": []
+          },
+          {
+            "content": "Kumštelis paeiliui pakelia dvi dumples: viena duoda pirmąjį toną, kita – antrąjį kukavimo toną.",
+            "items": []
+          },
+          {
+            "content": "Pasibaigus mušimui, paukštelis grįžta vidun ir durelės užsidaro.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Garso nekuria garsiakalbis. Kiekviena dumplė turi popierinį viršų ir medinį vamzdelį: pro vamzdelį išspaustas oras sukuria toną. Dvi dumplės todėl nėra papuošimas, o du skirtingi tonai. Pilną valandą kukavimas kartojamas pagal valandų skaičių, o pusvalandį dažnai tik vieną kartą."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Prieš patį mušimą kartais gali pamatyti trumpą „įspėjimą“: durelės šiek tiek prasiveria, kol paukštelis dar neišlindo. Tai mušimo pavaros laiko nustatymo dalis, o ne gedimas. Jei pavara neatsilaisvintų reikiamu momentu, rodyklės rodytų pilną valandą, bet gegutė tylėtų."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Patarimas:</strong> Kai modelis su krumpliaračiais juda, stebėk vieną ratą nuo danties iki danties: jei koks nors dantis sustoja anksčiau už kitus, kaip tik ten kažkas trinasi arba stringa.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Ką pastebėti ant ratų ir svirčių ir kodėl laikrodis vėluoja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ka-pastebeti-ant-ratu-ir-svirciu-ir-kodel-laikrodis-veluoja"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Kai mechanizmas juda, stebėk vietas, kur susitinka ratų dantys ir kur svirtys kelia vielutes. Dantys turi sukibti tolygiai: jei vienas ratas trūkteli, o kitas stovi, priežastis gali būti dulkės ant ašelių arba stringanti vielutė. Vielutės į dureles ir dumples turi judėti laisvai; trintis į korpusą gali sustabdyti visą mušimą."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mechaniniai laikrodžiai gali vėluoti arba skubėti dėl švytuoklės ilgio; tempą veikia ir temperatūra, nuo kurios švytuoklės strypas šiek tiek plečiasi ar traukiasi, bei nelygus laikrodžio pastatymas. Per ilga švytuoklė eigą sulėtina, trumpesnė – pagreitina. Dulkės ant ašelių ar trintis padidina pasipriešinimą, todėl mušimas, o kartais ir visa eiga, gali sustoti. Todėl prižiūrint svarbus laisvas ir švarus judėjimas, o ne stipresnis tempimas."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Medinio modelio su krumpliaračių pavara viduje pamatysi tą pačią logiką supaprastinta forma: ratai perduoda judesį, svirtys paleidžia kitą veiksmą, o vienas užstrigęs dantis sustabdo visą sistemą. Kai tau pavara kada nors strigs, padės toks pat žvilgsnis kaip su laikrodžiais: suraski trinties vietą, kol dar nespaudi jėga. Kaip tai padaryti žingsnis po žingsnio, rašome straipsnyje <a href=\"/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti\">apie stringantį mechanizmą</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Jei tave traukia idėja sudėti gegutės laikrodį kaip medinį modelį, šis rinkinys gali sudominti. Pagal katalogą tai medinis sudedamas modelis su 435 detalėmis ir kvarciniu mechanizmu. Surinkimo laiką ir sudėtingumą imk iš žemiau pateiktų parametrų; statant galioja konkretaus modelio instrukcija."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medinis-mechaninis-3d-deliones-komplektas-gegutes-laikrodis-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Medinis mechaninis 3D dėlionės komplektas - Gegutės laikrodis ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medinis-mechaninis-3d-deliones-komplektas-gegutes-laikrodis-rokr-lc901c-p198\">Medinis mechaninis 3D dėlionės komplektas - Gegutės laikrodis ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detalių skaičius: 435</li>\n      <li>Surinkimo laikas: 6 val.</li>\n      <li>Sudėtingumas: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/medine-3d-delione/laikrodziai-kalendoriai/medinis-mechaninis-3d-deliones-komplektas-gegutes-laikrodis-rokr-lc901c-p198\">Žiūrėti rinkinį</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Dažniausiai užduodami klausimai",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "dazniausiai-uzduodami-klausimai"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kas varo klasikinį gegutės laikrodį?</h3>\n    <p style=\"margin:0;\">Dažniausiai du svareliai ant grandinių: vienas varo laiko pavarą su rodyklėmis, kitas mušimo pavarą su gegute. Švytuoklė tik reguliuoja tempą, pati energijos neduoda.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kodėl gegutė užkukuoja būtent pilną valandą?</h3>\n    <p style=\"margin:0;\">Kai minutinė rodyklė pasiekia pilną valandą, kumštelis atlaisvina mušimo pavarą. Ji atidaro dureles, išstumia paukštelį ir paeiliui pakelia dvi dumples; pro vamzdelius išspaustas oras sukuria du kukavimo tonus.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kodėl mechaniniai laikrodžiai vėluoja arba skuba?</h3>\n    <p style=\"margin:0;\">Tempą nulemia švytuoklės ilgis ir švarus dantų sukibimas. Ilgesnė švytuoklė laikrodį sulėtina, trumpesnė – pagreitina. Stringanti pavara, priešingai, jį sulėtina arba sustabdo.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Medinis mechaninis 3D dėlionės komplektas - Gegutės laikrodis ROKR LC901C",
+      "path": "/medine-3d-delione/laikrodziai-kalendoriai/medinis-mechaninis-3d-deliones-komplektas-gegutes-laikrodis-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/dienorastis/mechanizmas-stringa-kaip-rasti-trinti-ir-ja-pasalinti",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

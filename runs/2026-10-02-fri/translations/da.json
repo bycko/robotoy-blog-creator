@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "da",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Sådan virker gøgen i uret: mekanismen trin for trin",
+  "description": "Et gøgeur drives af en vægt, og tikkene holdes af pendulet. Hver hele time udløses et andet gearværk: det åbner lågen, skubber fuglen frem og lader luft fra to bælge strømme gennem piber, som giver gøgens toner.",
+  "seo_title": "Sådan virker et gøgeur: mekanisme og lyd",
+  "seo_description": "Vægt, tandhjul, pendul og bælge: sådan sætter gøgeuret fuglen i gang, og derfor går mekaniske ure med tiden for langsomt eller for hurtigt.",
+  "slug": "sadan-virker-gogen-i-uret-mekanismen-trin-for-trin",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Sådan virker gøgen i uret: mekanismen trin for trin"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Et klassisk gøgeur drives af en vægt, ikke af et batteri. Vægten trækker i en kæde, kæden drejer tandhjulene, og de flytter visarerne. Pendulet holder tempoet: ved hvert udsving slipper det værket én tand frem, og den kendte tikken opstår."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Hver hele time udløses et andet gearværk, det såkaldte slagværk. Det åbner lågen, skubber fuglen frem og løfter to små bælge. Luften presses gennem to piber og giver de toner, du hører som gøgen. Uden denne udløsning ville fuglen ikke give lyd, selv om visarerne gik videre."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Indhold</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#hvad-driver-uret-og-hvordan-nar-bevaegelsen-visarerne\">Hvad driver uret, og hvordan når bevægelsen visarerne</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hvad-udloser-gogen-og-lyden-pa-hel-time\">Hvad udløser gøgen og lyden på hel time</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#hvad-du-skal-laegge-maerke-til-ved-hjul-og-arme-og-hvorfor-ure-gar-bagud\">Hvad du skal lægge mærke til ved hjul og arme, og hvorfor ure går bagud</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ofte-stillede-sporgsmal\">Ofte stillede spørgsmål</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Hvad driver uret, og hvordan når bevægelsen visarerne",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hvad-driver-uret-og-hvordan-nar-bevaegelsen-visarerne"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Et gearværk er et system af tandhjul, der overfører bevægelse fra én aksel til en anden. I ure er som regel <strong>tidsværket</strong> (visarerne) og <strong>slagværket</strong> (gøgen og lyden) adskilt. Hvert har sin egen vægt, så de to værker kører uafhængigt af hinanden."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Vægten synker på grund af tyngdekraften og drejer det store hjul via kæden. De mindre hjul øger hastigheden og overfører bevægelsen til den midterste aksel med visarerne. Uden regulering ville alt løbe af sted på én gang. Derfor sidder der i enden af tidsværket et <strong>echappement</strong> (escapement), som er koblet til pendulet."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Ved udsving mod venstre frigør den ene arm en tand på ganghjulet.",
+            "items": []
+          },
+          {
+            "content": "Ved udsving mod højre fanger den anden arm tanden, og hjulet stopper et øjeblik.",
+            "items": []
+          },
+          {
+            "content": "Sådan opstår en jævn tikken, og visarerne rykker frem i små skridt, ikke i ét klik.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Et pendul af en bestemt længde svinger med nogenlunde samme tempo. Derfor afgør pendulets længde, om uret går rigtigt: gøres det længere, går uret langsommere, gøres det kortere, går det hurtigere. Selve pendulet driver ikke uret: energien fra vægten slippes i små portioner af echappementet, og pendulet bestemmer tempoet."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Hvad udløser gøgen og lyden på hel time",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hvad-udloser-gogen-og-lyden-pa-hel-time"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Slagværket står låst, indtil minutviseren har gennemført en omdrejning. På værket sidder en knast (en knastskive): når minutviseren når hel eller halv time, løfter knasten en arm, som udløser slagværket. Så sættes flere bevægelser i gang på én gang gennem tynde ståltråde og arme."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "En ståltråd åbner lågen foran fuglen på klem.",
+            "items": []
+          },
+          {
+            "content": "En arm skubber fuglen ud af huset på en hængslet arm.",
+            "items": []
+          },
+          {
+            "content": "Knasten løfter skiftevis de to bælge: den ene giver den første tone, den anden den anden tone i kaldet.",
+            "items": []
+          },
+          {
+            "content": "Når slagene er færdige, går fuglen ind igen, og lågen lukker.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Lyden kommer ikke fra en højttaler. Hver bælg har en top af papir og en pibe af træ: luft, der presses gennem piben, danner tonen. De to bælge er derfor ikke pynt, men to forskellige toner. Ved hel time gentages kaldet efter antallet af timer, ved halv time ofte kun én gang."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Før selve slaget kan du nogle gange se en kort »advarsel«: lågen åbner sig lidt, før fuglen kommer ud. Det er en del af slagværkets timing og ikke en fejl. Hvis værket ikke blev udløst i det rigtige øjeblik, ville visarerne vise hel time, men gøgen ville tie."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Når en model med tandhjul bevæger sig, så følg ét hjul fra tand til tand: hvis en tand stopper tidligere end de andre, er det netop dér, noget gnider eller sidder fast.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Hvad du skal lægge mærke til ved hjul og arme, og hvorfor ure går bagud",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "hvad-du-skal-laegge-maerke-til-ved-hjul-og-arme-og-hvorfor-ure-gar-bagud"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Når værket bevæger sig, så se på de steder, hvor hjulenes tænder mødes, og hvor armene løfter ståltrådene. Tænderne skal gribe jævnt ind i hinanden: hvis det ene hjul rykker, og det andet står stille, kan det skyldes støv på tapperne eller en ståltråd, der sidder fast. Ståltrådene til lågen og bælgene skal kunne bevæge sig frit; gnidning mod kassen kan stoppe hele slaget."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mekaniske ure kan gå for langsomt eller for hurtigt på grund af pendulets længde; tempoet påvirkes også af temperaturen, hvor pendulstangen udvider sig eller trækker sig en smule sammen, og af, at uret hænger skævt. Et for langt pendul bremser gangen, et kortere gør den hurtigere. Støv på tapperne eller gnidning giver modstand, og slaget, eventuelt hele gangen, kan stoppe. Ved vedligeholdelse handler det derfor om en fri og ren bevægelse, ikke om et kraftigere træk."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "På en træmodel med tandhjulsværk kan du se den samme logik i en forenklet form: hjulene overfører bevægelsen, armene sætter næste forløb i gang, og én fastklemt tand stopper hele systemet. Hvis værket engang sidder fast, hjælper det samme blik som ved ure: find stedet, hvor det gnider, før du presser på med kraft. Hvordan du gør det trin for trin, skriver vi om i artiklen <a href=\"/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den\">om en mekanisme, der sidder fast</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Hvis du har lyst til at bygge et gøgeur som træmodel, kan dette byggesæt måske interessere dig. Ifølge kataloget er det en træmodel til samling med 435 dele og kvartsværk. Samletid og sværhedsgrad finder du i parametrene nedenfor; under samlingen gælder vejledningen til den konkrete model."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/trae-3d-puslespil/ure-kalendere/traemekanisk-3d-puslespil-gogur-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Træmekanisk 3D-puslespil - Gøgur ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/trae-3d-puslespil/ure-kalendere/traemekanisk-3d-puslespil-gogur-rokr-lc901c-p198\">Træmekanisk 3D-puslespil - Gøgur ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Antal dele: 435</li>\n      <li>Samletid: 6 t</li>\n      <li>Sværhedsgrad: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/trae-3d-puslespil/ure-kalendere/traemekanisk-3d-puslespil-gogur-rokr-lc901c-p198\">Se byggesættet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Ofte stillede spørgsmål",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ofte-stillede-sporgsmal"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvad driver et klassisk gøgeur?</h3>\n    <p style=\"margin:0;\">Oftest to vægte på kæder: den ene driver tidsværket med visarerne, den anden slagværket med gøgen. Pendulet regulerer kun tempoet og tilfører ikke selv energi.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvorfor lyder gøgen netop på hel time?</h3>\n    <p style=\"margin:0;\">Når minutviseren når hel time, udløser knasten slagværket. Det åbner lågen, skubber fuglen frem og løfter skiftevis to bælge; luften, der presses gennem piberne, giver kaldets to toner.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Hvorfor går mekaniske ure for langsomt eller for hurtigt?</h3>\n    <p style=\"margin:0;\">Tempoet bestemmes af pendulets længde og af, at tænderne griber rent ind i hinanden. Et længere pendul gør uret langsommere, et kortere gør det hurtigere. En mekanisme, der sidder fast, bremser eller stopper det i stedet.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Træmekanisk 3D-puslespil - Gøgur ROKR LC901C",
+      "path": "/trae-3d-puslespil/ure-kalendere/traemekanisk-3d-puslespil-gogur-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mekanismen-sidder-fast-find-gnidningen-og-fjern-den",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

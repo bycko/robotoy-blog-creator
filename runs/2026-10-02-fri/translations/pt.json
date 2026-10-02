@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "pt",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Como funciona o cuco no relógio: o mecanismo passo a passo",
+  "description": "Um relógio de cuco é acionado por um peso e o tique-taque é mantido pelo pêndulo. À hora em ponto liberta-se um segundo mecanismo: abre a portinha, empurra a ave para fora e, através de dois foles, envia ar para tubos que dão os tons do canto do cuco.",
+  "seo_title": "Como funciona um relógio de cuco: mecanismo e som",
+  "seo_description": "Peso, rodas dentadas, pêndulo e foles: como a ave é acionada num relógio de cuco e porque é que os relógios mecânicos se atrasam ou adiantam.",
+  "slug": "como-funciona-o-cuco-no-relogio-o-mecanismo-passo-a-passo",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Como funciona o cuco no relógio: o mecanismo passo a passo"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Um relógio de cuco clássico é acionado por um peso, não por uma pilha. O peso puxa uma corrente, a corrente faz girar as rodas dentadas e estas movem os ponteiros. O ritmo é mantido pelo pêndulo: a cada oscilação liberta o mecanismo um dente e surge o conhecido tique-taque."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "À hora em ponto liberta-se um segundo mecanismo, o chamado mecanismo de percussão. Abre a portinha, empurra a ave para fora e levanta dois foles pequenos. O ar é empurrado por dois tubos e dá os tons que ouves como o cuco. Sem esta libertação, a ave não se faria ouvir, mesmo que os ponteiros continuassem a andar."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Conteúdo do artigo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#o-que-move-o-relogio-e-como-o-movimento-chega-aos-ponteiros\">O que move o relógio e como o movimento chega aos ponteiros</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#o-que-aciona-o-cuco-e-o-som-a-hora-em-ponto\">O que aciona o cuco e o som à hora em ponto</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#o-que-observar-nas-rodas-e-nas-alavancas-e-porque-e-que-o-relogio-se-atrasa\">O que observar nas rodas e nas alavancas e porque é que o relógio se atrasa</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#perguntas-frequentes\">Perguntas frequentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "O que move o relógio e como o movimento chega aos ponteiros",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "o-que-move-o-relogio-e-como-o-movimento-chega-aos-ponteiros"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Um trem de engrenagens é um conjunto de rodas dentadas que transmitem o movimento de um veio para outro. Nos relógios, costumam estar separados o <strong>mecanismo das horas</strong> (os ponteiros) e o <strong>mecanismo de percussão</strong> (o cuco e o som). Cada um tem o seu próprio peso, por isso os dois mecanismos funcionam de forma independente."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "O peso desce por efeito da gravidade e, através da corrente, faz girar a roda grande. As rodas mais pequenas aceleram a transmissão e passam o movimento para o veio central com os ponteiros. Sem regulação, tudo se desenrolaria de uma só vez: por isso, no fim do mecanismo das horas, há um <strong>escapamento</strong> (escapement) ligado ao pêndulo."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Na oscilação para a esquerda, uma alavanca liberta um dente da roda do escapamento.",
+            "items": []
+          },
+          {
+            "content": "Na oscilação para a direita, a segunda alavanca prende o dente e a roda para por instantes.",
+            "items": []
+          },
+          {
+            "content": "Assim surge um tique-taque regular e os ponteiros avançam em pequenos passos, não de uma só vez.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Um pêndulo com um dado comprimento oscila aproximadamente ao mesmo ritmo. Por isso, o comprimento do pêndulo determina se o relógio anda certo: alongá-lo abranda o relógio, encurtá-lo acelera-o. O pêndulo, por si só, não aciona o relógio: a energia do peso é libertada em pequenas doses pelo escapamento e o pêndulo define o ritmo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "O que aciona o cuco e o som à hora em ponto",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "o-que-aciona-o-cuco-e-o-som-a-hora-em-ponto"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "O mecanismo de percussão espera bloqueado até o ponteiro dos minutos completar a volta. No mecanismo há uma came (disco de came): quando o ponteiro dos minutos chega à hora em ponto ou à meia hora, a came levanta uma alavanca e esta liberta o mecanismo de percussão. Nessa altura, vários movimentos arrancam ao mesmo tempo através de arames finos e alavancas."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Um arame entreabre a portinha à frente da ave.",
+            "items": []
+          },
+          {
+            "content": "Uma alavanca empurra a ave, num braço articulado, para fora da casinha.",
+            "items": []
+          },
+          {
+            "content": "A came levanta alternadamente os dois foles: um dá o primeiro tom, o outro o segundo tom do canto.",
+            "items": []
+          },
+          {
+            "content": "Quando as badaladas terminam, a ave recolhe-se e a portinha fecha-se.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "O som não vem de um altifalante. Cada fole tem um topo de papel e um tubo de madeira: o ar empurrado pelo tubo cria o tom. Os dois foles não são, por isso, um enfeite, mas dois tons diferentes. À hora em ponto, o canto repete-se conforme o número de horas; à meia hora, muitas vezes só uma vez."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Antes da batida propriamente dita, podes por vezes ver um breve «aviso»: a portinha abre-se ligeiramente antes de a ave sair. Faz parte da temporização do mecanismo de percussão e não é uma avaria. Se o mecanismo não fosse libertado no momento certo, os ponteiros indicariam a hora em ponto, mas o cuco ficaria calado."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Dica:</strong> Quando um modelo com rodas dentadas se mexe, acompanha uma roda de dente em dente: se algum dente parar antes dos outros, é precisamente aí que algo está a roçar ou a prender.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "O que observar nas rodas e nas alavancas e porque é que o relógio se atrasa",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "o-que-observar-nas-rodas-e-nas-alavancas-e-porque-e-que-o-relogio-se-atrasa"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Quando o mecanismo se mexe, observa os pontos onde os dentes das rodas se encontram e onde as alavancas levantam os arames. Os dentes devem engrenar de forma uniforme: se uma roda dá solavancos e outra fica parada, a causa pode ser pó nos eixos ou um arame preso. Os arames para a portinha e para os foles têm de se mover livremente; o atrito contra a caixa pode parar toda a batida."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Os relógios mecânicos podem atrasar-se ou adiantar-se por causa do comprimento do pêndulo; o ritmo também é influenciado pela temperatura, com a qual a haste do pêndulo se dilata ou contrai ligeiramente, e por o relógio estar torto. Um pêndulo demasiado comprido abranda a marcha, um mais curto acelera-a. O pó nos eixos ou o atrito aumentam a resistência e a batida, ou mesmo toda a marcha, pode parar. Por isso, na manutenção o que conta é um movimento livre e limpo, não um puxão mais forte."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Num modelo de madeira com engrenagens vês a mesma lógica de forma simplificada: as rodas transmitem o movimento, as alavancas desencadeiam a ação seguinte e um dente encravado para todo o sistema. Quando o teu mecanismo prender, ajuda o mesmo olhar que nos relógios: encontra o ponto de atrito antes de forçares. Explicamos como fazê-lo passo a passo no artigo <a href=\"/blogue/mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo\">sobre o mecanismo que prende</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Se te atrai a ideia de montar um relógio de cuco como modelo de madeira, este kit pode interessar-te. Segundo o catálogo, trata-se de um modelo de madeira para montar, com 435 peças e um mecanismo de quartzo. Retira o tempo de montagem e a dificuldade dos parâmetros abaixo; durante a construção vale o manual do modelo em causa."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-mecanico-3d-de-madeira-relogio-cuco-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Quebra-cabeça mecânico 3D de madeira - Relógio cuco ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-mecanico-3d-de-madeira-relogio-cuco-rokr-lc901c-p198\">Quebra-cabeça mecânico 3D de madeira - Relógio cuco ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Número de peças: 435</li>\n      <li>Tempo de montagem: 6 h</li>\n      <li>Dificuldade: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-mecanico-3d-de-madeira-relogio-cuco-rokr-lc901c-p198\">Ver o kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Perguntas frequentes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "perguntas-frequentes"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">O que aciona um relógio de cuco clássico?</h3>\n    <p style=\"margin:0;\">Na maioria dos casos, dois pesos em correntes: um aciona o mecanismo das horas com os ponteiros, o outro o mecanismo de percussão com o cuco. O pêndulo apenas regula o ritmo, não fornece energia.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Porque é que o cuco soa precisamente à hora em ponto?</h3>\n    <p style=\"margin:0;\">Quando o ponteiro dos minutos chega à hora em ponto, a came liberta o mecanismo de percussão. Este abre a portinha, empurra a ave para fora e levanta alternadamente dois foles; o ar empurrado pelos tubos dá os dois tons do canto.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Porque é que os relógios mecânicos se atrasam ou adiantam?</h3>\n    <p style=\"margin:0;\">O ritmo é mantido pelo comprimento do pêndulo e pelo encaixe limpo dos dentes. Um pêndulo mais comprido abranda o relógio, um mais curto acelera-o. Uma engrenagem que prende, pelo contrário, abranda-o ou para-o.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Quebra-cabeça mecânico 3D de madeira - Relógio cuco ROKR LC901C",
+      "path": "/quebra-cabeca-3d-de-madeira/relogios-calendarios/quebra-cabeca-mecanico-3d-de-madeira-relogio-cuco-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blogue/mecanismo-a-prender-como-encontrar-o-atrito-e-elimina-lo",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

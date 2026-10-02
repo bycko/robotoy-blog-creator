@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "sv",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Så fungerar göken i ett gökur: mekanismen steg för steg",
+  "description": "Ett gökur drivs av en vikt, och tickandet hålls av pendeln. Varje hel timme frigörs ett andra drivverk: det öppnar luckan, skjuter ut fågeln och släpper luft från två bälgar genom pipor som ger gökropets toner.",
+  "seo_title": "Så fungerar ett gökur: mekanism och ljud",
+  "seo_description": "Vikt, kugghjul, pendel och bälgar: så sätts fågeln i rörelse i ett gökur, och därför går mekaniska ur efter eller före med tiden.",
+  "slug": "sa-fungerar-goken-i-ett-gokur-mekanismen-steg-for-steg",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Så fungerar göken i ett gökur: mekanismen steg för steg"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Ett klassiskt gökur drivs av en vikt, inte av ett batteri. Vikten drar i en kedja, kedjan vrider kugghjulen och de flyttar visarna. Pendeln håller takten: vid varje utslag släpper den fram drivverket en tand, och det välkända tickandet uppstår."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "På hel timme frigörs ett andra drivverk, det så kallade slagverket. Det öppnar luckan, skjuter ut fågeln och lyfter två små bälgar. Luften pressas genom två pipor och ger de toner som du hör som göken. Utan den här frigörningen skulle fågeln inte låta, även om visarna gick vidare."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Artikelns innehåll</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#vad-som-driver-uret-och-hur-rorelsen-nar-visarna\">Vad som driver uret och hur rörelsen når visarna</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#vad-som-utloser-goken-och-ljudet-pa-hel-timme\">Vad som utlöser göken och ljudet på hel timme</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#vad-du-ska-titta-pa-vid-hjul-och-spakar-och-varfor-ur-gar-efter\">Vad du ska titta på vid hjul och spakar och varför ur går efter</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#vanliga-fragor\">Vanliga frågor</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Vad som driver uret och hur rörelsen når visarna",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vad-som-driver-uret-och-hur-rorelsen-nar-visarna"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Ett drivverk är ett system av kugghjul som överför rörelse från en axel till en annan. I ur är oftast <strong>gångverket</strong> (visarna) och <strong>slagverket</strong> (göken och ljudet) åtskilda. Vart och ett har sin egen vikt, så de två verken går oberoende av varandra."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Vikten sjunker på grund av tyngdkraften och vrider det stora hjulet via kedjan. De mindre hjulen ökar farten och för rörelsen vidare till mittaxeln med visarna. Utan reglering skulle allt rusa iväg på en gång: därför sitter det i slutet av gångverket ett <strong>hämverk</strong> (escapement) som är kopplat till pendeln."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Vid utslag åt vänster frigör en spak en tand på hämhjulet.",
+            "items": []
+          },
+          {
+            "content": "Vid utslag åt höger fångar den andra spaken tanden, och hjulet stannar ett ögonblick.",
+            "items": []
+          },
+          {
+            "content": "Så uppstår ett jämnt tickande, och visarna rör sig i små steg, inte med ett enda klick.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "En pendel av en viss längd svänger ungefär i samma takt. Därför avgör pendelns längd om uret går rätt: förlängs den går uret långsammare, förkortas den går det snabbare. Pendeln driver inte uret själv: energin från vikten släpps fram i små portioner av hämverket, och pendeln bestämmer takten."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Vad som utlöser göken och ljudet på hel timme",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vad-som-utloser-goken-och-ljudet-pa-hel-timme"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Slagverket väntar låst tills minutvisaren har gjort klart ett varv. På verket sitter en kam (kamskiva): när minutvisaren når hel eller halv timme lyfter kammen en spak, och den frigör slagverket. Då sätts flera rörelser igång samtidigt genom tunna ståltrådar och spakar."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "En ståltråd öppnar luckan framför fågeln på glänt.",
+            "items": []
+          },
+          {
+            "content": "En spak skjuter ut fågeln på en ledad arm ur huset.",
+            "items": []
+          },
+          {
+            "content": "Kammen lyfter växelvis de två bälgarna: den ena ger den första tonen, den andra den andra tonen i ropet.",
+            "items": []
+          },
+          {
+            "content": "När slagen är slut går fågeln in igen och luckan stängs.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Ljudet kommer inte från en högtalare. Varje bälg har en pappersöverdel och en träpipa: luften som pressas genom pipan skapar tonen. De två bälgarna är alltså ingen prydnad, utan två olika toner. På hel timme upprepas ropet efter antalet timmar, på halv timme ofta bara en gång."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Före själva slaget kan du ibland se en kort ”varning”: luckan öppnas lite innan fågeln kommer ut. Det är en del av slagverkets timing och inget fel. Om verket inte frigjordes i rätt ögonblick skulle visarna visa hel timme, men göken skulle tiga."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tips:</strong> När en modell med kugghjul rör sig, följ ett hjul från tand till tand: om någon tand stannar tidigare än de andra är det precis där något skaver eller kärvar.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Vad du ska titta på vid hjul och spakar och varför ur går efter",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vad-du-ska-titta-pa-vid-hjul-och-spakar-och-varfor-ur-gar-efter"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "När mekanismen rör sig, titta på ställena där hjulens tänder möts och där spakarna lyfter ståltrådarna. Tänderna ska gripa i varandra jämnt: om ett hjul ryckar och ett annat står still kan det bero på damm på tapparna eller en ståltråd som kärvar. Ståltrådarna till luckan och bälgarna måste gå fritt; friktion mot skåpet kan stoppa hela slaget."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mekaniska ur kan gå efter eller före på grund av pendelns längd; takten påverkas också av temperaturen, då pendelstaven vidgas eller drar ihop sig något, och av att uret hänger snett. En för lång pendel saktar ner gången, en kortare gör den snabbare. Damm på tapparna eller friktion ger motstånd, och slaget, eller till och med hela gången, kan stanna. Vid skötsel handlar det därför om en fri och ren rörelse, inte om ett hårdare drag."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "På en trämodell med kugghjul ser du samma logik i förenklad form: hjulen överför rörelsen, spakarna sätter igång nästa moment och en enda fastnad tand stoppar hela systemet. När ditt drivverk någon gång kärvar hjälper samma blick som vid ur: hitta friktionsstället innan du trycker med kraft. Hur du gör steg för steg skriver vi i artikeln <a href=\"/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den\">om en mekanism som fastnar</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Om du lockas av att bygga ett gökur som trämodell kan den här byggsatsen vara intressant. Enligt katalogen är det en trämodell att bygga ihop med 435 delar och ett kvartsverk. Byggtid och svårighetsgrad hittar du i parametrarna nedan; under bygget gäller anvisningen för den enskilda modellen."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/3d-pussel-i-tra/klockor-kalendrar/tramekaniskt-3d-pussel-gokur-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Trämekaniskt 3D-pussel - Gökur ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/3d-pussel-i-tra/klockor-kalendrar/tramekaniskt-3d-pussel-gokur-rokr-lc901c-p198\">Trämekaniskt 3D-pussel - Gökur ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Antal delar: 435</li>\n      <li>Byggtid: 6 tim</li>\n      <li>Svårighetsgrad: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/3d-pussel-i-tra/klockor-kalendrar/tramekaniskt-3d-pussel-gokur-rokr-lc901c-p198\">Visa byggsatsen</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Vanliga frågor",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "vanliga-fragor"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Vad driver ett klassiskt gökur?</h3>\n    <p style=\"margin:0;\">Oftast två vikter på kedjor: den ena driver gångverket med visarna, den andra slagverket med göken. Pendeln reglerar bara takten och tillför ingen egen energi.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Varför hörs göken just på hel timme?</h3>\n    <p style=\"margin:0;\">När minutvisaren når hel timme frigör kammen slagverket. Det öppnar luckan, skjuter ut fågeln och lyfter växelvis två bälgar; luften som pressas genom piporna ger ropets två toner.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Varför går mekaniska ur efter eller före?</h3>\n    <p style=\"margin:0;\">Takten hålls av pendelns längd och av att tänderna går rent i varandra. En längre pendel gör uret långsammare, en kortare gör det snabbare. Ett drivverk som kärvar saktar däremot ner eller stoppar det.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Trämekaniskt 3D-pussel - Gökur ROKR LC901C",
+      "path": "/3d-pussel-i-tra/klockor-kalendrar/tramekaniskt-3d-pussel-gokur-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blogg/mekanismen-fastnar-hitta-friktionen-och-atgarda-den",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

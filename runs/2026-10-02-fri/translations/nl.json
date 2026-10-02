@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "nl",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Hoe werkt een koekoeksklok: het mechanisme stap voor stap",
+  "description": "Een koekoeksklok wordt aangedreven door een gewicht en de slinger houdt het tikken op tempo. Op het hele uur komt een tweede tandwielwerk vrij: het opent het deurtje, schuift het vogeltje naar buiten en blaast via twee balgjes lucht door pijpjes, die de tonen van de koekoeksroep geven.",
+  "seo_title": "Hoe werkt een koekoeksklok: mechanisme en geluid",
+  "seo_description": "Gewicht, tandwielen, slinger en balgjes: zo komt het vogeltje in een koekoeksklok in beweging en daarom lopen mechanische klokken achter of voor.",
+  "slug": "hoe-werkt-een-koekoeksklok-het-mechanisme-stap-voor-stap",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Hoe werkt een koekoeksklok: het mechanisme stap voor stap"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Een klassieke koekoeksklok wordt aangedreven door een gewicht, niet door een batterij. Het gewicht trekt aan een ketting, de ketting draait de tandwielen en die verplaatsen de wijzers. De slinger houdt het tempo: bij elke uitslag laat hij het werk één tand verder lopen en ontstaat het bekende tikken."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Op het hele uur komt een tweede tandwielwerk vrij, het zogeheten slagwerk. Dat opent het deurtje, schuift het vogeltje naar buiten en tilt twee kleine balgjes op. De lucht wordt door twee pijpjes geperst en geeft de tonen die je als koekoek hoort. Zonder die ontgrendeling zou het vogeltje niets laten horen, ook al lopen de wijzers gewoon door."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Inhoud van het artikel</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#wat-de-klok-aandrijft-en-hoe-de-beweging-bij-de-wijzers-komt\">Wat de klok aandrijft en hoe de beweging bij de wijzers komt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#wat-de-koekoek-en-het-geluid-op-het-hele-uur-in-gang-zet\">Wat de koekoek en het geluid op het hele uur in gang zet</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#waar-je-op-let-bij-wielen-en-hefbomen-en-waarom-een-klok-achterloopt\">Waar je op let bij wielen en hefbomen en waarom een klok achterloopt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#veelgestelde-vragen\">Veelgestelde vragen</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Wat de klok aandrijft en hoe de beweging bij de wijzers komt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "wat-de-klok-aandrijft-en-hoe-de-beweging-bij-de-wijzers-komt"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Een tandwielwerk is een stelsel van tandwielen dat beweging van de ene as op de andere overbrengt. In klokken zijn meestal het <strong>gangwerk</strong> (de wijzers) en het <strong>slagwerk</strong> (de koekoek en het geluid) gescheiden. Elk heeft een eigen gewicht, dus de twee werken lopen onafhankelijk van elkaar."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Het gewicht zakt door de zwaartekracht en draait via de ketting het grote wiel. De kleinere wielen versnellen de overbrenging en geven de beweging door aan de middelste as met de wijzers. Zonder regeling zou alles in één keer afrollen: daarom zit aan het eind van het gangwerk een <strong>echappement</strong> (escapement), dat met de slinger is verbonden."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Bij een uitslag naar links laat de ene hefboom een tand van het echappementwiel los.",
+            "items": []
+          },
+          {
+            "content": "Bij een uitslag naar rechts vangt de tweede hefboom de tand op en staat het wiel even stil.",
+            "items": []
+          },
+          {
+            "content": "Zo ontstaat een gelijkmatig tikken en bewegen de wijzers in kleine stapjes, niet in één klik.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Een slinger van een bepaalde lengte zwaait in ongeveer hetzelfde tempo. Daarom bepaalt de lengte van de slinger of de klok goed loopt: langer maken vertraagt de klok, korter maken versnelt hem. De slinger zelf drijft de klok niet aan: de energie van het gewicht wordt in kleine porties vrijgegeven door het echappement en de slinger bepaalt het tempo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Wat de koekoek en het geluid op het hele uur in gang zet",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "wat-de-koekoek-en-het-geluid-op-het-hele-uur-in-gang-zet"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Het slagwerk wacht vergrendeld tot de minutenwijzer een omwenteling heeft voltooid. Op het mechanisme zit een nok (nokkenschijf): wanneer de minutenwijzer het hele of halve uur bereikt, tilt de nok een hefboom op en die ontgrendelt het slagwerk. Dan komen er tegelijk meerdere bewegingen op gang via dunne metaaldraadjes en hefbomen."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Een metaaldraadje opent het deurtje voor het vogeltje op een kier.",
+            "items": []
+          },
+          {
+            "content": "Een hefboom schuift het vogeltje op een scharnierarm uit het huisje.",
+            "items": []
+          },
+          {
+            "content": "De nok tilt om beurt de twee balgjes op: de ene geeft de eerste toon, de andere de tweede toon van de roep.",
+            "items": []
+          },
+          {
+            "content": "Als het slaan klaar is, gaat het vogeltje weer naar binnen en gaat het deurtje dicht.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Het geluid komt niet uit een luidspreker. Elk balgje heeft een papieren bovenkant en een houten pijpje: de lucht die door het pijpje wordt geperst, vormt de toon. De twee balgjes zijn dus geen versiering, maar twee verschillende tonen. Op het hele uur wordt de roep herhaald naar het aantal uren; op het halve uur vaak maar één keer."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Vlak voor het slaan kun je soms een korte “waarschuwing” zien: het deurtje gaat een klein stukje open voordat het vogeltje naar buiten komt. Dat hoort bij de timing van het slagwerk en is geen fout. Als het werk niet op het juiste moment vrijkwam, zouden de wijzers wel het hele uur aangeven, maar zou de koekoek zwijgen."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> Als een model met tandwielen beweegt, volg dan één wiel van tand tot tand: als een tand eerder stilvalt dan de andere, schuurt of klemt er juist daar iets.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Waar je op let bij wielen en hefbomen en waarom een klok achterloopt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "waar-je-op-let-bij-wielen-en-hefbomen-en-waarom-een-klok-achterloopt"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Kijk bij een bewegend mechanisme naar de plekken waar de tanden van de wielen elkaar raken en waar de hefbomen de metaaldraadjes optillen. De tanden moeten gelijkmatig in elkaar grijpen: als het ene wiel schokt en het andere stilstaat, kan dat komen door stof op de pennen of door een klemmend metaaldraadje. De metaaldraadjes naar het deurtje en de balgjes moeten vrij kunnen bewegen; wrijving tegen de kast kan het hele slaan stoppen."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mechanische klokken kunnen achterlopen of voorlopen door de lengte van de slinger; het tempo wordt ook beïnvloed door de temperatuur, waarbij de slingerstang licht uitzet of krimpt, en door een scheve opstelling van de klok. Een te lange slinger vertraagt de gang, een kortere versnelt hem. Stof op de pennen of wrijving geven extra weerstand en het slaan, of zelfs de hele gang, kan stoppen. Bij onderhoud gaat het daarom om een vrije en schone beweging, niet om harder trekken."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Op een houten model met een tandwieloverbrenging zie je dezelfde logica in vereenvoudigde vorm: wielen brengen de beweging over, hefbomen zetten de volgende handeling in gang en één vastgelopen tand stopt het hele systeem. Als je mechanisme ooit klemt, helpt dezelfde blik als bij klokken: zoek de plek van wrijving voordat je met kracht gaat duwen. Hoe je dat stap voor stap doet, lees je in het artikel <a href=\"/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen\">over een mechanisme dat vastloopt</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Als het je aanspreekt om een koekoeksklok als houten model in elkaar te zetten, is deze bouwset misschien iets voor je. Volgens de catalogus gaat het om een houten bouwmodel met 435 onderdelen en een kwartsmechanisme. Haal de bouwtijd en de moeilijkheid uit de parameters hieronder; tijdens het bouwen geldt de handleiding van het specifieke model."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/houten-3d-puzzel/klokken-kalenders/houten-mechanische-3d-puzzel-koekoeksklok-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Houten mechanische 3D-puzzel - Koekoeksklok ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/houten-3d-puzzel/klokken-kalenders/houten-mechanische-3d-puzzel-koekoeksklok-rokr-lc901c-p198\">Houten mechanische 3D-puzzel - Koekoeksklok ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Aantal onderdelen: 435</li>\n      <li>Bouwtijd: 6 u</li>\n      <li>Moeilijkheid: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/houten-3d-puzzel/klokken-kalenders/houten-mechanische-3d-puzzel-koekoeksklok-rokr-lc901c-p198\">Bekijk de bouwset</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Veelgestelde vragen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "veelgestelde-vragen"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Wat drijft een klassieke koekoeksklok aan?</h3>\n    <p style=\"margin:0;\">Meestal twee gewichten aan kettingen: het ene drijft het gangwerk met de wijzers aan, het andere het slagwerk met de koekoek. De slinger regelt alleen het tempo en levert zelf geen energie.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Waarom klinkt de koekoek precies op het hele uur?</h3>\n    <p style=\"margin:0;\">Wanneer de minutenwijzer het hele uur bereikt, ontgrendelt de nok het slagwerk. Dat opent het deurtje, schuift het vogeltje naar buiten en tilt om beurt twee balgjes op; de lucht die door de pijpjes wordt geperst, geeft de twee tonen van de roep.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Waarom lopen mechanische klokken achter of voor?</h3>\n    <p style=\"margin:0;\">Het tempo wordt bepaald door de lengte van de slinger en door schoon in elkaar grijpende tanden. Een langere slinger vertraagt de klok, een kortere versnelt hem. Een klemmend werk vertraagt of stopt hem juist.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Houten mechanische 3D-puzzel - Koekoeksklok ROKR LC901C",
+      "path": "/houten-3d-puzzel/klokken-kalenders/houten-mechanische-3d-puzzel-koekoeksklok-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mechanisme-loopt-vast-de-wrijving-vinden-en-verhelpen",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

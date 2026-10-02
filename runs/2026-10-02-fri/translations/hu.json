@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "hu",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Hogyan működik a kakukkos óra: a szerkezet lépésről lépésre",
+  "description": "A kakukkos órát súly hajtja, a ketyegést az inga tartja. Egész órakor kiold egy második áttétel: kinyitja az ajtócskát, kitolja a madárkát, és két fújtatón át levegőt présel a sípokba, amelyek a kakukkszó hangjait adják.",
+  "seo_title": "Hogyan működik a kakukkos óra: szerkezet és hang",
+  "seo_description": "Súly, fogaskerekek, inga és fújtatók: hogyan indul meg a madárka a kakukkos órában, és miért késnek vagy sietnek idővel a mechanikus órák.",
+  "slug": "hogyan-mukodik-a-kakukkos-ora-a-szerkezet-lepesrol-lepesre",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Hogyan működik a kakukkos óra: a szerkezet lépésről lépésre"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A klasszikus kakukkos órát súly hajtja, nem elem. A súly láncot húz, a lánc forgatja a fogaskerekeket, azok pedig mozgatják a mutatókat. A tempót az inga tartja: minden kilengésnél egy foggal továbbengedi az áttételt, és létrejön az ismerős ketyegés."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Egész órakor kiold egy második áttétel, az úgynevezett ütőmű. Ez kinyitja az ajtócskát, kitolja a madárkát, és megemel két kis fújtatót. A levegő két sípon préselődik át, és olyan hangokat ad, amelyeket kakukkszóként hallasz. E kioldás nélkül a madárka nem szólalna meg, akkor sem, ha a mutatók mennének tovább."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>A cikk tartalma</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#mi-hajtja-az-orat-es-hogyan-jut-el-a-mozgas-a-mutatokhoz\">Mi hajtja az órát, és hogyan jut el a mozgás a mutatókhoz</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#mi-inditja-el-a-kakukkot-es-a-hangot-egesz-orakor\">Mi indítja el a kakukkot és a hangot egész órakor</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#mire-figyelj-a-kerekeken-es-a-karokon-es-miert-kesik-az-ora\">Mire figyelj a kerekeken és a karokon, és miért késik az óra</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#gyakori-kerdesek\">Gyakori kérdések</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Mi hajtja az órát, és hogyan jut el a mozgás a mutatókhoz",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mi-hajtja-az-orat-es-hogyan-jut-el-a-mozgas-a-mutatokhoz"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "A fogaskerék-áttétel olyan fogaskerekek rendszere, amelyek az egyik tengelyről a másikra viszik át a mozgást. Az órákban leggyakrabban külön van az <strong>időmű</strong> (a mutatók) és az <strong>ütőmű</strong> (a kakukk és a hang). Mindkettőnek saját súlya van, ezért a két áttétel egymástól függetlenül működik."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "A súly a gravitáció hatására süllyed, és a láncon át forgatja a nagy kereket. A kisebb kerekek felgyorsítják az áttételt, és a mozgást a mutatókat hordozó középső tengelyre viszik át. Szabályozás nélkül minden egyszerre pörögne le: ezért van az időmű végén az ingához kapcsolt <strong>gátszerkezet</strong> (escapement)."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Balra kilengésnél az egyik kar kiszabadít egy fogat a gátkeréken.",
+            "items": []
+          },
+          {
+            "content": "Jobbra kilengésnél a másik kar elfogja a fogat, és a kerék egy pillanatra megáll.",
+            "items": []
+          },
+          {
+            "content": "Így egyenletes ketyegés jön létre, a mutatók pedig apró lépésekben haladnak, nem egyetlen kattanással.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Az adott hosszúságú inga nagyjából ugyanazzal a tempóval leng. Ezért az inga hossza dönti el, hogy az óra helyesen jár-e: meghosszabbítva lassul, lerövidítve gyorsul. Maga az inga nem hajtja az órát: a súly energiáját kis adagokban a gátszerkezet engedi tovább, az inga pedig a tempót szabja meg."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Mi indítja el a kakukkot és a hangot egész órakor",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mi-inditja-el-a-kakukkot-es-a-hangot-egesz-orakor"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Az ütőmű lezárva vár, amíg a percmutató be nem fejezi a fordulatot. A szerkezeten van egy bütyök (bütyköstárcsa): amikor a percmutató eléri az egész vagy a fél órát, a bütyök megemel egy kart, az pedig kioldja az ütőművet. Ilyenkor egyszerre indul el több mozdulat vékony drótokon és karokon át."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Egy drót résnyire kinyitja a madárka előtti ajtócskát.",
+            "items": []
+          },
+          {
+            "content": "Egy kar csuklós karon kitolja a madárkát a házikóból.",
+            "items": []
+          },
+          {
+            "content": "A bütyök felváltva megemeli a két fújtatót: az egyik a hívás első, a másik a második hangját adja.",
+            "items": []
+          },
+          {
+            "content": "Az ütések végén a madárka visszahúzódik, és az ajtócska becsukódik.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "A hangot nem hangszóró adja. Minden fújtatónak papír teteje és fából készült sípja van: a sípon átpréselt levegő hozza létre a hangot. A két fújtató ezért nem dísz, hanem két különböző hang. Egész órakor a hívás az órák számának megfelelően ismétlődik; félkor gyakran csak egyszer."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Maga az ütés előtt néha rövid „figyelmeztetést” láthatsz: az ajtócska kissé kinyílik, mielőtt a madárka kijön. Ez az ütőmű időzítésének része, nem hiba. Ha az áttétel nem a megfelelő pillanatban oldódna ki, a mutatók egész órát mutatnának, de a kakukk hallgatna."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> Amikor egy fogaskerekes modell mozog, kövess egy kereket fogról fogra: ha valamelyik fog hamarabb megáll, mint a többi, pont ott dörzsölődik vagy akad valami.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Mire figyelj a kerekeken és a karokon, és miért késik az óra",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mire-figyelj-a-kerekeken-es-a-karokon-es-miert-kesik-az-ora"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Amikor a szerkezet mozog, figyeld azokat a helyeket, ahol a kerekek fogai találkoznak, és ahol a karok emelik a drótokat. A fogaknak egyenletesen kell kapaszkodniuk: ha az egyik kerék rándul, a másik pedig áll, oka lehet por a csapokon vagy egy beakadó drót. Az ajtócskához és a fújtatókhoz vezető drótoknak szabadon kell járniuk; a szekrényhez dörzsölődés az egész ütést leállíthatja."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "A mechanikus órák az inga hossza miatt késhetnek vagy siethetnek; a tempót befolyásolja a hőmérséklet is, amelynél az ingarúd kissé kitágul vagy összehúzódik, valamint az óra ferde felállítása. Túl hosszú inga lassítja a járást, a rövidebb gyorsítja. A csapokon lévő por vagy a súrlódás ellenállást ad hozzá, és az ütés, esetleg az egész járás, megállhat. Karbantartáskor ezért a szabad és tiszta mozgás a lényeg, nem az erősebb húzás."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Egy fogaskerekes fa modellen ugyanezt a logikát láthatod egyszerűsített formában: a kerekek viszik át a mozgást, a karok indítják a következő folyamatot, egyetlen beakadt fog pedig megállítja az egész rendszert. Ha az áttételed valaha akad, ugyanaz a nézőpont segít, mint az óráknál: keresd meg a súrlódás helyét, mielőtt erővel nyomnád. Hogyan csináld lépésről lépésre, azt <a href=\"/blog/elakad-a-szerkezet-keresd-meg-a-surlodast-es-szuntesd-meg\">az elakadó szerkezetről szóló cikkben</a> írjuk le."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Ha kedvet kaptál egy kakukkos óra fa modellként való összerakásához, érdekelhet ez a készlet. A katalógus szerint összerakható fa modell 435 darabbal és kvarcszerkezettel. Az összeszerelési időt és a nehézséget az alábbi paraméterekből vedd; építés közben az adott modell útmutatója érvényes."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/fa-mechanikus-3d-kirako-kakukkos-ora-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Fa mechanikus 3D kirakó - Kakukkos óra ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/fa-mechanikus-3d-kirako-kakukkos-ora-rokr-lc901c-p198\">Fa mechanikus 3D kirakó - Kakukkos óra ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Darabszám: 435</li>\n      <li>Összeszerelési idő: 6 óra</li>\n      <li>Nehézség: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/fabol-keszult-3d-puzzle/orak-naptarak/fa-mechanikus-3d-kirako-kakukkos-ora-rokr-lc901c-p198\">A készlet megtekintése</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Gyakori kérdések",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "gyakori-kerdesek"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mi hajtja a klasszikus kakukkos órát?</h3>\n    <p style=\"margin:0;\">Leggyakrabban két láncon függő súly: az egyik a mutatós időművet hajtja, a másik a kakukkos ütőművet. Az inga csak szabályozza a tempót, energiát maga nem ad.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miért szólal meg a kakukk éppen egész órakor?</h3>\n    <p style=\"margin:0;\">Amikor a percmutató eléri az egész órát, a bütyök kioldja az ütőművet. Az kinyitja az ajtócskát, kitolja a madárkát, és felváltva megemel két fújtatót; a sípokon átpréselt levegő adja a hívás két hangját.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miért késnek vagy sietnek a mechanikus órák?</h3>\n    <p style=\"margin:0;\">A tempót az inga hossza és a fogak tiszta kapcsolódása tartja. A hosszabb inga lassítja az órát, a rövidebb gyorsítja. Az akadó áttétel ezzel szemben lassítja vagy leállítja.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Fa mechanikus 3D kirakó - Kakukkos óra ROKR LC901C",
+      "path": "/fabol-keszult-3d-puzzle/orak-naptarak/fa-mechanikus-3d-kirako-kakukkos-ora-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/elakad-a-szerkezet-keresd-meg-a-surlodast-es-szuntesd-meg",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

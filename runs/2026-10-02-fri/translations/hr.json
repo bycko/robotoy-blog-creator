@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "hr",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Kako radi kukavica u satu: mehanizam korak po korak",
+  "description": "Sat s kukavicom pokreće uteg, a otkucaje drži njihalo. Svakog punog sata oslobodi se drugi prijenos: otvori vratašca, izbaci pticu i kroz dva mijeha propusti zrak u svirale koje daju tonove kukanja.",
+  "seo_title": "Kako rade satovi s kukavicom: mehanizam i zvuk",
+  "seo_description": "Uteg, zupčanici, njihalo i mijehovi: kako se u satu s kukavicom pokreće ptica i zašto mehanički satovi s vremenom kasne ili žure.",
+  "slug": "kako-radi-kukavica-u-satu-mehanizam-korak-po-korak",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Kako radi kukavica u satu: mehanizam korak po korak"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Klasične satove s kukavicom pokreće uteg, a ne baterija. Uteg povlači lanac, lanac okreće zupčanike, a oni pomiču kazaljke. Tempo drži njihalo: pri svakom zamahu oslobodi prijenos za jedan zub i nastaje poznato kucanje."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Na puni sat oslobodi se drugi prijenos, tzv. udarni. On otvori vratašca, izbaci pticu i podigne dva mala mijeha. Zrak se potisne kroz dvije svirale i daje tonove koje čuješ kao kukavicu. Bez tog oslobađanja ptica se ne bi oglasila, čak i kad bi kazaljke išle dalje."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Sadržaj članka</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#sto-pokrece-sat-i-kako-gibanje-stize-do-kazaljki\">Što pokreće sat i kako gibanje stiže do kazaljki</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sto-pokrece-kukavicu-i-zvuk-na-puni-sat\">Što pokreće kukavicu i zvuk na puni sat</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#sto-uociti-na-kotacima-i-polugama-i-zasto-sat-kasni\">Što uočiti na kotačima i polugama i zašto sat kasni</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cesta-pitanja\">Česta pitanja</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Što pokreće sat i kako gibanje stiže do kazaljki",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sto-pokrece-sat-i-kako-gibanje-stize-do-kazaljki"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Zupčani prijenos je sustav zupčanika koji prenose gibanje s jedne osovine na drugu. U satovima su najčešće odvojeni <strong>satni prijenos</strong> (kazaljke) i <strong>udarni prijenos</strong> (kukavica i zvuk). Svaki ima vlastiti uteg, pa oba prijenosa rade neovisno."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Uteg se spušta zbog gravitacije i preko lanca okreće veliki kotač. Manji kotači ubrzavaju prijenos i prenose gibanje na središnju osovinu s kazaljkama. Bez regulacije sve bi se odmotalo odjednom: zato je na kraju satnog prijenosa <strong>zapor</strong> (escapement) povezan s njihalom."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Pri zamahu ulijevo jedna poluga oslobodi zub na zaporskom kotaču.",
+            "items": []
+          },
+          {
+            "content": "Pri zamahu udesno druga poluga uhvati zub i kotač se na trenutak zaustavi.",
+            "items": []
+          },
+          {
+            "content": "Tako nastaje ravnomjerno kucanje i kazaljke se pomiču malim koracima, a ne jednim škljocajem.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Njihalo zadane duljine njiše se približno istim tempom. Zato duljina njihala određuje ide li sat ispravno: produljenjem se sat uspori, skraćivanjem ubrza. Samo njihalo ne pokreće sat: energiju iz utega u malim obrocima oslobađa zapor, a njihalo određuje tempo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Što pokreće kukavicu i zvuk na puni sat",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sto-pokrece-kukavicu-i-zvuk-na-puni-sat"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Udarni prijenos čeka blokiran dok minutna kazaljka ne završi puni krug. Na mehanizmu je brijeg (bregasti disk): kad minutna kazaljka dosegne puni ili pola sata, brijeg podigne polugu koja oslobodi udarni prijenos. Tada se odjednom pokrene nekoliko gibanja preko tankih žica i poluga."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Žica odškrine vratašca ispred ptice.",
+            "items": []
+          },
+          {
+            "content": "Poluga izbaci pticu na zglobnoj ruci iz kućice.",
+            "items": []
+          },
+          {
+            "content": "Brijeg naizmjence podiže dva mijeha: jedan daje prvi ton, drugi drugi ton zova.",
+            "items": []
+          },
+          {
+            "content": "Kad udarci završe, ptica se vrati unutra i vratašca se zatvore.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Zvuk ne stvara zvučnik. Svaki mijeh ima papirnati vrh i drvenu sviralu: zrak potisnut kroz sviralu stvara ton. Dva mijeha zato nisu ukras, nego dva različita tona. Na puni sat zov se ponovi prema broju sati; na pola sata često samo jednom."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Prije samog udarca ponekad možeš vidjeti kratko „upozorenje“: vratašca se malo odškrinu prije nego što ptica izađe. To je dio mjerenja vremena udarnog prijenosa, a ne greška. Kad se prijenos ne bi oslobodio u pravi trenutak, kazaljke bi pokazivale puni sat, ali kukavica bi šutjela."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Savjet:</strong> Kad se model sa zupčanicima giba, prati jedan kotač od zuba do zuba: ako se neki zub zaustavi prije ostalih, upravo se tamo nešto trlja ili zapinje.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Što uočiti na kotačima i polugama i zašto sat kasni",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "sto-uociti-na-kotacima-i-polugama-i-zasto-sat-kasni"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Dok se mehanizam giba, promatraj mjesta gdje se zubi kotača susreću i gdje poluge podižu žice. Zubi moraju ravnomjerno zahvaćati: ako jedan kotač trzne, a drugi stoji, uzrok mogu biti prašina na osovinicama ili žica koja zapinje. Žice prema vratašcima i mijehovima moraju slobodno ići; trenje o kućište može zaustaviti cijeli udarac."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mehanički satovi mogu kasniti ili žuriti zbog duljine njihala; na tempo utječe i temperatura, pri kojoj se šipka njihala malo rasteže ili steže, te nerovno postavljen sat. Predugo njihalo usporava hod, kraće ga ubrzava. Prašina na osovinicama ili trenje dodaju otpor, pa udarac, a ponekad i cijeli hod, može stati. Zato je kod održavanja važno slobodno i čisto gibanje, a ne jači potez."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Na drvenom modelu sa zupčanim prijenosom vidjet ćeš istu logiku u pojednostavljenom obliku: kotači prenose gibanje, poluge pokreću sljedeći proces, a jedan zaglavljen zub zaustavlja cijeli sustav. Kad ti prijenos nekad zapinje, pomaže isti pogled kao kod satova: pronađi mjesto trenja prije nego što počneš gurati silom. Kako to učiniti korak po korak, pišemo u članku <a href=\"/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga\">o mehanizmu koji se zaglavljuje</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Ako te privlači ideja da složiš sat s kukavicom kao drveni model, mogao bi te zanimati ovaj komplet. Prema katalogu riječ je o drvenom modelu za slaganje sa 435 dijelova i kvarcnim mehanizmom. Vrijeme slaganja i zahtjevnost uzmi iz parametara u nastavku; pri gradnji vrijede upute za konkretni model."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-slagalica-sat-s-kukavicom-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Drvena mehanička 3D slagalica - Sat s kukavicom ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-slagalica-sat-s-kukavicom-rokr-lc901c-p198\">Drvena mehanička 3D slagalica - Sat s kukavicom ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Broj dijelova: 435</li>\n      <li>Vrijeme slaganja: 6 h</li>\n      <li>Zahtjevnost: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-slagalica-sat-s-kukavicom-rokr-lc901c-p198\">Pogledaj komplet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Česta pitanja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cesta-pitanja"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Što pokreće klasični sat s kukavicom?</h3>\n    <p style=\"margin:0;\">Najčešće dva utega na lancima: jedan pokreće satni prijenos s kazaljkama, a drugi udarni prijenos s kukavicom. Njihalo samo regulira tempo, a energiju ne daje.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zašto se kukavica oglasi baš na puni sat?</h3>\n    <p style=\"margin:0;\">Kad minutna kazaljka dosegne puni sat, brijeg oslobodi udarni prijenos. On otvori vratašca, izbaci pticu i naizmjence podigne dva mijeha; zrak potisnut kroz svirale daje dva tona zova.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zašto mehanički satovi kasne ili žure?</h3>\n    <p style=\"margin:0;\">Tempo drži duljina njihala i čisto zahvaćanje zubi. Dulje njihalo usporava sat, kraće ga ubrzava. Prijenos koji zapinje, naprotiv, sat uspori ili zaustavi.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Drvena mehanička 3D slagalica - Sat s kukavicom ROKR LC901C",
+      "path": "/drvena-3d-slagalica/satovi-i-kalendari/drvena-mehanicka-3d-slagalica-sat-s-kukavicom-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mehanizam-se-zaglavljuje-kako-pronaci-trenje-i-ukloniti-ga",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

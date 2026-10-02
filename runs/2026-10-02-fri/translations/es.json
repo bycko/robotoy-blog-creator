@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "es",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Cómo funciona el cuco de un reloj: el mecanismo paso a paso",
+  "description": "Un reloj de cuco funciona con un peso y el péndulo mantiene el tictac. A cada hora en punto se libera un segundo tren: abre la puertecita, saca el pajarillo y, con dos fuelles, envía aire a unos tubos que dan los tonos del canto del cuco.",
+  "seo_title": "Cómo funciona un reloj de cuco: mecanismo y sonido",
+  "seo_description": "Peso, ruedas dentadas, péndulo y fuelles: cómo se activa el pajarillo en un reloj de cuco y por qué los relojes mecánicos se atrasan o se adelantan.",
+  "slug": "como-funciona-el-cuco-de-un-reloj-el-mecanismo-paso-a-paso",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Cómo funciona el cuco de un reloj: el mecanismo paso a paso"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Un reloj de cuco clásico funciona con un peso, no con una pila. El peso tira de una cadena, la cadena hace girar las ruedas dentadas y estas mueven las agujas. El ritmo lo marca el péndulo: en cada oscilación libera el tren un diente y surge el conocido tictac."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "A la hora en punto se libera un segundo tren, el llamado tren de sonería. Abre la puertecita, saca el pajarillo y levanta dos fuelles pequeños. El aire se empuja por dos tubos y da los tonos que oyes como el cuco. Sin esta liberación, el pajarillo no se oiría, aunque las agujas siguieran avanzando."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Contenido del artículo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#que-mueve-el-reloj-y-como-llega-el-movimiento-a-las-agujas\">Qué mueve el reloj y cómo llega el movimiento a las agujas</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#que-activa-el-cuco-y-el-sonido-a-la-hora-en-punto\">Qué activa el cuco y el sonido a la hora en punto</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#que-observar-en-las-ruedas-y-las-palancas-y-por-que-el-reloj-se-atrasa\">Qué observar en las ruedas y las palancas y por qué el reloj se atrasa</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#preguntas-frecuentes\">Preguntas frecuentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Qué mueve el reloj y cómo llega el movimiento a las agujas",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "que-mueve-el-reloj-y-como-llega-el-movimiento-a-las-agujas"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Un tren de engranajes es un conjunto de ruedas dentadas que transmiten el movimiento de un eje a otro. En los relojes suelen estar separados el <strong>tren de marcha</strong> (las agujas) y el <strong>tren de sonería</strong> (el cuco y el sonido). Cada uno tiene su propio peso, de modo que los dos trenes funcionan de forma independiente."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "El peso desciende por la gravedad y, a través de la cadena, hace girar la rueda grande. Las ruedas más pequeñas aceleran la transmisión y llevan el movimiento al eje central con las agujas. Sin regulación, todo se desenrollaría de golpe: por eso al final del tren de marcha hay un <strong>escape</strong> (escapement) unido al péndulo."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "En la oscilación hacia la izquierda, una palanca libera un diente de la rueda de escape.",
+            "items": []
+          },
+          {
+            "content": "En la oscilación hacia la derecha, la segunda palanca atrapa el diente y la rueda se detiene un instante.",
+            "items": []
+          },
+          {
+            "content": "Así surge un tictac regular y las agujas avanzan a pequeños pasos, no de un solo golpe.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Un péndulo de una longitud dada oscila aproximadamente al mismo ritmo. Por eso la longitud del péndulo determina si el reloj marcha bien: alargándolo, el reloj se ralentiza; acortándolo, se acelera. El péndulo por sí solo no acciona el reloj: la energía del peso la libera en pequeñas dosis el escape, y el péndulo marca el ritmo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Qué activa el cuco y el sonido a la hora en punto",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "que-activa-el-cuco-y-el-sonido-a-la-hora-en-punto"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "El tren de sonería espera bloqueado hasta que el minutero completa la vuelta. En el mecanismo hay una leva (disco de leva): cuando el minutero llega a la hora en punto o a la media, la leva levanta una palanca que libera el tren de sonería. Entonces se ponen en marcha a la vez varios movimientos a través de finos alambres y palancas."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Un alambre entreabre la puertecita delante del pajarillo.",
+            "items": []
+          },
+          {
+            "content": "Una palanca saca el pajarillo de la casita sobre un brazo articulado.",
+            "items": []
+          },
+          {
+            "content": "La leva levanta por turnos los dos fuelles: uno da el primer tono y el otro, el segundo tono del canto.",
+            "items": []
+          },
+          {
+            "content": "Al terminar las campanadas, el pajarillo vuelve a entrar y la puertecita se cierra.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "El sonido no lo produce un altavoz. Cada fuelle tiene la parte superior de papel y un tubo de madera: el aire empujado por el tubo crea el tono. Los dos fuelles no son, por tanto, un adorno, sino dos tonos distintos. A la hora en punto el canto se repite según el número de horas; a la media, a menudo solo una vez."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Antes del toque propiamente dicho, a veces puedes ver un breve «aviso»: la puertecita se entreabre un poco antes de que salga el pajarillo. Forma parte de la sincronización del tren de sonería, no es un fallo. Si el tren no se liberara en el momento justo, las agujas marcarían la hora en punto, pero el cuco permanecería mudo."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consejo:</strong> Cuando un modelo con ruedas dentadas se mueve, sigue una rueda de diente en diente: si algún diente se detiene antes que los demás, justo ahí algo roza o se atasca.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Qué observar en las ruedas y las palancas y por qué el reloj se atrasa",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "que-observar-en-las-ruedas-y-las-palancas-y-por-que-el-reloj-se-atrasa"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Cuando el mecanismo se mueve, observa los puntos donde se encuentran los dientes de las ruedas y donde las palancas levantan los alambres. Los dientes deben engranar con regularidad: si una rueda da tirones y otra está parada, la causa puede ser polvo en los pivotes o un alambre que se atasca. Los alambres hacia la puertecita y los fuelles deben moverse con libertad; el roce con la caja puede detener todo el toque."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Los relojes mecánicos pueden atrasarse o adelantarse por la longitud del péndulo; el ritmo también depende de la temperatura, con la que la varilla del péndulo se dilata o se contrae ligeramente, y de que el reloj esté colgado torcido. Un péndulo demasiado largo ralentiza la marcha; uno más corto la acelera. El polvo en los pivotes o el rozamiento añaden resistencia, y el toque, o incluso toda la marcha, puede pararse. Por eso, en el mantenimiento lo que importa es un movimiento libre y limpio, no un tirón más fuerte."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "En un modelo de madera con engranajes verás la misma lógica de forma simplificada: las ruedas transmiten el movimiento, las palancas desencadenan la acción siguiente y un solo diente atascado detiene todo el sistema. Cuando alguna vez se te atasque el engranaje, ayuda la misma mirada que con los relojes: encuentra el punto de roce antes de empujar con fuerza. Cómo hacerlo paso a paso lo explicamos en el artículo <a href=\"/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla\">sobre el mecanismo que se atasca</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Si te atrae la idea de montar un reloj de cuco como modelo de madera, este kit podría interesarte. Según el catálogo, es un modelo de madera para montar, con 435 piezas y un mecanismo de cuarzo. Toma el tiempo de montaje y la dificultad de los parámetros de abajo; durante la construcción rige el manual del modelo concreto."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/rompecabezas-mecanico-3d-de-madera-reloj-de-cuco-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Rompecabezas mecánico 3D de madera - Reloj de cuco ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/rompecabezas-mecanico-3d-de-madera-reloj-de-cuco-rokr-lc901c-p198\">Rompecabezas mecánico 3D de madera - Reloj de cuco ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Número de piezas: 435</li>\n      <li>Tiempo de montaje: 6 h</li>\n      <li>Dificultad: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/rompecabezas-3d-de-madera/relojes-y-calendarios/rompecabezas-mecanico-3d-de-madera-reloj-de-cuco-rokr-lc901c-p198\">Ver el kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Preguntas frecuentes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "preguntas-frecuentes"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Qué mueve un reloj de cuco clásico?</h3>\n    <p style=\"margin:0;\">Lo más habitual son dos pesos con cadenas: uno mueve el tren de marcha con las agujas y el otro el tren de sonería con el cuco. El péndulo solo regula el ritmo; no aporta energía.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Por qué suena el cuco justo a la hora en punto?</h3>\n    <p style=\"margin:0;\">Cuando el minutero llega a la hora en punto, la leva libera el tren de sonería. Este abre la puertecita, saca el pajarillo y levanta por turnos dos fuelles; el aire empujado por los tubos da los dos tonos del canto.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">¿Por qué los relojes mecánicos se atrasan o se adelantan?</h3>\n    <p style=\"margin:0;\">El ritmo lo marcan la longitud del péndulo y el engranaje limpio de los dientes. Un péndulo más largo ralentiza el reloj; uno más corto lo acelera. Un tren que se atasca, en cambio, lo frena o lo detiene.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Rompecabezas mecánico 3D de madera - Reloj de cuco ROKR LC901C",
+      "path": "/rompecabezas-3d-de-madera/relojes-y-calendarios/rompecabezas-mecanico-3d-de-madera-reloj-de-cuco-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/el-mecanismo-se-atasca-como-hallar-la-friccion-y-quitarla",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

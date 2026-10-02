@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "it",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Come funziona il cucù nell’orologio: meccanismo passo passo",
+  "description": "L’orologio a cucù è azionato da un peso e il ticchettio è tenuto dal pendolo. All’ora piena si libera un secondo rotismo: apre la porticina, spinge fuori l’uccellino e, attraverso due mantici, manda aria in canne che danno i toni del richiamo del cucù.",
+  "seo_title": "Come funziona un orologio a cucù: meccanismo e suono",
+  "seo_description": "Peso, ruote dentate, pendolo e mantici: come scatta l’uccellino in un orologio a cucù e perché gli orologi meccanici vanno in ritardo o in anticipo.",
+  "slug": "come-funziona-il-cucu-nellorologio-meccanismo-passo-passo",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Come funziona il cucù nell’orologio: meccanismo passo passo"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Un orologio a cucù classico è azionato da un peso, non da una batteria. Il peso tira una catena, la catena fa girare le ruote dentate e queste muovono le lancette. Il ritmo lo tiene il pendolo: a ogni oscillazione libera il rotismo di un dente e nasce il noto ticchettio."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "All’ora piena si libera un secondo rotismo, detto di suoneria. Apre la porticina, spinge fuori l’uccellino e solleva due piccoli mantici. L’aria viene spinta attraverso due canne e dà i toni che senti come il cucù. Senza questo sblocco l’uccellino non si farebbe sentire, anche se le lancette continuassero a girare."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Indice dell’articolo</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#cosa-muove-lorologio-e-come-il-movimento-arriva-alle-lancette\">Cosa muove l’orologio e come il movimento arriva alle lancette</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cosa-fa-scattare-il-cucu-e-il-suono-allora-piena\">Cosa fa scattare il cucù e il suono all’ora piena</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#cosa-osservare-su-ruote-e-leve-e-perche-lorologio-va-in-ritardo\">Cosa osservare su ruote e leve e perché l’orologio va in ritardo</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#domande-frequenti\">Domande frequenti</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Cosa muove l’orologio e come il movimento arriva alle lancette",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cosa-muove-lorologio-e-come-il-movimento-arriva-alle-lancette"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Un rotismo è un insieme di ruote dentate che trasmettono il movimento da un albero a un altro. Negli orologi sono più spesso separati il <strong>rotismo del tempo</strong> (le lancette) e il <strong>rotismo di suoneria</strong> (il cucù e il suono). Ognuno ha il proprio peso, quindi i due rotismi funzionano in modo indipendente."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Il peso scende per gravità e, tramite la catena, fa girare la ruota grande. Le ruote più piccole accelerano la trasmissione e portano il movimento all’albero centrale con le lancette. Senza regolazione tutto si srotolerebbe in un colpo: per questo alla fine del rotismo del tempo c’è uno <strong>scappamento</strong> (escapement) collegato al pendolo."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Nell’oscillazione verso sinistra una leva libera un dente della ruota di scappamento.",
+            "items": []
+          },
+          {
+            "content": "Nell’oscillazione verso destra la seconda leva blocca il dente e la ruota si ferma un istante.",
+            "items": []
+          },
+          {
+            "content": "Così nasce un ticchettio regolare e le lancette avanzano a piccoli passi, non con un unico scatto.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Un pendolo di una data lunghezza oscilla più o meno con lo stesso ritmo. Perciò la lunghezza del pendolo decide se l’orologio va bene: allungandolo l’orologio rallenta, accorciandolo accelera. Il pendolo da solo non aziona l’orologio: l’energia del peso viene rilasciata a piccole dosi dallo scappamento e il pendolo stabilisce il ritmo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Cosa fa scattare il cucù e il suono all’ora piena",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cosa-fa-scattare-il-cucu-e-il-suono-allora-piena"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Il rotismo di suoneria aspetta bloccato finché la lancetta dei minuti non ha completato il giro. Sul meccanismo c’è una camma (disco a camma): quando la lancetta dei minuti raggiunge l’ora piena o la mezz’ora, la camma solleva una leva che libera il rotismo di suoneria. Allora si avviano insieme più movimenti attraverso sottili fili metallici e leve."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Un filo metallico socchiude la porticina davanti all’uccellino.",
+            "items": []
+          },
+          {
+            "content": "Una leva spinge l’uccellino fuori dalla casetta su un braccio incernierato.",
+            "items": []
+          },
+          {
+            "content": "La camma solleva a turno i due mantici: uno dà il primo tono, l’altro il secondo tono del richiamo.",
+            "items": []
+          },
+          {
+            "content": "Finiti i rintocchi, l’uccellino rientra e la porticina si chiude.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Il suono non viene da un altoparlante. Ogni mantice ha la parte superiore di carta e una canna di legno: l’aria spinta attraverso la canna crea il tono. I due mantici quindi non sono un ornamento, ma due toni diversi. All’ora piena il richiamo si ripete secondo il numero delle ore; alla mezz’ora spesso una sola volta."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Prima del rintocco vero e proprio a volte puoi vedere un breve «avviso»: la porticina si apre appena prima che l’uccellino esca. Fa parte della fasatura del rotismo di suoneria, non è un difetto. Se il rotismo non si liberasse al momento giusto, le lancette segnerebbero l’ora piena, ma il cucù resterebbe muto."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Consiglio:</strong> Quando un modello a ruote dentate si muove, segui una ruota da dente a dente: se un dente si ferma prima degli altri, è proprio lì che qualcosa struscia o s’inceppa.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Cosa osservare su ruote e leve e perché l’orologio va in ritardo",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "cosa-osservare-su-ruote-e-leve-e-perche-lorologio-va-in-ritardo"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Quando il meccanismo si muove, osserva i punti in cui si incontrano i denti delle ruote e dove le leve sollevano i fili. I denti devono ingranare con regolarità: se una ruota scatta e un’altra resta ferma, la causa può essere polvere sui perni o un filo che si inceppa. I fili verso la porticina e i mantici devono scorrere liberamente; lo sfregamento contro la cassa può bloccare l’intero rintocco."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Gli orologi meccanici possono andare in ritardo o in anticipo a causa della lunghezza del pendolo; il ritmo è influenzato anche dalla temperatura, per cui l’asta del pendolo si dilata o si contrae leggermente, e da un orologio appeso storto. Un pendolo troppo lungo rallenta la marcia, uno più corto la accelera. La polvere sui perni o l’attrito aggiungono resistenza e il rintocco, o addirittura l’intera marcia, può fermarsi. Per questo nella manutenzione conta un movimento libero e pulito, non una trazione più forte."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Su un modello di legno con ingranaggi vedrai la stessa logica in forma semplificata: le ruote trasmettono il movimento, le leve avviano l’azione successiva e un solo dente incastrato ferma l’intero sistema. Quando un giorno il tuo ingranaggio si inceppa, aiuta lo stesso sguardo che si usa con gli orologi: trova il punto di attrito prima di spingere con forza. Come farlo passo dopo passo lo spieghiamo nell’articolo <a href=\"/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo\">sul meccanismo che si inceppa</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Se ti attira l’idea di montare un orologio a cucù come modello di legno, questo kit potrebbe interessarti. Secondo il catalogo è un modello di legno da montare, con 435 pezzi e un meccanismo al quarzo. Prendi il tempo di montaggio e la difficoltà dai parametri qui sotto; durante la costruzione vale il manuale del modello specifico."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-meccanico-3d-in-legno-orologio-a-cucu-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Puzzle meccanico 3D in legno - Orologio a cucù ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-meccanico-3d-in-legno-orologio-a-cucu-rokr-lc901c-p198\">Puzzle meccanico 3D in legno - Orologio a cucù ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Numero di pezzi: 435</li>\n      <li>Tempo di montaggio: 6 h</li>\n      <li>Difficoltà: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puzzle-3d-in-legno/orologi-calendari/puzzle-meccanico-3d-in-legno-orologio-a-cucu-rokr-lc901c-p198\">Vedi il kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Domande frequenti",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "domande-frequenti"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Cosa aziona un orologio a cucù classico?</h3>\n    <p style=\"margin:0;\">Più spesso due pesi su catene: uno aziona il rotismo del tempo con le lancette, l’altro il rotismo di suoneria con il cucù. Il pendolo si limita a regolare il ritmo, non fornisce energia.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Perché il cucù suona proprio all’ora piena?</h3>\n    <p style=\"margin:0;\">Quando la lancetta dei minuti raggiunge l’ora piena, la camma libera il rotismo di suoneria. Questo apre la porticina, spinge fuori l’uccellino e solleva a turno due mantici; l’aria spinta attraverso le canne dà i due toni del richiamo.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Perché gli orologi meccanici vanno in ritardo o in anticipo?</h3>\n    <p style=\"margin:0;\">Il ritmo dipende dalla lunghezza del pendolo e dal corretto ingranare dei denti. Un pendolo più lungo rallenta l’orologio, uno più corto lo accelera. Un ingranaggio che si inceppa, invece, lo rallenta o lo ferma.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Puzzle meccanico 3D in legno - Orologio a cucù ROKR LC901C",
+      "path": "/puzzle-3d-in-legno/orologi-calendari/puzzle-meccanico-3d-in-legno-orologio-a-cucu-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/meccanismo-che-si-inceppa-come-trovare-lattrito-e-ridurlo",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

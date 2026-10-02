@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "fr",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Comment fonctionne le coucou d’une horloge : pas à pas",
+  "description": "Une horloge à coucou est entraînée par un poids, et c’est le balancier qui rythme le tic-tac. À chaque heure pleine, un second rouage se libère : il ouvre la porte, fait sortir l’oiseau et pousse l’air de deux soufflets dans des tuyaux qui donnent les notes du coucou.",
+  "seo_title": "Comment fonctionne une horloge à coucou : mécanisme et son",
+  "seo_description": "Poids, roues dentées, balancier et soufflets : comment l’oiseau sort d’une horloge à coucou, et pourquoi une horloge mécanique avance ou retarde.",
+  "slug": "comment-fonctionne-le-coucou-dune-horloge-pas-a-pas",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Comment fonctionne le coucou d’une horloge : pas à pas"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Une horloge à coucou classique est entraînée par un poids, pas par une pile. Le poids tire une chaîne, la chaîne fait tourner des roues dentées et celles-ci font avancer les aiguilles. Le balancier donne le rythme : à chaque oscillation, il libère le rouage d’une dent, ce qui produit le tic-tac bien connu."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "À l’heure pleine, un second rouage se libère, le rouage de sonnerie. Il ouvre la petite porte, fait sortir l’oiseau et soulève deux petits soufflets. L’air est poussé à travers deux tuyaux et donne les notes que tu entends comme le coucou. Sans ce déclenchement, l’oiseau ne chanterait pas, même si les aiguilles continuaient d’avancer."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Sommaire de l’article</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-qui-entraine-lhorloge-et-comment-le-mouvement-arrive-aux-aiguilles\">Ce qui entraîne l’horloge et comment le mouvement arrive aux aiguilles</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#ce-qui-declenche-le-coucou-et-le-son-a-lheure-pleine\">Ce qui déclenche le coucou et le son à l’heure pleine</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#que-regarder-sur-les-roues-et-les-leviers-et-pourquoi-une-horloge-prend-du-retard\">Que regarder sur les roues et les leviers, et pourquoi une horloge prend du retard</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#questions-frequentes\">Questions fréquentes</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Ce qui entraîne l’horloge et comment le mouvement arrive aux aiguilles",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-qui-entraine-lhorloge-et-comment-le-mouvement-arrive-aux-aiguilles"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Un rouage est un ensemble de roues dentées qui transmettent le mouvement d’un axe à un autre. Dans les horloges, on sépare le plus souvent le <strong>rouage de marche</strong> (les aiguilles) et le <strong>rouage de sonnerie</strong> (le coucou et le son). Chacun a son propre poids, si bien que les deux rouages fonctionnent indépendamment."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Le poids descend sous l’effet de la gravité et fait tourner la grande roue par la chaîne. Les roues plus petites accélèrent la transmission et envoient le mouvement à l’axe central des aiguilles. Sans régulation, tout se déroulerait d’un coup : c’est pourquoi un <strong>échappement</strong> (escapement), relié au balancier, se trouve à la fin du rouage de marche."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Quand le balancier va vers la gauche, un levier libère une dent de la roue d’échappement.",
+            "items": []
+          },
+          {
+            "content": "Quand il va vers la droite, le second levier retient une dent et la roue s’arrête un instant.",
+            "items": []
+          },
+          {
+            "content": "Cela produit un tic-tac régulier, et les aiguilles avancent par petits pas, pas d’un seul coup.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Un balancier d’une longueur donnée oscille à peu près au même rythme. C’est pourquoi la longueur du balancier détermine si l’horloge marche juste : en l’allongeant, on la ralentit, en le raccourcissant, on l’accélère. Le balancier lui-même n’entraîne pas l’horloge : c’est l’échappement qui libère l’énergie du poids par petites doses, et le balancier donne le rythme."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Ce qui déclenche le coucou et le son à l’heure pleine",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "ce-qui-declenche-le-coucou-et-le-son-a-lheure-pleine"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Le rouage de sonnerie reste bloqué jusqu’à ce que l’aiguille des minutes ait fini son tour. Sur le mécanisme se trouve une came (un disque à came) : quand l’aiguille des minutes atteint l’heure pleine ou la demie, la came soulève un levier qui libère le rouage de sonnerie. Plusieurs mouvements se déclenchent alors d’un coup par de fins fils métalliques et des leviers."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Un fil métallique entrouvre la petite porte devant l’oiseau.",
+            "items": []
+          },
+          {
+            "content": "Un levier fait sortir l’oiseau de la maisonnette sur un bras articulé.",
+            "items": []
+          },
+          {
+            "content": "La came soulève tour à tour les deux soufflets : l’un donne la première note de l’appel, l’autre la seconde.",
+            "items": []
+          },
+          {
+            "content": "Quand la sonnerie est finie, l’oiseau rentre et la porte se referme.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Le son ne vient pas d’un haut-parleur. Chaque soufflet a un dessus en papier et un tuyau en bois : l’air poussé dans le tuyau produit la note. Les deux soufflets ne sont donc pas décoratifs, ils donnent deux notes différentes. À l’heure pleine, l’appel se répète autant de fois qu’il y a d’heures ; à la demie, souvent une seule fois."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Avant la sonnerie proprement dite, tu peux parfois voir un court « avertissement » : la porte s’entrouvre un peu avant que l’oiseau sorte. Cela fait partie du calage du rouage de sonnerie, ce n’est pas un défaut. Si le rouage ne se libérait pas au bon moment, les aiguilles indiqueraient bien l’heure pleine, mais le coucou resterait muet."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Astuce :</strong> Quand un modèle à roues dentées bouge, suis une roue de dent en dent : si une dent s’arrête plus tôt que les autres, c’est justement là que quelque chose frotte ou coince.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Que regarder sur les roues et les leviers, et pourquoi une horloge prend du retard",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "que-regarder-sur-les-roues-et-les-leviers-et-pourquoi-une-horloge-prend-du-retard"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Quand le mécanisme bouge, observe les endroits où les dents des roues se rencontrent et où les leviers soulèvent les fils. Les dents doivent s’engrener régulièrement : si une roue fait des à-coups et qu’une autre reste immobile, la cause peut être de la poussière sur les pivots ou un fil qui coince. Les fils vers la porte et les soufflets doivent coulisser librement ; un frottement contre le boîtier peut bloquer toute la sonnerie."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Les horloges mécaniques peuvent prendre du retard ou de l’avance à cause de la longueur du balancier ; le rythme dépend aussi de la température, qui dilate ou contracte légèrement la tige du balancier, et d’une horloge mal d’aplomb. Un balancier trop long ralentit la marche, un balancier plus court l’accélère. La poussière sur les pivots ou le frottement ajoutent de la résistance, et la sonnerie, voire toute la marche, peut s’arrêter. Pour l’entretien, il s’agit donc d’un mouvement libre et propre, pas d’une traction plus forte."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Sur un modèle en bois à engrenage, tu verras la même logique sous une forme simplifiée : les roues transmettent le mouvement, les leviers déclenchent l’action suivante et une seule dent coincée arrête tout le système. Quand ton engrenage coince un jour, le même regard que pour les horloges aide : trouve l’endroit du frottement avant de forcer. Nous expliquons pas à pas comment faire dans l’article <a href=\"/blog/mecanisme-bloque-trouver-le-frottement-et-le-supprimer\">sur le mécanisme qui coince</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Si l’idée d’assembler une horloge à coucou sous forme de maquette en bois te tente, ce kit pourrait t’intéresser. D’après le catalogue, il s’agit d’une maquette en bois à assembler, avec 435 pièces et un mécanisme à quartz. Prends le temps de montage et la difficulté dans les paramètres ci-dessous ; pendant la construction, c’est la notice du modèle concerné qui fait foi."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/puzzle-mecanique-3d-en-bois-horloge-a-coucou-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Puzzle mécanique 3D en bois - Horloge à coucou ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/puzzle-mecanique-3d-en-bois-horloge-a-coucou-rokr-lc901c-p198\">Puzzle mécanique 3D en bois - Horloge à coucou ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Nombre de pièces : 435</li>\n      <li>Temps de montage : 6 h</li>\n      <li>Difficulté : 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/casse-tete-3d-en-bois/horloges-et-calendriers/puzzle-mecanique-3d-en-bois-horloge-a-coucou-rokr-lc901c-p198\">Voir le kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Questions fréquentes",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "questions-frequentes"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Qu’est-ce qui entraîne une horloge à coucou classique ?</h3>\n    <p style=\"margin:0;\">Le plus souvent deux poids sur des chaînes : l’un entraîne le rouage de marche avec les aiguilles, l’autre le rouage de sonnerie avec le coucou. Le balancier ne fait que régler le rythme, il n’apporte pas d’énergie.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Pourquoi le coucou retentit-il juste à l’heure pleine ?</h3>\n    <p style=\"margin:0;\">Quand l’aiguille des minutes atteint l’heure pleine, la came libère le rouage de sonnerie. Celui-ci ouvre la porte, fait sortir l’oiseau et soulève tour à tour deux soufflets ; l’air poussé dans les tuyaux donne les deux notes de l’appel.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Pourquoi les horloges mécaniques prennent-elles du retard ou de l’avance ?</h3>\n    <p style=\"margin:0;\">Le rythme dépend de la longueur du balancier et de l’engrènement net des dents. Un balancier plus long ralentit l’horloge, un plus court l’accélère. Un rouage qui coince, lui, la ralentit ou l’arrête.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Puzzle mécanique 3D en bois - Horloge à coucou ROKR LC901C",
+      "path": "/casse-tete-3d-en-bois/horloges-et-calendriers/puzzle-mecanique-3d-en-bois-horloge-a-coucou-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mecanisme-bloque-trouver-le-frottement-et-le-supprimer",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

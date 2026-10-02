@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "sl",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Kako deluje kukavica v uri: mehanizem korak za korakom",
+  "description": "Kukavičjo uro poganja utež, tiktakanje pa drži nihalo. Ob polni uri se sprosti drugi prenos: odpre vratca, potisne ptička ven in skozi dva meha spusti zrak v piščali, ki dajo tone kukavičjega klica.",
+  "seo_title": "Kako deluje kukavičja ura: mehanizem in zvok",
+  "seo_description": "Utež, zobniki, nihalo in mehovi: kako se v kukavičji uri sproži ptiček in zakaj mehanske ure s časom zamujajo ali prehitevajo.",
+  "slug": "kako-deluje-kukavica-v-uri-mehanizem-korak-za-korakom",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Kako deluje kukavica v uri: mehanizem korak za korakom"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Klasične kukavičje ure poganja utež, ne baterija. Utež vleče verigo, veriga vrti zobnike, ti pa premikajo kazalce. Tempo drži nihalo: ob vsakem zamahu sprosti prenos za en zob in nastane znano tiktakanje."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Ob polni uri se sprosti drugi prenos, tako imenovani udarni. Ta odpre vratca, potisne ptička ven in dvigne dva majhna meha. Zrak se potisne skozi dve piščali in da tone, ki jih slišiš kot kukavico. Brez te sprostitve se ptiček ne bi oglasil, čeprav bi kazalci tekli naprej."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Kazalo članka</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaj-poganja-uro-in-kako-gibanje-pride-do-kazalcev\">Kaj poganja uro in kako gibanje pride do kazalcev</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaj-sprozi-kukavico-in-zvok-ob-polni-uri\">Kaj sproži kukavico in zvok ob polni uri</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#kaj-opaziti-na-kolesih-in-rocicah-ter-zakaj-ura-zamuja\">Kaj opaziti na kolesih in ročicah ter zakaj ura zamuja</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#pogosta-vprasanja\">Pogosta vprašanja</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Kaj poganja uro in kako gibanje pride do kazalcev",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaj-poganja-uro-in-kako-gibanje-pride-do-kazalcev"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Zobniški prenos je sistem zobnikov, ki prenašajo gibanje z ene gredi na drugo. V urah sta največkrat ločena <strong>časovni prenos</strong> (kazalci) in <strong>udarni prenos</strong> (kukavica in zvok). Vsak ima svojo utež, zato prenosa delujeta neodvisno."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Utež pada zaradi gravitacije in prek verige vrti veliko kolo. Manjša kolesa prenos pospešijo in gibanje prenesejo na srednjo gred s kazalci. Brez uravnavanja bi se vse odvilo naenkrat: zato je na koncu časovnega prenosa <strong>zapor</strong> (escapement), povezan z nihalom."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Pri zamahu v levo ena ročica sprosti zob na zapornem kolesu.",
+            "items": []
+          },
+          {
+            "content": "Pri zamahu v desno druga ročica zob ujame in kolo za trenutek ustavi.",
+            "items": []
+          },
+          {
+            "content": "Tako nastane enakomerno tiktakanje, kazalci pa se pomikajo po majhnih korakih, ne z enim klikom.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Nihalo dane dolžine niha približno z enakim tempom. Zato dolžina nihala določa, ali ura teče pravilno: z daljšanjem se ura upočasni, s krajšanjem pospeši. Nihalo samo ure ne poganja: energijo iz uteži v majhnih odmerkih sprošča zapor, nihalo pa določa tempo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Kaj sproži kukavico in zvok ob polni uri",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaj-sprozi-kukavico-in-zvok-ob-polni-uri"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Udarni prenos čaka blokiran, dokler minutni kazalec ne konča obrata. Na mehanizmu je odmična plošča (odmik): ko minutni kazalec doseže polno uro ali pol ure, odmik dvigne ročico in ta sprosti udarni prenos. Takrat se naenkrat sproži več gibov prek tankih žičk in ročic."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Žička malo odpre vratca pred ptičkom.",
+            "items": []
+          },
+          {
+            "content": "Ročica potisne ptička na členkasti roki iz hišice.",
+            "items": []
+          },
+          {
+            "content": "Odmik izmenično dvigne oba meha: eden da prvi ton, drugi drugi ton klica.",
+            "items": []
+          },
+          {
+            "content": "Ko se udarci končajo, se ptiček vrne noter in vratca se zaprejo.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Zvoka ne ustvarja zvočnik. Vsak meh ima papirnat vrh in leseno piščal: zrak, potisnjen skozi piščal, ustvari ton. Dva meha zato nista okras, ampak dva različna tona. Ob polni uri se klic ponovi glede na število ur, ob pol ure pogosto le enkrat."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Pred samim udarcem lahko včasih vidiš kratko „opozorilo“: vratca se malo odprejo, preden ptiček pride ven. To je del časovanja udarnega prenosa, ne napaka. Če se prenos ne bi sprostil v pravem trenutku, bi kazalci sicer kazali polno uro, a kukavica bi molčala."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nasvet:</strong> Ko se model z zobniki premika, spremljaj eno kolo od zoba do zoba: če se kak zob ustavi prej kot drugi, se prav tam nekaj drgne ali zatika.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Kaj opaziti na kolesih in ročicah ter zakaj ura zamuja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "kaj-opaziti-na-kolesih-in-rocicah-ter-zakaj-ura-zamuja"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Ko se mehanizem premika, opazuj mesta, kjer se zobje koles srečajo in kjer ročice dvigajo žičke. Zobje morajo zapadati enakomerno: če eno kolo sunkovito poskoči, drugo pa stoji, je lahko vzrok prah na čepih ali zatikajoča se žička. Žičke do vratc in mehov se morajo gibati prosto; trenje ob ohišje lahko ustavi ves udarec."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mehanske ure lahko zamujajo ali prehitevajo zaradi dolžine nihala; na tempo vpliva tudi temperatura, pri kateri se palica nihala rahlo razteza ali krči, in neravna postavitev ure. Predolgo nihalo upočasni tek, krajše ga pospeši. Prah na čepih ali trenje dodata upor, udarec ali celoten tek pa se lahko ustavi. Pri vzdrževanju gre zato za prosto in čisto gibanje, ne za močnejši vlek."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Na lesenem modelu z zobniškim prenosom je ista logika v poenostavljeni obliki: kolesa prenašajo gibanje, ročice sprožijo naslednje dejanje, en zataknjen zob pa ustavi ves sistem. Ko se ti prenos kdaj zatika, pomaga enak pogled kot pri urah: poišči mesto trenja, preden začneš pritiskati s silo. Kako to storiti korak za korakom, pišemo v članku <a href=\"/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti\">o mehanizmu, ki se zatika</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Če te mika sestaviti kukavičjo uro kot leseni model, te bo morda zanimal ta komplet. Po katalogu gre za leseni model za sestavljanje s 435 deli in kvarčnim mehanizmom. Čas sestavljanja in zahtevnost vzemi iz spodnjih parametrov; pri gradnji velja navodilo za posamezni model."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/lesena-mehanska-3d-sestavljanka-kukavicja-ura-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Lesena mehanska 3D sestavljanka - Kukavičja ura ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/lesena-mehanska-3d-sestavljanka-kukavicja-ura-rokr-lc901c-p198\">Lesena mehanska 3D sestavljanka - Kukavičja ura ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Število delov: 435</li>\n      <li>Čas sestavljanja: 6 h</li>\n      <li>Zahtevnost: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/lesena-3d-sestavljanka/ure-in-koledarji/lesena-mehanska-3d-sestavljanka-kukavicja-ura-rokr-lc901c-p198\">Poglej komplet</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Pogosta vprašanja",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "pogosta-vprasanja"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Kaj poganja klasično kukavičjo uro?</h3>\n    <p style=\"margin:0;\">Najpogosteje dve uteži na verigah: ena poganja časovni prenos s kazalci, druga udarni prenos s kukavico. Nihalo tempo le uravnava, same energije ne daje.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zakaj se kukavica oglasi prav ob polni uri?</h3>\n    <p style=\"margin:0;\">Ko minutni kazalec doseže polno uro, odmik sprosti udarni prenos. Ta odpre vratca, potisne ptička ven in izmenično dvigne dva meha; zrak, potisnjen skozi piščali, da dva tona klica.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Zakaj mehanske ure zamujajo ali prehitevajo?</h3>\n    <p style=\"margin:0;\">Tempo drži dolžina nihala in čisto zapadanje zob. Daljše nihalo uro upočasni, krajše jo pospeši. Prenos, ki se zatika, jo nasprotno upočasni ali ustavi.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Lesena mehanska 3D sestavljanka - Kukavičja ura ROKR LC901C",
+      "path": "/lesena-3d-sestavljanka/ure-in-koledarji/lesena-mehanska-3d-sestavljanka-kukavicja-ura-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mehanizem-se-zatika-kako-najti-trenje-in-ga-odpraviti",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

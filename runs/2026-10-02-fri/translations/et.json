@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "et",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Kuidas töötab käokell: mehhanism samm-sammult",
+  "description": "Käokella käitab raskus ja tiksumist hoiab pendel. Täistunni ajal vabaneb teine ülekanne: see avab ukse, lükkab linnu välja ja laseb kahest lõõtsast õhu vilepillidesse, mis annavad käokukkumise toonid.",
+  "seo_title": "Kuidas käokell töötab: mehhanism ja heli",
+  "seo_description": "Raskus, hammasrattad, pendel ja lõõtsad: kuidas käokellas lind liikuma hakkab ja miks mehaanilised kellad aja jooksul taha jäävad või ette jooksevad.",
+  "slug": "kuidas-tootab-kaokell-mehhanism-samm-sammult",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Kuidas töötab käokell: mehhanism samm-sammult"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Klassikalist käokella käitab raskus, mitte patarei. Raskus tõmbab ketti, kett pöörab hammasrattaid ja need liigutavad osuteid. Tempot hoiab pendel: iga kiigutusega vabastab ta ülekannet ühe hamba võrra ja tekib tuttav tiksumine."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Täistunni ajal vabaneb teine ülekanne, nn löömisülekanne. See avab ukse, lükkab linnu välja ja tõstab kaks väikest lõõtsa. Õhk surutakse läbi kahe vilepilli ja annab toonid, mida kuuled käokukkumisena. Ilma selle vabanemiseta ei hakkaks lind häält tegema, isegi kui osutid edasi liiguksid."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Artikli sisukord</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#mis-kella-kaitab-ja-kuidas-liikumine-osutiteni-jouab\">Mis kella käitab ja kuidas liikumine osutiteni jõuab</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#mis-kaivitab-kao-ja-heli-taistunni-ajal\">Mis käivitab käo ja heli täistunni ajal</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#mida-rataste-ja-kangide-juures-jalgida-ja-miks-kell-taha-jaab\">Mida rataste ja kangide juures jälgida ja miks kell taha jääb</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#korduma-kippuvad-kusimused\">Korduma kippuvad küsimused</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Mis kella käitab ja kuidas liikumine osutiteni jõuab",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mis-kella-kaitab-ja-kuidas-liikumine-osutiteni-jouab"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Hammasülekanne on hammasrataste süsteem, mis annab liikumise ühelt võllilt teisele. Kelladel on tavaliselt eraldi <strong>ajaülekanne</strong> (osutid) ja <strong>löömisülekanne</strong> (käo ja heli). Kummalgi on oma raskus, seega töötavad mõlemad ülekanded teineteisest sõltumata."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Raskus langeb raskusjõu mõjul ja pöörab keti kaudu suurt ratast. Väiksemad rattad kiirendavad ülekannet ja annavad liikumise edasi keskvõllile osutitega. Ilma reguleerimiseta läheks kõik korraga käima: seepärast on ajaülekande lõpus pendliga ühendatud <strong>ankurkäik</strong> (escapement)."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Kiikumisel vasakule vabastab üks kang käigurattal ühe hamba.",
+            "items": []
+          },
+          {
+            "content": "Kiikumisel paremale püüab teine kang hamba kinni ja ratas peatub hetkeks.",
+            "items": []
+          },
+          {
+            "content": "Nii tekib ühtlane tiksumine ja osutid liiguvad väikeste sammudena, mitte ühe klõpsuga.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Antud pikkusega pendel kiigub ligikaudu ühtlases tempos. Seepärast määrab pendli pikkus, kas kell käib õigesti: pikendamisel läheb kell aeglasemaks, lühendamisel kiiremaks. Pendel ise kella ei käita: raskuse energiat vabastab väikeste portsjonite kaupa ankurkäik ja pendel määrab tempo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Mis käivitab käo ja heli täistunni ajal",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mis-kaivitab-kao-ja-heli-taistunni-ajal"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Löömisülekanne ootab lukustatuna, kuni minutiosuti on täispöörde lõpetanud. Mehhanismil on nukkketas: kui minutiosuti jõuab täistunni või pooltunnini, tõstab nukkketas kangi ja see vabastab löömisülekande. Siis läheb korraga käima mitu liikumist peenikeste traatide ja kangide kaudu."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Traat avab linnu ees ukse praokile.",
+            "items": []
+          },
+          {
+            "content": "Kang lükkab lindu hingedega harul majast välja.",
+            "items": []
+          },
+          {
+            "content": "Nukkketas tõstab vaheldumisi kaks lõõtsa: üks annab hüüu esimese tooni, teine teise tooni.",
+            "items": []
+          },
+          {
+            "content": "Pärast lööke läheb lind tagasi sisse ja uks sulgub.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Heli ei tee kõlar. Igal lõõtsal on paberist ülaosa ja puidust vilepill: vilepillist läbi surutud õhk tekitab tooni. Kaks lõõtsa ei ole seega kaunistus, vaid kaks erinevat tooni. Täistunni ajal kordub kukkumine tundide arvu järgi, pooltunni ajal sageli ainult üks kord."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Enne löömist võid mõnikord näha lühikest „hoiatust“: uks avaneb veidi enne, kui lind välja tuleb. See kuulub löömisülekande ajastuse juurde, mitte rike. Kui ülekanne ei vabaneks õigel hetkel, näitaksid osutid küll täistundi, aga käo vaikiks."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Nõuanne:</strong> Kui hammasratastega mudel liigub, jälgi ühte ratast hambast hambani: kui mõni hammas peatub varem kui teised, siis just seal midagi hõõrub või kiilub.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Mida rataste ja kangide juures jälgida ja miks kell taha jääb",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "mida-rataste-ja-kangide-juures-jalgida-ja-miks-kell-taha-jaab"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Kui mehhanism liigub, jälgi kohti, kus rataste hambad kohtuvad ja kus kangid tõstavad traate. Hambad peavad haakuma ühtlaselt: kui üks ratas tõmbleb ja teine seisab, võib põhjus olla tolm tappidel või kinni kiiluv traat. Traadid ukse ja lõõtsade juurde peavad liikuma vabalt; hõõrdumine korpuse vastu võib kogu löögi peatada."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mehaanilised kellad võivad pendli pikkuse tõttu taha jääda või ette joosta; tempot mõjutavad ka temperatuur, mille juures pendlivarras veidi paisub või tõmbub kokku, ning kella viltune asend. Liiga pikk pendel aeglustab käiku, lühem kiirendab. Tolm tappidel või hõõrdumine lisab takistust ning löök, vajaduse korral kogu käik, võib seiskuda. Seepärast on hoolduses oluline vaba ja puhas liikumine, mitte tugevam tõmme."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Puitmudelil, millel on hammasülekanne, näed sama loogikat lihtsustatud kujul: rattad annavad liikumist edasi, kangid käivitavad järgmise tegevuse ja üks kinni kiilunud hammas peatab kogu süsteemi. Kui sul mehhanism kord kiilub, aitab sama pilk nagu kellade puhul: leia hõõrdumiskoht, enne kui hakkad jõuga suruma. Kuidas seda samm-sammult teha, kirjutame artiklis <a href=\"/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see\">kinni kiiluvast mehhanismist</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Kui sind tõmbab käokella puitmudelina kokku panna, võib sind see komplekt huvitada. Kataloogi järgi on tegemist kokkupandava puitmudeliga, millel on 435 detaili ja kvartsmehhanism. Kokkupaneku aja ja raskuse võta allolevatest parameetritest; ehitamisel kehtib konkreetse mudeli juhend."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/puidust-3d-pusle/kellad-kalendrid/puidust-mehaaniline-3d-pusle-kaokell-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Puidust mehaaniline 3D pusle - Käokell ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/puidust-3d-pusle/kellad-kalendrid/puidust-mehaaniline-3d-pusle-kaokell-rokr-lc901c-p198\">Puidust mehaaniline 3D pusle - Käokell ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Detailide arv: 435</li>\n      <li>Kokkupaneku aeg: 6 h</li>\n      <li>Raskus: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/puidust-3d-pusle/kellad-kalendrid/puidust-mehaaniline-3d-pusle-kaokell-rokr-lc901c-p198\">Vaata komplekti</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Korduma kippuvad küsimused",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "korduma-kippuvad-kusimused"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Mis käitab klassikalist käokella?</h3>\n    <p style=\"margin:0;\">Enamasti kaks raskust ketil: üks käitab ajaülekannet osutitega, teine löömisülekannet käoga. Pendel ainult reguleerib tempot, ise energiat ei anna.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miks käo kukub just täistunni ajal?</h3>\n    <p style=\"margin:0;\">Kui minutiosuti jõuab täistunnini, vabastab nukkketas löömisülekande. See avab ukse, lükkab linnu välja ja tõstab vaheldumisi kaks lõõtsa; vilepillidest läbi surutud õhk annab hüüu kaks tooni.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Miks mehaanilised kellad taha jäävad või ette jooksevad?</h3>\n    <p style=\"margin:0;\">Tempo hoiavad pendli pikkus ja hammaste puhas haakumine. Pikem pendel aeglustab kella, lühem kiirendab seda. Kinni kiiluv ülekanne seevastu aeglustab või peatab selle.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Puidust mehaaniline 3D pusle - Käokell ROKR LC901C",
+      "path": "/puidust-3d-pusle/kellad-kalendrid/puidust-mehaaniline-3d-pusle-kaokell-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blogi/mehhanism-jaab-kinni-leia-hoordumine-ja-korvalda-see",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

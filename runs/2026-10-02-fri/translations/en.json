@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "en",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "How a cuckoo clock works: the mechanism step by step",
+  "description": "A cuckoo clock is driven by a weight, and the pendulum keeps the ticking steady. On the hour a second gear train is released: it opens the little door, pushes out the bird and sends air from two bellows into pipes that give the notes of the cuckoo call.",
+  "seo_title": "How a cuckoo clock works: mechanism and sound",
+  "seo_description": "Weight, gears, pendulum and bellows: how the bird is triggered in a cuckoo clock and why mechanical clocks run slow or fast over time.",
+  "slug": "how-a-cuckoo-clock-works-the-mechanism-step-by-step",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "How a cuckoo clock works: the mechanism step by step"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "A classic cuckoo clock is driven by a weight, not a battery. The weight pulls a chain, the chain turns the gears and the gears move the hands. The pendulum keeps the pace: with every swing it lets the gear train advance by one tooth, and the familiar ticking is born."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "On the hour a second gear train is released, the so-called striking train. It opens the little door, pushes out the bird and lifts two small bellows. Air is pushed through two pipes and gives the notes you hear as the cuckoo. Without this release the bird would not sound, even if the hands kept going."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Contents of the article</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#what-drives-the-clock-and-how-the-motion-reaches-the-hands\">What drives the clock and how the motion reaches the hands</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#what-triggers-the-cuckoo-and-the-sound-on-the-hour\">What triggers the cuckoo and the sound on the hour</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#what-to-look-for-on-the-wheels-and-levers-and-why-a-clock-runs-slow\">What to look for on the wheels and levers and why a clock runs slow</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#frequently-asked-questions\">Frequently asked questions</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "What drives the clock and how the motion reaches the hands",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "what-drives-the-clock-and-how-the-motion-reaches-the-hands"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "A gear train is a set of toothed wheels that pass motion from one shaft to another. In clocks, the <strong>going train</strong> (the hands) and the <strong>striking train</strong> (the cuckoo and the sound) are most often separate. Each has its own weight, so the two trains run independently."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "The weight sinks under gravity and turns the large wheel through the chain. The smaller wheels speed up the drive and carry the motion to the centre shaft with the hands. Without regulation everything would run down at once: that is why the end of the going train has an <strong>escapement</strong> connected to the pendulum."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "On the swing to the left, one lever releases a tooth on the escape wheel.",
+            "items": []
+          },
+          {
+            "content": "On the swing to the right, the second lever catches the tooth and the wheel stops for a moment.",
+            "items": []
+          },
+          {
+            "content": "This produces an even ticking, and the hands move in small steps, not in a single click.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "A pendulum of a given length swings at roughly the same pace. That is why the length of the pendulum decides whether the clock runs right: lengthening it slows the clock, shortening it speeds it up. The pendulum itself does not drive the clock: the energy from the weight is released in small portions by the escapement, and the pendulum sets the pace."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "What triggers the cuckoo and the sound on the hour",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "what-triggers-the-cuckoo-and-the-sound-on-the-hour"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "The striking train waits locked until the minute hand has finished its turn. The movement has a cam (a cam disc): when the minute hand reaches the full hour or the half hour, the cam lifts a lever and the lever releases the striking train. Then several motions start at once through thin wires and levers."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "A wire opens the little door in front of the bird a crack.",
+            "items": []
+          },
+          {
+            "content": "A lever pushes the bird out of the little house on a hinged arm.",
+            "items": []
+          },
+          {
+            "content": "The cam lifts the two bellows in turn: one gives the first note, the other the second note of the call.",
+            "items": []
+          },
+          {
+            "content": "When the strikes are over, the bird goes back in and the door closes.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "The sound does not come from a speaker. Each bellows has a paper top and a wooden pipe: air pushed through the pipe makes the note. The two bellows are therefore not decoration, but two different notes. On the hour the call repeats according to the number of hours; on the half hour often only once."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Before the strike itself you may sometimes see a short “warning”: the little door opens slightly before the bird comes out. It is part of the timing of the striking train, not a fault. If the train were not released at the right moment, the hands would show the full hour, but the cuckoo would stay silent."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tip:</strong> When a model with gears moves, follow one wheel from tooth to tooth: if a tooth stops earlier than the others, that is exactly where something rubs or binds.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "What to look for on the wheels and levers and why a clock runs slow",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "what-to-look-for-on-the-wheels-and-levers-and-why-a-clock-runs-slow"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "While the mechanism moves, watch the places where the teeth of the wheels meet and where the levers lift the wires. The teeth should mesh evenly: if one wheel jerks and another stands still, the cause may be dust on the pivots or a wire that sticks. The wires to the little door and the bellows must move freely; rubbing against the case can stop the whole strike."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mechanical clocks can run slow or fast because of the length of the pendulum; the pace is also affected by temperature, at which the pendulum rod expands or contracts slightly, and by a clock that hangs crooked. A pendulum that is too long slows the running, a shorter one speeds it up. Dust on the pivots or friction adds resistance, and the strike, or even the whole movement, may stop. In maintenance, then, what counts is free and clean motion, not a harder pull."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "On a wooden model with a gear drive you will see the same logic in a simplified form: wheels pass on the motion, levers trigger the next action, and one jammed tooth stops the whole system. When your gear drive sticks one day, the same way of looking helps as with clocks: find the point of friction before you push with force. We explain how to do it step by step in the article <a href=\"/blog/sticking-mechanism-how-to-find-the-friction-and-fix-it\">about a sticking mechanism</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "If the idea of assembling a cuckoo clock as a wooden model appeals to you, this kit may interest you. According to the catalogue, it is a wooden model to assemble with 435 pieces and a quartz movement. Take the assembly time and difficulty from the parameters below; while building, the instructions of the specific model apply."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-cuckoo-clock-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Wooden mechanical 3D puzzle - Cuckoo clock ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-cuckoo-clock-rokr-lc901c-p198\">Wooden mechanical 3D puzzle - Cuckoo clock ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Number of pieces: 435</li>\n      <li>Assembly time: 6 h</li>\n      <li>Difficulty: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-cuckoo-clock-rokr-lc901c-p198\">View the kit</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Frequently asked questions",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "frequently-asked-questions"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">What drives a classic cuckoo clock?</h3>\n    <p style=\"margin:0;\">Most often two weights on chains: one drives the going train with the hands, the other the striking train with the cuckoo. The pendulum only regulates the pace and does not supply energy itself.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Why does the cuckoo sound exactly on the hour?</h3>\n    <p style=\"margin:0;\">When the minute hand reaches the full hour, the cam releases the striking train. It opens the little door, pushes out the bird and lifts two bellows in turn; air pushed through the pipes gives the two notes of the call.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Why do mechanical clocks run slow or fast?</h3>\n    <p style=\"margin:0;\">The pace is kept by the length of the pendulum and by clean meshing of the teeth. A longer pendulum slows the clock, a shorter one speeds it up. A sticking train, on the other hand, slows or stops it.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Wooden mechanical 3D puzzle - Cuckoo clock ROKR LC901C",
+      "path": "/wooden-3d-puzzle/clocks-calendars/wooden-mechanical-3d-puzzle-cuckoo-clock-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/sticking-mechanism-how-to-find-the-friction-and-fix-it",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

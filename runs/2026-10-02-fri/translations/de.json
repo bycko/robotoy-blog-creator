@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "de",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "So funktioniert die Kuckucksuhr: die Mechanik in Schritten",
+  "description": "Eine Kuckucksuhr treibt ein Gewicht an, und das Pendel hält das Ticken im Takt. Zur vollen Stunde löst sich ein zweites Räderwerk: Es öffnet die Tür, schiebt den Vogel heraus und lässt über zwei Blasebälge Luft in Pfeifen strömen, die die Töne des Kuckucksrufs erzeugen.",
+  "seo_title": "So funktioniert eine Kuckucksuhr: Mechanik und Klang",
+  "seo_description": "Gewicht, Zahnräder, Pendel und Blasebälge: wie in der Kuckucksuhr der Vogel ausgelöst wird und warum mechanische Uhren mit der Zeit nach- oder vorgehen.",
+  "slug": "so-funktioniert-die-kuckucksuhr-die-mechanik-in-schritten",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "So funktioniert die Kuckucksuhr: die Mechanik in Schritten"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Eine klassische Kuckucksuhr wird von einem Gewicht angetrieben, nicht von einer Batterie. Das Gewicht zieht an einer Kette, die Kette dreht die Zahnräder, und diese bewegen die Zeiger. Den Takt hält das Pendel: Bei jedem Ausschlag gibt es das Räderwerk um einen Zahn frei, und das bekannte Ticken entsteht."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "Zur vollen Stunde löst sich ein zweites Räderwerk, das sogenannte Schlagwerk. Es öffnet die Tür, schiebt den Vogel heraus und hebt zwei kleine Blasebälge an. Die Luft wird durch zwei Pfeifen gedrückt und erzeugt die Töne, die du als Kuckuck hörst. Ohne diese Auslösung würde sich der Vogel nicht melden, auch wenn die Zeiger weiterliefen."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Inhalt des Artikels</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#was-die-uhr-antreibt-und-wie-die-bewegung-zu-den-zeigern-kommt\">Was die Uhr antreibt und wie die Bewegung zu den Zeigern kommt</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#was-den-kuckuck-und-den-klang-zur-vollen-stunde-auslost\">Was den Kuckuck und den Klang zur vollen Stunde auslöst</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#worauf-du-bei-radern-und-hebeln-achtest-und-warum-die-uhr-nachgeht\">Worauf du bei Rädern und Hebeln achtest und warum die Uhr nachgeht</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#haufige-fragen\">Häufige Fragen</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Was die Uhr antreibt und wie die Bewegung zu den Zeigern kommt",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "was-die-uhr-antreibt-und-wie-die-bewegung-zu-den-zeigern-kommt"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein Räderwerk ist ein System aus Zahnrädern, das die Bewegung von einer Welle auf die andere überträgt. In Uhren sind meist das <strong>Gehwerk</strong> (die Zeiger) und das <strong>Schlagwerk</strong> (der Kuckuck und der Klang) getrennt. Jedes hat ein eigenes Gewicht, sodass die beiden Werke unabhängig voneinander laufen."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Das Gewicht sinkt durch die Schwerkraft und dreht über die Kette das große Rad. Die kleineren Räder beschleunigen die Übersetzung und geben die Bewegung an die mittlere Welle mit den Zeigern weiter. Ohne Regelung würde alles auf einmal ablaufen: Deshalb sitzt am Ende des Gehwerks eine <strong>Hemmung</strong> (Escapement), die mit dem Pendel verbunden ist."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Beim Ausschlag nach links gibt ein Hebel einen Zahn am Hemmungsrad frei.",
+            "items": []
+          },
+          {
+            "content": "Beim Ausschlag nach rechts fängt der zweite Hebel den Zahn auf, und das Rad bleibt kurz stehen.",
+            "items": []
+          },
+          {
+            "content": "So entsteht ein gleichmäßiges Ticken, und die Zeiger rücken in kleinen Schritten vor, nicht mit einem einzigen Klick.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Ein Pendel von bestimmter Länge schwingt ungefähr im selben Takt. Deshalb bestimmt die Länge des Pendels, ob die Uhr richtig geht: Verlängert man es, läuft die Uhr langsamer, verkürzt man es, schneller. Das Pendel selbst treibt die Uhr nicht an: Die Energie des Gewichts gibt die Hemmung in kleinen Portionen frei, und das Pendel bestimmt den Takt."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Was den Kuckuck und den Klang zur vollen Stunde auslöst",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "was-den-kuckuck-und-den-klang-zur-vollen-stunde-auslost"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Das Schlagwerk wartet blockiert, bis der Minutenzeiger seine Umdrehung beendet hat. Am Werk sitzt eine Nocke (Nockenscheibe): Wenn der Minutenzeiger die volle oder halbe Stunde erreicht, hebt die Nocke einen Hebel an, und dieser löst das Schlagwerk. Dann setzen sich über dünne Drähtchen und Hebel gleichzeitig mehrere Bewegungen in Gang."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Ein Draht öffnet die Tür vor dem Vogel einen Spalt.",
+            "items": []
+          },
+          {
+            "content": "Ein Hebel schiebt den Vogel auf einem Gelenkarm aus dem Häuschen.",
+            "items": []
+          },
+          {
+            "content": "Die Nocke hebt abwechselnd die beiden Blasebälge an: Der eine gibt den ersten Ton, der andere den zweiten Ton des Rufs.",
+            "items": []
+          },
+          {
+            "content": "Nach den Schlägen zieht sich der Vogel zurück, und die Tür schließt sich.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Den Klang erzeugt kein Lautsprecher. Jeder Blasebalg hat eine Papieroberseite und eine Holzpfeife: Die durch die Pfeife gedrückte Luft bildet den Ton. Die zwei Blasebälge sind deshalb keine Verzierung, sondern zwei verschiedene Töne. Zur vollen Stunde wird der Ruf entsprechend der Stundenzahl wiederholt, zur halben Stunde oft nur einmal."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Vor dem eigentlichen Schlag kannst du manchmal eine kurze „Vorwarnung“ sehen: Die Tür öffnet sich leicht, bevor der Vogel herauskommt. Das gehört zur Steuerung des Schlagwerks und ist kein Fehler. Würde sich das Werk nicht im richtigen Moment lösen, würden die Zeiger zwar die volle Stunde anzeigen, aber der Kuckuck bliebe stumm."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Tipp:</strong> Wenn sich ein Modell mit Zahnrädern bewegt, verfolge ein Rad von Zahn zu Zahn: Bleibt ein Zahn früher stehen als die anderen, reibt oder klemmt genau dort etwas.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Worauf du bei Rädern und Hebeln achtest und warum die Uhr nachgeht",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "worauf-du-bei-radern-und-hebeln-achtest-und-warum-die-uhr-nachgeht"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Beobachte bei bewegtem Werk die Stellen, an denen die Zähne der Räder ineinandergreifen und an denen die Hebel die Drähte anheben. Die Zähne sollen gleichmäßig eingreifen: Ruckelt ein Rad und das andere steht, kann Staub auf den Zapfen oder ein klemmender Draht die Ursache sein. Die Drähte zur Tür und zu den Blasebälgen müssen leichtgängig sein; Reibung am Gehäuse kann den ganzen Schlag stoppen."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Mechanische Uhren können wegen der Pendellänge nach- oder vorgehen; den Takt beeinflussen auch die Temperatur, bei der sich die Pendelstange leicht ausdehnt oder zusammenzieht, und eine schiefe Aufstellung der Uhr. Ein zu langes Pendel bremst den Gang, ein kürzeres beschleunigt ihn. Staub auf den Zapfen oder Reibung erhöhen den Widerstand, und der Schlag, unter Umständen der ganze Gang, kann stehen bleiben. Bei der Pflege kommt es deshalb auf eine freie und saubere Bewegung an, nicht auf stärkeres Ziehen."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "An einem Holzmodell mit Zahnradgetriebe siehst du dieselbe Logik in vereinfachter Form: Die Räder übertragen die Bewegung, die Hebel lösen den nächsten Vorgang aus, und ein verhakter Zahn stoppt das ganze System. Wenn dein Getriebe einmal klemmt, hilft derselbe Blick wie bei Uhren: Suche die Reibungsstelle, bevor du mit Kraft drückst. Wie das Schritt für Schritt geht, schreiben wir im Artikel <a href=\"/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen\">über einen klemmenden Mechanismus</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Wenn dich der Gedanke anspricht, eine Kuckucksuhr als Holzmodell zu bauen, könnte dich dieser Bausatz interessieren. Laut Katalog handelt es sich um ein Holzmodell zum Zusammenbauen mit 435 Teilen und einem Quarzwerk. Bauzeit und Schwierigkeit entnimmst du den Parametern unten; beim Bau gilt die Anleitung des konkreten Modells."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/3d-puzzle-aus-holz/uhren-kalender/mechanisches-3d-puzzle-aus-holz-kuckucksuhr-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Mechanisches 3D-Puzzle aus Holz - Kuckucksuhr ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/3d-puzzle-aus-holz/uhren-kalender/mechanisches-3d-puzzle-aus-holz-kuckucksuhr-rokr-lc901c-p198\">Mechanisches 3D-Puzzle aus Holz - Kuckucksuhr ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Anzahl der Teile: 435</li>\n      <li>Bauzeit: 6 Std.</li>\n      <li>Schwierigkeit: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/3d-puzzle-aus-holz/uhren-kalender/mechanisches-3d-puzzle-aus-holz-kuckucksuhr-rokr-lc901c-p198\">Bausatz ansehen</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Häufige Fragen",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "haufige-fragen"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Was treibt eine klassische Kuckucksuhr an?</h3>\n    <p style=\"margin:0;\">Meist zwei Gewichte an Ketten: Das eine treibt das Gehwerk mit den Zeigern an, das andere das Schlagwerk mit dem Kuckuck. Das Pendel regelt nur den Takt und liefert selbst keine Energie.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Warum ertönt der Kuckuck genau zur vollen Stunde?</h3>\n    <p style=\"margin:0;\">Erreicht der Minutenzeiger die volle Stunde, löst die Nocke das Schlagwerk. Es öffnet die Tür, schiebt den Vogel heraus und hebt abwechselnd zwei Blasebälge an; die durch die Pfeifen gedrückte Luft ergibt die zwei Töne des Rufs.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Warum gehen mechanische Uhren nach oder vor?</h3>\n    <p style=\"margin:0;\">Den Takt halten die Pendellänge und das saubere Eingreifen der Zähne. Ein längeres Pendel macht die Uhr langsamer, ein kürzeres schneller. Ein klemmendes Getriebe bremst oder stoppt sie dagegen.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Mechanisches 3D-Puzzle aus Holz - Kuckucksuhr ROKR LC901C",
+      "path": "/3d-puzzle-aus-holz/uhren-kalender/mechanisches-3d-puzzle-aus-holz-kuckucksuhr-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/bloggen/mechanismus-klemmt-reibung-finden-und-beseitigen",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}

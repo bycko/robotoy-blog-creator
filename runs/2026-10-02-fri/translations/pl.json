@@ -1,0 +1,300 @@
+{
+  "run_id": "2026-10-02-fri",
+  "round": 1,
+  "locale": "pl",
+  "topic_key": "inspiration-cuckoo-clock-mechanism",
+  "pillar": "INSPIRATION",
+  "title": "Jak działa kukułka w zegarze: mechanizm krok po kroku",
+  "description": "Zegar z kukułką napędza ciężarek, a tykanie utrzymuje wahadło. O pełnej godzinie zwalnia się drugi przekład: otwiera drzwiczki, wysuwa ptaszka i przez dwa miechy wypuszcza powietrze do piszczałek, które dają tony kukania.",
+  "seo_title": "Jak działa zegar z kukułką: mechanizm i dźwięk",
+  "seo_description": "Ciężarek, koła zębate, wahadło i miechy: jak w zegarze z kukułką uruchamia się ptaszek i dlaczego zegary mechaniczne z czasem spóźniają się lub spieszą.",
+  "slug": "jak-dziala-kukulka-w-zegarze-mechanizm-krok-po-kroku",
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "image",
+      "data": {
+        "role": "cover",
+        "caption": "Jak działa kukułka w zegarze: mechanizm krok po kroku"
+      }
+    },
+    {
+      "id": "b02",
+      "type": "paragraph",
+      "data": {
+        "text": "Klasyczny zegar z kukułką napędza ciężarek, a nie bateria. Ciężarek ciągnie łańcuch, łańcuch obraca koła zębate, a one przesuwają wskazówki. Tempo utrzymuje wahadło: przy każdym wychyleniu zwalnia przekład o jeden ząb i powstaje znane tykanie."
+      }
+    },
+    {
+      "id": "b03",
+      "type": "paragraph",
+      "data": {
+        "text": "O pełnej godzinie zwalnia się drugi przekład, tzw. biciowy. Otwiera drzwiczki, wysuwa ptaszka i unosi dwa małe miechy. Powietrze jest przetłaczane przez dwie piszczałki i daje tony, które słyszysz jako kukułkę. Bez tego zwolnienia ptaszek by się nie odezwał, nawet gdyby wskazówki szły dalej."
+      }
+    },
+    {
+      "id": "b04",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-toc\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0 0 8px;\"><strong>Spis treści artykułu</strong></p>\n  <ol style=\"margin:0;padding-left:20px;\">\n    <li style=\"margin:0 0 8px;\"><a href=\"#co-napedza-zegar-i-jak-ruch-dociera-do-wskazowek\">Co napędza zegar i jak ruch dociera do wskazówek</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#co-uruchamia-kukulke-i-dzwiek-o-pelnej-godzinie\">Co uruchamia kukułkę i dźwięk o pełnej godzinie</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#na-co-zwrocic-uwage-przy-kolach-i-dzwigienkach-i-dlaczego-zegar-sie-spoznia\">Na co zwrócić uwagę przy kołach i dźwigienkach i dlaczego zegar się spóźnia</a></li>\n    <li style=\"margin:0 0 8px;\"><a href=\"#czeste-pytania\">Częste pytania</a></li>\n  </ol>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b05",
+      "type": "header",
+      "data": {
+        "text": "Co napędza zegar i jak ruch dociera do wskazówek",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "co-napedza-zegar-i-jak-ruch-dociera-do-wskazowek"
+        }
+      }
+    },
+    {
+      "id": "b06",
+      "type": "paragraph",
+      "data": {
+        "text": "Przekład zębaty to układ kół zębatych, które przenoszą ruch z jednej osi na drugą. W zegarach najczęściej rozdzielone są <strong>przekład czasu</strong> (wskazówki) i <strong>przekład bicia</strong> (kukułka i dźwięk). Każdy ma własny ciężarek, więc oba przekłady działają niezależnie."
+      }
+    },
+    {
+      "id": "b07",
+      "type": "paragraph",
+      "data": {
+        "text": "Ciężarek opada pod wpływem grawitacji i przez łańcuch obraca duże koło. Mniejsze koła przyspieszają przekład i przenoszą ruch na środkową oś ze wskazówkami. Bez regulacji wszystko rozbiegłoby się naraz: dlatego na końcu przekładu czasu znajduje się <strong>wychwyt</strong> (escapement) połączony z wahadłem."
+      }
+    },
+    {
+      "id": "b08",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          {
+            "content": "Przy wychyleniu w lewo jedna dźwigienka zwalnia ząb na kole wychwytowym.",
+            "items": []
+          },
+          {
+            "content": "Przy wychyleniu w prawo druga dźwigienka zatrzymuje ząb, a koło na chwilę staje.",
+            "items": []
+          },
+          {
+            "content": "Tak powstaje równomierne tykanie, a wskazówki przesuwają się małymi krokami, nie jednym kliknięciem.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09",
+      "type": "paragraph",
+      "data": {
+        "text": "Wahadło o danej długości wychyla się z mniej więcej tym samym tempem. Dlatego długość wahadła decyduje, czy zegar chodzi dobrze: po wydłużeniu zegar zwalnia, po skróceniu przyspiesza. Samo wahadło zegara nie napędza: energię z ciężarka uwalnia małymi porcjami wychwyt, a wahadło wyznacza tempo."
+      }
+    },
+    {
+      "id": "b10",
+      "type": "header",
+      "data": {
+        "text": "Co uruchamia kukułkę i dźwięk o pełnej godzinie",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "co-uruchamia-kukulke-i-dzwiek-o-pelnej-godzinie"
+        }
+      }
+    },
+    {
+      "id": "b11",
+      "type": "paragraph",
+      "data": {
+        "text": "Przekład bicia czeka zablokowany, aż wskazówka minutowa skończy obrót. Na mechanizmie jest krzywka (tarcza krzywkowa): gdy wskazówka minutowa osiąga pełną godzinę lub pół godziny, krzywka unosi dźwigienkę, a ta zwalnia przekład bicia. Wtedy przez cienkie druciki i dźwigienki uruchamia się naraz kilka ruchów."
+      }
+    },
+    {
+      "id": "b12",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          {
+            "content": "Drucik uchyla drzwiczki przed ptaszkiem.",
+            "items": []
+          },
+          {
+            "content": "Dźwigienka wysuwa ptaszka na ramieniu przegubowym z budki.",
+            "items": []
+          },
+          {
+            "content": "Krzywka naprzemiennie unosi dwa miechy: jeden daje pierwszy ton, drugi drugi ton wołania.",
+            "items": []
+          },
+          {
+            "content": "Po zakończeniu uderzeń ptaszek wraca do środka i drzwiczki się zamykają.",
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b13",
+      "type": "paragraph",
+      "data": {
+        "text": "Dźwięku nie wydaje głośnik. Każdy miech ma papierową górę i drewnianą piszczałkę: powietrze przetłoczone przez piszczałkę tworzy ton. Dwa miechy nie są więc ozdobą, lecz dwoma różnymi tonami. O pełnej godzinie wołanie powtarza się zgodnie z liczbą godzin; o pół godziny często tylko raz."
+      }
+    },
+    {
+      "id": "b14",
+      "type": "paragraph",
+      "data": {
+        "text": "Tuż przed samym biciem możesz czasem zobaczyć krótkie „ostrzeżenie”: drzwiczki lekko się uchylają, zanim ptaszek wyjdzie. To część rozrządu przekładu bicia, a nie usterka. Gdyby przekład nie zwolnił się w odpowiedniej chwili, wskazówki pokazywałyby pełną godzinę, ale kukułka by milczała."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-tip\" style=\"margin:24px 0;padding:16px 20px;background:#fff8e1;border-left:4px solid #f5a623;border-radius:8px;\">\n  <p style=\"margin:0;\"><strong>Wskazówka:</strong> Gdy model z kołami zębatymi się porusza, śledź jedno koło od zęba do zęba: jeśli któryś ząb zatrzymuje się wcześniej niż pozostałe, właśnie tam coś się trze lub zacina.</p>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b16",
+      "type": "header",
+      "data": {
+        "text": "Na co zwrócić uwagę przy kołach i dźwigienkach i dlaczego zegar się spóźnia",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "na-co-zwrocic-uwage-przy-kolach-i-dzwigienkach-i-dlaczego-zegar-sie-spoznia"
+        }
+      }
+    },
+    {
+      "id": "b17",
+      "type": "paragraph",
+      "data": {
+        "text": "Gdy mechanizm się porusza, obserwuj miejsca, w których spotykają się zęby kół i w których dźwigienki unoszą druciki. Zęby powinny zazębiać się równomiernie: jeśli jedno koło szarpie, a drugie stoi, przyczyną może być kurz na czopach lub zacinający się drucik. Druciki do drzwiczek i miechów muszą chodzić swobodnie; tarcie o obudowę może zatrzymać całe bicie."
+      }
+    },
+    {
+      "id": "b18",
+      "type": "paragraph",
+      "data": {
+        "text": "Zegary mechaniczne mogą się spóźniać lub spieszyć z powodu długości wahadła; na tempo wpływa też temperatura, przy której pręt wahadła nieznacznie się rozszerza lub kurczy, oraz krzywe ustawienie zegara. Zbyt długie wahadło spowalnia chód, krótsze go przyspiesza. Kurz na czopach lub tarcie dodają oporu, a bicie, ewentualnie cały chód, może stanąć. Przy konserwacji chodzi więc o swobodny i czysty ruch, a nie o mocniejsze pociągnięcie."
+      }
+    },
+    {
+      "id": "b19",
+      "type": "paragraph",
+      "data": {
+        "text": "Na drewnianym modelu z przekładnią zębatą zobaczysz tę samą logikę w uproszczonej formie: koła przenoszą ruch, dźwigienki uruchamiają kolejną czynność, a jeden zablokowany ząb zatrzymuje cały układ. Gdy Ci kiedyś przekładnia się zacina, pomoże takie samo spojrzenie jak przy zegarach: znajdź miejsce tarcia, zanim zaczniesz naciskać siłą. Jak to zrobić krok po kroku, piszemy w artykule <a href=\"/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac\">o zacinającym się mechanizmie</a>."
+      }
+    },
+    {
+      "id": "b20",
+      "type": "paragraph",
+      "data": {
+        "text": "Jeśli Cię przyciąga pomysł złożenia zegara z kukułką jako drewnianego modelu, może Cię zainteresować ten zestaw. Według katalogu jest to drewniany model do złożenia z 435 elementów i mechanizmem kwarcowym. Czas składania i trudność weź z parametrów poniżej; podczas budowy obowiązuje instrukcja konkretnego modelu."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-product-card\" style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:24px 0;padding:16px;border:1px solid #e5e5e5;border-radius:12px;\">\n  <a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniana-mechaniczna-ukladanka-3d-zegar-z-kukulka-rokr-lc901c-p198\" style=\"flex:0 0 160px;max-width:100%;\"><img src=\"https://cdn.robotoys.sk/drevene-mechanicke-3d-puzzle-kukuckove-hodiny-rokr-lc901c-p1479.jpg\" alt=\"Drewniana mechaniczna układanka 3D - Zegar z kukułką ROKR LC901C\" width=\"160\" height=\"160\" loading=\"lazy\" style=\"display:block;width:100%;height:auto;object-fit:contain;border-radius:8px;\"></a>\n  <div style=\"flex:1 1 220px;min-width:0;\">\n    <p style=\"margin:0 0 8px;font-weight:bold;\"><a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniana-mechaniczna-ukladanka-3d-zegar-z-kukulka-rokr-lc901c-p198\">Drewniana mechaniczna układanka 3D - Zegar z kukułką ROKR LC901C</a></p>\n    <ul style=\"margin:0 0 12px;padding-left:20px;\">\n      <li>Liczba części: 435</li>\n      <li>Czas składania: 6 godz.</li>\n      <li>Trudność: 4</li>\n    </ul>\n    <p style=\"margin:0;\"><a href=\"/drewniane-puzzle-3d/zegary-i-kalendarze/drewniana-mechaniczna-ukladanka-3d-zegar-z-kukulka-rokr-lc901c-p198\">Zobacz zestaw</a></p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    },
+    {
+      "id": "b22",
+      "type": "header",
+      "data": {
+        "text": "Częste pytania",
+        "level": 2
+      },
+      "tunes": {
+        "anchorTune": {
+          "anchor": "czeste-pytania"
+        }
+      }
+    },
+    {
+      "id": "b23",
+      "type": "HTML",
+      "data": {
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Co napędza klasyczny zegar z kukułką?</h3>\n    <p style=\"margin:0;\">Najczęściej dwa ciężarki na łańcuchach: jeden napędza przekład czasu ze wskazówkami, drugi przekład bicia z kukułką. Wahadło tylko reguluje tempo, samo energii nie dostarcza.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Dlaczego kukułka odzywa się właśnie o pełnej godzinie?</h3>\n    <p style=\"margin:0;\">Gdy wskazówka minutowa osiąga pełną godzinę, krzywka zwalnia przekład bicia. Ten otwiera drzwiczki, wysuwa ptaszka i naprzemiennie unosi dwa miechy; powietrze przetłoczone przez piszczałki daje dwa tony wołania.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Dlaczego zegary mechaniczne spóźniają się lub spieszą?</h3>\n    <p style=\"margin:0;\">Tempo utrzymują długość wahadła i czyste zazębianie się zębów. Dłuższe wahadło zegar spowalnia, krótsze go przyspiesza. Zacinający się przekład natomiast go spowalnia lub zatrzymuje.</p>\n  </div>\n</div>",
+        "style": "",
+        "localization": {}
+      }
+    }
+  ],
+  "tags": [],
+  "products_used": [
+    {
+      "product_id": 198,
+      "name": "Drewniana mechaniczna układanka 3D - Zegar z kukułką ROKR LC901C",
+      "path": "/drewniane-puzzle-3d/zegary-i-kalendarze/drewniana-mechaniczna-ukladanka-3d-zegar-z-kukulka-rokr-lc901c-p198",
+      "used_in": [
+        "b20",
+        "b21"
+      ],
+      "checked_at": "2026-10-02T09:19:55+02:00"
+    }
+  ],
+  "reviews_quoted": [],
+  "internal_links": [
+    {
+      "page_id": 46,
+      "path": "/blog/mechanizm-sie-zacina-jak-znalezc-tarcie-i-je-usunac",
+      "block_id": "b19"
+    }
+  ],
+  "html_blocks": [
+    {
+      "block_id": "b04",
+      "kind": "TOC"
+    },
+    {
+      "block_id": "b15",
+      "kind": "TIP"
+    },
+    {
+      "block_id": "b21",
+      "kind": "PRODUCT_CARD"
+    },
+    {
+      "block_id": "b23",
+      "kind": "FAQ"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "FACT",
+      "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
+    },
+    {
+      "kind": "FACT",
+      "ref": "https://en.wikipedia.org/wiki/Cuckoo_clock",
+      "note": "Kukučkové hodiny s kyvadlom, závažiami, dvoma píšťalami s mechúrikmi a automatickým vtáčikom; mechanizmus volania od 18. storočia. Použité na overenie zvuku a základného popisu, nie na kopírovanie štruktúry."
+    }
+  ],
+  "cover": {
+    "file": "cover.png",
+    "prompt": "Photorealistic photograph, warm lifestyle look, landscape 16:9, at least 1280x720 pixels, shot on a full-frame camera with a 35mm lens at f/2.0, shallow depth of field. A cozy living-room wall corner in soft late-afternoon daylight from a side window. In the center of the frame, a small traditional wooden wall clock case with an open side panel reveals generic brass-colored gears, a short hanging pendulum bob, and two tiny accordion-like bellows with wooden whistle tips; a little wooden bird door is slightly ajar. Below the clock hang two plain pine-cone shaped cast-iron weights on thin chains. A person is seen only as a hand from the lower right, gently pointing toward the exposed gear train without touching it. Nearby on a wooden sideboard: a ceramic cup of tea, a folded linen cloth, and a small houseplant, all softly blurred. Warm wood tones, cream wall, soft shadows. No faces, no logo, no packaging, no readable text, no numbers, no price, and no recognizable shop kit or branded model; every part is generic and unbranded. Main subject near the center so a square crop keeps it."
+  }
+}
