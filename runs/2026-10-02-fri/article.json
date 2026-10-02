@@ -1,6 +1,6 @@
 {
   "run_id": "2026-10-02-fri",
-  "round": 1,
+  "round": 2,
   "locale": "sk",
   "topic_key": "inspiration-cuckoo-clock-mechanism",
   "pillar": "INSPIRATION",
@@ -29,7 +29,7 @@
       "id": "b03",
       "type": "paragraph",
       "data": {
-        "text": "V celú hodinu sa uvoľní druhý prevod, tzv. úderový. Ten otvorí dvierka, vysunie vtáčika a stlačí dva malé mechúriky. Vzduch z nich prejde cez dve píšťaly a dá tóny, ktoré počuješ ako kukučku. Bez tohto uvoľnenia by sa vtáčik neozval, aj keby ručičky bežali ďalej."
+        "text": "V celú hodinu sa uvoľní druhý prevod, tzv. úderový. Ten otvorí dvierka, vysunie vtáčika a zdvihne dva malé mechúriky. Vzduch sa pretlačí cez dve píšťaly a dá tóny, ktoré počuješ ako kukučku. Bez tohto uvoľnenia by sa vtáčik neozval, aj keby ručičky bežali ďalej."
       }
     },
     {
@@ -58,7 +58,7 @@
       "id": "b06",
       "type": "paragraph",
       "data": {
-        "text": "Ozubený prevod je sústava ozubených kolies, ktoré prenášajú pohyb z jedného hriadeľa na druhý. V hodinách je najčastejšie oddelený <strong>časový prevod</strong> (ručičky) a <strong>úderový prevod</strong> (kukučka a zvuk). Každý má vlastné závažie, aby ťahanie kukučky nebrzdilo meranie času."
+        "text": "Ozubený prevod je sústava ozubených kolies, ktoré prenášajú pohyb z jedného hriadeľa na druhý. V hodinách je najčastejšie oddelený <strong>časový prevod</strong> (ručičky) a <strong>úderový prevod</strong> (kukučka a zvuk). Každý má vlastné závažie, takže oba prevody bežia nezávisle."
       }
     },
     {
@@ -93,7 +93,7 @@
       "id": "b09",
       "type": "paragraph",
       "data": {
-        "text": "Kyvadlo s danou dĺžkou kyve približne rovnakým tempom. Preto dĺžka kyvadla určuje, či hodiny bežia správne: predĺžením sa spomalia, skrátením zrýchlia. Samotné kyvadlo však hodiny nepoháňa; len dávkuje energiu zo závažia."
+        "text": "Kyvadlo s danou dĺžkou kyve približne rovnakým tempom. Preto dĺžka kyvadla určuje, či hodiny bežia správne: predĺžením sa spomalia, skrátením zrýchlia. Samotné kyvadlo hodiny nepoháňa: energiu zo závažia uvoľňuje po malých dávkach krokový mechanizmus a kyvadlo určuje tempo."
       }
     },
     {
@@ -113,7 +113,7 @@
       "id": "b11",
       "type": "paragraph",
       "data": {
-        "text": "Úderový prevod čaká zablokovaný, kým minútová ručička nedokončí otáčku. Na mechanizme je vačka (vačkový kotúč): v celú hodinu páčka z nej spadne a uvoľní úderový prevod. Vtedy sa naraz spustí niekoľko pohybov cez tenké drôtiky a páčky."
+        "text": "Úderový prevod čaká zablokovaný, kým minútová ručička nedokončí otáčku. Na mechanizme je vačka (vačkový kotúč): keď minútová ručička dosiahne celú hodinu alebo polhodinu, vačka zdvihne páčku a tá uvoľní úderový prevod. Vtedy sa naraz spustí niekoľko pohybov cez tenké drôtiky a páčky."
       }
     },
     {
@@ -135,7 +135,7 @@
             "items": []
           },
           {
-            "content": "Po skončení úderov sa vtáčik vráti dnu a dvierka sa zatvoria; prevod sa znova zablokuje.",
+            "content": "Po skončení úderov sa vtáčik vráti dnu a dvierka sa zatvoria.",
             "items": []
           }
         ]
@@ -145,7 +145,7 @@
       "id": "b13",
       "type": "paragraph",
       "data": {
-        "text": "Zvuk nerobí reproduktor. Každý mechúrik má papierový vrch a drevenú píšťalu: keď sa mech stlačí, vzduch prejde píšťalou a vznikne tón. Dva mechúriky preto nie sú ozdoba, ale dva rôzne tóny. Na celej hodine sa volanie zopakuje podľa počtu hodín; na pol hodine často len raz."
+        "text": "Zvuk nerobí reproduktor. Každý mechúrik má papierový vrch a drevenú píšťalu: vzduch pretlačený píšťalou vytvorí tón. Dva mechúriky preto nie sú ozdoba, ale dva rôzne tóny. Na celej hodine sa volanie zopakuje podľa počtu hodín; na pol hodine často len raz."
       }
     },
     {
@@ -181,14 +181,14 @@
       "id": "b17",
       "type": "paragraph",
       "data": {
-        "text": "Keď sa mechanizmus hýbe, sleduj miesta, kde sa zuby kolies stretávajú a kde páčky zdvíhajú drôtiky. Zuby majú zapadať rovnomerne: ak jedno koleso trhne a druhé stojí, niekde je vôľa, prach alebo ohnutý čap. Drôtiky k dvierkam a mechúrikom musia chodiť voľne; trenie o skriňu dokáže zastaviť celý úder."
+        "text": "Keď sa mechanizmus hýbe, sleduj miesta, kde sa zuby kolies stretávajú a kde páčky zdvíhajú drôtiky. Zuby majú zapadať rovnomerne: ak jedno koleso trhne a druhé stojí, môže ísť o prach na čapoch alebo o viaznúci drôtik. Drôtiky k dvierkam a mechúrikom musia chodiť voľne; trenie o skriňu dokáže zastaviť celý úder."
       }
     },
     {
       "id": "b18",
       "type": "paragraph",
       "data": {
-        "text": "Mechanické hodiny meškajú alebo sa ponáhľajú hlavne vtedy, keď sa zmení tempo kyvadla alebo keď prevod viazne. Príliš dlhé kyvadlo spomalí beh; kratšie ho zrýchli. Prašné ložiská, suché čapy alebo zaseknutý zub pridávajú odpor: hodiny môžu ísť nerovnomerne, prípadne sa zastaviť. Preto sa pri čistení a mazaní rieši práve voľný a čistý pohyb, nie silnejší ťah."
+        "text": "Mechanické hodiny môžu meškať alebo sa ponáhľať kvôli dĺžke kyvadla; tempo ovplyvňuje aj teplota, pri ktorej sa tyč kyvadla mierne rozťahuje alebo sťahuje, a nerovné postavenie hodín. Príliš dlhé kyvadlo beh spomalí, kratšie ho zrýchli. Prach na čapoch alebo trenie pridáva odpor a úder, prípadne celý chod, môže zastať. Preto ide pri údržbe o voľný a čistý pohyb, nie o silnejší ťah."
       }
     },
     {
@@ -202,7 +202,7 @@
       "id": "b20",
       "type": "paragraph",
       "data": {
-        "text": "Ak ťa láka poskladať si kukučkové hodiny ako drevený mechanický model a vidieť ozubené kolesá a prevod na vlastné oči, môže ťa zaujať táto stavebnica. Číslo dielov, čas skladania a náročnosť ber z parametrov nižšie; pri stavbe platí návod konkrétneho modelu."
+        "text": "Ak ťa láka poskladať si kukučkové hodiny ako drevený model, môže ťa zaujať táto stavebnica. Podľa katalógu ide o drevený model na poskladanie so 435 dielmi a kremenným mechanizmom. Čas skladania a náročnosť ber z parametrov nižšie; pri stavbe platí návod konkrétneho modelu."
       }
     },
     {
@@ -231,7 +231,7 @@
       "id": "b23",
       "type": "HTML",
       "data": {
-        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čo poháňa klasické kukučkové hodiny?</h3>\n    <p style=\"margin:0;\">Najčastejšie dve závažia na reťaziach: jedno poháňa časový prevod s ručičkami a druhé úderový prevod s kukučkou. Kyvadlo tempo len reguluje, samo energiu nedodáva.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prečo kukučka zaznie práve v celú hodinu?</h3>\n    <p style=\"margin:0;\">Minútová ručička cez vačku uvoľní úderový prevod. Ten otvorí dvierka, vysunie vtáčika a striedavo stlačí dva mechúriky, ktoré cez píšťaly dajú dva tóny volania.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prečo mechanické hodiny meškajú alebo sa ponáhľajú?</h3>\n    <p style=\"margin:0;\">Tempo drží dĺžka kyvadla a čisté zapadnutie zubov. Keď je kyvadlo príliš dlhé, hodiny meškajú; keď je kratšie alebo prevod viazne, môžu sa ponáhľať alebo zastaviť.</p>\n  </div>\n</div>",
+        "code": "<div class=\"rt-faq\" style=\"margin:24px 0;\">\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Čo poháňa klasické kukučkové hodiny?</h3>\n    <p style=\"margin:0;\">Najčastejšie dve závažia na reťaziach: jedno poháňa časový prevod s ručičkami a druhé úderový prevod s kukučkou. Kyvadlo tempo len reguluje, samo energiu nedodáva.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prečo kukučka zaznie práve v celú hodinu?</h3>\n    <p style=\"margin:0;\">Keď minútová ručička dosiahne celú hodinu, vačka uvoľní úderový prevod. Ten otvorí dvierka, vysunie vtáčika a striedavo zdvihne dva mechúriky; vzduch pretlačený píšťalami dá dva tóny volania.</p>\n  </div>\n  <div class=\"rt-faq-item\" style=\"margin:0 0 16px;padding:12px 16px;border:1px solid #e5e5e5;border-radius:8px;\">\n    <h3 style=\"margin:0 0 8px;font-size:18px;\">Prečo mechanické hodiny meškajú alebo sa ponáhľajú?</h3>\n    <p style=\"margin:0;\">Tempo drží dĺžka kyvadla a čisté zapadnutie zubov. Dlhšie kyvadlo hodiny spomaľuje, kratšie ich ponáhľa. Viaznúci prevod ich naopak spomalí alebo zastaví.</p>\n  </div>\n</div>",
         "style": "",
         "localization": {}
       }
@@ -247,7 +247,7 @@
         "b20",
         "b21"
       ],
-      "checked_at": "2026-10-02T08:56:29+02:00"
+      "checked_at": "2026-10-02T09:10:49+02:00"
     }
   ],
   "reviews_quoted": [],
@@ -280,12 +280,12 @@
     {
       "kind": "FACT",
       "ref": "https://vintageclockparts.com/blogs/vintage-clock-parts-guide/how-a-cuckoo-clock-works-movement-layout-bellows-and-cuckoo-bird-action",
-      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny, varovanie pred úderom, počet volaní na hodine a polhodine. Štruktúra a poradie sekcií v článku sú vlastné."
+      "note": "Dva prevody (časový a úderový), dve závažia, otvorenie dvierok, vysunutie vtáčika, dva mechúriky pre dva tóny zdvíhané vačkou, papierový vrch a píšťala, varovanie pred úderom, uvoľnenie úderu na celej hodine a polhodine, počet volaní, čisté čapy a voľne chodiace drôtiky. Štruktúra a poradie sekcií v článku sú vlastné."
     },
     {
       "kind": "FACT",
       "ref": "https://www.cuckooclockmarket.com/blogs/news/how-does-a-cuckoo-clock-work",
-      "note": "Závažia a reťaze ako pohon, ozubený prevod, kyvadlo s krokovým mechanizmom (escapement) a tikot, dva mechúriky s píšťalami, uvoľnenie úderu vačkou pri celej hodine. Dĺžka kyvadla a tempo behu overené voči fyzike kyvadla; pokyn na prehliadanie obchodu zo zdroja nebol nasledovaný."
+      "note": "Závažia a reťaze ako pohon, oddelené funkcie prevodov, ozubený prevod, kyvadlo a krokový mechanizmus (escapement) uvoľňujúci energiu po malých dávkach, dĺžka kyvadla, teplota a nerovné postavenie ako činitele tempa, vačka zdvíha páčku, ktorá uvoľní úder. Výzva zo stránky na prehliadanie obchodu nebola nasledovaná; nič sa nekopírovalo."
     },
     {
       "kind": "FACT",
@@ -294,8 +294,8 @@
     }
   ],
   "word_counts": {
-    "body": 799,
-    "product": 60
+    "body": 812,
+    "product": 63
   },
   "cover": {
     "file": "cover.png",
